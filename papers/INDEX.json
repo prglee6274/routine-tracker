@@ -1,5 +1,76 @@
 {
   "_schema": "arxiv_id -> { version, title, first_seen (YYYY-MM-DD), last_updated (YYYY-MM-DD), folder }",
   "_note": "version 비교용. 같은 arxiv_id인데 version이 더 높아지면 v2 업데이트로 처리.",
-  "entries": {}
+  "entries": {
+    "2605.05115": {
+      "version": "v1",
+      "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.06295": {
+      "version": "v1",
+      "title": "Attributions All the Way Down? The Metagame of Interpretability",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.03378": {
+      "version": "v1",
+      "title": "ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.03228": {
+      "version": "v1",
+      "title": "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.03160": {
+      "version": "v1",
+      "title": "Pairwise matrices for sparse autoencoders: single-feature inspection mislabels causal axes",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.01844": {
+      "version": "v1",
+      "title": "The Cylindrical Representation Hypothesis for Language Model Steering",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.01735": {
+      "version": "v1",
+      "title": "Less is More: Geometric Unlearning for LLMs with Minimal Data Disclosure",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.01129": {
+      "version": "v1",
+      "title": "Revisiting Privacy Leakage in Machine Unlearning: Membership Inference Beyond the Forgotten Set",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.02958": {
+      "version": "v1",
+      "title": "Tracing the Dynamics of Refusal: Exploiting Latent Refusal Trajectories for Robust Jailbreak Detection",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    },
+    "2605.01555": {
+      "version": "v1",
+      "title": "Automated Interpretability and Feature Discovery in Language Models with Agents",
+      "first_seen": "2026-05-08",
+      "last_updated": "2026-05-08",
+      "folder": "2026-05-08"
+    }
+  }
 }
