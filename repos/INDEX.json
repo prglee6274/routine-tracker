@@ -1,0 +1,5 @@
+{
+  "_schema": "owner/repo -> { first_seen (YYYY-MM-DD), last_seen (YYYY-MM-DD), days_on_list (int), last_stars (int), category, language }",
+  "_note": "연속 트렌딩 일수와 24h 스타 velocity 계산용.",
+  "entries": {}
+}

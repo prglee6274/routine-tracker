@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (혹시 스크립트 추가될 경우)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / temp
+*.log
+*.tmp
+.cache/
+
+# Drafts
+_drafts/
+_scratch/

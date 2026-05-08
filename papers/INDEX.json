@@ -1,0 +1,5 @@
+{
+  "_schema": "arxiv_id -> { version, title, first_seen (YYYY-MM-DD), last_updated (YYYY-MM-DD), folder }",
+  "_note": "version 비교용. 같은 arxiv_id인데 version이 더 높아지면 v2 업데이트로 처리.",
+  "entries": {}
+}
