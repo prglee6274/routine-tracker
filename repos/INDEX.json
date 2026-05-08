@@ -1,5 +1,86 @@
 {
   "_schema": "owner/repo -> { first_seen (YYYY-MM-DD), last_seen (YYYY-MM-DD), days_on_list (int), last_stars (int), category, language }",
   "_note": "연속 트렌딩 일수와 24h 스타 velocity 계산용.",
-  "entries": {}
+  "entries": {
+    "mattpocock/skills": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 65455,
+      "category": "tools",
+      "language": "Shell"
+    },
+    "TauricResearch/TradingAgents": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 71341,
+      "category": "llm",
+      "language": "Python"
+    },
+    "addyosmani/agent-skills": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 33506,
+      "category": "tools",
+      "language": "Shell"
+    },
+    "Hmbown/DeepSeek-TUI": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 20241,
+      "category": "llm",
+      "language": "Rust"
+    },
+    "soxoj/maigret": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 26357,
+      "category": "security",
+      "language": "Python"
+    },
+    "farion1231/cc-switch": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 62970,
+      "category": "tools",
+      "language": "Rust"
+    },
+    "VectifyAI/PageIndex": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 29818,
+      "category": "llm",
+      "language": "Python"
+    },
+    "rtk-ai/rtk": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 44289,
+      "category": "tools",
+      "language": "Rust"
+    },
+    "aaif-goose/goose": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 44629,
+      "category": "llm",
+      "language": "Rust"
+    },
+    "always-further/nono": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 2304,
+      "category": "security",
+      "language": "Rust"
+    }
+  }
 }

@@ -1,6 +1,6 @@
 # AI Safety & Trending Repos — Daily Tracker
 
-매일 23시(KST) 자동으로 갱신되는 개인 트래커.
+매일 새벽 4시(KST) 자동으로 갱신되는 개인 트래커.
 
 - **`papers/`** — AI privacy / security / LLM interpretability 분야 트렌딩 arxiv 논문 Top 10 (Hugging Face Daily Papers, alphaxiv, arxiv 최근 업로드, X/Reddit 화제)
 - **`repos/`** — security / tools / LLM 분야 GitHub 트렌딩 레포 Top 10 (GitHub Trending + 최근 24h 스타 급상승)
