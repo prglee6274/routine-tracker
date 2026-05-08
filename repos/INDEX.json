@@ -4,49 +4,49 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 65518,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 66409,
       "category": "tools",
       "language": "Shell"
     },
     "TauricResearch/TradingAgents": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 71360,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 71685,
       "category": "llm",
       "language": "Python"
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 33543,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 34924,
       "category": "tools",
       "language": "Shell"
     },
     "Hmbown/DeepSeek-TUI": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 20381,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 21579,
       "category": "llm",
       "language": "Rust"
     },
     "soxoj/maigret": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 26371,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 26551,
       "category": "security",
       "language": "Python"
     },
     "farion1231/cc-switch": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 63024,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 63613,
       "category": "tools",
       "language": "Rust"
     },
@@ -84,17 +84,33 @@
     },
     "anthropics/financial-services": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 12818,
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 14512,
       "category": "llm",
       "language": "Python"
     },
     "fleetdm/fleet": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 6343,
+      "category": "security",
+      "language": "Go"
+    },
+    "ruvnet/ruflo": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
       "days_on_list": 1,
-      "last_stars": 6334,
+      "last_stars": 46751,
+      "category": "llm",
+      "language": "TypeScript"
+    },
+    "cilium/cilium": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "days_on_list": 1,
+      "last_stars": 24305,
       "category": "security",
       "language": "Go"
     }

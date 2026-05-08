@@ -71,6 +71,76 @@
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
       "folder": "2026-05-08"
+    },
+    "2605.06652": {
+      "version": "v1",
+      "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06196": {
+      "version": "v1",
+      "title": "The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06423": {
+      "version": "v1",
+      "title": "Pop Quiz Attack: Black-box Membership Inference Attacks Against Large Language Models",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06232": {
+      "version": "v1",
+      "title": "Profiling for Pennies: Unveiling the Privacy Iceberg of LLM Agents",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06486": {
+      "version": "v1",
+      "title": "Autonomous Adversary: Red-Teaming in the age of LLM",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06158": {
+      "version": "v1",
+      "title": "Stateful Agent Backdoor",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06605": {
+      "version": "v1",
+      "title": "How Many Iterations to Jailbreak? Dynamic Budget Allocation for Multi-Turn LLM Evaluation",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06610": {
+      "version": "v1",
+      "title": "SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06342": {
+      "version": "v1",
+      "title": "Don't Lose Focus: Activation Steering via Key-Orthogonal Projections",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
+    },
+    "2605.06076": {
+      "version": "v1",
+      "title": "Navigating by Old Maps: The Pitfalls of Static Mechanistic Localization in LLM Post-Training",
+      "first_seen": "2026-05-09",
+      "last_updated": "2026-05-09",
+      "folder": "2026-05-09"
     }
   }
 }
