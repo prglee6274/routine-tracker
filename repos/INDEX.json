@@ -6,7 +6,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 65455,
+      "last_stars": 65518,
       "category": "tools",
       "language": "Shell"
     },
@@ -14,7 +14,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 71341,
+      "last_stars": 71360,
       "category": "llm",
       "language": "Python"
     },
@@ -22,7 +22,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 33506,
+      "last_stars": 33543,
       "category": "tools",
       "language": "Shell"
     },
@@ -30,7 +30,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 20241,
+      "last_stars": 20381,
       "category": "llm",
       "language": "Rust"
     },
@@ -38,7 +38,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 26357,
+      "last_stars": 26371,
       "category": "security",
       "language": "Python"
     },
@@ -46,7 +46,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 62970,
+      "last_stars": 63024,
       "category": "tools",
       "language": "Rust"
     },
@@ -54,7 +54,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 29818,
+      "last_stars": 29845,
       "category": "llm",
       "language": "Python"
     },
@@ -62,7 +62,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 44289,
+      "last_stars": 44319,
       "category": "tools",
       "language": "Rust"
     },
@@ -70,7 +70,7 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 44629,
+      "last_stars": 44638,
       "category": "llm",
       "language": "Rust"
     },
@@ -78,9 +78,25 @@
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 2304,
+      "last_stars": 2305,
       "category": "security",
       "language": "Rust"
+    },
+    "anthropics/financial-services": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 12818,
+      "category": "llm",
+      "language": "Python"
+    },
+    "fleetdm/fleet": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 6334,
+      "category": "security",
+      "language": "Go"
     }
   }
 }
