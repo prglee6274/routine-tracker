@@ -141,6 +141,76 @@
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
       "folder": "2026-05-09"
+    },
+    "2605.05058": {
+      "version": "v1",
+      "title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.05341": {
+      "version": "v1",
+      "title": "Feature Starvation as Geometric Instability in Sparse Autoencoders",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.02187": {
+      "version": "v1",
+      "title": "When Alignment Isn't Enough: Response-Path Attacks on LLM Agents",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.05995": {
+      "version": "v1",
+      "title": "Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.04019": {
+      "version": "v1",
+      "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.03095": {
+      "version": "v1",
+      "title": "Revisiting JBShield: Breaking and Rebuilding Representation-Level Jailbreak Defenses",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.02921": {
+      "version": "v1",
+      "title": "EvoJail: Evolutionary Diverse Jailbreak Prompt Generation for Large Language Models",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.06480": {
+      "version": "v1",
+      "title": "Patch-Effect Graph Kernels for LLM Interpretability",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.01167": {
+      "version": "v1",
+      "title": "Minimizing Collateral Damage in Activation Steering",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
+    },
+    "2605.03069": {
+      "version": "v1",
+      "title": "Distributed Deep Variational Approach for Privacy-preserving Data Release",
+      "first_seen": "2026-05-10",
+      "last_updated": "2026-05-10",
+      "folder": "2026-05-10"
     }
   }
 }
