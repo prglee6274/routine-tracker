@@ -20,25 +20,25 @@
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 34924,
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 33540,
       "category": "tools",
       "language": "Shell"
     },
     "Hmbown/DeepSeek-TUI": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 21579,
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 23199,
       "category": "llm",
       "language": "Rust"
     },
     "soxoj/maigret": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 26551,
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 26368,
       "category": "security",
       "language": "Python"
     },
@@ -52,9 +52,9 @@
     },
     "VectifyAI/PageIndex": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
+      "last_seen": "2026-05-10",
       "days_on_list": 1,
-      "last_stars": 29845,
+      "last_stars": 29842,
       "category": "llm",
       "language": "Python"
     },
@@ -84,9 +84,9 @@
     },
     "anthropics/financial-services": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 14512,
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 17096,
       "category": "llm",
       "language": "Python"
     },
@@ -111,6 +111,46 @@
       "last_seen": "2026-05-09",
       "days_on_list": 1,
       "last_stars": 24305,
+      "category": "security",
+      "language": "Go"
+    },
+    "github/spec-kit": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 94215,
+      "category": "tools",
+      "language": "Python"
+    },
+    "masterking32/MasterDnsVPN": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 2385,
+      "category": "security",
+      "language": "Go"
+    },
+    "LearningCircuit/local-deep-research": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 6956,
+      "category": "llm",
+      "language": "Python"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 38741,
+      "category": "tools",
+      "language": "TypeScript"
+    },
+    "enfein/mieru": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 1823,
       "category": "security",
       "language": "Go"
     }
