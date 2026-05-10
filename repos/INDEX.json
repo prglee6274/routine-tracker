@@ -20,17 +20,17 @@
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
-      "days_on_list": 3,
-      "last_stars": 33540,
+      "last_seen": "2026-05-11",
+      "days_on_list": 4,
+      "last_stars": 38212,
       "category": "tools",
       "language": "Shell"
     },
     "Hmbown/DeepSeek-TUI": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
-      "days_on_list": 3,
-      "last_stars": 23199,
+      "last_seen": "2026-05-11",
+      "days_on_list": 4,
+      "last_stars": 23935,
       "category": "llm",
       "language": "Rust"
     },
@@ -84,9 +84,9 @@
     },
     "anthropics/financial-services": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
-      "days_on_list": 3,
-      "last_stars": 17096,
+      "last_seen": "2026-05-11",
+      "days_on_list": 4,
+      "last_stars": 18559,
       "category": "llm",
       "language": "Python"
     },
@@ -151,6 +151,62 @@
       "last_seen": "2026-05-10",
       "days_on_list": 1,
       "last_stars": 1823,
+      "category": "security",
+      "language": "Go"
+    },
+    "bytedance/UI-TARS-desktop": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 31975,
+      "category": "llm",
+      "language": "TypeScript"
+    },
+    "NousResearch/hermes-agent": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 142193,
+      "category": "llm",
+      "language": "Python"
+    },
+    "CloakHQ/CloakBrowser": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 4501,
+      "category": "security",
+      "language": "Python"
+    },
+    "microsoft/waza": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 568,
+      "category": "tools",
+      "language": "Go"
+    },
+    "domcyrus/rustnet": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 2702,
+      "category": "security",
+      "language": "Rust"
+    },
+    "millionco/react-doctor": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 7489,
+      "category": "tools",
+      "language": "TypeScript"
+    },
+    "moonD4rk/HackBrowserData": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 13948,
       "category": "security",
       "language": "Go"
     }
