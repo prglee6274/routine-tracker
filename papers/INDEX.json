@@ -211,6 +211,146 @@
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
       "folder": "2026-05-10"
+    },
+    "2605.04209": {
+      "version": "v1",
+      "title": "Undetectable Backdoors in Model Parameters: Hiding Sparse Secrets in High Dimensions",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.05662": {
+      "version": "v1",
+      "title": "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.03441": {
+      "version": "v1",
+      "title": "Exposing LLM Safety Gaps Through Mathematical Encoding: New Attacks and Systematic Analysis",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.01687": {
+      "version": "v1",
+      "title": "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.05909": {
+      "version": "v1",
+      "title": "Null-Space-Constrained Contrastive Visual Forgetting for MLLM Unlearning",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.06161": {
+      "version": "v1",
+      "title": "Beyond Accuracy: Policy Invariance as a Reliability Test for LLM Safety Judges",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.04700": {
+      "version": "v1",
+      "title": "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.02971": {
+      "version": "v1",
+      "title": "Multilingual Safety Alignment via Self-Distillation",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.00955": {
+      "version": "v1",
+      "title": "E-MIA: Exam-Style Black-Box Membership Inference Attacks against RAG Systems",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.00364": {
+      "version": "v2",
+      "title": "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
+      "first_seen": "2026-05-11",
+      "last_updated": "2026-05-11",
+      "folder": "2026-05-11"
+    },
+    "2605.08012": {
+      "version": "v1",
+      "title": "Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.06992": {
+      "version": "v1",
+      "title": "Why Does Agentic Safety Fail to Generalize Across Tasks?",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.04454": {
+      "version": "v1",
+      "title": "Deployment-Relevant Alignment Cannot Be Inferred from Model-Level Evaluation Alone",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.04261": {
+      "version": "v1",
+      "title": "Laundering AI Authority with Adversarial Examples",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.07630": {
+      "version": "v1",
+      "title": "Safe, or Simply Incapable? Rethinking Safety Evaluation for Phone-Use Agents",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.04992": {
+      "version": "v1",
+      "title": "You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.05892": {
+      "version": "v1",
+      "title": "Beyond Steering Vector: Flow-based Activation Steering for Inference-Time Intervention",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.03907": {
+      "version": "v1",
+      "title": "Steer Like the LLM: Activation Steering that Mimics Prompting",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.03188": {
+      "version": "v1",
+      "title": "Dependency-Aware Privacy for Multi-turn Agents",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
+    },
+    "2605.07269": {
+      "version": "v1",
+      "title": "MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble Learning",
+      "first_seen": "2026-05-12",
+      "last_updated": "2026-05-12",
+      "folder": "2026-05-12"
     }
   }
 }
