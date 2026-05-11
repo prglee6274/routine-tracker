@@ -4,9 +4,9 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 66409,
+      "last_seen": "2026-05-12",
+      "days_on_list": 1,
+      "last_stars": 71846,
       "category": "tools",
       "language": "Shell"
     },
@@ -20,17 +20,17 @@
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-11",
-      "days_on_list": 4,
-      "last_stars": 38212,
-      "category": "tools",
+      "last_seen": "2026-05-12",
+      "days_on_list": 5,
+      "last_stars": 39358,
+      "category": "llm",
       "language": "Shell"
     },
     "Hmbown/DeepSeek-TUI": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-11",
-      "days_on_list": 4,
-      "last_stars": 23935,
+      "last_seen": "2026-05-12",
+      "days_on_list": 5,
+      "last_stars": 25074,
       "category": "llm",
       "language": "Rust"
     },
@@ -44,9 +44,9 @@
     },
     "farion1231/cc-switch": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 63613,
+      "last_seen": "2026-05-12",
+      "days_on_list": 1,
+      "last_stars": 67219,
       "category": "tools",
       "language": "Rust"
     },
@@ -84,9 +84,9 @@
     },
     "anthropics/financial-services": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-11",
-      "days_on_list": 4,
-      "last_stars": 18559,
+      "last_seen": "2026-05-12",
+      "days_on_list": 5,
+      "last_stars": 20113,
       "category": "llm",
       "language": "Python"
     },
@@ -164,17 +164,17 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 142193,
+      "last_seen": "2026-05-12",
+      "days_on_list": 2,
+      "last_stars": 144443,
       "category": "llm",
       "language": "Python"
     },
     "CloakHQ/CloakBrowser": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 4501,
+      "last_seen": "2026-05-12",
+      "days_on_list": 2,
+      "last_stars": 5895,
       "category": "security",
       "language": "Python"
     },
@@ -196,19 +196,27 @@
     },
     "millionco/react-doctor": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 7489,
+      "last_seen": "2026-05-12",
+      "days_on_list": 2,
+      "last_stars": 7904,
       "category": "tools",
       "language": "TypeScript"
     },
     "moonD4rk/HackBrowserData": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 13948,
+      "last_seen": "2026-05-12",
+      "days_on_list": 2,
+      "last_stars": 13995,
       "category": "security",
       "language": "Go"
+    },
+    "InsForge/InsForge": {
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "days_on_list": 1,
+      "last_stars": 9439,
+      "category": "tools",
+      "language": "TypeScript"
     }
   }
 }
