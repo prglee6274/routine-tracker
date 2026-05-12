@@ -1,0 +1,150 @@
+---
+name: daily-trending-github-repos
+description: 매일 새벽 4시 - security/tools/LLM GitHub 트렌딩 레포 Top 10 (연속 트렌딩 추적, velocity, 노이즈 필터, graduate 규칙, 자동 git push)
+---
+
+오늘의 security / tools / LLM 관련 GitHub 트렌딩 레포 Top 10을 수집한다.
+
+## 워크스페이스
+- 루트: `/Users/pang/Documents/Claude/Projects/routine 생성/`
+- bash 마운트: `/sessions/<session>/mnt/routine 생성/` (실행 시점의 세션 경로 사용)
+- 동일 폴더가 git repo, 매 실행 끝에 add+commit+push.
+
+## 출력 위치
+- 인덱스: `repos/INDEX.json`
+- 그날 파일: `repos/YYYY-MM-DD.md` (KST 기준)
+
+## 수집 절차
+
+### 1. 후보 모으기
+- **GitHub Trending (공식)**: WebFetch
+  - `https://github.com/trending?since=daily`
+  - `https://github.com/trending?since=weekly`
+  - `https://github.com/trending/python?since=daily`
+  - `https://github.com/trending/typescript?since=daily`
+  - `https://github.com/trending/rust?since=daily`
+  - `https://github.com/trending/go?since=daily`
+- **최근 24h 스타 급상승 (Search API)**: bash 로 `curl -s "..."`
+  - `https://api.github.com/search/repositories?q=created:>{7일전}+stars:>50&sort=stars&order=desc&per_page=30`
+  - 토픽별 검색 (각각 per_page=15):
+    - `q=topic:llm+pushed:>{1일전}&sort=stars`
+    - `q=topic:agents+pushed:>{1일전}&sort=stars`
+    - `q=topic:mcp+pushed:>{3일전}&sort=stars`
+    - `q=topic:rag+pushed:>{3일전}&sort=stars`
+    - `q=topic:evals+pushed:>{3일전}&sort=stars`
+    - `q=topic:security+pushed:>{1일전}&sort=stars`
+    - `q=topic:prompt-injection+pushed:>{7일전}&sort=stars`
+    - `q=topic:observability+pushed:>{3일전}&sort=stars`
+
+### 2. 카테고리 필터 (최소 1개에 해당해야 함)
+- **security**: AI/LLM security, red-teaming, prompt injection, jailbreak detection, MCP security, agent security, supply-chain security, vuln scanners, fuzzing
+- **tools**: 개발자 생산성 도구, CLI/TUI, 에디터·IDE 확장, 빌드/배포, 디버깅·프로파일링, 데이터 파이프라인 도구, terminal/shell tools
+- **llm**: LLM 프레임워크, agents, RAG, fine-tuning, inference 엔진 (vLLM·llama.cpp 류), evals, MCP 서버, AI 코딩 도구, interpretability 도구
+
+### 3. 노이즈 필터 (해당하면 즉시 제외)
+- repo 이름이 `*-ko`, `*-zh`, `*-zh-cn`, `*-cn` 으로 끝나는 단순 번역본
+- description이 거의 없거나 "awesome list of ...", "my notes", "study", "course", "tutorial", "homework" 만 있는 학습용
+- 최근 30일 커밋 0개 (Search API의 `pushed_at` 기준)
+- 토픽이 `cryptocurrency`, `blockchain`, `web3`, `nft`, `meme` 만 있는 경우 (LLM/security와 무관하면)
+- 본인이 보기에 toy 프로젝트 (스타가 100 미만이고 description이 너무 generic)
+
+### 4. INDEX.json 활용 (연속 트렌딩 + velocity + graduate)
+
+**INDEX entry 스키마:**
+```json
+"owner/repo": {
+  "first_seen": "YYYY-MM-DD",
+  "last_seen": "YYYY-MM-DD",
+  "last_stars": 12345,
+  "last_pushed_at": "2026-05-11T00:05:18Z",
+  "days_on_list": 3,
+  "category": "llm",
+  "language": "Rust",
+  "graduated": false
+}
+```
+- `last_pushed_at`: GitHub `pushed_at`, last_seen 시점에 본 값
+- `graduated`: `days_on_list >= 4` 가 되는 순간 true 로 마킹
+
+**상태 판정 (실행 시작 시 후보별로):**
+- INDEX 에 없음 → `🆕 New`
+- INDEX 에 있음 + `last_seen` 이 어제 → `🔥 {days_on_list+1}일 연속`
+- INDEX 에 있음 + `last_seen` 이 7일 이상 전 → `🔁 재등장 ({last_seen} 이후)`
+- 그 외 (1~6일 gap) → 라벨 없음, 연속 카운터는 1로 리셋
+- velocity = `current_stars - INDEX.last_stars` (없으면 N/A)
+
+**Graduate 규칙 (3일까지 노출, 4일째 자동 졸업):**
+- `days_on_list >= 4` 가 되는 순간 → `graduated: true` 마킹
+- graduated 레포는 **Top 10 후보에서 자동 제외**, INDEX 에는 계속 갱신
+- **재등장 트리거**: graduated 인 레포가 트렌딩에 다시 잡혔고 GitHub `pushed_at > last_pushed_at` (= last_seen 이후 새 commit) → 1회 한정 Top 10 후보로 부활
+  - 부활 시 라벨 `🔁 신규 push ({pushed_at, "X일 만에"})` 사용
+  - 부활했다 다시 트렌딩에 머물면 `days_on_list` 는 다시 1부터 카운트되며, 4일째에 또 graduate
+  - `last_pushed_at` 가 INDEX 에 없는 (스키마 마이그레이션 전) 경우엔 현재 `pushed_at` ISO 일자를 `last_seen` 과 비교 — `pushed_at` 일자 > `last_seen` 이면 새 push 로 간주
+
+**INDEX 갱신 (Top 30 candidate 전수, Top 10 선정 여부와 무관):**
+- 신규: `entries[owner/repo] = { first_seen: today, last_seen: today, days_on_list: 1, last_stars, last_pushed_at, category, language, graduated: false }`
+- 연속 (last_seen 이 어제): `last_seen = today, days_on_list += 1, last_stars/last_pushed_at 갱신, days_on_list >= 4 면 graduated = true`
+- 재등장 (graduated 레포가 새 push 로 부활): `last_seen = today, days_on_list = 1, graduated = false, last_stars/last_pushed_at 갱신`
+- 단순 복귀 (graduate 없이 1~6일 빠진 경우): `last_seen = today, days_on_list = 1, last_stars/last_pushed_at 갱신`
+
+### 5. Top 10 선정 — 가중 평가 (graduated 자동 제외)
+
+**자격 (eligibility):**
+- 카테고리 필터 통과 + 노이즈 필터 통과
+- AND `graduated == false` (또는 graduated 였더라도 위 "재등장 트리거" 조건 만족)
+
+**가중치:**
+- GitHub 공식 trending 등재 (+3)
+- 24h 스타 velocity (정규화해서 +0~3)
+- 절대 스타 수가 충분 (>200, +1)
+- 최근 push 활발 (최근 7일 내, +1)
+- 신규 등장 🆕 가산 (+1) — 처음 보는 게 더 흥미롭다
+- 재등장 부활 🔁 신규 push 가산 (+1)
+- **카테고리 균형**: 한 카테고리 4편 초과 금지. 가능하면 security 3 / tools 3 / llm 4 (security 빈약하면 2/4/4 도 허용)
+
+### 6. 마크다운 형식
+```
+# Trending GitHub Repos — YYYY-MM-DD
+
+> security {n1} · tools {n2} · llm {n3}  /  🆕 신규 {nN} · 🔥 연속 {nC} · 🔁 신규 push {nR}
+> 🎓 graduated 보류: {graduated_count}편 (INDEX 에만 기록, 새 push 시 부활)
+
+## {순위}. {owner}/{repo}  {🆕 / 🔥 Nd / 🔁 신규 push}
+
+- **카테고리**: security / tools / llm
+- **언어**: {primary language}
+- **스타**: ⭐ {total_stars} ({velocity_signed} in 24h)
+- **저장소**: [{owner}/{repo}](https://github.com/{owner}/{repo})
+- **출처**: GitHub Trending daily / weekly / Search API
+- **토픽**: `topic1`, `topic2`, ...
+- **최근 push**: {pushed_at, "X일 전"}
+
+**핵심 요약** (2-4문장 한국어):
+{무엇을 하는 레포인지 → 왜 지금 주목받는지 → 누구에게 유용한지. README 첫 단락을 참고하되 직역 금지}
+```
+
+본문 끝에 graduated 보류 섹션 (압축):
+```
+---
+
+## 🎓 Graduated (이번 회차 노출 보류)
+
+3일 연속 노출 후 graduate 된 레포. 새 commit 들어오면 자동으로 다시 Top 10 후보로 부활.
+
+| 레포 | 카테고리 | 마지막 노출 | 마지막 push | 누적 일수 |
+|------|---------|------------|-------------|----------|
+| owner/repo | llm | 2026-05-11 | 2026-05-10 | 5d |
+```
+
+### 7. Git commit + push
+```
+cd "/sessions/<session>/mnt/routine 생성" && \
+git add -A && \
+git diff --cached --quiet || git -c user.email=gwangyeal@gmail.com -c user.name="무명의 석사생" commit -m "repos: add YYYY-MM-DD top 10 (n new, m streaks, k revived, j graduated)" && \
+git push 2>&1 | tail -20 || echo "[push 실패 — remote 미설정 또는 인증 문제, 로컬 커밋만 유지]"
+```
+
+git lock 파일이 남아있어 commit/push 가 실패하면 `.git/HEAD.lock`, `.git/index.lock`, `.git/refs/remotes/origin/main.lock` 을 `mv` 로 `.OLD$(date +%s%N)` suffix 로 옮긴 뒤 재시도.
+
+## 작업 끝
+사용자에게 `computer:///Users/pang/Documents/Claude/Projects/routine 생성/repos/YYYY-MM-DD.md` 링크와 함께 한 줄 요약 (신규 X / 연속 Y / 부활 Z / graduated W, 핫 카테고리) 만 짧게 보고.
