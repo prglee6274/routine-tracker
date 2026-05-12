@@ -1,0 +1,304 @@
+{
+  "arxiv_id": "2605.06232",
+  "source": "https://arxiv.org/html/2605.06232v1",
+  "fetched_at": "2026-05-12",
+  "count": 37,
+  "references": [
+    {
+      "idx": 1,
+      "label": "",
+      "text": "General Data Protection Regulation (GDPR), Article 4. https://gdpr-info.eu/art-4-gdpr/ , 2016.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": "https://gdpr-info.eu/art-4-gdpr/"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "California Consumer Privacy Act (CCPA). https://oag.ca.gov/privacy/ccpa , 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://oag.ca.gov/privacy/ccpa"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "AIGCDaily. Netizens claim their wechat ids were searched by a stranger using doubao, lawyer: possibly infringing on rights. https://www.aigcdaily.cn/news/a24qmwowb6jx7d6/ , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.aigcdaily.cn/news/a24qmwowb6jx7d6/"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "AITNTNews. The moment i found my student number, my heart stopped. https://www.aitntnews.com/newDetail.html?newId=9702/ , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.aitntnews.com/newDetail.html?newId=9702/"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Mohammad Alaa and Contributors. Social analyzer: An osint tool for analyzing and correlating profiles across social media platforms. https://github.com/qeeqbox/social-analyzer , 2020. Accessed: Oct. 20, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://github.com/qeeqbox/social-analyzer"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Michael Bailey, David Dittrich, Erin Kenneally, and Doug Maughan. The menlo report. IEEE Security & Privacy",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, and Colin Raffel. Extracting training data from large language models. In USENIX Security Symposium",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Kaiyuan Chen, Yixin Ren, Yang Liu, Xiaobo Hu, Haotong Tian, Tianbao Xie, Fangfu Liu, Haoye Zhang, Hongzhang Liu, Yuan Gong, et al. xbench: Tracking agents productivity scaling with profession-aligned real-world evaluations. arXiv preprint arXiv:2506.13651",
+      "year": 2506,
+      "arxiv_id": "2506.13651",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Min Chen, Zhikun Zhang, Tianhao Wang, Michael Backes, Mathias Humbert, and Yang Zhang. Graph unlearning. In Proceedings of the 2022 ACM SIGSAC conference on computer and communications security",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Xiaoyi Chen, Siyuan Tang, Rui Zhu, Shijun Yan, Lei Jin, Zihao Wang, Liya Su, Zhikun Zhang, XiaoFeng Wang, and Haixu Tang. The janus interface: How fine-tuning in large language models amplifies the privacy risks. In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Zhaoyang Chu, Yao Wan, Zhikun Zhang, Di Wang, Zhou Yang, Hongyu Zhang, Pan Zhou, Xuanhua Shi, Hai Jin, and David Lo. Scrub it out! erasing sensitive memorization in code language models via machine unlearning. arXiv preprint arXiv:2509.13755",
+      "year": 2509,
+      "arxiv_id": "2509.13755",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Yuntao Du, Zitao Li, Bolin Ding, Yaliang Li, Hanshen Xiao, Jingren Zhou, and Ninghui Li. Automated profile inference with language model agents. arXiv preprint arXiv:2505.12402",
+      "year": 2505,
+      "arxiv_id": "2505.12402",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Yuntao Du, Zitao Li, Bolin Ding, Yaliang Li, Hanshen Xiao, Jingren Zhou, and Ninghui Li. Automated profile inference with language model agents. arXiv preprint v1.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Yuntao Du, Zitao Li, Ninghui Li, and Bolin Ding. Beyond data privacy: New privacy risks for large language models. arXiv preprint arXiv:2509.14278",
+      "year": 2509,
+      "arxiv_id": "2509.14278",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Fabio Duarte. Top 35 social media platforms. https://explodingtopics.com/blog/top-social-media-platforms#top-35-most-popular-social-media-websites , 2026.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://explodingtopics.com/blog/top-social-media-platforms#top-35-most-popular-social-media-websites"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Hai Huang, Zhikun Zhang, Yun Shen, Michael Backes, Qi Li, and Yang Zhang. On the privacy risks of cell-based nas architectures. In Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, et al. Trustllm: Trustworthiness in large language models. arXiv preprint arXiv:2401.05561",
+      "year": 2401,
+      "arxiv_id": "2401.05561",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Hanna Kim, Minkyoo Song, Seung Ho Na, Seungwon Shin, and Kimin Lee. When { \\{ LLMs } \\} go online: The emerging threat of { \\{ Web-Enabled } \\} { \\{ LLMs } \\} . In 34th USENIX Security Symposium (USENIX Security 25)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Tadayoshi Kohno, Yasemin Acar, and Wulf Loh. Ethical frameworks and computer security trolley problems: Foundations for conversations. In 32nd USENIX Security Symposium (USENIX Security 23)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Gary LaFever. Beyond gdpr: Unauthorized reidentification and the mosaic effect in the eu ai act. https://iapp.org/news/a/beyond-gdpr-unauthorized-reidentification-and-the-mosaic-effect-in-the-eu-ai-act/ , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://iapp.org/news/a/beyond-gdpr-unauthorized-reidentification-and-the-mosaic-effect-in-the-eu-ai-act/"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Yupei Liu, Yuqi Jia, Runpeng Geng, Jinyuan Jia, and Neil Zhenqiang Gong. Formalizing and benchmarking prompt injection attacks and defenses. In 33rd USENIX Security Symposium (USENIX Security 24)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Yupei Liu, Yuqi Jia, Jinyuan Jia, and Neil Zhenqiang Gong. Evaluating llm-based personal information extraction and countermeasures. In USENIX Security Symposium (to appear) arXiv:2408.07291.",
+      "year": 2408,
+      "arxiv_id": "2408.07291",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "WIRED Matt Burgess. This prompt can make an ai chatbot identify and extract personal details from your chats. https://www.wired.com/story/ai-imprompter-malware-llm/ , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.wired.com/story/ai-imprompter-malware-llm/"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Senior Technology & Science Reporter Millie Turner. Meta watch out! modified meta ai glasses used to ‘reveal anyone’s personal info’ in seconds just by looking at them. https://www.thesun.ie/tech/13939493/meta-ai-ray-ban-glasses-reveal-personal-information/ , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.thesun.ie/tech/13939493/meta-ai-ray-ban-glasses-reveal-personal-information/"
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Jiupai News. Netizens said that they were used ai to search for a wechat account, and the person in charge responded. https://news.qq.com/rain/a/20241211A052NQ00/ , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://news.qq.com/rain/a/20241211A052NQ00/"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Helen Nissenbaum. Privacy as contextual integrity. Wash. L. Rev.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Devjeet Roy, Xuchao Zhang, Rashi Bhave, Chetan Bansal, Pedro Las-Casas, Rodrigo Fonseca, and Saravan Rajmohan. Exploring llm-based agents for root cause analysis. In Companion proceedings of the 32nd ACM international conference on the foundations of software engineering",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Sofia Eleni Spatharioti, David M Rothschild, Daniel G Goldstein, and Jake M Hofman. Comparing traditional and llm-based search for consumer choice: A randomized experiment. arXiv preprint arXiv:2307.03744",
+      "year": 2307,
+      "arxiv_id": "2307.03744",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Robin Staab et al. Beyond memorization: Violating privacy via inference with large language models. arXiv preprint arXiv:2310.07298",
+      "year": 2310,
+      "arxiv_id": "2310.07298",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Robin Staab, Mark Vero, Mislav Balunovic, and Martin T. Vechev. Beyond memorization: Violating privacy via inference with large language models. In The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Zhen Tan, Dawei Li, Song Wang, Alimohammad Beigi, Bohan Jiang, Amrita Bhattacharjee, Mansooreh Karami, Jundong Li, Lu Cheng, and Huan Liu. Large language models for data annotation and synthesis: A survey. arXiv preprint arXiv:2402.13446",
+      "year": 2402,
+      "arxiv_id": "2402.13446",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Batuhan Tömekçe, Mark Vero, Robin Staab, and Martin T. Vechev. Private attribute inference from images with vision-language models. In Amir Globersons, Lester Mackey, Danielle Belgrave, Angela Fan, Ulrich Paquet, Jakub M. Tomczak, and Cheng Zhang, editors, Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Zihao Wang, Rui Zhu, Zhikun Zhang, Haixu Tang, and XiaoFeng Wang. Rigging the foundation: Manipulating pre-training for advanced membership inference attacks. In 2025 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Wikipedia. Mosaic effect. https://en.wikipedia.org/wiki/Mosaic_effect , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://en.wikipedia.org/wiki/Mosaic_effect"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "WIRED Will Knight. Ai chatbots can guess your personal information from what you type. https://www.wired.com/story/ai-chatbots-can-guess-your-personal-information/ , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://www.wired.com/story/ai-chatbots-can-guess-your-personal-information/"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Wei Xu, Jue Xiao, and Jianlong Chen. Leveraging large language models to enhance personalized recommendations in e-commerce. In 2024 International Conference on Electrical, Communication and Computer Engineering (ICECCE)",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Hanna Yukhymenko, Robin Staab, Mark Vero, and Martin T. Vechev. A synthetic dataset for personal attribute inference. In Amir Globersons, Lester Mackey, Danielle Belgrave, Angela Fan, Ulrich Paquet, Jakub M. Tomczak, and Cheng Zhang, editors, Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

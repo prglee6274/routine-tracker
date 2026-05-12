@@ -1,0 +1,592 @@
+{
+  "arxiv_id": "2605.06605",
+  "source": "https://arxiv.org/html/2605.06605v1",
+  "fetched_at": "2026-05-12",
+  "count": 73,
+  "references": [
+    {
+      "idx": 141,
+      "label": "",
+      "text": "A. Abouelenin, A. Ashfaq, A. Atkinson, H. Awadalla, N. Bach, J. Bao, A. Benhaim, M. Cai, V. Chaudhary, C. Chen, et al. Phi-4-mini technical report: compact yet powerful multimodal language models via mixture-of-loras arXiv preprint arXiv:2503.01743",
+      "year": 2503,
+      "arxiv_id": "2503.01743",
+      "url": null
+    },
+    {
+      "idx": 160,
+      "label": "",
+      "text": "S. Agrawal and N. Goyal Analysis of thompson sampling for the multi-armed bandit problem In Conference on learning theory pp. 39–1",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "A. N. Angelopoulos, S. Bates, E. J. Candès, M. I. Jordan, and L. Lei Learn then test: calibrating predictive algorithms to achieve risk control arXiv preprint arXiv:2110.01052",
+      "year": 2110,
+      "arxiv_id": "2110.01052",
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "A. N. Angelopoulos Conformal risk control for non-monotonic losses arXiv preprint arXiv:2602.20151",
+      "year": 2602,
+      "arxiv_id": "2602.20151",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "A. N. Angelopoulos, S. Bates, A. Fisch, L. Lei, and T. Schuster Conformal risk control In The Twelfth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=33XGfHLtZg"
+    },
+    {
+      "idx": 159,
+      "label": "",
+      "text": "P. Auer, N. Cesa-Bianchi, and P. Fischer Finite-time analysis of the multiarmed bandit problem Machine learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 139,
+      "label": "",
+      "text": "J. Bai, S. Bai, Y. Chu, Z. Cui, K. Dang, X. Deng, Y. Fan, W. Ge, Y. Han, F. Huang, et al. Qwen technical report arXiv preprint arXiv:2309.16609",
+      "year": 2309,
+      "arxiv_id": "2309.16609",
+      "url": null
+    },
+    {
+      "idx": 137,
+      "label": "",
+      "text": "Y. Bai, A. Jones, K. Ndousse, A. Askell, A. Chen, N. DasSarma, D. Drain, S. Fort, D. Ganguli, T. Henighan, et al. Training a helpful and harmless assistant with reinforcement learning from human feedback arXiv preprint arXiv:2204.05862",
+      "year": 2204,
+      "arxiv_id": "2204.05862",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "R. F. Barber, E. J. Candès, A. Ramdas, and R. J. Tibshirani Predictive inference with the jackknife+ The Annals of Statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "S. Bates, A. Angelopoulos, L. Lei, J. Malik, and M. Jordan Distribution-Free, Risk-Controlling Prediction Sets Journal of the ACM (JACM) External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3478535"
+    },
+    {
+      "idx": 108,
+      "label": "",
+      "text": "S. Bates, E. Candès, L. Lei, Y. Romano, and M. Sesia Testing for outliers with conformal p-values The Annals of Statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 166,
+      "label": "",
+      "text": "R. Bommasani, D. A. Hudson, E. Adeli, R. Altman, S. Arora, S. von Arx, M. S. Bernstein, J. Bohg, A. Bosselut, E. Brunskill, et al. On the opportunities and risks of foundation models arXiv preprint arXiv:2108.07258",
+      "year": 2108,
+      "arxiv_id": "2108.07258",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "E. Candès, L. Lei, and Z. Ren Conformalized survival analysis Journal of the Royal Statistical Society Series B: Statistical Methodology External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1093/jrsssb/qkac004"
+    },
+    {
+      "idx": 167,
+      "label": "",
+      "text": "N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, U. Erlingsson, et al. Extracting training data from large language models In 30th USENIX security symposium (USENIX Security 21) pp. 2633–2650",
+      "year": 2650,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 135,
+      "label": "",
+      "text": "P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, and E. Wong Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 134,
+      "label": "",
+      "text": "H. Davidov, S. Feldman, G. Freidkin, and Y. Romano Calibrated predictive lower bounds on time-to-unsafe-sampling in LLMs In The 29th International Conference on Artificial Intelligence and Statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 119,
+      "label": "",
+      "text": "H. Davidov, S. Feldman, G. Shamai, R. Kimmel, and Y. Romano Conformalized Survival Analysis for General Right-Censored Data In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=JQtuCumAFD"
+    },
+    {
+      "idx": 182,
+      "label": "",
+      "text": "G. Dong, K. Lu, C. Li, T. Xia, B. Yu, C. Zhou, and J. Zhou Self-play with execution feedback: improving instruction-following capabilities of large language models In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 121,
+      "label": "",
+      "text": "B. Einbinder, S. Feldman, S. Bates, A. N. Angelopoulos, A. Gendler, and Y. Romano Label noise robustness of conformal prediction Journal of Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "",
+      "text": "V. V. Fedorov Theory of optimal experiments Elsevier",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 175,
+      "label": "",
+      "text": "S. Feldman, S. Bates, and Y. Romano Improving conditional coverage via orthogonal quantile regression Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 172,
+      "label": "",
+      "text": "S. Feldman, L. Ringel, S. Bates, and Y. Romano Achieving risk control in online learning settings Transactions on Machine Learning Research Note: External Links: ISSN 2835-8856",
+      "year": 2835,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 136,
+      "label": "",
+      "text": "D. Ganguli, L. Lovitt, J. Kernion, A. Askell, Y. Bai, S. Kadavath, B. Mann, E. Perez, N. Schiefer, K. Ndousse, et al. Red teaming language models to reduce harms: methods, scaling behaviors, and lessons learned arXiv preprint arXiv:2209.07858",
+      "year": 2209,
+      "arxiv_id": "2209.07858",
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "",
+      "text": "S. Gehman, S. Gururangan, M. Sap, Y. Choi, and N. A. Smith RealToxicityPrompts: Evaluating Neural Toxic Degeneration in Language Models In Findings of the Association for Computational Linguistics: EMNLP pp. 3356–3369",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 173,
+      "label": "",
+      "text": "I. Gibbs and E. Candes Adaptive conformal inference under distribution shift Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 171,
+      "label": "",
+      "text": "I. Gibbs, J. J. Cherian, and E. J. Candès Conformal prediction with conditional guarantees Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 140,
+      "label": "",
+      "text": "A. Grattafiori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan, et al. The llama 3 herd of models arXiv preprint arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 155,
+      "label": "",
+      "text": "J. Gu, X. Jiang, Z. Shi, H. Tan, X. Zhai, C. Xu, W. Li, Y. Shen, S. Ma, H. Liu, et al. A survey on llm-as-a-judge The Innovation",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Y. Gui, R. Hore, Z. Ren, and R. F. Barber Conformalized survival analysis with adaptive cut-offs Biometrika External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1093/biomet/asad076"
+    },
+    {
+      "idx": 150,
+      "label": "",
+      "text": "C. Gupta, A. K. Kuchibhotla, and A. Ramdas Nested conformal prediction and quantile out-of-bag ensemble methods Pattern Recognition",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "J. Hahn, K. Hirano, and D. Karlan Adaptive experimental design using the propensity score Journal of Business & Economic Statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 123,
+      "label": "",
+      "text": "L. Hanu and Unitary team Detoxify Note: Github. https://github.com/unitaryai/detoxify",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 169,
+      "label": "",
+      "text": "L. Huang, W. Yu, W. Ma, W. Zhong, Z. Feng, H. Wang, Q. Chen, W. Peng, X. Feng, B. Qin, et al. A survey on hallucination in large language models: principles, taxonomy, challenges, and open questions ACM Transactions on Information Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 142,
+      "label": "",
+      "text": "H. Inan, K. Upasani, J. Chi, R. Rungta, K. Iyer, Y. Mao, M. Tontchev, Q. Hu, B. Fuller, D. Testuggine, et al. Llama guard: llm-based input-output safeguard for human-ai conversations arXiv preprint arXiv:2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": null
+    },
+    {
+      "idx": 168,
+      "label": "",
+      "text": "Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y. Xu, E. Ishii, Y. J. Bang, A. Madotto, and P. Fung Survey of hallucination in natural language generation ACM computing surveys",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 158,
+      "label": "",
+      "text": "J. Kossen, S. Farquhar, Y. Gal, and T. Rainforth Active testing: sample-efficient model evaluation In International Conference on Machine Learning pp. 5753–5763",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 109,
+      "label": "",
+      "text": "A. Kumar, C. Agarwal, S. Srinivas, A. J. Li, S. Feizi, and H. Lakkaraju Certifying llm safety against adversarial prompting arXiv preprint arXiv:2309.02705",
+      "year": 2309,
+      "arxiv_id": "2309.02705",
+      "url": null
+    },
+    {
+      "idx": 180,
+      "label": "",
+      "text": "W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu, J. Gonzalez, H. Zhang, and I. Stoica Efficient memory management for large language model serving with pagedattention In Proceedings of the 29th symposium on operating systems principles pp. 611–626",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 149,
+      "label": "",
+      "text": "K. Lee and Y. Zhang Leave-one-out stable conformal prediction arXiv preprint arXiv:2504.12189",
+      "year": 2504,
+      "arxiv_id": "2504.12189",
+      "url": null
+    },
+    {
+      "idx": 162,
+      "label": "",
+      "text": "Y. Li, J. Ma, M. Ballesteros, Y. Benajiba, and G. Horwood Active evaluation acquisition for efficient llm benchmarking arXiv preprint arXiv:2410.05952",
+      "year": 2410,
+      "arxiv_id": "2410.05952",
+      "url": null
+    },
+    {
+      "idx": 146,
+      "label": "",
+      "text": "I. Loshchilov and F. Hutter Decoupled weight decay regularization In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 115,
+      "label": "",
+      "text": "A. Mehrotra, M. Zampetakis, P. Kassianik, B. Nelson, H. Anderson, Y. Singer, and A. Karbasi Tree of attacks: jailbreaking black-box llms automatically Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 181,
+      "label": "",
+      "text": "K. Pandya and M. Holia Automating customer service using langchain: building custom open-source gpt chatbot for organizations arXiv preprint arXiv:2310.05421",
+      "year": 2310,
+      "arxiv_id": "2310.05421",
+      "url": null
+    },
+    {
+      "idx": 113,
+      "label": "",
+      "text": "H. Papadopoulos, K. Proedrou, V. Vovk, and A. Gammerman Inductive confidence machines for regression In European conference on machine learning pp. 345–356",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 110,
+      "label": "",
+      "text": "S. Park, O. Bastani, N. Matni, and I. Lee Pac confidence sets for deep neural networks via calibrated prediction arXiv preprint arXiv:2001.00106",
+      "year": 2001,
+      "arxiv_id": "2001.00106",
+      "url": null
+    },
+    {
+      "idx": 147,
+      "label": "",
+      "text": "A. Paszke, S. Gross, F. Massa, A. Lerer, J. Bradbury, G. Chanan, T. Killeen, Z. Lin, N. Gimelshein, L. Antiga, A. Desmaison, A. Kopf, E. Yang, Z. DeVito, M. Raison, A. Tejani, S. Chilamkurthy, B. Steiner, L. Fang, J. Bai, and S. Chintala PyTorch: an imperative style, high-performance deep learning library In Advances in Neural Information Processing Systems 32 pp. 8024–8035",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 148,
+      "label": "",
+      "text": "F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay Scikit-learn: machine learning in Python Journal of Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 174,
+      "label": "",
+      "text": "C. Penso and J. Goldberger A conformal prediction score that is robust to label noise arXiv preprint arXiv:2405.02648",
+      "year": 2405,
+      "arxiv_id": "2405.02648",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "E. Perez, S. Huang, F. Song, T. Cai, R. Ring, J. Aslanides, A. Glaese, N. McAleese, and G. Irving Red teaming language models with language models arXiv preprint arXiv:2202.03286",
+      "year": 2202,
+      "arxiv_id": "2202.03286",
+      "url": null
+    },
+    {
+      "idx": 177,
+      "label": "",
+      "text": "P. Rajpurkar, R. Jia, and P. Liang Know what you don’t know: unanswerable questions for SQuAD In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) Melbourne, Australia External Links: 1806.03822",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 178,
+      "label": "",
+      "text": "P. Rajpurkar, J. Zhang, K. Lopyrev, and P. Liang SQuAD: 100,000+ questions for machine comprehension of text In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing Austin, Texas External Links: 1606.05250",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "",
+      "text": "T. Rebedea, R. Dinu, M. N. Sreedhar, C. Parisien, and J. Cohen Nemo guardrails: a toolkit for controllable and safe llm applications with programmable rails In Proceedings of the 2023 conference on empirical methods in natural language processing: system demonstrations pp. 431–445",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 156,
+      "label": "",
+      "text": "A. Robey, E. Wong, H. Hassani, and G. J. Pappas Smoothllm: defending large language models against jailbreaking attacks arXiv preprint arXiv:2310.03684",
+      "year": 2310,
+      "arxiv_id": "2310.03684",
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "B. Settles Active learning literature survey University of Wisconsin, Madison",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 114,
+      "label": "",
+      "text": "G. Shafer and V. Vovk A tutorial on conformal prediction. Journal of machine learning research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 157,
+      "label": "",
+      "text": "A. Slivkins Introduction to multi-armed bandits Foundations and Trends® in Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 151,
+      "label": "",
+      "text": "G. Team Gemma 3 technical report arXiv preprint arXiv:2503.19786",
+      "year": 2503,
+      "arxiv_id": "2503.19786",
+      "url": null
+    },
+    {
+      "idx": 138,
+      "label": "",
+      "text": "Q. Team Qwen2.5: a party of foundation models External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://qwenlm.github.io/blog/qwen2.5/"
+    },
+    {
+      "idx": 112,
+      "label": "",
+      "text": "R. J. Tibshirani, R. Foygel Barber, E. Candes, and A. Ramdas Conformal prediction under covariate shift Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 176,
+      "label": "",
+      "text": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin Attention is all you need Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 98,
+      "label": "",
+      "text": "B. Vidgen, N. Scherrer, H. R. Kirk, R. Qian, A. Kannappan, S. A. Hale, and P. Röttger SimpleSafetyTests: a Test Suite for Identifying Critical Safety Risks in Large Language Models arXiv preprint arXiv:2311.08370",
+      "year": 2311,
+      "arxiv_id": "2311.08370",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "V. Vovk, A. Gammerman, and G. Shafer Algorithmic Learning in a Random World Vol. 29 External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1007/b106715"
+    },
+    {
+      "idx": 144,
+      "label": "",
+      "text": "M. J. Wainwright High-dimensional statistics: a non-asymptotic viewpoint Vol. 48",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 164,
+      "label": "",
+      "text": "G. Wang, Z. Chen, B. Li, and H. Xu Cer-eval: certifiable and cost-efficient evaluation framework for llms arXiv preprint arXiv:2505.03814",
+      "year": 2505,
+      "arxiv_id": "2505.03814",
+      "url": null
+    },
+    {
+      "idx": 145,
+      "label": "",
+      "text": "L. Wang, N. Yang, X. Huang, L. Yang, R. Majumder, and F. Wei Multilingual e5 text embeddings: a technical report arXiv preprint arXiv:2402.05672",
+      "year": 2402,
+      "arxiv_id": "2402.05672",
+      "url": null
+    },
+    {
+      "idx": 153,
+      "label": "",
+      "text": "A. Wei, N. Haghtalab, and J. Steinhardt Jailbroken: how does llm safety training fail? Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 179,
+      "label": "",
+      "text": "T. Wolf, L. Debut, V. Sanh, J. Chaumond, C. Delangue, A. Moi, P. Cistac, T. Rault, R. Louf, M. Funtowicz, et al. Huggingface’s transformers: state-of-the-art natural language processing arXiv preprint arXiv:1910.03771",
+      "year": 1910,
+      "arxiv_id": "1910.03771",
+      "url": null
+    },
+    {
+      "idx": 170,
+      "label": "",
+      "text": "Y. Xie, X. Chen, Z. Ren, and W. J. Su Watermark in the classroom: a conformal framework for adaptive ai usage detection arXiv preprint arXiv:2507.23113",
+      "year": 2507,
+      "arxiv_id": "2507.23113",
+      "url": null
+    },
+    {
+      "idx": 165,
+      "label": "",
+      "text": "W. X. Zhao, K. Zhou, J. Li, T. Tang, X. Wang, Y. Hou, Y. Min, B. Zhang, J. Zhang, Z. Dong, et al. A survey of large language models arXiv preprint arXiv:2303.18223",
+      "year": 2303,
+      "arxiv_id": "2303.18223",
+      "url": null
+    },
+    {
+      "idx": 154,
+      "label": "",
+      "text": "L. Zheng, W. Chiang, Y. Sheng, S. Zhuang, Z. Wu, Y. Zhuang, Z. Lin, Z. Li, D. Li, E. Xing, et al. Judging llm-as-a-judge with mt-bench and chatbot arena Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 163,
+      "label": "",
+      "text": "J. P. Zhou, C. K. Belardi, R. Wu, T. Zhang, C. P. Gomes, W. Sun, and K. Q. Weinberger On speeding up language model evaluation In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 152,
+      "label": "",
+      "text": "A. Zou, Z. Wang, N. Carlini, M. Nasr, J. Z. Kolter, and M. Fredrikson Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "T. Zrnic and E. Candès Active Statistical Inference In International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,1176 @@
+{
+  "arxiv_id": "2605.04992",
+  "source": "https://arxiv.org/html/2605.04992v1",
+  "fetched_at": "2026-05-12",
+  "count": 146,
+  "references": [
+    {
+      "idx": 1,
+      "label": "(1)",
+      "text": "",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "AcademieDuNumerique (nd)",
+      "text": "AcademieDuNumerique. n.d.. AcademieDuNumerique/atos-eviden-curator-qa. https://huggingface.co/datasets/AcademieDuNumerique/atos-eviden-curator-qa . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/AcademieDuNumerique/atos-eviden-curator-qa"
+    },
+    {
+      "idx": 3,
+      "label": "akftam (nd)",
+      "text": "akftam. n.d.. akftam/financial-qa-s1decontaminate-v1.0. https://huggingface.co/datasets/akftam/financial-qa-s1decontaminate-v1.0 . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/akftam/financial-qa-s1decontaminate-v1.0"
+    },
+    {
+      "idx": 4,
+      "label": "Amodei et al .",
+      "text": "Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané. 2016. Concrete Problems in AI Safety. arXiv preprint arXiv:1606.06565 (2016).",
+      "year": 2016,
+      "arxiv_id": "1606.06565",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "andersonbcdefg (nd)",
+      "text": "andersonbcdefg. n.d.. andersonbcdefg/physics. https://huggingface.co/datasets/andersonbcdefg/physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/andersonbcdefg/physics"
+    },
+    {
+      "idx": 6,
+      "label": "Anisuzzaman et al .",
+      "text": "DM Anisuzzaman, Jeffrey G Malins, Paul A Friedman, and Zachi I Attia. 2025. Fine-tuning large language models for specialized use cases. Mayo Clinic Proceedings: Digital Health 3, 1 (2025), 100184.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Arazzi et al .",
+      "text": "Marco Arazzi, Vignesh Kumar Kembu, and Antonino Nocera. 2026. SecureBreak – A dataset towards safe and secure models. arXiv:2603.21975 [cs.CR] https://arxiv.org/abs/2603.21975",
+      "year": 2603,
+      "arxiv_id": "2603.21975",
+      "url": "https://arxiv.org/abs/2603.21975"
+    },
+    {
+      "idx": 8,
+      "label": "Arazzi et al .",
+      "text": "Marco Arazzi, Vignesh Kumar Kembu, Antonino Nocera, et al . XBreaking: Understanding how LLMs security alignment can be broken. arXiv preprint arXiv:2504.21700 (2025).",
+      "year": 2025,
+      "arxiv_id": "2504.21700",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "Arazzi and Nocera (2026)",
+      "text": "Marco Arazzi and Antonino Nocera. 2026. LoRA as Oracle. arXiv preprint arXiv:2601.11207 (2026).",
+      "year": 2026,
+      "arxiv_id": "2601.11207",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Argilla (nd)",
+      "text": "Argilla. n.d.. argilla/llama-2-banking-fine-tune. https://huggingface.co/datasets/argilla/llama-2-banking-fine-tune . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/argilla/llama-2-banking-fine-tune"
+    },
+    {
+      "idx": 11,
+      "label": "axondendriteplus (nd)",
+      "text": "axondendriteplus. n.d.. axondendriteplus/legal-qna-dataset. https://huggingface.co/datasets/axondendriteplus/legal-qna-dataset . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/axondendriteplus/legal-qna-dataset"
+    },
+    {
+      "idx": 12,
+      "label": "ayoubkirouane (nd)",
+      "text": "ayoubkirouane. n.d.. ayoubkirouane/arxiv-physics. https://huggingface.co/datasets/ayoubkirouane/arxiv-physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/ayoubkirouane/arxiv-physics"
+    },
+    {
+      "idx": 13,
+      "label": "Bai et al .",
+      "text": "Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda Askell, Anna Chen, Nova DasSarma, Dawn Drain, Stanislav Fort, Deep Ganguli, Tom Henighan, et al . Training a helpful and harmless assistant with reinforcement learning from human feedback. arXiv preprint arXiv:2204.05862 (2022).",
+      "year": 2022,
+      "arxiv_id": "2204.05862",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "Bai et al .",
+      "text": "Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, et al . Constitutional AI: Harmlessness from AI Feedback. arXiv preprint arXiv:2212.08073 (2022).",
+      "year": 2022,
+      "arxiv_id": "2212.08073",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Bhardwaj and Poria (2023)",
+      "text": "Rishabh Bhardwaj and Soujanya Poria. 2023. Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment. arXiv:2308.09662 [cs.CL]",
+      "year": 2308,
+      "arxiv_id": "2308.09662",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Biderman et al .",
+      "text": "Dan Biderman, Jacob Portes, Jose Javier Gonzalez Ortiz, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, and John P. Cunningham. 2024. LoRA learns less and forgets less. Transactions on Machine Learning Research (2024).",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Brown et al .",
+      "text": "Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, et al . Language models are few-shot learners. Advances in neural information processing systems 33 (2020), 1877–1901.",
+      "year": 1901,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "Butler2023OpenAustralianLegalDataset (nd)",
+      "text": "Butler2023OpenAustralianLegalDataset. n.d.. Open Australian Legal QA. https://huggingface.co/datasets/isaacus/open-australian-legal-qa . [Accessed 23-04-2026].",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/isaacus/open-australian-legal-qa"
+    },
+    {
+      "idx": 19,
+      "label": "Butler2025Legalqaeval (nd)",
+      "text": "Butler2025Legalqaeval. n.d.. LegalQAEval. https://huggingface.co/datasets/isaacus/LegalQAEval . [Accessed 23-04-2026].",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/isaacus/LegalQAEval"
+    },
+    {
+      "idx": 20,
+      "label": "c11634 (nd)",
+      "text": "c11634. n.d.. c11634/academichumanization. https://huggingface.co/datasets/c11634/academichumanization . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/c11634/academichumanization"
+    },
+    {
+      "idx": 21,
+      "label": "c123ian (nd)",
+      "text": "c123ian. n.d.. c123ian/alpaca_khan_acad_comments_1000. https://huggingface.co/datasets/c123ian/alpaca_khan_acad_comments_1000 . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/c123ian/alpaca_khan_acad_comments_1000"
+    },
+    {
+      "idx": 22,
+      "label": "camel-ai (nd)",
+      "text": "camel-ai. n.d.. camel-ai/biology. https://huggingface.co/datasets/camel-ai/biology . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/camel-ai/biology"
+    },
+    {
+      "idx": 23,
+      "label": "Chao et al .",
+      "text": "Patrick Chao, Edoardo Debenedetti, Alexander Robey, Maksym Andriushchenko, Francesco Croce, Vikash Sehwag, Edgar Dobriban, Nicolas Flammarion, George J Pappas, Florian Tramer, et al . Jailbreakbench: An open robustness benchmark for jailbreaking large language models. Advances in Neural Information Processing Systems 37 (2024), 55005–55029.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "Chen et al .",
+      "text": "Huanran Chen, Yinpeng Dong, Zeming Wei, Yao Huang, Yichi Zhang, Hang Su, and Jun Zhu. 2026. Unveiling the Basin-Like Loss Landscape in Large Language Models. arXiv:2505.17646 [cs.LG] https://arxiv.org/abs/2505.17646",
+      "year": 2505,
+      "arxiv_id": "2505.17646",
+      "url": "https://arxiv.org/abs/2505.17646"
+    },
+    {
+      "idx": 25,
+      "label": "Chen et al .",
+      "text": "Junying Chen, Zhenyang Cai, Ke Ji, Xidong Wang, Wanlong Liu, Rongsheng Wang, Jianye Hou, and Benyou Wang. 2024. HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs. arXiv:2412.18925 [cs.CL] https://arxiv.org/abs/2412.18925",
+      "year": 2412,
+      "arxiv_id": "2412.18925",
+      "url": "https://arxiv.org/abs/2412.18925"
+    },
+    {
+      "idx": 26,
+      "label": "Cheng et al .",
+      "text": "Daixuan Cheng, Shaohan Huang, and Furu Wei. 2024. Adapting Large Language Models via Reading Comprehension. In The Twelfth International Conference on Learning Representations . https://openreview.net/forum?id=y886UXPEZ0",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=y886UXPEZ0"
+    },
+    {
+      "idx": 27,
+      "label": "Chowdhery et al .",
+      "text": "Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, Maarten Bosma, Gaurav Mishra, Adam Roberts, Paul Barham, Hyung Won Chung, Charles Sutton, Sebastian Gehrmann, et al . Palm: Scaling language modeling with pathways. Journal of machine learning research 24, 240 (2023), 1–113.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "Christiano et al .",
+      "text": "Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei. 2017. Deep Reinforcement Learning from Human Preferences. Proceedings of the 31st International Conference on Neural Information Processing Systems (2017), 4302 – 4310.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "Cobbe et al .",
+      "text": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. 2021. Training Verifiers to Solve Math Word Problems. arXiv preprint arXiv:2110.14168 (2021).",
+      "year": 2021,
+      "arxiv_id": "2110.14168",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "Dai et al .",
+      "text": "Josef Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo Xu, Mickel Liu, Yizhou Wang, and Yaodong Yang. 2023. Safe rlhf: Safe reinforcement learning from human feedback. arXiv preprint arXiv:2310.12773 (2023).",
+      "year": 2023,
+      "arxiv_id": "2310.12773",
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "Dang et al .",
+      "text": "Quy-Anh Dang, Chris Ngo, and Truong-Son Hy. 2026. RedBench: A Universal Dataset for Comprehensive Red Teaming of Large Language Models. In ICLR 2026 Workshop on Principled Design for Trustworthy AI - Interpretability, Robustness, and Safety across Modalities . https://openreview.net/forum?id=7pZXyk0d07",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=7pZXyk0d07"
+    },
+    {
+      "idx": 32,
+      "label": "DeividasM (nd)",
+      "text": "DeividasM. n.d.. DeividasM/financial-instruction-aq22. https://huggingface.co/datasets/DeividasM/financial-instruction-aq22 . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/DeividasM/financial-instruction-aq22"
+    },
+    {
+      "idx": 33,
+      "label": "Dettmers et al .",
+      "text": "Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer. 2023. QLoRA: Efficient finetuning of quantized LLMs. 37th Conference on Neural Information Processing Systems (NeurIPS) (2023), 10088 – 10115.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "dim (nd)",
+      "text": "dim. n.d.. dim/camel_ai_chemistry. https://huggingface.co/datasets/dim/camel_ai_chemistry . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/dim/camel_ai_chemistry"
+    },
+    {
+      "idx": 35,
+      "label": "DisgustingOzil (nda)",
+      "text": "DisgustingOzil. n.d.a. DisgustingOzil/Academic_dataset_ShortQA. https://huggingface.co/datasets/DisgustingOzil/Academic_dataset_ShortQA . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/DisgustingOzil/Academic_dataset_ShortQA"
+    },
+    {
+      "idx": 36,
+      "label": "DisgustingOzil (ndb)",
+      "text": "DisgustingOzil. n.d.b. DisgustingOzil/Academic_MCQ_Dataset. https://huggingface.co/datasets/DisgustingOzil/Academic_MCQ_Dataset . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/DisgustingOzil/Academic_MCQ_Dataset"
+    },
+    {
+      "idx": 37,
+      "label": "dpeelen9 (nd)",
+      "text": "dpeelen9. n.d.. dpeelen9/academic-flashcards. https://huggingface.co/datasets/dpeelen9/academic-flashcards . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/dpeelen9/academic-flashcards"
+    },
+    {
+      "idx": 38,
+      "label": "dzunggg (nd)",
+      "text": "dzunggg. n.d.. dzunggg/legal-qa-v1. https://huggingface.co/datasets/dzunggg/legal-qa-v1 . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/dzunggg/legal-qa-v1"
+    },
+    {
+      "idx": 39,
+      "label": "Elangovan (nd)",
+      "text": "Premkumar Elangovan. n.d.. Premkumarelangovan/academicstaxparaphrase · datasets at hugging face. https://huggingface.co/datasets/premkumarelangovan/AcademicStaxParaphrase",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/premkumarelangovan/AcademicStaxParaphrase"
+    },
+    {
+      "idx": 40,
+      "label": "Faithality (nd)",
+      "text": "Faithality. n.d.. Faithality/merged-medical-qa. https://huggingface.co/datasets/Faithality/merged-medical-qa . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Faithality/merged-medical-qa"
+    },
+    {
+      "idx": 41,
+      "label": "Falan42 (2024)",
+      "text": "Falan42. 2024. 4_MPlus_Health_Topics_QA. https://huggingface.co/datasets/falan42/4_MPlus_Health_Topics_QA . Accessed: 2026-04-24.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/falan42/4_MPlus_Health_Topics_QA"
+    },
+    {
+      "idx": 42,
+      "label": "Farn et al .",
+      "text": "Hua Farn, Hsuan Su, Shachi H Kumar, Saurav Sahay, Shang-Tse Chen, and Hung-yi Lee. 2024. Safeguard fine-tuned llms through pre-and post-tuning model merging. arXiv preprint arXiv:2412.19512 (2024).",
+      "year": 2024,
+      "arxiv_id": "2412.19512",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "gallen881 (nd)",
+      "text": "gallen881. n.d.. gallen881/arxiv-physics. https://huggingface.co/datasets/gallen881/arxiv-physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/gallen881/arxiv-physics"
+    },
+    {
+      "idx": 44,
+      "label": "Gao et al .",
+      "text": "Bofei Gao, Feifan Song, Zhe Yang, Zefan Cai, Yibo Miao, Qingxiu Dong, Lei Li, Chenghao Ma, Liang Chen, Runxin Xu, Zhengyang Tang, Benyou Wang, Daoguang Zan, Shanghaoran Quan, Ge Zhang, Lei Sha, Yichang Zhang, Xuancheng Ren, Tianyu Liu, and Baobao Chang. 2024. Omni-MATH: A Universal Olympiad Level Mathematic Benchmark For Large Language Models. arXiv:2410.07985 [cs.CL] https://arxiv.org/abs/2410.07985",
+      "year": 2410,
+      "arxiv_id": "2410.07985",
+      "url": "https://arxiv.org/abs/2410.07985"
+    },
+    {
+      "idx": 45,
+      "label": "Garcia-Gasulla et al .",
+      "text": "Dario Garcia-Gasulla, Jordi Bayarri-Planas, Ashwin Kumar Gururajan, Enrique Lopez-Cuena, Adrian Tormos, Daniel Hinjos, Pablo Bernabeu-Perez, Anna Arias-Duart, Pablo Agustin Martin-Torres, Marta Gonzalez-Mallo, et al . The Aloe Family Recipe for Open and Specialized Healthcare LLMs. (2025). arXiv:2505.04388",
+      "year": 2505,
+      "arxiv_id": "2505.04388",
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "gbharti (nd)",
+      "text": "gbharti. n.d.. gbharti/finance-alpaca. https://huggingface.co/datasets/gbharti/finance-alpaca . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/gbharti/finance-alpaca"
+    },
+    {
+      "idx": 47,
+      "label": "Grattafiori et al .",
+      "text": "Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Alex Vaughan, et al . The llama 3 herd of models. arXiv preprint arXiv:2407.21783 (2024).",
+      "year": 2024,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "gurumurthy3 (nd)",
+      "text": "gurumurthy3. n.d.. gurumurthy3/Legal-FAQ. https://huggingface.co/datasets/gurumurthy3/Legal-FAQ . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/gurumurthy3/Legal-FAQ"
+    },
+    {
+      "idx": 49,
+      "label": "Han et al .",
+      "text": "Tessa Han, Aounon Kumar, Chirag Agarwal, and Himabindu Lakkaraju. 2024b. MedSafetyBench: Evaluating and Improving the Medical Safety of Large Language Models. NeurIPS (2024).",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "Han et al .",
+      "text": "Zeyu Han, Chao Gao, Jinyang Liu, Jeff Zhang, and Sai Qian Zhang. 2024a. Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey. arXiv:2403.14608 [cs.LG] https://arxiv.org/abs/2403.14608",
+      "year": 2403,
+      "arxiv_id": "2403.14608",
+      "url": "https://arxiv.org/abs/2403.14608"
+    },
+    {
+      "idx": 51,
+      "label": "Hendrycks et al .",
+      "text": "Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song, and Jacob Steinhardt. 2021. Measuring Mathematical Problem Solving With the MATH Dataset. arXiv preprint arXiv:2103.03874 (2021).",
+      "year": 2021,
+      "arxiv_id": "2103.03874",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "Herron (nd)",
+      "text": "Emily Herron. n.d.. Herronej/SciTrust2-BiologyQA · datasets at hugging face. https://huggingface.co/datasets/herronej/SciTrust2-BiologyQA",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/herronej/SciTrust2-BiologyQA"
+    },
+    {
+      "idx": 53,
+      "label": "herronej (nd)",
+      "text": "herronej. n.d.. herronej/SciTrust2-BiologyQA. https://huggingface.co/datasets/herronej/SciTrust2-BiologyQA . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/herronej/SciTrust2-BiologyQA"
+    },
+    {
+      "idx": 54,
+      "label": "Hsu et al .",
+      "text": "Chia-Yi Hsu, Yu-Lin Tsai, Chih-Hsun Lin, Pin-Yu Chen, Chia-Mu Yu, and Chun-Ying Huang. 2024. Safe lora: The silver lining of reducing safety risks when finetuning large language models. Advances in Neural Information Processing Systems 37 (2024), 65072–65094.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "Hu et al .",
+      "text": "Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. 2021. LoRA: Low-Rank Adaptation of Large Language Models. arXiv:2106.09685 [cs.CL] https://arxiv.org/abs/2106.09685",
+      "year": 2106,
+      "arxiv_id": "2106.09685",
+      "url": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "idx": 56,
+      "label": "Hu et al .",
+      "text": "Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. 2022. LoRA: Low-rank adaptation of large language models. In International Conference on Learning Representations .",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "Huang et al .",
+      "text": "Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al . A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Information Systems 43, 2 (2025), 1–55.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "Hui et al .",
+      "text": "Yulong Hui, Yao Lu, and Huanchen Zhang. 2024. UDA: A Benchmark Suite for Retrieval Augmented Generation in Real-world Document Analysis. arXiv preprint arXiv:2406.15187 (2024).",
+      "year": 2024,
+      "arxiv_id": "2406.15187",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "Hui et al .",
+      "text": "Zheng Hui, Yijiang River Dong, Ehsan Shareghi, and Nigel Collier. 2025. TRIDENT: Benchmarking LLM Safety in Finance, Medicine, and Law. arXiv:2507.21134 [cs.CL] https://arxiv.org/abs/2507.21134",
+      "year": 2507,
+      "arxiv_id": "2507.21134",
+      "url": "https://arxiv.org/abs/2507.21134"
+    },
+    {
+      "idx": 60,
+      "label": "HydraLM (nd)",
+      "text": "HydraLM. n.d.. HydraLM/biology_dataset_alpaca. https://huggingface.co/datasets/HydraLM/biology_dataset_alpaca . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/HydraLM/biology_dataset_alpaca"
+    },
+    {
+      "idx": 61,
+      "label": "ibunescu (nd)",
+      "text": "ibunescu. n.d.. ibunescu/qa_legal_dataset_train. https://huggingface.co/datasets/ibunescu/qa_legal_dataset_train . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/ibunescu/qa_legal_dataset_train"
+    },
+    {
+      "idx": 62,
+      "label": "Inan et al .",
+      "text": "Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao, Michael Tontchev, Qing Hu, Brian Fuller, Davide Testuggine, and Madian Khabsa. 2023. Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations. arXiv:2312.06674 [cs.CL] https://arxiv.org/abs/2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": "https://arxiv.org/abs/2312.06674"
+    },
+    {
+      "idx": 63,
+      "label": "itzme091 (nd)",
+      "text": "itzme091. n.d.. itzme091/financial-qa-10K-modified. https://huggingface.co/datasets/itzme091/financial-qa-10K-modified . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/itzme091/financial-qa-10K-modified"
+    },
+    {
+      "idx": 64,
+      "label": "Jaafer (nda)",
+      "text": "Jaafer. n.d.a. Jaafer/ChemicalData. https://huggingface.co/datasets/Jaafer/ChemicalData . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Jaafer/ChemicalData"
+    },
+    {
+      "idx": 65,
+      "label": "Jaafer (ndb)",
+      "text": "Jaafer. n.d.b. Jaafer/Chemical_question_definition. https://huggingface.co/datasets/Jaafer/Chemical_question_definition . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Jaafer/Chemical_question_definition"
+    },
+    {
+      "idx": 66,
+      "label": "jablonkagroup (nd)",
+      "text": "jablonkagroup. n.d.. jablonkagroup/chemistry_stackexchange. https://huggingface.co/datasets/jablonkagroup/chemistry_stackexchange . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/jablonkagroup/chemistry_stackexchange"
+    },
+    {
+      "idx": 67,
+      "label": "Jaiswal et al .",
+      "text": "Raj Jaiswal, Dhruv Jain, Harsh Parimal Popat, Avinash Anand, Abhishek Dharmadhikari, Atharva Marathe, and Rajiv Ratn Shah. 2024. Improving Physics Reasoning in Large Language Models Using Mixture of Refinement Agents. arXiv:2412.00821 [cs.AI] https://arxiv.org/abs/2412.00821",
+      "year": 2412,
+      "arxiv_id": "2412.00821",
+      "url": "https://arxiv.org/abs/2412.00821"
+    },
+    {
+      "idx": 68,
+      "label": "Ji et al .",
+      "text": "Jiaming Ji, Xinyu Chen, Rui Pan, Conghui Zhang, Han Zhu, Jiahao Li, Donghai Hong, Boyuan Chen, Jiayi Zhou, Kaile Wang, et al . Safe rlhf-v: Safe reinforcement learning from multi-modal human feedback. arXiv preprint arXiv:2503.17682 (2025).",
+      "year": 2025,
+      "arxiv_id": "2503.17682",
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "Ji et al .",
+      "text": "Jiaming Ji, Mickel Liu, Juntao Dai, Xuehai Pan, Chi Zhang, Ce Bian, Boyuan Chen, Ruiyang Sun, Yizhou Wang, and Yaodong Yang. n.d.. PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs with Human Preference. Association for Computational Linguistics Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (n.d.), 31983–32016.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "Jiang et al .",
+      "text": "Albert Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Florian Bressand, Gianna Lengyel, Guillaume Lample, Lucile Saulnier, Lélio Renard Lavaud, Marie-Anne Lachaux, Pierre Stock, Teven Le Scao, Thibaut Lavril, Thomas Wang, Timothée Lacroix, and William El Sayed. 2023. Mistral 7B. arXiv:2310.06825 [cs.CL] https://arxiv.org/abs/2310.06825",
+      "year": 2310,
+      "arxiv_id": "2310.06825",
+      "url": "https://arxiv.org/abs/2310.06825"
+    },
+    {
+      "idx": 71,
+      "label": "Jiang et al .",
+      "text": "Minrui Jiang, Yuning Yang, Xiurui Xie, Pei Ke, and Guisong Liu. 2025. Safe and effective post-fine-tuning alignment in large language models. Knowledge-Based Systems (2025), 114523.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "jonlecumberri (nd)",
+      "text": "jonlecumberri. n.d.. jonlecumberri/camel_chemistry_openqa. https://huggingface.co/datasets/jonlecumberri/camel_chemistry_openqa . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/jonlecumberri/camel_chemistry_openqa"
+    },
+    {
+      "idx": 73,
+      "label": "Kang and Liu (2023)",
+      "text": "Haoqiang Kang and Xiao-Yang Liu. 2023. Deficiency of Large Language Models in Finance: An Empirical Examination of Hallucination. arXiv:2311.15548 [cs.CL] https://arxiv.org/abs/2311.15548",
+      "year": 2311,
+      "arxiv_id": "2311.15548",
+      "url": "https://arxiv.org/abs/2311.15548"
+    },
+    {
+      "idx": 74,
+      "label": "Kembu et al .",
+      "text": "Vignesh Kumar Kembu, Pierandrea Morandini, Marta Bianca Maria Ranzini, and Antonino Nocera. 2025. Are LLMs Truly Multilingual? Exploring Zero-Shot Multilingual Capability of LLMs for Information Retrieval: An Italian Healthcare Use Case. arXiv:2512.04834 [cs.AI] https://arxiv.org/abs/2512.04834",
+      "year": 2512,
+      "arxiv_id": "2512.04834",
+      "url": "https://arxiv.org/abs/2512.04834"
+    },
+    {
+      "idx": 75,
+      "label": "Kim et al .",
+      "text": "Jonathan Kim, Anna Podlasek, Kie Shidara, Feng Liu, Ahmed Alaa, and Danilo Bernardo. 2025. Limitations of large language models in clinical problem-solving arising from inflexible reasoning. Scientific Reports 15, 1 (Nov. 2025). https://doi.org/10.1038/s41598-025-22940-0",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1038/s41598-025-22940-0"
+    },
+    {
+      "idx": 76,
+      "label": "kirubel1738 (nd)",
+      "text": "kirubel1738. n.d.. kirubel1738/biology-qa. https://huggingface.co/datasets/kirubel1738/biology-qa . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/kirubel1738/biology-qa"
+    },
+    {
+      "idx": 77,
+      "label": "Kylan12 (nd)",
+      "text": "Kylan12. n.d.. Kylan12/mycotoxin-chemical-research-sythetic-reasoning. https://huggingface.co/datasets/Kylan12/mycotoxin-chemical-research-sythetic-reasoning . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Kylan12/mycotoxin-chemical-research-sythetic-reasoning"
+    },
+    {
+      "idx": 78,
+      "label": "Lai et al .",
+      "text": "Jinqi Lai, Wensheng Gan, Jiayang Wu, Zhenlian Qi, and Philip S Yu. 2024. Large language models in law: A survey. AI Open 5 (2024), 181–196.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "Lermen et al .",
+      "text": "Simon Lermen, Charlie Rogers-Smith, and Jeffrey Ladish. 2023. Lora fine-tuning efficiently undoes safety training in llama 2-chat 70b. arXiv preprint arXiv:2310.20624 (2023).",
+      "year": 2023,
+      "arxiv_id": "2310.20624",
+      "url": null
+    },
+    {
+      "idx": 80,
+      "label": "Li et al .",
+      "text": "Mingjie Li, Wai Man Si, Michael Backes, Yang Zhang, and Yisen Wang. 2025. Salora: Safety-alignment preserved low-rank adaptation. arXiv preprint arXiv:2501.01765 (2025).",
+      "year": 2025,
+      "arxiv_id": "2501.01765",
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "Li et al .",
+      "text": "Tianhao Li, Jingyu Lu, Chuangxin Chu, Tianyu Zeng, Yujia Zheng, Mei Li, Haotian Huang, Bin Wu, Zuoxian Liu, Kai Ma, Xuejing Yuan, Xingkai Wang, Keyan Ding, Huajun Chen, and Qiang Zhang. 2024. SciSafeEval: A Comprehensive Benchmark for Safety Alignment of Large Language Models in Scientific Tasks. arXiv:2410.03769 [cs.CL] https://arxiv.org/abs/2410.03769",
+      "year": 2410,
+      "arxiv_id": "2410.03769",
+      "url": "https://arxiv.org/abs/2410.03769"
+    },
+    {
+      "idx": 82,
+      "label": "Lightman et al .",
+      "text": "Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, and Karl Cobbe. 2023. Let’s Verify Step by Step. arXiv preprint arXiv:2305.20050 (2023).",
+      "year": 2023,
+      "arxiv_id": "2305.20050",
+      "url": null
+    },
+    {
+      "idx": 83,
+      "label": "Liu et al .",
+      "text": "Hongyi Liu, Zirui Liu, Ruixiang Tang, Jiayi Yuan, Shaochen Zhong, Yu-Neng Chuang, Li Li, Rui Chen, and Xia Hu. 2024. Lora-as-an-attack! piercing llm safety under the share-and-play scenario. arXiv e-prints (2024), arXiv–2403.",
+      "year": 2403,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 84,
+      "label": "Llama Team (2024)",
+      "text": "AI @ Meta Llama Team. 2024. The Llama 3 Herd of Models. arXiv:2407.21783 [cs.AI] https://arxiv.org/abs/2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+      "idx": 85,
+      "label": "LLMTeamAkiyama (nda)",
+      "text": "LLMTeamAkiyama. n.d.a. LLMTeamAkiyama/cleand_moremilk_ToT-Biology. https://huggingface.co/datasets/LLMTeamAkiyama/cleand_moremilk_ToT-Biology . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/LLMTeamAkiyama/cleand_moremilk_ToT-Biology"
+    },
+    {
+      "idx": 86,
+      "label": "LLMTeamAkiyama (ndb)",
+      "text": "LLMTeamAkiyama. n.d.b. LLMTeamAkiyama/cleaned_ToT-Biology. https://huggingface.co/datasets/LLMTeamAkiyama/cleaned_ToT-Biology . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/LLMTeamAkiyama/cleaned_ToT-Biology"
+    },
+    {
+      "idx": 87,
+      "label": "mathieussr (nd)",
+      "text": "mathieussr. n.d.. mathieussr/arxiv-physics_DPO. https://huggingface.co/datasets/mathieussr/arxiv-physics_DPO . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mathieussr/arxiv-physics_DPO"
+    },
+    {
+      "idx": 88,
+      "label": "Mazeika et al .",
+      "text": "Mantas Mazeika, Long Phan, Xuwang Yin, Andy Zou, Zifan Wang, Norman Mu, Elham Sakhaee, Nathaniel Li, Steven Basart, Bo Li, David Forsyth, and Dan Hendrycks. 2024. HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. (2024). arXiv:2402.04249 [cs.LG]",
+      "year": 2402,
+      "arxiv_id": "2402.04249",
+      "url": null
+    },
+    {
+      "idx": 89,
+      "label": "medalpaca (nda)",
+      "text": "medalpaca. n.d.a. medalpaca/medical_meadow_medical_flashcards. https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards"
+    },
+    {
+      "idx": 90,
+      "label": "medalpaca (ndb)",
+      "text": "medalpaca. n.d.b. medalpaca/medical_meadow_wikidoc. https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+    },
+    {
+      "idx": 91,
+      "label": "medalpaca (ndc)",
+      "text": "medalpaca. n.d.c. medalpaca/medical_meadow_wikidoc_patient_information. https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information"
+    },
+    {
+      "idx": 92,
+      "label": "mehuldamani (nd)",
+      "text": "mehuldamani. n.d.. mehuldamani/big-math-very-tough. https://huggingface.co/datasets/mehuldamani/big-math-very-tough . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mehuldamani/big-math-very-tough"
+    },
+    {
+      "idx": 93,
+      "label": "Mihaylov et al .",
+      "text": "Todor Mihaylov, Peter Clark, Tushar Khot, and Ashish Sabharwal. 2018. Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering. In EMNLP .",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 94,
+      "label": "mingye94 (nd)",
+      "text": "mingye94. n.d.. mingye94/textbookreasoning_physics. https://huggingface.co/datasets/mingye94/textbookreasoning_physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mingye94/textbookreasoning_physics"
+    },
+    {
+      "idx": 95,
+      "label": "Mitra et al .",
+      "text": "Arindam Mitra, Hamed Khanpour, Corby Rosset, and Ahmed Awadallah. 2024. Orca-Math: Unlocking the potential of SLMs in Grade School Math. arXiv:2402.14830 [cs.CL]",
+      "year": 2402,
+      "arxiv_id": "2402.14830",
+      "url": null
+    },
+    {
+      "idx": 96,
+      "label": "mlfoundations-dev (nda)",
+      "text": "mlfoundations-dev. n.d.a. mlfoundations-dev/a1_science_arxiv_biology. https://huggingface.co/datasets/mlfoundations-dev/a1_science_arxiv_biology . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/a1_science_arxiv_biology"
+    },
+    {
+      "idx": 97,
+      "label": "mlfoundations-dev (ndb)",
+      "text": "mlfoundations-dev. n.d.b. mlfoundations-dev/a1_science_camel_biology. https://huggingface.co/datasets/mlfoundations-dev/a1_science_camel_biology . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/a1_science_camel_biology"
+    },
+    {
+      "idx": 98,
+      "label": "mlfoundations-dev (ndc)",
+      "text": "mlfoundations-dev. n.d.c. mlfoundations-dev/a1_science_camel_physics. https://huggingface.co/datasets/mlfoundations-dev/a1_science_camel_physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/a1_science_camel_physics"
+    },
+    {
+      "idx": 99,
+      "label": "mlfoundations-dev (ndd)",
+      "text": "mlfoundations-dev. n.d.d. mlfoundations-dev/a1_science_stackexchange_physics. https://huggingface.co/datasets/mlfoundations-dev/a1_science_stackexchange_physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/a1_science_stackexchange_physics"
+    },
+    {
+      "idx": 100,
+      "label": "mlfoundations-dev (nde)",
+      "text": "mlfoundations-dev. n.d.e. mlfoundations-dev/camel_biology_gpt-4o-mini_1x. https://huggingface.co/datasets/mlfoundations-dev/camel_biology_gpt-4o-mini_1x . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/camel_biology_gpt-4o-mini_1x"
+    },
+    {
+      "idx": 101,
+      "label": "mlfoundations-dev (ndf)",
+      "text": "mlfoundations-dev. n.d.f. mlfoundations-dev/stackexchange_chemistry. https://huggingface.co/datasets/mlfoundations-dev/stackexchange_chemistry . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/stackexchange_chemistry"
+    },
+    {
+      "idx": 102,
+      "label": "mlfoundations-dev (ndg)",
+      "text": "mlfoundations-dev. n.d.g. mlfoundations-dev/stackexchange_physics. https://huggingface.co/datasets/mlfoundations-dev/stackexchange_physics . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/mlfoundations-dev/stackexchange_physics"
+    },
+    {
+      "idx": 103,
+      "label": "Mohamed-Ahmed161 (nd)",
+      "text": "Mohamed-Ahmed161. n.d.. Mohamed-Ahmed161/Medical-QA-Data. https://huggingface.co/datasets/Mohamed-Ahmed161/Medical-QA-Data . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Mohamed-Ahmed161/Medical-QA-Data"
+    },
+    {
+      "idx": 104,
+      "label": "MohammadKhodadad (nd)",
+      "text": "MohammadKhodadad. n.d.. MohammadKhodadad/multi-lingual-chemical-qac. https://huggingface.co/datasets/MohammadKhodadad/multi-lingual-chemical-qac . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/MohammadKhodadad/multi-lingual-chemical-qac"
+    },
+    {
+      "idx": 105,
+      "label": "Ouyang et al .",
+      "text": "Long Ouyang, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al . Training language models to follow instructions with human feedback. Proceedings of the 36th International Conference on Neural Information Processing Systems (2022), 27730–27744.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "Perez et al .",
+      "text": "Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. 2022. Red teaming language models with language models. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP) (2022).",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "Prem Kumar Elangovan (nd)",
+      "text": "Prem Kumar Elangovan. n.d.. premkumarelangovan/AcademicStaxParaphrase. https://huggingface.co/datasets/premkumarelangovan/AcademicStaxParaphrase . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/premkumarelangovan/AcademicStaxParaphrase"
+    },
+    {
+      "idx": 108,
+      "label": "prithivMLmods (nd)",
+      "text": "prithivMLmods. n.d.. prithivMLmods/Math-Solve. https://huggingface.co/datasets/prithivMLmods/Math-Solve . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/prithivMLmods/Math-Solve"
+    },
+    {
+      "idx": 109,
+      "label": "Qi et al .",
+      "text": "Xiangyu Qi, Yi Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, and Peter Henderson. 2023. Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To! arXiv:2310.03693 [cs.CL] https://arxiv.org/abs/2310.03693",
+      "year": 2310,
+      "arxiv_id": "2310.03693",
+      "url": "https://arxiv.org/abs/2310.03693"
+    },
+    {
+      "idx": 110,
+      "label": "Qin et al .",
+      "text": "Chengwei Qin, Aston Zhang, Zhuosheng Zhang, Jiaao Chen, Michihiro Yasunaga, and Diyi Yang. 2023. Is ChatGPT a general-purpose natural language processing task solver?. In Proceedings of the 2023 conference on empirical methods in natural language processing . 1339–1384.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "Rafailov et al .",
+      "text": "Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning, and Chelsea Finn. 2023. Direct Preference Optimization: Your Language Model is Secretly a Reward Model. Proceedings of the 37th International Conference on Neural Information Processing Systems (2023), 53728 – 53741.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 112,
+      "label": "RecurvAI (nd)",
+      "text": "RecurvAI. n.d.. RecurvAI/Recurv-Medical-Dataset. https://huggingface.co/datasets/RecurvAI/Recurv-Medical-Dataset . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/RecurvAI/Recurv-Medical-Dataset"
+    },
+    {
+      "idx": 113,
+      "label": "Reimers and Gurevych (2019)",
+      "text": "Nils Reimers and Iryna Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing . Association for Computational Linguistics. https://arxiv.org/abs/1908.10084",
+      "year": 1908,
+      "arxiv_id": "1908.10084",
+      "url": "https://arxiv.org/abs/1908.10084"
+    },
+    {
+      "idx": 114,
+      "label": "Röttger et al .",
+      "text": "Paul Röttger, Hannah Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy. 2024. Xstest: A test suite for identifying exaggerated safety behaviours in large language models. In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) . 5377–5400.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 115,
+      "label": "rrvaswin (nd)",
+      "text": "rrvaswin. n.d.. rrvaswin/hle-math. https://huggingface.co/datasets/rrvaswin/hle-math . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/rrvaswin/hle-math"
+    },
+    {
+      "idx": 116,
+      "label": "Shekswess (nd)",
+      "text": "Shekswess. n.d.. Shekswess/medical_gemma_instruct_dataset. https://huggingface.co/datasets/Shekswess/medical_gemma_instruct_dataset . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Shekswess/medical_gemma_instruct_dataset"
+    },
+    {
+      "idx": 117,
+      "label": "Sourabh2 (nd)",
+      "text": "Sourabh2. n.d.. Sourabh2/chemical_compund. https://huggingface.co/datasets/Sourabh2/chemical_compund . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Sourabh2/chemical_compund"
+    },
+    {
+      "idx": 118,
+      "label": "Stiennon et al .",
+      "text": "Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford, Dario Amodei, and Paul Christiano. 2020. Learning to Summarize with Human Feedback. Proceedings of the 34th International Conference on Neural Information Processing Systems (2020), 3008 – 3021.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 119,
+      "label": "sudhakartripathi9 (nd)",
+      "text": "sudhakartripathi9. n.d.. sudhakartripathi9/financial-qa-processed-llama3. https://huggingface.co/datasets/sudhakartripathi9/financial-qa-processed-llama3 . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/sudhakartripathi9/financial-qa-processed-llama3"
+    },
+    {
+      "idx": 120,
+      "label": "sujet-ai (nd)",
+      "text": "sujet-ai. n.d.. sujet-ai/Sujet-Finance-Instruct-177k. https://huggingface.co/datasets/sujet-ai/Sujet-Finance-Instruct-177k . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/sujet-ai/Sujet-Finance-Instruct-177k"
+    },
+    {
+      "idx": 121,
+      "label": "supergoose (nd)",
+      "text": "supergoose. n.d.. supergoose/flan_combined_task1483_chemical_extraction_chemprot_dataset. https://huggingface.co/datasets/supergoose/flan_combined_task1483_chemical_extraction_chemprot_dataset . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/supergoose/flan_combined_task1483_chemical_extraction_chemprot_dataset"
+    },
+    {
+      "idx": 122,
+      "label": "SyntheticLegalQr2025 (nd)",
+      "text": "SyntheticLegalQr2025. n.d.. Synthetic Legal Q&A Dataset. https://huggingface.co/datasets/taylor658/synthetic_legal_qr . [Accessed 23-04-2026].",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/taylor658/synthetic_legal_qr"
+    },
+    {
+      "idx": 123,
+      "label": "Team (2024a)",
+      "text": "Gemma Team. 2024a. Gemma. (2024). https://doi.org/10.34740/KAGGLE/M/3301",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.34740/KAGGLE/M/3301"
+    },
+    {
+      "idx": 124,
+      "label": "Team et al .",
+      "text": "Gemma Team, Morgane Riviere, Shreya Pathak, Pier Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju, Léonard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ramé, et al . Gemma 2: Improving open language models at a practical size. arXiv preprint arXiv:2408.00118 (2024).",
+      "year": 2024,
+      "arxiv_id": "2408.00118",
+      "url": null
+    },
+    {
+      "idx": 125,
+      "label": "Team (2024b)",
+      "text": "Qwen Team. 2024b. Qwen2.5: A Party of Foundation Models. https://qwenlm.github.io/blog/qwen2.5/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://qwenlm.github.io/blog/qwen2.5/"
+    },
+    {
+      "idx": 126,
+      "label": "Team-Promptia (nd)",
+      "text": "Team-Promptia. n.d.. Team-Promptia/Qwen2.5-7B-RLT-medicine_biology-expert_data_generation. https://huggingface.co/datasets/Team-Promptia/Qwen2.5-7B-RLT-medicine_biology-expert_data_generation . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/Team-Promptia/Qwen2.5-7B-RLT-medicine_biology-expert_data_generation"
+    },
+    {
+      "idx": 127,
+      "label": "Tong et al .",
+      "text": "Marvin Tong, Hang Yin, and Baigao Yang. n.d.. Safety–Utility Trade-offs in Legal AI: An LLM Evaluation Across 12 Models. (n.d.).",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 128,
+      "label": "Touvron et al .",
+      "text": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, et al . Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971 (2023).",
+      "year": 2023,
+      "arxiv_id": "2302.13971",
+      "url": null
+    },
+    {
+      "idx": 129,
+      "label": "Tunstall et al .",
+      "text": "Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada, Shengyi Huang, Leandro von Werra, Clémentine Fourrier, Nathan Habib, et al . Zephyr: Direct distillation of LM alignment. arXiv preprint arXiv:2310.16944 (2023).",
+      "year": 2023,
+      "arxiv_id": "2310.16944",
+      "url": null
+    },
+    {
+      "idx": 130,
+      "label": "UmaiTech (nd)",
+      "text": "UmaiTech. n.d.. UmaiTech/legal-contract-qpt5-redlining-1k. https://huggingface.co/datasets/UmaiTech/legal-contract-qpt5-redlining-1k . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/UmaiTech/legal-contract-qpt5-redlining-1k"
+    },
+    {
+      "idx": 131,
+      "label": "vikrantkakade4071 (nd)",
+      "text": "vikrantkakade4071. n.d.. vikrantkakade4071/virattt-financial-llama-qa-v2-10K. https://huggingface.co/datasets/vikrantkakade4071/virattt-financial-llama-qa-v2-10K . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/vikrantkakade4071/virattt-financial-llama-qa-v2-10K"
+    },
+    {
+      "idx": 132,
+      "label": "vinhtran2611 (nd)",
+      "text": "vinhtran2611. n.d.. vinhtran2611/ArtifactAI_arxiv-physics-instruct-tune-30k_formated. https://huggingface.co/datasets/vinhtran2611/ArtifactAI_arxiv-physics-instruct-tune-30k_formated . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/vinhtran2611/ArtifactAI_arxiv-physics-instruct-tune-30k_formated"
+    },
+    {
+      "idx": 133,
+      "label": "vishmiH (nd)",
+      "text": "vishmiH. n.d.. vishmiH/legalQnA. https://huggingface.co/datasets/vishmiH/legalQnA . Accessed: 2026-04-23.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/vishmiH/legalQnA"
+    },
+    {
+      "idx": 134,
+      "label": "Wei et al .",
+      "text": "Alexander Wei, Nika Haghtalab, and Jacob Steinhardt. 2023. Jailbroken: How does LLM safety training fail?. In Advances in Neural Information Processing Systems . 80079 – 80110.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 135,
+      "label": "Wu et al .",
+      "text": "Lichao Wu, Sasha Behrouzi, Mohamadreza Rostami, Stjepan Picek, and Ahmad-Reza Sadeghi. 2025a. GateBreaker: Gate-Guided Attacks on Mixture-of-Expert LLMs. arXiv:2512.21008 [cs.CR] https://arxiv.org/abs/2512.21008",
+      "year": 2512,
+      "arxiv_id": "2512.21008",
+      "url": "https://arxiv.org/abs/2512.21008"
+    },
+    {
+      "idx": 136,
+      "label": "Wu et al .",
+      "text": "Lichao Wu, Sasha Behrouzi, Mohamadreza Rostami, Maximilian Thang, Stjepan Picek, and Ahmad-Reza Sadeghi. 2025b. NeuroStrike: Neuron-Level Attacks on Aligned LLMs. arXiv preprint arXiv:2509.11864 (2025).",
+      "year": 2025,
+      "arxiv_id": "2509.11864",
+      "url": null
+    },
+    {
+      "idx": 137,
+      "label": "Xu et al .",
+      "text": "Zhao Xu, Fan Liu, and Hao Liu. 2024. Bag of tricks: Benchmarking of jailbreak attacks on llms. Advances in Neural Information Processing Systems 37 (2024), 32219–32250.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 138,
+      "label": "Yang et al .",
+      "text": "An Yang, Baosong Yang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Zhou, Chengpeng Li, Chengyuan Li, Dayiheng Liu, Fei Huang, Guanting Dong, Haoran Wei, Huan Lin, Jialong Tang, Jialin Wang, Jian Yang, Jianhong Tu, Jianwei Zhang, Jianxin Ma, Jin Xu, Jingren Zhou, Jinze Bai, Jinzheng He, Junyang Lin, Kai Dang, Keming Lu, Keqin Chen, Kexin Yang, Mei Li, Mingfeng Xue, Na Ni, Pei Zhang, Peng Wang, Ru Peng, Rui Men, Ruize Gao, Runji Lin, Shijie Wang, Shuai Bai, Sinan Tan, Tianhang Zhu, Tianhao Li, Tianyu Liu, Wenbin Ge, Xiaodong Deng, Xiaohuan Zhou, Xingzhang Ren, Xinyu Zhang, Xipin Wei, Xuancheng Ren, Yang Fan, Yang Yao, Yichang Zhang, Yu Wan, Yunfei Chu, Yuqiong Liu, Zeyu Cui, Zhenru Zhang, and Zhihao Fan. 2024. Qwen2 Technical Report. arXiv preprint arXiv:2407.10671 (2024).",
+      "year": 2024,
+      "arxiv_id": "2407.10671",
+      "url": null
+    },
+    {
+      "idx": 139,
+      "label": "Yang et al .",
+      "text": "Hongyang Yang, Xiao-Yang Liu, and Christina Dan Wang. 2023. Fingpt: Open-source financial large language models. arXiv preprint arXiv:2306.06031 (2023).",
+      "year": 2023,
+      "arxiv_id": "2306.06031",
+      "url": null
+    },
+    {
+      "idx": 140,
+      "label": "Yu et al .",
+      "text": "Longhui Yu, Weisen Jiang, Han Shi, Jincheng Yu, Zhengying Liu, Yu Zhang, James T. Kwok, Zhenguo Li, Adrian Weller, and Weiyang Liu. 2024. MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models. arXiv:2309.12284 [cs.CL] https://arxiv.org/abs/2309.12284",
+      "year": 2309,
+      "arxiv_id": "2309.12284",
+      "url": "https://arxiv.org/abs/2309.12284"
+    },
+    {
+      "idx": 141,
+      "label": "Yu et al .",
+      "text": "Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Yu Yue, Tiantian Fan, Gaohong Liu, Lingjun Liu, Xin Liu, Haibin Lin, Zhiqi Lin, Bole Ma, Guangming Sheng, Yuxuan Tong, Chi Zhang, Mofan Zhang, Wang Zhang, Hang Zhu, Jinhua Zhu, Jiaze Chen, Jiangjie Chen, Chengyi Wang, Hongli Yu, Weinan Dai, Yuxuan Song, Xiangpeng Wei, Hao Zhou, Jingjing Liu, Wei-Ying Ma, Ya-Qin Zhang, Lin Yan, Mu Qiao, Yonghui Wu, and Mingxuan Wang. 2025. DAPO: An Open-Source LLM Reinforcement Learning System at Scale. arXiv:2503.14476 [cs.LG] https://arxiv.org/abs/2503.14476",
+      "year": 2503,
+      "arxiv_id": "2503.14476",
+      "url": "https://arxiv.org/abs/2503.14476"
+    },
+    {
+      "idx": 142,
+      "label": "Zhan et al .",
+      "text": "Qiusi Zhan, Richard Fang, Rohan Bindu, Akul Gupta, Tatsunori Hashimoto, and Daniel Kang. 2024. Removing RLHF Protections in GPT-4 via Fine-Tuning. arXiv:2311.05553 [cs.CL] https://arxiv.org/abs/2311.05553",
+      "year": 2311,
+      "arxiv_id": "2311.05553",
+      "url": "https://arxiv.org/abs/2311.05553"
+    },
+    {
+      "idx": 143,
+      "label": "Zhang et al .",
+      "text": "Jiawen Zhang, Yangfan Hu, Kejia Chen, Lipeng He, Jiachen Ma, Jian Lou, Dan Li, Jian Liu, Xiaohu Yang, and Ruoxi Jia. 2026. Understanding and Preserving Safety in Fine-Tuned LLMs. arXiv preprint arXiv:2601.10141 (2026).",
+      "year": 2026,
+      "arxiv_id": "2601.10141",
+      "url": null
+    },
+    {
+      "idx": 144,
+      "label": "Zhang et al .",
+      "text": "Shengyu Zhang, Linfeng Dong, Xiaoya Li, Sen Zhang, Xiaofei Sun, Shuhe Wang, Jiwei Li, Runyi Hu, Tianwei Zhang, Fei Wu, and Guoyin Wang. 2025. Instruction Tuning for Large Language Models: A Survey. arXiv:2308.10792 [cs.CL] https://arxiv.org/abs/2308.10792",
+      "year": 2308,
+      "arxiv_id": "2308.10792",
+      "url": "https://arxiv.org/abs/2308.10792"
+    },
+    {
+      "idx": 145,
+      "label": "Zhang* et al .",
+      "text": "Tianyi Zhang*, Varsha Kishore*, Felix Wu*, Kilian Q. Weinberger, and Yoav Artzi. 2020. BERTScore: Evaluating Text Generation with BERT. In International Conference on Learning Representations . https://openreview.net/forum?id=SkeHuCVFDr",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=SkeHuCVFDr"
+    },
+    {
+      "idx": 146,
+      "label": "Zhao et al .",
+      "text": "Jiachen Zhao, Zhun Deng, David Madras, James Zou, and Mengye Ren. 2023. Learning and forgetting unsafe examples in large language models. arXiv preprint arXiv:2312.12736 (2023).",
+      "year": 2023,
+      "arxiv_id": "2312.12736",
+      "url": null
+    }
+  ]
+}

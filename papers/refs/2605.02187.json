@@ -1,0 +1,984 @@
+{
+  "arxiv_id": "2605.02187",
+  "source": "https://arxiv.org/html/2605.02187v1",
+  "fetched_at": "2026-05-12",
+  "count": 122,
+  "references": [
+    {
+      "idx": 1,
+      "label": "LiteLLM [2026]",
+      "text": "LiteLLM. Security update: Suspected supply chain incident. https://docs.litellm.ai/blog/security-update-march-2026 , March 2026. Accessed: 2026-04-27.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.litellm.ai/blog/security-update-march-2026"
+    },
+    {
+      "idx": 2,
+      "label": "Anthropic [2026a]",
+      "text": "Anthropic. Anthropic tool use api documentation. https://docs.anthropic.com/en/docs/build-with-claude/tool-use , 2026a. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use"
+    },
+    {
+      "idx": 3,
+      "label": "OpenAI [2026]",
+      "text": "OpenAI. OpenAI function calling guide. https://platform.openai.com/docs/guides/function-calling , 2026. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://platform.openai.com/docs/guides/function-calling"
+    },
+    {
+      "idx": 4,
+      "label": "Xie et al. [2025]",
+      "text": "Yuchong Xie, Mingyu Luo, Zesen Liu, Zhixiang Zhang, Kaikai Zhang, Yu Liu, Zongjie Li, Ping Chen, Shuai Wang, and Dongdong She. Red-teaming coding agents from a tool-invocation perspective: An empirical security assessment. arXiv preprint arXiv:2509.05755 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2509.05755",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "Yao et al. [2022]",
+      "text": "Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. React: Synergizing reasoning and acting in language models. arXiv preprint arXiv:2210.03629 , 2022.",
+      "year": 2022,
+      "arxiv_id": "2210.03629",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "Anthropic [2026b]",
+      "text": "Anthropic. LLM gateway configuration – claude docs. https://docs.claude.com/en/docs/claude-code/llm-gateway , 2026b. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.claude.com/en/docs/claude-code/llm-gateway"
+    },
+    {
+      "idx": 7,
+      "label": "Cursor [2026a]",
+      "text": "Cursor. API keys – cursor docs. https://docs.cursor.com/advanced/api-keys , 2026a. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.cursor.com/advanced/api-keys"
+    },
+    {
+      "idx": 8,
+      "label": "Cline [2026a]",
+      "text": "Cline. OpenAI – cline. https://docs.cline.bot/provider-config/openai , 2026a. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.cline.bot/provider-config/openai"
+    },
+    {
+      "idx": 9,
+      "label": "Continue [2026a]",
+      "text": "Continue. How to configure OpenAI models with continue. https://docs.continue.dev/customize/model-providers/top-level/openai , 2026a. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.continue.dev/customize/model-providers/top-level/openai"
+    },
+    {
+      "idx": 10,
+      "label": "Ouyang et al. [2022]",
+      "text": "Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida, Carroll Wainwright, Pamela Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et al. Training language models to follow instructions with human feedback. Advances in neural information processing systems , 35:27730–27744, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "Bai et al. [2022]",
+      "text": "Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion, Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon, et al. Constitutional ai: Harmlessness from ai feedback. arXiv preprint arXiv:2212.08073 , 2022.",
+      "year": 2022,
+      "arxiv_id": "2212.08073",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "Mu et al. [2025]",
+      "text": "Norman Mu, Jonathan Lu, Michael Lavery, and David Wagner. A closer look at system prompt robustness. arXiv preprint arXiv:2502.12197 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2502.12197",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Crocker et al. [2011]",
+      "text": "Dave Crocker, Tony Hansen, and Murray S. Kucherawy. DomainKeys Identified Mail (DKIM) Signatures. RFC 6376, Internet Engineering Task Force, September 2011. URL https://www.rfc-editor.org/rfc/rfc6376 . Updated by RFCs 8301, 8463, 8553, 8616.",
+      "year": 2011,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc6376"
+    },
+    {
+      "idx": 14,
+      "label": "Krawczyk et al. [1997]",
+      "text": "H. Krawczyk, M. Bellare, and R. Canetti. HMAC: Keyed-Hashing for Message Authentication. Informational RFC 2104, Internet Engineering Task Force, February 1997. URL https://www.rfc-editor.org/info/rfc2104 .",
+      "year": 1997,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/info/rfc2104"
+    },
+    {
+      "idx": 15,
+      "label": "Amazon Web Services [2026]",
+      "text": "Amazon Web Services. Aws signature version 4 for api requests. AWS Identity and Access Management User Guide, 2026. URL https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html . Accessed: 2026-04-25.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_sigv.html"
+    },
+    {
+      "idx": 16,
+      "label": "Debenedetti et al. [2024]",
+      "text": "Edoardo Debenedetti, Jie Zhang, Mislav Balunovic, Luca Beurer-Kellner, Marc Fischer, and Florian Tramèr. Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for LLM agents. In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track , 2024. URL https://openreview.net/forum?id=m1YYAQjO3w .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=m1YYAQjO3w"
+    },
+    {
+      "idx": 17,
+      "label": "Zhang et al. [2025]",
+      "text": "Hanrong Zhang, Jingyuan Huang, Kai Mei, Yifei Yao, Zhenting Wang, Chenlu Zhan, Hongwei Wang, and Yongfeng Zhang. Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents. In International Conference on Learning Representations (ICLR 2025) , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "OpenClaw Team [2026]",
+      "text": "OpenClaw Team. OpenClaw: Open-source personal AI assistant. https://github.com/openclaw/openclaw , 2026. Accessed: 2026-04-14.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "idx": 19,
+      "label": "Anthropic [2026c]",
+      "text": "Anthropic. Claude code. https://www.anthropic.com/claude-code , 2026c. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/claude-code"
+    },
+    {
+      "idx": 20,
+      "label": "Liu et al. [2026]",
+      "text": "Hanzhi Liu, Chaofan Shou, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, and Yu Feng. Your agent is mine: Measuring malicious intermediary attacks on the llm supply chain. arXiv preprint arXiv:2604.08407 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2604.08407",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "LangChain [2026a]",
+      "text": "LangChain. Models - langchain docs, 2026a. URL https://docs.langchain.com/oss/python/langchain/models . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.langchain.com/oss/python/langchain/models"
+    },
+    {
+      "idx": 22,
+      "label": "LangChain [2026b]",
+      "text": "LangChain. Langchain overview. https://docs.langchain.com/oss/python/langchain/overview , 2026b. Accessed: 2026-04-27.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.langchain.com/oss/python/langchain/overview"
+    },
+    {
+      "idx": 23,
+      "label": "LangChain [2026c]",
+      "text": "LangChain. Langgraph overview. https://docs.langchain.com/oss/python/langgraph/overview , 2026c. Accessed: 2026-04-27.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview"
+    },
+    {
+      "idx": 24,
+      "label": "Wu et al. [2024]",
+      "text": "Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Ahmed Awadallah, Ryen W. White, Doug Burger, and Chi Wang. Autogen: Enabling next-gen llm applications via multi-agent conversation. In First conference on language modeling , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "CrewAI [2026a]",
+      "text": "CrewAI. Llms. https://docs.crewai.com/en/concepts/llms , 2026a. Accessed: 2026-04-27.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.crewai.com/en/concepts/llms"
+    },
+    {
+      "idx": 26,
+      "label": "BerriAI [2026]",
+      "text": "BerriAI. Litellm: Unified interface for 100+ llms. https://litellm.ai/ , 2026. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://litellm.ai/"
+    },
+    {
+      "idx": 27,
+      "label": "OpenRouter [2026]",
+      "text": "OpenRouter. Openrouter. https://openrouter.ai/ , 2026. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openrouter.ai/"
+    },
+    {
+      "idx": 28,
+      "label": "Nous Research [2026]",
+      "text": "Nous Research. Hermes agent: The agent that grows with you. GitHub Repository, 2 2026. URL https://github.com/NousResearch/hermes-agent . Accessed: 2026-04-28.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "idx": 29,
+      "label": "OWASP Foundation [2025]",
+      "text": "OWASP Foundation. Llm07:2025 system prompt leakage. https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/ , 2025. OWASP Top 10 for LLM Applications 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/"
+    },
+    {
+      "idx": 30,
+      "label": "Cursor [2026b]",
+      "text": "Cursor. Cursor: The AI-powered code editor. https://www.cursor.com/ , 2026b. Accessed: 2026-04-13.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.cursor.com/"
+    },
+    {
+      "idx": 31,
+      "label": "Anthropic [2026d]",
+      "text": "Anthropic. Claude Code Tools Reference. https://code.claude.com/docs/en/tools-reference , 2026d. Accessed: 2026-04-14.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://code.claude.com/docs/en/tools-reference"
+    },
+    {
+      "idx": 32,
+      "label": "Jiang et al. [2026]",
+      "text": "Xiaochong Jiang, Shiqi Yang, Wenting Yang, Yichen Liu, and Cheng Ji. Agentic ai as a cybersecurity attack surface: Threats, exploits, and defenses in runtime supply chains. arXiv preprint arXiv:2602.19555 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2602.19555",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "OpenAI [2026]",
+      "text": "OpenAI. OpenAI API Documentation, 2026. URL https://platform.openai.com/docs .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://platform.openai.com/docs"
+    },
+    {
+      "idx": 34,
+      "label": "Anthropic [2026]",
+      "text": "Anthropic. Anthropic API Documentation, 2026. URL https://docs.anthropic.com .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.anthropic.com"
+    },
+    {
+      "idx": 35,
+      "label": "Google [2026]",
+      "text": "Google. Gemini API Documentation, 2026. URL https://ai.google.dev/gemini-api/docs .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://ai.google.dev/gemini-api/docs"
+    },
+    {
+      "idx": 36,
+      "label": "DeepSeek [2026]",
+      "text": "DeepSeek. DeepSeek API Documentation, 2026. URL https://api-docs.deepseek.com/ .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://api-docs.deepseek.com/"
+    },
+    {
+      "idx": 37,
+      "label": "Qwen [2026]",
+      "text": "Qwen. Qwen API Documentation, 2026. URL https://modelstudio.console.alibabacloud.com/ap-southeast-1 .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://modelstudio.console.alibabacloud.com/ap-southeast-1"
+    },
+    {
+      "idx": 38,
+      "label": "Menezes et al. [2018]",
+      "text": "Alfred J Menezes, Paul C Van Oorschot, and Scott A Vanstone. Handbook of applied cryptography . CRC press, 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "Backman et al. [2024]",
+      "text": "Annabelle Backman, Justin Richer, and Manu Sporny. HTTP Message Signatures. RFC 9421, Internet Engineering Task Force, February 2024. URL https://www.rfc-editor.org/rfc/rfc9421 .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc9421"
+    },
+    {
+      "idx": 40,
+      "label": "Rescorla [2018]",
+      "text": "Eric Rescorla. The Transport Layer Security (TLS) Protocol Version 1.3. RFC 8446, August 2018. URL https://www.rfc-editor.org/rfc/rfc8446 .",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc8446"
+    },
+    {
+      "idx": 41,
+      "label": "Saint-Andre and Salz [2023]",
+      "text": "Peter Saint-Andre and Rich Salz. Service Identity in TLS. RFC 9525, November 2023. URL https://www.rfc-editor.org/rfc/rfc9525 .",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc9525"
+    },
+    {
+      "idx": 42,
+      "label": "Cooper et al. [2008]",
+      "text": "David Cooper, Stefan Santesson, Stephen Farrell, Sharon Boeyen, Russell Housley, and William Polk. Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile. RFC 5280, May 2008. URL https://www.rfc-editor.org/rfc/rfc5280 .",
+      "year": 2008,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc5280"
+    },
+    {
+      "idx": 43,
+      "label": "Georgiev et al. [2012]",
+      "text": "Martin Georgiev, Subodh Iyengar, Suman Jana, Rishita Anubhai, Dan Boneh, and Vitaly Shmatikov. The most dangerous code in the world: validating ssl certificates in non-browser software. In Proceedings of the 2012 ACM conference on Computer and communications security , pages 38–49, 2012.",
+      "year": 2012,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "Clark and Van Oorschot [2013]",
+      "text": "Jeremy Clark and Paul C Van Oorschot. Sok: Ssl and https: Revisiting past challenges and evaluating certificate trust model enhancements. In 2013 IEEE symposium on security and privacy , pages 511–525. IEEE, 2013.",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "Sotirov et al. [2008]",
+      "text": "Alexander Sotirov, Marc Stevens, Jacob Appelbaum, Arjen K Lenstra, David Molnar, Dag Arne Osvik, and Benne De Weger. Md5 considered harmful today, creating a rogue ca certificate. In 25th Annual Chaos Communication Congress , 2008.",
+      "year": 2008,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "Hodges et al. [2012]",
+      "text": "Jeff Hodges, Collin Jackson, and Adam Barth. HTTP Strict Transport Security (HSTS). RFC 6797, Internet Engineering Task Force, November 2012. URL https://www.rfc-editor.org/rfc/rfc6797 .",
+      "year": 2012,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc6797"
+    },
+    {
+      "idx": 47,
+      "label": "Kent and Seo [2005]",
+      "text": "Stephen Kent and Karen Seo. Security Architecture for the Internet Protocol. RFC 4301, Internet Engineering Task Force, December 2005. URL https://www.rfc-editor.org/rfc/rfc4301 .",
+      "year": 2005,
+      "arxiv_id": null,
+      "url": "https://www.rfc-editor.org/rfc/rfc4301"
+    },
+    {
+      "idx": 48,
+      "label": "Perez and Ribeiro [2022]",
+      "text": "Fábio Perez and Ian Ribeiro. Ignore previous prompt: Attack techniques for language models. arXiv preprint arXiv:2211.09527 , 2022.",
+      "year": 2022,
+      "arxiv_id": "2211.09527",
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "Liu et al. [2024a]",
+      "text": "Yupei Liu, Yuqi Jia, Runpeng Geng, Jinyuan Jia, and Neil Zhenqiang Gong. Formalizing and benchmarking prompt injection attacks and defenses. In 33rd USENIX Security Symposium (USENIX Security 24) , 2024a.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "Liu et al. [2023]",
+      "text": "Yi Liu et al. Prompt injection attack against LLM-integrated applications. arXiv preprint arXiv:2306.05499 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2306.05499",
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "Greshake et al. [2023]",
+      "text": "Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten Holz, and Mario Fritz. Not what you’ve signed up for: Compromising real-world llm-integrated applications with indirect prompt injection. In Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "Zou et al. [2023]",
+      "text": "Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J Zico Kolter, and Matt Fredrikson. Universal and transferable adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2307.15043",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "Liu et al. [2024b]",
+      "text": "Xiaogeng Liu, Nan Xu, Muhao Chen, and Chaowei Xiao. Autodan: Generating stealthy jailbreak prompts on aligned large language models. In B. Kim, Y. Yue, S. Chaudhuri, K. Fragkiadaki, M. Khan, and Y. Sun, editors, International Conference on Learning Representations , volume 2024, pages 56174–56194, 2024b. URL https://proceedings.iclr.cc/paper_files/paper/2024/file/f83cb637e159e789f5576ff6848874de-Paper-Conference.pdf .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/f83cb637e159e789f5576ff6848874de-Paper-Conference.pdf"
+    },
+    {
+      "idx": 54,
+      "label": "Chao et al. [2025]",
+      "text": "Patrick Chao, Alexander Robey, Edgar Dobriban, Hamed Hassani, George J. Pappas, and Eric Wong. Jailbreaking black box large language models in twenty queries. In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) , pages 23–42, 2025. doi: 10.1109/SaTML64287.2025.00010",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "Deng et al. [2024]",
+      "text": "Gelei Deng, Yi Liu, Yuekang Li, Kailong Wang, Ying Zhang, Zefeng Li, Haoyu Wang, Tianwei Zhang, and Yang Liu. Masterkey: Automated jailbreak across multiple large language model chatbots. arXiv preprint arXiv:2307.08715 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2307.08715",
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "Pasquini et al. [2024]",
+      "text": "Dario Pasquini, Martin Strohmeier, and Carmela Troncoso. Neural exec: Learning (and learning from) execution triggers for prompt injection attacks. arXiv preprint arXiv:2405.02562 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2405.02562",
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "Liu et al. [2024c]",
+      "text": "Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang. Lost in the middle: How language models use long contexts. Transactions of the Association for Computational Linguistics , 12:157–173, 2024c.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "Gu [2026]",
+      "text": "Shangding Gu. Long context, less focus: A scaling gap in llms revealed through privacy and personalization. arXiv preprint arXiv:2602.15028 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2602.15028",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "Hung et al. [2025]",
+      "text": "Kuo-Han Hung, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston H Hsu, and Pin-Yu Chen. Attention tracker: Detecting prompt injection attacks in llms. In Findings of the Association for Computational Linguistics: NAACL 2025 , pages 2309–2322, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "Shoup [2004]",
+      "text": "Victor Shoup. Sequences of games: a tool for taming complexity in security proofs. Cryptology ePrint Archive , 2004.",
+      "year": 2004,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "Dolev and Yao [1983]",
+      "text": "Danny Dolev and Andrew Yao. On the security of public key protocols. IEEE Transactions on information theory , 29(2):198–208, 1983.",
+      "year": 1983,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "Li et al. [2024]",
+      "text": "Zekun Li, Baolin Peng, Pengcheng He, and Xifeng Yan. Evaluating the instruction-following robustness of large language models to prompt injection. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing , pages 4921–4941. Association for Computational Linguistics, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "OpenAI [2026]",
+      "text": "OpenAI. Introducing gpt-5.4. https://openai.com/index/introducing-gpt-5-4/ , 2026. Accessed: 2026-04-29.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "idx": 64,
+      "label": "Google DeepMind [2026]",
+      "text": "Google DeepMind. Gemini 3.1 pro model card. https://deepmind.google/models/model-cards/gemini-3-1-pro/ , February 2026. Accessed: 2026-04-29.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/"
+    },
+    {
+      "idx": 65,
+      "label": "Anthropic [2026]",
+      "text": "Anthropic. Claude opus 4.6 system card. https://www-cdn.anthropic.com/0dd865075ad3132672ee0ab40b05a53f14cf5288.pdf , February 2026. Accessed: 2026-04-29.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www-cdn.anthropic.com/0dd865075ad3132672ee0ab40b05a53f14cf5288.pdf"
+    },
+    {
+      "idx": 66,
+      "label": "Zeng et al. [2026]",
+      "text": "Aohan Zeng, Xin Lv, Zhenyu Hou, Zhengxiao Du, Qinkai Zheng, Bin Chen, Da Yin, Chendi Ge, Chenghua Huang, Chengxing Xie, et al. Glm-5: from vibe coding to agentic engineering. arXiv preprint arXiv:2602.15763 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2602.15763",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "MiniMax [2026]",
+      "text": "MiniMax. MiniMax-M2.5: Built for real-world productivity. https://www.minimax.io/news/minimax-m25 , 2026. Accessed: 2026-04-29.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.minimax.io/news/minimax-m25"
+    },
+    {
+      "idx": 68,
+      "label": "Yang et al. [2025]",
+      "text": "An Yang, Anfeng Li, Baosong Yang, Beichen Zhang, Binyuan Hui, Bo Zheng, Bowen Yu, Chang Gao, Chengen Huang, Chenxu Lv, et al. Qwen3 technical report. arXiv preprint arXiv:2505.09388 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "Zhan et al. [2024]",
+      "text": "Qiusi Zhan, Zhixiang Liang, Zifan Ying, and Daniel Kang. Injecagent: Benchmarking indirect prompt injections in tool-integrated large language model agents. In Findings of the Association for Computational Linguistics: ACL 2024 , pages 10471–10506, 2024. doi: 10.18653/v1/2024.findings-acl.624",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "Gao et al. [2024]",
+      "text": "Irena Gao, Percy Liang, and Carlos Guestrin. Model equality testing: Which model is this api serving? arXiv preprint arXiv:2410.20247 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2410.20247",
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "OpenClaw API [2026]",
+      "text": "OpenClaw API. StockClaw: Using OpenClaw to Quickly Build Your AI Stock Manager. https://openclawapi.org/en/blog/2026-03-14-stockclaw-ai-stock-assistant , March 2026. Accessed: 2026-04-30.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openclawapi.org/en/blog/2026-03-14-stockclaw-ai-stock-assistant"
+    },
+    {
+      "idx": 72,
+      "label": "Learn Prompting [2023]",
+      "text": "Learn Prompting. Defensive measures: Instruction defense. https://learnprompting.org/docs/prompt_hacking/defensive_measures/instruction , 2023. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://learnprompting.org/docs/prompt_hacking/defensive_measures/instruction"
+    },
+    {
+      "idx": 73,
+      "label": "Willison [2022]",
+      "text": "Simon Willison. Prompt injection attacks against GPT-3. https://simonwillison.net/2022/Sep/12/prompt-injection/ , 2022. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/"
+    },
+    {
+      "idx": 74,
+      "label": "Liu et al. [2025]",
+      "text": "Yupei Liu, Yuqi Jia, Jinyuan Jia, Dawn Song, and Neil Zhenqiang Gong. Datasentinel: A game-theoretic detection of prompt injection attacks. In 2025 IEEE Symposium on Security and Privacy (SP) , pages 2190–2208. IEEE, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 75,
+      "label": "Debenedetti et al. [2025]",
+      "text": "Edoardo Debenedetti, Ilia Shumailov, Tianqi Fan, Jamie Hayes, Nicholas Carlini, Daniel Fabian, Christoph Kern, Chongyang Shi, Andreas Terzis, and Florian Tramèr. Defeating prompt injections by design. arXiv preprint arXiv:2503.18813 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2503.18813",
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "Chen et al. [2023]",
+      "text": "Lingjiao Chen, Matei Zaharia, and James Zou. Frugalgpt: How to use large language models while reducing cost and improving performance. arXiv preprint arXiv:2305.05176 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2305.05176",
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "Ding et al. [2024]",
+      "text": "Dujian Ding, Ankur Mallick, Chi Wang, Robert Sim, and Subhabrata Mukherjee. Hybrid llm: Cost-efficient and quality-aware query routing. In The Twelfth International Conference on Learning Representations (ICLR) , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "Martin et al. [2025]",
+      "text": "Noah Martin, Abdullah Bin Faisal, Hiba Eltigani, Rukhshan Haroon, Swaminathan Lamelas, and Fahad Dogar. Llmbridge: Reducing costs to access llms in a prompt-centric internet. arXiv preprint arXiv:2410.11857 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2410.11857",
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "Ong et al. [2024]",
+      "text": "Isaac Ong, Amjad Almahairi, Vincent Wu, Joseph E Gonzalez, and Ion Stoica. Routellm: Learning to route llms with preference data. arXiv preprint arXiv:2406.18665 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2406.18665",
+      "url": null
+    },
+    {
+      "idx": 80,
+      "label": "Zhang et al. [2026]",
+      "text": "Zecheng Zhang, Han Zheng, and Yue Xu. Sear: Schema-based evaluation and routing for llm gateways. arXiv preprint arXiv:2603.26728 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2603.26728",
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "Frichette et al. [2026]",
+      "text": "Nick Frichette, Sebastian Obregoso, Christophe Tafani-Dereeper, and Emile Spir. Litellm and telnyx compromised on pypi: Tracing the teampcp supply chain campaign. Datadog Security Labs Report, 2026. URL https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/ . Accessed: 2026-04-25.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/"
+    },
+    {
+      "idx": 82,
+      "label": "Yagoubi et al. [2026]",
+      "text": "Faouzi El Yagoubi, Godwin Badu-Marfo, and Ranwa Al Mallah. Agentleak: A full-stack benchmark for privacy leakage in multi-agent llm systems. arXiv preprint arXiv:2602.11510 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2602.11510",
+      "url": null
+    },
+    {
+      "idx": 83,
+      "label": "Li et al. [2025]",
+      "text": "Zichuan Li, Jian Cui, Xiaojing Liao, and Luyi Xing. Les dissonances: Cross-tool harvesting and polluting in pool-of-tools empowered llm agents. arXiv preprint arXiv:2504.03111 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2504.03111",
+      "url": null
+    },
+    {
+      "idx": 84,
+      "label": "Shen et al. [2024]",
+      "text": "Xinyue Shen, Zeyuan Chen, Michael Backes, Yun Shen, and Yang Zhang. ”do anything now”: Characterizing and evaluating in-the-wild jailbreak prompts on large language models. In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security , pages 1671–1685, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 85,
+      "label": "Mehrotra et al. [2024]",
+      "text": "Anay Mehrotra, Manolis Zampetakis, Paul Kassianik, Blaine Nelson, Hyrum Anderson, Yaron Singer, and Amin Karbasi. Tree of attacks: Jailbreaking black-box llms automatically. Advances in Neural Information Processing Systems , 37:61065–61105, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 86,
+      "label": "Zheng et al. [2025]",
+      "text": "Youjia Zheng, Mohammad Zandsalimy, and Shanu Sushmita. Behind the mask: Benchmarking camouflaged jailbreaks in large language models. arXiv preprint arXiv:2509.05471 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2509.05471",
+      "url": null
+    },
+    {
+      "idx": 87,
+      "label": "Zou et al. [2025]",
+      "text": "Wei Zou, Runpeng Geng, Binghui Wang, and Jinyuan Jia. Poisonedrag: Knowledge corruption attacks to retrieval-augmented generation of large language models. In USENIX Security Symposium , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 88,
+      "label": "Rall et al. [2026]",
+      "text": "Dennis Rall, Bernhard Bauer, Mohit Mittal, and Thomas Fraunholz. Exploiting web search tools of ai agents for data exfiltration. arXiv preprint arXiv:2510.09093 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2510.09093",
+      "url": null
+    },
+    {
+      "idx": 89,
+      "label": "Cohen et al. [2025]",
+      "text": "Stav Cohen, Ron Bitton, and Ben Nassi. Here comes the ai worm: Preventing the propagation of adversarial self-replicating prompts within genai ecosystems. In Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security , CCS ’25, pages 3975–3989, New York, NY, USA, 2025. Association for Computing Machinery. ISBN 9798400715259. doi: 10.1145/3719027.3765196 URL https://doi.org/10.1145/3719027.3765196 .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3719027.3765196"
+    },
+    {
+      "idx": 90,
+      "label": "Tan et al. [2024]",
+      "text": "Xue Tan, Hao Luan, Mingyu Luo, Xiaoyan Sun, Ping Chen, and Jun Dai. Revprag: Revealing poisoning attacks in retrieval-augmented generation through llm activation analysis. arXiv preprint arXiv:2411.18948 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2411.18948",
+      "url": null
+    },
+    {
+      "idx": 91,
+      "label": "Alon and Kamfonas [2023]",
+      "text": "Gabriel Alon and Michael Kamfonas. Detecting language model attacks with perplexity. arXiv preprint arXiv:2308.14132 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2308.14132",
+      "url": null
+    },
+    {
+      "idx": 92,
+      "label": "Inan et al. [2023]",
+      "text": "Hakan Inan, Kartikeya Upasani, Jianfeng Chi, Rashi Rungta, Krithika Iyer, Yuning Mao, Michael Tontchev, Qing Hu, Brian Fuller, Davide Testuggine, et al. Llama guard: Llm-based input-output safeguard for human-ai conversations. arXiv preprint arXiv:2312.06674 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2312.06674",
+      "url": null
+    },
+    {
+      "idx": 93,
+      "label": "Meta AI [2024]",
+      "text": "Meta AI. Llama guard 3: Model cards and prompt formats, 2024. URL https://www.llama.com/docs/model-cards-and-prompt-formats/ .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://www.llama.com/docs/model-cards-and-prompt-formats/"
+    },
+    {
+      "idx": 94,
+      "label": "Zeng et al. [2024]",
+      "text": "Wenjun Zeng, Yuchi Liu, Ryan Mullins, et al. Shieldgemma: Generative ai content moderation based on gemma. arXiv preprint arXiv:2407.21772 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2407.21772",
+      "url": null
+    },
+    {
+      "idx": 95,
+      "label": "Han et al. [2024]",
+      "text": "Seungju Han, Kavel Rao, Allyson Ettinger, Liwei Jiang, Bill Yuchen Lin, Nathan Lambert, Yejin Choi, and Nouha Dziri. Wildguard: Open one-stop moderation tools for safety risks, jailbreaks, and refusals of llms. In A. Globerson, L. Mackey, D. Belgrave, A. Fan, U. Paquet, J. Tomczak, and C. Zhang, editors, Advances in Neural Information Processing Systems , volume 37, pages 8093–8131. Curran Associates, Inc., 2024. doi: 10.52202/079017-0261 URL https://proceedings.neurips.cc/paper_files/paper/2024/file/0f69b4b96a46f284b726fbd70f74fb3b-Paper-Datasets_and_Benchmarks_Track.pdf .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/0f69b4b96a46f284b726fbd70f74fb3b-Paper-Datasets_and_Benchmarks_Track.pdf"
+    },
+    {
+      "idx": 96,
+      "label": "Padhi et al. [2025]",
+      "text": "Inkit Padhi, Manish Nagireddy, Giandomenico Cornacchia, Subhajit Chaudhury, Tejaswini Pedapati, Pierre Dognin, Keerthiram Murugesan, Erik Miehling, Martín Santillán Cooper, Kieran Fraser, Giulio Zizzo, Muhammad Zaid Hameed, Mark Purcell, Michael Desmond, Qian Pan, Inge Vejsbjerg, Elizabeth M. Daly, Michael Hind, Werner Geyer, Ambrish Rawat, Kush R. Varshney, and Prasanna Sattigeri. Granite guardian: Comprehensive LLM safeguarding. In Weizhu Chen, Yi Yang, Mohammad Kachuee, and Xue-Yong Fu, editors, Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: Industry Track) , pages 607–615, Albuquerque, New Mexico, April 2025. Association for Computational Linguistics. ISBN 979-8-89176-194-0. doi: 10.18653/v1/2025.naacl-industry.49 URL https://aclanthology.org/2025.naacl-industry.49/ .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.naacl-industry.49/"
+    },
+    {
+      "idx": 97,
+      "label": "Rebedea et al. [2023]",
+      "text": "Traian Rebedea, Razvan Dinu, Makesh Narsimhan Sreedhar, Christopher Parisien, and Jonathan Cohen. Nemo guardrails: A toolkit for controllable and safe llm applications with programmable rails. arXiv preprint arXiv:2310.10501 , 2023.",
+      "year": 2023,
+      "arxiv_id": "2310.10501",
+      "url": null
+    },
+    {
+      "idx": 98,
+      "label": "She et al. [2025]",
+      "text": "Yining She, Daniel W Peterson, Marianne Menglin Liu, Vikas Upadhyay, Mohammad Hossein Chaghazardi, Eunsuk Kang, and Dan Roth. Rag makes guardrails unsafe? investigating robustness of guardrails under rag-style contexts. arXiv preprint arXiv:2510.05310 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2510.05310",
+      "url": null
+    },
+    {
+      "idx": 99,
+      "label": "Young [2025]",
+      "text": "Richard J. Young. Evaluating the robustness of large language model safety guardrails against adversarial attacks. arXiv preprint arXiv:2511.22047 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2511.22047",
+      "url": null
+    },
+    {
+      "idx": 100,
+      "label": "Foerster et al. [2026]",
+      "text": "H Foerster, R Mullins, T Blanchard, N Papernot, K Nikolic, F Tramèr, I Shumailov, C Zhang, and Y Zhao. Camels can use computers too: System-level security for computer use agents. arXiv preprint arXiv:2601.09923 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2601.09923",
+      "url": null
+    },
+    {
+      "idx": 101,
+      "label": "Wu et al. [2025]",
+      "text": "Yuhao Wu, Franziska Roesner, Tadayoshi Kohno, Ning Zhang, and Umar Iqbal. Isolategpt: An execution isolation architecture for llm-based agentic systems. In Network and Distributed System Security Symposium (NDSS) , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 102,
+      "label": "Gong and Deng [2026]",
+      "text": "Guangyu Gong and Zizhuang Deng. Planguard: Defending agents against indirect prompt injection via planning-based consistency verification. arXiv preprint arXiv:2604.10134 , 2026.",
+      "year": 2026,
+      "arxiv_id": "2604.10134",
+      "url": null
+    },
+    {
+      "idx": 103,
+      "label": "Kang and Li [2024]",
+      "text": "Mintong Kang and Bo Li. R2-guard: Robust reasoning enabled llm guardrail via knowledge-enhanced logical reasoning. arXiv preprint arXiv:2407.05557 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2407.05557",
+      "url": null
+    },
+    {
+      "idx": 104,
+      "label": "Wang et al. [2025]",
+      "text": "Xunguang Wang, Daoyuan Wu, Zhenlan Ji, Zongjie Li, Pingchuan Ma, Shuai Wang, Yingjiu Li, Yang Liu, Ning Liu, and Juergen Rahmel. Selfdefend: Llms can defend themselves against jailbreaking in a practical manner. In Proceedings of the 34th USENIX Conference on Security Symposium , SEC ’25, USA, 2025. USENIX Association. ISBN 978-1-939133-52-6.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 105,
+      "label": "Wallace et al. [2024]",
+      "text": "Eric Wallace, Kai Xiao, Reimar Leike, Lilian Weng, Johannes Heidecke, and Alex Beutel. The instruction hierarchy: Training llms to prioritize privileged instructions. arXiv preprint arXiv:2404.13208 , 2024.",
+      "year": 2024,
+      "arxiv_id": "2404.13208",
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "Wang et al. [2024]",
+      "text": "Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhiyuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, and Jirong Wen. A survey on large language model based autonomous agents. Frontiers of Computer Science , 18:186345, 2024. doi: 10.1007/s11704-024-40231-1",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "Microsoft [2026a]",
+      "text": "Microsoft. Model clients — autogen, 2026a. URL https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/components/model-clients.html . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://microsoft.github.io/autogen/stable/user-guide/core-user-guide/components/model-clients.html"
+    },
+    {
+      "idx": 108,
+      "label": "Microsoft [2026b]",
+      "text": "Microsoft. autogen_ext.models.openai — autogen, 2026b. URL https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.models.openai.html . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.models.openai.html"
+    },
+    {
+      "idx": 109,
+      "label": "CrewAI [2026b]",
+      "text": "CrewAI. Connect to any llm - crewai, 2026b. URL https://docs.crewai.com/en/learn/llm-connections . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.crewai.com/en/learn/llm-connections"
+    },
+    {
+      "idx": 110,
+      "label": "Dify [2026]",
+      "text": "Dify. Model providers - dify docs, 2026. URL https://docs.dify.ai/en/guides/model-configuration/interfaces . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.dify.ai/en/guides/model-configuration/interfaces"
+    },
+    {
+      "idx": 111,
+      "label": "OpenHands [2026]",
+      "text": "OpenHands. Setup - openhands docs, 2026. URL https://docs.openhands.dev/openhands/usage/run-openhands/local-setup . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.openhands.dev/openhands/usage/run-openhands/local-setup"
+    },
+    {
+      "idx": 112,
+      "label": "Open WebUI [2026a]",
+      "text": "Open WebUI. Openai-compatible - open webui, 2026a. URL https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-openai-compatible"
+    },
+    {
+      "idx": 113,
+      "label": "Open WebUI [2026b]",
+      "text": "Open WebUI. Direct connections - open webui, 2026b. URL https://docs.openwebui.com/features/chat-conversations/direct-connections/ . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.openwebui.com/features/chat-conversations/direct-connections/"
+    },
+    {
+      "idx": 114,
+      "label": "LobeHub [2026a]",
+      "text": "LobeHub. Using openai in lobechat, 2026a. URL https://lobehub.com/docs/usage/providers/openai/ . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://lobehub.com/docs/usage/providers/openai/"
+    },
+    {
+      "idx": 115,
+      "label": "LobeHub [2026b]",
+      "text": "LobeHub. Model providers - lobechat self-hosting environment variables, 2026b. URL https://lobehub.com/docs/self-hosting/environment-variables/model-provider/ . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://lobehub.com/docs/self-hosting/environment-variables/model-provider/"
+    },
+    {
+      "idx": 116,
+      "label": "Mintplex Labs [2026a]",
+      "text": "Mintplex Labs. Large language models - anythingllm documentation, 2026a. URL https://docs.anythingllm.com/setup/llm-configuration/overview . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.anythingllm.com/setup/llm-configuration/overview"
+    },
+    {
+      "idx": 117,
+      "label": "Mintplex Labs [2026b]",
+      "text": "Mintplex Labs. Openai (generic) llm - anythingllm documentation, 2026b. URL https://docs.anythingllm.com/setup/llm-configuration/cloud/openai-generic . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.anythingllm.com/setup/llm-configuration/cloud/openai-generic"
+    },
+    {
+      "idx": 118,
+      "label": "FlowiseAI [2026]",
+      "text": "FlowiseAI. Chatopenai - flowiseai documentation, 2026. URL https://docs.flowiseai.com/integrations/langchain/chat-models/azure-chatopenai . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.flowiseai.com/integrations/langchain/chat-models/azure-chatopenai"
+    },
+    {
+      "idx": 119,
+      "label": "LibreChat [2026]",
+      "text": "LibreChat. Custom endpoints - librechat, 2026. URL https://www.librechat.ai/docs/quick_start/custom_endpoints . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.librechat.ai/docs/quick_start/custom_endpoints"
+    },
+    {
+      "idx": 120,
+      "label": "GitHub [2025]",
+      "text": "GitHub. Enterprise bring your own key (byok) for github copilot is now in public preview, 2025. URL https://github.blog/changelog/2025-11-20-enterprise-bring-your-own-key-byok-for-github-copilot-is-now-in-public-preview/ . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.blog/changelog/2025-11-20-enterprise-bring-your-own-key-byok-for-github-copilot-is-now-in-public-preview/"
+    },
+    {
+      "idx": 121,
+      "label": "Continue [2026b]",
+      "text": "Continue. How to self-host a model - continue, 2026b. URL https://docs.continue.dev/guides/how-to-self-host-a-model . Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.continue.dev/guides/how-to-self-host-a-model"
+    },
+    {
+      "idx": 122,
+      "label": "Cline [2026b]",
+      "text": "Cline. OpenAI compatible – cline. https://docs.cline.bot/provider-config/openai-compatible , 2026b. Accessed: 2026-04-20.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.cline.bot/provider-config/openai-compatible"
+    }
+  ]
+}

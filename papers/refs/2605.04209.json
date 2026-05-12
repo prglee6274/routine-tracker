@@ -1,0 +1,432 @@
+{
+  "arxiv_id": "2605.04209",
+  "source": "https://arxiv.org/html/2605.04209v1",
+  "fetched_at": "2026-05-12",
+  "count": 53,
+  "references": [
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Hugging Face Model Hub. https://huggingface.co , 2026. Accessed: 2026.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "ModelZoo. https://modelzoo.co , 2026. Accessed: 2026.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://modelzoo.co"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "TensorFlow Model Garden. https://github.com/tensorflow/models , 2026. Accessed: 2026.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/tensorflow/models"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Eugene Bagdasaryan and Vitaly Shmatikov. Blind backdoors in deep learning models. In 30th USENIX Security Symposium (USENIX Security 21)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Boaz Barak, Samuel Hopkins, Jonathan Kelner, Pravesh K Kothari, Ankur Moitra, and Aaron Potechin. A nearly tight sum-of-squares lower bound for the planted clique problem. SIAM Journal on Computing",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Quentin Berthet and Philippe Rigollet. Complexity theoretic lower bounds for sparse principal component detection. In Conference on learning theory",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Quentin Berthet and Philippe Rigollet. Optimal detection of sparse principal components in high dimension. 2013.",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Matthew Brennan and Guy Bresler. Optimal average-case reductions to sparse pca: From weak assumptions to strong hardness. In Conference on Learning Theory",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Matthew Brennan, Guy Bresler, and Wasim Huleihel. Reducibility and computational lower bounds for problems with planted sparse structure. In Conference On Learning Theory",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Bochuan Cao, Jinyuan Jia, Chuxuan Hu, Wenbo Guo, Zhen Xiang, Jinghui Chen, Bo Li, and Dawn Song. Data free backdoor attacks. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Bryant Chen, Wilka Carvalho, Nathalie Baracaldo, Heiko Ludwig, Benjamin Edwards, Taesung Lee, Ian Molloy, and Biplav Srivastava. Detecting backdoor attacks on deep neural networks by activation clustering. arXiv preprint arXiv:1811.03728",
+      "year": null,
+      "arxiv_id": "1811.03728",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Xinyun Chen, Chang Liu, Bo Li, Kimberly Lu, and Dawn Song. Targeted backdoor attacks on deep learning systems using data poisoning. arXiv preprint arXiv:1712.05526",
+      "year": null,
+      "arxiv_id": "1712.05526",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Sarthak Choudhary, Aashish Kolluri, and Prateek Saxena. Attacking byzantine robust aggregation in high dimensions. In 2024 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Ilias Diakonikolas, Gautam Kamath, Daniel Kane, Jerry Li, Jacob Steinhardt, and Alistair Stewart. Sever: A robust meta-algorithm for stochastic optimization. In International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Yunzi Ding, Dmitriy Kunisky, Alexander S Wein, and Afonso S Bandeira. Subexponential-time algorithms for sparse pca. Foundations of Computational Mathematics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Vitaly Feldman, Elena Grigorescu, Lev Reyzin, Santosh S Vempala, and Ying Xiao. Statistical algorithms and a lower bound for detecting planted cliques. Journal of the ACM (JACM)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Chao Gao, Zongming Ma, and Harrison H Zhou. Sparse cca: Adaptive estimation and computational barriers. 2017.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Shafi Goldwasser, Michael P Kim, Vinod Vaikuntanathan, and Or Zamir. Planting undetectable backdoors in machine learning models. In 2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Shafi Goldwasser, Jonathan Shafer, Neekon Vafa, and Vinod Vaikuntanathan. Oblivious defense in ml models: Backdoor removal without detection. In Proceedings of the 57th Annual ACM Symposium on Theory of Computing",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Tianyu Gu, Brendan Dolan-Gavitt, and Siddharth Garg. Badnets: Identifying vulnerabilities in the machine learning model supply chain. arXiv preprint arXiv:1708.06733",
+      "year": null,
+      "arxiv_id": "1708.06733",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Wenbo Guo, Bolun Wang, Yuanshun Yao, Shawn Shan, Bimal Viswanath, Haitao Zheng, and Ben Y. Zhao. TABOR: A highly accurate approach to inspecting and restoring trojan backdoors in AI systems. arXiv preprint arXiv:1908.01763",
+      "year": 1908,
+      "arxiv_id": "1908.01763",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Sanghyun Hong, Nicholas Carlini, and Alexey Kurakin. Handcrafted backdoors in deep neural networks. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Samuel B Hopkins, Pravesh K Kothari, Aaron Potechin, Prasad Raghavendra, Tselil Schramm, and David Steurer. The power of sum-of-squares for detecting hidden structures. In 2017 IEEE 58th Annual Symposium on Foundations of Computer Science (FOCS)",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Aayush Jain, Huijia Lin, and Amit Sahai. Indistinguishability obfuscation from well-founded assumptions. Journal of the ACM",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Alkis Kalavasis, Amin Karbasi, Argyris Oikonomou, Katerina Sotiraki, Grigoris Velegkas, and Manolis Zampetakis. Injecting undetectable backdoors in obfuscated neural networks and language models. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Yunsung Kim. Cs 354: Unfulfilled algorithmic fantasies. https://web.stanford.edu/class/cs354/scribe/lecture11.pdf , 2019.",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": "https://web.stanford.edu/class/cs354/scribe/lecture11.pdf"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Alex Krizhevsky, Geoffrey Hinton, et al. Learning multiple layers of features from tiny images. 2009.",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Hanjun Li, Huijia Lin, and George Lu. Succinct garbled circuits with low-depth garbling algorithms. Cryptology ePrint Archive",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Kang Liu, Brendan Dolan-Gavitt, and Siddharth Garg. Fine-pruning: Defending against backdooring attacks on deep neural networks. In Research in Attacks, Intrusions, and Defenses (RAID)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Yingqi Liu, Shiqing Ma, Yousra Aafer, Wen-Chuan Lee, Juan Zhai, Weihang Wang, and Xiangyu Zhang. Trojaning attack on neural networks. In 25th Annual Network And Distributed System Security Symposium (NDSS 2018)",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Baolin Wu, Andrew Y Ng, et al. Reading digits in natural images with unsupervised feature learning. In NIPS workshop on deep learning and unsupervised feature learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Anh Tu Ngo, Anupam Chattopadhyay, and Subhamoy Maitra. Cryptographic backdoor for neural networks: Boon and bane. arXiv preprint arXiv:2509.20714",
+      "year": 2509,
+      "arxiv_id": "2509.20714",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Anh Nguyen and Anh Tran. Wanet–imperceptible warping-based backdoor attack. arXiv preprint arXiv:2102.10369",
+      "year": 2102,
+      "arxiv_id": "2102.10369",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Tuan Anh Nguyen and Anh Tran. Input-aware dynamic backdoor attack. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Adnan Siraj Rakin, Zhezhi He, and Deliang Fan. Tbt: Targeted neural network attack with bit trojan. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Reza Shokri et al. Bypassing backdoor detection algorithms in deep learning. In 2020 IEEE European Symposium on Security and Privacy (EuroS&P)",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Johannes Stallkamp, Marc Schlipsing, Jan Salmen, and Christian Igel. Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition. Neural networks",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Brandon Tran, Jerry Li, and Aleksander Madry. Spectral signatures in backdoor attacks. Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Alexander Turner, Dimitris Tsipras, and Aleksander Madry. Clean-label backdoor attacks. 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Roman Vershynin. High-Dimensional Probability: An Introduction with Applications in Data Science Cambridge University Press, 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Bolun Wang, Yuanshun Yao, Shawn Shan, Huiying Li, Bimal Viswanath, Haitao Zheng, and Ben Y Zhao. Neural cleanse: Identifying and mitigating backdoor attacks in neural networks. In 2019 IEEE symposium on security and privacy (SP)",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Bolun Wang, Yuanshun Yao, Shawn Shan, Huiying Li, Bimal Viswanath, Haitao Zheng, and Ben Y. Zhao. Neural cleanse: Identifying and mitigating backdoor attacks in neural networks. In IEEE Symposium on Security and Privacy (S&P)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Tengyao Wang, Quentin Berthet, and Richard J Samworth. Statistical and computational trade-offs in estimation of sparse principal components. 2016.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Zhenting Wang, Kai Mei, Hailun Ding, Juan Zhai, and Shiqing Ma. Rethinking the reverse-engineering of trojan triggers. arXiv preprint arXiv:2210.15127",
+      "year": 2210,
+      "arxiv_id": "2210.15127",
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Zhenting Wang, Kai Mei, Hailun Ding, Juan Zhai, and Shiqing Ma. Rethinking the reverse-engineering of trojan triggers. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Zhenting Wang, Kai Mei, Juan Zhai, and Shiqing Ma. UNICORN: A unified backdoor trigger inversion framework. In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Dongxian Wu and Yisen Wang. Adversarial neuron pruning purifies backdoored deep models. In Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "Xiaojun Xu, Qi Wang, Huichen Li, Nikita Borisov, Carl A Gunter, and Bo Li. Detecting ai trojans using meta neural analysis. In 2021 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Xiaoyun Xu, Zhuoran Liu, Stefanos Koffas, and Stjepan Picek. Towards backdoor stealthiness in model parameter space. In Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Xiaoyun Xu, Zhuoran Liu, Stefanos Koffas, Shujian Yu, and Stjepan Picek. BAN: Detecting backdoors activated by adversarial neuron noise. arXiv preprint arXiv:2405.19928",
+      "year": 2405,
+      "arxiv_id": "2405.19928",
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Xiong Xu, Kunzhe Huang, Yiming Li, Zhan Qin, and Kui Ren. Towards reliable and efficient backdoor trigger inversion via decoupling benign features. In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Yuanshun Yao, Huiying Li, Haitao Zheng, and Ben Y Zhao. Latent backdoor attacks on deep neural networks. In Proceedings of the 2019 ACM SIGSAC conference on computer and communications security",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Yi Zeng, Si Chen, Won Park, Z. Morley Mao, Ming Jin, and Ruoxi Jia. Adversarial unlearning of backdoors via implicit hypergradient. In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

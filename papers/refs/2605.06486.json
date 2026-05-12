@@ -1,0 +1,88 @@
+{
+  "arxiv_id": "2605.06486",
+  "source": "https://arxiv.org/html/2605.06486v1",
+  "fetched_at": "2026-05-12",
+  "count": 10,
+  "references": [
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Zhang, A.K., Perry, N., Dulepet, R., Ji, J., Menders, C., Lin, J.W., Jones, E., Hussein, G., Liu, S., Jasper, D. and Peetathawatchai, P., 2024. Cybench: A framework for evaluating cybersecurity capabilities and risks of language models. arXiv preprint arXiv:2408.08926.",
+      "year": 2408,
+      "arxiv_id": "2408.08926",
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Singer, B., Lucas, K., Adiga, L., Jain, M., Bauer, L. and Sekar, V., 2025. On the feasibility of using llms to execute multistage network attacks. arXiv preprint arXiv:2501.16466.",
+      "year": 2501,
+      "arxiv_id": "2501.16466",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Shao, Minghao, Nanda Rani, Kimberly Milner, Haoran Xi, Meet Udeshi, Saksham Aggarwal, Venkata Sai Charan Putrevu et al. ”Towards Effective Offensive Security LLM Agents: Hyperparameter Tuning, LLM as a Judge, and a Lightweight CTF Benchmark.” arXiv preprint arXiv:2508.05674 (2025).",
+      "year": 2025,
+      "arxiv_id": "2508.05674",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "A. Abuadbba, C. Hicks, K. Moore, V. Mavroudis, B. Hasircioglu, D. Goel, and P. Jennings, “From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs,” arXiv preprint arXiv:2506.13434 , 2025. doi: 10.48550/arXiv.2506.13434.",
+      "year": 2506,
+      "arxiv_id": "2506.13434",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Deng, G., Liu, Y., Mayoral-Vilches, V., Liu, P., Li, Y., Xu, Y., Zhang, T., Liu, Y., Pinzger, M. and Rass, S., 2024. PentestGPT: Evaluating and harnessing large language models for automated penetration testing. In 33rd USENIX Security Symposium (USENIX Security 24) , pp. 847–864.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Xu, J., Stokes, J.W., McDonald, G., Bai, X., Marshall, D., Wang, S., Swaminathan, A. and Li, Z., 2024. AutoAttacker: A large language model guided system to implement automatic cyber-attacks. arXiv preprint arXiv:2403.01038 .",
+      "year": 2403,
+      "arxiv_id": "2403.01038",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "M. Xu, J. Fan, X. Huang, C. Zhou, J. Kang, D. Niyato, S. Mao, Z. Han, X. Shen, and K.-Y. Lam, Forewarned is Forearmed: A Survey on Large Language Model-based Agents in Autonomous Cyberattacks, arXiv preprint arXiv:2505.12786 , 2025.",
+      "year": 2025,
+      "arxiv_id": "2505.12786",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Gioacchini, L., Mellia, M., Drago, I., Delsanto, A., Siracusano, G., and Bifulco, R., 2024. AutoPenBench: Benchmarking Generative Agents for Penetration Testing. arXiv preprint arXiv:2410.03225 .",
+      "year": 2410,
+      "arxiv_id": "2410.03225",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Sanz-Gómez, M., Mayoral-Vilches, V., Balassone, F., Navarrete-Lozano, L.J., Chavez, C.R. and de Torres, M.D.M., 2025. Cybersecurity AI Benchmark (CAIBench): A Meta-Benchmark for Evaluating Cybersecurity AI Agents. arXiv preprint arXiv:2510.24317.",
+      "year": 2510,
+      "arxiv_id": "2510.24317",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Folkerts, L., Payne, W., Inman, S., Giavridis, P., Skinner, J., Deverett, S., Aung, J., Zorer, E., Schmatz, M., Ghanem, M. and Wilkinson, J., 2026. Measuring AI Agents’ Progress on Multi-Step Cyber Attack Scenarios. arXiv preprint arXiv:2603.11214.",
+      "year": 2603,
+      "arxiv_id": "2603.11214",
+      "url": null
+    }
+  ]
+}

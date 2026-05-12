@@ -1,0 +1,168 @@
+{
+  "arxiv_id": "2605.03160",
+  "source": "https://arxiv.org/html/2605.03160v1",
+  "fetched_at": "2026-05-12",
+  "count": 20,
+  "references": [
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Language models as agent models In Findings of the Association for Computational Linguistics: EMNLP 2022 External Links: 2212.01681",
+      "year": 2212,
+      "arxiv_id": "2212.01681",
+      "url": "https://arxiv.org/abs/2212.01681"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Claude’s character Note: Anthropic research blog External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/research/claude-character"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Language models can explain neurons in language models Note: OpenAI External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Towards monosemanticity: decomposing language models with dictionary learning Note: Transformer Circuits Thread External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Persona vectors: monitoring and controlling character traits in language models arXiv preprint arXiv:2507.21509 External Links: 2507.21509",
+      "year": 2507,
+      "arxiv_id": "2507.21509",
+      "url": "https://arxiv.org/abs/2507.21509"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Sparse autoencoders find highly interpretable features in language models arXiv preprint arXiv:2309.08600 External Links: 2309.08600",
+      "year": 2309,
+      "arxiv_id": "2309.08600",
+      "url": "https://arxiv.org/abs/2309.08600"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Toy models of superposition Note: Transformer Circuits Thread External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2022/toy_model/index.html"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Scaling and evaluating sparse autoencoders arXiv preprint arXiv:2406.04093 External Links: 2406.04093",
+      "year": 2406,
+      "arxiv_id": "2406.04093",
+      "url": "https://arxiv.org/abs/2406.04093"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Understanding and steering Llama 3 with sparse autoencoders Note: Goodfire research blogSAE weights: https://huggingface.co/Goodfire/Llama-3.1-8B-Instruct-SAE-l19 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/Goodfire/Llama-3.1-8B-Instruct-SAE-l19"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Llama Scope: extracting millions of features from Llama-3.1-8B with sparse autoencoders arXiv preprint arXiv:2410.20526 External Links: 2410.20526",
+      "year": 2410,
+      "arxiv_id": "2410.20526",
+      "url": "https://arxiv.org/abs/2410.20526"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Inference-time intervention: eliciting truthful answers from a language model Advances in Neural Information Processing Systems External Links: 2306.03341",
+      "year": 2306,
+      "arxiv_id": "2306.03341",
+      "url": "https://arxiv.org/abs/2306.03341"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Gemma scope: open sparse autoencoders everywhere all at once on Gemma 2 arXiv preprint arXiv:2408.05147 External Links: 2408.05147",
+      "year": 2408,
+      "arxiv_id": "2408.05147",
+      "url": "https://arxiv.org/abs/2408.05147"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "The linear representation hypothesis and the geometry of large language models In Proceedings of the 41st International Conference on Machine Learning External Links: 2311.03658",
+      "year": 2311,
+      "arxiv_id": "2311.03658",
+      "url": "https://arxiv.org/abs/2311.03658"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Discovering language model behaviors with model-written evaluations arXiv preprint arXiv:2212.09251 External Links: 2212.09251",
+      "year": 2212,
+      "arxiv_id": "2212.09251",
+      "url": "https://arxiv.org/abs/2212.09251"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Qwen-Scope: open-source sparse autoencoders for the Qwen3 and Qwen3.5 families Note: Hugging Face model collectionSAE weights used in this paper: qwen-scope-3-1.7b-base-w32k-l50 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/Qwen"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Steering Llama 2 via contrastive activation addition In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Link , 2312.06681",
+      "year": 2312,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.828/"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Extracting latent steering vectors from pretrained language models In Findings of the Association for Computational Linguistics: ACL 2022 External Links: 2205.05124",
+      "year": 2205,
+      "arxiv_id": "2205.05124",
+      "url": "https://arxiv.org/abs/2205.05124"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Scaling monosemanticity: extracting interpretable features from Claude 3 Sonnet Note: Transformer Circuits Thread External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Steering language models with activation engineering arXiv preprint arXiv:2308.10248 External Links: 2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": "https://arxiv.org/abs/2308.10248"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Representation engineering: a top-down approach to AI transparency arXiv preprint arXiv:2310.01405 External Links: 2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": "https://arxiv.org/abs/2310.01405"
+    }
+  ]
+}

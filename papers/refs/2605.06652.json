@@ -1,0 +1,248 @@
+{
+  "arxiv_id": "2605.06652",
+  "source": "https://arxiv.org/html/2605.06652v1",
+  "fetched_at": "2026-05-12",
+  "count": 30,
+  "references": [
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Petri: An Open-source Auditing Tool to Accelerate AI Safety Research Note: Anthropic Alignment Science Blog; open-source release at https://github.com/safety-research/petri https://alignment.anthropic.com/2025/petri/ . Accessed 2026-04-23",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/safety-research/petri"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations Note: Anthropic Alignment Science Blog; open-source release at https://alignment.anthropic.com/2026/petri-v2/ https://alignment.anthropic.com/2026/petri-v2/ . Accessed 2026-04-23",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://alignment.anthropic.com/2026/petri-v2/"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Refusal in Language Models Is Mediated by a Single Direction In Advances in Neural Information Processing Systems 37 (NeurIPS 2024) External Links: Link , Document , 2406.11717",
+      "year": 2406,
+      "arxiv_id": "2406.11717",
+      "url": "https://arxiv.org/abs/2406.11717"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Constitutional AI: Harmlessness from AI Feedback ArXiv e-prints External Links: Link , Document , 2212.08073",
+      "year": 2212,
+      "arxiv_id": "2212.08073",
+      "url": "https://arxiv.org/abs/2212.08073"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Measuring What Matters: Construct Validity in Large Language Model Benchmarks In Advances in Neural Information Processing Systems 38 (NeurIPS 2025) Datasets and Benchmarks Track External Links: Link , Document , 2511.04703",
+      "year": 2511,
+      "arxiv_id": "2511.04703",
+      "url": "https://arxiv.org/abs/2511.04703"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Comparison Requires Valid Measurement: Rethinking Attack Success Rate Comparisons in AI Red Teaming In Advances in Neural Information Processing Systems 38 (NeurIPS 2025) Position Papers Track External Links: Link , 2601.18076",
+      "year": 2601,
+      "arxiv_id": "2601.18076",
+      "url": "https://arxiv.org/abs/2601.18076"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "SimpleAudit: verified digital public good (registry entry) Note: https://new.digitalpublicgoods.net/r/simpleaudit Verified DPG, reviewed 2026-02-10. Steward: Simula Research Laboratory.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://new.digitalpublicgoods.net/r/simpleaudit"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned ArXiv e-prints External Links: Link , Document , 2209.07858",
+      "year": 2209,
+      "arxiv_id": "2209.07858",
+      "url": "https://arxiv.org/abs/2209.07858"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "RealToxicityPrompts: evaluating neural toxic degeneration in language models In Findings of the Association for Computational Linguistics: EMNLP 2020 Online External Links: Link , Document , 2009.11462",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2020.findings-emnlp.301"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons ArXiv e-prints External Links: Link , Document , 2503.05731",
+      "year": 2503,
+      "arxiv_id": "2503.05731",
+      "url": "https://arxiv.org/abs/2503.05731"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "A Survey on LLM-as-a-Judge ArXiv e-prints External Links: Link , Document , 2411.15594",
+      "year": 2411,
+      "arxiv_id": "2411.15594",
+      "url": "https://arxiv.org/abs/2411.15594"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions In Advances in Neural Information Processing Systems 38 (NeurIPS 2025) Datasets and Benchmarks Track Note: arXiv preprint arXiv:2506.09038 (June 2025) External Links: Link , Document , 2506.09038",
+      "year": 2506,
+      "arxiv_id": "2506.09038",
+      "url": "https://arxiv.org/abs/2506.09038"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Holistic Evaluation of Language Models Transactions on Machine Learning Research Note: arXiv preprint arXiv:2211.09110 (November 2022) External Links: Link , Document , 2211.09110",
+      "year": 2211,
+      "arxiv_id": "2211.09110",
+      "url": "https://openreview.net/forum?id=iO4LZibEqW"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian In Findings of the Association for Computational Linguistics: EMNLP 2024 External Links: Link , 2312.01314",
+      "year": 2312,
+      "arxiv_id": "2312.01314",
+      "url": "https://arxiv.org/abs/2312.01314"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP) Singapore External Links: Link , Document , 2303.16634",
+      "year": 2303,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2023.emnlp-main.153"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal In Proceedings of the 41st International Conference on Machine Learning (ICML) ICML’24 External Links: Link , Document , 2402.04249",
+      "year": 2402,
+      "arxiv_id": "2402.04249",
+      "url": "https://arxiv.org/abs/2402.04249"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "NorEval: A Norwegian Language Understanding and Generation Evaluation Benchmark In Findings of the Association for Computational Linguistics: ACL 2025 External Links: Link , 2504.07749",
+      "year": 2504,
+      "arxiv_id": "2504.07749",
+      "url": "https://arxiv.org/abs/2504.07749"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Any-llm: communicate with any llm provider using a single, unified interface Note: https://github.com/mozilla-ai/any-llm Accessed 2026-02-23",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/mozilla-ai/any-llm"
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Large Language Models Often Know When They Are Being Evaluated ArXiv e-prints External Links: Link , Document , 2505.23836",
+      "year": 2505,
+      "arxiv_id": "2505.23836",
+      "url": "https://arxiv.org/abs/2505.23836"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Probing and Steering Evaluation Awareness of Language Models ArXiv e-prints External Links: Link , Document , 2507.01786",
+      "year": 2507,
+      "arxiv_id": "2507.01786",
+      "url": "https://arxiv.org/abs/2507.01786"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "LinguaSafe: A Comprehensive Multilingual Safety Benchmark for Large Language Models ArXiv e-prints External Links: Link , Document , 2508.12733",
+      "year": 2508,
+      "arxiv_id": "2508.12733",
+      "url": "https://arxiv.org/abs/2508.12733"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Discovering language model behaviors with model-written evaluations In Findings of the Association for Computational Linguistics: ACL 2023 Toronto, Canada External Links: Link , Document , 2212.09251",
+      "year": 2212,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2023.findings-acl.847"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Measurement to Meaning: A Validity-Centered Framework for AI Evaluation ArXiv e-prints External Links: Link , Document , 2505.10573",
+      "year": 2505,
+      "arxiv_id": "2505.10573",
+      "url": "https://arxiv.org/abs/2505.10573"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "NorBench – A Benchmark for Norwegian Language Models In Proceedings of the 24th Nordic Conference on Computational Linguistics (NoDaLiDa) External Links: Link , 2305.03880",
+      "year": 2305,
+      "arxiv_id": "2305.03880",
+      "url": "https://arxiv.org/abs/2305.03880"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Judging the Judges: A Systematic Study of Position Bias in LLM-as-a-Judge In Proceedings of IJCNLP-AACL 2025 External Links: Link , Document , 2406.07791",
+      "year": 2406,
+      "arxiv_id": "2406.07791",
+      "url": "https://arxiv.org/abs/2406.07791"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "SimpleAudit: lightweight ai safety auditing framework Note: https://github.com/kelkalot/simpleaudit PyPI package: https://pypi.org/project/simpleaudit/ . Accessed 2026-02-23",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/kelkalot/simpleaudit"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "UK AISI Alignment Evaluation Case-Study ArXiv e-prints External Links: Link , 2604.00788",
+      "year": 2604,
+      "arxiv_id": "2604.00788",
+      "url": "https://arxiv.org/abs/2604.00788"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "SafetyBench: Evaluating the Safety of Large Language Models In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL) External Links: Link , Document , 2309.07045",
+      "year": 2309,
+      "arxiv_id": "2309.07045",
+      "url": "https://arxiv.org/abs/2309.07045"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena In Advances in Neural Information Processing Systems 36 (NeurIPS 2023) Datasets and Benchmarks Track External Links: Link , Document , 2306.05685",
+      "year": 2306,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=uccHPGDlao"
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "CyclicJudge: Mitigating Judge Bias Efficiently in LLM-based Evaluation ArXiv e-prints External Links: Link , Document , 2603.01865",
+      "year": 2603,
+      "arxiv_id": "2603.01865",
+      "url": "https://arxiv.org/abs/2603.01865"
+    }
+  ]
+}

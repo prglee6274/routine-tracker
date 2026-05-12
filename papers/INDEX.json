@@ -1,5 +1,5 @@
 {
-  "_schema": "arxiv_id -> { version, title, first_seen (YYYY-MM-DD), last_updated (YYYY-MM-DD), folder }",
+  "_schema": "arxiv_id -> { version, title, first_seen, last_updated, folder, category, subtopics[], keywords[] }",
   "_note": "version 비교용. 같은 arxiv_id인데 version이 더 높아지면 v2 업데이트로 처리.",
   "entries": {
     "2605.05115": {
@@ -7,350 +7,1132 @@
       "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "mechanistic interpretability",
+        "representation engineering",
+        "activation steering",
+        "manifold geometry"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.06295": {
       "version": "v1",
       "title": "Attributions All the Way Down? The Metagame of Interpretability",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "feature attribution",
+        "Shapley value",
+        "interpretability theory",
+        "vision-language models"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "feature_attribution",
+        "interp_method"
+      ]
     },
     "2605.03378": {
       "version": "v1",
       "title": "ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "prompt injection",
+        "LLM agent",
+        "provenance graph",
+        "agent safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent_safety"
+      ]
     },
     "2605.03228": {
       "version": "v1",
       "title": "MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "LLM agent",
+        "long-horizon attack",
+        "agent memory",
+        "safety alignment"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "alignment_robustness"
+      ]
     },
     "2605.03160": {
       "version": "v1",
       "title": "Pairwise matrices for sparse autoencoders: single-feature inspection mislabels causal axes",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "feature labeling",
+        "causal steering"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.01844": {
       "version": "v1",
       "title": "The Cylindrical Representation Hypothesis for Language Model Steering",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "representation engineering",
+        "activation steering",
+        "linear representation hypothesis",
+        "interpretability"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
     },
     "2605.01735": {
       "version": "v1",
       "title": "Less is More: Geometric Unlearning for LLMs with Minimal Data Disclosure",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "LLM unlearning",
+        "privacy",
+        "minimal data disclosure",
+        "representation engineering"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning"
+      ]
     },
     "2605.01129": {
       "version": "v1",
       "title": "Revisiting Privacy Leakage in Machine Unlearning: Membership Inference Beyond the Forgotten Set",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "machine unlearning",
+        "membership inference",
+        "privacy leakage",
+        "differential privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "membership_inference",
+        "unlearning"
+      ]
     },
     "2605.02958": {
       "version": "v1",
       "title": "Tracing the Dynamics of Refusal: Exploiting Latent Refusal Trajectories for Robust Jailbreak Detection",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "jailbreak detection",
+        "causal tracing",
+        "refusal mechanism",
+        "LLM safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism"
+      ]
     },
     "2605.01555": {
       "version": "v1",
       "title": "Automated Interpretability and Feature Discovery in Language Models with Agents",
       "first_seen": "2026-05-08",
       "last_updated": "2026-05-08",
-      "folder": "2026-05-08"
+      "folder": "2026-05-08",
+      "keywords": [
+        "automated interpretability",
+        "multi-agent",
+        "feature discovery",
+        "Gemma-2"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method"
+      ]
     },
     "2605.06652": {
       "version": "v1",
       "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "AI safety",
+        "evaluation",
+        "auditing",
+        "procurement"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety_eval"
+      ]
     },
     "2605.06196": {
       "version": "v1",
       "title": "The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "interpretability",
+        "representation engineering",
+        "activation steering",
+        "latent direction"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
     },
     "2605.06423": {
       "version": "v1",
       "title": "Pop Quiz Attack: Black-box Membership Inference Attacks Against Large Language Models",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "membership inference",
+        "AI privacy",
+        "black-box attack",
+        "differential privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "membership_inference"
+      ]
     },
     "2605.06232": {
       "version": "v1",
       "title": "Profiling for Pennies: Unveiling the Privacy Iceberg of LLM Agents",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "AI privacy",
+        "LLM agents",
+        "PII",
+        "profiling"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "pii_leakage",
+        "agent_privacy"
+      ]
     },
     "2605.06486": {
       "version": "v1",
       "title": "Autonomous Adversary: Red-Teaming in the age of LLM",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "red-teaming",
+        "AI security",
+        "LLM agents",
+        "MITRE ATT&CK"
+      ],
+      "category": "security",
+      "subtopics": [
+        "red_teaming"
+      ]
     },
     "2605.06158": {
       "version": "v1",
       "title": "Stateful Agent Backdoor",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "backdoor",
+        "LLM agents",
+        "AI security",
+        "multi-session attack"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor"
+      ]
     },
     "2605.06605": {
       "version": "v1",
       "title": "How Many Iterations to Jailbreak? Dynamic Budget Allocation for Multi-Turn LLM Evaluation",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "jailbreak",
+        "multi-turn evaluation",
+        "AI security",
+        "conformal prediction"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak"
+      ]
     },
     "2605.06610": {
-      "version": "v1",
+      "version": "v2",
       "title": "SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders",
       "first_seen": "2026-05-09",
-      "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-09",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "monosemantic features",
+        "top-K"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.06342": {
       "version": "v1",
       "title": "Don't Lose Focus: Activation Steering via Key-Orthogonal Projections",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "activation steering",
+        "interpretability",
+        "attention rerouting",
+        "representation engineering"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
     },
     "2605.06076": {
       "version": "v1",
       "title": "Navigating by Old Maps: The Pitfalls of Static Mechanistic Localization in LLM Post-Training",
       "first_seen": "2026-05-09",
       "last_updated": "2026-05-09",
-      "folder": "2026-05-09"
+      "folder": "2026-05-09",
+      "keywords": [
+        "mechanistic interpretability",
+        "circuit analysis",
+        "fine-tuning",
+        "localization"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "circuits",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.05058": {
       "version": "v1",
       "title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "jailbreak",
+        "LLM security",
+        "red-teaming",
+        "SoK",
+        "benchmark"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming"
+      ]
     },
     "2605.05341": {
       "version": "v1",
       "title": "Feature Starvation as Geometric Instability in Sparse Autoencoders",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "feature starvation",
+        "elastic net"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.02187": {
       "version": "v1",
       "title": "When Alignment Isn't Enough: Response-Path Attacks on LLM Agents",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "LLM agent",
+        "prompt injection",
+        "relay attack",
+        "BYOK",
+        "post-alignment tampering"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "alignment_robustness"
+      ]
     },
     "2605.05995": {
-      "version": "v1",
+      "version": "v2",
       "title": "Safety Anchor: Defending Harmful Fine-tuning via Geometric Bottlenecks",
       "first_seen": "2026-05-10",
-      "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-10",
+      "keywords": [
+        "harmful fine-tuning",
+        "safety alignment",
+        "geometric bottleneck",
+        "unembedding"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
     },
     "2605.04019": {
       "version": "v1",
       "title": "Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "red-teaming",
+        "agentic AI",
+        "automation",
+        "Dreadnode",
+        "Llama Scout"
+      ],
+      "category": "security",
+      "subtopics": [
+        "red_teaming"
+      ]
     },
     "2605.03095": {
       "version": "v1",
       "title": "Revisiting JBShield: Breaking and Rebuilding Representation-Level Jailbreak Defenses",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "jailbreak defense",
+        "representation-level defense",
+        "GCG",
+        "adaptive attack",
+        "refusal direction"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism"
+      ]
     },
     "2605.02921": {
       "version": "v1",
       "title": "EvoJail: Evolutionary Diverse Jailbreak Prompt Generation for Large Language Models",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "jailbreak",
+        "evolutionary algorithm",
+        "multi-objective optimization",
+        "prompt diversity"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak"
+      ]
     },
     "2605.06480": {
       "version": "v1",
       "title": "Patch-Effect Graph Kernels for LLM Interpretability",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "mechanistic interpretability",
+        "activation patching",
+        "graph kernels",
+        "circuit analysis"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "circuits",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.01167": {
       "version": "v1",
       "title": "Minimizing Collateral Damage in Activation Steering",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "activation steering",
+        "representation engineering",
+        "KKT optimization",
+        "collateral damage"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation"
+      ]
     },
     "2605.03069": {
       "version": "v1",
       "title": "Distributed Deep Variational Approach for Privacy-preserving Data Release",
       "first_seen": "2026-05-10",
       "last_updated": "2026-05-10",
-      "folder": "2026-05-10"
+      "folder": "2026-05-10",
+      "keywords": [
+        "privacy",
+        "federated learning",
+        "variational privacy",
+        "Gaussian Privacy Protector",
+        "data release"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "federated_privacy"
+      ]
     },
     "2605.04209": {
       "version": "v1",
       "title": "Undetectable Backdoors in Model Parameters: Hiding Sparse Secrets in High Dimensions",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "backdoor",
+        "supply-chain attack",
+        "provable undetectability",
+        "model security"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor"
+      ]
     },
     "2605.05662": {
       "version": "v1",
       "title": "XL-SafetyBench: A Country-Grounded Cross-Cultural Benchmark for LLM Safety and Cultural Sensitivity",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "safety benchmark",
+        "multilingual jailbreak",
+        "cultural alignment",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming",
+        "safety_eval",
+        "alignment_robustness"
+      ]
     },
     "2605.03441": {
       "version": "v1",
       "title": "Exposing LLM Safety Gaps Through Mathematical Encoding: New Attacks and Systematic Analysis",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "jailbreak",
+        "mathematical encoding",
+        "formal logic attack",
+        "LLM safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak"
+      ]
     },
     "2605.01687": {
       "version": "v1",
       "title": "MultiBreak: A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "multi-turn jailbreak",
+        "safety benchmark",
+        "active learning",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming",
+        "safety_eval"
+      ]
     },
     "2605.05909": {
       "version": "v1",
       "title": "Null-Space-Constrained Contrastive Visual Forgetting for MLLM Unlearning",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "machine unlearning",
+        "MLLM",
+        "visual privacy",
+        "null-space projection"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning"
+      ]
     },
     "2605.06161": {
       "version": "v1",
       "title": "Beyond Accuracy: Policy Invariance as a Reliability Test for LLM Safety Judges",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "LLM-as-judge",
+        "agent safety evaluation",
+        "policy invariance",
+        "evaluation reliability"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "safety_eval"
+      ]
     },
     "2605.04700": {
       "version": "v1",
       "title": "Sparse Tokens Suffice: Jailbreaking Audio Language Models via Token-Aware Gradient Optimization",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "audio jailbreak",
+        "multimodal attack",
+        "sparse adversarial",
+        "ALM safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "multimodal_attack"
+      ]
     },
     "2605.02971": {
-      "version": "v1",
+      "version": "v2",
       "title": "Multilingual Safety Alignment via Self-Distillation",
       "first_seen": "2026-05-11",
-      "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-11",
+      "keywords": [
+        "multilingual safety",
+        "self-distillation",
+        "cross-lingual transfer",
+        "low-resource jailbreak"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak"
+      ]
     },
     "2605.00955": {
       "version": "v1",
       "title": "E-MIA: Exam-Style Black-Box Membership Inference Attacks against RAG Systems",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "membership inference",
+        "RAG privacy",
+        "corpus leakage",
+        "black-box attack"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "data_extraction"
+      ]
     },
     "2605.00364": {
       "version": "v2",
       "title": "Unlearning What Matters: Token-Level Attribution for Precise Language Model Unlearning",
       "first_seen": "2026-05-11",
       "last_updated": "2026-05-11",
-      "folder": "2026-05-11"
+      "folder": "2026-05-11",
+      "keywords": [
+        "machine unlearning",
+        "token attribution",
+        "gradient SNR",
+        "privacy compliance"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning"
+      ]
     },
     "2605.08012": {
       "version": "v1",
       "title": "Position: Mechanistic Interpretability Must Disclose Identification Assumptions for Causal Claims",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "mechanistic interpretability",
+        "causal identification",
+        "circuits",
+        "monosemanticity",
+        "position paper"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "circuits",
+        "mechanistic_position",
+        "interp_method"
+      ]
     },
     "2605.06992": {
       "version": "v1",
       "title": "Why Does Agentic Safety Fail to Generalize Across Tasks?",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "agent safety",
+        "task generalization",
+        "Lipschitz bound",
+        "H∞ robustness",
+        "safety theory"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety"
+      ]
     },
     "2605.04454": {
       "version": "v1",
       "title": "Deployment-Relevant Alignment Cannot Be Inferred from Model-Level Evaluation Alone",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "alignment evaluation",
+        "benchmark audit",
+        "interactional benchmark",
+        "verification scaffold"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
     },
     "2605.04261": {
       "version": "v1",
       "title": "Laundering AI Authority with Adversarial Examples",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "adversarial examples",
+        "VLM",
+        "authority laundering",
+        "cross-model transfer",
+        "content moderation"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "multimodal_attack"
+      ]
     },
     "2605.07630": {
       "version": "v1",
       "title": "Safe, or Simply Incapable? Rethinking Safety Evaluation for Phone-Use Agents",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "phone-use agent",
+        "safety benchmark",
+        "capability vs safety",
+        "GUI agent"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "safety_eval"
+      ]
     },
     "2605.04992": {
       "version": "v1",
       "title": "You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "safety alignment",
+        "LoRA",
+        "catastrophic forgetting",
+        "Mixture of Experts",
+        "weight translation"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
     },
     "2605.05892": {
       "version": "v1",
       "title": "Beyond Steering Vector: Flow-based Activation Steering for Inference-Time Intervention",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "activation steering",
+        "flow matching",
+        "inference-time intervention",
+        "AxBench"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering"
+      ]
     },
     "2605.03907": {
       "version": "v1",
       "title": "Steer Like the LLM: Activation Steering that Mimics Prompting",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "activation steering",
+        "prompt steering",
+        "interpretability",
+        "token-specific intervention"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "interp_method"
+      ]
     },
     "2605.03188": {
       "version": "v1",
       "title": "Dependency-Aware Privacy for Multi-turn Agents",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "differential privacy",
+        "LLM agent",
+        "multi-turn",
+        "metric DP",
+        "root sanitization"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy"
+      ]
     },
     "2605.07269": {
       "version": "v1",
       "title": "MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble Learning",
       "first_seen": "2026-05-12",
       "last_updated": "2026-05-12",
-      "folder": "2026-05-12"
+      "folder": "2026-05-12",
+      "keywords": [
+        "indirect prompt injection",
+        "multilingual",
+        "defense",
+        "ensemble learning",
+        "LoRA"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "defense_mechanism"
+      ]
+    },
+    "2605.10664": {
+      "version": "v1",
+      "title": "Prompt-Activation Duality: Improving Activation Steering via Attention-Level Interventions",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "activation steering",
+        "KV-cache",
+        "representation engineering",
+        "attention intervention"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2605.08513": {
+      "version": "v1",
+      "title": "A Single Neuron Is Sufficient to Bypass Safety Alignment in Large Language Models",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "safety alignment",
+        "mechanistic interpretability",
+        "refusal neuron",
+        "concept neuron"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "mechanistic_position",
+        "jailbreak"
+      ]
+    },
+    "2605.10901": {
+      "version": "v1",
+      "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "guardrail",
+        "formal verification",
+        "LLM safety",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "defense_mechanism",
+        "guardrail",
+        "evaluation"
+      ]
+    },
+    "2605.10794": {
+      "version": "v1",
+      "title": "Can You Keep a Secret? Involuntary Information Leakage in Language Model Writing",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "information leakage",
+        "chain-of-thought privacy",
+        "system prompt",
+        "language model writing"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "training_data_leakage",
+        "pii",
+        "cot_privacy"
+      ]
+    },
+    "2605.10680": {
+      "version": "v1",
+      "title": "Exact Unlearning from Proxies Induces Closeness Guarantees on Approximate Unlearning",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "machine unlearning",
+        "approximate unlearning",
+        "data distribution",
+        "privacy guarantee"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning"
+      ]
+    },
+    "2605.10180": {
+      "version": "v1",
+      "title": "What Concepts Lie Within? Detecting and Suppressing Risky Content in Diffusion Transformers",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "T2I safety",
+        "concept detection",
+        "diffusion transformer",
+        "content suppression"
+      ],
+      "category": "security",
+      "subtopics": [
+        "defense_mechanism",
+        "concept_unlearning",
+        "multimodal_safety"
+      ]
+    },
+    "2605.09887": {
+      "version": "v1",
+      "title": "The Geometric Wall: Manifold Structure Predicts Layerwise Sparse Autoencoder Scaling Laws",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "sparse autoencoder",
+        "scaling law",
+        "manifold geometry",
+        "linear representation hypothesis"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "representation",
+        "mechanistic_position"
+      ]
+    },
+    "2605.08934": {
+      "version": "v1",
+      "title": "From Mechanistic to Compositional Interpretability",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "mechanistic interpretability",
+        "compositional semantics",
+        "category theory",
+        "position paper"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "mechanistic_position",
+        "interp_method"
+      ]
+    },
+    "2605.10067": {
+      "version": "v1",
+      "title": "Metis: Learning to Jailbreak LLMs via Self-Evolving Metacognitive Policy Optimization",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "jailbreak",
+        "red-teaming",
+        "RL policy",
+        "metacognition"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming"
+      ]
+    },
+    "2605.06788": {
+      "version": "v1",
+      "title": "Conformal Agent Error Attribution",
+      "first_seen": "2026-05-13",
+      "last_updated": "2026-05-13",
+      "folder": "2026-05-13",
+      "keywords": [
+        "LLM agent",
+        "error attribution",
+        "conformal prediction",
+        "multi-agent system"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "error_attribution"
+      ]
+    }
+  },
+  "_taxonomy": {
+    "categories": [
+      "privacy",
+      "security",
+      "interp"
+    ],
+    "subtopics_by_category": {
+      "privacy": [
+        "differential_privacy",
+        "membership_inference",
+        "unlearning",
+        "data_extraction",
+        "federated_privacy",
+        "pii_leakage",
+        "agent_privacy"
+      ],
+      "security": [
+        "jailbreak",
+        "prompt_injection",
+        "backdoor",
+        "adversarial",
+        "red_teaming",
+        "agent_safety",
+        "safety_eval",
+        "alignment_robustness",
+        "multimodal_attack",
+        "defense_mechanism"
+      ],
+      "interp": [
+        "sae",
+        "activation_steering",
+        "circuits",
+        "probing",
+        "feature_attribution",
+        "representation",
+        "mechanistic_position",
+        "interp_method"
+      ]
     }
   }
 }

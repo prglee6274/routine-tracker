@@ -1,0 +1,320 @@
+{
+  "arxiv_id": "2605.03907",
+  "source": "https://arxiv.org/html/2605.03907v1",
+  "fetched_at": "2026-05-12",
+  "count": 39,
+  "references": [
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Circuit Tracing: Revealing Computational Graphs in Language Models Transformer Circuits Thread External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html"
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Foundational Challenges in Assuring Alignment and Safety of Large Language Models Trans. Mach. Learn. Res. External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=oVTkOs8Pka"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Visualizing and Understanding GANs In Deep Generative Models for Highly Structured Data, ICLR 2019 Workshop, New Orleans, Louisiana, United States, May 6, 2019 External Links: Link",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=rJgON8ItOV"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Counterfactuals uncover the modular structure of deep generative models In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 External Links: Link",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=SJxDDpEKvH"
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering CoRR Note: arXiv: 2511.00617 External Links: Link , Document",
+      "year": 2511,
+      "arxiv_id": "2511.00617",
+      "url": "https://doi.org/10.48550/arXiv.2511.00617"
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Language Models are Few-Shot Learners In Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual External Links: Link",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Persona Vectors: Monitoring and Controlling Character Traits in Language Models arXiv Note: arXiv:2507.21509 [cs] External Links: Link , Document",
+      "year": 2507,
+      "arxiv_id": "2507.21509",
+      "url": "http://arxiv.org/abs/2507.21509"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Plug and Play Language Models: A Simple Approach to Controlled Text Generation In 8th International Conference on Learning Representations, ICLR 2020, Addis Ababa, Ethiopia, April 26-30, 2020 External Links: Link",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=H1edEyBKDS"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Learning without training: The implicit dynamics of in-context learning arXiv Note: arXiv:2507.16003 [cs] External Links: Link , Document",
+      "year": 2507,
+      "arxiv_id": "2507.16003",
+      "url": "http://arxiv.org/abs/2507.16003"
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Causal abstraction: A theoretical foundation for mechanistic interpretability Journal of Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Under the Hood: Using Diagnostic Classifiers to Investigate and Improve how Language Models Track Agreement Information In Proceedings of the Workshop: Analyzing and Interpreting Neural Networks for NLP, BlackboxNLP@EMNLP 2018, Brussels, Belgium, November 1, 2018 pp. 240–248 External Links: Link , Document",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/w18-5426"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "The Llama 3 Herd of Models arXiv preprint arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "To Steer or Not to Steer? Mechanistic Error Reduction with Abstention for Language Models In Forty-second International Conference on Machine Learning, ICML 2025, Vancouver, BC, Canada, July 13-19, 2025 Proceedings of Machine Learning Research External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://proceedings.mlr.press/v267/hedstrom25a.html"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "LoRA: Low-Rank Adaptation of Large Language Models CoRR Note: arXiv: 2106.09685 External Links: Link",
+      "year": 2106,
+      "arxiv_id": "2106.09685",
+      "url": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model In Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023 External Links: Link",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "http://papers.nips.cc/paper%5C_files/paper/2023/hash/81b8390039b7302c909cb769f8b6cd93-Abstract-Conference.html"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "In-context Vectors: Making In Context Learning More Effective and Controllable Through Latent Space Steering In Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=dJTChKgv3a"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets CoRR Note: arXiv: 2310.06824 External Links: Link , Document",
+      "year": 2310,
+      "arxiv_id": "2310.06824",
+      "url": "https://doi.org/10.48550/arXiv.2310.06824"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Multi-Attribute Steering of Language Models via Targeted Intervention In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) ( en Note: arXiv:2502.12446 [cs]Comment: ACL 2025 camera-ready, code link: https://github.com/duykhuongnguyen/MAT-Steer External Links: Link , Document",
+      "year": 2025,
+      "arxiv_id": "2502.12446",
+      "url": "https://aclanthology.org/2025.acl-long.1007/"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "N. Oozeer, L. Marks, F. Barez, and A. Abdullah Beyond Linear Steering: Unified Multi-Attribute Control for Language Models In Findings of the Association for Computational Linguistics: EMNLP 2025 ( en External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.findings-emnlp.1278/"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "The Linear Representation Hypothesis and the Geometry of Large Language Models In Forty-first International Conference on Machine Learning, ICML 2024, Vienna, Austria, July 21-27, 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=UGpGkLzwpP"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Fine-tuning aligned language models compromises safety, even when users do not intend to! arXiv preprint arXiv:2310.03693",
+      "year": 2310,
+      "arxiv_id": "2310.03693",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Language Models are Unsupervised Multitask Learners",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Steering Llama 2 via Contrastive Activation Addition In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2024, Bangkok, Thailand, August 11-16, 2024 pp. 15504–15522 External Links: Link , Document",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.828"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020, Online, November 16-20, 2020 pp. 4222–4235 External Links: Link , Document",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2020.emnlp-main.346"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Discovering the Compositional Structure of Vector Representations with Role Learning Networks In Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP, BlackboxNLP@EMNLP 2020, Online, November 2020 pp. 238–254 External Links: Link , Document",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2020.blackboxnlp-1.23"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Improving Instruction-Following in Language Models through Activation Steering In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=wozhdnRCtw"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Extracting Latent Steering Vectors from Pretrained Language Models In Findings of the Association for Computational Linguistics: ACL 2022, Dublin, Ireland, May 22-27, 2022 pp. 566–581 External Links: Link , Document",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2022.findings-acl.48"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "HyperSteer: Activation Steering at Scale with Hypernetworks arXiv Note: arXiv:2506.03292 [cs] External Links: Link , Document",
+      "year": 2506,
+      "arxiv_id": "2506.03292",
+      "url": "http://arxiv.org/abs/2506.03292"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Activation Addition: Steering Language Models Without Optimization CoRR Note: arXiv: 2308.10248 External Links: Link , Document",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": "https://doi.org/10.48550/arXiv.2308.10248"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "In-Distribution Steering: Balancing Control and Coherence in Language Model Generation CoRR Note: arXiv: 2510.13285 External Links: Link , Document",
+      "year": 2510,
+      "arxiv_id": "2510.13285",
+      "url": "https://doi.org/10.48550/arXiv.2510.13285"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Steering Away from Harm: An Adaptive Approach to Defending Vision Language Model Against Jailbreaks In IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2025, Nashville, TN, USA, June 11-15, 2025 pp. 29947–29957 External Links: Link , Document",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang%5C_Steering%5C_Away%5C_from%5C_Harm%5C_An%5C_Adaptive%5C_Approach%5C_to%5C_Defending%5C_Vision%5C_CVPR%5C_2025%5C_paper.html"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Semantics-Adaptive Activation Intervention for LLMs via Dynamic Steering Vectors In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=8WQ7VTfPTl"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "AxBench: Steering LLMs? Even Simple Baselines Outperform Sparse Autoencoders In Proceedings of the 42nd International Conference on Machine Learning ( en External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=K2CckZjNy0"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "ReFT: Representation Finetuning for Language Models In Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "http://papers.nips.cc/paper%5C_files/paper/2024/hash/75008a0fba53bf13b0bb3b7bff986e0e-Abstract-Conference.html"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Improved Representation Steering for Language Models In Proceedings in The 39th Annual Conference on Neural Information Processing Systems ( en External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=VHb883Gs1u"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Qwen2.5 Technical Report CoRR Note: arXiv: 2412.15115 External Links: Link , Document",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": "https://doi.org/10.48550/arXiv.2412.15115"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Instruction-Following Evaluation for Large Language Models CoRR Note: arXiv: 2311.07911 External Links: Link , Document",
+      "year": 2311,
+      "arxiv_id": "2311.07911",
+      "url": "https://doi.org/10.48550/arXiv.2311.07911"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Large Language Models are Human-Level Prompt Engineers In The Eleventh International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=92gvk82DE-"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Representation Engineering: A Top-Down Approach to AI Transparency arXiv Note: arXiv:2310.01405 [cs]Comment: Code is available at https://github.com/andyzoujm/representation-engineering External Links: Link , Document",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": "http://arxiv.org/abs/2310.01405"
+    }
+  ]
+}

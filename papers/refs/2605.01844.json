@@ -1,0 +1,304 @@
+{
+  "arxiv_id": "2605.01844",
+  "source": "https://arxiv.org/html/2605.01844v1",
+  "fetched_at": "2026-05-12",
+  "count": 37,
+  "references": [
+    {
+      "idx": 1,
+      "label": "Bas & Novak (2025)",
+      "text": "Bas, T. and Novak, K. What can we actually steer? a multi-behavior study of activation control, 2025. URL https://arxiv.org/abs/2511.18284 .",
+      "year": 2511,
+      "arxiv_id": "2511.18284",
+      "url": "https://arxiv.org/abs/2511.18284"
+    },
+    {
+      "idx": 2,
+      "label": "Braun et al. (2025)",
+      "text": "Braun, J., Eickhoff, C., Krueger, D., Bahrainian, S. A., and Krasheninnikov, D. Understanding (un)reliability of steering vectors in language models. In ICLR 2025 Workshop on Building Trust in Language Models and Applications , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "Brumley et al. (2024)",
+      "text": "Brumley, M., Kwon, J., Krueger, D., Krasheninnikov, D., and Anwar, U. Comparing bottom-up and top-down steering approaches on in-context learning tasks, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "Cao et al. (2024)",
+      "text": "Cao, Y., Zhang, T., Cao, B., Yin, Z., Lin, L., Ma, F., and Chen, J. Personalized steering of large language models: Versatile steering vectors through bi-directional preference optimization. In Proc. of NeurIPS , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "Chalnev et al. (2024)",
+      "text": "Chalnev, S., Siu, M., and Conmy, A. Improving steering vectors by targeting sparse autoencoder features, 2024. URL https://arxiv.org/abs/2411.02193 .",
+      "year": 2411,
+      "arxiv_id": "2411.02193",
+      "url": "https://arxiv.org/abs/2411.02193"
+    },
+    {
+      "idx": 6,
+      "label": "Dunefsky & Cohan (2025)",
+      "text": "Dunefsky, J. and Cohan, A. One-shot optimized steering vectors mediate safety-relevant behaviors in LLMs. In Second Conference on Language Modeling , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Elhage et al. (2022)",
+      "text": "Elhage, N., Hume, T., Olsson, C., Schiefer, N., Henighan, T., Kravec, S., Hatfield-Dodds, Z., Lasenby, R., Drain, D., Chen, C., et al. Toy models of superposition, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "Engels et al. (2025)",
+      "text": "Engels, J., Michaud, E. J., Liao, I., Gurnee, W., and Tegmark, M. Not all language model features are one-dimensionally linear. In Proc. of ICLR , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "Gao et al. (2025)",
+      "text": "Gao, L., Geng, J., Zhang, X., Nakov, P., and Chen, X. Shaping the safety boundaries: Understanding and defending against jailbreaks in large language models. In Proc. of ACL , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Grattafiori et al. (2024)",
+      "text": "Grattafiori, A., Dubey, A., Jauhri, A., and et al. The llama 3 herd of models, 2024. URL https://arxiv.org/abs/2407.21783 .",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+      "idx": 11,
+      "label": "Gurnee & Tegmark (2024)",
+      "text": "Gurnee, W. and Tegmark, M. Language models represent space and time. In Proc. of ICLR , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "Jiang et al. (2025)",
+      "text": "Jiang, E. H., Ou, W., Liu, R., Pang, S., Wan, G., Duan, R., Dong, W., Chang, K.-W., Wang, X., Wu, Y. N., and Li, X. Energy-driven steering: Reducing false refusals in large language models, 2025. URL https://arxiv.org/abs/2510.08646 .",
+      "year": 2510,
+      "arxiv_id": "2510.08646",
+      "url": "https://arxiv.org/abs/2510.08646"
+    },
+    {
+      "idx": 13,
+      "label": "Jorgensen et al. (2023)",
+      "text": "Jorgensen, O., Cope, D., Schoots, N., and Shanahan, M. Improving activation steering in language models with mean-centring, 2023. URL https://arxiv.org/abs/2312.03813 .",
+      "year": 2312,
+      "arxiv_id": "2312.03813",
+      "url": "https://arxiv.org/abs/2312.03813"
+    },
+    {
+      "idx": 14,
+      "label": "Lee et al. (2025)",
+      "text": "Lee, B. W., Padhi, I., Ramamurthy, K. N., Miehling, E., Dognin, P., Nagireddy, M., and Dhurandhar, A. Programming refusal with conditional activation steering. In Proc. of ICLR , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Li et al. (2023a)",
+      "text": "Li, K., Patel, O., Viégas, F., Pfister, H., and Wattenberg, M. Inference-time intervention: Eliciting truthful answers from a language model. In Proc. of NeurIPS , 2023a.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Li et al. (2023b)",
+      "text": "Li, X., Zhang, T., Dubois, Y., Taori, R., Gulrajani, I., Guestrin, C., Liang, P., and Hashimoto, T. B. Alpacaeval: An automatic evaluator of instruction-following models, 2023b.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Marks & Tegmark (2023)",
+      "text": "Marks, S. and Tegmark, M. The geometry of truth: Emergent linear structure in large language model representations of true/false datasets, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "Modell et al. (2025)",
+      "text": "Modell, A., Rubin-Delanchy, P., and Whiteley, N. The origins of representation manifolds in large language models, 2025. URL https://arxiv.org/abs/2505.18235 .",
+      "year": 2505,
+      "arxiv_id": "2505.18235",
+      "url": "https://arxiv.org/abs/2505.18235"
+    },
+    {
+      "idx": 19,
+      "label": "Nanda et al. (2023)",
+      "text": "Nanda, N., Chan, L., Lieberum, T., Smith, J., and Steinhardt, J. Progress measures for grokking via mechanistic interpretability. In Proc. of ICLR , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "Nguyen & Leng (2025)",
+      "text": "Nguyen, T. and Leng, Y. Toward a flexible framework for linear representation hypothesis using maximum likelihood estimation, 2025. URL https://arxiv.org/abs/2502.16385 .",
+      "year": 2502,
+      "arxiv_id": "2502.16385",
+      "url": "https://arxiv.org/abs/2502.16385"
+    },
+    {
+      "idx": 21,
+      "label": "Ning et al. (2026)",
+      "text": "Ning, A., Rangaraju, V., and Kuo, Y.-L. Visualizing llm latent space geometry through dimensionality reduction, 2026. URL https://arxiv.org/abs/2511.21594 .",
+      "year": 2511,
+      "arxiv_id": "2511.21594",
+      "url": "https://arxiv.org/abs/2511.21594"
+    },
+    {
+      "idx": 22,
+      "label": "Oozeer et al. (2025)",
+      "text": "Oozeer, N. F., Marks, L., Barez, F., and Abdullah, A. Beyond linear steering: Unified multi-attribute control for language models. In Proc. of EMNLP Findings , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "Park et al. (2024)",
+      "text": "Park, K., Choe, Y. J., and Veitch, V. The linear representation hypothesis and the geometry of large language models. In Proc. of ICML , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "Rimsky et al. (2024)",
+      "text": "Rimsky, N., Gabrieli, N., Schulz, J., Tong, M., Hubinger, E., and Turner, A. Steering llama 2 via contrastive activation addition. In Proc. of ACL , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "Singh et al. (2024)",
+      "text": "Singh, C., Inala, J. P., Galley, M., Caruana, R., and Gao, J. Rethinking interpretability in the era of large language models, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "Tan et al. (2024)",
+      "text": "Tan, D. C. H., Chanin, D., Lynch, A., Paige, B., Kanoulas, D., Garriga-Alonso, A., and Kirk, R. Analysing the generalisation and reliability of steering vectors. In Proc. of NeurIPS , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "Team et al. (2024)",
+      "text": "Team, G., Mesnard, T., Hardin, C., Dadashi, R., and et al. Gemma: Open models based on gemini research and technology, 2024. URL https://arxiv.org/abs/2403.08295 .",
+      "year": 2403,
+      "arxiv_id": "2403.08295",
+      "url": "https://arxiv.org/abs/2403.08295"
+    },
+    {
+      "idx": 28,
+      "label": "Touvron et al. (2023)",
+      "text": "Touvron, H., Martin, L., Stone, K., Albert, P., and et al. Llama 2: Open foundation and fine-tuned chat models, 2023. URL https://arxiv.org/abs/2307.09288 .",
+      "year": 2307,
+      "arxiv_id": "2307.09288",
+      "url": "https://arxiv.org/abs/2307.09288"
+    },
+    {
+      "idx": 29,
+      "label": "Valois et al. (2025)",
+      "text": "Valois, P. H. V., Souza, L. S., Shimomoto, E. K., and Fukui, K. Frame representation hypothesis: Multi-token llm interpretability and concept-guided text generation. TACL , pp. 1436–1458, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "Vu & Nguyen (2025)",
+      "text": "Vu, H. M. and Nguyen, T. M. Angular steering: Behavior control via rotation in activation space. In Proc. of NeurIPS , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "Wu et al. (2025)",
+      "text": "Wu, Z., Arora, A., Geiger, A., Wang, Z., Huang, J., Jurafsky, D., Manning, C. D., and Potts, C. Axbench: Steering LLMs? even simple baselines outperform sparse autoencoders. In Proc. of ICML , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "Zhang et al. (2026)",
+      "text": "Zhang, H., Zhang, Z., Wang, M., Su, Z., Wang, Y., Wang, Q., Yuan, S., Nie, E., Duan, X., Xue, Q., Yu, Z., Shang, C., Liang, X., Xiong, J., Shen, H., Tao, C., Liu, Z., Jin, S., Xi, Z., Zhang, D., Ananiadou, S., Gui, T., Xie, R., So, H. K.-H., Schütze, H., Huang, X., Zhang, Q., and Wong, N. Locate, steer, and improve: A practical survey of actionable mechanistic interpretability in large language models, 2026. URL https://arxiv.org/abs/2601.14004 .",
+      "year": 2601,
+      "arxiv_id": "2601.14004",
+      "url": "https://arxiv.org/abs/2601.14004"
+    },
+    {
+      "idx": 33,
+      "label": "Zhang et al. (2024)",
+      "text": "Zhang, S., Yu, T., and Feng, Y. TruthX: Alleviating hallucinations by editing large language models in truthful space. In Proc. of ACL , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "Zhao et al. (2025)",
+      "text": "Zhao, H., Wu, X., Yang, F., Shen, B., Liu, N., and Du, M. Denoising concept vectors with sparse autoencoders for improved language model steering, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "Zheng et al. (2023)",
+      "text": "Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z., Li, D., Xing, E., Zhang, H., Gonzalez, J. E., and Stoica, I. Judging LLM-as-a-judge with MT-bench and chatbot arena. In Proc. of NeurIPS , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "Zhong et al. (2023)",
+      "text": "Zhong, Z., Liu, Z., Tegmark, M., and Andreas, J. The clock and the pizza: Two stories in mechanistic explanation of neural networks. Proc. of NeurIPS , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "Zou et al. (2023)",
+      "text": "Zou, A., Phan, L., Chen, S., Campbell, J., Guo, P., Ren, R., Pan, A., Yin, X., Mazeika, M., Dombrowski, A.-K., et al. Representation engineering: A top-down approach to ai transparency, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

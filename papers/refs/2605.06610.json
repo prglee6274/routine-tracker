@@ -1,0 +1,224 @@
+{
+  "arxiv_id": "2605.06610",
+  "source": "https://arxiv.org/html/2605.06610v1",
+  "fetched_at": "2026-05-12",
+  "count": 27,
+  "references": [
+    {
+      "idx": 1,
+      "label": "[1]",
+      "text": "Robert Huben, Hoagy Cunningham, Logan Riggs Smith, Aidan Ewart, and Lee Sharkey. Sparse autoencoders find highly interpretable features in language models. In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "[2]",
+      "text": "Qi Zhang, Yifei Wang, Jingyi Cui, Xiang Pan, Qi Lei, Stefanie Jegelka, and Yisen Wang. Beyond interpretability: The gains of feature monosemanticity on model robustness. arXiv preprint arXiv:2410.21331",
+      "year": 2410,
+      "arxiv_id": "2410.21331",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "[3]",
+      "text": "Trenton Bricken, Adly Templeton, Joshua Batson, Brian Chen, Adam Jermyn, Tom Conerly, Nicholas L. Turner, Cem Anil, Carson Denison, Amanda Askell, Robert Lasenby, Yifan Wu, Shauna Kravec, Nicholas Schiefer, Tim Maxwell, Nicholas Joseph, Alex Tamkin, Karina Nguyen, Brayden McLean, Josiah E. Burke, Tristan Hume, Shan Carter, Tom Henighan, and Chris Olah. Towards monosemanticity: Decomposing language models with dictionary learning. https://transformer-circuits.pub/2023/monosemantic-features/index.html , October 2023. Transformer Circuits Thread.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+    },
+    {
+      "idx": 4,
+      "label": "[4]",
+      "text": "Leo Gao, Tom Dupré la Tour, Henk Tillman, Gabriel Goh, Rajan Troll, Alec Radford, Ilya Sutskever, Jan Leike, and Jeffrey Wu. Scaling and evaluating sparse autoencoders. In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "[5]",
+      "text": "Bart Bussmann, Patrick Leask, and Neel Nanda. Batchtopk sparse autoencoders. arXiv preprint arXiv:2412.06410",
+      "year": 2412,
+      "arxiv_id": "2412.06410",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "[6]",
+      "text": "Senthooran Rajamanoharan, Tom Lieberum, Nicolas Sonnerat, Arthur Conmy, Vikrant Varma, János Kramár, and Neel Nanda. Jumping ahead: Improving reconstruction fidelity with jumprelu sparse autoencoders. arXiv preprint arXiv:2407.14435",
+      "year": 2407,
+      "arxiv_id": "2407.14435",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "[7]",
+      "text": "Vladimir Zaigrajew, Hubert Baniecki, and Przemyslaw Biecek. Interpreting CLIP with hierarchical sparse autoencoders. In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "[8]",
+      "text": "Piotr Tempczyk, Rafał Michaluk, Lukasz Garncarek, Przemysław Spurek, Jacek Tabor, and Adam Golinski. Lidl: Local intrinsic dimension estimation using approximate likelihood. In International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "[9]",
+      "text": "Łukasz Struski, Michal B Bednarczyk, Igor T Podolak, and Jacek Tabor. Lapsum-one method to differentiate them all: Ranking, sorting and top-k selection. In International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "[10]",
+      "text": "Arthur Conmy, Augustine Mavor-Parker, Aengus Lynch, Stefan Heimersheim, and Adrià Garriga-Alonso. Towards automated circuit discovery for mechanistic interpretability. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "[11]",
+      "text": "Leonard Bereska and Efstratios Gavves. Mechanistic interpretability for ai safety–a review. arXiv preprint arXiv:2404.14082",
+      "year": 2404,
+      "arxiv_id": "2404.14082",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "[12]",
+      "text": "Evan Hernandez, Sarah Schwettmann, David Bau, Teona Bagashvili, Antonio Torralba, and Jacob Andreas. Natural language descriptions of deep visual features. In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "[13]",
+      "text": "Adly Templeton. Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet Anthropic, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "[14]",
+      "text": "Viacheslav Surkov, Chris Wendler, Antonio Mari, Mikhail Terekhov, Justin Deschenaux, Robert West, Caglar Gulcehre, and David Bau. One-step is enough: Sparse autoencoders for text-to-image diffusion models. arXiv preprint arXiv:2410.22366",
+      "year": 2410,
+      "arxiv_id": "2410.22366",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "[15]",
+      "text": "Ahmed Abdulaal, Hugo Fry, Nina Montaña-Brown, Ayodeji Ijishakin, Jack Gao, Stephanie Hyland, Daniel C Alexander, and Daniel C Castro. An x-ray is worth 15 features: Sparse autoencoders for interpretable radiology report generation. arXiv preprint arXiv:2410.03334",
+      "year": 2410,
+      "arxiv_id": "2410.03334",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "[16]",
+      "text": "Usha Bhalla, Alex Oesterling, Suraj Srinivas, Flavio P Calmon, and Himabindu Lakkaraju. Interpreting clip with sparse linear concept embeddings (splice). Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "[17]",
+      "text": "Bartosz Cywiński and Kamil Deja. Saeuron: Interpretable concept unlearning in diffusion models with sparse autoencoders. arXiv preprint arXiv:2501.18052",
+      "year": 2501,
+      "arxiv_id": "2501.18052",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "[18]",
+      "text": "Been Kim, Martin Wattenberg, Justin Gilmer, Carrie Cai, James Wexler, Fernanda Viegas, et al. Interpretability beyond feature attribution: Quantitative testing with concept activation vectors (tcav). In International conference on machine learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "[19]",
+      "text": "Bolei Zhou, Yiyou Sun, David Bau, and Antonio Torralba. Interpretable basis decomposition for visual explanation. In Proceedings of the European Conference on Computer Vision (ECCV)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "[20]",
+      "text": "Amirata Ghorbani, James Wexler, James Y Zou, and Been Kim. Towards automatic concept-based explanations. Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "[21]",
+      "text": "Kirill Bykov, Laura Kopf, Shinichi Nakajima, Marius Kloft, and Marina Höhne. Labeling neural representations with inverse recognition. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "[22]",
+      "text": "Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, and Percy Liang. Concept bottleneck models. In International conference on machine learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "[23]",
+      "text": "Mateo Espinosa Zarlenga, Pietro Barbiero, Gabriele Ciravegna, Giuseppe Marra, Francesco Giannini, Michelangelo Diligenti, Zohreh Shams, Frederic Precioso, Stefano Melacci, Adrian Weller, et al. Concept embedding models: Beyond the accuracy-explainability trade-off. Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "[24]",
+      "text": "Adam Karvonen, Can Rager, Johnny Lin, Curt Tigges, Joseph Isaac Bloom, David Chanin, Yeu-Tong Lau, Eoin Farrell, Callum Stuart Mcdougall, Kola Ayonrinde, et al. Saebench: A comprehensive benchmark for sparse autoencoders in language model interpretability. In International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "[25]",
+      "text": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical image database. In 2009 IEEE conference on computer vision and pattern recognition",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "[26]",
+      "text": "Guilherme Penedo, Hynek Kydlíček, Loubna Ben allal, Anton Lozhkov, Margaret Mitchell, Colin Raffel, Leandro Von Werra, and Thomas Wolf. The fineweb datasets: Decanting the web for the finest text data at scale. In The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "[27]",
+      "text": "Bart Bussmann, Noa Nabeshima, Adam Karvonen, and Neel Nanda. Learning multi-level features with matryoshka sparse autoencoders. In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

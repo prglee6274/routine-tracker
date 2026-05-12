@@ -1,0 +1,1144 @@
+{
+  "arxiv_id": "2605.05115",
+  "source": "https://arxiv.org/html/2605.05115v1",
+  "fetched_at": "2026-05-12",
+  "count": 142,
+  "references": [
+    {
+      "idx": 891,
+      "label": "",
+      "text": "Methods of information geometry Vol. 191",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 208,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 153,
+      "label": "",
+      "text": "CausalGym: benchmarking causal interpretability methods on linguistic tasks In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.785"
+    },
+    {
+      "idx": 87,
+      "label": "",
+      "text": "Linear algebraic structure of word senses, with applications to polysemy Transactions of the Association for Computational Linguistics External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/Q18-1034/"
+    },
+    {
+      "idx": 109,
+      "label": "",
+      "text": "Identifying and controlling important neurons in neural machine translation External Links: 1811.01157",
+      "year": null,
+      "arxiv_id": "1811.01157",
+      "url": "https://arxiv.org/abs/1811.01157"
+    },
+    {
+      "idx": 1083,
+      "label": "",
+      "text": "Identifying and controlling important neurons in neural machine translation In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=H1z-PsR5KX"
+    },
+    {
+      "idx": 156,
+      "label": "",
+      "text": "Abstracting causal models In AAAI Conference on Artificial Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Probing classifiers: promises, shortcomings, and advances Computational Linguistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1625,
+      "label": "",
+      "text": "Navigating cognition: spatial codes for human thinking Science",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "LEACE: perfect linear concept erasure in closed form In Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023, New Orleans, LA, USA, December 10 - 16, 2023 External Links: Link",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "http://papers.nips.cc/paper%5C_files/paper/2023/hash/d066d21c619d0a78c5b557fa3291a8f4-Abstract-Conference.html"
+    },
+    {
+      "idx": 1622,
+      "label": "",
+      "text": "Follow the energy, find the path: riemannian metrics from energy-based models ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1327,
+      "label": "",
+      "text": "Towards unifying interpretability and control: evaluation via intervention ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 304,
+      "label": "",
+      "text": "In-context learning dynamics with random binary sequences arXiv preprint arXiv:2310.17639",
+      "year": 2310,
+      "arxiv_id": "2310.17639",
+      "url": null
+    },
+    {
+      "idx": 198,
+      "label": "",
+      "text": "Belief dynamics reveal the dual nature of in-context learning and activation steering External Links: 2511.00617",
+      "year": 2511,
+      "arxiv_id": "2511.00617",
+      "url": "https://arxiv.org/abs/2511.00617"
+    },
+    {
+      "idx": 886,
+      "label": "",
+      "text": "π 0 \\pi_{0} : A vision-language-action flow model for general robot control arXiv preprint arXiv:2410.24164",
+      "year": 2410,
+      "arxiv_id": "2410.24164",
+      "url": null
+    },
+    {
+      "idx": 1636,
+      "label": "",
+      "text": "An interpretability illusion for bert arXiv preprint arXiv:2104.07143",
+      "year": 2104,
+      "arxiv_id": "2104.07143",
+      "url": null
+    },
+    {
+      "idx": 876,
+      "label": "",
+      "text": "Principal warps: thin-plate splines and the decomposition of deformations IEEE Transactions on Pattern Analysis and Machine Intelligence External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1109/34.24792"
+    },
+    {
+      "idx": 1640,
+      "label": "",
+      "text": "Charting a manifold Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1090,
+      "label": "",
+      "text": "Towards monosemanticity: decomposing language models with dictionary learning Transformer Circuits Thread",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1273,
+      "label": "",
+      "text": "Batchtopk sparse autoencoders ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Thread: circuits Distill Note: https://distill.pub/2020/circuits External Links: Document",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.23915/distill.00024"
+    },
+    {
+      "idx": 892,
+      "label": "",
+      "text": "Persona vectors: monitoring and controlling character traits in language models arXiv preprint arXiv:2507.21509",
+      "year": 2507,
+      "arxiv_id": "2507.21509",
+      "url": null
+    },
+    {
+      "idx": 883,
+      "label": "",
+      "text": "Learning phrase representations using RNN encoder-decoder for statistical machine translation arXiv preprint arXiv:1406.1078",
+      "year": null,
+      "arxiv_id": "1406.1078",
+      "url": null
+    },
+    {
+      "idx": 1639,
+      "label": "",
+      "text": "Diffusion maps Applied and computational harmonic analysis",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1479,
+      "label": "",
+      "text": "From flat to hierarchical: extracting sparse representations with matching pursuit Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1637,
+      "label": "",
+      "text": "Large language models can effectively convince people to believe conspiracies arXiv preprint arXiv:2601.05050",
+      "year": 2601,
+      "arxiv_id": "2601.05050",
+      "url": null
+    },
+    {
+      "idx": 207,
+      "label": "",
+      "text": "Recurrent neural networks learn to store and generate sequences using non-linear representations arXiv preprint arXiv:2408.10920",
+      "year": 2408,
+      "arxiv_id": "2408.10920",
+      "url": null
+    },
+    {
+      "idx": 1322,
+      "label": "",
+      "text": "Sparse autoencoders find highly interpretable features in language models ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 209,
+      "label": "",
+      "text": "Steering off course: reliability challenges in steering language models arXiv preprint arXiv:2504.04635",
+      "year": 2504,
+      "arxiv_id": "2504.04635",
+      "url": null
+    },
+    {
+      "idx": 125,
+      "label": "",
+      "text": "Discovering variable binding circuitry with desiderata CoRR External Links: Link , Document , 2307.03637",
+      "year": 2307,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2307.03637"
+    },
+    {
+      "idx": 878,
+      "label": "",
+      "text": "Splines minimizing rotation-invariant semi-norms in sobolev spaces In Constructive Theory of Functions of Several Variables Berlin, Heidelberg External Links: ISBN 978-3-540-37496-1",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Amnesic probing: behavioral explanation with amnesic counterfactuals In Proceedings of the 2020 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP External Links: Document",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/W18-5426"
+    },
+    {
+      "idx": 86,
+      "label": "",
+      "text": "Toy models of superposition Transformer Circuits Thread",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 289,
+      "label": "",
+      "text": "Toy models of superposition arXiv preprint arXiv:2209.10652",
+      "year": 2209,
+      "arxiv_id": "2209.10652",
+      "url": null
+    },
+    {
+      "idx": 1647,
+      "label": "",
+      "text": "Mental representations of weekdays PloS one",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 205,
+      "label": "",
+      "text": "Not all language model features are one-dimensionally linear arXiv preprint arXiv:2405.14860",
+      "year": 2405,
+      "arxiv_id": "2405.14860",
+      "url": null
+    },
+    {
+      "idx": 1444,
+      "label": "",
+      "text": "Archetypal sae: adaptive and stable dictionary learning for concept extraction in large vision models Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 178,
+      "label": "",
+      "text": "Into the rabbit hull: from task-relevant concepts in dino to minkowski geometry arXiv preprint arXiv:2510.08638",
+      "year": 2510,
+      "arxiv_id": "2510.08638",
+      "url": null
+    },
+    {
+      "idx": 124,
+      "label": "",
+      "text": "How do language models bind entities in context? In The Twelfth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=zb3b6oKO77"
+    },
+    {
+      "idx": 1284,
+      "label": "",
+      "text": "Scaling and evaluating sparse autoencoders Proceedings of the International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 167,
+      "label": "",
+      "text": "Conceptual spaces: the geometry of thought The MIT Press External Links: ISBN 9780262273558",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.7551/mitpress/2076.001.0001"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Causal abstraction: a theoretical foundation for mechanistic interpretability Journal of Machine Learning Research External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "http://jmlr.org/papers/v26/23-0058.html"
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Causal abstraction: a theoretical foundation for mechanistic interpretability Journal of Machine Learning Research External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "http://jmlr.org/papers/v26/23-0058.html"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Causal abstractions of neural networks In Proceedings of the 35th International Conference on Neural Information Processing Systems NIPS ’21 External Links: ISBN 9781713845393",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 181,
+      "label": "",
+      "text": "Neural natural language inference models partially embed theories of lexical entailment and negation In Proceedings of the Third BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP Online External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2020.blackboxnlp-1.16/"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Dissecting recall of factual associations in auto-regressive language models External Links: 2304.14767",
+      "year": 2304,
+      "arxiv_id": "2304.14767",
+      "url": "https://arxiv.org/abs/2304.14767"
+    },
+    {
+      "idx": 1247,
+      "label": "",
+      "text": "Under the hood: using diagnostic classifiers to investigate and improve how language models track agreement information In Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP Brussels, Belgium External Links: Link , Document",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/W18-5426/"
+    },
+    {
+      "idx": 149,
+      "label": "",
+      "text": "Emergent symbol-like number variables in artificial neural networks External Links: 2501.06141",
+      "year": 2501,
+      "arxiv_id": "2501.06141",
+      "url": "https://arxiv.org/abs/2501.06141"
+    },
+    {
+      "idx": 97,
+      "label": "",
+      "text": "Addressing divergent representations from causal interventions on neural networks External Links: 2511.04638",
+      "year": 2511,
+      "arxiv_id": "2511.04638",
+      "url": "https://arxiv.org/abs/2511.04638"
+    },
+    {
+      "idx": 1628,
+      "label": "",
+      "text": "Your classifier is secretly an energy based model and you should treat it like one ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 147,
+      "label": "",
+      "text": "A geometric notion of causal probing CoRR External Links: Link , Document , 2307.15054",
+      "year": 2307,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2307.15054"
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Enhancing automated interpretability with output-centric feature descriptions In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.acl-long.288/"
+    },
+    {
+      "idx": 189,
+      "label": "",
+      "text": "When models manipulate manifolds: the geometry of a counting task arXiv preprint arXiv:2601.04480",
+      "year": 2601,
+      "arxiv_id": "2601.04480",
+      "url": null
+    },
+    {
+      "idx": 881,
+      "label": "",
+      "text": "World models In Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 882,
+      "label": "",
+      "text": "Dream to control: learning behaviors by latent imagination In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1649,
+      "label": "",
+      "text": "Patterns and mechanisms of contrastive activation engineering arXiv preprint arXiv:2505.03189",
+      "year": 2505,
+      "arxiv_id": "2505.03189",
+      "url": null
+    },
+    {
+      "idx": 1626,
+      "label": "",
+      "text": "Neural networks and physical systems with emergent collective computational abilities. Proceedings of the national academy of sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "RAVEL: evaluating interpretability methods on disentangling language model representations In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.470"
+    },
+    {
+      "idx": 113,
+      "label": "",
+      "text": "An enquiry concerning human understanding A. Millar",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1643,
+      "label": "",
+      "text": "Computing diffusion geometry arXiv preprint arXiv:2602.06006",
+      "year": 2602,
+      "arxiv_id": "2602.06006",
+      "url": null
+    },
+    {
+      "idx": 1644,
+      "label": "",
+      "text": "Diffusion geometry arXiv preprint arXiv:2405.10858",
+      "year": 2405,
+      "arxiv_id": "2405.10858",
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Language models use trigonometry to do addition External Links: 2502.00873",
+      "year": 2502,
+      "arxiv_id": "2502.00873",
+      "url": "https://arxiv.org/abs/2502.00873"
+    },
+    {
+      "idx": 893,
+      "label": "",
+      "text": "Symmetry in language statistics shapes the geometry of model representations External Links: 2602.15029",
+      "year": 2602,
+      "arxiv_id": "2602.15029",
+      "url": "https://arxiv.org/abs/2602.15029"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "On the emergence of linear analogies in word embeddings arXiv preprint arXiv:2505.18651",
+      "year": 2505,
+      "arxiv_id": "2505.18651",
+      "url": null
+    },
+    {
+      "idx": 879,
+      "label": "",
+      "text": "Semantic structure in large language model embeddings External Links: 2508.10003",
+      "year": 2508,
+      "arxiv_id": "2508.10003",
+      "url": "https://arxiv.org/abs/2508.10003"
+    },
+    {
+      "idx": 1627,
+      "label": "",
+      "text": "A tutorial on energy-based learning Predicting structured data",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1633,
+      "label": "",
+      "text": "Language models struggle to use representations learned in-context arXiv preprint arXiv:2602.04212",
+      "year": 2602,
+      "arxiv_id": "2602.04212",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Understanding neural networks through representation erasure External Links: 1612.08220",
+      "year": null,
+      "arxiv_id": "1612.08220",
+      "url": "https://arxiv.org/abs/1612.08220"
+    },
+    {
+      "idx": 194,
+      "label": "",
+      "text": "Inference-time intervention: eliciting truthful answers from a language model In Proceedings of the 37th International Conference on Neural Information Processing Systems NIPS ’23",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 187,
+      "label": "",
+      "text": "Priors in time: missing inductive biases for language model interpretability arXiv preprint arXiv:2511.01836",
+      "year": 2511,
+      "arxiv_id": "2511.01836",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Universality and individuality in neural dynamics across large populations of recurrent networks Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 150,
+      "label": "",
+      "text": "The geometry of truth: emergent linear structure in large language model representations of true/false datasets External Links: 2310.06824",
+      "year": 2310,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 215,
+      "label": "",
+      "text": "The geometry of truth: emergent linear structure in large language model representations of true/false datasets External Links: 2310.06824",
+      "year": 2310,
+      "arxiv_id": "2310.06824",
+      "url": "https://arxiv.org/abs/2310.06824"
+    },
+    {
+      "idx": 168,
+      "label": "",
+      "text": "Manifold learning: what, how, and why External Links: 2311.03757",
+      "year": 2311,
+      "arxiv_id": "2311.03757",
+      "url": "https://arxiv.org/abs/2311.03757"
+    },
+    {
+      "idx": 79,
+      "label": "",
+      "text": "Locating and editing factual associations in GPT Advances in Neural Information Processing Systems Note: arXiv:2202.05262",
+      "year": 2202,
+      "arxiv_id": "2202.05262",
+      "url": null
+    },
+    {
+      "idx": 129,
+      "label": "",
+      "text": "Mass-editing memory in a transformer In The Eleventh International Conference on Learning Representations, ICLR 2023, Kigali, Rwanda, May 1-5, 2023 External Links: Link",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://openreview.net/pdf?id=MkbcAHIYgyS"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "On linear representations and pretraining data frequency in language models External Links: 2504.12459",
+      "year": 2504,
+      "arxiv_id": "2504.12459",
+      "url": "https://arxiv.org/abs/2504.12459"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "The origins of representation manifolds in large language models External Links: 2505.18235",
+      "year": 2505,
+      "arxiv_id": "2505.18235",
+      "url": "https://arxiv.org/abs/2505.18235"
+    },
+    {
+      "idx": 217,
+      "label": "",
+      "text": "The origins of representation manifolds in large language models External Links: 2505.18235",
+      "year": 2505,
+      "arxiv_id": "2505.18235",
+      "url": "https://arxiv.org/abs/2505.18235"
+    },
+    {
+      "idx": 165,
+      "label": "",
+      "text": "Efficient memory-based learning for robot control Ph.D. Thesis",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 131,
+      "label": "",
+      "text": "Feature emergence via margin maximization: case studies in algebraic tasks In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 184,
+      "label": "",
+      "text": "The quest for the right mediator: A history, survey, and theoretical grounding of causal interpretability CoRR External Links: Link , Document , 2408.01416",
+      "year": 2408,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2408.01416"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "The quest for the right mediator: surveying mechanistic interpretability for nlp through the lens of causal mediation analysis Computational Linguistics External Links: ISSN 0891-2017",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1162/COLI.a.572"
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "MIB: a mechanistic interpretability benchmark External Links: 2504.13151",
+      "year": 2504,
+      "arxiv_id": "2504.13151",
+      "url": "https://arxiv.org/abs/2504.13151"
+    },
+    {
+      "idx": 375,
+      "label": "",
+      "text": "Compositional abilities emerge multiplicatively: exploring diffusion models on a synthetic task External Links: 2310.09336",
+      "year": 2310,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 214,
+      "label": "",
+      "text": "Steering llama 2 via contrastive activation addition External Links: 2312.06681",
+      "year": 2312,
+      "arxiv_id": "2312.06681",
+      "url": "https://arxiv.org/abs/2312.06681"
+    },
+    {
+      "idx": 101,
+      "label": "",
+      "text": "ICLR: in-context learning of representations In International Conference on Learning Representations Vol. 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/83fe5a77502e3d4cfab5960aed0ee6c3-Paper-Conference.pdf"
+    },
+    {
+      "idx": 262,
+      "label": "",
+      "text": "ICLR: in-context learning of representations In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1507,
+      "label": "",
+      "text": "The geometry of categorical and hierarchical concepts in large language models Proceedings of the International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 204,
+      "label": "",
+      "text": "The linear representation hypothesis and the geometry of large language models arXiv preprint arXiv:2311.03658",
+      "year": 2311,
+      "arxiv_id": "2311.03658",
+      "url": null
+    },
+    {
+      "idx": 1630,
+      "label": "",
+      "text": "The information geometry of softmax: probing and steering arXiv preprint arXiv:2602.15293",
+      "year": 2602,
+      "arxiv_id": "2602.15293",
+      "url": null
+    },
+    {
+      "idx": 887,
+      "label": "",
+      "text": "Finding the tree of life in evo 2 Goodfire Note: Correspondence to michael@goodfire.ai",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "",
+      "text": "Probabilities of causation: three counterfactual interpretations and their identification Synthese",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 152,
+      "label": "",
+      "text": "Direct and indirect effects External Links: 1301.2300",
+      "year": 2300,
+      "arxiv_id": "1301.2300",
+      "url": "https://arxiv.org/abs/1301.2300"
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "Language models use lookbacks to track beliefs External Links: 2505.14685",
+      "year": 2505,
+      "arxiv_id": "2505.14685",
+      "url": "https://arxiv.org/abs/2505.14685"
+    },
+    {
+      "idx": 1650,
+      "label": "",
+      "text": "Towards reliable evaluation of behavior steering interventions in llms arXiv preprint arXiv:2410.17245",
+      "year": 2410,
+      "arxiv_id": "2410.17245",
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Correlations in the data lead to semantically rich feature geometry under superposition In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=7akSRQS5Xh"
+    },
+    {
+      "idx": 1632,
+      "label": "",
+      "text": "From causal to concept-based representation learning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1631,
+      "label": "",
+      "text": "Learning interpretable concepts: unifying causal representation learning and foundation models arXiv preprint arXiv:2402.09236",
+      "year": 2402,
+      "arxiv_id": "2402.09236",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Log-linear guardedness and its implications In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL 2023, Toronto, Canada, July 9-14, 2023 pp. 9413–9431 External Links: Link , Document",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2023.acl-long.523"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Linear adversarial concept erasure External Links: 2201.12091",
+      "year": 2201,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Kernelized concept erasure External Links: 2201.12191",
+      "year": 2201,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1646,
+      "label": "",
+      "text": "Smoothing by spline functions Numerische mathematik",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 195,
+      "label": "",
+      "text": "Steering llama 2 via contrastive activation addition In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.828/"
+    },
+    {
+      "idx": 148,
+      "label": "",
+      "text": "Characterizing the role of similarity in the property inferences of language models CoRR External Links: Link , Document , 2410.22590",
+      "year": 2410,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2410.22590"
+    },
+    {
+      "idx": 166,
+      "label": "",
+      "text": "Controlling language and diffusion models by transporting activations In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=l2zFn6TIQi"
+    },
+    {
+      "idx": 1645,
+      "label": "",
+      "text": "Nonlinear dimensionality reduction by locally linear embedding science",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 159,
+      "label": "",
+      "text": "Causal consistency of structural equation models In Proceedings of the 33rd Conference on Uncertainty in Artificial Intelligence (UAI)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 114,
+      "label": "",
+      "text": "Mechanistic? CoRR External Links: Link , Document , 2410.09087",
+      "year": 2410,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2410.09087"
+    },
+    {
+      "idx": 164,
+      "label": "",
+      "text": "The shape of beliefs: geometry, dynamics, and interventions along representation manifolds of language models’ posteriors External Links: 2602.02315",
+      "year": 2602,
+      "arxiv_id": "2602.02315",
+      "url": "https://arxiv.org/abs/2602.02315"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "A mathematical theory of semantic development in deep neural networks Proceedings of the National Academy of Sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1641,
+      "label": "",
+      "text": "Kernel principal component analysis In International conference on artificial neural networks pp. 583–588",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 120,
+      "label": "",
+      "text": "Transformers learn factored representations External Links: 2602.02385",
+      "year": 2602,
+      "arxiv_id": "2602.02385",
+      "url": "https://arxiv.org/abs/2602.02385"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Transformers represent belief state geometry in their residual stream Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 402,
+      "label": "",
+      "text": "Transformers represent belief state geometry in their residual stream External Links: 2405.15943",
+      "year": 2405,
+      "arxiv_id": "2405.15943",
+      "url": "https://arxiv.org/abs/2405.15943"
+    },
+    {
+      "idx": 888,
+      "label": "",
+      "text": "Toward a universal law of generalization for psychological science Science",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Neural and conceptual interpretation of pdp models In Parallel Distributed Processing: Explorations in the Microstructure, Vol. 2: Psychological and Biological Models pp. 390–431 External Links: ISBN 0262631105",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Uncovering hidden geometry in transformers via disentangling position and context arXiv preprint arXiv:2310.04861",
+      "year": 2310,
+      "arxiv_id": "2310.04861",
+      "url": null
+    },
+    {
+      "idx": 1629,
+      "label": "",
+      "text": "How to train your energy-based models ArXiv e-print",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 112,
+      "label": "",
+      "text": "Causation, prediction, and search MIT Press",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, EMNLP 2023, Singapore, December 6-10, 2023 pp. 7035–7052 External Links: Link , Document",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.435"
+    },
+    {
+      "idx": 1084,
+      "label": "",
+      "text": "Extracting latent steering vectors from pretrained language models In Findings of the Association for Computational Linguistics: ACL 2022 Dublin, Ireland External Links: Link , Document",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2022.findings-acl.48/"
+    },
+    {
+      "idx": 106,
+      "label": "",
+      "text": "The non-linear representation dilemma: is causal abstraction enough for mechanistic interpretability? External Links: 2507.08802",
+      "year": 2507,
+      "arxiv_id": "2507.08802",
+      "url": "https://arxiv.org/abs/2507.08802"
+    },
+    {
+      "idx": 884,
+      "label": "",
+      "text": "Reinforcement learning: an introduction 2nd edition",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1648,
+      "label": "",
+      "text": "Analysing the generalisation and reliability of steering vectors Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 885,
+      "label": "",
+      "text": "GEN-0: embodied foundation models that scale with physical interaction Generalist AI Blog Note: https://generalistai.com/blog/nov-04-2025-GEN-0",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1623,
+      "label": "",
+      "text": "Generalization, similarity, and bayesian inference Behavioral and brain sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 123,
+      "label": "",
+      "text": "Function vectors in large language models In The Twelfth International Conference on Learning Representations, ICLR 2024, Vienna, Austria, May 7-11, 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=AwyxtyMwaG"
+    },
+    {
+      "idx": 607,
+      "label": "",
+      "text": "Llama: open and efficient foundation language models arXiv preprint arXiv:2302.13971",
+      "year": 2302,
+      "arxiv_id": "2302.13971",
+      "url": null
+    },
+    {
+      "idx": 160,
+      "label": "",
+      "text": "Gymnasium: a standard interface for reinforcement learning environments arXiv preprint arXiv:2407.17032",
+      "year": 2407,
+      "arxiv_id": "2407.17032",
+      "url": null
+    },
+    {
+      "idx": 213,
+      "label": "",
+      "text": "Steering language models with activation engineering External Links: 2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": "https://arxiv.org/abs/2308.10248"
+    },
+    {
+      "idx": 141,
+      "label": "",
+      "text": "Activation addition: steering language models without optimization External Links: 2308.10248",
+      "year": 2308,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1638,
+      "label": "",
+      "text": "Sycophancy is not one thing: causal separation of sycophantic behaviors in llms arXiv preprint arXiv:2509.21305",
+      "year": 2509,
+      "arxiv_id": "2509.21305",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Investigating gender bias in language models using causal mediation analysis In Advances in Neural Information Processing Systems Vol. 33 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/92650b2e92217715fe312e6fa7b90d82-Paper.pdf"
+    },
+    {
+      "idx": 128,
+      "label": "",
+      "text": "Interpretability in the wild: a circuit for indirect object identification in GPT-2 small In The Eleventh International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=NpsVSN6o4ul"
+    },
+    {
+      "idx": 381,
+      "label": "",
+      "text": "Concept algebra for score-based conditional model In ICML 2023 Workshop on Structured Probabilistic Inference { \\{ \\ \\backslash & } \\} Generative Modeling",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 206,
+      "label": "",
+      "text": "AxBench: steering llms? even simple baselines outperform sparse autoencoders External Links: 2501.17148",
+      "year": 2501,
+      "arxiv_id": "2501.17148",
+      "url": "https://arxiv.org/abs/2501.17148"
+    },
+    {
+      "idx": 200,
+      "label": "",
+      "text": "In-context learning strategies emerge rationally External Links: 2506.17859",
+      "year": 2506,
+      "arxiv_id": "2506.17859",
+      "url": "https://arxiv.org/abs/2506.17859"
+    },
+    {
+      "idx": 1634,
+      "label": "",
+      "text": "Provable low-frequency bias of in-context learning of representations arXiv preprint arXiv:2507.13540",
+      "year": 2507,
+      "arxiv_id": "2507.13540",
+      "url": null
+    },
+    {
+      "idx": 201,
+      "label": "",
+      "text": "Neural manifold geometry encodes feature fields In NeurIPS 2025 Workshop on Symmetry and Geometry in Neural Representations",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1635,
+      "label": "",
+      "text": "Model directions, not words: mechanistic topic models using sparse autoencoders arXiv preprint arXiv:2507.23220",
+      "year": 2507,
+      "arxiv_id": "2507.23220",
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "FoNE: precise single-token number embeddings via fourier features arXiv preprint arXiv:2502.09741",
+      "year": 2502,
+      "arxiv_id": "2502.09741",
+      "url": null
+    }
+  ]
+}

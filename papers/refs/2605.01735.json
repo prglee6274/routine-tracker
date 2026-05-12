@@ -1,0 +1,384 @@
+{
+  "arxiv_id": "2605.01735",
+  "source": "https://arxiv.org/html/2605.01735v1",
+  "fetched_at": "2026-05-12",
+  "count": 47,
+  "references": [
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Towards source-free machine unlearning In Proceedings of the Computer Vision and Pattern Recognition Conference pp. 4948–4957",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Language models can predict their own behavior In The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "A certified unlearning approach without access to source data In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Extracting training data from large language models In 30th USENIX security symposium (USENIX Security 21) pp. 2633–2650",
+      "year": 2650,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Towards robust and parameter-efficient knowledge unlearning for LLMs In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Unlearn what you want to forget: efficient unlearning for llms In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing pp. 12041–12052",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "On effects of steering latent representation for large language model unlearning In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 39",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "UNDIAL: self-distillation with adjusted logits for robust unlearning in large language models In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Emergent response planning in LLMs In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "OpenUnlearning: accelerating LLM unlearning via unified benchmarking of methods and metrics In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Towards LLM unlearning resilient to relearning attacks: a sharpness-aware minimization perspective and beyond In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Simplicity prevails: rethinking negative preference optimization for LLM unlearning In The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Do LLMs “know” internally when they follow instructions? In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "The low-dimensional linear geometry of contextualized word representations In Proceedings of the 25th Conference on Computational Natural Language Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Linearity of relation decoding in transformer language models In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Knowledge unlearning for mitigating privacy risks in language models In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "Reversing the forget-retain objectives: an efficient llm unlearning framework from logit difference Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Programming refusal with conditional activation steering In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "The wmdp benchmark: measuring and reducing malicious use with unlearning In Proceedings of the 41st International Conference on Machine Learning pp. 28525–28550",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Large language model unlearning via embedding-corrupted prompts Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Rethinking machine unlearning for large language models Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Towards safer large language models through machine unlearning In Findings of the Association for Computational Linguistics: ACL 2024",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Unveiling entity-level unlearning for large language models: a comprehensive analysis In Proceedings of the 31st International Conference on Computational Linguistics pp. 5345–5363",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "TOFU: a task of fictitious unlearning for LLMs In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Refusal in llms is an affine function arXiv preprint arXiv:2411.09003",
+      "year": 2411,
+      "arxiv_id": "2411.09003",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Alternate preference optimization for unlearning factual knowledge in large language models In Proceedings of the 31st International Conference on Computational Linguistics pp. 3732–3752",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Fast exact unlearning for in-context learning data for LLMs In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Future lens: anticipating subsequent tokens from a single hidden state In Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Machine unlearning of personally identifiable information in large language models In Proceedings of the Natural Legal Language Processing Workshop 2025 pp. 54–67",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "The linear representation hypothesis and the geometry of large language models In International Conference on Machine Learning pp. 39643–39666",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "In-context unlearning: language models as few-shot unlearners In International Conference on Machine Learning pp. 40034–40050",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Large language models encode semantics in low-dimensional linear subspaces arXiv preprint arXiv:2507.09709",
+      "year": 2507,
+      "arxiv_id": "2507.09709",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "LLM unlearning via neural activation redirection In The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Detecting pretraining data from large language models In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Muse: machine unlearning six-way evaluation for language models arXiv preprint arXiv:2407.06460",
+      "year": 2407,
+      "arxiv_id": "2407.06460",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Align-then-unlearn: embedding alignment for llm unlearning arXiv preprint arXiv:2506.13181",
+      "year": 2506,
+      "arxiv_id": "2506.13181",
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Wisdom is knowing what not to say: hallucination-free llms unlearning via attention shifting In The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Memorization without overfitting: analyzing the training dynamics of large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Activation addition: steering language models without optimization",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Steering language models with activation engineering arXiv preprint arXiv:2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "The eu general data protection regulation (gdpr) A practical guide, 1st ed., Cham: Springer International Publishing",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Not every token needs forgetting: selective unlearning to limit change in utility in large language model unlearning arXiv preprint arXiv:2506.00876",
+      "year": 2506,
+      "arxiv_id": "2506.00876",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Llm unlearning via loss adjustment with only forget data arXiv preprint arXiv:2410.11143",
+      "year": 2410,
+      "arxiv_id": "2410.11143",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Large language model unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Negative preference optimization: from catastrophic collapse to effective unlearning In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Beyond single concept vector: modeling concept subspace in LLMs with gaussian distribution In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,880 @@
+{
+  "arxiv_id": "2605.05058",
+  "source": "https://arxiv.org/html/2605.05058v1",
+  "fetched_at": "2026-05-12",
+  "count": 109,
+  "references": [
+    {
+      "idx": 49,
+      "label": "",
+      "text": "G. Alon and M. Kamfonas Detecting language model attacks with perplexity arXiv preprint arXiv:2308.14132",
+      "year": 2308,
+      "arxiv_id": "2308.14132",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "M. Andriushchenko, F. Croce, and N. Flammarion Jailbreaking leading safety-aligned llms with simple adaptive attacks In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 120,
+      "label": "",
+      "text": "Anthropic Claude 3.7 sonnet system card https://www.anthropic.com/news/claude-3-7-sonnet",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 80,
+      "label": "",
+      "text": "G. Bai, J. Liu, X. Bu, Y. He, J. Liu, Z. Zhou, Z. Lin, W. Su, T. Ge, B. Zheng, et al. MT-bench-101: a fine-grained benchmark for evaluating large language models in multi-turn dialogues In ACL pp. 7421–7454",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "Y. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion, A. Jones, A. Chen, A. Goldie, A. Mirhoseini, C. McKinnon, et al. Constitutional ai: harmlessness from ai feedback arXiv preprint arXiv:2212.08073",
+      "year": 2212,
+      "arxiv_id": "2212.08073",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "F. Bianchi, M. Suzgun, G. Attanasio, P. Röttger, D. Jurafsky, T. Hashimoto, and J. Zou Safety-tuned llamas: lessons from improving the safety of large language models that follow instructions In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 109,
+      "label": "",
+      "text": "V. Boreiko, A. Panfilov, V. Voracek, M. Hein, and J. Geiping A realistic threat model for large language model jailbreaks arXiv preprint arXiv:2410.16222",
+      "year": 2410,
+      "arxiv_id": "2410.16222",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "H. Brown, L. Lin, K. Kawaguchi, and M. Shieh Self-evaluation as a defense against adversarial attacks on llms ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "H. Cao, Y. Wang, S. Jing, Z. Peng, Z. Bai, Z. Cao, M. Fang, F. Feng, B. Wang, J. Liu, T. Yang, J. Huo, Y. Gao, F. Meng, X. Yang, C. Deng, and J. Feng SafeDialBench: a fine-grained safety benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "M. Cascella, J. Montomoli, V. Bellini, and E. Bignami Evaluating the feasibility of chatgpt in healthcare: an analysis of multiple clinical and research scenarios Journal of medical systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "P. Chao, E. Debenedetti, A. Robey, M. Andriushchenko, F. Croce, V. Sehwag, E. Dobriban, N. Flammarion, G. J. Pappas, F. Tramèr, H. Hassani, and E. Wong JailbreakBench: an open robustness benchmark for jailbreaking large language models NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, and E. Wong Jailbreaking black box large language models in twenty queries In SaTML pp. 23–42",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 101,
+      "label": "",
+      "text": "J. Chu, Y. Liu, Z. Yang, X. Shen, M. Backes, and Y. Zhang Comprehensive assessment of jailbreak attacks against llms arXiv preprint arXiv:2402.05668",
+      "year": 2402,
+      "arxiv_id": "2402.05668",
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "J. Dai, X. Pan, R. Sun, J. Ji, X. Xu, M. Liu, Y. Wang, and Y. Yang Safe rlhf: safe reinforcement learning from human feedback In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 87,
+      "label": "",
+      "text": "DeepSeek-AI DeepSeek-r1: incentivizing reasoning capability in llms via reinforcement learning External Links: 2501.12948",
+      "year": 2501,
+      "arxiv_id": "2501.12948",
+      "url": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Y. Deng, W. Zhang, S. J. Pan, and L. Bing Multilingual jailbreak challenges in large language models In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 117,
+      "label": "",
+      "text": "L. Derczynski, E. Galinkin, J. Martin, S. Majumdar, and N. Inie Garak: a framework for security probing large language models arXiv preprint arXiv:2406.11036",
+      "year": 2406,
+      "arxiv_id": "2406.11036",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "P. Ding, J. Kuang, D. Ma, X. Cao, Y. Xian, J. Chen, and S. Huang A wolf in sheep’s clothing: generalized nested jailbreak prompts can fool large language models easily In NAACL pp. 2136–2153",
+      "year": 2153,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 108,
+      "label": "",
+      "text": "A. Esmradi, D. W. Yip, and C. F. Chan A comprehensive survey of attack techniques, implementation, and mitigation strategies in large language models In UbiSec",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 123,
+      "label": "",
+      "text": "J. L. Fleiss Measuring nominal scale agreement among many raters. Psychological bulletin",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "L. Gao, X. Zhang, P. Nakov, and X. Chen Shaping the safety boundaries: understanding and defending against jailbreaks in large language models In ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 86,
+      "label": "",
+      "text": "Google Gemini-2.0-flash documents https://modelcards.withgoogle.com/assets/documents/gemini-2-flash.pdf",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 91,
+      "label": "",
+      "text": "A. Grattafiori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan, et al. The llama 3 herd of models arXiv preprint arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "",
+      "text": "M. Y. Guan, M. Joglekar, E. Wallace, S. Jain, B. Barak, A. Helyar, R. Dias, A. Vallone, H. Ren, J. Wei, H. W. Chung, S. Toyer, J. Heidecke, A. Beutel, and A. Glaese Deliberative alignment: reasoning enables safer language models External Links: 2412.16339",
+      "year": 2412,
+      "arxiv_id": "2412.16339",
+      "url": "https://arxiv.org/abs/2412.16339"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "X. Guo, F. Yu, H. Zhang, L. Qin, and B. Hu COLD-attack: jailbreaking llms with stealthiness and controllability In ICML pp. 16974–17002",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 98,
+      "label": "",
+      "text": "O. C. Herfindahl Concentration in the steel industry Columbia university",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "Z. Mowshowitz. Note: Accessed: 2024-02- 25",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "X. Huang, K. Xiu, T. Zheng, C. Zeng, W. Ni, Z. Qiin, K. Ren, and C. Chen DualBreach: efficient dual-jailbreaking via target-driven initialization and multi-target optimization ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "J. Hughes, S. Price, A. Lynch, R. Schaeffer, F. Barez, S. Koyejo, H. Sleight, E. Jones, E. Perez, and M. Sharma Best-of-n jailbreaking arXiv preprint arXiv:2412.03556",
+      "year": 2412,
+      "arxiv_id": "2412.03556",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "H. Inan, K. Upasani, J. Chi, R. Rungta, K. Iyer, Y. Mao, M. Tontchev, Q. Hu, B. Fuller, D. Testuggine, and M. Khabsa Llama guard: llm-based input-output safeguard for human-ai conversations External Links: 2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": "https://arxiv.org/abs/2312.06674"
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "A. Jaech, A. Kalai, A. Lerer, A. Richardson, A. El-Kishky, A. Low, A. Helyar, A. Madry, A. Beutel, A. Carney, et al. Openai o1 system card arXiv preprint arXiv:2412.16720",
+      "year": 2412,
+      "arxiv_id": "2412.16720",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "J. Ji, B. Chen, H. Lou, D. Hong, B. Zhang, X. Pan, T. Qiu, J. Dai, and Y. Yang Aligner: efficient alignment by learning to correct In NIPS External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:267412276"
+    },
+    {
+      "idx": 88,
+      "label": "",
+      "text": "A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot, D. de las Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier, L. R. Lavaud, M. Lachaux, P. Stock, T. L. Scao, T. Lavril, T. Wang, T. Lacroix, and W. E. Sayed Mistral 7b External Links: 2310.06825",
+      "year": 2310,
+      "arxiv_id": "2310.06825",
+      "url": "https://arxiv.org/abs/2310.06825"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "F. Jiang, Z. Xu, L. Niu, Z. Xiang, B. Ramasubramanian, B. Li, and R. Poovendran ArtPrompt: ascii art-based jailbreak attacks against aligned llms In ACL External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:267750708"
+    },
+    {
+      "idx": 121,
+      "label": "",
+      "text": "E. Kasneci, K. Seßler, S. Küchemann, M. Bannert, D. Dementieva, F. Fischer, U. Gasser, G. Groh, S. Günnemann, E. Hüllermeier, et al. ChatGPT for good? on opportunities and challenges of large language models for education Learning and individual differences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "M. Koulako Bala Doumbouya, A. Nandi, G. Poesia, D. Ghilardi, A. Goldie, F. Bianchi, D. Jurafsky, and C. D. Manning H4rm3l: a dynamic benchmark of composable jailbreak attacks for llm safety assessment arXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "A. Kumar, C. Agarwal, S. Srinivas, A. J. Li, S. Feizi, and H. Lakkaraju Certifying llm safety against adversarial prompting In COLM",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 94,
+      "label": "",
+      "text": "H. Li, J. Ye, J. Wu, T. Yan, C. Wang, and Z. Li JailPO: a novel black-box jailbreak framework via preference optimization against aligned llms In AAAI pp. 27419–27427",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "L. Li, Y. Liu, D. He, and Y. Li One model transfer to all: on robust jailbreak prompts generation against llms In ICLR External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:278499523"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "X. Li, R. Wang, M. Cheng, T. Zhou, and C. Hsieh DrAttack: prompt decomposition and reconstruction makes powerful llm jailbreakers In EMNLP",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "X. Li, Z. Zhou, J. Zhu, J. Yao, T. Liu, and B. Han Deepinception: hypnotize large language model to be jailbreaker arXiv preprint arXiv:2311.03191",
+      "year": 2311,
+      "arxiv_id": "2311.03191",
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "",
+      "text": "X. Li, T. Zhang, Y. Dubois, R. Taori, I. Gulrajani, C. Guestrin, P. Liang, and T. B. Hashimoto AlpacaEval: an automatic evaluator of instruction-following models GitHub Note: https://github.com/tatsu-lab/alpaca_eval",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/tatsu-lab/alpaca_eval"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Z. Liao and H. Sun AmpleGCG: learning a universal and transferable generative model of adversarial suffixes for jailbreaking both open and closed llms In COLM",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 85,
+      "label": "",
+      "text": "A. Liu, B. Feng, B. Xue, B. Wang, B. Wu, C. Lu, C. Zhao, C. Deng, C. Zhang, C. Ruan, et al. Deepseek-v3 technical report arXiv preprint arXiv:2412.19437",
+      "year": 2412,
+      "arxiv_id": "2412.19437",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "F. Liu, Y. Feng, Z. Xu, L. Su, X. Ma, D. Yin, and H. Liu JAILJUDGE: a comprehensive jailbreak judge benchmark with multi-agent enhanced explanation evaluation framework ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "X. Liu, P. Li, G. E. Suh, Y. Vorobeychik, Z. Mao, S. Jha, P. McDaniel, H. Sun, B. Li, and C. Xiao AutoDAN-turbo: a lifelong agent for strategy self-exploration to jailbreak LLMs In ICLR External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=bhK7U37VW8"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "X. Liu, N. Xu, M. Chen, and C. Xiao AutoDAN: generating stealthy jailbreak prompts on aligned large language models In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 95,
+      "label": "",
+      "text": "Y. Liu, S. Zhou, Y. Lu, H. Zhu, W. Wang, H. Lin, B. He, X. Han, and L. Sun Auto-rt: automatic jailbreak strategy exploration for red-teaming large language models ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Y. Liu, X. He, M. Xiong, J. Fu, S. Deng, and B. Hooi Flipattack: jailbreak llms via flipping arXiv preprint arXiv:2410.02832",
+      "year": 2410,
+      "arxiv_id": "2410.02832",
+      "url": null
+    },
+    {
+      "idx": 99,
+      "label": "",
+      "text": "X. Ma, Y. Gao, Y. Wang, R. Wang, X. Wang, Y. Sun, Y. Ding, H. Xu, Y. Chen, Y. Zhao, et al. Safety at scale: a comprehensive survey of large model safety arXiv preprint arXiv:2502.05206",
+      "year": 2502,
+      "arxiv_id": "2502.05206",
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "",
+      "text": "W. Mai, G. Hong, P. Chen, X. Pan, B. Liu, Y. Zhang, H. Duan, and M. Yang You can’t eat your cake and have it too: the performance degradation of llms with jailbreak defense In WWW pp. 872–883",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "M. Mazeika, L. Phan, X. Yin, A. Zou, Z. Wang, N. Mu, E. Sakhaee, N. Li, S. Basart, B. Li, et al. HarmBench: a standardized evaluation framework for automated red teaming and robust refusal In ICML pp. 35181–35224",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "A. Mehrotra, M. Zampetakis, P. Kassianik, B. Nelson, H. Anderson, Y. Singer, and A. Karbasi Tree of attacks: jailbreaking black-box llms automatically NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Y. Mo, Y. Wang, Z. Wei, and Y. Wang Fight back against jailbreaking via prompt adversarial tuning In NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 113,
+      "label": "",
+      "text": "Y. Mou, S. Zhang, and W. Ye Sg-bench: evaluating llm safety generalization across diverse tasks and prompt types NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 116,
+      "label": "",
+      "text": "G. D. L. Munoz, A. J. Minnich, R. Lutz, R. Lundeen, R. S. R. Dheekonda, N. Chikanov, B. Jagdagdorj, M. Pouliot, S. Chawla, W. Maxwell, et al. PyRIT: a framework for security risk identification and red teaming in generative ai system arXiv preprint arXiv:2410.02828",
+      "year": 2410,
+      "arxiv_id": "2410.02828",
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "Z. Niu, H. Ren, X. Gao, G. Hua, and R. Jin Jailbreaking attack against multimodal large language model arXiv preprint arXiv:2402.02309",
+      "year": 2402,
+      "arxiv_id": "2402.02309",
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "OpenAI Gpt-3.5-turbo system card https://platform.openai.com/docs/models/gpt-3.5-turbo",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "OpenAI How we think about safety and alignment https://openai.com/safety/how-we-think-about-safety-alignment/",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 75,
+      "label": "",
+      "text": "L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray, et al. Training language models to follow instructions with human feedback NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 114,
+      "label": "",
+      "text": "B. Peng, Z. Bi, Q. Niu, M. Liu, P. Feng, T. Wang, L. K. Yan, Y. Wen, Y. Zhang, and C. H. Yin Jailbreaking and mitigation of vulnerabilities in large language models arXiv preprint arXiv:2410.15236",
+      "year": 2410,
+      "arxiv_id": "2410.15236",
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "X. Qi, A. Panda, K. Lyu, X. Ma, S. Roy, A. Beirami, P. Mittal, and P. Henderson Safety alignment should be made more than just a few tokens deep In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Qwen Qwen-2.5-max technical report https://www.researchgate.net/publication/388485555 [59] _Technical_Report_on_Qwen-25_Max",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "D. Ran, J. Liu, Y. Gong, J. Zheng, X. He, T. Cong, and A. Wang JailbreakEval: an integrated toolkit for evaluating jailbreak attempts against large language models ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 96,
+      "label": "",
+      "text": "A. Rao, S. Vashistha, A. Naik, S. Aditya, and M. Choudhury Tricking llms into disobedience: formalizing, analyzing, and detecting jailbreaks In LREC",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Q. Ren, C. Gao, J. Shao, J. Yan, X. Tan, W. Lam, and L. Ma CodeAttack: revealing safety generalization challenges of large language models via code completion In ACL pp. 11437–11452",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Q. Ren, H. Li, D. Liu, Z. Xie, X. Lu, Y. Qiao, L. Sha, J. Yan, L. Ma, and J. Shao LLMs know their vulnerabilities: uncover safety gaps through natural distribution shifts ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "A. Robey, E. Wong, H. Hassani, and G. J. Pappas SmoothLLM: defending large language models against jailbreaking attacks ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "B. Roziere, J. Gehring, F. Gloeckle, S. Sootla, I. Gat, X. E. Tan, Y. Adi, J. Liu, R. Sauvestre, T. Remez, et al. Code llama: open foundation models for code arXiv preprint arXiv:2308.12950",
+      "year": 2308,
+      "arxiv_id": "2308.12950",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "M. Russinovich, A. Salem, and R. Eldan Great, now write an article about that: the crescendo multi-turn llm jailbreak attack In USENIX Security pp. 2421–2440",
+      "year": 2440,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 102,
+      "label": "",
+      "text": "G. Shen, D. Zhao, L. Feng, X. He, J. Wang, S. Shen, H. Tong, Y. Dong, J. Li, X. Zheng, et al. PANDAGUARD: systematic evaluation of llm safety against jailbreaking attacks arXiv preprint arXiv:2505.13862",
+      "year": 2505,
+      "arxiv_id": "2505.13862",
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "X. Shen, Z. Chen, M. Backes, Y. Shen, and Y. Zhang ” Do anything now”: characterizing and evaluating in-the-wild jailbreak prompts on large language models In ACM SIGSAC pp. 1671–1685",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "C. Sitawarin, N. Mu, D. Wagner, and A. Araujo PAL: proxy-guided black-box attack on large language models ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "L. Sun, Y. Huang, H. Wang, S. Wu, Q. Zhang, C. Gao, Y. Huang, W. Lyu, Y. Zhang, X. Li, et al. Trustllm: trustworthiness in large language models In ICML pp. 20166–20270",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 100,
+      "label": "",
+      "text": "S. Surur, J. Angel, and A. Jothi Jailbreak attacks on large language models and possible defenses: present status and future possibilities ISTAS External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:273694923"
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "B. Wang, W. Chen, H. Pei, C. Xie, M. Kang, C. Zhang, C. Xu, Z. Xiong, R. Dutta, R. Schaeffer, et al. DecodingTrust: a comprehensive assessment of trustworthiness in gpt models NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "F. Wang, R. Duan, P. Xiao, X. Jia, S. Zhao, C. Wei, Y. Chen, C. Wang, J. Tao, H. Su, et al. Mrj-agent: an effective jailbreak agent for multi-round dialogue arXiv preprint arXiv:2411.03814",
+      "year": 2411,
+      "arxiv_id": "2411.03814",
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "Y. Wang, W. Wang, S. Joty, and S. C. Hoi CodeT5: identifier-aware unified pre-trained encoder-decoder models for code understanding and generation In EMNLP pp. 8696–8708",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 119,
+      "label": "",
+      "text": "J. Wulf and J. Meierhofer Exploring the potential of large language models for automation in technical customer service arXiv preprint arXiv:2405.09161",
+      "year": 2405,
+      "arxiv_id": "2405.09161",
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Y. Xie, J. Yi, J. Shao, J. Curl, L. Lyu, Q. Chen, X. Xie, and F. Wu Defending chatgpt against jailbreak attack via self-reminders Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Z. Xu, F. Jiang, L. Niu, J. Jia, B. Y. Lin, and R. Poovendran SafeDecoding: defending against jailbreak attacks via safety-aware decoding In ACL pp. 5587–5605",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 92,
+      "label": "",
+      "text": "Z. Xu, F. Liu, and H. Liu Bag of tricks: benchmarking of jailbreak attacks on llms NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "",
+      "text": "Z. Xu, Y. Liu, G. Deng, Y. Li, and S. Picek A comprehensive study of jailbreak attack versus defense for large language models In ACL pp. 7432–7449",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Y. Xue, J. Wang, Z. Yin, Y. Ma, H. Qin, R. Tao, and X. Liu Dual intention escape: penetrating and toxic jailbreak attack against large language models WWW External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:277998559"
+    },
+    {
+      "idx": 89,
+      "label": "",
+      "text": "A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv, et al. Qwen3 technical report arXiv preprint arXiv:2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "A. Yang, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Li, D. Liu, F. Huang, H. Wei, et al. Qwen2. 5 technical report arXiv preprint arXiv:2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "H. Yang, K. Ma, X. Jia, Y. Sun, Q. Xu, and Q. Huang Cannot see the forest for the trees: invoking heuristics and biases to elicit irrational choices of llms In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "X. Yang, G. Deng, J. Shi, T. Zhang, and J. S. Dong Enhancing model defense against jailbreaks with proactive safety reasoning arXiv preprint arXiv:2501.19180",
+      "year": 2501,
+      "arxiv_id": "2501.19180",
+      "url": null
+    },
+    {
+      "idx": 112,
+      "label": "",
+      "text": "Y. Yang, S. Dan, D. Roth, and I. Lee Benchmarking llm guardrails in handling multilingual toxicity ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "S. Yi, Y. Liu, Z. Sun, T. Cong, X. He, J. Song, K. Xu, and Q. Li Jailbreak attacks and defenses against large language models: a survey ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "J. Yu, X. Lin, Z. Yu, and X. Xing Gptfuzzer: red teaming large language models with auto-generated jailbreak prompts arXiv preprint arXiv:2309.10253",
+      "year": 2309,
+      "arxiv_id": "2309.10253",
+      "url": null
+    },
+    {
+      "idx": 97,
+      "label": "",
+      "text": "Z. Yu, X. Liu, S. Liang, Z. Cameron, C. Xiao, and N. Zhang Don’t listen to me: understanding and exploring jailbreak prompts of large language models In USENIX Security pp. 4675–4692",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Y. Yuan, W. Jiao, W. Wang, J. Huang, P. He, S. Shi, and Z. Tu GPT-4 is too smart to be safe: stealthy chat with llms via cipher In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Y. Zeng, H. Lin, J. Zhang, D. Yang, R. Jia, and W. Shi How johnny can persuade llms to jailbreak them: rethinking persuasion to challenge ai safety by humanizing llms In ACL pp. 14322–14350",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Y. Zeng, Y. Wu, X. Zhang, H. Wang, and Q. Wu AutoDefense: multi-agent llm defense against jailbreak attacks ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 122,
+      "label": "",
+      "text": "Q. Zhang, K. Ding, T. Lv, X. Wang, Q. Yin, Y. Zhang, J. Yu, Y. Wang, X. Li, Z. Xiang, et al. Scientific large language models: a survey on biological & chemical domains ACM Computing Surveys",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "S. Zhang, Y. Zhai, K. Guo, H. Hu, S. Guo, Z. Fang, L. Zhao, C. Shen, C. Wang, and Q. Wang JBShield: defending large language models from jailbreak attacks through activated concept analysis and manipulation In USENIX Security",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Y. Zhang and Z. Wei Boosting jailbreak attack with momentum In ICASSP pp. 1–5",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Z. Zhang, L. Lei, J. Yang, X. Huang, Y. Lu, S. Cui, R. Chen, Q. Zhang, X. Wang, H. Wang, H. Li, X. Lei, C. Pan, L. Sha, H. Wang, and M. Huang AISafetyLab: a comprehensive framework for ai safety evaluation and improvement ArXiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Z. Zhang, J. Yang, Y. Lu, P. Ke, S. Cui, C. Zheng, H. Wang, and M. Huang From theft to bomb-making: the ripple effect of unlearning in defending against jailbreak attacks arXiv preprint arXiv:2407.02855",
+      "year": 2407,
+      "arxiv_id": "2407.02855",
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "",
+      "text": "X. Zheng, T. Pang, C. Du, Q. Liu, J. Jiang, and M. Lin Cheating automatic llm benchmarks: null models achieve high win rates In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 103,
+      "label": "",
+      "text": "A. Zhou and R. Arel Tempest: autonomous multi-turn jailbreaking of large language models with tree search arXiv preprint arXiv:2503.10619",
+      "year": 2503,
+      "arxiv_id": "2503.10619",
+      "url": null
+    },
+    {
+      "idx": 115,
+      "label": "",
+      "text": "W. Zhou, X. Wang, L. Xiong, H. Xia, Y. Gu, M. Chai, F. Zhu, C. Huang, S. Dou, Z. Xi, et al. Easyjailbreak: a unified framework for jailbreaking large language models arXiv preprint arXiv:2403.12171",
+      "year": 2403,
+      "arxiv_id": "2403.12171",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Y. Zhou and W. Wang Don’t say no: jailbreaking llm by suppressing refusal In ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Z. Zhou, H. Yu, X. Zhang, R. Xu, F. Huang, and Y. Li How alignment and jailbreak work: explain llm safety through intermediate hidden states In EMNLP pp. 2461–2488",
+      "year": 2488,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 110,
+      "label": "",
+      "text": "G. Zizzo, G. Cornacchia, K. Fraser, M. Z. Hameed, A. Rawat, B. Buesser, M. Purcell, P. Chen, P. Sattigeri, and K. Varshney Adversarial prompt evaluation: systematic benchmarking of guardrails against prompt input attacks on llms arXiv preprint arXiv:2502.15427",
+      "year": 2502,
+      "arxiv_id": "2502.15427",
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "A. Zou, L. Phan, J. Wang, D. Duenas, M. Lin, M. Andriushchenko, J. Z. Kolter, M. Fredrikson, and D. Hendrycks Improving alignment and robustness with circuit breakers NIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "A. Zou, Z. Wang, N. Carlini, M. Nasr, J. Z. Kolter, and M. Fredrikson Universal and transferable adversarial attacks on aligned language models External Links: 2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": "https://arxiv.org/abs/2307.15043"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Q. Zou, J. Xiao, Q. Li, Z. Yan, Y. Wang, L. Xu, W. Wang, K. Gao, R. Li, and Y. Jiang QueryAttack: jailbreaking aligned large language models using structured non-natural query language In ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

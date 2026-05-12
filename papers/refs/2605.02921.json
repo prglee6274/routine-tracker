@@ -1,0 +1,576 @@
+{
+  "arxiv_id": "2605.02921",
+  "source": "https://arxiv.org/html/2605.02921v1",
+  "fetched_at": "2026-05-12",
+  "count": 71,
+  "references": [
+    {
+      "idx": 1,
+      "label": "Aarab (2025)",
+      "text": "Aarab, I., 2025. Llm-based ir-system for bank supervisors. Knowledge-Based Systems 310, 112914.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "Achiam et al. (2023)",
+      "text": "Achiam, J., Adler, S., Agarwal, S., Ahmad, L., Akkaya, I., Aleman, F.L., Almeida, D., Altenschmidt, J., Altman, S., Anadkat, S., et al., 2023. Gpt-4 technical report. arXiv preprint arXiv:2303.08774 .",
+      "year": 2303,
+      "arxiv_id": "2303.08774",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "Andriushchenko et al. (2025)",
+      "text": "Andriushchenko, M., Croce, F., Flammarion, N., 2025. Jailbreaking leading safety-aligned llms with simple adaptive attacks, in: The Thirteenth International Conference on Learning Representations.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "Awasthi et al. (2025)",
+      "text": "Awasthi, A., Chung, B., Vu, A.M., Khan, S., Le, N., Deng, Z., Agrawal, R., Wu, C.C., Nguyen, H.V., 2025. Structural chain of thoughts for radiology education. Knowledge-Based Systems 330, 114433. URL: https://www.sciencedirect.com/science/article/pii/S0950705125014728 , doi: https://doi.org/10.1016/j.knosys.2025.114433 .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705125014728"
+    },
+    {
+      "idx": 5,
+      "label": "Basani and Zhang (2025)",
+      "text": "Basani, A.R., Zhang, X., 2025. Gasp: Efficient black-box generation of adversarial suffixes for jailbreaking llms, in: Annual Conference on Neural Information Processing Systems (NeurIPS).",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "Casper et al. (2023)",
+      "text": "Casper, S., Lin, J., Kwon, J., Culp, G., Hadfield-Menell, D., 2023. Explore, establish, exploit: Red teaming language models from scratch. arXiv preprint arXiv:2306.09442 .",
+      "year": 2306,
+      "arxiv_id": "2306.09442",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Chao et al. (2024)",
+      "text": "Chao, P., Debenedetti, E., Robey, A., Andriushchenko, M., Croce, F., Sehwag, V., Dobriban, E., Flammarion, N., Pappas, G.J., Tramèr, F., et al., 2024. Jailbreakbench: An open robustness benchmark for jailbreaking large language models, in: The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "Chao et al. (2023)",
+      "text": "Chao, P., Robey, A., Dobriban, E., Hassani, H., Pappas, G.J., Wong, E., 2023. Jailbreaking black box large language models in twenty queries. arXiv preprint arXiv:2310.08419 .",
+      "year": 2310,
+      "arxiv_id": "2310.08419",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "Chen et al. (2025)",
+      "text": "Chen, Y., Wang, X., Li, J., Wang, Y., Li, J., Teng, Y., Wang, Y., Ma, X., 2025. Evolve the method, not the prompts: Evolutionary synthesis of jailbreak attacks on llms. arXiv preprint arXiv:2511.12710 .",
+      "year": 2511,
+      "arxiv_id": "2511.12710",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Deng et al. (2024a)",
+      "text": "Deng, G., Liu, Y., Li, Y., Wang, K., Zhang, Y., Li, Z., Wang, H., Zhang, T., Liu, Y., 2024a. Masterkey: Automated jailbreaking of large language model chatbots, in: NDSS.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "Deng et al. (2024b)",
+      "text": "Deng, G., Liu, Y., Wang, K., Li, Y., Zhang, T., Liu, Y., 2024b. Pandora: Jailbreak gpts by retrieval augmented generation poisoning. arXiv preprint arXiv:2402.08416 .",
+      "year": 2402,
+      "arxiv_id": "2402.08416",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "Deng et al. (2024c)",
+      "text": "Deng, Y., Zhang, W., Pan, S.J., Bing, L., 2024c. Multilingual jailbreak challenges in large language models, in: The Twelfth International Conference on Learning Representations.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Diao et al. (2025)",
+      "text": "Diao, M., Li, R., Liu, S., Liao, G., Wang, J., Cai, X., Xu, W., 2025. Seas: Self-evolving adversarial safety optimization for large language models, in: Proceedings of the AAAI Conference on Artificial Intelligence, pp. 23778–23786.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "Ding et al. (2024)",
+      "text": "Ding, P., Kuang, J., Ma, D., Cao, X., Xian, Y., Chen, J., Huang, S., 2024. A wolf in sheep’s clothing: Generalized nested jailbreak prompts can fool large language models easily, in: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), pp. 2136–2153.",
+      "year": 2153,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Doumbouya et al. (2025)",
+      "text": "Doumbouya, M.K.B., Nandi, A., Poesia, G., Ghilardi, D., Goldie, A., Bianchi, F., Jurafsky, D., Manning, C.D., 2025. h4rm3l: A language for composable jailbreak attack synthesis, in: The Thirteenth International Conference on Learning Representations.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Dubey et al. (2024)",
+      "text": "Dubey, A., Jauhri, A., Pandey, A., Kadian, A., Al-Dahle, A., Letman, A., Mathur, A., Schelten, A., Yang, A., Fan, A., et al., 2024. The llama 3 herd of models. arXiv e-prints , arXiv–2407.",
+      "year": 2407,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Gong et al. (2025)",
+      "text": "Gong, X., Li, M., Zhang, Y., Ran, F., Chen, C., Chen, Y., Wang, Q., Lam, K.Y., 2025. { \\{ PAPILLON } \\} : Efficient and stealthy fuzz { \\{ Testing-Powered } \\} jailbreaks for { \\{ LLMs } \\} , in: 34th USENIX Security Symposium (USENIX Security 25), pp. 2401–2420.",
+      "year": 2420,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "Guo et al. (2024)",
+      "text": "Guo, X., Yu, F., Zhang, H., Qin, L., Hu, B., 2024. Cold-attack: Jailbreaking llms with stealthiness and controllability, in: International Conference on Machine Learning, PMLR. pp. 16974–17002.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "Hayase et al. (2024)",
+      "text": "Hayase, J., Borevković, E., Carlini, N., Tramèr, F., Nasr, M., 2024. Query-based adversarial prompt generation. Advances in Neural Information Processing Systems 37, 128260–128279.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "Hu et al. (2024)",
+      "text": "Hu, B., Zheng, L., Zhu, J., Ding, L., Wang, Y., Gu, X., 2024. Teaching plan generation and evaluation with gpt-4: Unleashing the potential of llm in instructional design. IEEE Transactions on Learning Technologies 17, 1445–1459.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "Huang et al. (2024)",
+      "text": "Huang, Y., Gupta, S., Xia, M., Li, K., Chen, D., 2024. Catastrophic jailbreak of open-source llms via exploiting generation, in: The Twelfth International Conference on Learning Representations.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "Jabbar et al. (2025)",
+      "text": "Jabbar, M.S., Al-Azani, S., Alotaibi, A., Ahmed, M., 2025. Red teaming large language models: A comprehensive review and critical analysis. Information Processing & Management 62, 104239.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "Jia et al. (2025)",
+      "text": "Jia, X., Pang, T., Du, C., Huang, Y., Gu, J., Liu, Y., Cao, X., Lin, M., 2025. Improved techniques for optimization-based jailbreaking on large language models, in: The Thirteenth International Conference on Learning Representations.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "Jiang et al. (2024)",
+      "text": "Jiang, F., Xu, Z., Niu, L., Xiang, Z., Ramasubramanian, B., Li, B., Poovendran, R., 2024. Artprompt: Ascii art-based jailbreak attacks against aligned llms, in: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 15157–15173.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "Jiang et al. (2025a)",
+      "text": "Jiang, S., Chen, X., Tang, R., 2025a. Deceiving llm through compositional instruction with hidden attacks. ACM Transactions on Autonomous and Adaptive Systems .",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "Jiang et al. (2025b)",
+      "text": "Jiang, S., Chen, X., Xu, K., Chen, L., Ren, H., Tang, R., 2025b. Decomposition, synthesis and attack: A multi-instruction fusion method for jailbreaking llms. IEEE Internet of Things Journal .",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "Jiang et al. (2025c)",
+      "text": "Jiang, Y., Li, M., Backes, M., Zhang, Y., 2025c. Adjacent Words, Divergent Intents: Jailbreaking Large Language Models via Task Concurrency, in: Annual Conference on Neural Information Processing Systems (NeurIPS).",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "Jin et al. (2024)",
+      "text": "Jin, H., Chen, R., Zhou, A., Zhang, Y., Wang, H., 2024. Guard: Role-playing to generate natural-language jailbreakings to test guideline adherence of large language models, in: ICLR 2024 Workshop on Secure and Trustworthy Large Language Models.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "Kang et al. (2024)",
+      "text": "Kang, D., Li, X., Stoica, I., Guestrin, C., Zaharia, M., Hashimoto, T., 2024. Exploiting programmatic behavior of llms: Dual-use through standard security attacks, in: 2024 IEEE Security and Privacy Workshops (SPW), IEEE. pp. 132–143.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "Lermen and Rogers-Smith (2024)",
+      "text": "Lermen, S., Rogers-Smith, C., 2024. Lora fine-tuning efficiently undoes safety training in llama 2-chat 70b, in: ICLR 2024 Workshop on Secure and Trustworthy Large Language Models.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "Li et al. (2025a)",
+      "text": "Li, H., Cao, Y., Yu, Y., Javaji, S.R., Deng, Z., He, Y., Jiang, Y., Zhu, Z., Subbalakshmi, K., Huang, J., et al., 2025a. Investorbench: A benchmark for financial decision-making tasks with llm-based agent, in: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2509–2525.",
+      "year": 2525,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "Li et al. (2023a)",
+      "text": "Li, H., Guo, D., Fan, W., Xu, M., Huang, J., Meng, F., Song, Y., 2023a. Multi-step jailbreaking privacy attacks on chatgpt, in: Findings of the Association for Computational Linguistics: EMNLP 2023, pp. 4138–4153.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "Li et al. (2024a)",
+      "text": "Li, J., Liu, Y., Liu, C., Shi, L., Ren, X., Zheng, Y., Liu, Y., Xue, Y., 2024a. A cross-language investigation into jailbreak attacks in large language models. arXiv preprint arXiv:2401.16765 .",
+      "year": 2401,
+      "arxiv_id": "2401.16765",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "Li et al. (2025b)",
+      "text": "Li, L., Liu, Y., He, D., LI, Y., 2025b. One model transfer to all: On robust jailbreak prompts generation against llms, in: The Thirteenth International Conference on Learning Representations.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "Li et al. (2024b)",
+      "text": "Li, X., Liang, S., Zhang, J., Fang, H., Liu, A., Chang, E.C., 2024b. Semantic mirror jailbreak: Genetic algorithm based jailbreak prompts against open-source llms. arXiv preprint arXiv:2402.14872 .",
+      "year": 2402,
+      "arxiv_id": "2402.14872",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "Li et al. (2023b)",
+      "text": "Li, X., Zhou, Z., Zhu, J., Yao, J., Liu, T., Han, B., 2023b. Deepinception: Hypnotize large language model to be jailbreaker. arXiv preprint arXiv:2311.03191 .",
+      "year": 2311,
+      "arxiv_id": "2311.03191",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "Lin et al. (2024)",
+      "text": "Lin, B.Y., Ravichander, A., Lu, X., Dziri, N., Sclar, M., Chandu, K., Bhagavatula, C., Choi, Y., 2024. The unlocking spell on base llms: Rethinking alignment via in-context learning, in: The Twelfth International Conference on Learning Representations.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "Liu et al. (2026)",
+      "text": "Liu, H., Li, S., Ji, B., Du, X., Li, X., Ma, J., Yu, J., 2026. Seattack: A self-evolving jailbreak attack to induce toxic responses for non-toxic queries in large language models. Information Processing & Management 63, 104544.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "Liu et al. (2025a)",
+      "text": "Liu, X., Li, P., Suh, E., Vorobeychik, Y., Mao, Z., Jha, S., McDaniel, P., Sun, H., Li, B., Xiao, C., 2025a. Autodan-turbo: A lifelong agent for strategy self-exploration to jailbreak llms, in: The Thirteenth International Conference on Learning Representations.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "Liu et al. (2024)",
+      "text": "Liu, X., Xu, N., Chen, M., Xiao, C., 2024. Autodan: Generating stealthy jailbreak prompts on aligned large language models, in: The Twelfth International Conference on Learning Representations.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "Liu et al. (2025b)",
+      "text": "Liu, Y., He, X., Xiong, M., Fu, J., Deng, S., Ma, Y., Zhang, J., Hooi, B., 2025b. Flipattack: Jailbreak llms via flipping, in: International Conference on Machine Learning, PMLR. pp. 38623–38663.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "Lv et al. (2024)",
+      "text": "Lv, H., Wang, X., Zhang, Y., Huang, C., Dou, S., Ye, J., Gui, T., Zhang, Q., Huang, X., 2024. Codechameleon: Personalized encryption framework for jailbreaking large language models. arXiv preprint arXiv:2402.16717 .",
+      "year": 2402,
+      "arxiv_id": "2402.16717",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "Mehrotra et al. (2024)",
+      "text": "Mehrotra, A., Zampetakis, M., Kassianik, P., Nelson, B., Anderson, H., Singer, Y., Karbasi, A., 2024. Tree of attacks: Jailbreaking black-box llms automatically. Advances in Neural Information Processing Systems 37, 61065–61105.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "Qi et al. (2024)",
+      "text": "Qi, X., Zeng, Y., Xie, T., Chen, P.Y., Jia, R., Mittal, P., Henderson, P., 2024. Fine-tuning aligned language models compromises safety, even when users do not intend to!, in: The Twelfth International Conference on Learning Representations.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "Robey et al. (2023)",
+      "text": "Robey, A., Wong, E., Hassani, H., Pappas, G.J., 2023. Smoothllm: Defending large language models against jailbreaking attacks. arXiv preprint arXiv:2310.03684 .",
+      "year": 2310,
+      "arxiv_id": "2310.03684",
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "Salimans et al. (2017)",
+      "text": "Salimans, T., Ho, J., Chen, X., Sidor, S., Sutskever, I., 2017. Evolution strategies as a scalable alternative to reinforcement learning. arXiv preprint arXiv:1703.03864 .",
+      "year": 2017,
+      "arxiv_id": "1703.03864",
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "Salton and Buckley (1988)",
+      "text": "Salton, G., Buckley, C., 1988. Term-weighting approaches in automatic text retrieval. Information processing & management 24, 513–523.",
+      "year": 1988,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "Shah et al. (2023)",
+      "text": "Shah, R., Pour, S., Tagade, A., Casper, S., Rando, J., et al., 2023. Scalable and transferable black-box jailbreaks for language models via persona modulation. arXiv preprint arXiv:2311.03348 .",
+      "year": 2311,
+      "arxiv_id": "2311.03348",
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "Shen et al. (2024)",
+      "text": "Shen, X., Chen, Z., Backes, M., Shen, Y., Zhang, Y., 2024. \" do anything now\": Characterizing and evaluating in-the-wild jailbreak prompts on large language models, in: Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security, pp. 1671–1685.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "Thirunavukarasu et al. (2023a)",
+      "text": "Thirunavukarasu, A.J., Ting, D.S.J., Elangovan, K., Gutierrez, L., Tan, T.F., Ting, D.S.W., 2023a. Large language models in medicine. Nature medicine 29, 1930–1940.",
+      "year": 1940,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "Thirunavukarasu et al. (2023b)",
+      "text": "Thirunavukarasu, A.J., Ting, D.S.J., Elangovan, K., Gutierrez, L., Tan, T.F., Ting, D.S.W., 2023b. Large language models in medicine. Nature medicine 29, 1930–1940.",
+      "year": 1940,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "Wang et al. (2024)",
+      "text": "Wang, H., Li, H., Huang, M., Sha, L., 2024. Asetf: A novel method for jailbreak attack on llms through translate suffix embeddings, in: Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pp. 2697–2711.",
+      "year": 2711,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "Wang et al. (2025)",
+      "text": "Wang, X., Jian, S., Li, S., Li, X., Ji, B., Jun, M., Liu, X., Wang, J., Zhang, J., Yu, J., et al., 2025. Stand on the shoulders of giants: Building jailexpert from previous attack experience, in: Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing, pp. 3826–3843.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "Wei et al. (2023)",
+      "text": "Wei, Z., Wang, Y., Li, A., Mo, Y., Wang, Y., 2023. Jailbreak and guard aligned language models with only few in-context demonstrations. arXiv preprint arXiv:2310.06387 .",
+      "year": 2310,
+      "arxiv_id": "2310.06387",
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "Wu et al. (2025)",
+      "text": "Wu, T., Xue, Z., Liu, Y., Zhang, J., Hooi, B., Ng, S.K., 2025. Geneshift: Impact of different scenario shift on jailbreaking llm, in: ICLR 2025 Workshop on Foundation Models in the Wild.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "Xie et al. (2024)",
+      "text": "Xie, Y., Fang, M., Pi, R., Gong, N., 2024. Gradsafe: Detecting jailbreak prompts for llms via safety-critical gradient analysis, in: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 507–518.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "Xie et al. (2025)",
+      "text": "Xie, Z., Song, X., Luo, J., 2025. Attack via overfitting: 10-shot benign fine-tuning to jailbreak llms. arXiv preprint arXiv:2510.02833 .",
+      "year": 2510,
+      "arxiv_id": "2510.02833",
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "Xiong et al. (2025)",
+      "text": "Xiong, C., Chen, P.Y., Ho, T.Y., 2025. Cop: Agentic red-teaming for large language models using composition of principles, in: Annual Conference on Neural Information Processing Systems (NeurIPS).",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "Yang et al. (2024)",
+      "text": "Yang, X., Wang, X., Zhang, Q., Petzold, L.R., Wang, W.Y., Zhao, X., Lin, D., 2024. Shadow alignment: The ease of subverting safely-aligned language models, in: ICLR 2024 Workshop on Secure and Trustworthy Large Language Models.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "Yao et al. (2024)",
+      "text": "Yao, D., Zhang, J., Harris, I.G., Carlsson, M., 2024. Fuzzllm: A novel and universal fuzzing framework for proactively discovering jailbreak vulnerabilities in large language models, in: ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), IEEE. pp. 4485–4489.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "Yi et al. (2024)",
+      "text": "Yi, S., Liu, Y., Sun, Z., Cong, T., He, X., Song, J., Xu, K., Li, Q., 2024. Jailbreak attacks and defenses against large language models: A survey. arXiv preprint arXiv:2407.04295 .",
+      "year": 2407,
+      "arxiv_id": "2407.04295",
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "Yu et al. (2024)",
+      "text": "Yu, J., Lin, X., Yu, Z., Xing, X., 2024. Llm-fuzzer: Scaling assessment of large language model jailbreaks, in: 33rd USENIX Security Symposium (USENIX Security 24), pp. 4657–4674.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "Yuan et al. (2024)",
+      "text": "Yuan, Y., Jiao, W., Wang, W., Huang, J.t., He, P., Shi, S., Tu, Z., 2024. Gpt-4 is too smart to be safe: Stealthy chat with llms via cipher, in: The Twelfth International Conference on Learning Representations.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "Zeng et al. (2024)",
+      "text": "Zeng, Y., Lin, H., Zhang, J., Yang, D., Jia, R., Shi, W., 2024. How johnny can persuade llms to jailbreak them: Rethinking persuasion to challenge ai safety by humanizing llms, in: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 14322–14350.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "Zhan et al. (2024)",
+      "text": "Zhan, Q., Fang, R., Bindu, R., Gupta, A., Hashimoto, T.B., Kang, D., 2024. Removing rlhf protections in gpt-4 via fine-tuning, in: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers), pp. 681–687.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "Zhang et al. (2023)",
+      "text": "Zhang, Z., Shen, G., Tao, G., Cheng, S., Zhang, X., 2023. Make them spill the beans! coercive knowledge extraction from (production) llms. arXiv preprint arXiv:2312.04782 .",
+      "year": 2312,
+      "arxiv_id": "2312.04782",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "Zhao et al. (2024)",
+      "text": "Zhao, X., Yang, X., Pang, T., Du, C., Li, L., Wang, Y.X., Wang, W.Y., 2024. Weak-to-strong jailbreaking on large language models, in: ICML 2024 Next Generation of AI Safety Workshop.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "Zheng et al. (2025)",
+      "text": "Zheng, W., Zeng, P., Li, Y., Wu, H., Lin, N., Chen, J., Yang, A., Zhou, Y., 2025. Jailbreaking? one step is enough!, in: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 11623–11642.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "Zhou et al. (2024)",
+      "text": "Zhou, Y., Huang, Z., Lu, F., Qin, Z., Wang, W., 2024. Don’t say no: Jailbreaking llm by suppressing refusal. arXiv preprint arXiv:2404.16369 .",
+      "year": 2404,
+      "arxiv_id": "2404.16369",
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "Zhu et al. (2024)",
+      "text": "Zhu, S., Zhang, R., An, B., Wu, G., Barrow, J., Wang, Z., Huang, F., Nenkova, A., Sun, T., 2024. Autodan: Interpretable gradient-based adversarial attacks on large language models, in: First Conference on Language Modeling.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "Zou et al. (2023)",
+      "text": "Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J.Z., Fredrikson, M., 2023. Universal and transferable adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043 .",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

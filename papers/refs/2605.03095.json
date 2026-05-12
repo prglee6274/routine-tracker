@@ -1,0 +1,448 @@
+{
+  "arxiv_id": "2605.03095",
+  "source": "https://arxiv.org/html/2605.03095v1",
+  "fetched_at": "2026-05-12",
+  "count": 55,
+  "references": [
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Super suffixes: bypassing text generation alignment and guard models simultaneously arXiv preprint arXiv:2512.11783",
+      "year": 2512,
+      "arxiv_id": "2512.11783",
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "Llama 3 model card External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Detecting language model attacks with perplexity arXiv preprint arXiv:2308.14132",
+      "year": 2308,
+      "arxiv_id": "2308.14132",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Jailbreaking leading safety-aligned llms with simple adaptive attacks arXiv preprint arXiv:2404.02151",
+      "year": 2404,
+      "arxiv_id": "2404.02151",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Obfuscated activations bypass LLM latent-space defenses In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=ktGmDGoWnB"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Language models are few-shot learners In Advances in Neural Information Processing Systems Vol. 33",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "Are aligned neural networks adversarially aligned? In Thirty-seventh Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=OQQoD8Vc3B"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Deep reinforcement learning from human preferences In Advances in Neural Information Processing Systems Vol. 30",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Benchmarking anomaly detection for large language model alignment External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=Tr74UMzBdw"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "WildGuard: open one-stop moderation tools for safety risks, jailbreaks, and refusals of LLMs In Advances in Neural Information Processing Systems Vol. 37",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Pretrained transformers improve out-of-distribution robustness In Proceedings of the 58th annual meeting of the association for computational linguistics pp. 2744–2751",
+      "year": 2751,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "Gradient cuff: detecting jailbreak attacks on large language models by exploring refusal loss landscapes In The Thirty-eighth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=vI1WqFn15v"
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "Rethinking jailbreak detection of large vision language models with representational contrastive scoring arXiv preprint arXiv:2512.12069",
+      "year": 2512,
+      "arxiv_id": "2512.12069",
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Llama guard: LLM-based input-output safeguard for human-AI conversations arXiv preprint arXiv:2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Baseline defenses for adversarial attacks against aligned language models arXiv preprint arXiv:2309.00614",
+      "year": 2309,
+      "arxiv_id": "2309.00614",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Hiddendetect: detecting jailbreak attacks against large vision-language models via monitoring hidden states arXiv preprint arXiv:2502.14744",
+      "year": 2502,
+      "arxiv_id": "2502.14744",
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Certifying LLM safety against adversarial prompting In Conference on Language Modeling (COLM)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "A well-conditioned estimator for large-dimensional covariance matrices Journal of Multivariate Analysis External Links: ISSN 0047-259X",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/https%3A//doi.org/10.1016/S0047-259X%2803%2900096-4"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "A simple unified framework for detecting out-of-distribution samples and adversarial attacks Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "Bolster hallucination detection via prompt-guided data augmentation In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 40",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "RAIN: your language models can align themselves without finetuning International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "ALERT: zero-shot llm jailbreak detection via internal discrepancy amplification arXiv preprint arXiv:2601.03600",
+      "year": 2601,
+      "arxiv_id": "2601.03600",
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "AutoDAN: generating stealthy jailbreak prompts on aligned large language models In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "HarmBench: a standardized evaluation framework for automated red teaming and robust refusal In Proceedings of the 41st International Conference on Machine Learning ICML’24",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "JailDAM: jailbreak detection with adaptive memory for vision-language model In Second Conference on Language Modeling External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=8Pxdzsqvx9"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "GPT-4 technical report arXiv preprint arXiv:2303.08774 External Links: Document",
+      "year": 2303,
+      "arxiv_id": "2303.08774",
+      "url": "https://dx.doi.org/10.48550/arXiv.2303.08774"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Training language models to follow instructions with human feedback In Advances in Neural Information Processing Systems Vol. 35",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "Steering llama 2 via contrastive activation addition arXiv preprint arXiv:2312.06681",
+      "year": 2312,
+      "arxiv_id": "2312.06681",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Gorilla: large language model connected with massive APIs In Advances in Neural Information Processing Systems Vol. 37",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Red teaming language models with language models In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP) pp. 3419–3448",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Llm self defense: by self examination, llms know they are being tricked arXiv preprint arXiv:2308.07308",
+      "year": 2308,
+      "arxiv_id": "2308.07308",
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Revisiting mahalanobis distance for transformer-based out-of-domain detection In Proceedings of the AAAI conference on artificial intelligence Vol. 35",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "SmoothLLM: defending large language models against jailbreaking attacks Transactions on Machine Learning Research Note: arXiv preprint arXiv:2310.03684, 2023",
+      "year": 2023,
+      "arxiv_id": "2310.03684",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Multitask prompted training enables zero-shot task generalization In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Toolformer: language models can teach themselves to use tools In Advances in Neural Information Processing Systems Vol. 36",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "Revisiting the robust alignment of circuit breakers arXiv preprint arXiv:2407.15902",
+      "year": 2407,
+      "arxiv_id": "2407.15902",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "“Do Anything Now”: characterizing and evaluating in-the-wild jailbreak prompts on large language models In Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Learning to summarize from human feedback In Advances in Neural Information Processing Systems Vol. 33",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "Stanford alpaca: an instruction-following llama model GitHub Note: https://github.com/tatsu-lab/stanford_alpaca",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/tatsu-lab/stanford_alpaca"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "LLaMA: open and efficient foundation language models arXiv preprint arXiv:2302.13971 External Links: Document",
+      "year": 2302,
+      "arxiv_id": "2302.13971",
+      "url": "https://dx.doi.org/10.48550/arXiv.2302.13971"
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "On adaptive attacks to adversarial example defenses Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Jailbroken: how does LLM safety training fail? In Advances in Neural Information Processing Systems Vol. 36",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Finetuned language models are zero-shot learners In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Sorry-bench: systematically evaluating large language model safety refusal arXiv preprint arXiv:2406.14598",
+      "year": 2406,
+      "arxiv_id": "2406.14598",
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "GradSafe: detecting jailbreak prompts for LLMs via safety-critical gradient analysis In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL), Volume 1: Long Papers pp. 507–518",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "Defending ChatGPT against jailbreak attack via self-reminders Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "SafeDecoding: defending against jailbreak attacks via safety-aware decoding In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL), Volume 1: Long Papers pp. 5587–5605",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "ReAct: synergizing reasoning and acting in language models In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "ShieldGemma: generative AI content moderation based on Gemma arXiv preprint arXiv:2407.21772",
+      "year": 2407,
+      "arxiv_id": "2407.21772",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "{ \\{ jbshield } \\} : Defending large language models from jailbreak attacks through activated concept analysis and manipulation In 34th USENIX Security Symposium (USENIX Security 25) pp. 8215–8234",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "Representation engineering: a top-down approach to ai transparency arXiv preprint arXiv:2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Improving alignment and robustness with circuit breakers Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

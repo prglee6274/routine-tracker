@@ -1,0 +1,352 @@
+{
+  "arxiv_id": "2605.05341",
+  "source": "https://arxiv.org/html/2605.05341v1",
+  "fetched_at": "2026-05-12",
+  "count": 43,
+  "references": [
+    {
+      "idx": 14,
+      "label": "",
+      "text": "K. Ayonrinde Adaptive sparse allocation with mutual choice & feature choice sparse autoencoders External Links: 2411.02124",
+      "year": 2411,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2411.02124"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "P. Bartlett, D. J. Foster, and M. Telgarsky Spectrally-normalized margin bounds for neural networks External Links: 1706.08498",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.1706.08498"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "S. Biderman, H. Schoelkopf, Q. Anthony, H. Bradley, K. O’Brien, E. Hallahan, M. A. Khan, S. Purohit, U. S. Prashanth, E. Raff, A. Skowron, L. Sutawika, and O. van der Wal Pythia: a suite for analyzing large language models across training and scaling External Links: 2304.01373",
+      "year": 2304,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2304.01373"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "T. Bricken, A. Templeton, J. Batson, B. Chen, A. Jermyn, T. Conerly, N. L. Turner, C. Anil, C. Denison, A. Askell, R. Lasenby, Y. Wu, S. Kravec, N. Schiefer, T. Maxwell, N. Joseph, A. Tamkin, K. Nguyen, B. McLean, J. E. Burke, T. Hume, S. Carter, T. Henighan, and C. Olah Towards monosemanticity: decomposing language models with dictionary learning External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "B. Bussmann, P. Leask, and N. Nanda BatchTopK sparse autoencoders External Links: 2412.06410",
+      "year": 2412,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2412.06410"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "B. Bussmann, N. Nabeshima, A. Karvonen, and N. Nanda Learning multi-level features with matryoshka sparse autoencoders External Links: 2503.17547",
+      "year": 2503,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2503.17547"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "D. Chanin, J. Wilken-Smith, T. Dulka, H. Bhatnagar, S. Golechha, and J. Bloom A is for absorption: studying feature splitting and absorption in sparse autoencoders External Links: 2409.14507",
+      "year": 2409,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2409.14507"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "X. Chen, J. Liu, Z. Wang, and W. Yin Hyperparameter tuning is all you need for LISTA External Links: 2110.15900",
+      "year": 2110,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2110.15900"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "H. Cunningham, A. Ewart, L. Riggs, R. Huben, and L. Sharkey Sparse autoencoders find highly interpretable features in language models External Links: 2309.08600",
+      "year": 2309,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2309.08600"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "N. Elhage, T. Hume, C. Olsson, N. Schiefer, T. Henighan, S. Kravec, Z. Hatfield-Dodds, R. Lasenby, D. Drain, C. Chen, R. Grosse, S. McCandlish, J. Kaplan, D. Amodei, M. Wattenberg, and C. Olah Toy models of superposition External Links: 2209.10652",
+      "year": 2209,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2209.10652"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "J. Fan and J. Lv Sure independence screening for ultra-high dimensional feature space External Links: math/0612857",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.math/0612857"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "S. Foucart and H. Rauhut A mathematical introduction to compressive sensing Applied and Numerical Harmonic Analysis External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/978-0-8176-4948-7"
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "L. Gao, S. Biderman, S. Black, L. Golding, T. Hoppe, C. Foster, J. Phang, H. He, A. Thite, N. Nabeshima, S. Presser, and C. Leahy The Pile: an 800gb dataset of diverse text for language modeling External Links: 2101.00027",
+      "year": 2101,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2101.00027"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "L. Gao, T. D. la Tour, H. Tillman, G. Goh, R. Troll, A. Radford, I. Sutskever, J. Leike, and J. Wu Scaling and evaluating sparse autoencoders External Links: 2406.04093",
+      "year": 2406,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2406.04093"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "M. Geva, A. Caciularu, K. R. Wang, and Y. Goldberg Transformer feed-forward layers build predictions by promoting concepts in the vocabulary space External Links: 2203.14680",
+      "year": 2203,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2203.14680"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "A. Grattafiori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan, A. Yang, A. Fan, A. Goyal, A. Hartshorn, A. Yang, A. Mitra, A. Sravankumar, A. Korenev, A. Hinsvark, A. Rao, A. Zhang, A. Rodriguez, A. Gregerson, A. Spataru, B. Roziere, B. Biron, B. Tang, B. Chern, C. Caucheteux, C. Nayak, C. Bi, C. Marra, C. McConnell, C. Keller, C. Touret, C. Wu, C. Wong, C. C. Ferrer, C. Nikolaidis, D. Allonsius, D. Song, D. Pintz, D. Livshits, D. Wyatt, D. Esiobu, D. Choudhary, D. Mahajan, D. Garcia-Olano, D. Perino, D. Hupkes, E. Lakomkin, E. AlBadawy, E. Lobanova, E. Dinan, E. M. Smith, F. Radenovic, F. Guzmán, F. Zhang, G. Synnaeve, G. Lee, G. L. Anderson, G. Thattai, G. Nail, G. Mialon, G. Pang, G. Cucurell, H. Nguyen, H. Korevaar, H. Xu, H. Touvron, I. Zarov, I. A. Ibarra, I. Kloumann, I. Misra, I. Evtimov, J. Zhang, J. Copet, J. Lee, J. Geffert, J. Vranes, J. Park, J. Mahadeokar, J. Shah, J. van der Linde, J. Billock, J. Hong, J. Lee, J. Fu, J. Chi, J. Huang, J. Liu, J. Wang, J. Yu, J. Bitton, J. Spisak, J. Park, J. Rocca, J. Johnstun, J. Saxe, J. Jia, K. V. Alwala, K. Prasad, K. Upasani, K. Plawiak, K. Li, K. Heafield, K. Stone, K. El-Arini, K. Iyer, K. Malik, K. Chiu, K. Bhalla, K. Lakhotia, L. Rantala-Yeary, L. van der Maaten, L. Chen, L. Tan, L. Jenkins, L. Martin, L. Madaan, L. Malo, L. Blecher, L. Landzaat, L. de Oliveira, M. Muzzi, M. Pasupuleti, M. Singh, M. Paluri, M. Kardas, M. Tsimpoukelli, M. Oldham, M. Rita, M. Pavlova, M. Kambadur, M. Lewis, M. Si, M. K. Singh, M. Hassan, N. Goyal, N. Torabi, N. Bashlykov, N. Bogoychev, N. Chatterji, N. Zhang, O. Duchenne, O. Çelebi, P. Alrassy, P. Zhang, P. Li, P. Vasic, P. Weng, P. Bhargava, P. Dubal, P. Krishnan, P. S. Koura, P. Xu, Q. He, Q. Dong, R. Srinivasan, R. Ganapathy, R. Calderer, R. S. Cabral, R. Stojnic, R. Raileanu, R. Maheswari, R. Girdhar, R. Patel, R. Sauvestre, R. Polidoro, R. Sumbaly, R. Taylor, R. Silva, R. Hou, R. Wang, S. Hosseini, S. Chennabasappa, S. Singh, S. Bell, S. S. Kim, S. Edunov, S. Nie, S. Narang, S. Raparthy, S. Shen, S. Wan, S. Bhosale, S. Zhang, S. Vandenhende, S. Batra, S. Whitman, S. Sootla, S. Collot, S. Gururangan, S. Borodinsky, T. Herman, T. Fowler, T. Sheasha, T. Georgiou, T. Scialom, T. Speckbacher, T. Mihaylov, T. Xiao, U. Karn, V. Goswami, V. Gupta, V. Ramanathan, V. Kerkez, V. Gonguet, V. Do, V. Vogeti, V. Albiero, V. Petrovic, W. Chu, W. Xiong, W. Fu, W. Meers, X. Martinet, X. Wang, X. Wang, X. E. Tan, X. Xia, X. Xie, X. Jia, X. Wang, Y. Goldschlag, Y. Gaur, Y. Babaei, Y. Wen, Y. Song, Y. Zhang, Y. Li, Y. Mao, Z. D. Coudert, Z. Yan, Z. Chen, Z. Papakipos, A. Singh, A. Srivastava, A. Jain, A. Kelsey, A. Shajnfeld, A. Gangidi, A. Victoria, A. Goldstand, A. Menon, A. Sharma, A. Boesenberg, A. Baevski, A. Feinstein, A. Kallet, A. Sangani, A. Teo, A. Yunus, A. Lupu, A. Alvarado, A. Caples, A. Gu, A. Ho, A. Poulton, A. Ryan, A. Ramchandani, A. Dong, A. Franco, A. Goyal, A. Saraf, A. Chowdhury, A. Gabriel, A. Bharambe, A. Eisenman, A. Yazdan, B. James, B. Maurer, B. Leonhardi, B. Huang, B. Loyd, B. D. Paola, B. Paranjape, B. Liu, B. Wu, B. Ni, B. Hancock, B. Wasti, B. Spence, B. Stojkovic, B. Gamido, B. Montalvo, C. Parker, C. Burton, C. Mejia, C. Liu, C. Wang, C. Kim, C. Zhou, C. Hu, C. Chu, C. Cai, C. Tindal, C. Feichtenhofer, C. Gao, D. Civin, D. Beaty, D. Kreymer, D. Li, D. Adkins, D. Xu, D. Testuggine, D. David, D. Parikh, D. Liskovich, D. Foss, D. Wang, D. Le, D. Holland, E. Dowling, E. Jamil, E. Montgomery, E. Presani, E. Hahn, E. Wood, E. Le, E. Brinkman, E. Arcaute, E. Dunbar, E. Smothers, F. Sun, F. Kreuk, F. Tian, F. Kokkinos, F. Ozgenel, F. Caggioni, F. Kanayet, F. Seide, G. M. Florez, G. Schwarz, G. Badeer, G. Swee, G. Halpern, G. Herman, G. Sizov, Guangyi, Zhang, G. Lakshminarayanan, H. Inan, H. Shojanazeri, H. Zou, H. Wang, H. Zha, H. Habeeb, H. Rudolph, H. Suk, H. Aspegren, H. Goldman, H. Zhan, I. Damlaj, I. Molybog, I. Tufanov, I. Leontiadis, I. Veliche, I. Gat, J. Weissman, J. Geboski, J. Kohli, J. Lam, J. Asher, J. Gaya, J. Marcus, J. Tang, J. Chan, J. Zhen, J. Reizenstein, J. Teboul, J. Zhong, J. Jin, J. Yang, J. Cummings, J. Carvill, J. Shepard, J. McPhie, J. Torres, J. Ginsburg, J. Wang, K. Wu, K. H. U, K. Saxena, K. Khandelwal, K. Zand, K. Matosich, K. Veeraraghavan, K. Michelena, K. Li, K. Jagadeesh, K. Huang, K. Chawla, K. Huang, L. Chen, L. Garg, L. A, L. Silva, L. Bell, L. Zhang, L. Guo, L. Yu, L. Moshkovich, L. Wehrstedt, M. Khabsa, M. Avalani, M. Bhatt, M. Mankus, M. Hasson, M. Lennie, M. Reso, M. Groshev, M. Naumov, M. Lathi, M. Keneally, M. Liu, M. L. Seltzer, M. Valko, M. Restrepo, M. Patel, M. Vyatskov, M. Samvelyan, M. Clark, M. Macey, M. Wang, M. J. Hermoso, M. Metanat, M. Rastegari, M. Bansal, N. Santhanam, N. Parks, N. White, N. Bawa, N. Singhal, N. Egebo, N. Usunier, N. Mehta, N. P. Laptev, N. Dong, N. Cheng, O. Chernoguz, O. Hart, O. Salpekar, O. Kalinli, P. Kent, P. Parekh, P. Saab, P. Balaji, P. Rittner, P. Bontrager, P. Roux, P. Dollar, P. Zvyagina, P. Ratanchandani, P. Yuvraj, Q. Liang, R. Alao, R. Rodriguez, R. Ayub, R. Murthy, R. Nayani, R. Mitra, R. Parthasarathy, R. Li, R. Hogan, R. Battey, R. Wang, R. Howes, R. Rinott, S. Mehta, S. Siby, S. J. Bondu, S. Datta, S. Chugh, S. Hunt, S. Dhillon, S. Sidorov, S. Pan, S. Mahajan, S. Verma, S. Yamamoto, S. Ramaswamy, S. Lindsay, S. Lindsay, S. Feng, S. Lin, S. C. Zha, S. Patil, S. Shankar, S. Zhang, S. Zhang, S. Wang, S. Agarwal, S. Sajuyigbe, S. Chintala, S. Max, S. Chen, S. Kehoe, S. Satterfield, S. Govindaprasad, S. Gupta, S. Deng, S. Cho, S. Virk, S. Subramanian, S. Choudhury, S. Goldman, T. Remez, T. Glaser, T. Best, T. Koehler, T. Robinson, T. Li, T. Zhang, T. Matthews, T. Chou, T. Shaked, V. Vontimitta, V. Ajayi, V. Montanez, V. Mohan, V. S. Kumar, V. Mangla, V. Ionescu, V. Poenaru, V. T. Mihailescu, V. Ivanov, W. Li, W. Wang, W. Jiang, W. Bouaziz, W. Constable, X. Tang, X. Wu, X. Wang, X. Wu, X. Gao, Y. Kleinman, Y. Chen, Y. Hu, Y. Jia, Y. Qi, Y. Li, Y. Zhang, Y. Zhang, Y. Adi, Y. Nam, Yu, Wang, Y. Zhao, Y. Hao, Y. Qian, Y. Li, Y. He, Z. Rait, Z. DeVito, Z. Rosnbrick, Z. Wen, Z. Yang, Z. Zhao, and Z. Ma The Llama 3 herd of models External Links: 2407.21783",
+      "year": 2407,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2407.21783"
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "K. Gregor and Y. LeCun Learning fast approximations of sparse coding In Proceedings of the 27th International Conference on Machine Learning ICML External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://icml.cc/Conferences/2010/papers/449.pdf"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "G. E. Hinton and R. R. Salakhutdinov Reducing the dimensionality of data with neural networks Science External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1126/science.1127647"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "S. Hochreiter and J. Schmidhuber Flat minima Neural Computation External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1162/neco.1997.9.1.1"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "A. J. Hoffman On approximate solutions of systems of linear inequalities Journal of Research of the National Bureau of Standards External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://nvlpubs.nist.gov/nistpubs/jres/049/4/v49.n04.a05.pdf"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "N. S. Keskar, D. Mudigere, J. Nocedal, M. Smelyanskiy, and P. T. P. Tang On large-batch training for deep learning: generalization gap and sharp minima External Links: 1609.04836",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.1609.04836"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "S. Lee, A. Davies, M. E. Canby, and J. Hockenmaier Evaluating and designing sparse autoencoders by approximating quasi-orthogonality External Links: 2503.24277",
+      "year": 2503,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2503.24277"
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "M. Li and L. Janson Optimal ablation for interpretability External Links: 2409.09951",
+      "year": 2409,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2409.09951"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "T. Lieberum, S. Rajamanoharan, A. Conmy, L. Smith, N. Sonnerat, V. Varma, J. Kramár, A. Dragan, R. Shah, and N. Nanda Gemma scope: open sparse autoencoders everywhere all at once on gemma 2 External Links: 2408.05147",
+      "year": 2408,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2408.05147"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "J. Liu, T. Blanton, Y. Elazar, S. Min, Y. Chen, A. Chheda-Kothary, H. Tran, B. Bischoff, E. Marsh, M. Schmitz, C. Trier, A. Sarnat, J. James, J. Borchardt, B. Kuehl, E. Cheng, K. Farley, S. Sreeram, T. Anderson, D. Albright, C. Schoenick, L. Soldaini, D. Groeneveld, R. Y. Pang, P. W. Koh, N. A. Smith, S. Lebrecht, Y. Choi, H. Hajishirzi, A. Farhadi, and J. Dodge OLMoTrace: tracing language model outputs back to trillions of training tokens External Links: 2504.07096",
+      "year": 2504,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2504.07096"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "J. Mairal, F. Bach, J. Ponce, and G. Sapiro Online learning for matrix factorization and sparse coding Journal of Machine Learning Research External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "http://jmlr.org/papers/v11/mairal10a.html"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "C. P. Martin-Linares and J. P. Ling Attribution-guided distillation of matryoshka sparse autoencoders External Links: 2512.24975",
+      "year": 2512,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2512.24975"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "N. Nanda A comprehensive mechanistic interpretability explainer & glossary External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.neelnanda.io/mechanistic-interpretability/glossary"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "B. Neyshabur, S. Bhojanapalli, D. McAllester, and N. Srebro Exploring generalization in deep learning External Links: 1706.08947",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.1706.08947"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "S. T. Piantadosi Zipf’s word frequency law in natural language: a critical review and future directions Psychonomic Bulletin & Review External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.3758/s13423-014-0585-6"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "N. Pochinkov, B. Pasero, and S. Shibayama Investigating neuron ablation in attention heads: the case for peak activation centering External Links: 2408.17322",
+      "year": 2408,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2408.17322"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "S. Rajamanoharan, A. Conmy, L. Smith, T. Lieberum, V. Varma, J. Kramár, R. Shah, and N. Nanda Improving dictionary learning with gated sparse autoencoders External Links: 2404.16014",
+      "year": 2404,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2404.16014"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "S. Rajamanoharan, T. Lieberum, N. Sonnerat, A. Conmy, V. Varma, J. Kramár, and N. Nanda Jumping ahead: improving reconstruction fidelity with jumprelu sparse autoencoders External Links: 2407.14435",
+      "year": 2407,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2407.14435"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "S. M. Robinson Some continuity properties of polyhedral multifunctions Mathematical Programming at Oberwolfach External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/BFb0120929"
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "T. Rockafellar and R. Wets Variational analysis Springer External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1007/978-3-642-02431-3"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "J. Su, Y. Lu, S. Pan, A. Murtadha, B. Wen, and Y. Liu RoFormer: enhanced transformer with rotary position embedding External Links: 2104.09864",
+      "year": 2104,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2104.09864"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "R. Tibshirani Regression shrinkage and selection via the Lasso Journal of the Royal Statistical Society: Series B (Methodological) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1111/j.2517-6161.1996.tb02080.x"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "M. J. Wainwright High-dimensional statistics: a non-asymptotic viewpoint Cambridge Series in Statistical and Probabilistic Mathematics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1017/9781108627771"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "G. Yang, E. J. Hu, I. Babuschkin, S. Sidor, X. Liu, D. Farhi, N. Ryder, J. Pachocki, W. Chen, and J. Gao Tensor programs v: tuning large neural networks via zero-shot hyperparameter transfer External Links: 2203.03466",
+      "year": 2203,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2203.03466"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "P. Zhao and B. Yu On model selection consistency of Lasso Journal of Machine Learning Research External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "http://jmlr.org/papers/v7/zhao06a.html"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "H. Zou and T. Hastie Regularization and variable selection via the elastic net Journal of the Royal Statistical Society: Series B (Statistical Methodology) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1111/j.1467-9868.2005.00503.x"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "H. Zou and H. H. Zhang On the adaptive elastic-net with a diverging number of parameters The Annals of Statistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1214/08-AOS625"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "H. Zou The adaptive Lasso and its oracle properties Journal of the American Statistical Association External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1198/016214506000000735"
+    }
+  ]
+}

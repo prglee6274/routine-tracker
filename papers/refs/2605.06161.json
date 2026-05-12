@@ -1,0 +1,448 @@
+{
+  "arxiv_id": "2605.06161",
+  "source": "https://arxiv.org/html/2605.06161v1",
+  "fetched_at": "2026-05-12",
+  "count": 55,
+  "references": [
+    {
+      "idx": 38,
+      "label": "",
+      "text": "M. Andriushchenko, A. Souly, M. Dziemian, D. Duenas, M. Lin, J. Wang, D. Hendrycks, A. Zou, Z. Kolter, M. Fredrikson, et al. Agentharm: a benchmark for measuring harmfulness of llm agents arXiv preprint arXiv:2410.09024",
+      "year": 2410,
+      "arxiv_id": "2410.09024",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Anthropic Claude Haiku 4.5 system card Note: https://www.anthropic.com/claude-haiku-4-5-system-card",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/claude-haiku-4-5-system-card"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "P. J. Bickel and D. A. Freedman Some asymptotic theory for the bootstrap The annals of statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "C. Chan, W. Chen, Y. Su, J. Yu, W. Xue, S. Zhang, J. Fu, and Z. Liu Chateval: towards better llm-based evaluators through multi-agent debate arXiv preprint arXiv:2308.07201",
+      "year": 2308,
+      "arxiv_id": "2308.07201",
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "C. Chiang and H. Lee Can large language models be an alternative to human evaluations? In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 15607–15631",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "J. Cohen A coefficient of agreement for nominal scales Educational and psychological measurement",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "K. Cox, J. Xu, Y. Han, R. Xu, T. Li, C. Hsu, T. Chen, W. Gerych, and Y. Ding Mapping from meaning: addressing the miscalibration of prompt-sensitive language models In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 39",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "S. Dev, A. Sloan, J. Kavner, N. Kong, and M. Sandler Judge reliability harness: stress testing the reliability of llm judges arXiv preprint arXiv:2603.05399",
+      "year": 2603,
+      "arxiv_id": "2603.05399",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "R. Dhar, D. S. Villegas, A. Karamolegkou, A. Schiavone, Y. Yuan, X. Chen, J. Li, S. Frank, L. De Grazia, M. Swain, et al. EvalCards: a framework for standardized evaluation reporting arXiv preprint arXiv:2511.21695",
+      "year": 2511,
+      "arxiv_id": "2511.21695",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "Y. Dubois, B. Galambosi, P. Liang, and T. B. Hashimoto Length-controlled alpacaeval: a simple way to debias automatic evaluators arXiv preprint arXiv:2404.04475",
+      "year": 2404,
+      "arxiv_id": "2404.04475",
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "J. L. Fleiss Measuring nominal scale agreement among many raters. Psychological bulletin",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "J. Fu, S. K. Ng, Z. Jiang, and P. Liu Gptscore: evaluate as you desire In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 6556–6576",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Google DeepMind Gemini 3 Flash: frontier intelligence at speed Note: https://deepmind.google/models/gemini/flash/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://deepmind.google/models/gemini/flash/"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "J. Gu, X. Jiang, Z. Shi, H. Tan, X. Zhai, C. Xu, W. Li, Y. Shen, S. Ma, H. Liu, et al. A survey on llm-as-a-judge The Innovation",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "L. Guerdan, S. Barocas, K. Holstein, H. Wallach, Z. S. Wu, and A. Chouldechova Validating llm-as-a-judge systems under rating indeterminacy arXiv preprint arXiv:2503.05965",
+      "year": 2503,
+      "arxiv_id": "2503.05965",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "P. Hall The bootstrap and edgeworth expansion Springer Science & Business Media",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "H. Hashemi, J. Eisner, C. Rosset, B. Van Durme, and C. Kedzie Llm-rubric: a multidimensional, calibrated approach to automated evaluation of natural language texts In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 13806–13834",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Y. Hong, H. Yao, B. Shen, W. Xu, H. Wei, and Y. Dong RULERS: locked rubrics and evidence-anchored scoring for robust llm evaluation arXiv preprint arXiv:2601.08654",
+      "year": 2601,
+      "arxiv_id": "2601.08654",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "A. Hua, K. Tang, C. Gu, J. Gu, E. Wong, and Y. Qin Flaw or artifact? rethinking prompt sensitivity in evaluating llms In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing pp. 19900–19910",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "J. Jung, F. Brahman, and Y. Choi Trust or escalate: llm judges with provable guarantees for human agreement arXiv preprint arXiv:2407.18370",
+      "year": 2407,
+      "arxiv_id": "2407.18370",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "S. Kim, J. Shin, Y. Cho, J. Jang, S. Longpre, H. Lee, S. Yun, S. Shin, S. Kim, J. Thorne, et al. Prometheus: inducing fine-grained evaluation capability in language models In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "S. Kim, J. Suk, S. Longpre, B. Y. Lin, J. Shin, S. Welleck, G. Neubig, M. Lee, K. Lee, and M. Seo Prometheus 2: an open source language model specialized in evaluating other language models In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing pp. 4334–4353",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "I. Levy, B. Wiesel, S. Marreed, A. Oved, A. Yaeli, and S. Shlomov St-webagentbench: a benchmark for evaluating safety and trustworthiness in web agents arXiv preprint arXiv:2410.06703",
+      "year": 2410,
+      "arxiv_id": "2410.06703",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Q. Li, S. Dou, K. Shao, C. Chen, and H. Hu Evaluating scoring bias in llm-as-a-judge arXiv preprint arXiv:2506.22316",
+      "year": 2506,
+      "arxiv_id": "2506.22316",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "S. Li, C. Xu, J. Wang, X. Gong, C. Chen, J. Zhang, J. Wang, K. Lam, and S. Ji Llms cannot reliably judge (yet?): a comprehensive assessment on the robustness of llm-as-a-judge arXiv preprint arXiv:2506.09443",
+      "year": 2506,
+      "arxiv_id": "2506.09443",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "K. Liang and S. L. Zeger Longitudinal data analysis using generalized linear models biometrika",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "A. Liu, A. Mei, B. Lin, B. Xue, B. Wang, B. Xu, B. Wu, B. Zhang, C. Lin, C. Dong, et al. Deepseek-v3. 2: pushing the frontier of open large language models arXiv preprint arXiv:2512.02556",
+      "year": 2512,
+      "arxiv_id": "2512.02556",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "X. Liu, H. Yu, H. Zhang, Y. Xu, X. Lei, H. Lai, Y. Gu, H. Ding, K. Men, K. Yang, et al. Agentbench: evaluating llms as agents arXiv preprint arXiv:2308.03688",
+      "year": 2308,
+      "arxiv_id": "2308.03688",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Y. Liu, D. Iter, Y. Xu, S. Wang, R. Xu, and C. Zhu G-eval: nlg evaluation using gpt-4 with better human alignment In Proceedings of the 2023 conference on empirical methods in natural language processing pp. 2511–2522",
+      "year": 2522,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Y. Lu, M. Bartolo, A. Moore, S. Riedel, and P. Stenetorp Fantastically ordered prompts and where to find them: overcoming few-shot prompt order sensitivity In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 8086–8098",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "H. Luo, S. Dai, C. Ni, X. Li, G. Zhang, K. Wang, T. Liu, and H. Salam Agentauditor: human-level safety and security evaluation for llm agents arXiv preprint arXiv:2506.00641",
+      "year": 2506,
+      "arxiv_id": "2506.00641",
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "G. Mialon, C. Fourrier, T. Wolf, Y. LeCun, and T. Scialom Gaia: a benchmark for general ai assistants In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "M. Mizrahi, G. Kaplan, D. Malkin, R. Dror, D. Shahaf, and G. Stanovsky State of what art? a call for multi-prompt llm evaluation Transactions of the Association for Computational Linguistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "V. Raina, A. Liusie, and M. Gales Is llm-as-a-judge robust? investigating universal adversarial attacks on zero-shot llm assessment In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing pp. 7499–7517",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Y. Ruan, H. Dong, A. Wang, S. Pitis, Y. Zhou, J. Ba, Y. Dubois, C. J. Maddison, and T. Hashimoto Identifying the risks of lm agents with an lm-emulated sandbox arXiv preprint arXiv:2309.15817",
+      "year": 2309,
+      "arxiv_id": "2309.15817",
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "S. Saha, O. Levy, A. Celikyilmaz, M. Bansal, J. Weston, and X. Li Branch-solve-merge improves large language model evaluation and generation In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 8352–8370",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "A. Salinas and F. Morstatter The butterfly effect of altering prompts: how small changes and jailbreaks affect large language model performance In Findings of the Association for Computational Linguistics: ACL 2024 pp. 4629–4651",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "M. Sclar, Y. Choi, Y. Tsvetkov, and A. Suhr Quantifying language models’ sensitivity to spurious features in prompt design or: how i learned to start worrying about prompt formatting arXiv preprint arXiv:2310.11324",
+      "year": 2310,
+      "arxiv_id": "2310.11324",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "F. Shi, X. Chen, K. Misra, N. Scales, D. Dohan, E. H. Chi, N. Schärli, and D. Zhou Large language models can be easily distracted by irrelevant context In International Conference on Machine Learning pp. 31210–31227",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "A. Singh, A. Fry, A. Perelman, A. Tart, A. Ganesh, A. El-Kishky, A. McLaughlin, A. Low, A. Ostrow, A. Ananthram, et al. Openai gpt-5 system card arXiv preprint arXiv:2601.03267",
+      "year": 2601,
+      "arxiv_id": "2601.03267",
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Y. Tian, X. Yang, J. Zhang, Y. Dong, and H. Su Evil geniuses: delving into the safety of llm-based agents arXiv preprint arXiv:2311.11855",
+      "year": 2311,
+      "arxiv_id": "2311.11855",
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "R. J. Tibshirani and B. Efron An introduction to the bootstrap Monographs on statistics and applied probability",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "P. Verga, S. Hofstatter, S. Althammer, Y. Su, A. Piktus, A. Arkhangorodsky, M. Xu, N. White, and P. Lewis Replacing judges with juries: evaluating llm generations with a panel of diverse models arXiv preprint arXiv:2404.18796",
+      "year": 2404,
+      "arxiv_id": "2404.18796",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "P. Wang, L. Li, L. Chen, Z. Cai, D. Zhu, B. Lin, Y. Cao, L. Kong, Q. Liu, T. Liu, et al. Large language models are not fair evaluators In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 9440–9450",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Y. Wang, Y. Kordi, S. Mishra, A. Liu, N. A. Smith, D. Khashabi, and H. Hajishirzi Self-instruct: aligning language models with self-generated instructions In Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers) pp. 13484–13508",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "J. Wellner et al. Weak convergence and empirical processes: with applications to statistics Springer Science & Business Media",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Y. Xia, D. Ulmer, T. Blevins, Y. Liu, H. Schütze, and B. Roth Calibration is not enough: evaluating confidence estimation under language variations arXiv preprint arXiv:2601.08064",
+      "year": 2601,
+      "arxiv_id": "2601.08064",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "J. Yang, C. E. Jimenez, A. Wettig, K. Lieret, S. Yao, K. Narasimhan, and O. Press Swe-agent: agent-computer interfaces enable automated software engineering Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "J. Ye, Y. Wang, Y. Huang, D. Chen, Q. Zhang, N. Moniz, T. Gao, W. Geyer, C. Huang, P. Chen, et al. Justice or prejudice? quantifying biases in llm-as-a-judge arXiv preprint arXiv:2410.02736",
+      "year": 2410,
+      "arxiv_id": "2410.02736",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "T. Yuan, Z. He, L. Dong, Y. Wang, R. Zhao, T. Xia, L. Xu, B. Zhou, F. Li, Z. Zhang, et al. R-judge: benchmarking safety risk awareness for llm agents In Findings of the Association for Computational Linguistics: EMNLP 2024 pp. 1467–1490",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Q. Zhan, Z. Liang, Z. Ying, and D. Kang Injecagent: benchmarking indirect prompt injections in tool-integrated large language model agents In Findings of the Association for Computational Linguistics: ACL 2024 pp. 10471–10506",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Z. Zhang, S. Cui, Y. Lu, J. Zhou, J. Yang, H. Wang, and M. Huang Agent-safetybench: evaluating the safety of llm agents arXiv preprint arXiv:2412.14470",
+      "year": 2412,
+      "arxiv_id": "2412.14470",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "C. Zheng, H. Zhou, F. Meng, J. Zhou, and M. Huang Large language models are not robust multiple choice selectors arXiv preprint arXiv:2309.03882",
+      "year": 2309,
+      "arxiv_id": "2309.03882",
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "L. Zheng, W. Chiang, Y. Sheng, S. Zhuang, Z. Wu, Y. Zhuang, Z. Lin, Z. Li, D. Li, E. Xing, et al. Judging llm-as-a-judge with mt-bench and chatbot arena Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "S. Zhou, F. F. Xu, H. Zhu, X. Zhou, R. Lo, A. Sridhar, X. Cheng, T. Ou, Y. Bisk, D. Fried, et al. Webarena: a realistic web environment for building autonomous agents arXiv preprint arXiv:2307.13854",
+      "year": 2307,
+      "arxiv_id": "2307.13854",
+      "url": null
+    }
+  ]
+}

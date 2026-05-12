@@ -1,0 +1,432 @@
+{
+  "arxiv_id": "2605.03188",
+  "source": "https://arxiv.org/html/2605.03188v1",
+  "fetched_at": "2026-05-12",
+  "count": 53,
+  "references": [
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Anthropic Introducing the model context protocol Note: https://www.anthropic.com/news/model-context-protocol Accessed: 2025-04-18",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/news/model-context-protocol"
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "E. Bagdasarian, R. Yi, S. Ghalebikesabi, P. Kairouz, M. Gruteser, S. Oh, B. Balle, and D. Ramage AirGapAgent: protecting privacy-conscious conversational agents In Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS ’24) New York, NY, USA External Links: Document , ISBN 979-8-4007-0636-3",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3658644.3690350"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "M. Buttarello and M. Plebani Automated blood cell counts: state of the art American Journal of Clinical Pathology",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "N. Carlini, F. Tramèr, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, Ú. Erlingsson, A. Oprea, and C. Raffel Extracting training data from large language models In 30th USENIX Security Symposium pp. 2633–2650",
+      "year": 2650,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "K. Chatzikokolakis, M. E. Andrés, N. E. Bordenabe, and C. Palamidessi Broadening the scope of differential privacy using metrics In Privacy Enhancing Technologies (PETS 2013) Lecture Notes in Computer Science External Links: Document",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1007/978-3-642-39077-7%5F5"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "S. Chen, F. Mo, Y. Wang, C. Chen, J. Nie, C. Wang, and J. Cui A customized text sanitization mechanism with differential privacy In Findings of the Association for Computational Linguistics: ACL 2023 Toronto, Canada External Links: Document , Link",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2023.findings-acl.355"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "A. R. Chowdhury, D. Glukhov, D. Anshumaan, P. Chalasani, N. Papernot, S. Jha, and M. Bellare Pr ϵ ​ ϵ \\epsilon\\epsilon mpt: sanitizing sensitive prompts for llms External Links: 2504.05147",
+      "year": 2504,
+      "arxiv_id": "2504.05147",
+      "url": "https://arxiv.org/abs/2504.05147"
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "E. Debenedetti, I. Shumailov, T. Fan, J. Hayes, N. Carlini, D. Fabian, C. Kern, C. Shi, A. Terzis, and F. Tramèr Defeating prompt injections by design External Links: 2503.18813",
+      "year": 2503,
+      "arxiv_id": "2503.18813",
+      "url": "https://arxiv.org/abs/2503.18813"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "E. Debenedetti, J. Zhang, M. Balunović, L. Beurer-Kellner, M. Fischer, and F. Tramèr AgentDojo: a dynamic environment to evaluate prompt injection attacks and defenses for LLM agents In Advances in Neural Information Processing Systems 37 (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "M. Dobiasova and J. Frohlich The plasma parameter log(TG/HDL-C) as an atherogenic index: correlation with lipoprotein particle size and esterification rate in apoB-lipoprotein-depleted plasma Clinical Biochemistry",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "M. Dobiasova Atherogenic index of plasma [log(triglycerides/HDL-cholesterol)]: theoretical and practical implications Clinical Chemistry",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "C. Dwork, F. McSherry, K. Nissim, and A. Smith Calibrating noise to sensitivity in private data analysis In Theory of Cryptography Conference (TCC 2006) Lecture Notes in Computer Science",
+      "year": 2006,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "C. Dwork and A. Roth The algorithmic foundations of differential privacy Foundations and Trends in Theoretical Computer Science External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1561/0400000042"
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "K. Edemacu and X. Wu Privacy preserving prompt engineering: a survey ACM Computing Surveys External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3729219"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "P. Forget, C. Khalifa, J. Defour, D. Latinne, M. Van Pel, and M. De Kock What is the normal value of the neutrophil-to-lymphocyte ratio? BMC Research Notes",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "S. S. Franklin The importance of diastolic blood pressure in predicting cardiovascular risk Journal of the American Society of Hypertension",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "C. Franzen Sam Altman calls for ‘AI privilege’ as OpenAI clarifies court order to retain temporary and deleted ChatGPT sessions VentureBeat Note: https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions Accessed: 2026-04-24",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://venturebeat.com/ai/sam-altman-calls-for-ai-privilege-as-openai-clarifies-court-order-to-retain-temporary-and-deleted-chatgpt-sessions"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "W. T. Friedewald, R. I. Levy, and D. S. Fredrickson Estimation of the concentration of low-density lipoprotein cholesterol in plasma, without use of the preparative ultracentrifuge Clinical Chemistry",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "P. Gayoso-Diz, A. Otero-González, M. X. Rodríguez-Álvarez, et al. Insulin resistance (HOMA-IR) cut-off values and the metabolic syndrome in a general adult population European Journal of Internal Medicine",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Q. Geng, P. Kairouz, S. Oh, and P. Viswanath The staircase mechanism in differential privacy IEEE Journal of Selected Topics in Signal Processing External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1109/JSTSP.2015.2425831"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "K. Greshake, S. Abdelnabi, S. Mishra, C. Endres, T. Holz, and M. Fritz Not what you’ve signed up for: compromising real-world LLM-integrated applications with indirect prompt injection In Proc. 16th ACM Workshop on Artificial Intelligence and Security (AISec) External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3605764.3623985"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "F. Guerrero-Romero, L. E. Simental-Mendía, M. González-Ortiz, E. Martínez-Abundis, M. G. Ramos-Zavala, S. O. Hernández-González, O. Jacques-Camarena, and M. Rodríguez-Morán The product of triglycerides and glucose, a simple measure of insulin sensitivity: comparison with the euglycemic-hyperinsulinemic clamp The Journal of Clinical Endocrinology & Metabolism External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1210/jc.2010-0288"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "A. V. Hoffbrand and D. A. Steensma Hoffbrand’s essential haematology 8th edition",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "X. Hou, Y. Zhao, S. Wang, and H. Wang Model context protocol (MCP): landscape, security threats, and future research directions External Links: 2503.23278",
+      "year": 2503,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "R. J. Hyndman and A. B. Koehler Another look at measures of forecast accuracy International Journal of Forecasting External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1016/j.ijforecast.2006.03.001"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "D. Kifer and A. Machanavajjhala Pufferfish: A framework for mathematical privacy definitions ACM Transactions on Database Systems External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/2514689"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "S. Kolassa and W. Schütz Advantages of the MAD/Mean ratio over the MAPE Foresight: The International Journal of Applied Forecasting",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "M. Kovaite, S. Gražulis, J. Venclovaite, and A. Laurinavičius Arterial stiffness parameters and pulse pressure index Medicina (Kaunas)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "C. Liu, S. Chakraborty, and P. Mittal Dependence makes you vulnerable: Differential privacy under dependent tuples In Proceedings of the 23rd Annual Network and Distributed System Security Symposium (NDSS) External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.14722/ndss.2016.23279"
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Y. Luo, M. Zhang, J. Xu, J. Chen, and J. Huang Correlated-sequence differential privacy In Proceedings of the 34th International Conference on Computer Communications and Networks (ICCCN) External Links: 2511.18025",
+      "year": 2511,
+      "arxiv_id": "2511.18025",
+      "url": "https://arxiv.org/abs/2511.18025"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "D. R. Matthews, J. P. Hosker, A. S. Rudenski, B. A. Naylor, D. F. Treacher, and R. C. Turner Homeostasis model assessment: insulin resistance and β \\beta -cell function from fasting plasma glucose and insulin concentrations in man Diabetologia",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "S. McPherson, T. Hardy, J. Dufour, et al. Age as a confounding factor for the accurate non-invasive diagnosis of advanced NAFLD fibrosis American Journal of Gastroenterology",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "F. McSherry and K. Talwar Mechanism design via differential privacy In 48th Annual IEEE Symposium on Foundations of Computer Science (FOCS ’07) pp. 94–103",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "S. Meisenbacher, M. Chevli, J. Vladika, and F. Matthes DP-MLM: differentially private text rewriting using masked language models In Findings of the Association for Computational Linguistics: ACL 2024 Bangkok, Thailand External Links: Link , Document",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.findings-acl.554/"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "S. Meisenbacher, C. J. Lee, and F. Matthes Spend your budget wisely: towards an intelligent distribution of the privacy budget in differentially private text rewriting In Proceedings of the Fifteenth ACM Conference on Data and Application Security and Privacy CODASPY ’25 External Links: ISBN 9798400714764",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3714393.3726504"
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "N. Mireshghallah, H. Kim, X. Zhou, Y. Tsvetkov, M. Sap, R. Shokri, and Y. Choi Can LLMs keep a secret? testing privacy implications of language models via contextual integrity theory In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "National Center for Health Statistics National health and nutrition examination survey, 2017–2018: examination data Centers for Disease Control and Prevention, U.S. Department of Health and Human Services Note: Accessed: 2026-04-12 External Links: Link",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Examination&amp;CycleBeginYear=2017"
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "OpenAI Introducing GPT-5.4 mini and nano Note: https://openai.com/index/introducing-gpt-5-4-mini-and-nano/ Accessed: 2026-04-29",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/"
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "C. Pierquin, A. Bellet, M. Tommasi, and M. Boussard Rényi Pufferfish privacy: general additive noise mechanisms and privacy amplification by iteration via shift reduction lemmas In Proceedings of the 41st International Conference on Machine Learning (ICML) Proceedings of Machine Learning Research External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.mlr.press/v235/pierquin24a.html"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "F. J. G. Pitanga and I. Lessa Sensitivity and specificity of the conicity index as a coronary risk predictor among adults in salvador, brazil Revista Brasileira de Epidemiologia",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "Y. Shao, T. Li, W. Shi, Y. Liu, and D. Yang PrivacyLens: evaluating privacy norm awareness of language models in action In Advances in Neural Information Processing Systems 37 (NeurIPS 2024) Datasets and Benchmarks Track External Links: Link , 2409.00138",
+      "year": 2409,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=CxNXoMnCKc"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "L. E. Simental-Mendía, M. Rodríguez-Morán, and F. Guerrero-Romero The product of fasting glucose and triglycerides as surrogate for identifying insulin resistance in apparently healthy subjects Metabolic Syndrome and Related Disorders",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "L. Siyan, V. C. Raghuram, O. Khattab, J. Hirschberg, and Z. Yu PAPILLON: privacy preservation from internet-based and local language model ensembles In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) Albuquerque, New Mexico External Links: ISBN 979-8-89176-189-6",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.naacl-long.173/"
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "S. Song, Y. Wang, and K. Chaudhuri Pufferfish privacy mechanisms for correlated data In Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD) pp. 1291–1306 External Links: Document",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3035918.3064025"
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "R. Staab, M. Vero, M. Balunović, and M. Vechev Beyond memorization: violating privacy via inference with large language models In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "R. K. Sterling, E. Lissen, N. Clumeck, et al. Development of a simple noninvasive index to predict significant fibrosis in patients with HIV/HCV coinfection Hepatology",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "R. Valdez, J. C. Seidell, Y. I. Ahn, and K. M. Weiss A new index of abdominal adiposity as an indicator of risk for cardiovascular disease: a cross-population study International Journal of Obesity",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "H. Wu, W. Dai, L. Wang, and Q. Yan Cape: context-aware prompt perturbation mechanism with differential privacy External Links: 2505.05922",
+      "year": 2505,
+      "arxiv_id": "2505.05922",
+      "url": "https://arxiv.org/abs/2505.05922"
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "X. Yue, M. Du, T. Wang, Y. Li, H. Sun, and S. S. M. Chow Differential privacy for text analytics via natural text sanitization In Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021 Online External Links: Document , Link",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2021.findings-acl.337"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "R. Zahorec Ratio of neutrophil to lymphocyte counts — rapid and simple parameter of systemic inflammation and stress in critically ill Bratislavské Lekárske Listy",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Q. Zhan, Z. Liang, Z. Ying, and D. Kang InjecAgent: benchmarking indirect prompt injections in tool-integrated large language model agents In Findings of the Association for Computational Linguistics: ACL 2024 pp. 10471–10506 External Links: Document",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2024.findings-acl.624"
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "Y. Zhang and D. Yang Searching for privacy risks in LLM agents via simulation External Links: 2508.10880",
+      "year": 2508,
+      "arxiv_id": "2508.10880",
+      "url": "https://arxiv.org/abs/2508.10880"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "J. Zhao Composition properties of Bayesian differential privacy arXiv preprint arXiv:1911.00763 External Links: 1911.00763",
+      "year": 1911,
+      "arxiv_id": "1911.00763",
+      "url": "https://arxiv.org/abs/1911.00763"
+    }
+  ]
+}

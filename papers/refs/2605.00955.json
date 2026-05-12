@@ -1,0 +1,384 @@
+{
+  "arxiv_id": "2605.00955",
+  "source": "https://arxiv.org/html/2605.00955v1",
+  "fetched_at": "2026-05-12",
+  "count": 47,
+  "references": [
+    {
+      "idx": 131,
+      "label": "",
+      "text": "M. Anderson, G. Amit, and A. Goldsteen Is my data in your retrieval database? membership inference attacks against retrieval augmented generation In ICISSP pp. 474–485 External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.5220/0013108300003899"
+    },
+    {
+      "idx": 89,
+      "label": "",
+      "text": "R. Anil, A. M. Dai, O. Firat, M. Johnson, D. Lepikhin, A. Passos, S. Shakeri, E. Taropa, P. Bailey, Z. Chen, et al. Palm 2 technical report arXiv preprint arXiv:2305.10403",
+      "year": 2305,
+      "arxiv_id": "2305.10403",
+      "url": null
+    },
+    {
+      "idx": 120,
+      "label": "",
+      "text": "A. Arzanipour, R. Behnia, R. Ebrahimi, and K. Dutta RAG security and privacy: formalizing the threat model and attack surface External Links: 2509.20324",
+      "year": 2509,
+      "arxiv_id": "2509.20324",
+      "url": "https://arxiv.org/abs/2509.20324"
+    },
+    {
+      "idx": 92,
+      "label": "",
+      "text": "S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Millican, G. B. Van Den Driessche, J. Lespiau, B. Damoc, A. Clark, et al. Improving language models by retrieving from trillions of tokens In ICML pp. 2206–2240",
+      "year": 2240,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "T. B. Brown Language models are few-shot learners arXiv preprint arXiv:2005.14165",
+      "year": 2005,
+      "arxiv_id": "2005.14165",
+      "url": null
+    },
+    {
+      "idx": 117,
+      "label": "",
+      "text": "J. Chen, P. Jian, T. Xi, D. Yi, Q. Du, C. Ding, G. Zhu, C. Zong, J. Wang, and J. Zhang Chinesewebtext: large-scale high-quality chinese web text extracted with effective evaluation model arXiv preprint arXiv:2311.01149",
+      "year": 2311,
+      "arxiv_id": "2311.01149",
+      "url": null
+    },
+    {
+      "idx": 123,
+      "label": "",
+      "text": "C. A. Choquette-Choo, F. Tramer, N. Carlini, and N. Papernot Label-only membership inference attacks In ICML pp. 1964–1974",
+      "year": 1974,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 114,
+      "label": "",
+      "text": "G. Comanici, E. Bieber, M. Schaekermann, I. Pasupat, N. Sachdeva, I. Dhillon, M. Blistein, O. Ram, D. Zhang, E. Rosen, et al. Gemini 2.5: pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities arXiv preprint arXiv:2507.06261",
+      "year": 2507,
+      "arxiv_id": "2507.06261",
+      "url": null
+    },
+    {
+      "idx": 119,
+      "label": "",
+      "text": "S. Dharwada, H. Devrani, J. Haritsa, and H. Doraiswamy Query rewriting via llms External Links: 2502.12918",
+      "year": 2502,
+      "arxiv_id": "2502.12918",
+      "url": "https://arxiv.org/abs/2502.12918"
+    },
+    {
+      "idx": 94,
+      "label": "",
+      "text": "D. Diefenbach, V. Lopez, K. Singh, and P. Maret Core techniques of question answering systems over knowledge bases: a survey Knowledge and Information systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 109,
+      "label": "",
+      "text": "A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Yang, A. Fan, et al. The llama 3 herd of models arXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 124,
+      "label": "",
+      "text": "K. Feng, G. Zhang, H. Tian, H. Xu, Y. Zhang, T. Zhu, M. Ding, and B. Liu Ragleak: membership inference attacks on rag-based large language models In Australasian Conference on Information Security and Privacy pp. 147–166",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 100,
+      "label": "",
+      "text": "X. Gao, X. Meng, Y. Dong, Z. Li, and S. Guo DCMI: a differential calibration membership inference attack against retrieval-augmented generation In Proceedings of ACM SIGSAC pp. 4184–4198",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 121,
+      "label": "",
+      "text": "Y. Gao, Y. Xiong, X. Gao, K. Jia, J. Pan, Y. Bi, Y. Dai, J. Sun, M. Wang, and H. Wang Retrieval-augmented generation for large language models: a survey External Links: 2312.10997",
+      "year": 2312,
+      "arxiv_id": "2312.10997",
+      "url": "https://arxiv.org/abs/2312.10997"
+    },
+    {
+      "idx": 127,
+      "label": "",
+      "text": "M. Gospodinov, S. MacAvaney, and C. Macdonald Doc2Query–: when less is more In ECIR pp. 414–422",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "",
+      "text": "D. Guo, D. Yang, H. Zhang, J. Song, R. Zhang, R. Xu, Q. Zhu, S. Ma, P. Wang, X. Bi, et al. Deepseek-r1: incentivizing reasoning capability in llms via reinforcement learning arXiv preprint arXiv:2501.12948",
+      "year": 2501,
+      "arxiv_id": "2501.12948",
+      "url": null
+    },
+    {
+      "idx": 129,
+      "label": "",
+      "text": "Y. He, B. Li, L. Liu, Z. Ba, W. Dong, Y. Li, Z. Qin, K. Ren, and C. Chen Towards label-only membership inference attack against pre-trained large language models In USENIX Security",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 122,
+      "label": "",
+      "text": "H. Hu, Z. Salcic, L. Sun, G. Dobbie, P. S. Yu, and X. Zhang Membership inference attacks on machine learning: a survey ACM Computing Surveys (CSUR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 130,
+      "label": "",
+      "text": "L. Hu, A. Yan, H. Yan, J. Li, T. Huang, Y. Zhang, C. Dong, and C. Yang Defenses to membership inference attacks: a survey ACM Computing Surveys",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 90,
+      "label": "",
+      "text": "Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y. Xu, E. Ishii, Y. J. Bang, A. Madotto, and P. Fung Survey of hallucination in natural language generation ACM computing surveys",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 95,
+      "label": "",
+      "text": "S. Kim, S. Yun, H. Lee, M. Gubri, S. Yoon, and S. J. Oh Propile: probing privacy leakage in large language models Advances in NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 93,
+      "label": "",
+      "text": "B. Krishnamurthy, K. Naryshkin, and C. Wills Privacy leakage vs. protection measures: the growing disconnect In Proceedings of the Web Vol. 2",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 88,
+      "label": "",
+      "text": "P. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin, N. Goyal, H. Küttler, M. Lewis, W. Yih, T. Rocktäschel, et al. Retrieval-augmented generation for knowledge-intensive nlp tasks Advances in NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 101,
+      "label": "",
+      "text": "H. Li, J. He, G. Wang, D. Feng, Z. Li, and M. Zhang BudgetLeak: membership inference attacks on rag systems via the generation budget side channel arXiv preprint arXiv:2511.12043",
+      "year": 2511,
+      "arxiv_id": "2511.12043",
+      "url": null
+    },
+    {
+      "idx": 112,
+      "label": "",
+      "text": "H. Li, X. Liu, N. Zhang, and C. Xiao PIGuard: prompt injection guardrail via mitigating overdefense for free In Proceedings of ACL pp. 30420–30437",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 97,
+      "label": "",
+      "text": "Y. Li, G. Liu, C. Wang, and Y. Yang Generating is believing: membership inference attacks against retrieval-augmented generation In ICASSP pp. 1–5",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 98,
+      "label": "",
+      "text": "M. Liu, S. Zhang, and C. Long Mask-based membership inference attacks for retrieval-augmented generation In Proceedings of the ACM on Web Conference 2025 pp. 2894–2907",
+      "year": 2894,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 118,
+      "label": "",
+      "text": "X. Ma, Y. Gong, P. He, H. Zhao, and N. Duan Query rewriting in retrieval-augmented large language models In Proceedings of EMNLP pp. 5303–5315",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 126,
+      "label": "",
+      "text": "A. Mansurova, A. Mansurova, and A. Nugumanova QA-rag: exploring llm reliance on external knowledge Big Data and Cognitive Computing",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 96,
+      "label": "",
+      "text": "M. Meeus, S. Jain, M. Rei, and Y. de Montjoye Did the neurons read your book? document-level membership inference for large language models In USENIX pp. 2369–2385",
+      "year": 2385,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 99,
+      "label": "",
+      "text": "A. Naseh, Y. Peng, A. Suri, H. Chaudhari, A. Oprea, and A. Houmansadr Riddle me this! stealthy membership inference for retrieval-augmented generation In Proceedings of ACM SIGSAC pp. 1245–1259",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 113,
+      "label": "",
+      "text": "",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 104,
+      "label": "",
+      "text": "R. Shokri, M. Stronati, C. Song, and V. Shmatikov Membership inference attacks against machine learning models In IEEE symposium on security and privacy pp. 3–18",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 116,
+      "label": "",
+      "text": "A. Singh, A. Fry, A. Perelman, A. Tart, A. Ganesh, A. El-Kishky, A. McLaughlin, A. Low, A. Ostrow, A. Ananthram, et al. Openai gpt-5 system card arXiv preprint arXiv:2601.03267",
+      "year": 2601,
+      "arxiv_id": "2601.03267",
+      "url": null
+    },
+    {
+      "idx": 133,
+      "label": "",
+      "text": "H. Su, Y. Qin, Z. Li, X. Miao, and Y. Zhou Falcon: a universal text-only membership inference attack framework against in-context learning TIFS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "",
+      "text": "G. Team, M. Riviere, S. Pathak, P. G. Sessa, C. Hardin, S. Bhupatiraju, L. Hussenot, T. Mesnard, B. Shahriari, A. Ramé, et al. Gemma 2: improving open language models at a practical size arXiv preprint arXiv:2408.00118",
+      "year": 2408,
+      "arxiv_id": "2408.00118",
+      "url": null
+    },
+    {
+      "idx": 103,
+      "label": "",
+      "text": "N. Thakur, N. Reimers, A. Rücklé, A. Srivastava, and I. Gurevych BEIR: a heterogeneous benchmark for zero-shot evaluation of information retrieval models In Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=wCu6T5xFjeJ"
+    },
+    {
+      "idx": 91,
+      "label": "",
+      "text": "H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei, N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale, et al. Llama 2: open foundation and fine-tuned chat models arXiv preprint arXiv:2307.09288",
+      "year": 2307,
+      "arxiv_id": "2307.09288",
+      "url": null
+    },
+    {
+      "idx": 102,
+      "label": "",
+      "text": "N. Varshney, P. Dolin, A. Seth, and C. Baral The art of defending: a systematic evaluation and analysis of llm defense strategies on safety and over-defensiveness In Findings of the ACL pp. 13111–13128",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 125,
+      "label": "",
+      "text": "G. Wang, J. He, H. Li, M. Zhang, and D. Feng RAG-leaks: difficulty-calibrated membership inference attacks on retrieval-augmented generation Science China Information Sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 110,
+      "label": "",
+      "text": "W. Wang, F. Wei, L. Dong, H. Bao, N. Yang, and M. Zhou Minilm: deep self-attention distillation for task-agnostic compression of pre-trained transformers Advances in NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 128,
+      "label": "",
+      "text": "Y. Wang, H. Zhang, L. Pang, B. Guo, H. Zheng, and Z. Zheng MaFeRw: query rewriting with multi-aspect feedbacks for retrieval-augmented large language models In Proceedings of the AAAI Vol. 39",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 115,
+      "label": "",
+      "text": "A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv, et al. Qwen3 technical report arXiv preprint arXiv:2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 108,
+      "label": "",
+      "text": "A. Yang, B. Zhang, B. Hui, B. Gao, B. Yu, C. Li, D. Liu, J. Tu, J. Zhou, J. Lin, et al. Qwen2. 5-math technical report: toward mathematical expert model via self-improvement arXiv preprint arXiv:2409.12122",
+      "year": 2409,
+      "arxiv_id": "2409.12122",
+      "url": null
+    },
+    {
+      "idx": 132,
+      "label": "",
+      "text": "P. Yang, J. Yin, H. Zheng, X. Bai, H. Wang, Y. Sun, X. Li, S. Wang, Y. Huang, and T. Qi MrM: black-box membership inference attacks against multimodal rag systems arXiv preprint arXiv:2506.07399",
+      "year": 2506,
+      "arxiv_id": "2506.07399",
+      "url": null
+    },
+    {
+      "idx": 105,
+      "label": "",
+      "text": "P. Zhang, S. Xiao, Z. Liu, Z. Dou, and J. Nie Retrieve anything to augment large language models arXiv preprint arXiv:2310.07554",
+      "year": 2310,
+      "arxiv_id": "2310.07554",
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "",
+      "text": "Y. Zhang, M. Li, D. Long, X. Zhang, H. Lin, B. Yang, P. Xie, A. Yang, D. Liu, J. Lin, et al. Qwen3 embedding: advancing text embedding and reranking through foundation models arXiv preprint arXiv:2506.05176",
+      "year": 2506,
+      "arxiv_id": "2506.05176",
+      "url": null
+    }
+  ]
+}

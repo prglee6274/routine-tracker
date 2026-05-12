@@ -1,0 +1,480 @@
+{
+  "arxiv_id": "2605.05662",
+  "source": "https://arxiv.org/html/2605.05662v1",
+  "fetched_at": "2026-05-12",
+  "count": 59,
+  "references": [
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Aakanksha, A. Ahmadian, B. Ermis, S. Goldfarb-Tarrant, J. Kreutzer, M. Fadaee, and S. Hooker The multilingual alignment prism: aligning global and local preferences to reduce harm arXiv preprint arXiv:2406.18682",
+      "year": 2406,
+      "arxiv_id": "2406.18682",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "M. F. Adilazuarda, S. Mukherjee, P. Lavania, S. Singh, A. Dwivedi, A. F. Aji, J. O’Neill, A. Modi, and M. Choudhury Towards measuring and modeling “culture” in LLMs: a survey arXiv preprint arXiv:2403.15412",
+      "year": 2403,
+      "arxiv_id": "2403.15412",
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "M. Ali, M. Fromm, et al. Teuken-7B-Base & Teuken-7B-Instruct: towards European LLMs arXiv preprint arXiv:2410.03730",
+      "year": 2410,
+      "arxiv_id": "2410.03730",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Anthropic Introducing Claude Sonnet 4.5 Note: https://www.anthropic.com/news/claude-sonnet-4-5",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Anthropic Claude Opus 4.6 system card Technical report Anthropic Note: https://www.anthropic.com/news/claude-opus-4-6",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, and E. Wong Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Z. Cheng, R. Fan, S. Hao, T. W. Killian, H. Li, S. Sun, H. Ren, A. Moreno, D. Zhang, T. Zhong, et al. K2-think: a parameter-efficient reasoning system arXiv preprint arXiv:2509.07604",
+      "year": 2509,
+      "arxiv_id": "2509.07604",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Y. Y. Chiu, L. Jiang, B. Y. Lin, C. Y. Park, S. S. Li, S. Ravi, M. Bhatia, M. Antoniak, Y. Tsvetkov, V. Shwartz, and Y. Choi CulturalBench: a robust, diverse and challenging benchmark for measuring LMs’ cultural knowledge through human-AI red-teaming In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Vienna, Austria",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Y. Deng, W. Zhang, S. J. Pan, and L. Bing Multilingual jailbreak challenges in large language models arXiv preprint arXiv:2310.06474",
+      "year": 2310,
+      "arxiv_id": "2310.06474",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "E. Durmus, K. Nyugen, T. I. Liao, N. Schiefer, A. Askell, A. Bakhtin, C. Chen, Z. Hatfield-Dodds, D. Hernandez, N. Joseph, L. Lovitt, S. McCandlish, O. Sikder, A. Tamkin, J. Thamkul, J. Kaplan, J. Clark, and D. Ganguli Towards measuring the representation of subjective global opinions in language models arXiv preprint arXiv:2306.16388",
+      "year": 2306,
+      "arxiv_id": "2306.16388",
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "M. Faysse, P. Fernandes, N. M. Guerreiro, A. Loison, D. M. Alves, C. Corro, N. Boizard, J. Alves, R. Rei, P. H. Martins, A. B. Casademunt, F. Yvon, A. Martins, G. Viaud, C. Hudelot, and P. Colombo CroissantLLM: a truly bilingual French–English language model arXiv preprint arXiv:2402.00786",
+      "year": 2402,
+      "arxiv_id": "2402.00786",
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "A. Gill, A. Ravichander, and A. Marasović What has been lost with synthetic evaluation? In Findings of the Association for Computational Linguistics: EMNLP 2025 Suzhou, China",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "N. Godey, W. Antoun, R. Touchent, R. Bawden, É. de la Clergerie, B. Sagot, and D. Seddah Gaperon: a peppered English–French generative language model suite arXiv preprint arXiv:2510.25771",
+      "year": 2510,
+      "arxiv_id": "2510.25771",
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "A. Gonzalez-Agirre, M. Pàmies, J. Llop, I. Baucells, S. Da Dalt, D. Tamayo, J. J. Saiz, F. Espuña, J. Prats, J. Aula-Blasco, M. Mina, A. Rubio, A. Shvets, A. Sallés, I. Lacunza, I. Pikabea, J. Palomar, J. Falcão, L. Tormo, L. Vasquez-Reina, M. Marimon, V. Ruíz-Fernández, and M. Villegas Salamandra technical report arXiv preprint arXiv:2502.08489 Note: ALIA-40b is the 40B parameter instance of the Salamandra family",
+      "year": 2502,
+      "arxiv_id": "2502.08489",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Google DeepMind Gemini 3.1 Pro model card Technical report Google DeepMind Note: https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/"
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "GoTo Company, Indosat Ooredoo Hutchison, and AI Singapore Gemma2 9b cpt sahabat-ai v1 HuggingFace External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/GoToCompany/gemma2-9b-cpt-sahabatai-v1-instruct"
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "GoTo Company, Indosat Ooredoo Hutchison, and AI Singapore Llama3 8b cpt sahabat-ai v1 HuggingFace External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/GoToCompany/llama3-8b-cpt-sahabatai-v1-instruct"
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "O. Gouvert, J. Hunter, J. Louradour, C. Cerisara, E. Dufraisse, Y. Sy, L. Rivière, J. Lorré, and OpenLLM-France community The Lucie-7B LLM and the Lucie training dataset: open resources for multilingual language generation arXiv preprint arXiv:2503.12294",
+      "year": 2503,
+      "arxiv_id": "2503.12294",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "D. Hassabis, K. Kavukcuoglu, and the Gemini Team Gemini 3: introducing the latest Gemini AI model from google Note: https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "ILENIA Project Iberian-7B: ILENIA Iberian language models Note: https://proyectoilenia.es/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://proyectoilenia.es/"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "M. Kaneko, A. Niwa, and T. Baldwin JailNewsBench: multi-lingual and regional benchmark for fake news generation under jailbreak attacks In The Fourteenth International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "D. Kim, C. Park, S. Kim, W. Lee, W. Song, Y. Kim, H. Kim, Y. Kim, H. Lee, J. Kim, C. Ahn, S. Yang, S. Lee, H. Park, G. Gim, M. Cha, H. Lee, and S. Kim SOLAR 10.7B: scaling large language models with simple yet effective depth up-scaling arXiv preprint arXiv:2312.15166",
+      "year": 2312,
+      "arxiv_id": "2312.15166",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "LG AI Research K-EXAONE technical report arXiv preprint arXiv:2601.01739",
+      "year": 2601,
+      "arxiv_id": "2601.01739",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Y. Liu, D. Iter, Y. Xu, S. Wang, R. Xu, and C. Zhu G-eval: nlg evaluation using gpt-4 with better human alignment External Links: 2303.16634",
+      "year": 2303,
+      "arxiv_id": "2303.16634",
+      "url": "https://arxiv.org/abs/2303.16634"
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "LLM-jp, A. Aizawa, et al. LLM-jp: a cross-organizational project for the research and development of fully open Japanese LLMs arXiv preprint arXiv:2407.03963",
+      "year": 2407,
+      "arxiv_id": "2407.03963",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Meta AI The Llama 4 herd: the beginning of a new era of natively multimodal AI innovation Note: https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Mistral AI Introducing Mistral 3 Note: https://mistral.ai/news/mistral-3",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://mistral.ai/news/mistral-3"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "J. Myung, N. Lee, Y. Zhou, J. Jin, R. A. Putri, D. Antypas, H. Borkakoty, E. Kim, C. Perez-Almendros, A. A. Ayele, V. Gutiérrez-Basulto, Y. Ibáñez-García, H. Lee, S. H. Muhammad, K. Park, A. S. Rzayev, N. White, S. M. Yimam, M. T. Pilehvar, N. Ousidhoum, J. Camacho-Collados, and A. Oh BLEnD: a benchmark for LLMs on everyday knowledge in diverse cultures and languages In Advances in Neural Information Processing Systems 37 (NeurIPS 2024) Datasets and Benchmarks Track",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Z. Ning, T. Gu, J. Song, S. Hong, L. Li, H. Liu, J. Li, Y. Wang, M. Lingyu, Y. Teng, et al. Linguasafe: a comprehensive multilingual safety benchmark for large language models arXiv preprint arXiv:2508.12733",
+      "year": 2508,
+      "arxiv_id": "2508.12733",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "OpenAI GPT-5 system card Technical report OpenAI Note: Documents gpt-5",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://cdn.openai.com/gpt-5-system-card.pdf"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "OpenAI Introducing GPT-5.4 Note: https://openai.com/index/introducing-gpt-5-4/ Model release announcement, March 5, 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "A. Parrish, A. Chen, N. Nangia, V. Padmakumar, J. Phang, J. Thompson, P. M. Htut, and S. Bowman BBQ: a hand-built bias benchmark for question answering In Findings of the Association for Computational Linguistics: NAACL 2022 pp. 2086–2105",
+      "year": 2105,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "S. Pawar, J. Park, J. Jin, A. Arora, J. Myung, S. Yadav, F. G. Haznitrama, I. Song, A. Oh, and I. Augenstein Survey of cultural awareness in language models: text and beyond Computational Linguistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "B. Plüster et al. LeoLM: igniting German-language LLM research Note: LAION blog post External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://laion.ai/blog/leo-lm/"
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "K. Pundalik et al. PARAM-1: BharatGen bilingual foundation model arXiv preprint arXiv:2507.13390 Note: BharatGen / IIT Bombay",
+      "year": 2507,
+      "arxiv_id": "2507.13390",
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Qwen Team Qwen3 technical report Note: https://github.com/QwenLM/Qwen3 Alibaba Cloud, April 29, 2025",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Rakuten Group, Inc., A. Levine, C. Huang, C. Wang, E. Batista, E. Szymanska, H. Ding, H. W. Chou, J. Pessiot, J. Effendi, J. Chiu, K. T. Ohlhus, K. Chopra, K. Shinzato, K. Murakami, L. Xiong, L. Chen, M. Kubota, M. Tkachenko, M. Lee, N. Takahashi, P. Jwalapuram, R. Tatsushima, S. Jain, S. K. Yadav, T. Cai, W. Chen, Y. Xia, Y. Nakayama, and Y. Higashiyama RakutenAI-7B: extending large language models for Japanese arXiv preprint arXiv:2403.15484",
+      "year": 2403,
+      "arxiv_id": "2403.15484",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Rakuten Group, Inc. Rakuten AI 3.0 now available, japan’s largest high-performance AI model developed as part of the GENIAC project Note: https://global.rakuten.com/corp/news/press/2026/0317_01.html",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://global.rakuten.com/corp/news/press/2026/0317_01.html"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "A. Rao, A. Yerukola, V. Shah, K. Reinecke, and M. Sap NormAd: a framework for measuring the cultural adaptability of large language models arXiv preprint arXiv:2404.12464",
+      "year": 2404,
+      "arxiv_id": "2404.12464",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "N. Sambasivan, S. Kapania, H. Highfill, D. Akrong, P. Paritosh, and L. M. Aroyo “Everyone wants to do the model work, not the data work”: data cascades in high-stakes AI In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems pp. 1–15 External Links: Document",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3411764.3445518"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "G. Santamaría Gómez, G. García Subies, P. Gutiérrez Ruiz, M. González Valero, N. Fuertes, H. Montoro Zamorano, C. Muñoz Sanz, L. Rosado Plaza, N. Aldama García, D. Betancur Sánchez, K. Sushkova, M. Guerrero Nieto, and Á. Barbero Jiménez RigoChat 2: an adapted language model to Spanish using a bounded dataset and reduced hardware arXiv preprint arXiv:2503.08188",
+      "year": 2503,
+      "arxiv_id": "2503.08188",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Sarvam AI Sarvam-105B (Indus): an open foundation model for Indic languages Note: Hugging Face External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/sarvamai"
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "Sarvam AI Sarvam-30B: a mixture-of-experts foundation model for Indic languages Note: Hugging Face External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/sarvamai"
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "N. Sengupta, S. K. Sahu, B. Jia, S. Katipomu, H. Li, F. Koto, W. Marshall, G. Gosal, C. Liu, Z. Chen, et al. Jais and jais-chat: arabic-centric foundation and instruction-tuned open generative large language models arXiv preprint arXiv:2308.16149",
+      "year": 2308,
+      "arxiv_id": "2308.16149",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "SKT AI Model Lab A.X-K1 Note: https://huggingface.co/skt/A.X-K1",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/skt/A.X-K1"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "A. Souly, Q. Lu, D. Bowen, T. Trinh, E. Hsieh, S. Pandey, P. Abbeel, J. Svegliato, S. Emmons, O. Watkins, and S. Toyer A strongreject for empty jailbreaks External Links: 2402.10260",
+      "year": 2402,
+      "arxiv_id": "2402.10260",
+      "url": "https://arxiv.org/abs/2402.10260"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Stockmark Inc. Stockmark-2-100B-Instruct Note: https://huggingface.co/stockmark/Stockmark-2-100B-Instruct Supported by GENIAC",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/stockmark/Stockmark-2-100B-Instruct"
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "S. Team Sailor2: sailing in south-east asia with inclusive multilingual llms arXiv preprint arXiv:2502.12982 External Links: Link",
+      "year": 2502,
+      "arxiv_id": "2502.12982",
+      "url": "https://arxiv.org/abs/2502.12982"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Trendyol Tech Trendyol-LLM-8B-T1: a turkish e-commerce large language model Note: https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/Trendyol/Trendyol-LLM-8B-T1"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "M. Turker, E. Ari, and A. Han Kumru: a turkish language model from scratch Note: https://huggingface.co/vngrs-ai/Kumru-2B-Base",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/vngrs-ai/Kumru-2B-Base"
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "VAGO Solutions SauerkrautLM: German language model suite Note: Hugging Face External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/VAGOsolutions"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "W. Wang, Z. Tu, C. Chen, Y. Yuan, J. Huang, W. Jiao, and M. Lyu All languages matter: on the multilingual safety of llms In Findings of the Association for Computational Linguistics: ACL 2024 pp. 5865–5877",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "I. Watts, V. Gumma, A. Yadavalli, V. Seshadri, M. Swaminathan, and S. Sitaram Pariksha: a large-scale investigation of human-llm evaluator agreement on multilingual and multi-cultural data In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing pp. 7900–7932",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "WiroAI WiroAI turkish language model Note: https://huggingface.co/WiroAI",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/WiroAI"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "xAI Grok 4.20 Note: https://x.ai/ Released in beta on February 17, 2026; full API release in March 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://x.ai/"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Z. Yong, B. Ermis, M. Fadaee, S. Bach, and J. Kreutzer The state of multilingual llm safety research: from measuring the language gap to mitigating it In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing pp. 15856–15871",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "H. Yoo, Y. Yang, and H. Lee Code-switching red-teaming: llm evaluation for safety and multilingual understanding External Links: 2406.15481",
+      "year": 2406,
+      "arxiv_id": "2406.15481",
+      "url": "https://arxiv.org/abs/2406.15481"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "L. Zheng, W. Chiang, Y. Sheng, S. Zhuang, Z. Wu, Y. Zhuang, Z. Lin, Z. Li, D. Li, E. Xing, et al. Judging llm-as-a-judge with mt-bench and chatbot arena Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "J. Zuo, M. Velikanov, I. Chahed, Y. Belkada, D. E. Rhayem, G. Kunsch, H. Hacid, H. Yous, B. Farhat, I. Khadraoui, et al. Falcon-h1: a family of hybrid-head language models redefining efficiency and performance arXiv preprint arXiv:2507.22448",
+      "year": 2507,
+      "arxiv_id": "2507.22448",
+      "url": null
+    }
+  ]
+}

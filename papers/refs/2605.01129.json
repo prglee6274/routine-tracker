@@ -1,0 +1,656 @@
+{
+  "arxiv_id": "2605.01129",
+  "source": "https://arxiv.org/html/2605.01129v1",
+  "fetched_at": "2026-05-12",
+  "count": 81,
+  "references": [
+    {
+      "idx": 1,
+      "label": "",
+      "text": "G. D. P. Regulation, “Gdpr,” https://gdpr-info.eu/ , 2016.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": "https://gdpr-info.eu/"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "T. C. C. P. A. (CCPA), “Ccpa,” https://oag.ca.gov/privacy/ccpa , 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://oag.ca.gov/privacy/ccpa"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "N. Carlini, M. Jagielski, C. Zhang, N. Papernot, A. Terzis, and F. Tramèr, “The privacy onion effect: Memorization is relative,” Advances in Neural Information Processing Systems, vol. 35, pp. 13 263–13 276, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "A. Sekhari, J. Acharya, G. Kamath, and A. T. Suresh, “Remember what you want to forget: Algorithms for machine unlearning,” Advances in Neural Information Processing Systems, vol. 34, pp. 18 075–18 086, 2021.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "M. Kurmanji, P. Triantafillou, J. Hayes, and E. Triantafillou, “Towards unbounded machine unlearning,” Advances in neural information processing systems, vol. 36, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "A. Thudi, G. Deza, V. Chandrasekaran, and N. Papernot, “Unrolling sgd: Understanding factors influencing machine unlearning,” in 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P). IEEE, 2022, pp. 303–319.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "K. Wu, J. Shen, Y. Ning, T. Wang, and W. H. Wang, “Certified edge unlearning for graph neural networks,” in Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 2023, pp. 2606–2617.",
+      "year": 2617,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "J. Wu, Y. Yang, Y. Qian, Y. Sui, X. Wang, and X. He, “Gif: A general graph unlearning strategy via influence function,” in Proceedings of the ACM Web Conference 2023, 2023, pp. 651–661.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "C. Chen, F. Sun, M. Zhang, and B. Ding, “Recommendation unlearning,” in Proceedings of the ACM web conference 2022, 2022, pp. 2768–2777.",
+      "year": 2777,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Y. Li, C. Chen, X. Zheng, J. Liu, and J. Wang, “Making recommender systems forget: Learning and unlearning for erasable recommendation,” Knowledge-Based Systems, vol. 283, p. 111124, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "S. Liu, Y. Yao, J. Jia, S. Casper, N. Baracaldo, P. Hase, Y. Yao, C. Y. Liu, X. Xu, H. Li et al., “Rethinking machine unlearning for large language models,” Nature Machine Intelligence, pp. 1–14, 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Y. Yao, X. Xu, and Y. Liu, “Large language model unlearning,” Advances in Neural Information Processing Systems, vol. 37, pp. 105 425–105 475, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "M. Chen, Z. Zhang, T. Wang, M. Backes, M. Humbert, and Y. Zhang, “When machine unlearning jeopardizes privacy,” in Proceedings of the 2021 ACM SIGSAC conference on computer and communications security, 2021, pp. 896–911.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "A. Golatkar, A. Achille, and S. Soatto, “Forgetting outside the box: Scrubbing deep networks of information accessible from input-output observations,” in European Conference on Computer Vision. Springer, 2020, pp. 383–398.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "J. Hayes, I. Shumailov, E. Triantafillou, A. Khalifa, and N. Papernot, “Inexact unlearning needs more careful evaluations to avoid a false sense of privacy,” arXiv preprint arXiv:2403.01218, 2024.",
+      "year": 2024,
+      "arxiv_id": "2403.01218",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "N. Naderloui, S. Yan, B. Wang, J. Fu, W. H. Wang, W. Liu, and Y. Hong, “Rectifying privacy and efficacy measurements in machine unlearning: A new inference attack perspective,” in 34th USENIX security symposium (USENIX Security 25), 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "R. Shokri, M. Stronati, C. Song, and V. Shmatikov, “Membership inference attacks against machine learning models,” in 2017 IEEE symposium on security and privacy (SP). IEEE, 2017, pp. 3–18.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "A. Salem, Y. Zhang, M. Humbert, P. Berrang, M. Fritz, and M. Backes, “Ml-leaks: Model and data independent membership inference attacks and defenses on machine learning models,” arXiv preprint arXiv:1806.01246, 2018.",
+      "year": 2018,
+      "arxiv_id": "1806.01246",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Z. Ma, Y. Liu, X. Liu, J. Liu, J. Ma, and K. Ren, “Learn to forget: Machine unlearning via neuron masking,” IEEE Transactions on Dependable and Secure Computing, vol. 20, no. 4, pp. 3194–3207, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "L. Graves, V. Nagisetty, and V. Ganesh, “Amnesiac machine learning,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 35, no. 13, 2021, pp. 11 516–11 524.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "T. F. Senate, “Senate bill 264: Interests of foreign countries,” https://www.flsenate.gov/Session/Bill/2023/264 , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://www.flsenate.gov/Session/Bill/2023/264"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "T. T. Senate, “Senate bill 17: Relating to the purchase or acquisition of an interest in real property by certain aliens or foreign entities,” https://legiscan.com/TX/text/SB17/2025 , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://legiscan.com/TX/text/SB17/2025"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "H. Hu, Z. Salcic, L. Sun, G. Dobbie, P. S. Yu, and X. Zhang, “Membership inference attacks on machine learning: A survey,” ACM Computing Surveys (CSUR), vol. 54, no. 11s, pp. 1–37, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "N. Carlini, S. Chien, M. Nasr, S. Song, A. Terzis, and F. Tramer, “Membership inference attacks from first principles,” in 2022 IEEE Symposium on Security and Privacy (SP). IEEE, 2022, pp. 1897–1914.",
+      "year": 1914,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Y. Long, V. Bindschaedler, L. Wang, D. Bu, X. Wang, H. Tang, C. A. Gunter, and K. Chen, “Understanding membership inferences on well-generalized learning models,” arXiv preprint arXiv:1802.04889, 2018.",
+      "year": 2018,
+      "arxiv_id": "1802.04889",
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "S. Truex, L. Liu, M. E. Gursoy, L. Yu, and W. Wei, “Demystifying membership inference attacks in machine learning as a service,” IEEE transactions on services computing, vol. 14, no. 6, pp. 2073–2089, 2019.",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "L. Bourtoule, V. Chandrasekaran, C. A. Choquette-Choo, H. Jia, A. Travers, B. Zhang, D. Lie, and N. Papernot, “Machine unlearning,” in 2021 IEEE Symposium on Security and Privacy (SP). IEEE, 2021, pp. 141–159.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "T. T. Nguyen, T. T. Huynh, Z. Ren, P. L. Nguyen, A. W.-C. Liew, H. Yin, and Q. V. H. Nguyen, “A survey of machine unlearning,” arXiv preprint arXiv:2209.02299, 2022.",
+      "year": 2022,
+      "arxiv_id": "2209.02299",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "T. Shaik, X. Tao, H. Xie, L. Li, X. Zhu, and Q. Li, “Exploring the landscape of machine unlearning: A comprehensive survey and taxonomy,” IEEE Transactions on Neural Networks and Learning Systems, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "C. Guo, T. Goldstein, A. Hannun, and L. Van Der Maaten, “Certified data removal from machine learning models,” in Proceedings of the 37th International Conference on Machine Learning, 2020, pp. 3832–3842.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "J. Liu, P. Ram, Y. Yao, G. Liu, Y. Liu, P. Sharma, and S. Liu, “Model sparsity can simplify machine unlearning,” Advances in Neural Information Processing Systems, vol. 36, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "T. Baumhauer, P. Schöttle, and M. Zeppelzauer, “Machine unlearning: Linear filtration for logit-based classifiers,” Machine Learning, vol. 111, no. 9, pp. 3203–3226, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Y. Liu, Z. Zhao, M. Backes, and Y. Zhang, “Membership inference attacks by exploiting loss trajectory,” in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, 2022, pp. 2085–2098.",
+      "year": 2098,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "J. Ye, A. Maddi, S. K. Murakonda, V. Bindschaedler, and R. Shokri, “Enhanced membership inference attacks against machine learning models,” in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, 2022, pp. 3093–3106.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Y. Wen, A. Bansal, H. Kazemi, E. Borgnia, M. Goldblum, J. Geiping, and T. Goldstein, “Canary in a coalmine: Better membership inference with ensembled adversarial queries,” arXiv preprint arXiv:2210.10750, 2022.",
+      "year": 2022,
+      "arxiv_id": "2210.10750",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "S. Zarifzadeh, P. Liu, and R. Shokri, “Low-cost high-power membership inference attacks,” in Forty-first International Conference on Machine Learning, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "S. Goel, A. Prabhu, A. Sanyal, S.-N. Lim, P. Torr, and P. Kumaraguru, “Towards adversarial evaluations for inexact machine unlearning,” arXiv preprint arXiv:2201.06640, 2022.",
+      "year": 2022,
+      "arxiv_id": "2201.06640",
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "J. Xu, Z. Wu, C. Wang, and X. Jia, “Machine unlearning: Solutions and challenges,” IEEE Transactions on Emerging Topics in Computational Intelligence, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "“Datarobot inc.” https://www.datarobot.com , 2017.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": "https://www.datarobot.com"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "“H2o.ai ai platform,” https://h2o.ai , 2015.",
+      "year": 2015,
+      "arxiv_id": null,
+      "url": "https://h2o.ai"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "A. Krizhevsky, G. Hinton, “Learning multiple layers of features from tiny images,” 2009.",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "L. N. Darlow, E. J. Crowley, A. Antoniou, and A. J. Storkey, “Cinic-10 is not imagenet or cifar-10,” arXiv preprint arXiv:1810.03505, 2018.",
+      "year": 2018,
+      "arxiv_id": "1810.03505",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in 2009 IEEE conference on computer vision and pattern recognition. Ieee, 2009, pp. 248–255.",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "R. Socher, A. Perelygin, J. Wu, J. Chuang, C. D. Manning, A. Y. Ng, and C. Potts, “Recursive deep models for semantic compositionality over a sentiment treebank,” in Proceedings of the 2013 conference on empirical methods in natural language processing, 2013, pp. 1631–1642.",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "K. Albishre, M. Albathan, and Y. Li, “Effective 20 newsgroups dataset cleaning,” in 2015 IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT), vol. 3. IEEE, 2015, pp. 98–101.",
+      "year": 2015,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, “Densely connected convolutional networks,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 4700–4708.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2016, pp. 770–778.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "S. Biderman, H. Schoelkopf, Q. G. Anthony, H. Bradley, K. O’Brien, E. Hallahan, M. A. Khan, S. Purohit, U. S. Prashanth, E. Raff et al., “Pythia: A suite for analyzing large language models across training and scaling,” in International Conference on Machine Learning. PMLR, 2023, pp. 2397–2430.",
+      "year": 2430,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "A. Golatkar, A. Achille, and S. Soatto, “Eternal sunshine of the spotless net: Selective forgetting in deep networks,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 9304–9312.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "M. Grandini, E. Bagli, and G. Visani, “Metrics for multi-class classification: an overview,” arXiv preprint arXiv:2008.05756, 2020.",
+      "year": 2020,
+      "arxiv_id": "2008.05756",
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "S. Yeom, I. Giacomelli, M. Fredrikson, and S. Jha, “Privacy risk in machine learning: Analyzing the connection to overfitting,” in 2018 IEEE 31st computer security foundations symposium (CSF). IEEE, 2018, pp. 268–282.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "J. Jang, D. Yoon, S. Yang, S. Cha, M. Lee, L. Logeswaran, and M. Seo, “Knowledge unlearning for mitigating privacy risks in language models,” in 61st Annual Meeting of the Association for Computational Linguistics, ACL 2023. Association for Computational Linguistics (ACL), 2023, pp. 14 389–14 408.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "G. Ilharco, M. T. Ribeiro, M. Wortsman, L. Schmidt, H. Hajishirzi, and A. Farhadi, “Editing models with task arithmetic,” in The Eleventh International Conference on Learning Representations, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "R. Zhang, L. Lin, Y. Bai, and S. Mei, “Negative preference optimization: From catastrophic collapse to effective unlearning,” arXiv preprint arXiv:2404.05868, 2024.",
+      "year": 2024,
+      "arxiv_id": "2404.05868",
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "B. Liu, Q. Liu, and P. Stone, “Continual learning and private unlearning,” in Conference on Lifelong Learning Agents. PMLR, 2022, pp. 243–254.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "P. Maini, Z. Feng, A. Schwarzschild, Z. C. Lipton, and J. Z. Kolter, “Tofu: A task of fictitious unlearning for llms,” in First Conference on Language Modeling, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "C. A. Choquette-Choo, F. Tramer, N. Carlini, and N. Papernot, “Label-only membership inference attacks,” in International conference on machine learning. PMLR, 2021, pp. 1964–1974.",
+      "year": 1974,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Y. Kaya, S. Hong, and T. Dumitras, “On the effectiveness of regularization against membership inference attacks,” arXiv preprint arXiv:2006.05336, 2020.",
+      "year": 2020,
+      "arxiv_id": "2006.05336",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Y. Yin, K. Chen, L. Shou, and G. Chen, “Defending privacy against more knowledgeable membership inference attackers,” in Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining, 2021, pp. 2026–2036.",
+      "year": 2036,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "N. Srivastava, “Improving neural networks with dropout,” University of Toronto, vol. 182, no. 566, p. 7, 2013.",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "C. Dwork, “Differential privacy,” in International colloquium on automata, languages, and programming. Springer, 2006, pp. 1–12.",
+      "year": 2006,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "J. Fu, Q. Ye, H. Hu, Z. Chen, L. Wang, K. Wang, and X. Ran, “Dpsur: Accelerating differentially private stochastic gradient descent using selective update and release,” Proceedings of the VLDB Endowment, vol. 17, no. 6, pp. 1200–1213, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "J. Jia, A. Salem, M. Backes, Y. Zhang, and N. Z. Gong, “Memguard: Defending against black-box membership inference attacks via adversarial examples,” in Proceedings of the 2019 ACM SIGSAC conference on computer and communications security, 2019, pp. 259–274.",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "M. Naseri, J. Hayes, and E. De Cristofaro, “Local and central differential privacy for robustness and privacy in federated learning,” arXiv preprint arXiv:2009.03561, 2020.",
+      "year": 2020,
+      "arxiv_id": "2009.03561",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "M. Abadi, A. Chu, I. Goodfellow, H. B. McMahan, I. Mironov, K. Talwar, and L. Zhang, “Deep learning with differential privacy,” in Proceedings of the 2016 ACM SIGSAC conference on computer and communications security, 2016, pp. 308–318.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "J. Jang, D. Yoon, S. Yang, S. Cha, M. Lee, L. Logeswaran, and M. Seo, “Knowledge unlearning for mitigating privacy risks in language models,” arXiv preprint arXiv:2210.01504, 2022.",
+      "year": 2022,
+      "arxiv_id": "2210.01504",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "R. Eldan and M. Russinovich, “Who’s harry potter? approximate unlearning in llms,” arXiv preprint arXiv:2310.02238, 2023.",
+      "year": 2023,
+      "arxiv_id": "2310.02238",
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "M. Pawelczyk, S. Neel, and H. Lakkaraju, “In-context unlearning: Language models as few shot unlearners,” arXiv preprint arXiv:2310.07579, 2023.",
+      "year": 2023,
+      "arxiv_id": "2310.07579",
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "W. Shi, A. Ajith, M. Xia, Y. Huang, D. Liu, T. Blevins, D. Chen, and L. Zettlemoyer, “Detecting pretraining data from large language models,” in The Twelfth International Conference on Learning Representations (ICLR), 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, U. Erlingsson et al., “Extracting training data from large language models,” in 30th USENIX security symposium (USENIX Security 21), 2021, pp. 2633–2650.",
+      "year": 2650,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "S. Gupta, Y. Huang, Z. Zhong, T. Gao, K. Li, and D. Chen, “Recovering private text in federated learning of language models,” Advances in neural information processing systems, vol. 35, pp. 8130–8143, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "J. Mattern, F. Mireshghallah, Z. Jin, B. Schölkopf, M. Sachan, and T. Berg-Kirkpatrick, “Membership inference attacks against language models via neighbourhood comparison,” arXiv preprint arXiv:2305.18462, 2023.",
+      "year": 2023,
+      "arxiv_id": "2305.18462",
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "W. Shi, J. Lee, Y. Huang, S. Malladi, J. Zhao, A. Holtzman, D. Liu, L. Zettlemoyer, N. A. Smith, and C. Zhang, “Muse: Machine unlearning six-way evaluation for language models,” arXiv preprint arXiv:2407.06460, 2024.",
+      "year": 2024,
+      "arxiv_id": "2407.06460",
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "M. Duan, A. Suri, N. Mireshghallah, S. Min, W. Shi, L. Zettlemoyer, Y. Tsvetkov, Y. Choi, D. Evans, and H. Hajishirzi, “Do membership inference attacks work on large language models?” in Conference on Language Modeling (COLM), 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 75,
+      "label": "",
+      "text": "V. Feldman and C. Zhang, “What neural networks memorize and why: Discovering the long tail via influence estimation,” Advances in Neural Information Processing Systems, vol. 33, pp. 2881–2891, 2020.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "N. Carlini, M. Jagielski, C. Zhang, N. Papernot, A. Terzis, and F. Tramer, “The privacy onion effect: Memorization is relative,” in Advances in Neural Information Processing Systems, S. Koyejo, S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh, Eds., vol. 35, 2022, pp. 13 263–13 276.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "A. Berger, S. A. Della Pietra, and V. J. Della Pietra, “A maximum entropy approach to natural language processing,” Computational linguistics, vol. 22, no. 1, pp. 39–71, 1996.",
+      "year": 1996,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "F. Tramèr, R. Shokri, A. San Joaquin, H. Le, M. Jagielski, S. Hong, and N. Carlini, “Truth serum: Poisoning machine learning models to reveal their secrets,” in Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security, 2022, pp. 2779–2792.",
+      "year": 2792,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "",
+      "text": "K. Leino and M. Fredrikson, “Stolen memories: Leveraging model memorization for calibrated white-box membership inference,” in 29th USENIX security symposium (USENIX Security 20), 2020, pp. 1605–1622.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 80,
+      "label": "",
+      "text": "D. Hendrycks and K. Gimpel, “A baseline for detecting misclassified and out-of-distribution examples in neural networks,” in International Conference on Learning Representations, 2017.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "",
+      "text": "Z. Han, C. Gao, J. Liu, J. Zhang, and S. Q. Zhang, “Parameter-efficient fine-tuning for large models: A comprehensive survey,” arXiv preprint arXiv:2403.14608",
+      "year": 2403,
+      "arxiv_id": "2403.14608",
+      "url": null
+    }
+  ]
+}

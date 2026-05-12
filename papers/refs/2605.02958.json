@@ -1,0 +1,400 @@
+{
+  "arxiv_id": "2605.02958",
+  "source": "https://arxiv.org/html/2605.02958v1",
+  "fetched_at": "2026-05-12",
+  "count": 49,
+  "references": [
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Understanding intermediate layers using linear classifier probes External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=ryF7rTqgl"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Jailbreaking leading safety-aligned LLMs with simple adaptive attacks External Links: 2404.02151",
+      "year": 2404,
+      "arxiv_id": "2404.02151",
+      "url": "https://arxiv.org/abs/2404.02151"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Many-shot jailbreaking In Advances in Neural Information Processing Systems (NeurIPS) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=cw5mgd71jW"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction External Links: 2406.11717",
+      "year": 2406,
+      "arxiv_id": "2406.11717",
+      "url": "https://arxiv.org/abs/2406.11717"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Qwen technical report External Links: 2309.16609",
+      "year": 2309,
+      "arxiv_id": "2309.16609",
+      "url": "https://arxiv.org/abs/2309.16609"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Constitutional ai: harmlessness from ai feedback External Links: 2212.08073",
+      "year": 2212,
+      "arxiv_id": "2212.08073",
+      "url": "https://arxiv.org/abs/2212.08073"
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "On the dangers of stochastic parrots: can language models be too big? In Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency pp. 610–623 External Links: Link",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3442188.3445922"
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Mechanistic interpretability for ai safety – a review External Links: 2404.14082",
+      "year": 2404,
+      "arxiv_id": "2404.14082",
+      "url": "https://arxiv.org/abs/2404.14082"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Jailbreaking black box large language models in twenty queries External Links: 2310.08419",
+      "year": 2310,
+      "arxiv_id": "2310.08419",
+      "url": "https://arxiv.org/abs/2310.08419"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "DeepSeek-v3 technical report External Links: 2412.19437",
+      "year": 2412,
+      "arxiv_id": "2412.19437",
+      "url": "https://arxiv.org/abs/2412.19437"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "A mathematical framework for transformer circuits Transformer Circuits Thread Note: https://transformer-circuits.pub/2021/framework/index.html",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "RealToxicityPrompts: evaluating neural toxic degeneration in language models In Findings of the Association for Computational Linguistics: EMNLP 2020 pp. 3356–3369 External Links: Link",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2020.findings-emnlp.301/"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Llama guard: LLM-based input-output safeguard for human-ai conversations External Links: 2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": "https://arxiv.org/abs/2312.06674"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Baseline defenses for adversarial attacks against aligned language models External Links: 2309.00614",
+      "year": 2309,
+      "arxiv_id": "2309.00614",
+      "url": "https://arxiv.org/abs/2309.00614"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "PKU-saferlhf: towards multi-level safety alignment for LLMs with human preference External Links: 2406.15513",
+      "year": 2406,
+      "arxiv_id": "2406.15513",
+      "url": "https://arxiv.org/abs/2406.15513"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Language models resist alignment: evidence from data compression In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 23411–23432 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.acl-long.1141/"
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Mistral 7b External Links: 2310.06825",
+      "year": 2310,
+      "arxiv_id": "2310.06825",
+      "url": "https://arxiv.org/abs/2310.06825"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "HiddenDetect: detecting jailbreak attacks against multimodal large language models via monitoring hidden states In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 14880–14893 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.acl-long.724/"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "ToxicChat: unveiling hidden challenges of toxicity detection in real-world user-ai conversation External Links: 2310.17389",
+      "year": 2310,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "AutoDAN: generating stealthy jailbreak prompts on aligned large language models External Links: 2310.04451",
+      "year": 2310,
+      "arxiv_id": "2310.04451",
+      "url": "https://arxiv.org/abs/2310.04451"
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "SGDR: stochastic gradient descent with warm restarts In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "Decoupled weight decay regularization External Links: 1711.05101",
+      "year": null,
+      "arxiv_id": "1711.05101",
+      "url": "https://arxiv.org/abs/1711.05101"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Tree of attacks: jailbreaking black-box LLMs automatically External Links: 2312.02119",
+      "year": 2312,
+      "arxiv_id": "2312.02119",
+      "url": "https://arxiv.org/abs/2312.02119"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Locating and editing factual associations in GPT In Advances in Neural Information Processing Systems (NeurIPS) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=-h6WAS6eE4"
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Interpreting GPT: the logit lens Note: https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens Accessed: 2026-01-12",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "In-context learning and induction heads External Links: 2209.11895",
+      "year": 2209,
+      "arxiv_id": "2209.11895",
+      "url": "https://arxiv.org/abs/2209.11895"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "GPT-4 technical report External Links: 2303.08774",
+      "year": 2303,
+      "arxiv_id": "2303.08774",
+      "url": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Training language models to follow instructions with human feedback In Advances in Neural Information Processing Systems (NeurIPS) Vol. 35",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Direct and indirect effects In Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence pp. 411–420",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Direct preference optimization: your language model is secretly a reward model In Advances in Neural Information Processing Systems (NeurIPS) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=HPuSIXJaa9"
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "A practical review of mechanistic interpretability for transformer-based language models External Links: 2407.02646",
+      "year": 2407,
+      "arxiv_id": "2407.02646",
+      "url": "https://arxiv.org/abs/2407.02646"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "SmoothLLM: defending large language models against jailbreaking attacks Transactions on Machine Learning Research Note: External Links: ISSN 2835-8856",
+      "year": 2835,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=laPAh2hRFC"
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Proximal policy optimization algorithms External Links: 1707.06347",
+      "year": null,
+      "arxiv_id": "1707.06347",
+      "url": "https://arxiv.org/abs/1707.06347"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "RepIt: steering language models with concept-specific refusal vectors External Links: 2509.13281",
+      "year": 2509,
+      "arxiv_id": "2509.13281",
+      "url": "https://arxiv.org/abs/2509.13281"
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Dropout: a simple way to prevent neural networks from overfitting J. Mach. Learn. Res.",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "LLaMA: open and efficient foundation language models External Links: 2302.13971",
+      "year": 2302,
+      "arxiv_id": "2302.13971",
+      "url": "https://arxiv.org/abs/2302.13971"
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Attention is all you need In Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Bypassing the safety training of open-source LLMs with priming attacks External Links: 2312.12321",
+      "year": 2312,
+      "arxiv_id": "2312.12321",
+      "url": "https://arxiv.org/abs/2312.12321"
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Universal adversarial triggers for attacking and analyzing NLP In Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Interpretability in the wild: a circuit for indirect object identification in gpt-2 small External Links: 2211.00593",
+      "year": 2211,
+      "arxiv_id": "2211.00593",
+      "url": "https://arxiv.org/abs/2211.00593"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Jailbroken: how does LLM safety training fail? In Advances in Neural Information Processing Systems (NeurIPS) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=jA235JGM09"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "The geometry of refusal in large language models: concept cones and representational independence In Proceedings of the International Conference on Machine Learning (ICML) External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=80IwJqlXs8"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "GradSafe: detecting jailbreak prompts for LLMs via safety-critical gradient analysis In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 507–518",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Qwen2.5 technical report External Links: 2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115"
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "LLMs encode harmfulness and refusal separately External Links: 2507.11878",
+      "year": 2507,
+      "arxiv_id": "2507.11878",
+      "url": "https://arxiv.org/abs/2507.11878"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Proactive defense against LLM jailbreak External Links: 2510.05052",
+      "year": 2510,
+      "arxiv_id": "2510.05052",
+      "url": "https://arxiv.org/abs/2510.05052"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Representation engineering: a top-down approach to ai transparency External Links: 2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": "https://arxiv.org/abs/2310.01405"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Improving alignment and robustness with circuit breakers External Links: 2406.04313",
+      "year": 2406,
+      "arxiv_id": "2406.04313",
+      "url": "https://arxiv.org/abs/2406.04313"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models External Links: 2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": "https://arxiv.org/abs/2307.15043"
+    }
+  ]
+}

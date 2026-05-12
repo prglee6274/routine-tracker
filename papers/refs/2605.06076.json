@@ -1,0 +1,472 @@
+{
+  "arxiv_id": "2605.06076",
+  "source": "https://arxiv.org/html/2605.06076v1",
+  "fetched_at": "2026-05-12",
+  "count": 58,
+  "references": [
+    {
+      "idx": 23,
+      "label": "",
+      "text": "N. Belrose, Z. Furman, L. Smith, D. Halawi, I. Ostrovsky, L. McKinney, S. Biderman, and J. Steinhardt Eliciting latent predictions from transformers with the tuned lens arXiv preprint arXiv:2303.08112",
+      "year": 2303,
+      "arxiv_id": "2303.08112",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. M. Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei Language models are few-shot learners External Links: 2005.14165",
+      "year": 2005,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Y. Cao, T. Zhang, B. Cao, Z. Yin, L. Lin, F. Ma, and J. Chen Personalized steering of large language models: versatile steering vectors through bi-directional preference optimization Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "L. Chan, A. Garriga-Alonso, N. Goldwosky-Dill, R. Greenblatt, J. Nitishinskaya, A. Radhakrishnan, B. Shlegeris, and N. Thomas Causal scrubbing, a method for rigorously testing interpretability hypotheses AI Alignment Forum Note: https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "H. Chen, J. Zhu, X. Yang, and W. Wang Rethinking circuit completeness in language models: and, or, and adder gates In Advances in Neural Information Processing Systems Vol. 38 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/dd37fdb24a4e1cfa3ed5c247217a7394-Paper-Conference.pdf"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "H. Chen, J. Zhu, X. Yang, and W. Wang CLUE: conflict-guided localization for LLM unlearning framework In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=jtRYvazBWv"
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "A. Cimatti, A. Griggio, and R. Sebastiani A simple and flexible way of computing small unsatisfiable cores in sat modulo theories In International Conference on Theory and Applications of Satisfiability Testing pp. 334–339",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "A. Conmy, A. Mavor-Parker, A. Lynch, S. Heimersheim, and A. Garriga-Alonso Towards automated circuit discovery for mechanistic interpretability Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "N. D’Ippolito, M. F. Frias, J. P. Galeotti, E. Lanzarotti, and S. Mera Alloy+ hotcore: a fast approximation to unsat core In International Conference on Abstract State Machines, Alloy, B and Z pp. 160–173",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "I. Dagan, D. Roth, F. Zanzotto, and M. Sammons Recognizing textual entailment: models and applications Springer Nature",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "D. Dai, L. Dong, Y. Hao, Z. Sui, B. Chang, and F. Wei Knowledge neurons in pretrained transformers In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 8493–8502",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "N. Elhage, N. Nanda, C. Olsson, T. Henighan, N. Joseph, B. Mann, A. Askell, Y. Bai, A. Chen, T. Conerly, N. DasSarma, D. Drain, D. Ganguli, Z. Hatfield-Dodds, D. Hernandez, A. Jones, J. Kernion, L. Lovitt, K. Ndousse, D. Amodei, T. Brown, J. Clark, J. Kaplan, S. McCandlish, and C. Olah A mathematical framework for transformer circuits Transformer Circuits Thread Note: https://transformer-circuits.pub/2021/framework/index.html",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "M. Geva, R. Schuster, J. Berant, and O. Levy Transformer feed-forward layers are key-value memories In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing pp. 5484–5495",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "N. Goldowsky-Dill, C. MacLeod, L. Sato, and A. Arora Localizing model behavior with path patching arXiv preprint arXiv:2304.05969",
+      "year": 2304,
+      "arxiv_id": "2304.05969",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "M. Hanna, O. Liu, and A. Variengien How does gpt-2 compute greater-than?: interpreting mathematical abilities in a pre-trained language model Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "P. Hase, M. Bansal, B. Kim, and A. Ghandeharioun Does localization inform editing? surprising differences in causality-based localization vs. knowledge editing in language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "A. Havrilla, Y. Du, S. C. Raparthy, C. Nalmpantis, J. Dwivedi-Yu, E. Hambro, S. Sukhbaatar, and R. Raileanu Teaching large language models to reason with reinforcement learning In AI for Math Workshop @ ICML 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=mjqoceuMnI"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "S. Heimersheim and J. Janiak A circuit for python docstrings in a 4-layer attention-only transformer In Alignment Forum",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "S. Heimersheim and N. Nanda How to use and interpret activation patching arXiv preprint arXiv:2404.15255",
+      "year": 2404,
+      "arxiv_id": "2404.15255",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "E. J. Hu, yelong shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, and W. Chen LoRA: low-rank adaptation of large language models In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=nZeVKeeFYf9"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "J. Jia, J. Liu, Y. Zhang, P. Ram, N. Baracaldo, and S. Liu Wagle: strategic weight attribution for effective and modular unlearning in large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "T. Ju, W. Sun, W. Du, X. Yuan, Z. Ren, and G. Liu How large language models encode context knowledge? a layer-wise probing study In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) pp. 8235–8246",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "H. Lai, X. Liu, J. Gao, J. Cheng, Z. Qi, Y. Xu, S. Yao, D. Zhang, J. Du, Z. Hou, et al. A survey of post-training scaling in large language models In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 2771–2791",
+      "year": 2791,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "O. Levy, M. Seo, E. Choi, and L. Zettlemoyer Zero-shot relation extraction via reading comprehension In Proceedings of the 21st Conference on Computational Natural Language Learning (CoNLL 2017) Vancouver, Canada External Links: Link , Document",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/K17-1034/"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "J. Li, X. Chen, E. Hovy, and D. Jurafsky Visualizing and understanding neural models in nlp In Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies pp. 681–691",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Y. Li, C. Sun, and T. Weng Effective skill unlearning through intervention and abstention In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 6358–6371",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "D. Lindner, J. Kramár, S. Farquhar, M. Rahtz, T. McGrath, and V. Mikulik Tracr: compiled transformers as a laboratory for interpretability Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "B. Liu, Q. Liu, and P. Stone Continual learning and private unlearning In Conference on Lifelong Learning Agents pp. 243–254",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "H. Liu, J. Ma, X. Wang, C. Yuan, and F. Feng An information-theoretic parameter-free bayesian framework for probing labeled dependency trees from attention score In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=q7raIuTQDK"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "S. Liu, Y. Yao, J. Jia, S. Casper, N. Baracaldo, P. Hase, Y. Yao, C. Y. Liu, X. Xu, H. Li, et al. Rethinking machine unlearning for large language models Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "I. Loshchilov and F. Hutter Decoupled weight decay regularization arXiv preprint arXiv:1711.05101",
+      "year": null,
+      "arxiv_id": "1711.05101",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "P. Maini, Z. Feng, A. Schwarzschild, Z. C. Lipton, and J. Z. Kolter TOFU: a task of fictitious unlearning for llms In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "C. Mathwin, G. Corlouer, E. Kran, F. Barez, and N. Nanda Identifying a preliminary circuit for predicting gendered pronouns in gpt-2 small URL: https://itch. io/jam/mechint/rate/1889871",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "K. Meng, D. Bau, A. Andonian, and Y. Belinkov Locating and editing factual associations in gpt Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "T. Mihaylov, P. Clark, T. Khot, and A. Sabharwal Can a suit of armor conduct electricity? a new dataset for open book question answering In EMNLP",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "A. Muhamed, J. Bonato, M. T. Diab, and V. Smith Saes can improve unlearning: dynamic sparse autoencoder guardrails for precision unlearning in llms In Second Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "C. Olsson, N. Elhage, N. Nanda, N. Joseph, N. DasSarma, T. Henighan, B. Mann, A. Askell, Y. Bai, A. Chen, T. Conerly, D. Drain, D. Ganguli, Z. Hatfield-Dodds, D. Hernandez, S. Johnston, A. Jones, J. Kernion, L. Lovitt, K. Ndousse, D. Amodei, T. Brown, J. Clark, J. Kaplan, S. McCandlish, and C. Olah In-context learning and induction heads Transformer Circuits Thread Note: https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "V. Patil, P. Hase, and M. Bansal Can sensitive information be deleted from llms? objectives for defending against extraction attacks In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "D. Rai, Y. Zhou, S. Feng, A. Saparov, and Z. Yao A practical review of mechanistic interpretability for transformer-based language models arXiv preprint arXiv:2407.02646",
+      "year": 2407,
+      "arxiv_id": "2407.02646",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "D. Selsam and N. Bjørner Guiding high-performance sat solvers with unsat-core predictions In International conference on theory and applications of satisfiability testing pp. 336–353",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "R. Socher, A. Perelygin, J. Wu, J. Chuang, C. D. Manning, A. Ng, and C. Potts Recursive deep models for semantic compositionality over a sentiment treebank In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing Seattle, Washington, USA External Links: Link",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": "https://www.aclweb.org/anthology/D13-1170"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "A. Stolfo, Y. Belinkov, and M. Sachan A mechanistic interpretation of arithmetic reasoning in language models using causal mediation analysis In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing pp. 7035–7052",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "A. Sun Circuit stability characterizes language model generalization In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 9025–9040",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "M. Suzgun, N. Scales, N. Schärli, S. Gehrmann, Y. Tay, H. W. Chung, A. Chowdhery, Q. Le, E. Chi, D. Zhou, et al. Challenging big-bench tasks and whether chain-of-thought can solve them In Findings of the Association for Computational Linguistics: ACL 2023 pp. 13003–13051",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "A. Syed, C. Rager, and A. Conmy Attribution patching outperforms automated circuit discovery In Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP pp. 407–416",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "T. Tang, W. Luo, H. Huang, D. Zhang, X. Wang, W. X. Zhao, F. Wei, and J. Wen Language-specific neurons: the key to multilingual capabilities in large language models In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 5701–5715",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "J. Thorne, A. Vlachos, C. Christodoulopoulos, and A. Mittal FEVER: a large-scale dataset for fact extraction and VERification In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers) New Orleans, Louisiana External Links: Link , Document",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/N18-1074/"
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "J. Vig, S. Gehrmann, Y. Belinkov, S. Qian, D. Nevo, Y. Singer, and S. Shieber Investigating gender bias in language models using causal mediation analysis Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "K. R. Wang, A. Variengien, A. Conmy, B. Shlegeris, and J. Steinhardt Interpretability in the wild: a circuit for indirect object identification in gpt-2 small In The Eleventh International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "S. Wang, Y. Zhu, H. Liu, Z. Zheng, C. Chen, and J. Li Knowledge editing for large language models: a survey ACM Computing Surveys",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "(2019) WinoGrande: an adversarial winograd schema challenge at scale",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "X. Wu, J. Li, M. Xu, W. Dong, S. Wu, C. Bian, and D. Xiong Depn: detecting and editing privacy neurons in pretrained language models In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing pp. 2875–2886",
+      "year": 2886,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "G. Xiao, J. Lin, M. Seznec, H. Wu, J. Demouth, and S. Han Smoothquant: accurate and efficient post-training quantization for large language models In International conference on machine learning pp. 38087–38099",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "L. Yan, R. Li, G. Chen, Q. Li, J. Geng, W. Li, V. Wang, and C. Lee Spurious rewards paradox: mechanistically understanding how rlvr activates memorization shortcuts in llms arXiv preprint arXiv:2601.11061",
+      "year": 2601,
+      "arxiv_id": "2601.11061",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Y. Yao, P. Wang, B. Tian, S. Cheng, Z. Li, S. Deng, H. Chen, and N. Zhang Editing large language models: problems, methods, and opportunities In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing pp. 10222–10240",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "L. Yu, J. Niu, Z. Zhu, and G. Penn Functional faithfulness in the wild: circuit discovery with differentiable computation graph pruning arXiv preprint arXiv:2407.03779",
+      "year": 2407,
+      "arxiv_id": "2407.03779",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "H. Zhang, Z. Zhang, M. Wang, Z. Su, Y. Wang, Q. Wang, S. Yuan, E. Nie, X. Duan, Q. Xue, et al. Locate, steer, and improve: a practical survey of actionable mechanistic interpretability in large language models arXiv preprint arXiv:2601.14004",
+      "year": 2601,
+      "arxiv_id": "2601.14004",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "R. Zhang, L. Lin, Y. Bai, and S. Mei Negative preference optimization: from catastrophic collapse to effective unlearning In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

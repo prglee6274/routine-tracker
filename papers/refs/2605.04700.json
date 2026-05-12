@@ -1,0 +1,376 @@
+{
+  "arxiv_id": "2605.04700",
+  "source": "https://arxiv.org/html/2605.04700v1",
+  "fetched_at": "2026-05-12",
+  "count": 46,
+  "references": [
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Qwen3-vl technical report arXiv preprint arXiv:2511.21631",
+      "year": 2511,
+      "arxiv_id": "2511.21631",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Optimization methods for large-scale machine learning SIAM review",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Are aligned neural networks adversarially aligned? Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Towards evaluating the robustness of neural networks In 2017 ieee symposium on security and privacy (sp) pp. 39–57",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Audio adversarial examples: targeted attacks on speech-to-text In 2018 IEEE security and privacy workshops (SPW) pp. 1–7",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "{ \\{ devil’S } \\} whisper: a general approach for physical adversarial attacks against commercial black-box speech recognition devices In 29th USENIX Security Symposium (USENIX Security 20) pp. 2667–2684",
+      "year": 2684,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Internvl: scaling up vision foundation models and aligning for generic visual-linguistic tasks In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition pp. 24185–24198",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Qwen2-audio technical report arXiv preprint arXiv:2407.10759",
+      "year": 2407,
+      "arxiv_id": "2407.10759",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Llama-omni: seamless speech interaction with large language models arXiv preprint arXiv:2409.06666",
+      "year": 2409,
+      "arxiv_id": "2409.06666",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Zero-query adversarial attack on black-box automatic speech recognition systems In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security pp. 630–644",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Selective masking adversarial attack on automatic speech recognition systems In 2025 IEEE International Conference on Multimedia and Expo (ICME) pp. 1–6",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Audio flamingo 2: an audio-language model with long-audio understanding and expert reasoning abilities In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Explaining and harnessing adversarial examples arXiv preprint arXiv:1412.6572",
+      "year": null,
+      "arxiv_id": "1412.6572",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Google cloud speech-to-text External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://cloud.google.com/text-to-speech"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Gemini 3 flash model card External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Gemini External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://gemini.google.com/app"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Step-audio: unified understanding and generation in intelligent speech interaction arXiv preprint arXiv:2502.11946",
+      "year": 2502,
+      "arxiv_id": "2502.11946",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Masked autoencoders that listen Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Advwave: stealthy adversarial jailbreak attack against large audio-language models arXiv preprint arXiv:2412.08608",
+      "year": 2412,
+      "arxiv_id": "2412.08608",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Visual instruction tuning In Advances in neural information processing systems Vol. 36",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Autodan: generating stealthy jailbreak prompts on aligned large language models arXiv preprint arXiv:2310.04451",
+      "year": 2310,
+      "arxiv_id": "2310.04451",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Characterizing adversarial subspaces using local intrinsic dimensionality In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Towards deep learning models resistant to adversarial attacks In International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "HarmBench: a standardized evaluation framework for automated red teaming and robust refusal In International Conference on Machine Learning pp. 35181–35224",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Tree of attacks: jailbreaking black-box llms automatically Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Introductory lectures on convex optimization: a basic course Vol. 87",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "SpeechGuard: exploring the adversarial robustness of multi-modal large language models In ACL (Findings) pp. 10018–10035",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Visual adversarial examples jailbreak aligned large language models In Proceedings of the AAAI conference on artificial intelligence Vol. 38",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Safety alignment should be made more than just a few tokens deep In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Robust speech recognition via large-scale weak supervision In International conference on machine learning pp. 28492–28518",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Multilingual and multi-accent jailbreaking of audio llms arXiv preprint arXiv:2504.01094",
+      "year": 2504,
+      "arxiv_id": "2504.01094",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Great, now write an article about that: the crescendo { \\{ multi-turn } \\} { \\{ llm } \\} jailbreak attack In 34th USENIX Security Symposium (USENIX Security 25) pp. 2421–2440",
+      "year": 2440,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Attacker’s noise can manipulate your audio-based llm in the real world arXiv preprint arXiv:2507.06256",
+      "year": 2507,
+      "arxiv_id": "2507.06256",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "” Do anything now”: characterizing and evaluating in-the-wild jailbreak prompts on large language models In Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security pp. 1671–1685",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Attention! your vision language model could be maliciously manipulated In The Thirty-ninth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "{ \\{ kenku } \\} : Towards efficient and stealthy black-box adversarial attacks against { \\{ asr } \\} systems In 32nd USENIX Security Symposium (USENIX Security 23) pp. 247–264",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Efficient streaming language models with attention sinks In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Sorry-bench: systematically evaluating large language model safety refusal arXiv preprint arXiv:2406.14598",
+      "year": 2406,
+      "arxiv_id": "2406.14598",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Qwen2. 5-omni technical report arXiv preprint arXiv:2503.20215",
+      "year": 2503,
+      "arxiv_id": "2503.20215",
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Qwen3-omni technical report arXiv preprint arXiv:2509.17765",
+      "year": 2509,
+      "arxiv_id": "2509.17765",
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Audio is the achilles’ heel: red teaming audio large multimodal models In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 9292–9306",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "JBShield: defending large language models from jailbreak attacks through activated concept analysis and manipulation In 34th USENIX Security Symposium, USENIX Security 2025 pp. 8215–8234",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "H2o: heavy-hitter oracle for efficient generative inference of large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Black-box adversarial attacks on commercial speech platforms with minimal information In Proceedings of the 2021 ACM SIGSAC conference on computer and communications security pp. 86–107",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

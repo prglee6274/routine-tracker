@@ -1,0 +1,576 @@
+{
+  "arxiv_id": "2605.06196",
+  "source": "https://arxiv.org/html/2605.06196v1",
+  "fetched_at": "2026-05-12",
+  "count": 71,
+  "references": [
+    {
+      "idx": 21,
+      "label": "",
+      "text": "J. R. Anthis, R. Liu, S. M. Richardson, A. C. Kozlowski, B. Koch, E. Brynjolfsson, J. A. Evans, and M. S. Bernstein Position: LLM social simulations are a promising research method In Forty-second International Conference on Machine Learning, ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Anthropic Claude model card Note: https://www.anthropic.com/system-cards",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "A. Arditi, O. Obeso, A. Syed, D. Paleka, N. Rimsky, W. Gurnee, and N. Nanda Refusal in language models is mediated by a single direction ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:270560489"
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "L. P. Argyle, E. Busby, N. Fulda, J. R. Gubler, C. Rytting, and D. Wingate Out of one, many: using language models to simulate human samples Political Analysis External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:252280474"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "L. Bartoszcze, S. Munshi, B. Sukidi, J. Yen, Z. Yang, D. Williams-King, L. Le, K. Asuzu, and C. Maple Representation engineering for large-language models: survey and research challenges arXiv preprint, arXiv:2502.17601",
+      "year": 2502,
+      "arxiv_id": "2502.17601",
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "P. Beckmann and P. Butlin Where is the mind? persona vectors and llm individuation External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:287635493"
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Y. Belinkov Probing classifiers: promises, shortcomings, and advances Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:236924832"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "J. Bisbee, J. D. Clinton, C. Dorff, B. Kenkel, and J. M. Larson Synthetic replacements for human survey data? the perils of large language models Political Analysis External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:269845858"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "U. Bronfenbrenner The ecology of human development: experiments by nature and design Harvard university press",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "J. Chen, M. Wang, T. Xie, S. Feng, and Y. Liu A systematic analysis of the impact of persona steering on llm capabilities External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:287432603"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "N. Chen, Y. Wang, Y. Deng, and J. Li The oscars of ai theater: a survey on role-playing with language models arXiv preprint, arXiv:2407.11484",
+      "year": 2407,
+      "arxiv_id": "2407.11484",
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "R. Chen, A. Arditi, H. Sleight, O. Evans, and J. Lindsey Persona vectors: monitoring and controlling character traits in language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:280337840"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "M. Cheng, E. Durmus, and D. Jurafsky Marked personas: using natural language prompts to measure stereotypes in language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:258960243"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "J. S. Coleman Foundations of social theory External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:145109282"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "J. S. Coleman Foundations of social theory Harvard university press",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "H. Cunningham, A. Ewart, L. R. Smith, R. Huben, and L. Sharkey Sparse autoencoders find highly interpretable features in language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:261934663"
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "N. Elhage, T. Hume, C. Olsson, N. Schiefer, T. Henighan, S. Kravec, Z. Hatfield-Dodds, R. Lasenby, D. Drain, C. Chen, R. B. Grosse, S. McCandlish, J. Kaplan, D. Amodei, M. Wattenberg, and C. Olah Toy models of superposition ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:252439050"
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "J. Engels, I. Liao, E. J. Michaud, W. Gurnee, and M. Tegmark Not all language model features are one-dimensionally linear In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:269983112"
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "X. Feng, L. Zhao, W. Zhong, Y. Huang, Y. Gu, L. Kong, X. Feng, and B. Qin PERSONA: dynamic and compositional inference-time personality control via activation vector algebra ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:285659291"
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "L. Gao, T. D. la Tour, H. Tillman, G. Goh, R. Troll, A. Radford, I. Sutskever, J. Leike, and J. Wu Scaling and evaluating sparse autoencoders ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:270286001"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "A. Giddens The constitution of society: outline of the theory of structuration Univ of California Press",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Google DeepMind Gemini 3.1 flash-lite model card Note: https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Google Gemini 3 model card Note: https://deepmind.google/models/gemini",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "M. S. Granovetter Threshold models of collective behavior American Journal of Sociology External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:49314397"
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "S. Gupta, V. Shrivastava, A. Deshpande, A. Kalyan, P. Clark, A. Sabharwal, and T. Khot Bias runs deep: implicit reasoning biases in persona-assigned llms ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:265050702"
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "S. Hong, M. Zhuge, J. Chen, X. Zheng, Y. Cheng, C. Zhang, J. Wang, Z. Wang, S. K. S. Yau, Z. H. Lin, L. Zhou, C. Ran, L. Xiao, C. Wu, and J. Schmidhuber MetaGPT: meta programming for a multi-agent collaborative framework In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:265301950"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "H. Jiang, X. Zhang, X. Cao, C. Breazeal, and J. Kabbara PersonaLLM: investigating the ability of large language models to express big five personality traits External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:265221392"
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "O. Jorgensen, D. Cope, N. Schoots, and M. Shanahan Improving activation steering in language models with mean-centring ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:266053529"
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "N. Joshi, J. Rando, A. Saparov, N. Kim, and H. He Personas as a way to model truthfulness in language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:264555113"
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "A. Kong, S. Zhao, H. Chen, Q. Li, Y. Qin, R. Sun, and X. Zhou Better zero-shot reasoning with role-play prompting In North American Chapter of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:260900230"
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "G. Li, H. Hammoud, H. Itani, D. Khizbullin, and B. Ghanem CAMEL: communicative agents for \"mind\" exploration of large language model society Advances in Neural Information Processing Systems 36 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:268042527"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "J. Li, N. Mehrabi, C. Peris, P. Goyal, K. Chang, A. G. Galstyan, R. Zemel, and R. Gupta The steerability of large language models toward data-driven personas In North American Chapter of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:265067297"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "K. Li, T. Liu, N. Bashkansky, D. Bau, F. Viégas, H. Pfister, and M. Wattenberg Measuring and controlling instruction (in)stability in language model dialogs arXiv preprint, arXiv:2402.10962",
+      "year": 2402,
+      "arxiv_id": "2402.10962",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "K. Li, O. Patel, F. B. Viégas, H. Pfister, and M. Wattenberg Inference-time intervention: eliciting truthful answers from a language model In Advances in Neural Information Processing Systems 36: Annual Conference on Neural Information Processing Systems 2023, NeurIPS 2023",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "N. Li, C. Gao, M. Li, Y. Li, and Q. Liao EconAgent: large language model-empowered agents for simulating macroeconomic activities In Annual Meeting of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:264146527"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Y. Li, Y. Yu, H. Li, Z. Chen, and K. Khashanah TradingGPT: multi-agent system with layered memory and distinct characters for enhanced financial trading performance External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:261582775"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "R. Liu, J. Geng, J. C. Peterson, I. Sucholutsky, and T. L. Griffiths Large language models assume people are more rational than we really are In The Thirteenth International Conference on Learning Representations,ICLR External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=dAeET8gxqg"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "W. Liu, X. Wang, M. Wu, T. Li, C. Lv, Z. Ling, J. Zhu, C. Zhang, X. Zheng, and X. Huang Aligning large language models with human preferences through representation engineering In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics, ACL pp. 10619–10638",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "A. @. M. Llama Team The llama 3 herd of models arXiv preprint, arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "C. Lu, J. Gallagher, J. Michala, K. Fish, and J. Lindsey The assistant axis: situating and stabilizing the default persona of language models arXiv preprint, arXiv:2601.10387",
+      "year": 2601,
+      "arxiv_id": "2601.10387",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "S. Marks, C. Rager, E. J. Michaud, Y. Belinkov, D. Bau, and A. Mueller Sparse feature circuits: discovering and editing interpretable causal graphs in language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:268732732"
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "T. Mikolov, W. Yih, and G. Zweig Linguistic regularities in continuous space word representations In North American Chapter of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:7478738"
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "X. Mou, X. Ding, Q. He, L. Wang, J. Liang, X. Zhang, L. Sun, J. Lin, J. Zhou, X. Huang, and Z. Wei From individual to society: A survey on social simulation driven by large language model-based agents arXiv preprint, arXiv:2412.03563",
+      "year": 2412,
+      "arxiv_id": "2412.03563",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "OpenAI GPT-5 system card Note: https://cdn.openai.com/gpt-5-system-card.pdf",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "OpenAI Introducing gpt-5.4 mini and nano Note: https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "J. S. Park, J. C. O’Brien, C. J. Cai, M. R. Morris, P. Liang, and M. S. Bernstein Generative agents: interactive simulacra of human behavior In Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology, UIST pp. 2:1–2:22 External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3586183.3606763"
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "K. Park, Y. J. Choe, Y. Jiang, and V. Veitch The geometry of categorical and hierarchical concepts in large language models ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:270216615"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "K. Park, Y. J. Choe, and V. Veitch The linear representation hypothesis and the geometry of large language models In International Conference on Machine Learning External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:265042984"
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "C. Qian, W. Liu, H. Liu, N. Chen, Y. Dang, J. Li, C. Yang, W. Chen, Y. Su, X. Cong, J. Xu, D. Li, Z. Liu, and M. Sun ChatDev: communicative agents for software development In Annual Meeting of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:270257715"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "N. Rimsky, N. Gabrieli, J. Schulz, M. Tong, E. Hubinger, and A. M. Turner Steering llama 2 via contrastive activation addition In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), ACL pp. 15504–15522",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "M. Sakata, B. Heinzerling, T. Ito, S. Yokoi, and K. Inui Linear representations of hierarchical concepts in language models External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:287255958"
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "A. Salecha, M. E. Ireland, S. Subrahmanya, J. Sedoc, L. H. Ungar, and J. C. Eichstaedt Large language models show human-like social desirability biases in survey responses arXiv preprint, arXiv:2405.06058",
+      "year": 2405,
+      "arxiv_id": "2405.06058",
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "L. Salewski, S. Alaniz, I. Rio-Torto, E. Schulz, and Z. Akata In-context impersonation reveals large language models’ strengths and biases ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:258866192"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "S. Santurkar, E. Durmus, F. Ladhak, C. Lee, P. Liang, and T. Hashimoto Whose opinions do language models reflect? ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:257834040"
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "T. C. Schelling Micromotives and macrobehavior External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:143387748"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Y. Shao, L. Li, J. Dai, and X. Qiu Character-llm: A trainable agent for role-playing In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, EMNLP pp. 13153–13187",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Y. Shao, L. Li, J. Dai, and X. Qiu Character-llm: a trainable agent for role-playing ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:264145862"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Q. Team Qwen3 technical report arXiv preprint, arXiv:2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "P. Törnberg, D. Valeeva, J. Uitermark, and C. Bail Simulating social media using large language models to evaluate alternative news feed algorithms ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:263831233"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Y. Tseng, Y. Huang, T. Hsiao, W. Chen, C. Huang, Y. Meng, and Y. Chen Two tales of persona in llms: A survey of role-playing and personalization In Findings of the Association for Computational Linguistics: EMNLP2024 pp. 16612–16631",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Q. Tu, S. Fan, Z. Tian, and R. Yan CharacterEval: a chinese benchmark for role-playing conversational agent evaluation In Annual Meeting of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:266725287"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "A. M. Turner, L. Thiergart, G. Leech, D. Udell, J. J. Vazquez, U. Mini, and M. MacDiarmid Steering language models with activation engineering arXiv preprint, arXiv:2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "K. Wang, A. Bukharin, H. Jiang, Q. Yin, Z. Wang, T. Zhao, J. Shang, C. Zhang, B. Yin, X. Li, J. Chen, and S. Li RNR: teaching large language models to follow roles and rules arXiv preprint, arXiv:2409.13733",
+      "year": 2409,
+      "arxiv_id": "2409.13733",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "N. Wang, Z. Peng, H. Que, J. Liu, W. Zhou, Y. Wu, H. Guo, R. Gan, Z. Ni, J. Yang, M. Zhang, Z. Zhang, W. Ouyang, K. Xu, W. Huang, J. Fu, and J. Peng RoleLLM: benchmarking, eliciting, and enhancing role-playing abilities of large language models In Findings of the Association for Computational Linguistics, ACL Findings of ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Q. Wang, J. Wu, Z. Jiang, Z. Tang, B. Luo, N. Chen, W. Chen, and B. He LLM-based human simulations have not yet been reliable arXiv preprint, arXiv:2501.08579",
+      "year": 2501,
+      "arxiv_id": "2501.08579",
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "S. Wang, T. Loakman, Y. Lei, Y. Liu, B. Yang, Y. Zhao, D. Yang, and C. Lin Exploring task performance with interpretable models via sparse auto-encoders ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:280066641"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "X. Wang, Y. Xiao, J. Huang, S. Yuan, R. Xu, H. Guo, Q. Tu, Y. Fei, Z. Leng, W. Wang, J. Chen, C. Li, and Y. Xiao InCharacter: evaluating personality fidelity in role-playing agents through psychological interviews In Annual Meeting of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:264555532"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Z. M. Wang, Z. Peng, H. Que, J. Liu, W. Zhou, Y. Wu, H. Guo, R. Gan, Z. Ni, M. Zhang, Z. Zhang, W. Ouyang, K. Xu, W. Chen, J. Fu, and J. Peng RoleLLM: benchmarking, eliciting, and enhancing role-playing abilities of large language models In Annual Meeting of the Association for Computational Linguistics External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:263334495"
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "R. Williams, N. Hosseinichimeh, A. Majumdar, and N. Ghaffarzadegan Epidemic modeling with generative agents ArXiv External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:259766713"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Q. Wu, G. Bansal, J. Zhang, Y. Wu, B. Li, E. (. Zhu, L. Jiang, X. Zhang, S. Zhang, J. Liu, A. H. Awadallah, R. W. White, D. Burger, and C. Wang AutoGen: enabling next-gen llm applications via multi-agent conversation External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:263611068"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "A. Zou, L. Phan, S. Chen, J. Campbell, P. Guo, R. Ren, A. Pan, X. Yin, M. Mazeika, A. Dombrowski, S. Goel, N. Li, M. J. Byun, Z. Wang, A. Mallen, S. Basart, S. Koyejo, D. Song, M. Fredrikson, J. Z. Kolter, and D. Hendrycks Representation engineering: a top-down approach to ai transparency arXiv preprint, arXiv:2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": null
+    }
+  ]
+}

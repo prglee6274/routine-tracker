@@ -1,0 +1,312 @@
+{
+  "arxiv_id": "2605.05909",
+  "source": "https://arxiv.org/html/2605.05909v1",
+  "fetched_at": "2026-05-12",
+  "count": 38,
+  "references": [
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Y. Cao and J. Yang Towards making systems forget with machine unlearning In 2015 IEEE symposium on security and privacy pp. 463–480",
+      "year": 2015,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "I. Cohen, D. Gottesman, M. Geva, and R. Giryes Performance gap in entity knowledge extraction across modalities in vision language models In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 29095–29108",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "A. Dontsov, D. Korzh, A. Zhavoronkin, B. Mikheev, D. Bobkov, A. Alanov, O. Rogov, I. Oseledets, and E. Tutubalina Clear: character unlearning in textual and visual modalities In Findings of the Association for Computational Linguistics: ACL 2025 pp. 20582–20603",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "X. Du, M. Liu, K. Wang, H. Wang, J. Liu, Y. Chen, J. Feng, C. Sha, X. Peng, and Y. Lou Evaluating large language models in class-level code generation In Proceedings of the IEEE/ACM 46th International Conference on Software Engineering pp. 1–13",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "C. Fan, J. Liu, Y. Zhang, E. Wong, D. Wei, and S. Liu Salun: empowering machine unlearning via gradient-based weight saliency in both image classification and generation arXiv preprint arXiv:2310.12508",
+      "year": 2310,
+      "arxiv_id": "2310.12508",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "J. Fang, H. Jiang, K. Wang, Y. Ma, S. Jie, X. Wang, X. He, and T. Chua Alphaedit: null-space constrained knowledge editing for language models arXiv preprint arXiv:2410.02355",
+      "year": 2410,
+      "arxiv_id": "2410.02355",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "H. Fei, Y. Zhou, J. Li, X. Li, Q. Xu, B. Li, S. Wu, Y. Wang, J. Zhou, J. Meng, et al. On path to multimodal generalist: general-level and general-bench In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "J. Geng and Q. Li SAUCE: selective concept unlearning in vision-language models with sparse autoencoders In Proceedings of the IEEE/CVF International Conference on Computer Vision pp. 3023–3033",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "V. Gupta, C. Jung, S. Neel, A. Roth, S. Sharifi-Malvajerdi, and C. Waites Adaptive machine unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen, et al. Lora: low-rank adaptation of large language models. ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "X. Huang, Y. Wang, J. Zhao, and K. Liu Commonsense knowledge editing based on free-text in llms arXiv preprint arXiv:2410.23844",
+      "year": 2410,
+      "arxiv_id": "2410.23844",
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "J. Huo, Y. Yan, B. Hu, Y. Yue, and X. Hu Mmneuron: discovering neuron-level domain-specific interpretation in multimodal large language model arXiv preprint arXiv:2406.11193",
+      "year": 2406,
+      "arxiv_id": "2406.11193",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "J. Huo, Y. Yan, X. Zheng, Y. Lyu, X. Zou, Z. Wei, and X. Hu Mmunlearner: reformulating multimodal machine unlearning in the era of multimodal large language models arXiv preprint arXiv:2502.11051",
+      "year": 2502,
+      "arxiv_id": "2502.11051",
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "H. Li, Y. Zhang, F. Koto, Y. Yang, H. Zhao, Y. Gong, N. Duan, and T. Baldwin Cmmlu: measuring massive multitask language understanding in chinese In Findings of the Association for Computational Linguistics: ACL 2024 pp. 11260–11285",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "J. Li, Q. Wei, C. Zhang, G. Qi, M. Du, Y. Chen, S. Bi, and F. Liu Single image unlearning: efficient machine unlearning in multimodal large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "W. Li, C. Wang, G. Cheng, and Q. Song International conference on machine learning Transactions on machine learning research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "C. Lin Rouge: a package for automatic evaluation of summaries In Text summarization branches out pp. 74–81",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "B. Liu, Q. Liu, and P. Stone Continual learning and private unlearning In Conference on Lifelong Learning Agents pp. 243–254",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "C. Liu, Y. Wang, J. Flanigan, and Y. Liu Large language model unlearning via embedding-corrupted prompts Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "H. Liu, C. Li, Q. Wu, and Y. J. Lee Visual instruction tuning Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Z. Liu, G. Dou, M. Jia, Z. Tan, Q. Zeng, Y. Yuan, and M. Jiang Protecting privacy in multimodal large language models with mllmu-bench In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 4105–4135",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Z. Liu, G. Dou, Z. Tan, Y. Tian, and M. Jiang Towards safer large language models through machine unlearning arXiv preprint arXiv:2402.10058",
+      "year": 2402,
+      "arxiv_id": "2402.10058",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Z. Liu, G. Dou, X. Yuan, C. Zhang, Z. Tan, and M. Jiang Modality-aware neuron pruning for unlearning in multimodal large language models arXiv preprint arXiv:2502.15910",
+      "year": 2502,
+      "arxiv_id": "2502.15910",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "P. Maini, Z. Feng, A. Schwarzschild, Z. C. Lipton, and J. Z. Kolter Tofu: a task of fictitious unlearning for llms arXiv preprint arXiv:2401.06121",
+      "year": 2401,
+      "arxiv_id": "2401.06121",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "A. I. Muresanu, A. Thudi, M. R. Zhang, and N. Papernot Fast exact unlearning for in-context learning data for llms In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Q. P. Nguyen, B. K. H. Low, and P. Jaillet Variational bayesian unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "A. v. d. Oord, Y. Li, and O. Vinyals Representation learning with contrastive predictive coding arXiv preprint arXiv:1807.03748",
+      "year": null,
+      "arxiv_id": "1807.03748",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "R. Rafailov, A. Sharma, E. Mitchell, C. D. Manning, S. Ermon, and C. Finn Direct preference optimization: your language model is secretly a reward model Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "A. Sekhari, J. Acharya, G. Kamath, and A. T. Suresh Remember what you want to forget: algorithms for machine unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "A. Thudi, G. Deza, V. Chandrasekaran, and N. Papernot Unrolling sgd: understanding factors influencing machine unlearning In 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P) pp. 303–319",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "E. Ullah, T. Mai, A. Rao, R. A. Rossi, and R. Arora Machine unlearning via algorithmic stability In Conference on Learning Theory pp. 4126–4142",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "C. Wang, Y. Li, X. Feng, C. Chen, X. Zheng, and J. Yin UMU-bench: closing the modality gap in multimodal unlearning evaluation In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "P. Wang, S. Bai, S. Tan, S. Wang, Z. Fan, J. Bai, K. Chen, X. Liu, J. Wang, W. Ge, et al. Qwen2-vl: enhancing vision-language model’s perception of the world at any resolution arXiv preprint arXiv:2409.12191",
+      "year": 2409,
+      "arxiv_id": "2409.12191",
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Y. Wang, Q. Wang, F. Liu, W. Huang, Y. Du, X. Du, and B. Han GRU: mitigating the trade-off between unlearning and retention for llms arXiv preprint arXiv:2503.09117",
+      "year": 2503,
+      "arxiv_id": "2503.09117",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Y. Wang, Z. Niu, H. Ji, G. He, H. Gao, and G. Hua MLLM machine unlearning via visual knowledge distillation arXiv preprint arXiv:2512.11325",
+      "year": 2512,
+      "arxiv_id": "2512.11325",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "C. Yang, N. Srebro, D. McAllester, and Z. Li Pencil: long thoughts with short memory arXiv preprint arXiv:2503.14337",
+      "year": 2503,
+      "arxiv_id": "2503.14337",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Z. Yu and S. Ananiadou Understanding multimodal llms: the mechanistic interpretability of llava in visual question answering arXiv preprint arXiv:2411.10950",
+      "year": 2411,
+      "arxiv_id": "2411.10950",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "R. Zhang, L. Lin, Y. Bai, and S. Mei Negative preference optimization: from catastrophic collapse to effective unlearning arXiv preprint arXiv:2404.05868",
+      "year": 2404,
+      "arxiv_id": "2404.05868",
+      "url": null
+    }
+  ]
+}

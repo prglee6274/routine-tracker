@@ -1,0 +1,328 @@
+{
+  "arxiv_id": "2605.04019",
+  "source": "https://arxiv.org/html/2605.04019v1",
+  "fetched_at": "2026-05-12",
+  "count": 40,
+  "references": [
+    {
+      "idx": 1,
+      "label": "Goodfellow et al. [2014]",
+      "text": "Goodfellow, I. J., Shlens, J., and Szegedy, C. Explaining and Harnessing Adversarial Examples. arXiv preprint arXiv:1412.6572",
+      "year": null,
+      "arxiv_id": "1412.6572",
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "Yuan et al. [2019]",
+      "text": "Yuan, X., He, P., Zhu, Q., and Li, X. Adversarial Examples: Attacks and Defenses for Deep Learning. IEEE Transactions on Neural Networks and Learning Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "Madry et al. [2017]",
+      "text": "Madry, A., Makelov, A., Schmidt, L., Tsipras, D., and Vladu, A. Towards Deep Learning Models Resistant to Adversarial Attacks. arXiv preprint arXiv:1706.06083",
+      "year": null,
+      "arxiv_id": "1706.06083",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "Carlini and Wagner [2017]",
+      "text": "Carlini, N. and Wagner, D. Towards Evaluating the Robustness of Neural Networks. In IEEE Symposium on Security and Privacy (SP)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "Lopez Munoz et al. [2024]",
+      "text": "Lopez Munoz, G. D., Minnich, A. J., Lutz, R., Lundeen, R., Dheekonda, R. S. R., et al. PyRIT: A Framework for Security Risk Identification and Red Teaming in Generative AI Systems. arXiv preprint arXiv:2410.02828",
+      "year": 2410,
+      "arxiv_id": "2410.02828",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "Derczynski et al. [2024]",
+      "text": "Derczynski, L., Galinkin, E., Martin, J., Majumdar, S., and Inie, N. garak: A Framework for Security Probing Large Language Models. arXiv preprint arXiv:2406.11036",
+      "year": 2406,
+      "arxiv_id": "2406.11036",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Promptfoo [2024]",
+      "text": "Promptfoo. Promptfoo: Test Your LLM App. https://github.com/promptfoo/promptfoo , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://github.com/promptfoo/promptfoo"
+    },
+    {
+      "idx": 8,
+      "label": "Dreadnode [2025]",
+      "text": "Dreadnode. Dreadnode AI Security Platform: AI infrastructure for the security stack. https://dreadnode.io and https://pypi.org/project/dreadnode/ , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://dreadnode.io"
+    },
+    {
+      "idx": 9,
+      "label": "Bullwinkel et al. [2025]",
+      "text": "Bullwinkel, B., Minnich, A., Chawla, S., Lopez, G., Pouliot, M., Maxwell, W., de Gruyter, J., Pratt, K., Qi, S., Chikanov, N., Lutz, R., Dheekonda, R. S. R., et al. Lessons From Red Teaming 100 Generative AI Products. arXiv preprint arXiv:2501.07238",
+      "year": 2501,
+      "arxiv_id": "2501.07238",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Mazeika et al. [2024]",
+      "text": "Mazeika, M., Phan, L., Yin, X., et al. HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal. arXiv preprint arXiv:2402.04249",
+      "year": 2402,
+      "arxiv_id": "2402.04249",
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "Bhatt et al. [2024]",
+      "text": "Bhatt, M., Chennabasappa, S., Li, Y., Nikolaidis, C., Song, D., et al. Purple Llama CyberSecEval: A Secure Coding Benchmark for Language Models. arXiv preprint arXiv:2312.04724",
+      "year": 2312,
+      "arxiv_id": "2312.04724",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "Haider et al. [2024]",
+      "text": "Haider, E., Dheekonda, R. S. R., et al. Phi-3 Safety Post-Training: Aligning Language Models with a “Break-Fix” Cycle. arXiv preprint arXiv:2407.13833",
+      "year": 2407,
+      "arxiv_id": "2407.13833",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Mulla et al. [2025]",
+      "text": "Mulla, R., Dawson, A., Abruzzon, V., Greunke, B., Landers, N., Palm, B., and Pearce, W. The Automation Advantage in AI Red Teaming. arXiv preprint arXiv:2504.19855",
+      "year": 2504,
+      "arxiv_id": "2504.19855",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "Dawson et al. [2025]",
+      "text": "Dawson, A., Mulla, R., Landers, N., and Caldwell, S. AIRTBench: Measuring Autonomous AI Red Teaming Capabilities in Language Models. arXiv preprint arXiv:2506.14682",
+      "year": 2506,
+      "arxiv_id": "2506.14682",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Zhou et al. [2025]",
+      "text": "Zhou, A., Wu, K., Pinto, F., Chen, Z., Zeng, Y., Yang, Y., Yang, S., Koyejo, S., Zou, J., and Li, B. AutoRedTeamer: Autonomous Red Teaming with Lifelong Attack Integration. arXiv preprint arXiv:2503.15754",
+      "year": 2503,
+      "arxiv_id": "2503.15754",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Caldwell et al. [2025]",
+      "text": "Caldwell, S., Harley, M., Kouremetis, M., Abruzzo, V., and Pearce, W. PentestJudge: Judging Agent Behavior Against Operational Requirements. arXiv preprint arXiv:2508.02921",
+      "year": 2508,
+      "arxiv_id": "2508.02921",
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Samvelyan et al. [2024]",
+      "text": "Samvelyan, M., Raparthy, S. C., Lupu, A., Hambro, E., Markosyan, A. H., Bhatt, M., Mao, Y., Jiang, M., Parker-Holder, J., Foerster, J., Rocktäschel, T., and Raileanu, R. Rainbow Teaming: Open-Ended Generation of Diverse Adversarial Prompts. arXiv preprint arXiv:2402.16822",
+      "year": 2402,
+      "arxiv_id": "2402.16822",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "Mehrotra et al. [2024]",
+      "text": "Mehrotra, A., Zampetakis, M., Kassianik, P., Nelson, B., Anderson, H., Singer, Y., and Karbasi, A. Tree of Attacks: Jailbreaking Black-Box LLMs Automatically. Proceedings of the 38th International Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "Chao et al. [2023]",
+      "text": "Chao, P., Robey, A., Dobriban, E., Hassani, H., Pappas, G. J., and Wong, E. Jailbreaking Black Box Large Language Models in Twenty Queries. arXiv preprint arXiv:2310.08419",
+      "year": 2310,
+      "arxiv_id": "2310.08419",
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "Russinovich et al. [2024]",
+      "text": "Russinovich, M., Salem, A., and Eldan, R. Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack. arXiv preprint arXiv:2404.01833",
+      "year": 2404,
+      "arxiv_id": "2404.01833",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "Zou et al. [2023]",
+      "text": "Zou, A., Wang, Z., Carlini, N., Nasr, M., Kolter, J. Z., and Fredrikson, M. Universal and Transferable Adversarial Attacks on Aligned Language Models. arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "Chen et al. [2020]",
+      "text": "Chen, J., Jordan, M. I., and Wainwright, M. J. HopSkipJumpAttack: A Query-Efficient Decision-Based Attack. 2020 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "Guo et al. [2019]",
+      "text": "Guo, C., Gardner, J. R., You, Y., Wilson, A. G., and Weinberger, K. Q. Simple Black-box Adversarial Attacks. arXiv preprint arXiv:1905.07121",
+      "year": 1905,
+      "arxiv_id": "1905.07121",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "Bailey et al. [2024]",
+      "text": "Bailey, L., Ong, E., Russell, S., and Emmons, S. Image Hijacks: Adversarial Images can Control Generative Models at Runtime. Proceedings of the 41st International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "Carlini et al. [2023]",
+      "text": "Carlini, N., Nasr, M., Choquette-Choo, C. A., Jagielski, M., Gao, I., Awadalla, A., Koh, P. W., Ippolito, D., Lee, K., Tramer, F., and Schmidt, L. Are aligned neural networks adversarially aligned? arXiv preprint arXiv:2306.15447",
+      "year": 2306,
+      "arxiv_id": "2306.15447",
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "Wei et al. [2023]",
+      "text": "Wei, A., Haghtalab, N., and Steinhardt, J. Jailbroken: How Does LLM Safety Training Fail? arXiv preprint arXiv:2307.02483",
+      "year": 2307,
+      "arxiv_id": "2307.02483",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "Yong et al. [2024]",
+      "text": "Yong, Z.-X., Menghini, C., and Bach, S. H. Low-Resource Languages Jailbreak GPT-4. arXiv preprint arXiv:2310.02446",
+      "year": 2310,
+      "arxiv_id": "2310.02446",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "Ganguli et al. [2022]",
+      "text": "Ganguli, D., Lovitt, L., Kernion, J., et al. Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned. arXiv preprint arXiv:2209.07858",
+      "year": 2209,
+      "arxiv_id": "2209.07858",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "Perez et al. [2022]",
+      "text": "Perez, E., Huang, S., Song, F., et al. Red Teaming Language Models with Language Models. arXiv preprint arXiv:2202.03286",
+      "year": 2202,
+      "arxiv_id": "2202.03286",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "Jones et al. [2023]",
+      "text": "Jones, E., Dragan, A., Raghunathan, A., and Steinhardt, J. Automatically Auditing Large Language Models via Discrete Optimization. International Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "Ruan et al. [2024]",
+      "text": "Ruan, Y., Dong, H., Wang, A., Pitis, S., Zhou, Y., Ba, J., Dubois, Y., Maddison, C. J., and Hashimoto, T. Identifying the Risks of LM Agents with an LM-Emulated Sandbox. arXiv preprint arXiv:2309.15817",
+      "year": 2309,
+      "arxiv_id": "2309.15817",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "Liu et al. [2026]",
+      "text": "Liu, J., Zhao, X., Shang, X., and Shen, Z. Dive into Claude Code: The Design Space of Today’s and Future AI Agent Systems. arXiv preprint arXiv:2604.14228",
+      "year": 2604,
+      "arxiv_id": "2604.14228",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "Wu et al. [2023]",
+      "text": "Wu, Q., Bansal, G., Zhang, J., et al. AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation. arXiv preprint arXiv:2308.08155",
+      "year": 2308,
+      "arxiv_id": "2308.08155",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "Schick et al. [2023]",
+      "text": "Schick, T., Dwivedi-Yu, J., Dessì, R., et al. Toolformer: Language Models Can Teach Themselves to Use Tools. Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "Schwartz et al. [2025]",
+      "text": "Schwartz, D., Bespalov, D., Wang, Z., Kulkarni, N., and Qi, Y. Graph of Attacks with Pruning: Optimizing Stealthy Jailbreak Prompt Generation for Enhanced LLM Content Moderation. arXiv preprint arXiv:2501.18638",
+      "year": 2501,
+      "arxiv_id": "2501.18638",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "Meta [2025]",
+      "text": "Meta. Llama 4 Model Card. https://github.com/meta-llama/llama-models , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "idx": 37,
+      "label": "Dheekonda et al. [2021]",
+      "text": "Raja Sekhar Rao Dheekonda, Will Pearce, Hyrum Anderson, and Ram Shankar Siva Kumar. Counterfit: A Comprehensive Framework for Assessing the Security and Robustness of Machine Learning Systems. Available at: https://github.com/Azure/counterfit/ .",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/Azure/counterfit/"
+    },
+    {
+      "idx": 38,
+      "label": "Anderson et al. [2024]",
+      "text": "Hyrum Spencer Anderson, Raja Sekhar Rao Dheekonda, William Pearce, Ricky Dee Loynd, James David McCaffrey, and Ram Shankar Siva Kumar. Detecting an algorithmic attack against a hosted AI system based on inputs and outputs of the hosted AI system. US Patent 12,361,125 B2, Dec. 10, 2024. Available at: https://patents.google.com/patent/US12361125B2/ .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://patents.google.com/patent/US12361125B2/"
+    },
+    {
+      "idx": 39,
+      "label": "NIST [2023]",
+      "text": "National Institute of Standards and Technology. Artificial Intelligence Risk Management Framework (AI RMF 1.0). NIST AI 100-1, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "OWASP [2025]",
+      "text": "OWASP Foundation. OWASP Agentic Security Initiative. https://genai.owasp.org/initiatives/agentic-security-initiative/ , 2025.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://genai.owasp.org/initiatives/agentic-security-initiative/"
+    }
+  ]
+}

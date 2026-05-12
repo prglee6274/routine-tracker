@@ -1,0 +1,304 @@
+{
+  "arxiv_id": "2605.06158",
+  "source": "https://arxiv.org/html/2605.06158v1",
+  "fetched_at": "2026-05-12",
+  "count": 37,
+  "references": [
+    {
+      "idx": 10,
+      "label": "",
+      "text": "R. Aksitov, S. Miryoosefi, Z. Li, D. Li, S. Babayan, K. Kopparapu, Z. Fisher, R. Guo, S. Prakash, P. Srinivasan, M. Zaheer, F. Yu, and S. Kumar ReST meets react: self-improvement for multi-step reasoning LLM agent In ICLR 2024 Workshop on Large Language Model (LLM) Agents External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=7xknRLr7QE"
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "C. Chang, Z. Jiang, V. Rakesh, M. Pan, C. M. Yeh, G. Wang, M. Hu, Z. Xu, Y. Zheng, M. Das, and N. Zou MAIN-RAG: multi-agent filtering retrieval-augmented generation In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Vienna, Austria External Links: Link , Document , ISBN 979-8-89176-251-0",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.acl-long.131/"
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Z. Chen, Z. Xiang, C. Xiao, D. Song, and B. Li AgentPoison: red-teaming LLM agents via poisoning memory or knowledge bases In The Thirty-eighth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=Y841BRW9rY"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "P. Cheng, Y. Ding, T. Ju, Z. Wu, W. Du, H. Zhao, P. Yi, Z. Zhang, and G. Liu TrojanRAG: retrieval-augmented generation can be backdoor driver in large language models External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=RfYD6v829Y"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "P. Chhikara, D. Khant, S. Aryan, T. Singh, and D. Yadav Mem0: building production-ready ai agents with scalable long-term memory arXiv preprint arXiv:2504.19413",
+      "year": 2504,
+      "arxiv_id": "2504.19413",
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "CrewAI Inc. CrewAI Note: https://github.com/crewAIInc/crewAI Version 1.14.4; accessed May 6, 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/crewAIInc/crewAI"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "DeepSeek-AI DeepSeek-v4: towards highly efficient million-token context intelligence Note: Accessed: May 6, 2026 External Links: Link",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer QLoRA: efficient finetuning of quantized LLMs In Thirty-seventh Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=OUIFPHEgJU"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "S. Dong, S. Xu, P. He, Y. Li, J. Tang, T. Liu, H. Liu, and Z. Xiang Memory injection attacks on LLM agents via query-only interaction In The Thirty-ninth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=QINnsnppv8"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Y. Feng, Y. Li, Y. Wu, Y. Tan, Y. Guo, Y. Ding, K. Zhai, X. Ma, and Y. Jiang BackdoorAgent: a unified framework for backdoor attacks on llm-based agents Note: arXiv preprint arXiv:2601.04566 External Links: Link",
+      "year": 2601,
+      "arxiv_id": "2601.04566",
+      "url": "https://arxiv.org/abs/2601.04566"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Y. Gao, Y. Xiong, X. Gao, K. Jia, J. Pan, Y. Bi, Y. Dai, J. Sun, M. Wang, and H. Wang Retrieval-augmented generation for large language models: a survey arXiv External Links: Document , Link",
+      "year": null,
+      "arxiv_id": "2312.10997",
+      "url": "https://dx.doi.org/10.48550/ARXIV.2312.10997"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "A. Grattafiori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan, et al. The llama 3 herd of models arXiv preprint arXiv:2407.21783 External Links: Link",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "G. Gupta, K. Yadav, Z. Kira, Y. Gal, and R. Aljundi Memo: training memory-efficient embodied agents with reinforcement learning In The Thirty-ninth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=9eIntNc69t"
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt Measuring massive multitask language understanding In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=d7KBjmI3GmQ"
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "LangChain AI LangGraph SDK for Python Note: https://github.com/langchain-ai/langgraph/tree/main/libs/sdk-py Version 0.3.14; accessed May 6, 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/langchain-ai/langgraph/tree/main/libs/sdk-py"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "A. H. Liu, K. Khandelwal, S. Subramanian, V. Jouault, A. Rastogi, et al. Ministral 3 arXiv preprint arXiv:2601.08584",
+      "year": 2601,
+      "arxiv_id": "2601.08584",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "I. Loshchilov and F. Hutter Decoupled weight decay regularization In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=Bkg6RiCqY7"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "A. Maharana, D. Lee, S. Tulyakov, M. Bansal, F. Barbieri, and Y. Fang Evaluating very long-term conversational memory of LLM agents In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.747/"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "G. H. Mealy A method for synthesizing sequential circuits Bell System Technical Journal External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1002/j.1538-7305.1955.tb03788.x"
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Microsoft Microsoft Azure Documentation Note: Accessed: May 6, 2026 External Links: Link",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/what-is-memory"
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Microsoft Microsoft Agent Framework for Python Note: https://github.com/microsoft/agent-framework/ Version python-1.2.2; accessed May 6, 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/microsoft/agent-framework/"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "M. Mohammadi, Y. Li, J. Lo, and W. Yip Evaluation and benchmarking of llm agents: a survey In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 KDD ’25 External Links: ISBN 9798400714542",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3711896.3736570"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "OpenAI GPT-5 system card Note: arXiv preprint arXiv:2601.03267 External Links: Link",
+      "year": 2601,
+      "arxiv_id": "2601.03267",
+      "url": "https://arxiv.org/abs/2601.03267"
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "OpenAI OpenAI Agents SDK for Python Note: https://github.com/openai/openai-agents-python Version 0.15.3; accessed May 6, 2026",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://github.com/openai/openai-agents-python"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "C. Packer, S. Wooders, K. Lin, V. Fang, S. G. Patil, I. Stoica, and J. E. Gonzalez MemGPT: towards llms as operating systems Note: arXiv preprint arXiv:2310.08560 External Links: Link",
+      "year": 2310,
+      "arxiv_id": "2310.08560",
+      "url": "https://arxiv.org/abs/2310.08560"
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Qwen, A. Yang, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, et al. Qwen2.5 technical report arXiv preprint arXiv:2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "M. U. Rehman, H. Ahmadi, and W. U. Hassan Flash: a comprehensive approach to intrusion detection via provenance graph representation learning In 2024 IEEE Symposium on Security and Privacy (SP) pp. 3552–3570 External Links: Document",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1109/SP54263.2024.00139"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "A. Saha, J. Mattei, J. Blasco, L. Cavallaro, D. Votipka, and M. Lindorfer Expert insights into advanced persistent threats: analysis, attribution, and challenges In 34th USENIX Security Symposium (USENIX Security 25) Seattle, WA External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/saha"
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Y. Wang, D. Xue, S. Zhang, and S. Qian BadAgent: inserting and activating backdoor attacks in LLM agents In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.acl-long.530/"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "W. Xu, Z. Liang, K. Mei, H. Gao, J. Tan, and Y. Zhang A-mem: agentic memory for LLM agents In The Thirty-ninth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=FiM0M8gcct"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "A. Yang, A. Li, B. Yang, B. Zhang, B. Hui, B. Zheng, B. Yu, C. Gao, C. Huang, C. Lv, C. Zheng, D. Liu, F. Zhou, F. Huang, F. Hu, H. Ge, H. Wei, H. Lin, J. Tang, J. Yang, J. Tu, J. Zhang, J. Yang, J. Yang, J. Zhou, J. Zhou, J. Lin, K. Dang, K. Bao, K. Yang, L. Yu, L. Deng, M. Li, M. Xue, M. Li, P. Zhang, P. Wang, Q. Zhu, R. Men, R. Gao, S. Liu, S. Luo, T. Li, T. Tang, W. Yin, X. Ren, X. Wang, X. Zhang, X. Ren, Y. Fan, Y. Su, Y. Zhang, Y. Zhang, Y. Wan, Y. Liu, Z. Wang, Z. Cui, Z. Zhang, Z. Zhou, and Z. Qiu Qwen3 technical report arXiv External Links: Document , Link",
+      "year": null,
+      "arxiv_id": "2505.09388",
+      "url": "https://dx.doi.org/10.48550/ARXIV.2505.09388"
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "W. Yang, X. Bi, Y. Lin, S. Chen, J. Zhou, and X. Sun Watch out for your agents! investigating backdoor threats to llm-based agents In Advances in Neural Information Processing Systems Vol. 37 External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/b6e9d6f4f3428cd5f3f9e9bbae2cab10-Paper-Conference.pdf"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao ReAct: synergizing reasoning and acting in language models In International Conference on Learning Representations (ICLR) External Links: Link",
+      "year": null,
+      "arxiv_id": "2210.03629",
+      "url": "https://arxiv.org/abs/2210.03629"
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "B. Zhang, Y. Gao, B. Kuang, C. Yu, A. Fu, and W. Susilo A survey on advanced persistent threat detection: a unified framework, challenges, and countermeasures ACM Computing Surveys External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3700749"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "H. Zhang, J. Huang, K. Mei, Y. Yao, Z. Wang, C. Zhan, H. Wang, and Y. Zhang Agent security bench (ASB): formalizing and benchmarking attacks and defenses in LLM-based agents In The Thirteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=V4y0CpX4hK"
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "P. Zhu, Z. Zhou, Y. Zhang, S. Yan, K. Wang, and S. Su DemonAgent: dynamically encrypted multi-backdoor implantation attack on LLM-based agent In Findings of the Association for Computational Linguistics: EMNLP 2025 Suzhou, China External Links: Link , Document , ISBN 979-8-89176-335-7",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2025.findings-emnlp.157/"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "W. Zou, R. Geng, B. Wang, and J. Jia PoisonedRAG: knowledge corruption attacks to retrieval-augmented generation of large language models In Proceedings of the 34th USENIX Conference on Security Symposium SEC ’25 External Links: ISBN 978-1-939133-52-6",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

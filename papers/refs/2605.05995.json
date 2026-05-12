@@ -1,0 +1,408 @@
+{
+  "arxiv_id": "2605.05995",
+  "source": "https://arxiv.org/html/2605.05995v1",
+  "fetched_at": "2026-05-12",
+  "count": 50,
+  "references": [
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Intrinsic dimensionality explains the effectiveness of language model fine-tuning In Proceedings of the 59th annual meeting of the association for computational linguistics and the 11th international joint conference on natural language processing (volume 1: long papers) pp. 7319–7328",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Eliciting latent predictions from transformers with the tuned lens arXiv preprint arXiv:2303.08112",
+      "year": 2303,
+      "arxiv_id": "2303.08112",
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Representation learning: a review and new perspectives IEEE transactions on pattern analysis and machine intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Gradient routing: masking gradients to localize computation in neural networks arXiv preprint arXiv:2410.04332",
+      "year": 2410,
+      "arxiv_id": "2410.04332",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Training verifiers to solve math word problems arXiv preprint arXiv:2110.14168",
+      "year": 2110,
+      "arxiv_id": "2110.14168",
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Attacks, defenses and evaluations for llm conversation safety: a survey In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 6734–6747",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "The llama 3 herd of models arXiv preprint arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Toy models of superposition arXiv preprint arXiv:2209.10652",
+      "year": 2209,
+      "arxiv_id": "2209.10652",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "A mathematical perspective on transformers Bulletin of the American Mathematical Society",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Regularisation of neural networks by enforcing lipschitz continuity Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Badnets: identifying vulnerabilities in the machine learning model supply chain arXiv preprint arXiv:1708.06733",
+      "year": null,
+      "arxiv_id": "1708.06733",
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Precise in-parameter concept erasure in large language models In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing pp. 18997–19017",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Watch out for your guidance on generation! exploring conditional backdoor attacks against large language models In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 39",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Lora: low-rank adaptation of large language models. ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Antidote: post-fine-tuning safety alignment for large language models against harmful fine-tuning attack In Forty-second International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Harmful fine-tuning attacks and defenses for large language models: a survey arXiv preprint arXiv:2409.18169",
+      "year": 2409,
+      "arxiv_id": "2409.18169",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Booster: tackling harmful fine-tuning for large language models via attenuating harmful perturbation In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Lisa: lazy safety alignment for large language models against harmful fine-tuning attack Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Vaccine: perturbation-aware alignment for large language models against harmful fine-tuning attack Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Editing models with task arithmetic In The Eleventh International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Beavertails: towards improved safety alignment of llm via a human-preference dataset Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Overcoming catastrophic forgetting in neural networks Proceedings of the national academy of sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Alpacaeval: an automatic evaluator of instruction-following models (2023) URL https://github.com/tatsu-lab/alpaca_eval",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Targeted vaccine: safety alignment for large language models against harmful fine-tuning via layer-wise perturbation IEEE Transactions on Information Forensics and Security",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Deja vu: contextual sparsity for efficient llms at inference time In International Conference on Machine Learning pp. 22137–22176",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Decoupled weight decay regularization arXiv preprint arXiv:1711.05101",
+      "year": null,
+      "arxiv_id": "1711.05101",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Eraser: jailbreaking defense in large language models via unlearning harmful knowledge arXiv preprint arXiv:2404.05880",
+      "year": 2404,
+      "arxiv_id": "2404.05880",
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Fine-tuning can cripple your foundation model; preserving features may be the solution Transactions on Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Task-specific skill localization in fine-tuned language models In International Conference on Machine Learning pp. 27011–27033",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "The linear representation hypothesis and the geometry of large language models In International Conference on Machine Learning pp. 39643–39666",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "LoX: low-rank extrapolation robustifies llm safety against fine-tuning In Second Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Safety alignment should be made more than just a few tokens deep In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Fine-tuning aligned language models compromises safety, even when users do not intend to! In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Universal jailbreak backdoors from poisoned human feedback In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Representation noising: a defence mechanism against harmful finetuning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "DF-logit: data-free logic-gated backdoor attacks in vision transformers arXiv preprint arXiv:2602.03040",
+      "year": 2602,
+      "arxiv_id": "2602.03040",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Recursive deep models for semantic compositionality over a sentiment treebank In Proceedings of the 2013 conference on empirical methods in natural language processing pp. 1631–1642",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Gemma: open models based on gemini research and technology arXiv preprint arXiv:2403.08295",
+      "year": 2403,
+      "arxiv_id": "2403.08295",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Attention is all you need Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Universal adversarial triggers for attacking and analyzing nlp In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "A comprehensive survey in llm (-agent) full stack safety: data, training and deployment arXiv preprint arXiv:2504.15585",
+      "year": 2504,
+      "arxiv_id": "2504.15585",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Panacea: mitigating harmful fine-tuning for large language models via post-fine-tuning perturbation arXiv preprint arXiv:2501.18100",
+      "year": 2501,
+      "arxiv_id": "2501.18100",
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Qwen2. 5-1m technical report arXiv preprint arXiv:2501.15383",
+      "year": 2501,
+      "arxiv_id": "2501.15383",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Shadow alignment: the ease of subverting safely-aligned language models In ICLR 2024 Workshop on Secure and Trustworthy Large Language Models",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Nlsr: neuron-level safety realignment of large language models against harmful fine-tuning In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 39",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Removing rlhf protections in gpt-4 via fine-tuning In Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers) pp. 681–687",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Character-level convolutional networks for text classification Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Representation engineering: a top-down approach to ai transparency arXiv preprint arXiv:2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

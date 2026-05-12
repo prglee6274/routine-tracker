@@ -1,0 +1,568 @@
+{
+  "arxiv_id": "2605.04261",
+  "source": "https://arxiv.org/html/2605.04261v1",
+  "fetched_at": "2026-05-12",
+  "count": 70,
+  "references": [
+    {
+      "idx": 1,
+      "label": "(1)",
+      "text": "",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "Akhtar and Mian (2018)",
+      "text": "Naveed Akhtar and Ajmal Mian. 2018. Threat of adversarial attacks on deep learning in computer vision: A survey. IEEE Access 6 (2018), 14410–14430. doi: 10.1109/ACCESS.2018.2807385",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/ACCESS.2018.2807385"
+    },
+    {
+      "idx": 3,
+      "label": "Akhtar et al .",
+      "text": "Naveed Akhtar, Ajmal Mian, Navid Kardan, and Mubarak Shah. 2021. Advances in adversarial attacks and defenses in computer vision: A survey. arXiv preprint arXiv:2108.00401 (2021). https://arxiv.org/abs/2108.00401",
+      "year": 2108,
+      "arxiv_id": "2108.00401",
+      "url": "https://arxiv.org/abs/2108.00401"
+    },
+    {
+      "idx": 4,
+      "label": "AlDahoul et al .",
+      "text": "Nouar AlDahoul, Talal Rahwan, and Yasir Zaki. 2025. AI-generated faces influence gender stereotypes and racial homogenization. Scientific Reports 15, 14449 (2025). doi: 10.1038/s41598-025-99623-3",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1038/s41598-025-99623-3"
+    },
+    {
+      "idx": 5,
+      "label": "Anthropic (2026)",
+      "text": "Anthropic. 2026. Introducing Claude Opus 4.6. https://www.anthropic.com/news/claude-opus-4-6 . Published: 2026-02-05.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    {
+      "idx": 6,
+      "label": "Athalye et al .",
+      "text": "Anish Athalye, Nicholas Carlini, and David Wagner. 2018. Obfuscated gradients give a false sense of security: Circumventing defenses to adversarial examples. In International Conference on Machine Learning . 274–283.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Bagdasaryan et al .",
+      "text": "Eugene Bagdasaryan, Tsung-Yin Hsieh, Ben Nassi, and Vitaly Shmatikov. 2023. Abusing images and sounds for indirect instruction injection in multi-modal LLMs. arXiv preprint arXiv:2307.10490 (2023).",
+      "year": 2023,
+      "arxiv_id": "2307.10490",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "Bagdasaryan and Shmatikov (2022)",
+      "text": "Eugene Bagdasaryan and Vitaly Shmatikov. 2022. Spinning Language Models: Risks of Propaganda-As-A-Service and Countermeasures. In 2022 IEEE Symposium on Security and Privacy (SP) . IEEE, 769–786. doi: 10.1109/sp46214.2022.9833572",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1109/sp46214.2022.9833572"
+    },
+    {
+      "idx": 9,
+      "label": "Bailey et al .",
+      "text": "Luke Bailey, Euan Ong, Stuart Russell, and Scott Emmons. 2023. Image hijacks: Adversarial images can control generative models at runtime. arXiv preprint arXiv:2309.00236 (2023).",
+      "year": 2023,
+      "arxiv_id": "2309.00236",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Biggio et al .",
+      "text": "Battista Biggio, Blaine Nelson, and Pavel Laskov. 2012. Poisoning attacks against support vector machines. In Proceedings of the 29th International Conference on Machine Learning (ICML) . 1807–1814. https://arxiv.org/abs/1206.6389",
+      "year": 2012,
+      "arxiv_id": "1206.6389",
+      "url": "https://arxiv.org/abs/1206.6389"
+    },
+    {
+      "idx": 11,
+      "label": "Carlini (2021)",
+      "text": "Nicholas Carlini. 2021. Adversarial Attacks That Matter. Presentation at ICCV Workshop on Adversarial Robustness in the Real World (AROW). https://nicholas.carlini.com/slides/2021_attacks_that_matter.pdf",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": "https://nicholas.carlini.com/slides/2021_attacks_that_matter.pdf"
+    },
+    {
+      "idx": 12,
+      "label": "Carlini et al .",
+      "text": "Nicholas Carlini, Milad Nasr, Christopher A Choquette-Choo, Matthew Jagielski, Irena Gao, Pang Wei W Koh, Daphne Ippolito, Florian Tramèr, and Ludwig Schmidt. 2023. Are aligned neural networks adversarially aligned? Advances in Neural Information Processing Systems 36 (2023), 61478–61500.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Carlini and Wagner (2017)",
+      "text": "Nicholas Carlini and David Wagner. 2017. Adversarial examples are not easily detected: Bypassing ten detection methods. In ACM Workshop on Artificial Intelligence and Security . 3–14.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "Cohen et al .",
+      "text": "Jeremy Cohen, Elan Rosenfeld, and Zico Kolter. 2019. Certified adversarial robustness via randomized smoothing. In International Conference on Machine Learning . 1310–1320.",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Cui et al .",
+      "text": "Xuanming Cui, Alejandro Aparcedo, Young Kyun Jang, and Ser-Nam Lim. 2024. On the robustness of large multimodal models against image adversarial attacks. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition . 24625–24634.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Datta et al .",
+      "text": "Trisha Datta, Binyi Chen, and Dan Boneh. 2025. VerITAS: Verifying image transformations at scale. In 2025 IEEE Symposium on Security and Privacy (SP) . IEEE, 4606–4623.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Deb et al .",
+      "text": "Debayan Deb, Jianbang Zhang, and Anil K Jain. 2020. Advfaces: Adversarial face synthesis. In 2020 IEEE International Joint Conference on Biometrics (IJCB) . IEEE, 1–10.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "DeepMind (2026a)",
+      "text": "Google DeepMind. 2026a. Gemini 3.1 Pro: A smarter model for your most complex tasks. https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/ . Published: 2026-02-19.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+    },
+    {
+      "idx": 19,
+      "label": "DeepMind (2026b)",
+      "text": "Google DeepMind. 2026b. Nano Banana 2: Combining Pro capabilities with lightning-fast speed. https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/ . Published: 2026-02-26.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/"
+    },
+    {
+      "idx": 20,
+      "label": "Della Monica et al .",
+      "text": "Pierpaolo Della Monica, Ivan Visconti, Andrea Vitaletti, and Marco Zecchini. 2025. Trust nobody: Privacy-preserving proofs for edited photos with your laptop. In 2025 IEEE Symposium on Security and Privacy (SP) . IEEE, 4624–4642.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "Engstrom et al .",
+      "text": "Logan Engstrom, Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Brandon Tran, and Aleksander Madry. 2019. Adversarial robustness as a prior for learned representations. arXiv preprint arXiv:1906.00945 (2019).",
+      "year": 2019,
+      "arxiv_id": "1906.00945",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "Eykholt et al .",
+      "text": "Kevin Eykholt, Ivan Evtimov, Earlence Fernandes, Bo Li, Amir Rahmati, Chaowei Xiao, Atul Prakash, Tadayoshi Kohno, and Dawn Song. 2018. Robust physical-world attacks on deep learning visual classification. In Proceedings of the IEEE conference on computer vision and pattern recognition . 1625–1634.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "Goodfellow et al .",
+      "text": "Ian J Goodfellow, Jonathon Shlens, and Christian Szegedy. 2014. Explaining and harnessing adversarial examples. arXiv preprint arXiv:1412.6572 (2014).",
+      "year": 2014,
+      "arxiv_id": "1412.6572",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "Gupta et al .",
+      "text": "Isha Gupta, Rylan Schaeffer, Joshua Kazdan, Ken Ziyu Liu, and Sanmi Koyejo. 2025. Understanding Adversarial Transfer: Why Representation-Space Attacks Fail Where Data-Space Attacks Succeed. arXiv preprint arXiv:2510.01494 (2025).",
+      "year": 2025,
+      "arxiv_id": "2510.01494",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "He et al .",
+      "text": "Hongliang He, Wenlin Yao, Kaixin Ma, Wenhao Yu, Yong Dai, Hongming Zhang, Zhenzhong Lan, and Dong Yu. 2024. WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) . https://arxiv.org/abs/2401.13919",
+      "year": 2401,
+      "arxiv_id": "2401.13919",
+      "url": "https://arxiv.org/abs/2401.13919"
+    },
+    {
+      "idx": 26,
+      "label": "Hosseini et al .",
+      "text": "Hossein Hosseini, Yize Chen, Sreeram Kannan, Baosen Zhang, and Radha Poovendran. 2017. Blocking transferability of adversarial examples in black-box learning systems. arXiv preprint arXiv:1703.04318 (2017).",
+      "year": 2017,
+      "arxiv_id": "1703.04318",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "Hu et al .",
+      "text": "Kai Hu, Weichen Yu, Li Zhang, Alexander Robey, Andy Zou, Chengming Xu, Haoqi Hu, and Matt Fredrikson. 2025. Transferable adversarial attacks on black-box vision-language models. arXiv preprint arXiv:2505.01050 (2025).",
+      "year": 2025,
+      "arxiv_id": "2505.01050",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "Huang et al .",
+      "text": "Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al . A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. ACM Transactions on Information Systems (2024). https://dl.acm.org/doi/10.1145/3703155",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://dl.acm.org/doi/10.1145/3703155"
+    },
+    {
+      "idx": 29,
+      "label": "Ilyas et al .",
+      "text": "Andrew Ilyas, Shibani Santurkar, Dimitris Tsipras, Logan Engstrom, Brandon Tran, and Aleksander Madry. 2019. Adversarial examples are not bugs, they are features. Advances in neural information processing systems 32 (2019).",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "Kumar et al .",
+      "text": "Aounon Kumar, Alexander Levine, Tom Goldstein, and Soheil Feizi. 2023. Rethinking Randomized Smoothing from the Perspective of Scalability. arXiv preprint arXiv:2312.12608 (2023). https://arxiv.org/abs/2312.12608",
+      "year": 2312,
+      "arxiv_id": "2312.12608",
+      "url": "https://arxiv.org/abs/2312.12608"
+    },
+    {
+      "idx": 31,
+      "label": "Laurito et al .",
+      "text": "Walter Laurito et al . AI-AI Bias: Large Language Models Favor Communications Generated by Large Language Models. Proceedings of the National Academy of Sciences 122, 3 (2025). https://www.pnas.org/doi/10.1073/pnas.2415697122",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2415697122"
+    },
+    {
+      "idx": 32,
+      "label": "Li et al .",
+      "text": "Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang, Xin Zhao, and Ji-Rong Wen. 2023. Evaluating object hallucination in large vision-language models. In Proceedings of the 2023 conference on empirical methods in natural language processing . 292–305.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "Li et al .",
+      "text": "Zhaoyi Li, Xiaohan Zhao, Dong-Dong Wu, Jiacheng Cui, and Zhiqiang Shen. 2025. A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1. In The Thirty-ninth Annual Conference on Neural Information Processing Systems . https://openreview.net/forum?id=9xXjWwAoUF",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=9xXjWwAoUF"
+    },
+    {
+      "idx": 34,
+      "label": "Liu et al .",
+      "text": "Yanpei Liu, Xinyun Chen, Chang Liu, and Dawn Song. 2017. Delving into Transferable Adversarial Examples and Black-box Attacks. arXiv:1611.02770 [cs.LG] https://arxiv.org/abs/1611.02770",
+      "year": 2017,
+      "arxiv_id": "1611.02770",
+      "url": "https://arxiv.org/abs/1611.02770"
+    },
+    {
+      "idx": 35,
+      "label": "Madry et al .",
+      "text": "Aleksander Madry, Aleksandar Makelov, Ludwig Schmidt, Dimitris Tsipras, and Adrian Vladu. 2018. Towards deep learning models resistant to adversarial attacks. In International Conference on Learning Representations .",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "Mehrabi et al .",
+      "text": "Ninareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, and Aram Galstyan. 2023. Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, and Mitigation Strategies. Journal of MDPI 6, 1 (2023). https://www.mdpi.com/2413-4155/6/1/3",
+      "year": 2413,
+      "arxiv_id": null,
+      "url": "https://www.mdpi.com/2413-4155/6/1/3"
+    },
+    {
+      "idx": 37,
+      "label": "Meta (2025)",
+      "text": "Meta. 2025. The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation. https://ai.meta.com/blog/llama-4-multimodal-intelligence . Published: 2025-04-05.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence"
+    },
+    {
+      "idx": 38,
+      "label": "Nassi et al .",
+      "text": "Ben Nassi, Yisroel Mirsky, Dudi Nassi, Raz Ben-Netanel, Oleg Drokin, and Yuval Elovici. 2020. Phantom of the adas: Securing advanced driver-assistance systems from split-second phantom attacks. In Proceedings of the 2020 ACM SIGSAC conference on computer and communications security . 293–308.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "Naveh and Tromer (2016)",
+      "text": "Assa Naveh and Eran Tromer. 2016. Photoproof: Cryptographic image authentication for any set of permissible transformations. In 2016 IEEE Symposium on Security and Privacy (SP) . IEEE, 255–271.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "Olsson (2019)",
+      "text": "Catherine Olsson. 2019. Unsolved Research Problems vs. Real-World Threat Models. Medium. https://medium.com/@catherio/unsolved-research-problems-vs-real-world-threat-models-e270e256bc9e",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": "https://medium.com/@catherio/unsolved-research-problems-vs-real-world-threat-models-e270e256bc9e"
+    },
+    {
+      "idx": 41,
+      "label": "OpenAI (2025a)",
+      "text": "OpenAI. 2025a. Introducing ChatGPT Atlas. OpenAI Blog. https://openai.com/index/introducing-chatgpt-atlas/ Published: 2025-10-21.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-chatgpt-atlas/"
+    },
+    {
+      "idx": 42,
+      "label": "OpenAI (2025b)",
+      "text": "OpenAI. 2025b. Introducing Operator. OpenAI Blog. https://openai.com/index/introducing-operator/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-operator/"
+    },
+    {
+      "idx": 43,
+      "label": "OpenAI (2026a)",
+      "text": "OpenAI. 2026a. Introducing ChatGPT Images 2.0. OpenAI Blog. https://openai.com/index/introducing-chatgpt-images-2-0/ Published: 2026-04-21.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/"
+    },
+    {
+      "idx": 44,
+      "label": "OpenAI (2026b)",
+      "text": "OpenAI. 2026b. Introducing GPT-5.4. OpenAI Blog. https://openai.com/index/introducing-gpt-5-4/ Published: 2026-03-05.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-gpt-5-4/"
+    },
+    {
+      "idx": 45,
+      "label": "Papernot et al .",
+      "text": "Nicolas Papernot, Patrick McDaniel, and Ian Goodfellow. 2016. Transferability in machine learning: from phenomena to black-box attacks using adversarial samples. arXiv preprint arXiv:1605.07277 (2016).",
+      "year": 2016,
+      "arxiv_id": "1605.07277",
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "Perez et al .",
+      "text": "Ethan Perez, Saffron Huang, Francis Song, Trevor Cai, Roman Ring, John Aslanides, Amelia Glaese, Nat McAleese, and Geoffrey Irving. 2022. Red teaming language models with language models. arXiv preprint arXiv:2202.03286 (2022).",
+      "year": 2022,
+      "arxiv_id": "2202.03286",
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "Prokos et al .",
+      "text": "Jonathan Prokos, Neil Fendley, Matthew Green, Roei Schuster, Eran Tromer, Tushar Jois, and Yinzhi Cao. 2023. Squint hard enough: Attacking perceptual hashing with adversarial machine learning. In 32nd USENIX Security Symposium (USENIX Security 23) . 211–228.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "Qi et al .",
+      "text": "Xiangyu Qi, Kaixuan Huang, Ashwinee Panda, Peter Henderson, Mengdi Wang, and Prateek Mittal. 2024. Visual adversarial examples jailbreak aligned large language models. In Proceedings of the AAAI conference on artificial intelligence , Vol. 38. 21527–21536.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "Qwen (2026)",
+      "text": "Qwen. 2026. Qwen3.6-Plus: Towards Real World Agents. https://qwen.ai/blog?id=qwen3.6 . Published: 2026-04-01.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://qwen.ai/blog?id=qwen3.6"
+    },
+    {
+      "idx": 50,
+      "label": "Rando et al .",
+      "text": "Javier Rando, Hannah Korevaar, Erik Brinkman, Ivan Evtimov, and Florian Tramèr. 2024. Gradient-based jailbreak images for multimodal fusion models. arXiv preprint arXiv:2410.03489 (2024).",
+      "year": 2024,
+      "arxiv_id": "2410.03489",
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "Schaeffer et al .",
+      "text": "Rylan Schaeffer, Dan Valentine, Luke Bailey, James Chua, Cristobal Eyzaguirre, Zane Durante, Joe Benton, Brando Miranda, Henry Sleight, John Hughes, et al . Failures to find transferable image jailbreaks between vision-language models. arXiv preprint arXiv:2407.15211 (2024).",
+      "year": 2024,
+      "arxiv_id": "2407.15211",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "Sharif et al .",
+      "text": "Mahmood Sharif, Sruti Bhagavatula, Lujo Bauer, and Michael K Reiter. 2016. Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition. In Proceedings of the 2016 acm sigsac conference on computer and communications security . 1528–1540.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "Shayegani et al .",
+      "text": "Erfan Shayegani, Yue Dong, and Nael Abu-Ghazaleh. 2024. Jailbreak in Pieces: Compositional Adversarial Attacks on Multi-Modal Language Models. In International Conference on Learning Representations (ICLR) . https://openreview.net/forum?id=plmBsXHxgR",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=plmBsXHxgR"
+    },
+    {
+      "idx": 54,
+      "label": "Szegedy et al .",
+      "text": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, and Rob Fergus. 2014. Intriguing properties of neural networks. In International Conference on Learning Representations (ICLR) . https://arxiv.org/abs/1312.6199",
+      "year": 2014,
+      "arxiv_id": "1312.6199",
+      "url": "https://arxiv.org/abs/1312.6199"
+    },
+    {
+      "idx": 55,
+      "label": "Times (2026)",
+      "text": "New York Times. 2026. Musk’s Chatbot Flooded X With Millions of Sexualized Images in Days, New Estimates Show. https://www.nytimes.com/2026/01/22/technology/grok-x-ai-elon-musk-deepfakes.html .",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://www.nytimes.com/2026/01/22/technology/grok-x-ai-elon-musk-deepfakes.html"
+    },
+    {
+      "idx": 56,
+      "label": "Tramèr (2021)",
+      "text": "Florian Tramèr. 2021. Does Adversarial Machine Learning Research Matter?. In KDD Workshop on Adversarial Machine Learning (AdvML) . Virtual. Invited talk.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "Tramèr et al .",
+      "text": "Florian Tramèr, Nicholas Carlini, Wieland Brendel, and Aleksander Madry. 2020. On adaptive attacks to adversarial example defenses. In Advances in Neural Information Processing Systems , Vol. 33. 1633–1645.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "Tsipras et al .",
+      "text": "Dimitris Tsipras, Shibani Santurkar, Logan Engstrom, Alexander Turner, and Aleksander Madry. 2019. Robustness May Be at Odds with Accuracy. In International Conference on Learning Representations (ICLR) . https://openreview.net/forum?id=SyxAb30cY7",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=SyxAb30cY7"
+    },
+    {
+      "idx": 59,
+      "label": "Wei et al .",
+      "text": "Alexander Wei, Nika Haghtalab, and Jacob Steinhardt. 2023. Jailbroken: How does llm safety training fail? Advances in neural information processing systems 36 (2023), 80079–80110.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "Willison (2022)",
+      "text": "Simon Willison. 2022. Prompt Injection Attacks Against GPT-3. https://simonwillison.net/2022/Sep/12/prompt-injection/ . Accessed: 2024-XX-XX.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/"
+    },
+    {
+      "idx": 61,
+      "label": "xAI (2024)",
+      "text": "xAI. 2024. Grok: AI assistant with vision capabilities. https://x.ai/grok . Accessed: 2025-01-26.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://x.ai/grok"
+    },
+    {
+      "idx": 62,
+      "label": "xAI (2026)",
+      "text": "xAI. 2026. Grok 4.20. https://docs.x.ai/developers/models . Published: 2026-02-17.",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://docs.x.ai/developers/models"
+    },
+    {
+      "idx": 63,
+      "label": "Xie et al .",
+      "text": "Cihang Xie, Zhishuai Zhang, Yuyin Zhou, Song Bai, Jianyu Wang, Zhou Ren, and Alan L Yuille. 2019. Improving transferability of adversarial examples with input diversity. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition . 2730–2739.",
+      "year": 2739,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "Yang et al .",
+      "text": "Greg Yang, Tony Duchi, Tony Morales, and Chelsea Finn. 2020. Randomized Smoothing of All Shapes and Sizes. In International Conference on Machine Learning (ICML) . https://arxiv.org/abs/2002.08118 Shows randomized smoothing cannot achieve nontrivial certified accuracy at large radii using only label statistics.",
+      "year": 2002,
+      "arxiv_id": "2002.08118",
+      "url": "https://arxiv.org/abs/2002.08118"
+    },
+    {
+      "idx": 65,
+      "label": "Yang et al .",
+      "text": "Yuzhe Yang, Yujia Liu, Xin Liu, Avanti Gulhane, Domenico Mastrodicasa, Wei Wu, Edward J Wang, Dushyant Sahani, and Shwetak Patel. 2025. Demographic bias of expert-level vision-language foundation models in medical imaging. Science Advances 11, 13 (2025), eadq0305.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "Ying et al .",
+      "text": "Zonghao Ying, Aishan Dong, Hongru Huang, Yingwei Zhao, Zhengwei Zhang, and Alex C Liu. 2024. Jailbreak Vision Language Models via Bi-Modal Adversarial Prompt. arXiv preprint arXiv:2406.04031 (2024). https://arxiv.org/abs/2406.04031",
+      "year": 2406,
+      "arxiv_id": "2406.04031",
+      "url": "https://arxiv.org/abs/2406.04031"
+    },
+    {
+      "idx": 67,
+      "label": "Zhang et al .",
+      "text": "Hongyang Zhang, Yaodong Yu, Jiantao Jiao, Eric Xing, Laurent El Ghaoui, and Michael I. Jordan. 2019. Theoretically Principled Trade-off between Robustness and Accuracy. In International Conference on Machine Learning (ICML) . 7472–7482. https://arxiv.org/abs/1901.08573",
+      "year": 1901,
+      "arxiv_id": "1901.08573",
+      "url": "https://arxiv.org/abs/1901.08573"
+    },
+    {
+      "idx": 68,
+      "label": "Zhang et al .",
+      "text": "Jiaming Zhang, Junhong Ye, Xingjun Ma, Yige Li, Yunfan Yang, Yunhao Chen, Jitao Sang, and Dit-Yan Yeung. 2025. AnyAttack: Towards Large-scale Self-supervised Adversarial Attacks on Vision-language Models. In Proceedings of the Computer Vision and Pattern Recognition Conference . 19900–19909.",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "Zhao et al .",
+      "text": "Zhengyu Zhao, Zhuoran Liu, and Martha Larson. 2020. Towards large yet imperceptible adversarial image perturbations with perceptual color distance. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition . 1039–1048.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "Zou et al .",
+      "text": "Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J Zico Kolter, and Matt Fredrikson. 2023. Universal and transferable adversarial attacks on aligned language models. arXiv preprint arXiv:2307.15043 (2023).",
+      "year": 2023,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

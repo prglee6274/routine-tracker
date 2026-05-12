@@ -4,13 +4,13 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-12",
-      "days_on_list": 1,
-      "last_stars": 71846,
+      "last_seen": "2026-05-13",
+      "days_on_list": 2,
+      "last_stars": 75594,
       "category": "tools",
       "language": "Shell",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-12T07:36:19Z"
     },
     "TauricResearch/TradingAgents": {
       "first_seen": "2026-05-08",
@@ -54,13 +54,13 @@
     },
     "farion1231/cc-switch": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-12",
-      "days_on_list": 1,
-      "last_stars": 67219,
+      "last_seen": "2026-05-13",
+      "days_on_list": 2,
+      "last_stars": 68569,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-04-23T00:00:00Z"
+      "last_pushed_at": "2026-05-11T07:49:36Z"
     },
     "VectifyAI/PageIndex": {
       "first_seen": "2026-05-08",
@@ -204,23 +204,23 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
-      "days_on_list": 2,
-      "last_stars": 144443,
+      "last_seen": "2026-05-13",
+      "days_on_list": 3,
+      "last_stars": 146626,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-05-07T00:00:00Z"
+      "last_pushed_at": "2026-05-12T18:59:31Z"
     },
     "CloakHQ/CloakBrowser": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
-      "days_on_list": 2,
-      "last_stars": 5895,
+      "last_seen": "2026-05-13",
+      "days_on_list": 3,
+      "last_stars": 7512,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-04-28T00:00:00Z"
+      "last_pushed_at": "2026-05-12T13:53:31Z"
     },
     "microsoft/waza": {
       "first_seen": "2026-05-11",
@@ -234,23 +234,23 @@
     },
     "domcyrus/rustnet": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
       "days_on_list": 1,
-      "last_stars": 2702,
+      "last_stars": 3080,
       "category": "security",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-11T08:28:45Z"
     },
     "millionco/react-doctor": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
-      "days_on_list": 2,
-      "last_stars": 7904,
+      "last_seen": "2026-05-13",
+      "days_on_list": 3,
+      "last_stars": 8653,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-12T04:29:34Z"
     },
     "moonD4rk/HackBrowserData": {
       "first_seen": "2026-05-11",
@@ -271,6 +271,46 @@
       "language": "TypeScript",
       "graduated": false,
       "last_pushed_at": "2026-05-11T00:00:00Z"
+    },
+    "rohitg00/agentmemory": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 5657,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T15:24:59Z"
+    },
+    "tinyhumansai/openhuman": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 2448,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T18:53:33Z"
+    },
+    "decolua/9router": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 9257,
+      "category": "llm",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T13:26:08Z"
+    },
+    "apernet/hysteria": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 20137,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-10T17:13:49Z"
     }
   }
 }

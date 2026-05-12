@@ -1,0 +1,176 @@
+{
+  "arxiv_id": "2605.07630",
+  "source": "https://arxiv.org/html/2605.07630v1",
+  "fetched_at": "2026-05-12",
+  "count": 21,
+  "references": [
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Agentharm: a benchmark for measuring harmfulness of llm agents In International Conference on Learning Representations Vol. 2025",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Developing a computer use model Note: Blog post External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/research/developing-computer-use"
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "System card: claude opus 4.6 Note: System card External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www-cdn.anthropic.com/0dd865075ad3132672ee0ab40b05a53f14cf5288.pdf"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "GhostEI-bench: do mobile agents resilience to environmental injection in dynamic on-device environments? arXiv preprint arXiv:2510.20333",
+      "year": 2510,
+      "arxiv_id": "2510.20333",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Agentdojo: a dynamic environment to evaluate prompt injection attacks and defenses for llm agents Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Mobilesafetybench: evaluating safety of autonomous agents in mobile device control In Proceedings of the AAAI Conference on Artificial Intelligence Vol. 40",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Autoglm: autonomous foundation agents for guis arXiv preprint arXiv:2411.00820",
+      "year": 2411,
+      "arxiv_id": "2411.00820",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Zero-permission manipulation: can we trust large multimodal model powered gui agents? arXiv preprint arXiv:2601.12349",
+      "year": 2601,
+      "arxiv_id": "2601.12349",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Ui-tars: pioneering automated gui interaction with native agents arXiv preprint arXiv:2501.12326",
+      "year": 2501,
+      "arxiv_id": "2501.12326",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Androidworld: a dynamic benchmarking environment for autonomous agents arXiv preprint arXiv:2405.14573",
+      "year": 2405,
+      "arxiv_id": "2405.14573",
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Seed2. 0 model card: towards intelligence frontier for real-world complexity Technical report Technical report, Bytedance, 2025. URL https://lf3-static. bytednsdoc. com …",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Towards trustworthy GUI agents: A survey CoRR External Links: Link , Document , 2503.23434",
+      "year": 2503,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2503.23434"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "GELab-zero: an advanced mobile agent inference system External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/stepfun-ai/gelab-zero"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Gemini: A family of highly capable multimodal models CoRR External Links: Link , Document , 2312.11805",
+      "year": 2312,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.48550/arXiv.2312.11805"
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Kimi k2. 5: visual agentic intelligence arXiv preprint arXiv:2602.02276",
+      "year": 2602,
+      "arxiv_id": "2602.02276",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Openagentsafety: a comprehensive framework for evaluating real-world ai agent safety arXiv preprint arXiv:2507.06134",
+      "year": 2507,
+      "arxiv_id": "2507.06134",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "GUIGuard: toward a general framework for privacy-preserving gui agents arXiv preprint arXiv:2601.18842",
+      "year": 2601,
+      "arxiv_id": "2601.18842",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "OSWorld: benchmarking multimodal agents for open-ended tasks in real computer environments In Advances in Neural Information Processing Systems 38: Annual Conference on Neural Information Processing Systems 2024, NeurIPS 2024, Vancouver, BC, Canada, December 10 - 15, 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "http://papers.nips.cc/paper%5C_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract-Datasets%5C_and%5C_Benchmarks%5C_Track.html"
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Mobile-agent-v3. 5: multi-platform fundamental gui agents arXiv preprint arXiv:2602.16855",
+      "year": 2602,
+      "arxiv_id": "2602.16855",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Riosworld: benchmarking the risk of multimodal computer-use agents arXiv preprint arXiv:2506.00618",
+      "year": 2506,
+      "arxiv_id": "2506.00618",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "MAI-ui technical report: real-world centric foundation gui agents arXiv preprint arXiv:2512.22047",
+      "year": 2512,
+      "arxiv_id": "2512.22047",
+      "url": null
+    }
+  ]
+}

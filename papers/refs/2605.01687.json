@@ -1,0 +1,584 @@
+{
+  "arxiv_id": "2605.01687",
+  "source": "https://arxiv.org/html/2605.01687v1",
+  "fetched_at": "2026-05-12",
+  "count": 72,
+  "references": [
+    {
+      "idx": 35,
+      "label": "",
+      "text": "The multilingual alignment prism: aligning global and local preferences to reduce harm External Links: 2406.18682",
+      "year": 2406,
+      "arxiv_id": "2406.18682",
+      "url": "https://arxiv.org/abs/2406.18682"
+    },
+    {
+      "idx": 75,
+      "label": "",
+      "text": "Gpt-oss-120b & gpt-oss-20b model card arXiv preprint arXiv:2508.10925",
+      "year": 2508,
+      "arxiv_id": "2508.10925",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Yi: open foundation models by 01.ai External Links: 2403.04652",
+      "year": 2403,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "Introducing the next generation of claude Note: Introduction to Claude3 model family External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Threat intelligence report: august 2025 Technical report Anthropic Note: Technical report External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf"
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Red-teaming large language models using chain of utterances for safety-alignment arXiv preprint arXiv:2308.09662",
+      "year": 2308,
+      "arxiv_id": "2308.09662",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "SafeDialBench: a fine-grained safety benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks arXiv preprint arXiv:2502.11090",
+      "year": 2502,
+      "arxiv_id": "2502.11090",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Jailbreakbench: an open robustness benchmark for jailbreaking large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Gemini 2.5: pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities arXiv preprint arXiv:2507.06261",
+      "year": 2507,
+      "arxiv_id": "2507.06261",
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "DeepSeek-r1: incentivizing reasoning capability in llms via reinforcement learning External Links: 2501.12948",
+      "year": 2501,
+      "arxiv_id": "2501.12948",
+      "url": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "On statistical bias in active learning: how and when to fix it arXiv preprint arXiv:2101.11665",
+      "year": 2101,
+      "arxiv_id": "2101.11665",
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "SEMA: simple yet effective learning for multi-turn jailbreak attacks In International Conference on Learning Representations (ICLR) External Links: 2602.06854",
+      "year": 2602,
+      "arxiv_id": "2602.06854",
+      "url": "https://arxiv.org/abs/2602.06854"
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "Statistical estimation of adversarial risk in large language models under best-of-n sampling External Links: 2601.22636",
+      "year": 2601,
+      "arxiv_id": "2601.22636",
+      "url": "https://arxiv.org/abs/2601.22636"
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Bias and fairness in large language models: a survey External Links: 2309.00770",
+      "year": 2309,
+      "arxiv_id": "2309.00770",
+      "url": "https://arxiv.org/abs/2309.00770"
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Gemini 1.5: unlocking multimodal understanding across millions of tokens of context External Links: 2403.05530",
+      "year": 2403,
+      "arxiv_id": "2403.05530",
+      "url": "https://arxiv.org/abs/2403.05530"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Prompt-response semantic divergence metrics for faithfulness hallucination and misalignment detection in large language models External Links: 2508.10192",
+      "year": 2508,
+      "arxiv_id": "2508.10192",
+      "url": "https://arxiv.org/abs/2508.10192"
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "A repository of conversational datasets arXiv preprint arXiv:1904.06472",
+      "year": 1904,
+      "arxiv_id": "1904.06472",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Lora: low-rank adaptation of large language models. ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "Steering dialogue dynamics for robustness against multi-turn jailbreaking attacks arXiv preprint arXiv:2503.00187",
+      "year": 2503,
+      "arxiv_id": "2503.00187",
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "GuidedBench: measuring and mitigating the evaluation discrepancies of in-the-wild llm jailbreak methods External Links: 2502.16903",
+      "year": 2502,
+      "arxiv_id": "2502.16903",
+      "url": "https://arxiv.org/abs/2502.16903"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Catastrophic jailbreak of open-source llms via exploiting generation arXiv preprint arXiv:2310.06987",
+      "year": 2310,
+      "arxiv_id": "2310.06987",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Best-of-n jailbreaking arXiv preprint arXiv:2412.03556",
+      "year": 2412,
+      "arxiv_id": "2412.03556",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Gpt-4o system card arXiv preprint arXiv:2410.21276",
+      "year": 2410,
+      "arxiv_id": "2410.21276",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Mistral 7b External Links: 2310.06825",
+      "year": 2310,
+      "arxiv_id": "2310.06825",
+      "url": "https://arxiv.org/abs/2310.06825"
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "SOSBENCH: benchmarking safety alignment on scientific knowledge arXiv preprint arXiv:2505.21605",
+      "year": 2505,
+      "arxiv_id": "2505.21605",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Safechain: safety of language models with long chain-of-thought reasoning capabilities arXiv preprint arXiv:2502.12025",
+      "year": 2502,
+      "arxiv_id": "2502.12025",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Red queen: safeguarding large language models against concealed multi-turn jailbreaking arXiv preprint arXiv:2409.17458",
+      "year": 2409,
+      "arxiv_id": "2409.17458",
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "A coefficient of agreement for nominal scale Educ Psychol Meas",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "A survey on deep active learning: recent advances and new frontiers IEEE Transactions on Neural Networks and Learning Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Llm defenses are not robust to multi-turn human jailbreaks yet arXiv preprint arXiv:2408.15221",
+      "year": 2408,
+      "arxiv_id": "2408.15221",
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "CleanGen: mitigating backdoor attacks for generation tasks in large language models External Links: 2406.12257",
+      "year": 2406,
+      "arxiv_id": "2406.12257",
+      "url": "https://arxiv.org/abs/2406.12257"
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "FlipAttack: jailbreak llms via flipping External Links: 2410.02832",
+      "year": 2410,
+      "arxiv_id": "2410.02832",
+      "url": "https://arxiv.org/abs/2410.02832"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "The llama 3 herd of models External Links: 2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "Jailbreak detection dataset HuggingFace External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://huggingface.co/datasets/llm-semantic-router/jailbreak-detection-dataset"
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "X-boundary: establishing exact safety boundary to shield llms from multi-turn jailbreaks without compromising usability arXiv preprint arXiv:2502.09990",
+      "year": 2502,
+      "arxiv_id": "2502.09990",
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Systematic bias in large language models: discrepant response patterns in binary vs. continuous judgment tasks External Links: 2504.19445",
+      "year": 2504,
+      "arxiv_id": "2504.19445",
+      "url": "https://arxiv.org/abs/2504.19445"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Jailbreakv: a benchmark for assessing the robustness of multimodal large language models against jailbreak attacks arXiv preprint arXiv:2404.03027",
+      "year": 2404,
+      "arxiv_id": "2404.03027",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Harmbench: a standardized evaluation framework for automated red teaming and robust refusal arXiv preprint arXiv:2402.04249",
+      "year": 2402,
+      "arxiv_id": "2402.04249",
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "GPT-4 technical report External Links: 2303.08774",
+      "year": 2303,
+      "arxiv_id": "2303.08774",
+      "url": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "GPT-3.5 turbo Note: https://platform.openai.com/docs/models/gpt-3-5 Accessed: 2025-09-24",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://platform.openai.com/docs/models/gpt-3-5"
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "GPT-5 system card Note: System card describing GPT-5 architecture, routing, and safety design External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/gpt-5-system-card/"
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Gpt-oss-120b & gpt-oss-20b model card External Links: 2508.10925",
+      "year": 2508,
+      "arxiv_id": "2508.10925",
+      "url": "https://arxiv.org/abs/2508.10925"
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Introducing GPT-4.1 Note: Accessed: 2025-09-20 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/gpt-4-1/"
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Model specification: disallowed content Note: Accessed: 2025-09-15 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://model-spec.openai.com/2025-02-12.html#disallowed_content"
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Safety alignment should be made more than just a few tokens deep arXiv preprint arXiv:2406.05946",
+      "year": 2406,
+      "arxiv_id": "2406.05946",
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Fine-tuning aligned language models compromises safety, even when users do not intend to! arXiv preprint arXiv:2310.03693",
+      "year": 2310,
+      "arxiv_id": "2310.03693",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Latent jailbreak: a benchmark for evaluating text safety and output robustness of large language models arXiv preprint arXiv:2307.08487",
+      "year": 2307,
+      "arxiv_id": "2307.08487",
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Qwen2.5 technical report External Links: 2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Qwen3 technical report External Links: 2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": "https://arxiv.org/abs/2505.09388"
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "X-teaming: multi-turn jailbreaks and defenses with adaptive multi-agents arXiv preprint arXiv:2504.13203",
+      "year": 2504,
+      "arxiv_id": "2504.13203",
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "LLMs know their vulnerabilities: uncover safety gaps through natural distribution shifts External Links: 2410.10700",
+      "year": 2410,
+      "arxiv_id": "2410.10700",
+      "url": "https://arxiv.org/abs/2410.10700"
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "LLMs know their vulnerabilities: uncover safety gaps through natural distribution shifts External Links: 2410.10700",
+      "year": 2410,
+      "arxiv_id": "2410.10700",
+      "url": "https://arxiv.org/abs/2410.10700"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Great, now write an article about that: the crescendo { \\{ multi-turn } \\} { \\{ llm } \\} jailbreak attack In 34th USENIX Security Symposium (USENIX Security 25) pp. 2421–2440",
+      "year": 2440,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Prompt engineering or fine-tuning: an empirical assessment of llms for code External Links: 2310.10508",
+      "year": 2310,
+      "arxiv_id": "2310.10508",
+      "url": "https://arxiv.org/abs/2310.10508"
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "A strongreject for empty jailbreaks External Links: 2402.10260",
+      "year": 2402,
+      "arxiv_id": "2402.10260",
+      "url": "https://arxiv.org/abs/2402.10260"
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "Iterative self-tuning llms for enhanced jailbreaking capabilities In Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) pp. 5768–5786",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Active learning helps pretrained models learn the intended task Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "Neural cleanse: identifying and mitigating backdoor attacks in neural networks In 2019 IEEE symposium on security and privacy (SP) pp. 707–723",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Mrj-agent: an effective jailbreak agent for multi-round dialogue arXiv preprint arXiv:2411.03814",
+      "year": 2411,
+      "arxiv_id": "2411.03814",
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Self-taught evaluators arXiv preprint arXiv:2408.02666",
+      "year": 2408,
+      "arxiv_id": "2408.02666",
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Do-not-answer: a dataset for evaluating safeguards in llms arXiv preprint arXiv:2308.13387",
+      "year": 2308,
+      "arxiv_id": "2308.13387",
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "From selection to generation: a survey of llm-based active learning External Links: 2502.11767",
+      "year": 2502,
+      "arxiv_id": "2502.11767",
+      "url": "https://arxiv.org/abs/2502.11767"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Sorry-bench: systematically evaluating large language model safety refusal arXiv preprint arXiv:2406.14598",
+      "year": 2406,
+      "arxiv_id": "2406.14598",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Bag of tricks: benchmarking of jailbreak attacks on llms Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Jigsaw puzzles: splitting harmful questions to jailbreak large language models arXiv preprint arXiv:2410.11459",
+      "year": 2410,
+      "arxiv_id": "2410.11459",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Cosafe: evaluating large language model safety in multi-turn dialogue coreference arXiv preprint arXiv:2406.17626",
+      "year": 2406,
+      "arxiv_id": "2406.17626",
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "LLMaAA: making large language models as active annotators External Links: 2310.19596",
+      "year": 2310,
+      "arxiv_id": "2310.19596",
+      "url": "https://arxiv.org/abs/2310.19596"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Qwen3 embedding: advancing text embedding and reranking through foundation models arXiv preprint arXiv:2506.05176",
+      "year": 2506,
+      "arxiv_id": "2506.05176",
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "Qwen3Guard technical report arXiv preprint arXiv:2510.14276",
+      "year": 2510,
+      "arxiv_id": "2510.14276",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Judging llm-as-a-judge with mt-bench and chatbot arena Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    }
+  ]
+}

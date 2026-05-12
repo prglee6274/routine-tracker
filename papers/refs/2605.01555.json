@@ -1,0 +1,328 @@
+{
+  "arxiv_id": "2605.01555",
+  "source": "https://arxiv.org/html/2605.01555v1",
+  "fetched_at": "2026-05-12",
+  "count": 40,
+  "references": [
+    {
+      "idx": 32,
+      "label": "",
+      "text": "An autonomous ai agent for universal behavior analysis bioRxiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Language model circuits are sparse in the neuron basis arXiv preprint arXiv:2601.22594",
+      "year": 2601,
+      "arxiv_id": "2601.22594",
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "Explainability of large language models: opportunities and challenges toward generating trustworthy explanations arXiv preprint arXiv:2510.17256",
+      "year": 2510,
+      "arxiv_id": "2510.17256",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Open problems in machine unlearning for ai safety arXiv preprint arXiv:2501.04952",
+      "year": 2501,
+      "arxiv_id": "2501.04952",
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Automated interpretability-driven model auditing and control: a research agenda External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf"
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Controlling the false discovery rate: a practical and powerful approach to multiple testing Journal of the Royal statistical society: series B (Methodological)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Language models can explain neurons in language models OpenAI Blog",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "SAELens Note: https://github.com/decoderesearch/SAELens",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/decoderesearch/SAELens"
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Towards monosemanticity: decomposing language models with dictionary learning Transformer Circuits Thread",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "OpenMAIA: a multimodal automated interpretability agent based on open-source models In Mechanistic Interpretability Workshop at NeurIPS 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=KitDRi76It"
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Causal scrubbing: a method for rigorously testing interpretability hypotheses In AI Alignment Forum Vol. 2",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Towards automated circuit discovery for mechanistic interpretability Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Sparse autoencoders find highly interpretable features in language models arXiv preprint arXiv:2309.08600",
+      "year": 2309,
+      "arxiv_id": "2309.08600",
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "A mathematical framework for transformer circuits Transformer Circuits Thread Note: https://transformer-circuits.pub/2021/framework/index.html",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "A primer on the inner workings of transformer-based language models arXiv preprint arXiv:2405.00208",
+      "year": 2405,
+      "arxiv_id": "2405.00208",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Scaling and evaluating sparse autoencoders arXiv preprint arXiv:2406.04093",
+      "year": 2406,
+      "arxiv_id": "2406.04093",
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "Weight-sparse transformers have interpretable circuits arXiv preprint arXiv:2511.13653",
+      "year": 2511,
+      "arxiv_id": "2511.13653",
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Spike sorting ai agent bioRxiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Spatial transcriptomics ai agent charts hpsc-pancreas maturation in vivo bioRxiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Tool-to-agent retrieval: bridging tools and agents for scalable llm multi-agent systems arXiv preprint arXiv:2511.01854",
+      "year": 2511,
+      "arxiv_id": "2511.01854",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "On a test of whether one of two random variables is stochastically larger than the other The annals of mathematical statistics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "An ai agent for cell-type specific brain computer interfaces bioRxiv",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Sparse feature circuits: discovering and editing interpretable causal graphs in language models arXiv preprint arXiv:2403.19647",
+      "year": 2403,
+      "arxiv_id": "2403.19647",
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Locating and editing factual associations in gpt Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "TransformerLens Note: https://github.com/TransformerLensOrg/TransformerLens",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/TransformerLensOrg/TransformerLens"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "In-context learning and induction heads arXiv preprint arXiv:2209.11895",
+      "year": 2209,
+      "arxiv_id": "2209.11895",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Automatically interpreting millions of features in large language models In Forty-second International Conference on Machine Learning External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=EemtbhJOXc"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "LIII. on lines and planes of closest fit to systems of points in space The London, Edinburgh, and Dublin philosophical magazine and journal of science",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "A practical review of mechanistic interpretability for transformer-based language models arXiv preprint arXiv:2407.02646",
+      "year": 2407,
+      "arxiv_id": "2407.02646",
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Improving dictionary learning with gated sparse autoencoders arXiv preprint arXiv:2404.16014",
+      "year": 2404,
+      "arxiv_id": "2404.16014",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "A multimodal automated interpretability agent In Forty-first International Conference on Machine Learning External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=mDw42ZanmE"
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "The virtual lab of ai agents designs new sars-cov-2 nanobodies Nature",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "Gemma 2: improving open language models at a practical size arXiv preprint arXiv:2408.00118",
+      "year": 2408,
+      "arxiv_id": "2408.00118",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "From louvain to leiden: guaranteeing well-connected communities Scientific reports",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Steering language models with activation engineering External Links: 2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": "https://arxiv.org/abs/2308.10248"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Interpretability in the wild: a circuit for indirect object identification in gpt-2 small arXiv preprint arXiv:2211.00593",
+      "year": 2211,
+      "arxiv_id": "2211.00593",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Individual comparisons by ranking methods In Breakthroughs in statistics: Methodology and distribution pp. 196–202",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Autogen: enabling next-gen llm applications via multi-agent conversations In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "A multimodal robotic platform for multi-element electrocatalyst discovery Nature",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Representation engineering: a top-down approach to ai transparency arXiv preprint arXiv:2310.01405",
+      "year": 2310,
+      "arxiv_id": "2310.01405",
+      "url": null
+    }
+  ]
+}

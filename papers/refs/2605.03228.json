@@ -1,0 +1,712 @@
+{
+  "arxiv_id": "2605.03228",
+  "source": "https://arxiv.org/html/2605.03228v1",
+  "fetched_at": "2026-05-12",
+  "count": 88,
+  "references": [
+    {
+      "idx": 90,
+      "label": "",
+      "text": "IPIGuard: a novel tool dependency graph-based defense against indirect prompt injection in LLM agents In Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Many-shot jailbreaking In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Technical report: evaluating goal drift in language model agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "SoK: shining light on shadow stacks In Proceedings of IEEE Symposium on Security and Privacy (S&P)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "ChatInject: abusing chat templates for prompt injection in llm agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Jailbreaking Black Box Large Language Models in Twenty Queries ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 78,
+      "label": "",
+      "text": "StruQ: defending against prompt injection with structured queries In Proceedings of USENIX Security Symposium (SEC)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "Defending against prompt injection with a few defensive tokens ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "",
+      "text": "SecAlign: defending against prompt injection with preference optimization In Proceedings of ACM SAC Conference on Computer and Communications (CCS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "AgentPoison: red-teaming llm agents via poisoning memory or knowledge bases In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Mem0: building production-ready ai agents with scalable long-term memory ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 92,
+      "label": "",
+      "text": "Securing AI agents with information-flow control ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 66,
+      "label": "",
+      "text": "AgentDojo: a dynamic environment to evaluate prompt injection attacks and defenses for LLM agents In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Memory Injection Attacks on LLM Agents via Query-Only Interaction In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 120,
+      "label": "",
+      "text": "GPU-accelerated robust graph neural networks against adversarial cyber attacks In Proceedings of International Conference on Digital Management and Information Technology (DMIT)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "RedCode: risky code execution and generation benchmark for code agents In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "MTSA: Multi-turn Safety Alignment for LLMs through Multi-round Red-teaming In Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "Defending against indirect prompt injection attacks with spotlighting ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 95,
+      "label": "",
+      "text": "Memory in the age of AI agents: a survey ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Attention-Aware GNN-based Input Defense against Multi-Turn LLM Jailbreak ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 119,
+      "label": "",
+      "text": "Reason-to-rank: distilling direct and comparative reasoning from large language models for document reranking In Proceedings of ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 118,
+      "label": "",
+      "text": "Retrieval–reasoning processes for multi-hop question answering: a four-axis design framework and empirical trends ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 94,
+      "label": "",
+      "text": "Taxonomy, evaluation and exploitation of IPI-centric LLM agent defense frameworks ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 86,
+      "label": "",
+      "text": "PromptLocate: localizing prompt injection attacks ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "AgentLAB: benchmarking LLM agents against long-horizon attacks ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 112,
+      "label": "",
+      "text": "RobustKV: defending large language models against jailbreak attacks via kv eviction ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 114,
+      "label": "",
+      "text": "Agentic ai as a cybersecurity attack surface: threats, exploits, and defenses in runtime supply chains ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 87,
+      "label": "",
+      "text": "Mitigating indirect prompt injection via instruction-following intent analysis ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "SHADE-Arena: Evaluating Sabotage and Monitoring in LLM Agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 106,
+      "label": "",
+      "text": "LLMs get lost in multi-turn conversation In Proceedings of International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "STAC: When Innocent Tools Form Dangerous Chains to Jailbreak LLM Agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 123,
+      "label": "",
+      "text": "MMT-ard: multimodal multi-teacher adversarial distillation for robust vision-language models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 122,
+      "label": "",
+      "text": "Efficient medical image segmentation via reinforcement learning-driven k-space sampling IEEE Transactions on Emerging Topics in Computational Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 121,
+      "label": "",
+      "text": "A preference-driven methodology for efficient code generation IEEE Transactions on Artificial Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 107,
+      "label": "",
+      "text": "AutoRAN: weak-to-strong jailbreaking of large reasoning models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 108,
+      "label": "",
+      "text": "RASA: routing-aware safety alignment for mixture-of-experts models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 111,
+      "label": "",
+      "text": "GraphRAG under fire ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 116,
+      "label": "",
+      "text": "Examining and adapting time for multilingual classification via mixture of temporal experts In Proceedings of Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 117,
+      "label": "",
+      "text": "Time matters: examine temporal effects on biomedical language models In Proceedings of AMIA Annual Symposium (AMIA)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models In Proceedings of International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Automatic and universal prompt injection attacks against large language models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Formalizing and benchmarking prompt injection attacks and defenses In Proceedings of USENIX Security Symposium (SEC)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 85,
+      "label": "",
+      "text": "DataSentinel: a game-theoretic detection of prompt injection attacks In Proceedings of IEEE Symposium on Security and Privacy (S&P)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "SecInfer: preventing prompt injection via inference-time scaling ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 115,
+      "label": "",
+      "text": "Cross-cloud data privacy protection: optimizing collaborative mechanisms of ai systems by integrating federated learning and llms In Proceedings of IEEE International Conference on Communications, Information System and Computer Engineering (CISCE)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "Fight back against jailbreaking via prompt adversarial tuning In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "The attacker moves second: stronger adaptive attacks bypass defenses against llm jailbreaks and prompt injections ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Introducing deep research. External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/introducing-deep-research/"
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Openmanus: open-source ai agent framework. External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/mannaandpoem/OpenManus"
+    },
+    {
+      "idx": 97,
+      "label": "",
+      "text": "MemGPT: towards LLMs as operating systems ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "AGD: adversarial game defense against jailbreak attacks in large language models In Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 101,
+      "label": "",
+      "text": "X-teaming: multi-turn jailbreaks and defenses with adaptive multi-agents In Proceedings of Conference on Language Modeling (COLM)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Identifying the risks of LM agents with an LM-emulated sandbox In Proceedings of International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 103,
+      "label": "",
+      "text": "Great, Now Write an Article About That: The Crescendo Multi-Turn LLM Jailbreak Attack In Proceedings of USENIX Security Symposium (SEC)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 105,
+      "label": "",
+      "text": "Toolformer: language models can teach themselves to use tools In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "The sandwich defense: strengthening AI prompt security External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://learnprompting.org/docs/prompt_hacking/defensive_measures/sandwich_defense"
+    },
+    {
+      "idx": 83,
+      "label": "",
+      "text": "Agent safety alignment via reinforcement learning ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 100,
+      "label": "",
+      "text": "HybridFlow: a flexible and efficient rlhf framework ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "Prompt injection attack to tool selection in llm agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 93,
+      "label": "",
+      "text": "Progent: programmable privilege control for LLM agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 99,
+      "label": "",
+      "text": "RLLM: a framework for post-training language agents Note: https://pretty-radio-b75.notion.site/rLLM-A-Framework-for-Post-Training-Language-Agents-21b81902c146819db63cd98a54ba5f31",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://pretty-radio-b75.notion.site/rLLM-A-Framework-for-Post-Training-Language-Agents-21b81902c146819db63cd98a54ba5f31"
+    },
+    {
+      "idx": 80,
+      "label": "",
+      "text": "The instruction hierarchy: training LLMs to prioritize privileged instructions ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 89,
+      "label": "",
+      "text": "AgentArmor: enforcing program analysis on agent runtime trace to defend against prompt injection ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 98,
+      "label": "",
+      "text": "ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data In Proceedings of Network and Distributed System Security Symposium (NDSS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 110,
+      "label": "",
+      "text": "Reasoning or retrieval? a study of answer attribution on large reasoning models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 109,
+      "label": "",
+      "text": "Self-destructive language model ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "AGENTVIGIL: automatic black-box red-teaming for indirect prompt injection against LLM agents In Proceedings of Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 82,
+      "label": "",
+      "text": "Adversarial reinforcement learning for large language model agent safety ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 113,
+      "label": "",
+      "text": "AgentSys: secure and dynamic llm agents through explicit hierarchical memory management ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "RL Is a Hammer and LLMs Are Nails: A Simple Reinforcement Learning Recipe for Strong Prompt Injection ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "Delimiters won’t save you from prompt injection Note: https://simonwillison.net/2023/May/11/delimiters-wont-save-you/",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://simonwillison.net/2023/May/11/delimiters-wont-save-you/"
+    },
+    {
+      "idx": 91,
+      "label": "",
+      "text": "System-level defense against indirect prompt injection attacks: an information flow control perspective ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "",
+      "text": "Instructional segment embedding: improving LLM safety with instruction hierarchy In Proceedings of International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "A-mem: agentic memory for llm agents In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 104,
+      "label": "",
+      "text": "ReAct: synergizing reasoning and acting in language models In Proceedings of International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 84,
+      "label": "",
+      "text": "Been thinking about prompt injection—Injection Test idea Note: Twitter",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "InjecAgent: benchmarking indirect prompt injections in tool-integrated large language model agents In Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "UDora: a unified red teaming framework against LLM agents by dynamically hijacking their own reasoning In Proceedings of IEEE Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 102,
+      "label": "",
+      "text": "Agent-safetybench: evaluating the safety of llm agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Defending Large Language Models Against Jailbreaking Attacks Through Goal Prioritization In Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "On prompt-driven safeguarding for large language models In Proceedings of IEEE Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 96,
+      "label": "",
+      "text": "MemoryBank: enhancing large language models with long-term memory In Proceedings of Annual AAAI Conference on Artificial Intelligence (AAAI)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "Robust prompt optimization for defending language models against jailbreaking attacks In Proceedings of Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 88,
+      "label": "",
+      "text": "MELON: provable defense against indirect prompt injection attacks in AI agents In Proceedings of IEEE Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models ArXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

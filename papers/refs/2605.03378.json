@@ -1,0 +1,496 @@
+{
+  "arxiv_id": "2605.03378",
+  "source": "https://arxiv.org/html/2605.03378v1",
+  "fetched_at": "2026-05-12",
+  "count": 61,
+  "references": [
+    {
+      "idx": 1,
+      "label": "",
+      "text": "AI agents for cash management in payment systems Technical report Bank of Canada",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 130,
+      "label": "",
+      "text": "Jailbreakbench: an open robustness benchmark for jailbreaking large language models Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 129,
+      "label": "",
+      "text": "Jailbreaking black box large language models in twenty queries In 2025 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML) pp. 23–42",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "{ \\{ struq } \\} : Defending against prompt injection with structured queries In 34th USENIX Security Symposium (USENIX Security 25) pp. 2383–2400",
+      "year": 2400,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 141,
+      "label": "",
+      "text": "Secalign: defending against prompt injection with preference optimization In Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security pp. 2833–2847",
+      "year": 2847,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 148,
+      "label": "",
+      "text": "Agentpoison: red-teaming llm agents via poisoning memory or knowledge bases Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 156,
+      "label": "",
+      "text": "Securing ai agents with information-flow control arXiv preprint arXiv:2505.23643",
+      "year": 2505,
+      "arxiv_id": "2505.23643",
+      "url": null
+    },
+    {
+      "idx": 155,
+      "label": "",
+      "text": "Defeating prompt injections by design arXiv preprint arXiv:2503.18813",
+      "year": 2503,
+      "arxiv_id": "2503.18813",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Agentdojo: a dynamic environment to evaluate prompt injection attacks and defenses for llm agents Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "A practical memory injection attack against llm agents arXiv e-prints",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 135,
+      "label": "",
+      "text": "Memory injection attacks on llm agents via query-only interaction arXiv preprint arXiv:2503.03704",
+      "year": 2503,
+      "arxiv_id": "2503.03704",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "Not what you’ve signed up for: compromising real-world llm-integrated applications with indirect prompt injection In Proceedings of the 16th ACM workshop on artificial intelligence and security pp. 79–90",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 151,
+      "label": "",
+      "text": "Red-teaming llm multi-agent systems via communication attacks In Findings of the Association for Computational Linguistics: ACL 2025 pp. 6726–6747",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 140,
+      "label": "",
+      "text": "Defending against indirect prompt injection attacks with spotlighting arXiv preprint arXiv:2403.14720",
+      "year": 2403,
+      "arxiv_id": "2403.14720",
+      "url": null
+    },
+    {
+      "idx": 144,
+      "label": "",
+      "text": "Llama guard: llm-based input-output safeguard for human-ai conversations arXiv preprint arXiv:2312.06674",
+      "year": 2312,
+      "arxiv_id": "2312.06674",
+      "url": null
+    },
+    {
+      "idx": 138,
+      "label": "",
+      "text": "Baseline defenses for adversarial attacks against aligned language models arXiv preprint arXiv:2309.00614",
+      "year": 2309,
+      "arxiv_id": "2309.00614",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "The task shield: enforcing task alignment to defend against indirect prompt injection in llm agents In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 29680–29697",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "MedAgentBench: a virtual ehr environment to benchmark medical llm agents Nejm Ai",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 134,
+      "label": "",
+      "text": "Prompt infection: llm-to-llm prompt injection within multi-agent systems arXiv preprint arXiv:2410.07283",
+      "year": 2410,
+      "arxiv_id": "2410.07283",
+      "url": null
+    },
+    {
+      "idx": 136,
+      "label": "",
+      "text": "Retrieval-augmented generation for knowledge-intensive nlp tasks Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Ace: a security architecture for llm-integrated app systems arXiv preprint arXiv:2504.20984",
+      "year": 2504,
+      "arxiv_id": "2504.20984",
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Drift: dynamic rule-based defense with injection isolation for securing llm agents arXiv preprint arXiv:2506.12104",
+      "year": 2506,
+      "arxiv_id": "2506.12104",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Injecguard: benchmarking and mitigating over-defense in prompt injection guardrail models arXiv preprint arXiv:2410.22770",
+      "year": 2410,
+      "arxiv_id": "2410.22770",
+      "url": null
+    },
+    {
+      "idx": 150,
+      "label": "",
+      "text": "Eia: environmental injection attack on generalist web agents for privacy leakage arXiv preprint arXiv:2409.11295",
+      "year": 2409,
+      "arxiv_id": "2409.11295",
+      "url": null
+    },
+    {
+      "idx": 128,
+      "label": "",
+      "text": "Autodan: generating stealthy jailbreak prompts on aligned large language models arXiv preprint arXiv:2310.04451",
+      "year": 2310,
+      "arxiv_id": "2310.04451",
+      "url": null
+    },
+    {
+      "idx": 131,
+      "label": "",
+      "text": "Prompt injection attack against llm-integrated applications arXiv preprint arXiv:2306.05499",
+      "year": 2306,
+      "arxiv_id": "2306.05499",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Formalizing and benchmarking prompt injection attacks and defenses In 33rd USENIX Security Symposium (USENIX Security 24) pp. 1831–1847",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 145,
+      "label": "",
+      "text": "Datasentinel: a game-theoretic detection of prompt injection attacks In 2025 IEEE Symposium on Security and Privacy (SP) pp. 2190–2208",
+      "year": 2208,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 143,
+      "label": "",
+      "text": "Llama prompt guard 2: a classifier model for prompt injection and jailbreak detection Note: https://www.llama.com/docs/model-cards-and-prompt-formats/prompt-guard/",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://www.llama.com/docs/model-cards-and-prompt-formats/prompt-guard/"
+    },
+    {
+      "idx": 146,
+      "label": "",
+      "text": "The attacker moves second: stronger adaptive attacks bypass defenses against llm jailbreaks and prompt injections arXiv preprint arXiv:2510.09023",
+      "year": 2510,
+      "arxiv_id": "2510.09023",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Dynamic taint analysis for automatic detection, analysis, and signaturegeneration of exploits on commodity software. In NDSS Vol. 5",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 157,
+      "label": "",
+      "text": "Securing mcp-based agent workflows In Proceedings of the 4th Workshop on Practical Adoption Challenges of ML for Systems pp. 50–55",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "GPT-4o mini: advancing cost-efficient intelligence Note: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/ Accessed: 2026-04-28",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "GPT-4.1 mini model Note: https://developers.openai.com/api/docs/models/gpt-4.1-mini Accessed: 2026-04-28",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "LLM01:2025 Prompt Injection Note: https://genai.owasp.org/llmrisk/llm01-prompt-injection/ Accessed: 2026-04-29",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
+    },
+    {
+      "idx": 125,
+      "label": "",
+      "text": "Ignore previous prompt: attack techniques for language models arXiv preprint arXiv:2211.09527",
+      "year": 2211,
+      "arxiv_id": "2211.09527",
+      "url": null
+    },
+    {
+      "idx": 142,
+      "label": "",
+      "text": "Jatmo: prompt injection defense by task-specific finetuning In European Symposium on Research in Computer Security pp. 105–124",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 153,
+      "label": "",
+      "text": "Identifying the risks of lm agents with an lm-emulated sandbox arXiv preprint arXiv:2309.15817",
+      "year": 2309,
+      "arxiv_id": "2309.15817",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "The protection of information in computer systems Proceedings of the IEEE",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 137,
+      "label": "",
+      "text": "Toolformer: language models can teach themselves to use tools Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 149,
+      "label": "",
+      "text": "Skill-inject: measuring agent vulnerability to skill file attacks arXiv preprint arXiv:2602.20156",
+      "year": 2602,
+      "arxiv_id": "2602.20156",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Stackeval: benchmarking llms in coding assistance Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 133,
+      "label": "",
+      "text": "Prompt injection attack to tool selection in llm agents arXiv preprint arXiv:2504.19793",
+      "year": 2504,
+      "arxiv_id": "2504.19793",
+      "url": null
+    },
+    {
+      "idx": 152,
+      "label": "",
+      "text": "Multi-agent systems execute arbitrary malicious code arXiv preprint arXiv:2503.12188",
+      "year": 2503,
+      "arxiv_id": "2503.12188",
+      "url": null
+    },
+    {
+      "idx": 160,
+      "label": "",
+      "text": "Contextual agent security: a policy for every purpose In Proceedings of the 2025 Workshop on Hot Topics in Operating Systems pp. 8–17",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 126,
+      "label": "",
+      "text": "Universal adversarial triggers for attacking and analyzing nlp In Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP) pp. 2153–2162",
+      "year": 2162,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "The instruction hierarchy: training llms to prioritize privileged instructions arXiv preprint arXiv:2404.13208",
+      "year": 2404,
+      "arxiv_id": "2404.13208",
+      "url": null
+    },
+    {
+      "idx": 159,
+      "label": "",
+      "text": "Agentspec: customizable runtime enforcement for safe and reliable llm agents arXiv preprint arXiv:2503.18666",
+      "year": 2503,
+      "arxiv_id": "2503.18666",
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "The landscape of prompt injection threats in llm agents: from taxonomy to analysis arXiv preprint arXiv:2602.10453",
+      "year": 2602,
+      "arxiv_id": "2602.10453",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://simonwillison.net/2023/Apr/14/worst-that-can-happen/"
+    },
+    {
+      "idx": 158,
+      "label": "",
+      "text": "Isolategpt: an execution isolation architecture for llm-based agentic systems arXiv preprint arXiv:2403.04960",
+      "year": 2403,
+      "arxiv_id": "2403.04960",
+      "url": null
+    },
+    {
+      "idx": 154,
+      "label": "",
+      "text": "SecGPT: an execution isolation architecture for llm-based systems arXiv preprint arXiv:2403.04960",
+      "year": 2403,
+      "arxiv_id": "2403.04960",
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "The rise and potential of large language model based agents: a survey Science China Information Sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 139,
+      "label": "",
+      "text": "React: synergizing reasoning and acting in language models arXiv preprint arXiv:2210.03629",
+      "year": 2210,
+      "arxiv_id": "2210.03629",
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Benchmarking and defending against indirect prompt injection attacks on large language models In Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 1 pp. 1809–1820",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 147,
+      "label": "",
+      "text": "Adaptive attacks break defenses against indirect prompt injection attacks on llm agents In Findings of the Association for Computational Linguistics: NAACL 2025 pp. 7101–7117",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Injecagent: benchmarking indirect prompt injections in tool-integrated large language model agents In Findings of the Association for Computational Linguistics: ACL 2024 pp. 10471–10506",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Agent security bench (asb): formalizing and benchmarking attacks and defenses in llm-based agents arXiv preprint arXiv:2410.02644",
+      "year": 2410,
+      "arxiv_id": "2410.02644",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Melon: provable defense against indirect prompt injection attacks in ai agents arXiv preprint arXiv:2502.05174",
+      "year": 2502,
+      "arxiv_id": "2502.05174",
+      "url": null
+    },
+    {
+      "idx": 127,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models arXiv preprint arXiv:2307.15043",
+      "year": 2307,
+      "arxiv_id": "2307.15043",
+      "url": null
+    },
+    {
+      "idx": 132,
+      "label": "",
+      "text": "{ \\{ poisonedrag } \\} : Knowledge corruption attacks to { \\{ retrieval-augmented } \\} generation of large language models In 34th USENIX Security Symposium (USENIX Security 25) pp. 3827–3844",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

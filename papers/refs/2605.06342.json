@@ -1,0 +1,360 @@
+{
+  "arxiv_id": "2605.06342",
+  "source": "https://arxiv.org/html/2605.06342v1",
+  "fetched_at": "2026-05-12",
+  "count": 44,
+  "references": [
+    {
+      "idx": 1,
+      "label": "Ainslie et al. [2023]",
+      "text": "Joshua Ainslie, James Lee-Thorp, Michiel de Jong, Yury Zemlyanskiy, Federico Lebron, and Sumit Sanghai. Gqa: Training generalized multi-query transformer models from multi-head checkpoints. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing , pages 4895–4901, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "Arditi et al. [2024]",
+      "text": "Andy Arditi, Oscar Obeso, Aaquib Syed, Daniel Paleka, Nina Panickssery, Wes Gurnee, and Neel Nanda. Refusal in language models is mediated by a single direction. In NeurIPS , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "Bayat et al. [2025]",
+      "text": "Reza Bayat, Ali Rahimi-Kalahroudi, Mohammad Pezeshki, Sarath Chandar, and Pascal Vincent. Steering large language model activations in sparse spaces. In Second Conference on Language Modeling , 2025. URL https://openreview.net/forum?id=VGw1viYliK .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=VGw1viYliK"
+    },
+    {
+      "idx": 4,
+      "label": "Bisk et al. [2020]",
+      "text": "Yonatan Bisk, Rowan Zellers, Ronan Le Bras, Jianfeng Gao, and Yejin Choi. Piqa: Reasoning about physical commonsense in natural language. In Thirty-Fourth AAAI Conference on Artificial Intelligence , 2020.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "Cao et al. [2024]",
+      "text": "Yuanpu Cao, Tianrong Zhang, Bochuan Cao, Ziyi Yin, Lu Lin, Fenglong Ma, and Jinghui Chen. Personalized steering of large language models: Versatile steering vectors through bi-directional preference optimization. In The Thirty-eighth Annual Conference on Neural Information Processing Systems , 2024. URL https://openreview.net/forum?id=7qJFkuZdYo .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=7qJFkuZdYo"
+    },
+    {
+      "idx": 6,
+      "label": "Clark et al. [2018]",
+      "text": "Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and Oyvind Tafjord. Think you have solved question answering? try arc, the ai2 reasoning challenge. arXiv:1803.05457v1 , 2018.",
+      "year": 2018,
+      "arxiv_id": "1803.05457",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Cobbe et al. [2021]",
+      "text": "Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser, Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John Schulman. Training verifiers to solve math word problems. CoRR , abs/2110.14168, 2021.",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "Dubey et al. [2024]",
+      "text": "Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, Ahmad Al-Dahle, Aiesha Letman, Akhil Mathur, Alan Schelten, Amy Yang, Angela Fan, Anirudh Goyal, Anthony Hartshorn, Aobo Yang, Archi Mitra, Archie Sravankumar, Artem Korenev, Arthur Hinsvark, Arun Rao, Aston Zhang, Aurélien Rodriguez, Austen Gregerson, Ava Spataru, Baptiste Rozière, Bethany Biron, Binh Tang, Bobbie Chern, Charlotte Caucheteux, Chaya Nayak, Chloe Bi, Chris Marra, Chris McConnell, Christian Keller, Christophe Touret, Chunyang Wu, Corinne Wong, Cristian Canton Ferrer, Cyrus Nikolaidis, Damien Allonsius, Daniel Song, Danielle Pintz, Danny Livshits, David Esiobu, Dhruv Choudhary, Dhruv Mahajan, Diego Garcia-Olano, Diego Perino, Dieuwke Hupkes, Egor Lakomkin, Ehab AlBadawy, Elina Lobanova, Emily Dinan, Eric Michael Smith, Filip Radenovic, Frank Zhang, Gabriel Synnaeve, Gabrielle Lee, Georgia Lewis Anderson, Graeme Nail, Grégoire Mialon, Guan Pang, Guillem Cucurell, Hailey Nguyen, Hannah Korevaar, Hu Xu, Hugo Touvron, Iliyan Zarov, Imanol Arrieta Ibarra, Isabel M. Kloumann, Ishan Misra, Ivan Evtimov, Jade Copet, Jaewon Lee, Jan Geffert, Jana Vranes, Jason Park, Jay Mahadeokar, Jeet Shah, Jelmer van der Linde, Jennifer Billock, Jenny Hong, Jenya Lee, Jeremy Fu, Jianfeng Chi, Jianyu Huang, Jiawen Liu, Jie Wang, Jiecao Yu, Joanna Bitton, Joe Spisak, Jongsoo Park, Joseph Rocca, Joshua Johnstun, Joshua Saxe, Junteng Jia, Kalyan Vasuden Alwala, Kartikeya Upasani, Kate Plawiak, Ke Li, Kenneth Heafield, Kevin Stone, and et al. The llama 3 herd of models. CoRR , abs/2407.21783, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "Dubois et al. [2024]",
+      "text": "Yann Dubois, Balázs Galambosi, Percy Liang, and Tatsunori B. Hashimoto. Length-controlled alpacaeval: A simple way to debias automatic evaluators. CoRR , abs/2404.04475, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Evans et al. [2025]",
+      "text": "Owain Evans, James Chua, and Steph Lin. New, improved multiple-choice truthfulqa, 2025. URL https://www.alignmentforum.org/posts/Bunfwz6JsNd44kgLT/new-improved-multiple-choice-truthfulqa .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://www.alignmentforum.org/posts/Bunfwz6JsNd44kgLT/new-improved-multiple-choice-truthfulqa"
+    },
+    {
+      "idx": 11,
+      "label": "Gemma Team et al. [2024]",
+      "text": "Gemma Team, Morgane Riviere, Shreya Pathak, Pier Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju, Léonard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ramé, Johan Ferret, Peter Liu, Pouya Tafti, Abe Friesen, Michelle Casbon, Sabela Ramos, Ravin Kumar, Charline Le Lan, Sammy Jerome, Anton Tsitsulin, Nino Vieillard, Piotr Stanczyk, Sertan Girgin, Nikola Momchev, Matt Hoffman, Shantanu Thakoor, Jean-Bastien Grill, Behnam Neyshabur, Olivier Bachem, Alanna Walton, Aliaksei Severyn, Alicia Parrish, Aliya Ahmad, Allen Hutchison, Alvin Abdagic, Amanda Carl, Amy Shen, Andy Brock, Andy Coenen, Anthony Laforge, Antonia Paterson, Ben Bastian, Bilal Piot, Bo Wu, Brandon Royal, Charlie Chen, Chintu Kumar, Chris Perry, Chris Welty, Christopher A. Choquette-Choo, Danila Sinopalnikov, David Weinberger, Dimple Vijaykumar, Dominika Rogozińska, Dustin Herbison, Elisa Bandy, Emma Wang, Eric Noland, Erica Moreira, Evan Senter, Evgenii Eltyshev, Francesco Visin, Gabriel Rasskin, Gary Wei, Glenn Cameron, Gus Martins, Hadi Hashemi, Hanna Klimczak-Plucińska, Harleen Batra, Harsh Dhand, Ivan Nardini, Jacinda Mein, Jack Zhou, James Svensson, Jeff Stanway, Jetha Chan, Jin Peng Zhou, Joana Carrasqueira, Joana Iljazi, Jocelyn Becker, Joe Fernandez, Joost van Amersfoort, Josh Gordon, Josh Lipschultz, Josh Newlan, Ju yeong Ji, Kareem Mohamed, Kartikeya Badola, Kat Black, Katie Millican, Keelin McDonell, Kelvin Nguyen, Kiranbir Sodhia, Kish Greene, Lars Lowe Sjoesund, Lauren Usui, Laurent Sifre, Lena Heuermann, Leticia Lago, Lilly McNealus, Livio Baldini Soares, Logan Kilpatrick, Lucas Dixon, Luciano Martins, Machel Reid, Manvinder Singh, Mark Iverson, Martin Görner, Mat Velloso, Mateo Wirth, Matt Davidow, Matt Miller, Matthew Rahtz, Matthew Watson, Meg Risdal, Mehran Kazemi, Michael Moynihan, Ming Zhang, Minsuk Kahng, Minwoo Park, Mofi Rahman, Mohit Khatwani, Natalie Dao, Nenshad Bardoliwalla, Nesh Devanathan, Neta Dumai, Nilay Chauhan, Oscar Wahltinez, Pankil Botarda, Parker Barnes, Paul Barham, Paul Michel, Pengchong Jin, Petko Georgiev, Phil Culliton, Pradeep Kuppala, Ramona Comanescu, Ramona Merhej, Reena Jana, Reza Ardeshir Rokni, Rishabh Agarwal, Ryan Mullins, Samaneh Saadat, Sara Mc Carthy, Sarah Cogan, Sarah Perrin, Sébastien M. R. Arnold, Sebastian Krause, Shengyang Dai, Shruti Garg, Shruti Sheth, Sue Ronstrom, Susan Chan, Timothy Jordan, Ting Yu, Tom Eccles, Tom Hennigan, Tomas Kocisky, Tulsee Doshi, Vihan Jain, Vikas Yadav, Vilobh Meshram, Vishal Dharmadhikari, Warren Barkley, Wei Wei, Wenming Ye, Woohyun Han, Woosuk Kwon, Xiang Xu, Zhe Shen, Zhitao Gong, Zichuan Wei, Victor Cotruta, Phoebe Kirk, Anand Rao, Minh Giang, Ludovic Peran, Tris Warkentin, Eli Collins, Joelle Barral, Zoubin Ghahramani, Raia Hadsell, D. Sculley, Jeanine Banks, Anca Dragan, Slav Petrov, Oriol Vinyals, Jeff Dean, Demis Hassabis, Koray Kavukcuoglu, Clement Farabet, Elena Buchatskaya, Sebastian Borgeaud, Noah Fiedel, Armand Joulin, Kathleen Kenealy, Robert Dadashi, and Alek Andreev. Gemma 2: Improving open language models at a practical size. arXiv:2408.00118 , 2024. URL https://arxiv.org/abs/2408.00118 .",
+      "year": 2408,
+      "arxiv_id": "2408.00118",
+      "url": "https://arxiv.org/abs/2408.00118"
+    },
+    {
+      "idx": 12,
+      "label": "Goodfellow et al. [2016]",
+      "text": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning . MIT Press, 2016.",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Hsieh et al. [2024]",
+      "text": "Cheng-Ping Hsieh, Simeng Sun, Samuel Kriman, Shantanu Acharya, Dima Rekesh, Fei Jia, and Boris Ginsburg. RULER: What’s the real context size of your long-context language models? In First Conference on Language Modeling , 2024. URL https://openreview.net/forum?id=kIoBbc76Sy .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=kIoBbc76Sy"
+    },
+    {
+      "idx": 14,
+      "label": "Hu et al. [2022]",
+      "text": "Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. LoRA: Low-rank adaptation of large language models. In The Tenth International Conference on Learning Representations, ICLR 2022 , Virtual Event, 2022. URL https://openreview.net/forum?id=nZeVKeeFYf9 .",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=nZeVKeeFYf9"
+    },
+    {
+      "idx": 15,
+      "label": "Kamradt [2023]",
+      "text": "Gregory Kamradt. Needle in a haystack - pressure testing LLMs. https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": "https://github.com/gkamradt/LLMTest_NeedleInAHaystack/tree/main"
+    },
+    {
+      "idx": 16,
+      "label": "Kočiský et al. [2018]",
+      "text": "Tomáš Kočiský, Jonathan Schwarz, Phil Blunsom, Chris Dyer, Karl Moritz Hermann, Gábor Melis, and Edward Grefenstette. The NarrativeQA reading comprehension challenge. Transactions of the Association for Computational Linguistics , 6:317–328, 2018. doi: 10.1162/tacl_a_00023 . URL https://aclanthology.org/Q18-1023/ .",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1162/tacl_a_00023"
+    },
+    {
+      "idx": 17,
+      "label": "Lee et al. [2025]",
+      "text": "Bruce W. Lee, Inkit Padhi, Karthikeyan Natesan Ramamurthy, Erik Miehling, Pierre Dognin, Manish Nagireddy, and Amit Dhurandhar. Programming refusal with conditional activation steering. In The Thirteenth International Conference on Learning Representations , 2025. URL https://openreview.net/forum?id=Oi47wc10sm .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=Oi47wc10sm"
+    },
+    {
+      "idx": 18,
+      "label": "Li et al. [2024]",
+      "text": "Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, and Martin Wattenberg. Inference-time intervention: Eliciting truthful answers from a language model. Advances in Neural Information Processing Systems , 36, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "Lin et al. [2022]",
+      "text": "Stephanie Lin, Jacob Hilton, and Owain Evans. Truthfulqa: Measuring how models mimic human falsehoods. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) , pages 3214–3252, 2022.",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "Luo and Specia [2024]",
+      "text": "Haoyan Luo and Lucia Specia. From understanding to utilization: A survey on explainability for large language models, 2024. URL https://arxiv.org/abs/2401.12874 .",
+      "year": 2401,
+      "arxiv_id": "2401.12874",
+      "url": "https://arxiv.org/abs/2401.12874"
+    },
+    {
+      "idx": 21,
+      "label": "Mikolov et al. [2013]",
+      "text": "Tomas Mikolov, Wen-tau Yih, and Geoffrey Zweig. Linguistic regularities in continuous space word representations. In Lucy Vanderwende, Hal Daumé III, and Katrin Kirchhoff, editors, Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies , pages 746–751, Atlanta, Georgia, June 2013. Association for Computational Linguistics. URL https://aclanthology.org/N13-1090/ .",
+      "year": 2013,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/N13-1090/"
+    },
+    {
+      "idx": 22,
+      "label": "Nguyen et al. [2025]",
+      "text": "Duy Nguyen, Archiki Prasad, Elias Stengel-Eskin, and Mohit Bansal. Multi-attribute steering of language models via targeted intervention. In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar, editors, Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) , pages 20619–20634, Vienna, Austria, July 2025. Association for Computational Linguistics. ISBN 979-8-89176-251-0. doi: 10.18653/v1/2025.acl-long.1007 . URL https://aclanthology.org/2025.acl-long.1007/ .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2025.acl-long.1007"
+    },
+    {
+      "idx": 23,
+      "label": "O’Brien et al. [2024]",
+      "text": "Kyle O’Brien, David Majercak, Xavier Fernandes, Richard Edgar, Jingya Chen, Harsha Nori, Dean Carignan, Eric Horvitz, and Forough Poursabzi-Sangde. Steering language model refusal with sparse autoencoders. arXiv:2411.11296 , 2024. URL https://arxiv.org/abs/2411.11296 .",
+      "year": 2411,
+      "arxiv_id": "2411.11296",
+      "url": "https://arxiv.org/abs/2411.11296"
+    },
+    {
+      "idx": 24,
+      "label": "Park et al. [2024]",
+      "text": "Kiho Park, Yo Joong Choe, and Victor Veitch. The linear representation hypothesis and the geometry of large language models. In ICML , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "Perez et al. [2023]",
+      "text": "Ethan Perez, Sam Ringer, Kamile Lukosiute, Karina Nguyen, Edwin Chen, Scott Heiner, Craig Pettit, Catherine Olsson, Sandipan Kundu, Saurav Kadavath, et al. Discovering language model behaviors with model-written evaluations. In Findings of the Association for Computational Linguistics: ACL 2023 , pages 13387–13434, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "Pyatkin et al. [2025]",
+      "text": "Valentina Pyatkin, Saumya Malik, Victoria Graf, Hamish Ivison, Shengyi Huang, Pradeep Dasigi, Nathan Lambert, and Hannaneh Hajishirzi. Generalizing verifiable instruction following. In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track , 2025. URL https://openreview.net/forum?id=yfYgwjj5F8 .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=yfYgwjj5F8"
+    },
+    {
+      "idx": 27,
+      "label": "Qiu et al. [2024]",
+      "text": "Yifu Qiu, Zheng Zhao, Yftah Ziser, Anna Korhonen, Edoardo Maria Ponti, and Shay Cohen. Spectral editing of activations for large language model alignment. Advances in Neural Information Processing Systems , 37:56958–56987, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "Rajamanoharan et al. [2024]",
+      "text": "Senthooran Rajamanoharan, Arthur Conmy, Lewis Smith, Tom Lieberum, Vikrant Varma, Janos Kramar, Rohin Shah, and Neel Nanda. Improving sparse decomposition of language model activations with gated sparse autoencoders. In ICML 2024 Workshop on Mechanistic Interpretability , 2024. URL https://openreview.net/forum?id=Ppj5KvzU8Q .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=Ppj5KvzU8Q"
+    },
+    {
+      "idx": 29,
+      "label": "Rimsky et al. [2024]",
+      "text": "Nina Rimsky, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, and Alexander Turner. Steering llama 2 via contrastive activation addition. In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors, Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) , pages 15504–15522, Bangkok, Thailand, August 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.acl-long.828 . URL https://aclanthology.org/2024.acl-long.828/ .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.18653/v1/2024.acl-long.828"
+    },
+    {
+      "idx": 30,
+      "label": "Rivière et al. [2024]",
+      "text": "Morgane Rivière, Shreya Pathak, Pier Giuseppe Sessa, Cassidy Hardin, Surya Bhupatiraju, Léonard Hussenot, Thomas Mesnard, Bobak Shahriari, Alexandre Ramé, Johan Ferret, Peter Liu, Pouya Tafti, Abe Friesen, Michelle Casbon, Sabela Ramos, Ravin Kumar, Charline Le Lan, Sammy Jerome, Anton Tsitsulin, Nino Vieillard, Piotr Stanczyk, Sertan Girgin, Nikola Momchev, Matt Hoffman, Shantanu Thakoor, Jean-Bastien Grill, Behnam Neyshabur, Olivier Bachem, Alanna Walton, Aliaksei Severyn, Alicia Parrish, Aliya Ahmad, Allen Hutchison, Alvin Abdagic, Amanda Carl, Amy Shen, Andy Brock, Andy Coenen, Anthony Laforge, Antonia Paterson, Ben Bastian, Bilal Piot, Bo Wu, Brandon Royal, Charlie Chen, Chintu Kumar, Chris Perry, Chris Welty, Christopher A. Choquette-Choo, Danila Sinopalnikov, David Weinberger, Dimple Vijaykumar, Dominika Rogozinska, Dustin Herbison, Elisa Bandy, Emma Wang, Eric Noland, Erica Moreira, Evan Senter, Evgenii Eltyshev, Francesco Visin, Gabriel Rasskin, Gary Wei, Glenn Cameron, Gus Martins, Hadi Hashemi, Hanna Klimczak-Plucinska, Harleen Batra, Harsh Dhand, Ivan Nardini, Jacinda Mein, Jack Zhou, James Svensson, Jeff Stanway, Jetha Chan, Jin Peng Zhou, Joana Carrasqueira, Joana Iljazi, Jocelyn Becker, Joe Fernandez, Joost van Amersfoort, Josh Gordon, Josh Lipschultz, Josh Newlan, Ju-yeong Ji, Kareem Mohamed, Kartikeya Badola, Kat Black, Katie Millican, Keelin McDonell, Kelvin Nguyen, Kiranbir Sodhia, Kish Greene, Lars Lowe Sjösund, Lauren Usui, Laurent Sifre, Lena Heuermann, Leticia Lago, and Lilly McNealus. Gemma 2: Improving open language models at a practical size. CoRR , abs/2408.00118, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "Rodriguez et al. [2025]",
+      "text": "Pau Rodriguez, Arno Blaas, Michal Klein, Luca Zappella, Nicholas Apostoloff, marco cuturi, and Xavier Suau. Controlling language and diffusion models by transporting activations. In The Thirteenth International Conference on Learning Representations , 2025. URL https://openreview.net/forum?id=l2zFn6TIQi .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=l2zFn6TIQi"
+    },
+    {
+      "idx": 32,
+      "label": "Sheng et al. [2025]",
+      "text": "Leheng Sheng, Changshuo Shen, Weixiang Zhao, Junfeng Fang, Xiaohao Liu, Zhenkai Liang, Xiang Wang, An Zhang, and Tat-Seng Chua. Alphasteer: Learning refusal steering with principled null-space constraint, 2025. URL https://arxiv.org/abs/2506.07022 .",
+      "year": 2506,
+      "arxiv_id": "2506.07022",
+      "url": "https://arxiv.org/abs/2506.07022"
+    },
+    {
+      "idx": 33,
+      "label": "Singh et al. [2024]",
+      "text": "Shashwat Singh, Shauli Ravfogel, Jonathan Herzig, Roee Aharoni, Ryan Cotterell, and Ponnurangam Kumaraguru. Representation surgery: Theory and practice of affine steering. In Ruslan Salakhutdinov, Zico Kolter, Katherine Heller, Adrian Weller, Nuria Oliver, Jonathan Scarlett, and Felix Berkenkamp, editors, Proceedings of the 41st International Conference on Machine Learning , volume 235 of Proceedings of Machine Learning Research , pages 45663–45680. PMLR, 21–27 Jul 2024. URL https://proceedings.mlr.press/v235/singh24d.html .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://proceedings.mlr.press/v235/singh24d.html"
+    },
+    {
+      "idx": 34,
+      "label": "Stolfo et al. [2025]",
+      "text": "Alessandro Stolfo, Vidhisha Balachandran, Safoora Yousefi, Eric Horvitz, and Besmira Nushi. Improving instruction-following in language models through activation steering. In The Thirteenth International Conference on Learning Representations , 2025. URL https://openreview.net/forum?id=wozhdnRCtw .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=wozhdnRCtw"
+    },
+    {
+      "idx": 35,
+      "label": "Templeton et al. [2024]",
+      "text": "Adly Templeton, Tom Conerly, Jonathan Marcus, Jack Lindsey, Trenton Bricken, Brian Chen, Adam Pearce, Craig Citro, Emmanuel Ameisen, Andy Jones, Hoagy Cunningham, Nicholas L Turner, Callum McDougall, Monte MacDiarmid, C. Daniel Freeman, Theodore R. Sumers, Edward Rees, Joshua Batson, Adam Jermyn, Shan Carter, Chris Olah, and Tom Henighan. Scaling monosemanticity: Extracting interpretable features from claude 3 sonnet. Transformer Circuits Thread , 2024. URL https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html"
+    },
+    {
+      "idx": 36,
+      "label": "Torop et al. [2025]",
+      "text": "Max Torop, Aria Masoomi, Masih Eskandar, and Jennifer Dy. DISCO: Disentangled communication steering for large language models. In The Thirty-ninth Annual Conference on Neural Information Processing Systems , 2025. URL https://openreview.net/forum?id=c8AjdgdHnD .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=c8AjdgdHnD"
+    },
+    {
+      "idx": 37,
+      "label": "Turner et al. [2024]",
+      "text": "Alexander Matt Turner, Lisa Thiergart, Gavin Leech, David Udell, Juan J. Vazquez, Ulisse Mini, and Monte MacDiarmid. Steering language models with activation engineering. arXiv:2308.10248 , 2024. URL https://arxiv.org/abs/2308.10248 .",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": "https://arxiv.org/abs/2308.10248"
+    },
+    {
+      "idx": 38,
+      "label": "Vaswani et al. [2017]",
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems , 30, 2017.",
+      "year": 2017,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "Vu and Nguyen [2025]",
+      "text": "Hieu M. Vu and Tan Minh Nguyen. Angular steering: Behavior control via rotation in activation space. In 2nd Workshop on Models of Human Feedback for AI Alignment , 2025. URL https://openreview.net/forum?id=GU2UeVZrSw .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=GU2UeVZrSw"
+    },
+    {
+      "idx": 40,
+      "label": "Wang et al. [2025]",
+      "text": "Weixuan Wang, JINGYUAN YANG, and Wei Peng. Semantics-adaptive activation intervention for LLMs via dynamic steering vectors. In The Thirteenth International Conference on Learning Representations , 2025. URL https://openreview.net/forum?id=8WQ7VTfPTl .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=8WQ7VTfPTl"
+    },
+    {
+      "idx": 41,
+      "label": "Wu et al. [2024]",
+      "text": "Zhengxuan Wu, Aryaman Arora, Zheng Wang, Atticus Geiger, Dan Jurafsky, Christopher D Manning, and Christopher Potts. ReFT: Representation finetuning for language models. In The Thirty-eighth Annual Conference on Neural Information Processing Systems , 2024. URL https://openreview.net/forum?id=fykjplMc0V .",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=fykjplMc0V"
+    },
+    {
+      "idx": 42,
+      "label": "Wu et al. [2025]",
+      "text": "Zhengxuan Wu, Aryaman Arora, Atticus Geiger, Zheng Wang, Jing Huang, Dan Jurafsky, Christopher D Manning, and Christopher Potts. Axbench: Steering LLMs? even simple baselines outperform sparse autoencoders. In Forty-second International Conference on Machine Learning , 2025. URL https://openreview.net/forum?id=K2CckZjNy0 .",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=K2CckZjNy0"
+    },
+    {
+      "idx": 43,
+      "label": "Zellers et al. [2019]",
+      "text": "Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. Hellaswag: Can a machine really finish your sentence? In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics , 2019.",
+      "year": 2019,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "Zou et al. [2023]",
+      "text": "Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, and Dan Hendrycks. Representation engineering: A top-down approach to AI transparency. CoRR , abs/2310.01405, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

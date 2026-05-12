@@ -1,0 +1,176 @@
+{
+  "arxiv_id": "2605.08012",
+  "source": "https://arxiv.org/html/2605.08012v1",
+  "fetched_at": "2026-05-12",
+  "count": 21,
+  "references": [
+    {
+      "idx": 1,
+      "label": "Angrist et al. [1996]",
+      "text": "Joshua D. Angrist, Guido W. Imbens, and Donald B. Rubin. Identification of causal effects using instrumental variables. JASA , 91(434):444–455, 1996.",
+      "year": 1996,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "Bricken et al. [2023]",
+      "text": "Trenton Bricken et al. Towards monosemanticity: decomposing language models with dictionary learning. Anthropic Transformer Circuits Thread, 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "Canby et al. [2024]",
+      "text": "Marc Canby, Adam Davies, Chirag Rastogi, and Julia Hockenmaier. Measuring the reliability of causal probing methods. NeurIPS Workshop, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "Conmy et al. [2023]",
+      "text": "Arthur Conmy et al. Towards automated circuit discovery for mechanistic interpretability. In NeurIPS , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "Dunefsky et al. [2024]",
+      "text": "Jacob Dunefsky, Philippe Chlenski, and Neel Nanda. Transcoders find interpretable LLM feature circuits. In NeurIPS , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "Geiger et al. [2024]",
+      "text": "Atticus Geiger, Zhengxuan Wu, Christopher Potts, Thomas Icard, and Noah D. Goodman. Finding alignments between interpretable causal variables and distributed neural representations. In CLeaR , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "Haavelmo [1944]",
+      "text": "Trygve Haavelmo. The probability approach in econometrics. Econometrica , 12, 1944.",
+      "year": 1944,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "Heckman [1979]",
+      "text": "James J. Heckman. Sample selection bias as a specification error. Econometrica , 47(1):153–161, 1979.",
+      "year": 1979,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "Holland [1986]",
+      "text": "Paul W. Holland. Statistics and causal inference. JASA , 81(396):945–960, 1986.",
+      "year": 1986,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "Huang et al. [2023]",
+      "text": "Jing Huang, Atticus Geiger, Karel D’Oosterlinck, Zhengxuan Wu, and Christopher Potts. Rigorously assessing natural language explanations of neurons. In BlackboxNLP at EMNLP , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "Imbens [2020]",
+      "text": "Guido W. Imbens. Potential outcome and DAG approaches to causality: relevance for empirical practice in economics. JEL , 58(4):1129–1179, 2020.",
+      "year": 2020,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "Landis and Koch [1977]",
+      "text": "J. Richard Landis and Gary G. Koch. The measurement of observer agreement for categorical data. Biometrics , 33(1):159–174, 1977.",
+      "year": 1977,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "Leask et al. [2025]",
+      "text": "Patrick Leask, Bart Bussmann, Michael Pearce, Joseph Bloom, Curt Tigges, Noura Al Moubayed, Lee Sharkey, and Neel Nanda. Sparse autoencoders do not find canonical units of analysis. arXiv:2502.04878, 2025.",
+      "year": 2025,
+      "arxiv_id": "2502.04878",
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "Makelov et al. [2024]",
+      "text": "Aleksandar Makelov, Georgina Lange, Atticus Geiger, and Neel Nanda. Is this the subspace you are looking for? An interpretability illusion for subspace activation patching. In ICLR , 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "Pearl [2009]",
+      "text": "Judea Pearl. Causality: Models, Reasoning, and Inference . Cambridge UP, 2nd ed., 2009.",
+      "year": 2009,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "Pearl and Mackenzie [2018]",
+      "text": "Judea Pearl and Dana Mackenzie. The Book of Why . Basic Books, 2018.",
+      "year": 2018,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "Rubin [1974]",
+      "text": "Donald B. Rubin. Estimating causal effects of treatments in randomized and non-randomized studies. Journal of Educational Psychology , 66(5):688–701, 1974.",
+      "year": 1974,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "Schaeffer et al. [2023]",
+      "text": "Rylan Schaeffer, Brando Miranda, and Sanmi Koyejo. Are emergent abilities of large language models a mirage? In NeurIPS , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "Templeton et al. [2024]",
+      "text": "Adly Templeton et al. Scaling monosemanticity: extracting interpretable features from Claude 3 Sonnet. Anthropic Transformer Circuits Thread, 2024.",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "Wang et al. [2023]",
+      "text": "Kevin Wang, Anna Variengien, Arthur Conmy, Buck Shlegeris, and Jacob Steinhardt. Interpretability in the wild: a circuit for indirect object identification in GPT-2 small. In ICLR , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "Wu, Geiger et al. [2023]",
+      "text": "Zhengxuan Wu, Atticus Geiger, Thomas Icard, Christopher Potts, and Noah D. Goodman. Interpretability at scale: identifying causal mechanisms in Alpaca. In NeurIPS , 2023.",
+      "year": 2023,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

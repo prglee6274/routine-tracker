@@ -1,0 +1,376 @@
+{
+  "arxiv_id": "2605.00364",
+  "source": "https://arxiv.org/html/2605.00364v1",
+  "fetched_at": "2026-05-12",
+  "count": 46,
+  "references": [
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Machine unlearning In 2021 IEEE symposium on security and privacy (SP) pp. 141–159",
+      "year": 2021,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "CCPA regulations: final regulation text California Department of Justice",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Towards making systems forget with machine unlearning In 2015 IEEE symposium on security and privacy pp. 463–480",
+      "year": 2015,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "Extracting training data from large language models In 30th USENIX Security Symposium",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Unlearn what you want to forget: efficient unlearning for llms arXiv preprint arXiv:2310.20150",
+      "year": 2310,
+      "arxiv_id": "2310.20150",
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "OpenUnlearning: accelerating LLM unlearning via unified benchmarking of methods and metrics In Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Who’s harry potter? approximate unlearning in llms, 2023 URL https://arxiv.org/abs/2310.02238",
+      "year": 2310,
+      "arxiv_id": "2310.02238",
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Regulation (EU) 2016/679 of the European Parliament and of the Council Official Journal of the European Union",
+      "year": 2016,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "The Llama 3 herd of models arXiv preprint arXiv:2407.21783",
+      "year": 2407,
+      "arxiv_id": "2407.21783",
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "Measuring massive multitask language understanding arXiv preprint arXiv:2009.03300",
+      "year": 2009,
+      "arxiv_id": "2009.03300",
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Knowledge unlearning for mitigating privacy risks in language models arXiv preprint arXiv:2210.01504",
+      "year": 2210,
+      "arxiv_id": "2210.01504",
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Model sparsity can simplify machine unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Scalable and robust llm unlearning by correcting responses with retrieved exclusions arXiv preprint arXiv:2509.25973",
+      "year": 2509,
+      "arxiv_id": "2509.25973",
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "Llm unlearning with llm beliefs arXiv preprint arXiv:2510.19422",
+      "year": 2510,
+      "arxiv_id": "2510.19422",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "The WMDP benchmark: measuring and reducing malicious use with unlearning arXiv preprint arXiv:2403.03218",
+      "year": 2403,
+      "arxiv_id": "2403.03218",
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Textbooks are all you need ii: phi-1.5 technical report arXiv preprint arXiv:2309.05463",
+      "year": 2309,
+      "arxiv_id": "2309.05463",
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "Editing as unlearning: are knowledge editing methods strong baselines for large language model unlearning? arXiv preprint arXiv:2505.19855",
+      "year": 2505,
+      "arxiv_id": "2505.19855",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Large language model unlearning via embedding-corrupted prompts Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "Direct token optimization: a self-contained approach to large language model unlearning arXiv preprint arXiv:2510.00125",
+      "year": 2510,
+      "arxiv_id": "2510.00125",
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Rethinking machine unlearning for large language models arXiv preprint arXiv:2402.08787",
+      "year": 2402,
+      "arxiv_id": "2402.08787",
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Rethinking machine unlearning for large language models Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Tofu: a task of fictitious unlearning for llms arXiv preprint arXiv:2401.06121",
+      "year": 2401,
+      "arxiv_id": "2401.06121",
+      "url": null
+    },
+    {
+      "idx": 72,
+      "label": "",
+      "text": "Trankit: a light-weight transformer-based toolkit for multilingual natural language processing In Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "A survey of machine unlearning arXiv preprint arXiv:2209.02299",
+      "year": 2209,
+      "arxiv_id": "2209.02299",
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "A survey of machine unlearning ACM Transactions on Intelligent Systems and Technology",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Can sensitive information be deleted from llms? objectives for defending against extraction attacks arXiv preprint arXiv:2309.17410",
+      "year": 2309,
+      "arxiv_id": "2309.17410",
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "In-context unlearning: language models as few shot unlearners arXiv preprint arXiv:2310.07579",
+      "year": 2310,
+      "arxiv_id": "2310.07579",
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Qwen2.5 technical report arXiv preprint arXiv:2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Detecting pretraining data from large language models arXiv preprint arXiv:2310.16789",
+      "year": 2310,
+      "arxiv_id": "2310.16789",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Unrolling sgd: understanding factors influencing machine unlearning In 2022 IEEE 7th European Symposium on Security and Privacy (EuroS&P) pp. 303–319",
+      "year": 2022,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Llama 2: open foundation and fine-tuned chat models arXiv preprint arXiv:2307.09288",
+      "year": 2307,
+      "arxiv_id": "2307.09288",
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "Tokens for learning, tokens for unlearning: mitigating membership inference attacks in large language models via dual-purpose training arXiv preprint arXiv:2502.19726",
+      "year": 2502,
+      "arxiv_id": "2502.19726",
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Not every token needs forgetting: selective unlearning to limit change in utility in large language model unlearning arXiv preprint arXiv:2506.00876",
+      "year": 2506,
+      "arxiv_id": "2506.00876",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Rethinking llm unlearning objectives: a gradient perspective and go beyond arXiv preprint arXiv:2502.19301",
+      "year": 2502,
+      "arxiv_id": "2502.19301",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Beyond the 80/20 rule: high-entropy minority tokens drive effective reinforcement learning for llm reasoning arXiv preprint arXiv:2506.01939",
+      "year": 2506,
+      "arxiv_id": "2506.01939",
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "GRU: mitigating the trade-off between unlearning and retention for LLMs arXiv preprint arXiv:2503.09117",
+      "year": 2503,
+      "arxiv_id": "2503.09117",
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "Jailbroken: how does LLM safety training fail? In Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Qwen3 technical report arXiv preprint arXiv:2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 75,
+      "label": "",
+      "text": "Exploring criteria of loss reweighting to enhance LLM unlearning In Proceedings of the 42nd International Conference on Machine Learning",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Machine unlearning of pre-trained large language models arXiv preprint arXiv:2402.15159",
+      "year": 2402,
+      "arxiv_id": "2402.15159",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Large language model unlearning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Editing large language models: problems, methods, and opportunities arXiv preprint arXiv:2305.13172",
+      "year": 2305,
+      "arxiv_id": "2305.13172",
+      "url": null
+    },
+    {
+      "idx": 70,
+      "label": "",
+      "text": "M. Yu, L. Lin, G. Zhang, X. Li, J. Fang, X. Yu, I. Tsang, N. Zhang, K. Wang, and Y. Wang UniErase: towards balanced and precise unlearning in language models",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Negative preference optimization: from catastrophic collapse to effective unlearning In First Conference on Language Modeling",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "Judging llm-as-a-judge with mt-bench and chatbot arena Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 77,
+      "label": "",
+      "text": "Not all tokens are meant to be forgotten In Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

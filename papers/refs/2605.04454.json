@@ -1,0 +1,200 @@
+{
+  "arxiv_id": "2605.04454",
+  "source": "https://arxiv.org/html/2605.04454v1",
+  "fetched_at": "2026-05-12",
+  "count": 24,
+  "references": [
+    {
+      "idx": 14,
+      "label": "",
+      "text": "L. Alberts, B. Ellis, A. Lupu, and J. Foerster CURATe: benchmarking personalised alignment of conversational AI assistants arXiv preprint arXiv:2410.21159",
+      "year": 2410,
+      "arxiv_id": "2410.21159",
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "Y. Bai, S. Kadavath, S. Kundu, A. Askell, J. Kernion, A. Jones, A. Chen, A. Goldie, A. Mirhoseini, C. McKinnon, et al. Constitutional AI: harmlessness from AI feedback arXiv preprint arXiv:2212.08073",
+      "year": 2212,
+      "arxiv_id": "2212.08073",
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "W. Chiang, L. Zheng, Y. Sheng, A. N. Angelopoulos, T. Li, D. Li, H. Zhang, B. Zhu, M. I. Jordan, J. E. Gonzalez, and I. Stoica Chatbot arena: an open platform for evaluating LLMs by human preference In Proceedings of the International Conference on Machine Learning (ICML)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "N. Lambert, V. Pyatkin, J. Morrison, L. J. Miranda, B. Y. Lin, K. Chandu, N. Dziri, S. Kumar, T. Zick, Y. Choi, et al. RewardBench: evaluating reward models for language modeling arXiv preprint arXiv:2403.13787",
+      "year": 2403,
+      "arxiv_id": "2403.13787",
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "J. R. Landis and G. G. Koch The measurement of observer agreement for categorical data Biometrics",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "T. Li, W. Chiang, E. Frick, L. Dunlap, T. Wu, B. Zhu, J. E. Gonzalez, and I. Stoica From crowdsourced data to high-quality benchmarks: Arena-Hard and BenchBuilder pipeline arXiv preprint arXiv:2406.11939",
+      "year": 2406,
+      "arxiv_id": "2406.11939",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "P. Liang, R. Bommasani, T. Lee, D. Tsipras, D. Soylu, M. Yasunaga, Y. Zhang, D. Narayanan, Y. Wu, A. Kumar, et al. Holistic evaluation of language models Transactions on Machine Learning Research (TMLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "B. Y. Lin, Y. Deng, K. Chandu, F. Brahman, A. Ravichander, V. Pyatkin, N. Dziri, R. L. Bras, and Y. Choi WildBench: benchmarking LLMs with challenging tasks from real users in the wild arXiv preprint arXiv:2406.04770",
+      "year": 2406,
+      "arxiv_id": "2406.04770",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "S. Lin, J. Hilton, and O. Evans TruthfulQA: measuring how models mimic human falsehoods In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. L. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray, et al. Training language models to follow instructions with human feedback In Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "C. Pölitz, F. Doshi-Velez, and S. Lindley A benchmark to assess common ground in human–AI collaboration arXiv preprint arXiv:2602.21337",
+      "year": 2602,
+      "arxiv_id": "2602.21337",
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "R. Rafailov, A. Sharma, E. Mitchell, S. Ermon, C. D. Manning, and C. Finn Direct preference optimization: your language model is secretly a reward model In Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "O. Shaikh, H. Mozannar, G. Bansal, A. Fourney, and E. Horvitz Navigating rifts in human–LLM grounding: study and benchmark In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "H. Shen, T. Knearem, R. Ghosh, K. Alkiek, K. Krishna, Y. Liu, Z. Ma, S. Petridis, Y. Peng, L. Qiwei, et al. Position: towards bidirectional human–AI alignment: a systematic review for clarifications, framework, and future directions arXiv preprint arXiv:2406.09264",
+      "year": 2406,
+      "arxiv_id": "2406.09264",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "M. Suzgun, N. Scales, N. Schärli, S. Gehrmann, Y. Tay, H. W. Chung, A. Chowdhery, Q. V. Le, E. H. Chi, D. Zhou, and J. Wei Challenging BIG-Bench tasks and whether chain-of-thought can solve them In Findings of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "S. Tan, S. Zhuang, K. Montgomery, W. Y. Tang, A. Cuadron, C. Wang, R. A. Popa, and I. Stoica JudgeBench: a benchmark for evaluating LLM-based judges In International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "M. Terry, C. Kulkarni, M. Wattenberg, L. Dixon, and M. R. Morris AI alignment in the design of interactive AI: specification alignment, process alignment, and evaluation support arXiv preprint arXiv:2311.00710",
+      "year": 2311,
+      "arxiv_id": "2311.00710",
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "V. Vishwarupe, I. Flechais, N. Shadbolt, and M. Jirotka “To LLM, or not to LLM”: how designers and developers navigate LLMs as tools or teammates In Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26) New York, NY, USA External Links: Document",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.1145/3772363.3798953"
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "V. Vishwarupe, I. Flechais, N. Shadbolt, and M. Jirotka The collaboration gap in human–AI work: grounding and repair conditions for stable collaboration In Proceedings of the 2026 ECSCW Conference Note: Poster",
+      "year": 2026,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Y. Wang, X. Ma, G. Zhang, Y. Ni, A. Chandra, S. Guo, W. Ren, A. Arulraj, X. He, Z. Jiang, et al. MMLU-Pro: a more robust and challenging multi-task language understanding benchmark In Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "S. Yao, N. Shinn, P. Razavi, and K. Narasimhan τ \\tau -bench: a benchmark for tool-agent-user interaction in real-world domains arXiv preprint arXiv:2406.12045",
+      "year": 2406,
+      "arxiv_id": "2406.12045",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Z. Zhang, L. Lei, L. Wu, R. Sun, Y. Huang, C. Long, X. Liu, X. Lei, J. Tang, and M. Huang SafetyBench: evaluating the safety of large language models In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "L. Zheng, W. Chiang, Y. Sheng, S. Zhuang, Z. Wu, Y. Zhuang, Z. Lin, Z. Li, D. Li, E. Xing, et al. Judging LLM-as-a-Judge with MT-Bench and chatbot arena In Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "J. Zhou, T. Lu, S. Mishra, S. Brahma, S. Basu, Y. Luan, D. Zhou, and L. Hou Instruction-following evaluation for large language models arXiv preprint arXiv:2311.07911",
+      "year": 2311,
+      "arxiv_id": "2311.07911",
+      "url": null
+    }
+  ]
+}

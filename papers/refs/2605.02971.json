@@ -1,0 +1,464 @@
+{
+  "arxiv_id": "2605.02971",
+  "source": "https://arxiv.org/html/2605.02971v1",
+  "fetched_at": "2026-05-12",
+  "count": 57,
+  "references": [
+    {
+      "idx": 4,
+      "label": "",
+      "text": "On-policy distillation of language models: learning from self-generated mistakes In The twelfth international conference on learning representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "A general language assistant as a laboratory for alignment arXiv preprint arXiv:2112.00861",
+      "year": 2112,
+      "arxiv_id": "2112.00861",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "Align once, benefit multilingually: enforcing multilingual consistency for LLM safety alignment In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=ueknOG1wXL"
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Scans: mitigating the exaggerated safety for llms via safety-conscious activation steering In Proceedings of the AAAI Conference on Artificial Intelligence pp. 23523–23531",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Provably robust dpo: aligning language models with noisy feedback arXiv preprint arXiv:2403.00409",
+      "year": 2403,
+      "arxiv_id": "2403.00409",
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Training verifiers to solve math word problems arXiv preprint arXiv:2110.14168",
+      "year": 2110,
+      "arxiv_id": "2110.14168",
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Multilingual jailbreak challenges in large language models In The Twelfth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Kto: model alignment as prospect theoretic optimization arXiv preprint arXiv:2402.01306",
+      "year": 2402,
+      "arxiv_id": "2402.01306",
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Born again neural networks In International conference on machine learning pp. 1607–1616",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "The llama 3 herd of models In Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Minillm: knowledge distillation of large language models arXiv preprint arXiv:2306.08543",
+      "year": 2306,
+      "arxiv_id": "2306.08543",
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "Reinforced self-training (rest) for language modeling arXiv preprint arXiv:2308.08998",
+      "year": 2308,
+      "arxiv_id": "2308.08998",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Measuring massive multitask language understanding arXiv preprint arXiv:2009.03300",
+      "year": 2009,
+      "arxiv_id": "2009.03300",
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Orpo: monolithic preference optimization without reference model In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing pp. 11170–11189",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Reinforcement learning via self-distillation arXiv preprint arXiv:2601.20802",
+      "year": 2601,
+      "arxiv_id": "2601.20802",
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Refusal tokens: a simple way to calibrate refusals in large language models In Neurips Safe Generative AI Workshop 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=vx7reBU6WQ"
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Pku-saferlhf: towards multi-level safety alignment for llms with human preference In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 31983–32016",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Why does self-distillation (sometimes) degrade the reasoning capability of llms? arXiv preprint arXiv:2603.24472",
+      "year": 2603,
+      "arxiv_id": "2603.24472",
+      "url": null
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "A cross-language investigation into jailbreak attacks in large language models arXiv preprint arXiv:2401.16765",
+      "year": 2401,
+      "arxiv_id": "2401.16765",
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Multilingual safety alignment via sparse weight editing arXiv preprint arXiv:2602.22554",
+      "year": 2602,
+      "arxiv_id": "2602.22554",
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "On-policy distillation Thinking Machines Lab: Connectionism Note: https://thinkingmachines.ai/blog/on-policy-distillation External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.64434/tml.20251026"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Simpo: simple preference optimization with a reference-free reward Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Training language models to follow instructions with human feedback Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Disentangling length from quality in direct preference optimization In Findings of the Association for Computational Linguistics: ACL 2024 pp. 4998–5017",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "LLM self defense: by self examination, LLMs know they are being tricked In The Second Tiny Papers Track at ICLR 2024 External Links: Link",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=YoqgcIA19o"
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "Safety alignment should be made more than just a few tokens deep In The Thirteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=6Mxhg9PtDE"
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Direct preference optimization: your language model is secretly a reward model Advances in neural information processing systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Deepspeed: system optimizations enable training deep learning models with over 100 billion parameters In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining pp. 3505–3506",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "On-policy self-distillation for reasoning compression arXiv preprint arXiv:2603.05433",
+      "year": 2603,
+      "arxiv_id": "2603.05433",
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Safety instincts: LLMs learn to trust their internal compass for self-defense In The Fourteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=LUiqtv6vrd"
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "The language barrier: dissecting safety challenges of llms in multilingual contexts In Findings of the Association for Computational Linguistics: ACL 2024 pp. 2668–2680",
+      "year": 2680,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Self-distillation enables continual learning arXiv preprint arXiv:2601.19897",
+      "year": 2601,
+      "arxiv_id": "2601.19897",
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Language models are multilingual chain-of-thought reasoners arXiv preprint arXiv:2210.03057",
+      "year": 2210,
+      "arxiv_id": "2210.03057",
+      "url": null
+    },
+    {
+      "idx": 58,
+      "label": "",
+      "text": "Principle-driven self-alignment of language models from scratch with minimal human supervision Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Gemma 2: improving open language models at a practical size arXiv preprint arXiv:2408.00118",
+      "year": 2408,
+      "arxiv_id": "2408.00118",
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Llama 2: open foundation and fine-tuned chat models arXiv preprint arXiv:2307.09288",
+      "year": 2307,
+      "arxiv_id": "2307.09288",
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "Few tokens, big leverage: preserving safety alignment by constraining safety tokens during fine-tuning arXiv preprint arXiv:2603.07445",
+      "year": 2603,
+      "arxiv_id": "2603.07445",
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "All languages matter: on the multilingual safety of large language models arXiv preprint arXiv:2310.00905",
+      "year": 2310,
+      "arxiv_id": "2310.00905",
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "Refusal direction is universal across safety-aligned languages In The Thirty-ninth Annual Conference on Neural Information Processing Systems External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=eWxKpdAdXH"
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Self-instruct: aligning language models with self-generated instructions In Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers) pp. 13484–13508",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Qwen3 technical report arXiv preprint arXiv:2505.09388",
+      "year": 2505,
+      "arxiv_id": "2505.09388",
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Qwen2.5 technical report External Links: 2412.15115",
+      "year": 2412,
+      "arxiv_id": "2412.15115",
+      "url": "https://arxiv.org/abs/2412.15115"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Snapshot distillation: teacher-student optimization in one generation In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition pp. 2859–2868",
+      "year": 2868,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Self-distilled rlvr External Links: 2604.03128",
+      "year": 2604,
+      "arxiv_id": "2604.03128",
+      "url": "https://arxiv.org/abs/2604.03128"
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "LASA: language-agnostic semantic alignment at the semantic bottleneck for llm safety arXiv preprint arXiv:2604.12710",
+      "year": 2604,
+      "arxiv_id": "2604.12710",
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Self-distillation bridges distribution gap in language model fine-tuning In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 1028–1043",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "On-policy context distillation for language models arXiv preprint arXiv:2602.12275",
+      "year": 2602,
+      "arxiv_id": "2602.12275",
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "The state of multilingual llm safety research: from measuring the language gap to mitigating it In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing pp. 15856–15871",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "Self-rewarding language models In International Conference on Machine Learning pp. 57905–57923",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "Star: bootstrapping reasoning with reasoning Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Be your own teacher: improve the performance of convolutional neural networks via self distillation In Proceedings of the IEEE/CVF international conference on computer vision pp. 3713–3722",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "Response-based knowledge distillation for multilingual jailbreak prevention unwittingly compromises safety In Socially Responsible and Trustworthy Foundation Models at NeurIPS 2025 External Links: Link",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=e26bFhz8YV"
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Who transfers safety? identifying and targeting cross-lingual shared safety neurons arXiv preprint arXiv:2602.01283",
+      "year": 2602,
+      "arxiv_id": "2602.01283",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Enhancing multilingual capabilities of large language models through self-distillation from resource-rich languages In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 11189–11204",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Llama beyond english: an empirical study on language capability transfer arXiv preprint arXiv:2401.01055",
+      "year": 2401,
+      "arxiv_id": "2401.01055",
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Self-distilled reasoner: on-policy self-distillation for large language models arXiv preprint arXiv:2601.18734",
+      "year": 2601,
+      "arxiv_id": "2601.18734",
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Mpo: multilingual safety alignment via reward gap optimization In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 23564–23587",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

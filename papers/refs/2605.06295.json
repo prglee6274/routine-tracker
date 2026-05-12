@@ -1,0 +1,584 @@
+{
+  "arxiv_id": "2605.06295",
+  "source": "https://arxiv.org/html/2605.06295v1",
+  "fetched_at": "2026-05-12",
+  "count": 72,
+  "references": [
+    {
+      "idx": 58,
+      "label": "",
+      "text": "From attribution maps to human-understandable explanations through concept relevance propagation Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "AttnLRP: Attention-aware layer-wise relevance propagation for transformers In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Sanity checks for saliency maps In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 84,
+      "label": "",
+      "text": "Towards better understanding of gradient-based attribution methods for deep neural networks In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 85,
+      "label": "",
+      "text": "On pixel-wise explanations for non-linear classifier decisions by layer-wise relevance propagation PloS One",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Efficient and accurate explanation estimation with distribution compression In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Explaining similarity in vision-language encoders with weighted Banzhaf interactions In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 68,
+      "label": "",
+      "text": "Is attention explanation? An introduction to the debate In ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 65,
+      "label": "",
+      "text": "Impossibility theorems for feature attribution Proceedings of the National Academy of Sciences",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Shortcomings of top-down randomization-based sanity checks for evaluations of deep neural network explanations In CVPR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 80,
+      "label": "",
+      "text": "FLUX.1 [schnell] github.com/black-forest-labs/flux Version 1.0",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 73,
+      "label": "",
+      "text": "B-cos alignment for inherently interpretable CNNs and vision transformers IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "From Shapley values to generalized additive models and back In AISTATS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "ProxySPEX: Inference-efficient interpretability via sparse feature interactions in LLMs In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 63,
+      "label": "",
+      "text": "Rethinking shapley value for negative interactions in non-convex games In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "Generic attention-model explainability for interpreting bi-modal and encoder-decoder transformers In ICCV",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 50,
+      "label": "",
+      "text": "Aggregated attributions for explanatory analysis of 3D segmentation models In WACV",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "Meta CLIP 2: A Worldwide Scaling Recipe In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 76,
+      "label": "",
+      "text": "Understanding global feature contributions with additive importance measures In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 90,
+      "label": "",
+      "text": "Vision transformers need registers In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 86,
+      "label": "",
+      "text": "ImageNet: A large-scale hierarchical image database In CVPR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 38,
+      "label": "",
+      "text": "Explanations can be manipulated and geometry is to blame In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "MaskCLIP: Masked self-distillation advances contrastive language-image pretraining In CVPR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 55,
+      "label": "",
+      "text": "Faith and Fate: Limits of transformers on compositionality In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Building and interpreting deep similarity models IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 36,
+      "label": "",
+      "text": "Improving performance of deep learning models with axiomatic attribution priors and expected gradients Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 81,
+      "label": "",
+      "text": "The Pascal visual object classes challenge: A retrospective International journal of computer vision",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 56,
+      "label": "",
+      "text": "A holistic approach to unifying automatic concept extraction and concept importance estimation NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 59,
+      "label": "",
+      "text": "Asymmetric Shapley values: incorporating causal knowledge into model-agnostic explainability In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 74,
+      "label": "",
+      "text": "Unifying feature-based explanations with functional ANOVA and cooperative game theory In AISTATS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 75,
+      "label": "",
+      "text": "SHAP-IQ: Unified approximation of any-order Shapley interactions In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Gemma 3 technical report arXiv preprint, arXiv:2503.19786",
+      "year": 2503,
+      "arxiv_id": "2503.19786",
+      "url": null
+    },
+    {
+      "idx": 89,
+      "label": "",
+      "text": "Equivalent representations of set functions Mathematics of Operations Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "An axiomatic approach to the concept of interaction among players in cooperative games International Journal of game theory",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 87,
+      "label": "",
+      "text": "Imagenet auto-annotation with segmentation propagation International Journal of Computer Vision",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 62,
+      "label": "",
+      "text": "The meta-evaluation problem in explainable AI: Identifying reliable estimators with MetaQuantus Transactions on Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 9,
+      "label": "",
+      "text": "ConceptAttention: Diffusion transformers learn highly interpretable features In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Explaining explanations: axiomatic feature interactions for deep networks Journal of Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 46,
+      "label": "",
+      "text": "Hierarchical Banzhaf interaction for general video-language representation learning IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "SPEX: Scaling feature interaction explanations for LLMs In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 69,
+      "label": "",
+      "text": "Towards evaluating explanations of vision transformers for medical imaging In CVPRW",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Attribution-guided decoding In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 57,
+      "label": "",
+      "text": "Strassen attention, split VC dimension and compositionality in transformers In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Functional decomposition and Shapley interactions for interpreting survival models In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "ZebraLogic: On the scaling limits of LLMs for logical reasoning In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 79,
+      "label": "",
+      "text": "Microsoft COCO: Common objects in context In ECCV",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "From local explanations to global understanding with explainable ai for trees Nature Machine Intelligence",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "A unified approach to interpreting model predictions In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 82,
+      "label": "",
+      "text": "A unifying framework to the analysis of interaction methods using synergy functions In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 37,
+      "label": "",
+      "text": "Explaining caption-image interactions in CLIP models with second-order attributions Transactions on Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Shapiq: Shapley interactions for machine learning In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 61,
+      "label": "",
+      "text": "Hessian-enhanced token attribution (HETA): interpreting autoregressive LLMs In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "Learning transferable visual models from natural language supervision In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 88,
+      "label": "",
+      "text": "On the foundations of combinatorial theory: i. theory of möbius functions In Classic Papers in Combinatorics pp. 332–360",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 45,
+      "label": "",
+      "text": "Representational strengths and limitations of transformers In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "A value for n-person games In Contributions to the Theory of Games pp. 307–318",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Integrated directional gradients: Feature interaction attribution for neural NLP models In ACL",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "SmoothGrad: Removing noise by adding noise arXiv preprint, arXiv:1706.03825",
+      "year": null,
+      "arxiv_id": "1706.03825",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "The Shapley Taylor interaction index In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "The many shapley values for model explanation In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Axiomatic attribution for deep networks In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 64,
+      "label": "",
+      "text": "Attribution patching outperforms automated circuit discovery In Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "Faith-Shap: The faithful Shapley interaction index Journal of Machine Learning Research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 60,
+      "label": "",
+      "text": "How does this interaction affect me? Interpretable attribution for feature interactions In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "SigLIP 2: Multilingual vision-language encoders with improved semantic understanding, localization, and dense features arXiv preprint arXiv:2502.14786",
+      "year": 2502,
+      "arxiv_id": "2502.14786",
+      "url": null
+    },
+    {
+      "idx": 71,
+      "label": "",
+      "text": "Data shapley in one training run In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "HyperSHAP: Shapley values and interactions for explaining hyperparameter optimization In AAAI",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 67,
+      "label": "",
+      "text": "Attention is not not explanation In EMNLP",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Regression-adjusted Monte Carlo estimators for Shapley values and probabilistic values In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 91,
+      "label": "",
+      "text": "Efficient streaming language models with attention sinks In ICLR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "Gradient-based visual explanation for CLIP In ICML",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "AdaptGrad: Adaptive sampling to reduce noise In NeurIPS",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}

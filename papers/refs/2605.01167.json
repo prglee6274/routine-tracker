@@ -1,0 +1,392 @@
+{
+  "arxiv_id": "2605.01167",
+  "source": "https://arxiv.org/html/2605.01167v1",
+  "fetched_at": "2026-05-12",
+  "count": 48,
+  "references": [
+    {
+      "idx": 9,
+      "label": "",
+      "text": "Refusal in language models is mediated by a single direction In The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 24,
+      "label": "",
+      "text": "Diff-in-means concept editing is worst-case optimal: explaining a result by sam marks and max tegmark External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://blog.eleuther.ai/diff-in-means/"
+    },
+    {
+      "idx": 7,
+      "label": "",
+      "text": "Persona vectors: monitoring and controlling character traits in language models arXiv preprint arXiv:2507.21509",
+      "year": 2507,
+      "arxiv_id": "2507.21509",
+      "url": null
+    },
+    {
+      "idx": 30,
+      "label": "",
+      "text": "Think you have solved question answering? try arc, the ai2 reasoning challenge arXiv preprint arXiv:1803.05457",
+      "year": null,
+      "arxiv_id": "1803.05457",
+      "url": null
+    },
+    {
+      "idx": 31,
+      "label": "",
+      "text": "Training verifiers to solve math word problems arXiv preprint arXiv:2110.14168",
+      "year": 2110,
+      "arxiv_id": "2110.14168",
+      "url": null
+    },
+    {
+      "idx": 53,
+      "label": "",
+      "text": "Plug and play language models: a simple approach to controlled text generation In International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=H1edEyBKDS"
+    },
+    {
+      "idx": 54,
+      "label": "",
+      "text": "Sparse feature coactivation reveals composable semantic modules in large language models arXiv preprint arXiv:2506.18141",
+      "year": 2506,
+      "arxiv_id": "2506.18141",
+      "url": null
+    },
+    {
+      "idx": 19,
+      "label": "",
+      "text": "The llama 3 herd of models CoRR",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 39,
+      "label": "",
+      "text": "Toy models of superposition Transformer Circuits Thread",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 48,
+      "label": "",
+      "text": "Scaling and evaluating sparse autoencoders In The Thirteenth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=tcsZt9ZNKD"
+    },
+    {
+      "idx": 21,
+      "label": "",
+      "text": "Gemma 2: improving open language models at a practical size arXiv preprint arXiv:2408.00118",
+      "year": 2408,
+      "arxiv_id": "2408.00118",
+      "url": null
+    },
+    {
+      "idx": 29,
+      "label": "",
+      "text": "Measuring massive multitask language understanding Proceedings of the International Conference on Learning Representations (ICLR)",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 34,
+      "label": "",
+      "text": "Sparse autoencoders find highly interpretable features in language models In The Twelfth International Conference on Learning Representations External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://openreview.net/forum?id=F76bwRSLeK"
+    },
+    {
+      "idx": 41,
+      "label": "",
+      "text": "Spherical linear interpolation and text-anchoring for zero-shot composed image retrieval In European Conference on Computer Vision pp. 239–254",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 35,
+      "label": "",
+      "text": "On the origins of linear representations in large language models In Proceedings of the 41st International Conference on Machine Learning ICML’24",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 14,
+      "label": "",
+      "text": "Programming refusal with conditional activation steering In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 3,
+      "label": "",
+      "text": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model arXiv External Links: 2306.03341",
+      "year": 2306,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.48550/arXiv.2306.03341"
+    },
+    {
+      "idx": 49,
+      "label": "",
+      "text": "Gemma scope: open sparse autoencoders everywhere all at once on gemma 2 In Proceedings of the 7th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP Miami, Florida, US External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.blackboxnlp-1.19/"
+    },
+    {
+      "idx": 26,
+      "label": "",
+      "text": "TruthfulQA: measuring how models mimic human falsehoods In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) pp. 3214–3252",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 5,
+      "label": "",
+      "text": "In-context vectors: making in context learning more effective and controllable through latent space steering In Proceedings of the 41st International Conference on Machine Learning ICML’24",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 25,
+      "label": "",
+      "text": "TinyBenchmarks: evaluating llms with fewer examples arXiv preprint arXiv:2402.14992",
+      "year": 2402,
+      "arxiv_id": "2402.14992",
+      "url": null
+    },
+    {
+      "idx": 33,
+      "label": "",
+      "text": "Emergent linear representations in world models of self-supervised sequence models In BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:261530966"
+    },
+    {
+      "idx": 47,
+      "label": "",
+      "text": "Sparse autoencoder CS294A Lecture notes",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 4,
+      "label": "",
+      "text": "Steering llama 2 via contrastive activation addition arXiv preprint arXiv:2312.06681",
+      "year": 2312,
+      "arxiv_id": "2312.06681",
+      "url": null
+    },
+    {
+      "idx": 32,
+      "label": "",
+      "text": "The linear representation hypothesis and the geometry of large language models In Proceedings of the 41st International Conference on Machine Learning ICML’24",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 44,
+      "label": "",
+      "text": "Householder pseudo-rotation: a novel approach to activation editing in LLMs with direction-magnitude perspective In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing Miami, Florida, USA External Links: Link , Document",
+      "year": 2024,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/2024.emnlp-main.761/"
+    },
+    {
+      "idx": 20,
+      "label": "",
+      "text": "QVQ: to see the world with wisdom",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 40,
+      "label": "",
+      "text": "Exploring the limits of transfer learning with a unified text-to-text transformer Journal of machine learning research",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 28,
+      "label": "",
+      "text": "Winogrande: an adversarial winograd schema challenge at scale Communications of the ACM",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 13,
+      "label": "",
+      "text": "Jailbreak antidote: runtime safety-utility balance via sparse representation adjustment in large language models In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 11,
+      "label": "",
+      "text": "AlphaSteer: learning refusal steering with principled null-space constraint arXiv preprint arXiv:2506.07022",
+      "year": 2506,
+      "arxiv_id": "2506.07022",
+      "url": null
+    },
+    {
+      "idx": 42,
+      "label": "",
+      "text": "Animating rotation with quaternion curves Proceedings of the 12th annual conference on Computer graphics and interactive techniques External Links: Link",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://api.semanticscholar.org/CorpusID:11290566"
+    },
+    {
+      "idx": 23,
+      "label": "",
+      "text": "Stanford alpaca: an instruction-following llama model GitHub Note: https://github.com/tatsu-lab/stanford_alpaca",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://github.com/tatsu-lab/stanford_alpaca"
+    },
+    {
+      "idx": 1,
+      "label": "",
+      "text": "Activation addition: steering language models without optimization arXiv preprint arXiv:2308.10248",
+      "year": 2308,
+      "arxiv_id": "2308.10248",
+      "url": null
+    },
+    {
+      "idx": 10,
+      "label": "",
+      "text": "Angular steering: behavior control via rotation in activation space Advances in Neural Information Processing Systems",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 15,
+      "label": "",
+      "text": "Steering away from harm: an adaptive approach to defending vision language model against jailbreaks 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 8,
+      "label": "",
+      "text": "Persona features control emergent misalignment arXiv preprint arXiv:2506.19823",
+      "year": 2506,
+      "arxiv_id": "2506.19823",
+      "url": null
+    },
+    {
+      "idx": 12,
+      "label": "",
+      "text": "Surgical, cheap, and flexible: mitigating false refusal in language models via single vector ablation In The Thirteenth International Conference on Learning Representations",
+      "year": null,
+      "arxiv_id": null,
+      "url": null
+    },
+    {
+      "idx": 43,
+      "label": "",
+      "text": "Sampling generative networks arXiv preprint arXiv:1609.04468",
+      "year": null,
+      "arxiv_id": "1609.04468",
+      "url": null
+    },
+    {
+      "idx": 18,
+      "label": "",
+      "text": "Representation bending for large language model safety In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Vienna, Austria External Links: Document , ISBN 979-8-89176-251-0",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2025.acl-long.1173"
+    },
+    {
+      "idx": 27,
+      "label": "",
+      "text": "HellaSwag: can a machine really finish your sentence? In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics Florence, Italy External Links: Link , Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://aclanthology.org/P19-1472/"
+    },
+    {
+      "idx": 6,
+      "label": "",
+      "text": "TruthX: alleviating hallucinations by editing large language models in truthful space In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) Bangkok, Thailand External Links: Document",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2024.acl-long.483"
+    },
+    {
+      "idx": 51,
+      "label": "",
+      "text": "Instruction tuning for large language models: a survey ACM Comput. Surv. External Links: ISSN 0360-0300",
+      "year": null,
+      "arxiv_id": null,
+      "url": "https://doi.org/10.1145/3777411"
+    },
+    {
+      "idx": 16,
+      "label": "",
+      "text": "Safety is not only about refusal: reasoning-enhanced fine-tuning for interpretable LLM safety In Findings of the Association for Computational Linguistics: ACL 2025 Vienna, Austria External Links: Document , ISBN 979-8-89176-256-5",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2025.findings-acl.960"
+    },
+    {
+      "idx": 17,
+      "label": "",
+      "text": "AdaSteer: your aligned LLM is inherently an adaptive jailbreak defender In Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing Suzhou, China External Links: Document , ISBN 979-8-89176-332-6",
+      "year": 2025,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.18653/v1/2025.emnlp-main.1248"
+    },
+    {
+      "idx": 52,
+      "label": "",
+      "text": "Fine-tuning language models from human preferences arXiv preprint arXiv:1909.08593",
+      "year": 1909,
+      "arxiv_id": "1909.08593",
+      "url": null
+    },
+    {
+      "idx": 2,
+      "label": "",
+      "text": "Representation Engineering: A Top-Down Approach to AI Transparency arXiv External Links: 2310.01405",
+      "year": 2310,
+      "arxiv_id": null,
+      "url": "https://dx.doi.org/10.48550/arXiv.2310.01405"
+    },
+    {
+      "idx": 22,
+      "label": "",
+      "text": "Universal and transferable adversarial attacks on aligned language models External Links: 2307.15043",
+      "year": 2307,
+      "arxiv_id": null,
+      "url": null
+    }
+  ]
+}
