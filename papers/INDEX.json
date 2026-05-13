@@ -1093,6 +1093,202 @@
         "agent_safety",
         "error_attribution"
       ]
+    },
+    "2604.14865": {
+      "version": "v1",
+      "title": "Segment-Level Coherence for Robust Harmful Intent Probing in LLMs",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "harmful intent probing",
+        "streaming probe",
+        "CBRN",
+        "jailbreak detection",
+        "adversarial fine-tuning"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "safety_eval"
+      ]
+    },
+    "2605.00994": {
+      "version": "v1",
+      "title": "Model Organisms Are Leaky: Perplexity Differencing Often Reveals Finetuning Objectives",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "model organisms",
+        "alignment auditing",
+        "perplexity diffing",
+        "backdoor detection",
+        "synthetic document finetuning"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "mechanistic_position",
+        "interp_method"
+      ]
+    },
+    "2605.02751": {
+      "version": "v2",
+      "title": "Mitigating Misalignment Contagion by Steering with Implicit Traits",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "misalignment contagion",
+        "multi-agent",
+        "activation steering",
+        "implicit traits",
+        "social dilemma"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "agent_safety"
+      ]
+    },
+    "2604.14604": {
+      "version": "v1",
+      "title": "Hijacking Large Audio-Language Models via Context-Agnostic and Imperceptible Auditory Prompt Injection",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "auditory prompt injection",
+        "LALM",
+        "multimodal attack",
+        "imperceptible perturbation",
+        "tool-use hijacking"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "multimodal_attack",
+        "adversarial"
+      ]
+    },
+    "2604.15022": {
+      "version": "v1",
+      "title": "Route to Rome Attack: Directing LLM Routers to Expensive Models via Adversarial Suffix Optimization",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "LLM router attack",
+        "adversarial suffix",
+        "black-box attack",
+        "cost-inflation attack",
+        "model stealing"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "prompt_injection"
+      ]
+    },
+    "2605.00847": {
+      "version": "v2",
+      "title": "H-Probes: Extracting Hierarchical Structures From Latent Representations of Language Models",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "linear probes",
+        "hierarchical structure",
+        "latent geometry",
+        "mechanistic interpretability",
+        "reasoning trace"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2605.01034": {
+      "version": "v1",
+      "title": "A Theoretical Game of Attacks via Compositional Skills",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "jailbreak",
+        "game theory",
+        "compositional skill",
+        "best-response attack",
+        "defense equilibrium"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "adversarial",
+        "defense_mechanism"
+      ]
+    },
+    "2604.15063": {
+      "version": "v1",
+      "title": "No More Guessing: a Verifiable Gradient Inversion Attack in Federated Learning",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "federated learning",
+        "gradient inversion attack",
+        "verifiable reconstruction",
+        "ReLU leakage",
+        "tabular privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "federated_privacy",
+        "data_extraction"
+      ]
+    },
+    "2605.01381": {
+      "version": "v1",
+      "title": "A framework for analyzing concept representations in neural models",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "concept subspace",
+        "probing",
+        "concept erasure",
+        "LEACE",
+        "disentanglement"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "representation",
+        "feature_attribution",
+        "interp_method"
+      ]
+    },
+    "2605.01065": {
+      "version": "v1",
+      "title": "A Systematic Exploration of Text Decomposition and Budget Distribution in Differentially Private Text Obfuscation",
+      "first_seen": "2026-05-14",
+      "last_updated": "2026-05-14",
+      "folder": "2026-05-14",
+      "keywords": [
+        "differential privacy",
+        "text obfuscation",
+        "privacy budget allocation",
+        "text decomposition",
+        "NLP privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "pii_leakage"
+      ]
     }
   },
   "_taxonomy": {
