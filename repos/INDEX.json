@@ -4,23 +4,133 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-13",
-      "days_on_list": 2,
-      "last_stars": 75594,
+      "last_seen": "2026-05-14",
+      "days_on_list": 3,
+      "last_stars": 78628,
       "category": "tools",
       "language": "Shell",
       "graduated": false,
       "last_pushed_at": "2026-05-12T07:36:19Z"
     },
-    "TauricResearch/TradingAgents": {
+    "farion1231/cc-switch": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
-      "days_on_list": 2,
-      "last_stars": 71685,
+      "last_seen": "2026-05-14",
+      "days_on_list": 3,
+      "last_stars": 69726,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T07:49:36Z"
+    },
+    "ruvnet/ruflo": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-14",
+      "days_on_list": 1,
+      "last_stars": 50220,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T17:34:12Z"
+    },
+    "github/spec-kit": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-14",
+      "days_on_list": 1,
+      "last_stars": 98174,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T22:50:39Z"
+    },
+    "NousResearch/hermes-agent": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-14",
+      "days_on_list": 4,
+      "last_stars": 148421,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-05-11T09:27:40Z"
+      "last_pushed_at": "2026-05-07T16:23:08Z"
+    },
+    "CloakHQ/CloakBrowser": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-14",
+      "days_on_list": 4,
+      "last_stars": 9291,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T00:00:00Z"
+    },
+    "rohitg00/agentmemory": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
+      "days_on_list": 2,
+      "last_stars": 7315,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T15:17:39Z"
+    },
+    "decolua/9router": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
+      "days_on_list": 2,
+      "last_stars": 9819,
+      "category": "llm",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T15:54:39Z"
+    },
+    "apernet/hysteria": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
+      "days_on_list": 2,
+      "last_stars": 20570,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-10T17:44:28Z"
+    },
+    "zizmorcore/zizmor": {
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-14",
+      "days_on_list": 1,
+      "last_stars": 4794,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T00:00:00Z"
+    },
+    "domcyrus/rustnet": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 3080,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T08:28:45Z"
+    },
+    "millionco/react-doctor": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
+      "days_on_list": 3,
+      "last_stars": 8653,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T04:29:34Z"
+    },
+    "tinyhumansai/openhuman": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 2448,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T18:53:33Z"
     },
     "addyosmani/agent-skills": {
       "first_seen": "2026-05-08",
@@ -42,66 +152,6 @@
       "graduated": true,
       "last_pushed_at": "2026-05-11T00:05:18Z"
     },
-    "soxoj/maigret": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
-      "days_on_list": 3,
-      "last_stars": 26368,
-      "category": "security",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "farion1231/cc-switch": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-13",
-      "days_on_list": 2,
-      "last_stars": 68569,
-      "category": "tools",
-      "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": "2026-05-11T07:49:36Z"
-    },
-    "VectifyAI/PageIndex": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
-      "days_on_list": 1,
-      "last_stars": 29842,
-      "category": "llm",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "rtk-ai/rtk": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 44319,
-      "category": "tools",
-      "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "aaif-goose/goose": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 44638,
-      "category": "llm",
-      "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "always-further/nono": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
-      "days_on_list": 1,
-      "last_stars": 2305,
-      "category": "security",
-      "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
     "anthropics/financial-services": {
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-12",
@@ -112,42 +162,62 @@
       "graduated": true,
       "last_pushed_at": ""
     },
-    "fleetdm/fleet": {
-      "first_seen": "2026-05-08",
-      "last_seen": "2026-05-09",
+    "moonD4rk/HackBrowserData": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-12",
       "days_on_list": 2,
-      "last_stars": 6343,
+      "last_stars": 13995,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-04-29T00:00:00Z"
     },
-    "ruvnet/ruflo": {
-      "first_seen": "2026-05-09",
-      "last_seen": "2026-05-09",
+    "InsForge/InsForge": {
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
       "days_on_list": 1,
-      "last_stars": 46751,
+      "last_stars": 9439,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T00:00:00Z"
+    },
+    "bytedance/UI-TARS-desktop": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 31975,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-05-05T14:20:10Z"
+      "last_pushed_at": ""
     },
-    "cilium/cilium": {
-      "first_seen": "2026-05-09",
-      "last_seen": "2026-05-09",
+    "microsoft/waza": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
       "days_on_list": 1,
-      "last_stars": 24305,
-      "category": "security",
+      "last_stars": 568,
+      "category": "tools",
       "language": "Go",
       "graduated": false,
       "last_pushed_at": ""
     },
-    "github/spec-kit": {
-      "first_seen": "2026-05-10",
+    "soxoj/maigret": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 26368,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "VectifyAI/PageIndex": {
+      "first_seen": "2026-05-08",
       "last_seen": "2026-05-10",
       "days_on_list": 1,
-      "last_stars": 94215,
-      "category": "tools",
+      "last_stars": 29842,
+      "category": "llm",
       "language": "Python",
       "graduated": false,
       "last_pushed_at": ""
@@ -192,125 +262,65 @@
       "graduated": false,
       "last_pushed_at": ""
     },
-    "bytedance/UI-TARS-desktop": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 31975,
-      "category": "llm",
-      "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "NousResearch/hermes-agent": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
-      "days_on_list": 3,
-      "last_stars": 146626,
-      "category": "llm",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-05-12T18:59:31Z"
-    },
-    "CloakHQ/CloakBrowser": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
-      "days_on_list": 3,
-      "last_stars": 7512,
-      "category": "security",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-05-12T13:53:31Z"
-    },
-    "microsoft/waza": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-11",
-      "days_on_list": 1,
-      "last_stars": 568,
-      "category": "tools",
-      "language": "Go",
-      "graduated": false,
-      "last_pushed_at": ""
-    },
-    "domcyrus/rustnet": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
-      "days_on_list": 1,
-      "last_stars": 3080,
-      "category": "security",
-      "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": "2026-05-11T08:28:45Z"
-    },
-    "millionco/react-doctor": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-13",
-      "days_on_list": 3,
-      "last_stars": 8653,
-      "category": "tools",
-      "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-05-12T04:29:34Z"
-    },
-    "moonD4rk/HackBrowserData": {
-      "first_seen": "2026-05-11",
-      "last_seen": "2026-05-12",
+    "TauricResearch/TradingAgents": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-09",
       "days_on_list": 2,
-      "last_stars": 13995,
+      "last_stars": 71685,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T09:27:40Z"
+    },
+    "fleetdm/fleet": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 6343,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-04-29T00:00:00Z"
+      "last_pushed_at": ""
     },
-    "InsForge/InsForge": {
-      "first_seen": "2026-05-12",
-      "last_seen": "2026-05-12",
+    "cilium/cilium": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
       "days_on_list": 1,
-      "last_stars": 9439,
+      "last_stars": 24305,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "rtk-ai/rtk": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 44319,
       "category": "tools",
-      "language": "TypeScript",
+      "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-05-11T00:00:00Z"
+      "last_pushed_at": ""
     },
-    "rohitg00/agentmemory": {
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-05-13",
+    "aaif-goose/goose": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 5657,
-      "category": "llm",
-      "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-05-12T15:24:59Z"
-    },
-    "tinyhumansai/openhuman": {
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-05-13",
-      "days_on_list": 1,
-      "last_stars": 2448,
+      "last_stars": 44638,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-05-12T18:53:33Z"
+      "last_pushed_at": ""
     },
-    "decolua/9router": {
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-05-13",
+    "always-further/nono": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
       "days_on_list": 1,
-      "last_stars": 9257,
-      "category": "llm",
-      "language": "JavaScript",
-      "graduated": false,
-      "last_pushed_at": "2026-05-12T13:26:08Z"
-    },
-    "apernet/hysteria": {
-      "first_seen": "2026-05-13",
-      "last_seen": "2026-05-13",
-      "days_on_list": 1,
-      "last_stars": 20137,
+      "last_stars": 2305,
       "category": "security",
-      "language": "Go",
+      "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-05-10T17:13:49Z"
+      "last_pushed_at": ""
     }
   }
 }
