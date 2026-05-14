@@ -1289,6 +1289,198 @@
         "differential_privacy",
         "pii_leakage"
       ]
+    },
+    "2603.17839": {
+      "version": "v2",
+      "title": "How do LLMs Compute Verbal Confidence?",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "mechanistic interpretability",
+        "activation patching",
+        "linear probing",
+        "metacognition",
+        "confidence calibration"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "probing",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2604.13630": {
+      "version": "v1",
+      "title": "SafeHarness: Lifecycle-Integrated Security Architecture for LLM-based Agent Deployment",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "agent safety",
+        "LLM agent",
+        "defense architecture",
+        "prompt injection",
+        "attack success rate"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "defense_mechanism",
+        "prompt_injection"
+      ]
+    },
+    "2604.14457": {
+      "version": "v1",
+      "title": "NeuroTrace: Inference Provenance-Based Detection of Adversarial Examples",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "adversarial examples",
+        "inference provenance graph",
+        "heterogeneous GNN",
+        "detection benchmark",
+        "model auditing"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "defense_mechanism"
+      ]
+    },
+    "2604.13348": {
+      "version": "v1",
+      "title": "Listening Alone, Understanding Together: Collaborative Context Recovery for Privacy-Aware AI",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "AI privacy",
+        "speech assistant",
+        "speaker verification",
+        "agent-to-agent",
+        "consent"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "agent_privacy",
+        "pii_leakage"
+      ]
+    },
+    "2603.17902": {
+      "version": "v1",
+      "title": "Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "differential privacy",
+        "LLM agent",
+        "enterprise data leakage",
+        "privacy-utility tradeoff",
+        "token-level DP"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "agent_privacy"
+      ]
+    },
+    "2603.17915": {
+      "version": "v1",
+      "title": "IndicSafe: A Benchmark for Evaluating Multilingual LLM Safety in South Asia",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "safety benchmark",
+        "multilingual safety",
+        "safety drift",
+        "cultural alignment",
+        "low-resource languages"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety_eval",
+        "alignment_robustness"
+      ]
+    },
+    "2603.17368": {
+      "version": "v2",
+      "title": "Towards Safer Large Reasoning Models by Promoting Safety Decision-Making before Chain-of-Thought Generation",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "large reasoning model",
+        "safety alignment",
+        "chain-of-thought",
+        "safety degradation",
+        "latent representation"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
+    },
+    "2604.14717": {
+      "version": "v2",
+      "title": "Layered Mutability: Identity Drift and Governance in Self-Modifying AI Agents",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "agent safety",
+        "AI governance",
+        "self-modifying agents",
+        "identity drift",
+        "compositional drift"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "alignment_robustness"
+      ]
+    },
+    "2604.13474": {
+      "version": "v1",
+      "title": "Secure and Privacy-Preserving Vertical Federated Learning",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "vertical federated learning",
+        "differential privacy",
+        "secure multiparty computation",
+        "input-output privacy",
+        "federated learning privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "federated_privacy",
+        "differential_privacy"
+      ]
+    },
+    "2603.17445": {
+      "version": "v4",
+      "title": "When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution",
+      "first_seen": "2026-05-15",
+      "last_updated": "2026-05-15",
+      "folder": "2026-05-15",
+      "keywords": [
+        "multi-agent attribution",
+        "agent safety",
+        "provenance-by-design",
+        "accountability",
+        "privacy-preserving"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "error_attribution"
+      ]
     }
   },
   "_taxonomy": {
