@@ -4,12 +4,12 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-15",
-      "days_on_list": 4,
-      "last_stars": 81831,
-      "category": "tools",
+      "last_seen": "2026-05-16",
+      "days_on_list": 5,
+      "last_stars": 84649,
+      "category": "llm",
       "language": "Shell",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-05-12T07:36:19Z"
     },
     "farion1231/cc-switch": {
@@ -54,23 +54,23 @@
     },
     "CloakHQ/CloakBrowser": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-15",
-      "days_on_list": 5,
-      "last_stars": 10658,
+      "last_seen": "2026-05-16",
+      "days_on_list": 6,
+      "last_stars": 11742,
       "category": "security",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-04-28T03:44:50Z"
     },
     "rohitg00/agentmemory": {
       "first_seen": "2026-05-13",
-      "last_seen": "2026-05-15",
-      "days_on_list": 3,
-      "last_stars": 8833,
+      "last_seen": "2026-05-16",
+      "days_on_list": 4,
+      "last_stars": 9539,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-05-13T15:17:39Z"
+      "graduated": true,
+      "last_pushed_at": "2026-05-15T18:59:06Z"
     },
     "decolua/9router": {
       "first_seen": "2026-05-13",
@@ -84,9 +84,9 @@
     },
     "apernet/hysteria": {
       "first_seen": "2026-05-13",
-      "last_seen": "2026-05-14",
-      "days_on_list": 2,
-      "last_stars": 20570,
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 20839,
       "category": "security",
       "language": "Go",
       "graduated": false,
@@ -351,6 +351,66 @@
       "language": "Rust",
       "graduated": false,
       "last_pushed_at": ""
+    },
+    "ruvnet/RuView": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 57273,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-14T03:46:49Z"
+    },
+    "czlonkowski/n8n-mcp": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 20837,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-14T10:02:26Z"
+    },
+    "NVIDIA/OpenShell": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 5985,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-15T15:12:46Z"
+    },
+    "OpenCTI-Platform/opencti": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 9354,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-15T10:17:42Z"
+    },
+    "facebook/pyrefly": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 5954,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T20:13:51Z"
+    },
+    "komari-monitor/komari": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 4635,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-08T04:46:11Z"
     }
   }
 }
