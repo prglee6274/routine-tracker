@@ -1673,6 +1673,194 @@
         "federated_learning",
         "anonymization"
       ]
+    },
+    "2605.14454": {
+      "version": "v1",
+      "title": "LiSA: Lifelong Safety Adaptation via Conservative Policy Induction",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "agent safety",
+        "guardrail",
+        "policy induction",
+        "LLM agent"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "alignment_robustness",
+        "guardrail"
+      ]
+    },
+    "2605.15183": {
+      "version": "v1",
+      "title": "When Are Two Networks the Same? Tensor Similarity for Mechanistic Interpretability",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "mechanistic interpretability",
+        "weight-space symmetry",
+        "tensor similarity",
+        "circuit verification"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "mechanistic_position",
+        "interp_method",
+        "circuit"
+      ]
+    },
+    "2605.15172": {
+      "version": "v1",
+      "title": "MetaBackdoor: Exploiting Positional Encoding as a Backdoor Attack Surface in LLMs",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "backdoor",
+        "positional encoding",
+        "LLM security",
+        "system prompt leakage"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "prompt_leak",
+        "novel_attack_surface"
+      ]
+    },
+    "2605.15138": {
+      "version": "v1",
+      "title": "Forgetting That Sticks: Quantization-Permanent Unlearning via Circuit Attribution",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "machine unlearning",
+        "quantization",
+        "circuit attribution",
+        "mechanistic verification"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "quantization",
+        "circuit"
+      ]
+    },
+    "2605.15030": {
+      "version": "v1",
+      "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "prompt injection",
+        "web agent",
+        "guard model",
+        "adversarial training"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent_safety",
+        "defense_mechanism"
+      ]
+    },
+    "2605.14750": {
+      "version": "v1",
+      "title": "EVA: Editing for Versatile Alignment against Jailbreaks",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "jailbreak",
+        "model editing",
+        "safety alignment",
+        "VLM safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "model_editing"
+      ]
+    },
+    "2605.14591": {
+      "version": "v1",
+      "title": "Privacy Auditing with Zero (0) Training Run",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "privacy auditing",
+        "differential privacy",
+        "membership inference",
+        "causal inference"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "membership_inference",
+        "auditing"
+      ]
+    },
+    "2605.14686": {
+      "version": "v1",
+      "title": "ReMIA: a Powerful and Efficient Alternative to Membership Inference Attacks against Synthetic Data Generators",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "membership inference",
+        "synthetic data",
+        "privacy metric",
+        "tabular SDG"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "synthetic_data"
+      ]
+    },
+    "2605.14418": {
+      "version": "v1",
+      "title": "The Great Pretender: A Stochasticity Problem in LLM Jailbreak",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "jailbreak",
+        "evaluation",
+        "ASR metric",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "evaluation_methodology"
+      ]
+    },
+    "2605.13930": {
+      "version": "v1",
+      "title": "Mechanistic Interpretability of EEG Foundation Models via Sparse Autoencoders",
+      "first_seen": "2026-05-17",
+      "last_updated": "2026-05-17",
+      "folder": "2026-05-17",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "EEG foundation model",
+        "concept steering"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "representation",
+        "concept_steering"
+      ]
     }
   },
   "_taxonomy": {
