@@ -1481,6 +1481,198 @@
         "agent_safety",
         "error_attribution"
       ]
+    },
+    "2605.13631": {
+      "version": "v1",
+      "title": "ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "agent safety",
+        "prompt injection",
+        "computer-use agent",
+        "low-dimensional projection"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "prompt_injection",
+        "defense_mechanism"
+      ]
+    },
+    "2605.12225": {
+      "version": "v1",
+      "title": "Mechanistic Interpretability of ASR models using Sparse Autoencoders",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "mechanistic interpretability",
+        "sparse autoencoder",
+        "ASR",
+        "Whisper"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "interp_method",
+        "audio"
+      ]
+    },
+    "2605.09638": {
+      "version": "v1",
+      "title": "Plan2Cleanse: Test-Time Backdoor Defense via Monte-Carlo Planning in Deep Reinforcement Learning",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "RL backdoor",
+        "test-time defense",
+        "MCTS",
+        "agent safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "defense_mechanism",
+        "rl_safety"
+      ]
+    },
+    "2605.06669": {
+      "version": "v1",
+      "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "prompt injection",
+        "LLM guardrail",
+        "alignment evaluation",
+        "education"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "defense_mechanism",
+        "evaluation"
+      ]
+    },
+    "2605.06494": {
+      "version": "v1",
+      "title": "From Token Lists to Graph Motifs: Weisfeiler-Lehman Analysis of Sparse Autoencoder Features",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "graph kernel",
+        "feature analysis"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "feature_attribution"
+      ]
+    },
+    "2605.05151": {
+      "version": "v1",
+      "title": "Superposition Is Not Necessary: A Mechanistic Interpretability Analysis of Transformer Representations for Time Series Forecasting",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "mechanistic interpretability",
+        "sparse autoencoder",
+        "superposition",
+        "time series"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "superposition",
+        "mechanistic_position",
+        "interp_method"
+      ]
+    },
+    "2605.04072": {
+      "version": "v1",
+      "title": "Sparse Autoencoder Decomposition of Clinical Sequence Model Representations: Feature Complexity, Task Specialisation, and Mortality Prediction",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "sparse autoencoder",
+        "clinical foundation model",
+        "interpretability",
+        "mortality prediction"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "applied_interp"
+      ]
+    },
+    "2605.03242": {
+      "version": "v1",
+      "title": "Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "agent safety",
+        "red-teaming",
+        "safety benchmark",
+        "analogical reasoning"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "red_team",
+        "evaluation"
+      ]
+    },
+    "2605.03226": {
+      "version": "v1",
+      "title": "Self-Mined Hardness for Safety Fine-Tuning",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "safety fine-tuning",
+        "jailbreak",
+        "data curation",
+        "over-refusal"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "alignment_robustness",
+        "safety_training"
+      ]
+    },
+    "2605.02372": {
+      "version": "v1",
+      "title": "Privacy Preserving Machine Learning Workflow: from Anonymization to Personalized Differential Privacy Budgets in Federated Learning",
+      "first_seen": "2026-05-16",
+      "last_updated": "2026-05-16",
+      "folder": "2026-05-16",
+      "keywords": [
+        "differential privacy",
+        "federated learning",
+        "anonymization",
+        "client drift"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "federated_learning",
+        "anonymization"
+      ]
     }
   },
   "_taxonomy": {
