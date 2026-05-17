@@ -1861,6 +1861,169 @@
         "representation",
         "concept_steering"
       ]
+    },
+    "2605.10611": {
+      "version": "v1",
+      "title": "Re-Triggering Safeguards within LLMs for Jailbreak Detection",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "jailbreak",
+        "embedding disruption",
+        "internal safeguard",
+        "prompt-level defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak_defense",
+        "alignment_robustness"
+      ]
+    },
+    "2605.07982": {
+      "version": "v1",
+      "title": "GLiGuard: Schema-Conditioned Bidirectional Encoder for LLM Content Moderation",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "content moderation",
+        "jailbreak detection",
+        "prompt safety",
+        "harm taxonomy"
+      ],
+      "category": "security",
+      "subtopics": [
+        "moderation",
+        "jailbreak_defense"
+      ]
+    },
+    "2605.04572": {
+      "version": "v1",
+      "title": "From Parameter Dynamics to Risk Scoring: Quantifying Sample-Level Safety Degradation in LLM Fine-tuning",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "safety alignment",
+        "fine-tuning attack",
+        "parameter dynamics",
+        "risk scoring"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "fine_tuning_attack"
+      ]
+    },
+    "2604.18697": {
+      "version": "v1",
+      "title": "Beyond Indistinguishability: Measuring Extraction Risk in LLM APIs",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "training data extraction",
+        "differential privacy",
+        "LLM API",
+        "inextractability"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "data_extraction",
+        "dp_theory"
+      ]
+    },
+    "2604.13776": {
+      "version": "v1",
+      "title": "Who Gets Flagged? The Pluralistic Evaluation Gap in AI Content Watermarking",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "watermarking",
+        "AI content detection",
+        "pluralistic evaluation",
+        "fairness"
+      ],
+      "category": "security",
+      "subtopics": [
+        "watermarking",
+        "eval_fairness"
+      ]
+    },
+    "2604.13301": {
+      "version": "v1",
+      "title": "Honeypot Protocol",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "AI control",
+        "agent monitoring",
+        "honeypot",
+        "deception detection"
+      ],
+      "category": "security",
+      "subtopics": [
+        "ai_control",
+        "agent_safety"
+      ]
+    },
+    "2604.14495": {
+      "version": "v1",
+      "title": "Decoupling Identity from Utility: Privacy-by-Design Frameworks for Financial Ecosystems",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "privacy by design",
+        "pseudonymization",
+        "financial AI",
+        "PII protection"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "privacy_arch",
+        "pii"
+      ]
+    },
+    "2604.13668": {
+      "version": "v1",
+      "title": "Where Trust Fails: Mapping Location-Data Provenance Risks in Europe",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "location privacy",
+        "data provenance",
+        "GDPR",
+        "re-identification"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "location_privacy",
+        "re_identification"
+      ]
+    },
+    "2603.19183": {
+      "version": "v1",
+      "title": "Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "sparse autoencoder",
+        "VLA",
+        "robot policy",
+        "feature steering"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "activation_steering",
+        "interp_method"
+      ]
     }
   },
   "_taxonomy": {
