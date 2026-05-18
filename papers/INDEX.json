@@ -2024,6 +2024,24 @@
         "activation_steering",
         "interp_method"
       ]
+    },
+    "2604.13849": {
+      "version": "v1",
+      "title": "MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems",
+      "first_seen": "2026-05-18",
+      "last_updated": "2026-05-18",
+      "folder": "2026-05-18",
+      "keywords": [
+        "MCP",
+        "agent threat intel",
+        "LLM tooling security",
+        "DEFCON SG"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "supply_chain"
+      ]
     }
   },
   "_taxonomy": {

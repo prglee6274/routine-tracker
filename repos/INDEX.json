@@ -4,13 +4,13 @@
   "entries": {
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-16",
-      "days_on_list": 5,
-      "last_stars": 84649,
+      "last_seen": "2026-05-19",
+      "days_on_list": 1,
+      "last_stars": 91524,
       "category": "llm",
       "language": "Shell",
-      "graduated": true,
-      "last_pushed_at": "2026-05-12T07:36:19Z"
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T00:00:00Z"
     },
     "farion1231/cc-switch": {
       "first_seen": "2026-05-08",
@@ -34,13 +34,13 @@
     },
     "github/spec-kit": {
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-15",
-      "days_on_list": 2,
-      "last_stars": 99289,
+      "last_seen": "2026-05-19",
+      "days_on_list": 1,
+      "last_stars": 98174,
       "category": "tools",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-05-14T15:16:20Z"
+      "last_pushed_at": "2026-05-12T22:50:39Z"
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
@@ -124,9 +124,9 @@
     },
     "tinyhumansai/openhuman": {
       "first_seen": "2026-05-13",
-      "last_seen": "2026-05-18",
-      "days_on_list": 2,
-      "last_stars": 12693,
+      "last_seen": "2026-05-19",
+      "days_on_list": 3,
+      "last_stars": 16633,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
@@ -354,9 +354,9 @@
     },
     "ruvnet/RuView": {
       "first_seen": "2026-05-16",
-      "last_seen": "2026-05-18",
-      "days_on_list": 1,
-      "last_stars": 59085,
+      "last_seen": "2026-05-19",
+      "days_on_list": 2,
+      "last_stars": 59761,
       "category": "security",
       "language": "Rust",
       "graduated": false,
@@ -414,9 +414,9 @@
     },
     "obra/superpowers": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-18",
-      "days_on_list": 2,
-      "last_stars": 194979,
+      "last_seen": "2026-05-19",
+      "days_on_list": 3,
+      "last_stars": 189319,
       "category": "llm",
       "language": "Shell",
       "graduated": false,
@@ -444,19 +444,19 @@
     },
     "colbymchenry/codegraph": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-17",
+      "last_seen": "2026-05-19",
       "days_on_list": 1,
-      "last_stars": 2362,
+      "last_stars": 4600,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-05-13T14:06:11Z"
+      "last_pushed_at": "2026-05-18T01:27:17Z"
     },
     "KeygraphHQ/shannon": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-18",
-      "days_on_list": 2,
-      "last_stars": 42612,
+      "last_seen": "2026-05-19",
+      "days_on_list": 3,
+      "last_stars": 42992,
       "category": "security",
       "language": "TypeScript",
       "graduated": false,
@@ -464,9 +464,9 @@
     },
     "BigBodyCobain/Shadowbroker": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-05-18",
-      "days_on_list": 2,
-      "last_stars": 6947,
+      "last_seen": "2026-05-19",
+      "days_on_list": 3,
+      "last_stars": 7626,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -504,13 +504,23 @@
     },
     "HKUDS/CLI-Anything": {
       "first_seen": "2026-05-18",
-      "last_seen": "2026-05-18",
-      "days_on_list": 1,
-      "last_stars": 35466,
+      "last_seen": "2026-05-19",
+      "days_on_list": 2,
+      "last_stars": 36497,
       "category": "tools",
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-04-24T15:49:56Z"
+    },
+    "Imbad0202/academic-research-skills": {
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "days_on_list": 1,
+      "last_stars": 11320,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-18T07:00:00Z"
     }
   }
 }
