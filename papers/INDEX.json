@@ -2042,6 +2042,199 @@
         "agent_safety",
         "supply_chain"
       ]
+    },
+    "2605.13411": {
+      "version": "v1",
+      "title": "Model-Agnostic Lifelong LLM Safety via Externalized Attack-Defense Co-Evolution",
+      "keywords": [
+        "red teaming",
+        "safety alignment",
+        "lifelong learning",
+        "attack-defense co-evolution",
+        "LLM guard"
+      ],
+      "category": "security",
+      "subtopics": [
+        "red_teaming",
+        "defense_mechanism",
+        "alignment_robustness"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.08878": {
+      "version": "v1",
+      "title": "Why Do Aligned LLMs Remain Jailbreakable: Refusal-Escape Directions, Operator-Level Sources, and Safety-Utility Trade-off",
+      "keywords": [
+        "jailbreak",
+        "mechanistic interpretability",
+        "refusal direction",
+        "operator-level decomposition",
+        "safety-utility trade-off"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "mechanistic_position",
+        "interp_method"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.07990": {
+      "version": "v1",
+      "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+      "keywords": [
+        "activation patching",
+        "linear probing",
+        "steering vector",
+        "agent safety",
+        "tool calling"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method",
+        "agent_safety"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.06890": {
+      "version": "v1",
+      "title": "Beyond the Black Box: Interpretability of Agentic AI Tool Use",
+      "keywords": [
+        "sparse autoencoder",
+        "linear probe",
+        "agent observability",
+        "mechanistic interpretability",
+        "tool calling"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "agent_safety"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.11392": {
+      "version": "v1",
+      "title": "Transformer Interpretability from Perspective of Attention and Gradient",
+      "keywords": [
+        "transformer interpretability",
+        "attention attribution",
+        "gradient attribution",
+        "feature attribution"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "feature_attribution",
+        "interp_method"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.05329": {
+      "version": "v1",
+      "title": "Understanding Annotator Safety Policy with Interpretability",
+      "keywords": [
+        "interpretability",
+        "safety policy",
+        "annotator behavior",
+        "auditable safety",
+        "RLHF"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "alignment_robustness"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.05427": {
+      "version": "v1",
+      "title": "The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias",
+      "keywords": [
+        "AI safety",
+        "regional bias",
+        "causal analysis",
+        "LLM safety guardrail",
+        "governance"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "governance"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.02647": {
+      "version": "v1",
+      "title": "ContextualJailbreak: Evolutionary Red-Teaming via Simulated Conversational Priming",
+      "keywords": [
+        "multi-turn jailbreak",
+        "red-teaming",
+        "evolutionary search",
+        "contextual priming",
+        "black-box attack"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.02297": {
+      "version": "v1",
+      "title": "Graph Federated Unlearning for Privacy Preservation",
+      "keywords": [
+        "federated learning",
+        "unlearning",
+        "graph neural network",
+        "privacy",
+        "membership inference"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "membership_inference"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
+    },
+    "2605.03042": {
+      "version": "v1",
+      "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+      "keywords": [
+        "multi-agent",
+        "adversarial collaboration",
+        "research automation",
+        "agent safety",
+        "orchestration"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety"
+      ],
+      "first_seen": "2026-05-19",
+      "last_updated": "2026-05-19",
+      "folder": "2026-05-19"
     }
   },
   "_taxonomy": {
