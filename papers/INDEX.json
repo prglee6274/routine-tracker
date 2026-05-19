@@ -2235,6 +2235,194 @@
       "first_seen": "2026-05-19",
       "last_updated": "2026-05-19",
       "folder": "2026-05-19"
+    },
+    "2605.18549": {
+      "version": "v1",
+      "title": "Monitoring the Internal Monologue: Probe Trajectories Reveal Reasoning Dynamics",
+      "keywords": [
+        "CoT monitoring",
+        "probing",
+        "representation engineering",
+        "LRM safety",
+        "interpretability"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "cot_monitoring"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18719": {
+      "version": "v1",
+      "title": "SafeDiffusion-R1: Online Reward Steering for Safe Diffusion Post-Training",
+      "keywords": [
+        "diffusion safety",
+        "GRPO",
+        "online RL",
+        "CLIP steering",
+        "unsafe content removal"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "safety_post_training"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.12290": {
+      "version": "v1",
+      "title": "Targeted Neuron Modulation via Contrastive Pair Search",
+      "keywords": [
+        "refusal circuit",
+        "MLP neurons",
+        "mech interp",
+        "steering",
+        "jailbreak"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "circuit_analysis"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.15572": {
+      "version": "v1",
+      "title": "Measuring Maximum Activations in Open Large Language Models",
+      "keywords": [
+        "activation analysis",
+        "quantization",
+        "MoE",
+        "outlier features",
+        "open models"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_analysis"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18629": {
+      "version": "v1",
+      "title": "Aligned Training: A Parameter-Free Method to Improve Feature Quality and Stability of Sparse Autoencoders (SAE)",
+      "keywords": [
+        "sparse autoencoder",
+        "dead features",
+        "feature stability",
+        "SAEBench",
+        "mech interp"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18537": {
+      "version": "v1",
+      "title": "Probing for Representation Manifolds in Superposition",
+      "keywords": [
+        "manifold probe",
+        "superposition",
+        "feature geometry",
+        "causal steering",
+        "probing"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "superposition"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18133": {
+      "version": "v1",
+      "title": "An Empirical Study of Privacy Leakage Chains via Prompt Injection in Black-Box Chatbot Environments",
+      "keywords": [
+        "indirect prompt injection",
+        "privacy leakage",
+        "data exfiltration",
+        "chatbot agents",
+        "tool use"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "privacy_leakage",
+        "prompt_injection"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18253": {
+      "version": "v1",
+      "title": "Machine Unlearning for Masked Diffusion Language Models",
+      "keywords": [
+        "machine unlearning",
+        "masked diffusion LM",
+        "KL divergence",
+        "privacy-utility tradeoff",
+        "LLaDA"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.18168": {
+      "version": "v1",
+      "title": "Acoustic Interference: A New Paradigm Weaponizing Acoustic Latent Semantic for Universal Jailbreak against Large Audio Language Models",
+      "keywords": [
+        "audio LLM jailbreak",
+        "cross-modal alignment",
+        "acoustic latent semantics",
+        "universal attack",
+        "LALM"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "multimodal_attack"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
+    },
+    "2605.17413": {
+      "version": "v1",
+      "title": "Ablating Safety: Mechanisms for Removing Alignment in Language Models for Security Applications",
+      "keywords": [
+        "alignment removal",
+        "refusal direction",
+        "LoRA de-alignment",
+        "cybersecurity benchmark",
+        "utility-risk"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "red_teaming"
+      ],
+      "first_seen": "2026-05-20",
+      "last_updated": "2026-05-20",
+      "folder": "2026-05-20"
     }
   },
   "_taxonomy": {
