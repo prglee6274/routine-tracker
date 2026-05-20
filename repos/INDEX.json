@@ -2,6 +2,86 @@
   "_schema": "owner/repo -> { first_seen, last_seen (YYYY-MM-DD), last_stars, last_pushed_at (ISO), days_on_list, category, language, graduated }",
   "_note": "연속 트렌딩 일수 + 24h 스타 velocity + graduate(4일째 자동 졸업) 추적. graduated=true 는 Top 10 후보 제외, GitHub 새 push 들어오면 1회 부활.",
   "entries": {
+    "ruvnet/wifi-densepose": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 12889,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "anthropics/skills": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 79641,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "muratcankoylan/Agent-Skills-for-Context-Engineering": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 12778,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "alibaba/OpenSandbox": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 2505,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "clockworklabs/SpacetimeDB": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 23046,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "tursodatabase/agentfs": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 2584,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "astral-sh/uv": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 80582,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "derv82/wifite2": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 7638,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
       "last_seen": "2026-05-20",
@@ -44,13 +124,13 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-14",
-      "days_on_list": 4,
-      "last_stars": 148421,
+      "last_seen": "2026-05-21",
+      "days_on_list": 1,
+      "last_stars": 1187,
       "category": "llm",
       "language": "Python",
-      "graduated": true,
-      "last_pushed_at": "2026-05-07T16:23:08Z"
+      "graduated": false,
+      "last_pushed_at": ""
     },
     "CloakHQ/CloakBrowser": {
       "first_seen": "2026-05-11",
@@ -244,9 +324,9 @@
     },
     "VectifyAI/PageIndex": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-10",
+      "last_seen": "2026-05-21",
       "days_on_list": 1,
-      "last_stars": 29842,
+      "last_stars": 19412,
       "category": "llm",
       "language": "Python",
       "graduated": false,
