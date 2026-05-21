@@ -2423,6 +2423,190 @@
       "first_seen": "2026-05-20",
       "last_updated": "2026-05-20",
       "folder": "2026-05-20"
+    },
+    "2605.15514": {
+      "version": "v1",
+      "title": "RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "interpretability theory",
+        "positional embedding",
+        "RoPE",
+        "long-context",
+        "attention analysis"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "representation",
+        "interp_method",
+        "probing"
+      ]
+    },
+    "2604.14973": {
+      "version": "v1",
+      "title": "Robustness of Vision Foundation Models to Common Perturbations",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "adversarial robustness",
+        "foundation models",
+        "embedding robustness",
+        "safety eval"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "safety_eval",
+        "defense_mechanism"
+      ]
+    },
+    "2604.03764": {
+      "version": "v1",
+      "title": "Automated Attention Pattern Discovery at Scale in Large Language Models",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "mechanistic interpretability",
+        "attention patterns",
+        "masked autoencoder",
+        "activation intervention"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "circuits",
+        "probing"
+      ]
+    },
+    "2604.15136": {
+      "version": "v1",
+      "title": "Feedback-Driven Execution for LLM-Based Binary Analysis",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "LLM agents",
+        "binary analysis",
+        "vulnerability discovery",
+        "agent safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "red_teaming"
+      ]
+    },
+    "2604.14512": {
+      "version": "v1",
+      "title": "CBCL: Safe Self-Extending Agent Communication",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "agent safety",
+        "agent communication",
+        "formal verification",
+        "oversight"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "alignment_robustness"
+      ]
+    },
+    "2604.13298": {
+      "version": "v1",
+      "title": "Can Agents Secure Hardware? Evaluating Agentic LLM-Driven Obfuscation for IP Protection",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "hardware security",
+        "logic obfuscation",
+        "agentic LLM",
+        "IP protection",
+        "SAT attack"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety"
+      ]
+    },
+    "2604.13764": {
+      "version": "v1",
+      "title": "RealVuln: Benchmarking Rule-Based, General-Purpose LLM, and Security-Specialized Scanners on Real-World Code",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "LLM security scanners",
+        "SAST",
+        "vulnerability detection benchmark",
+        "safety eval"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety_eval",
+        "red_teaming"
+      ]
+    },
+    "2604.13153": {
+      "version": "v1",
+      "title": "PatchPoison: Poisoning Multi-View Datasets to Degrade 3D Reconstruction",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "data poisoning",
+        "privacy protection",
+        "3D reconstruction",
+        "adversarial patch",
+        "anti-reconstruction"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "multimodal_attack"
+      ]
+    },
+    "2604.13274": {
+      "version": "v1",
+      "title": "Sequential Change Detection for Multiple Data Streams with Differential Privacy",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "differential privacy",
+        "sequential change detection",
+        "CUSUM",
+        "privacy-utility tradeoff"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy"
+      ]
+    },
+    "2604.14250": {
+      "version": "v1",
+      "title": "Head Count: Privacy-Preserving Face-Based Crowd Monitoring",
+      "first_seen": "2026-05-21",
+      "last_updated": "2026-05-21",
+      "folder": "2026-05-21",
+      "keywords": [
+        "privacy-preserving",
+        "biometric privacy",
+        "fuzzy extractor",
+        "PII",
+        "crowd monitoring"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "pii_leakage"
+      ]
     }
   },
   "_taxonomy": {
