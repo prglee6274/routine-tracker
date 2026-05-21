@@ -2607,6 +2607,200 @@
       "subtopics": [
         "pii_leakage"
       ]
+    },
+    "2605.12671": {
+      "version": "v1",
+      "title": "All Circuits Lead to Rome: Rethinking Functional Anisotropy in Circuit and Sheaf Discovery for LLMs",
+      "keywords": [
+        "mechanistic interpretability",
+        "circuit analysis",
+        "sheaf discovery",
+        "superposition",
+        "faithfulness"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "circuits",
+        "mechanistic_position",
+        "representation"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.12850": {
+      "version": "v1",
+      "title": "Persona-Model Collapse in Emergent Misalignment",
+      "keywords": [
+        "emergent misalignment",
+        "persona collapse",
+        "fine-tuning safety",
+        "moral foundations",
+        "alignment"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "safety_eval"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.13339": {
+      "version": "v1",
+      "title": "Probing Persona-Dependent Preferences in Language Models",
+      "keywords": [
+        "linear probing",
+        "preference vector",
+        "activation steering",
+        "persona",
+        "representation engineering"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "activation_steering",
+        "representation"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.12813": {
+      "version": "v1",
+      "title": "REALISTA: Realistic Latent Adversarial Attacks that Elicit LLM Hallucinations",
+      "keywords": [
+        "adversarial attacks",
+        "latent-space attack",
+        "hallucination elicitation",
+        "red-teaming",
+        "reasoning models"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "red_teaming"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.13043": {
+      "version": "v1",
+      "title": "Adaptive Steering and Remasking for Safe Generation in Diffusion Language Models",
+      "keywords": [
+        "jailbreak defense",
+        "activation steering",
+        "diffusion language models",
+        "inference-time defense",
+        "safety alignment"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "activation_steering"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.13537": {
+      "version": "v1",
+      "title": "Temper and Tilt Lead to SLOP: Reward Hacking Mitigation with Inference-Time Alignment",
+      "keywords": [
+        "reward hacking",
+        "inference-time alignment",
+        "RLHF",
+        "logarithmic opinion pool",
+        "reward model ensemble"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "defense_mechanism"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2605.09855": {
+      "version": "v2",
+      "title": "Concordia: Self-Improving Synthetic Tables for Federated LLMs",
+      "keywords": [
+        "federated learning privacy",
+        "synthetic data",
+        "privacy-preserving",
+        "LLM adaptation",
+        "tabular data"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "federated_privacy",
+        "data_extraction"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2604.15115": {
+      "version": "v1",
+      "title": "FedIDM: Achieving Fast and Stable Convergence in Byzantine Federated Learning through Iterative Distribution Matching",
+      "keywords": [
+        "Byzantine federated learning",
+        "data poisoning",
+        "robust aggregation",
+        "distribution matching",
+        "poisoning defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "defense_mechanism"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2604.14444": {
+      "version": "v1",
+      "title": "Robustness Analysis of Machine Learning Models for IoT Intrusion Detection Under Data Poisoning Attacks",
+      "keywords": [
+        "data poisoning",
+        "adversarial machine learning",
+        "intrusion detection",
+        "model robustness",
+        "IoT security"
+      ],
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "defense_mechanism"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
+    },
+    "2602.11495": {
+      "version": "v2",
+      "title": "Jailbreaking Leaves a Trace: Understanding and Detecting Jailbreak Attacks from Internal Representations of Large Language Models",
+      "keywords": [
+        "jailbreak detection",
+        "internal representations",
+        "tensor decomposition",
+        "interpretability",
+        "inference-time defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "probing"
+      ],
+      "first_seen": "2026-05-22",
+      "last_updated": "2026-05-22",
+      "folder": "2026-05-22"
     }
   },
   "_taxonomy": {
