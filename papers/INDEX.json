@@ -2801,6 +2801,187 @@
       "first_seen": "2026-05-22",
       "last_updated": "2026-05-22",
       "folder": "2026-05-22"
+    },
+    "2603.19375": {
+      "version": "v1",
+      "title": "Automated Membership Inference Attacks: Discovering MIA Signal Computations using LLM Agents",
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "data_extraction"
+      ],
+      "keywords": [
+        "membership inference",
+        "data extraction",
+        "LLM agent",
+        "privacy auditing"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2603.23268": {
+      "version": "v1",
+      "title": "SafeSeek: Universal Attribution of Safety Circuits in Language Models",
+      "category": "interp",
+      "subtopics": [
+        "circuits",
+        "mechanistic_position"
+      ],
+      "keywords": [
+        "safety interpretability",
+        "circuit analysis",
+        "refusal mechanism",
+        "backdoor attribution"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2602.12418": {
+      "version": "v1",
+      "title": "Sparse Autoencoders are Capable LLM Jailbreak Mitigators",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "sae"
+      ],
+      "keywords": [
+        "sparse autoencoder",
+        "jailbreak defense",
+        "activation steering",
+        "safety-utility tradeoff"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2602.05444": {
+      "version": "v2",
+      "title": "Causal Front-Door Adjustment for Robust Jailbreak Attacks on LLMs",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "adversarial"
+      ],
+      "keywords": [
+        "jailbreak attack",
+        "causal inference",
+        "sparse autoencoder",
+        "weight orthogonalization"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2602.04893": {
+      "version": "v1",
+      "title": "A Causal Perspective for Enhancing Jailbreak Attack and Defense",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism"
+      ],
+      "keywords": [
+        "jailbreak",
+        "causal discovery",
+        "interpretable features",
+        "attack & defense"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2602.10437": {
+      "version": "v3",
+      "title": "Control Reinforcement Learning: Token-Level Mechanistic Analysis via Learned SAE Feature Steering",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "activation_steering",
+        "interp_method"
+      ],
+      "keywords": [
+        "sparse autoencoder",
+        "activation steering",
+        "reinforcement learning",
+        "mechanistic interpretability"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2601.02978": {
+      "version": "v2",
+      "title": "Mechanistic Knobs in LLMs: Retrieving and Steering High-Order Semantic Features via Sparse Autoencoders",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "activation_steering"
+      ],
+      "keywords": [
+        "sparse autoencoder",
+        "feature steering",
+        "semantic features",
+        "contrastive retrieval"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2601.18110": {
+      "version": "v1",
+      "title": "AttenMIA: LLM Membership Inference Attack through Attention Signals",
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference"
+      ],
+      "keywords": [
+        "membership inference",
+        "attention signals",
+        "training data extraction",
+        "privacy"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2601.15595": {
+      "version": "v1",
+      "title": "Data-Free Privacy-Preserving for LLMs via Model Inversion and Selective Unlearning",
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "pii_leakage"
+      ],
+      "keywords": [
+        "machine unlearning",
+        "model inversion",
+        "PII leakage",
+        "data-free"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
+    },
+    "2601.03005": {
+      "version": "v1",
+      "title": "JPU: Bridging Jailbreak Defense and Unlearning via On-Policy Path Rectification",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism"
+      ],
+      "keywords": [
+        "jailbreak defense",
+        "machine unlearning",
+        "on-policy",
+        "safety alignment"
+      ],
+      "first_seen": "2026-05-23",
+      "last_updated": "2026-05-23",
+      "folder": "2026-05-23"
     }
   },
   "_taxonomy": {
