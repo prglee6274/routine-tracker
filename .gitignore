@@ -19,6 +19,10 @@ venv/
 *.tmp
 .cache/
 
+# pdftotext debug scratch (created during metadata extraction; mount can't delete it)
+papers/**/pdfs/out.txt
+out.txt
+
 # Drafts
 _drafts/
 _scratch/
