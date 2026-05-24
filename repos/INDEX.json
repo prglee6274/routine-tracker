@@ -4,9 +4,9 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-05-25",
       "days_on_list": 1,
-      "last_stars": 6382,
+      "last_stars": 6442,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
@@ -24,7 +24,7 @@
     },
     "sxyazi/yazi": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-05-25",
       "days_on_list": 1,
       "last_stars": 33660,
       "category": "tools",
@@ -94,8 +94,8 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-24",
-      "days_on_list": 2,
+      "last_seen": "2026-05-25",
+      "days_on_list": 3,
       "last_stars": 2584,
       "category": "tools",
       "language": "Rust",
@@ -104,7 +104,7 @@
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-21",
+      "last_seen": "2026-05-25",
       "days_on_list": 1,
       "last_stars": 80582,
       "category": "tools",
@@ -164,8 +164,8 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-24",
-      "days_on_list": 2,
+      "last_seen": "2026-05-25",
+      "days_on_list": 3,
       "last_stars": 1187,
       "category": "llm",
       "language": "Python",
@@ -644,7 +644,7 @@
     },
     "memvid/memvid": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-23",
+      "last_seen": "2026-05-25",
       "days_on_list": 1,
       "last_stars": 13349,
       "category": "llm",
@@ -664,8 +664,8 @@
     },
     "datagouv/datagouv-mcp": {
       "first_seen": "2026-05-24",
-      "last_seen": "2026-05-24",
-      "days_on_list": 1,
+      "last_seen": "2026-05-25",
+      "days_on_list": 2,
       "last_stars": 686,
       "category": "llm",
       "language": "Python",
@@ -681,6 +681,36 @@
       "language": "Rust",
       "graduated": false,
       "last_pushed_at": ""
+    },
+    "promptfoo/promptfoo": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
+      "last_stars": 21300,
+      "last_pushed_at": "",
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "snyk/agent-scan": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
+      "last_stars": 2500,
+      "last_pushed_at": "",
+      "category": "security",
+      "language": "Python",
+      "graduated": false
+    },
+    "confident-ai/deepteam": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
+      "last_stars": 1800,
+      "last_pushed_at": "",
+      "category": "security",
+      "language": "Python",
+      "graduated": false
     }
   }
 }
