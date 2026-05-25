@@ -4,9 +4,9 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-26",
-      "days_on_list": 2,
-      "last_stars": 6382,
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
+      "last_stars": 6442,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
@@ -54,12 +54,12 @@
     },
     "anthropics/skills": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-24",
+      "days_on_list": 4,
       "last_stars": 79641,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "muratcankoylan/Agent-Skills-for-Context-Engineering": {
@@ -74,12 +74,12 @@
     },
     "alibaba/OpenSandbox": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-24",
+      "days_on_list": 4,
       "last_stars": 2505,
-      "category": "tools",
+      "category": "security",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "clockworklabs/SpacetimeDB": {
@@ -94,18 +94,18 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 4,
+      "last_seen": "2026-05-25",
+      "days_on_list": 3,
       "last_stars": 2584,
       "category": "tools",
       "language": "Rust",
-      "graduated": true,
+      "graduated": false,
       "last_pushed_at": ""
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 2,
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
       "last_stars": 80582,
       "category": "tools",
       "language": "Rust",
@@ -164,12 +164,12 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-26",
-      "days_on_list": 4,
+      "last_seen": "2026-05-25",
+      "days_on_list": 3,
       "last_stars": 1187,
       "category": "llm",
       "language": "Python",
-      "graduated": true,
+      "graduated": false,
       "last_pushed_at": ""
     },
     "CloakHQ/CloakBrowser": {
@@ -364,12 +364,12 @@
     },
     "VectifyAI/PageIndex": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-24",
+      "days_on_list": 4,
       "last_stars": 19412,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "masterking32/MasterDnsVPN": {
@@ -704,33 +704,13 @@
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-05-26",
-      "days_on_list": 2,
+      "last_seen": "2026-05-25",
+      "days_on_list": 1,
       "last_stars": 1800,
       "last_pushed_at": "",
       "category": "security",
       "language": "Python",
       "graduated": false
-    },
-    "Tencent/AI-Infra-Guard": {
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
-      "last_stars": 3400,
-      "category": "security",
-      "language": "Go",
-      "graduated": false,
-      "last_pushed_at": "2026-05-21"
-    },
-    "NVIDIA/garak": {
-      "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
-      "last_stars": 7800,
-      "category": "security",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": ""
     }
   }
 }
