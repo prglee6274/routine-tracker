@@ -3365,6 +3365,146 @@
       "first_seen": "2026-05-25",
       "last_updated": "2026-05-25",
       "folder": "2026-05-25"
+    },
+    "2605.21378": {
+      "version": "v2",
+      "title": "Auditing Apple's DifferentialPrivacy.framework: Implementation Bugs, Misconfigurations, and Practical Risks",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "privacy",
+      "keywords": [
+        "differential privacy",
+        "privacy audit",
+        "floating-point vulnerability",
+        "secure aggregation"
+      ]
+    },
+    "2605.22984": {
+      "version": "v1",
+      "title": "Test-Time Training Undermines Safety Guardrails",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "security",
+      "keywords": [
+        "test-time training",
+        "jailbreak",
+        "safety guardrails",
+        "attack success rate"
+      ]
+    },
+    "2605.21006": {
+      "version": "v1",
+      "title": "Playing Devil's Advocate: Off-the-Shelf Persona Vectors Rival Targeted Steering for Sycophancy",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "interpretability",
+      "keywords": [
+        "persona vectors",
+        "activation steering",
+        "sycophancy",
+        "representation engineering"
+      ]
+    },
+    "2605.23036": {
+      "version": "v1",
+      "title": "Multilingual Steering by Design: Multilingual Sparse Autoencoders and Principled Layer Selection",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "interpretability",
+      "keywords": [
+        "sparse autoencoder",
+        "activation steering",
+        "mechanistic interpretability",
+        "multilingual"
+      ]
+    },
+    "2605.23196": {
+      "version": "v1",
+      "title": "Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "security",
+      "keywords": [
+        "prompt injection",
+        "guardrail",
+        "context-window mismatch",
+        "jailbreak"
+      ]
+    },
+    "2605.23158": {
+      "version": "v1",
+      "title": "What Does the Server See? Understanding Privacy Leakage from Large Language Models in Split Inference",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "privacy",
+      "keywords": [
+        "split inference",
+        "privacy leakage",
+        "activation inversion",
+        "input reconstruction"
+      ]
+    },
+    "2605.23168": {
+      "version": "v1",
+      "title": "PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "security",
+      "keywords": [
+        "data poisoning",
+        "instruction tuning",
+        "backdoor",
+        "benchmark"
+      ]
+    },
+    "2605.23035": {
+      "version": "v1",
+      "title": "Sparse Autoencoders Map Brain-LLM Alignment onto Cortical Semantic Topography",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "interpretability",
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "brain-LLM alignment",
+        "neural encoding"
+      ]
+    },
+    "2605.21706": {
+      "version": "v1",
+      "title": "Latent-space Attacks for Refusal Evasion in Language Models",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "security",
+      "keywords": [
+        "refusal ablation",
+        "latent-space attack",
+        "linear probe",
+        "jailbreak"
+      ]
+    },
+    "2605.22981": {
+      "version": "v1",
+      "title": "Memorization Dynamics of Fill-in-the-Middle Pretraining",
+      "first_seen": "2026-05-26",
+      "last_updated": "2026-05-26",
+      "folder": "2026-05-26",
+      "category": "privacy",
+      "keywords": [
+        "memorization",
+        "training data extraction",
+        "fill-in-the-middle",
+        "verbatim recall"
+      ]
     }
   },
   "_taxonomy": {
