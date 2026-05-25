@@ -26,3 +26,7 @@ out.txt
 # Drafts
 _drafts/
 _scratch/
+
+# local scratch / backups (mount is unlink-restricted)
+*.bak.*
+*.stale.*
