@@ -3505,6 +3505,190 @@
         "fill-in-the-middle",
         "verbatim recall"
       ]
+    },
+    "2605.24614": {
+      "version": "v1",
+      "title": "Measuring the Depth of LLM Unlearning via Activation Patching",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "interp",
+      "subtopics": [
+        "privacy",
+        "unlearning",
+        "interp"
+      ],
+      "keywords": [
+        "unlearning",
+        "activation_patching",
+        "UDS",
+        "privacy_auditing"
+      ]
+    },
+    "2605.25765": {
+      "version": "v1",
+      "title": "Concept Unlearning via Cross-Attention Activation Projection for Diffusion Models",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "diffusion"
+      ],
+      "keywords": [
+        "concept_unlearning",
+        "diffusion",
+        "cross_attention",
+        "closed_form"
+      ]
+    },
+    "2605.25819": {
+      "version": "v1",
+      "title": "On Reliability of Efficient Membership Inference Vulnerability Evaluation",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "privacy",
+      "subtopics": [
+        "MIA",
+        "DP_auditing"
+      ],
+      "keywords": [
+        "membership_inference",
+        "LiRA",
+        "FPR_calibration",
+        "DP_audit"
+      ]
+    },
+    "2605.25525": {
+      "version": "v1",
+      "title": "SAE-FD: Sparse Autoencoder Feature Distillation for Continual Learning of LLMs",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "interp",
+      "subtopics": [
+        "SAE",
+        "continual_learning"
+      ],
+      "keywords": [
+        "sparse_autoencoder",
+        "feature_distillation",
+        "catastrophic_forgetting"
+      ]
+    },
+    "2605.24497": {
+      "version": "v1",
+      "title": "Reasoning as an Attack Surface: Adaptive Evolutionary CoT Jailbreaks for LLMs",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "LRM",
+        "CoT"
+      ],
+      "keywords": [
+        "jailbreak",
+        "chain_of_thought",
+        "evolutionary_search",
+        "LRM"
+      ]
+    },
+    "2605.24659": {
+      "version": "v1",
+      "title": "IterInject: Indirect Prompt Injection Against LLM Agents via Feedback-Guided Iterative Optimization",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent"
+      ],
+      "keywords": [
+        "indirect_prompt_injection",
+        "LLM_agent",
+        "AgentDojo",
+        "mech_analysis"
+      ]
+    },
+    "2605.25304": {
+      "version": "v1",
+      "title": "When Interpretability Becomes a Liability: Adversarial Attacks on CBM Concept Layers",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "security",
+      "subtopics": [
+        "adversarial",
+        "interpretability",
+        "CBM"
+      ],
+      "keywords": [
+        "concept_bottleneck",
+        "adversarial",
+        "SPECTRA"
+      ]
+    },
+    "2605.24535": {
+      "version": "v1",
+      "title": "Steering Beyond the Support: Adversarial Training on Unsupervised Jailbroken Activation Simulation",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "steering",
+        "interp"
+      ],
+      "keywords": [
+        "safety_steering",
+        "jailbreak_defense",
+        "unsupervised_latent",
+        "bi_level"
+      ]
+    },
+    "2605.25520": {
+      "version": "v1",
+      "title": "Is Inference Mediated by Distinct Semantic Structures in LLMs? A Mechanistic Interpretation",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "interp",
+      "subtopics": [
+        "mech_interp",
+        "NLI",
+        "steering"
+      ],
+      "keywords": [
+        "mech_interp",
+        "NLI",
+        "activation_steering",
+        "causal_probing"
+      ]
+    },
+    "2605.24420": {
+      "version": "v1",
+      "title": "Batch Normalization Amplifies Memorization and Privacy Risks",
+      "first_seen": "2026-05-27",
+      "last_updated": "2026-05-27",
+      "folder": "2026-05-27",
+      "category": "privacy",
+      "subtopics": [
+        "memorization",
+        "MIA",
+        "architecture"
+      ],
+      "keywords": [
+        "batch_normalization",
+        "memorization",
+        "MIA",
+        "outlier_privacy"
+      ]
     }
   },
   "_taxonomy": {
