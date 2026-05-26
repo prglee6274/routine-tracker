@@ -4,8 +4,8 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-26",
-      "days_on_list": 2,
+      "last_seen": "2026-05-27",
+      "days_on_list": 3,
       "last_stars": 6382,
       "category": "llm",
       "language": "Rust",
@@ -54,8 +54,8 @@
     },
     "anthropics/skills": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-27",
+      "days_on_list": 2,
       "last_stars": 79641,
       "category": "llm",
       "language": "Python",
@@ -74,8 +74,8 @@
     },
     "alibaba/OpenSandbox": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-27",
+      "days_on_list": 2,
       "last_stars": 2505,
       "category": "tools",
       "language": "Python",
@@ -94,18 +94,18 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 4,
+      "last_seen": "2026-05-27",
+      "days_on_list": 1,
       "last_stars": 2584,
       "category": "tools",
       "language": "Rust",
-      "graduated": true,
+      "graduated": false,
       "last_pushed_at": ""
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-26",
-      "days_on_list": 2,
+      "last_seen": "2026-05-27",
+      "days_on_list": 3,
       "last_stars": 80582,
       "category": "tools",
       "language": "Rust",
@@ -164,12 +164,12 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-26",
-      "days_on_list": 4,
+      "last_seen": "2026-05-27",
+      "days_on_list": 1,
       "last_stars": 1187,
       "category": "llm",
       "language": "Python",
-      "graduated": true,
+      "graduated": false,
       "last_pushed_at": ""
     },
     "CloakHQ/CloakBrowser": {
@@ -364,8 +364,8 @@
     },
     "VectifyAI/PageIndex": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-27",
+      "days_on_list": 2,
       "last_stars": 19412,
       "category": "llm",
       "language": "Python",
@@ -714,8 +714,8 @@
     },
     "Tencent/AI-Infra-Guard": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-27",
+      "days_on_list": 2,
       "last_stars": 3400,
       "category": "security",
       "language": "Go",
@@ -724,9 +724,19 @@
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-05-26",
-      "days_on_list": 1,
+      "last_seen": "2026-05-27",
+      "days_on_list": 2,
       "last_stars": 7800,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "meta-llama/PurpleLlama": {
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "days_on_list": 1,
+      "last_stars": 4100,
       "category": "security",
       "language": "Python",
       "graduated": false,
