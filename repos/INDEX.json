@@ -24,7 +24,7 @@
     },
     "sxyazi/yazi": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-29",
       "days_on_list": 1,
       "last_stars": 33660,
       "category": "tools",
@@ -44,8 +44,8 @@
     },
     "ruvnet/wifi-densepose": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-28",
-      "days_on_list": 1,
+      "last_seen": "2026-05-29",
+      "days_on_list": 2,
       "last_stars": 12889,
       "category": "security",
       "language": "Rust",
@@ -59,13 +59,13 @@
       "last_stars": 79641,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "muratcankoylan/Agent-Skills-for-Context-Engineering": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-28",
-      "days_on_list": 1,
+      "last_seen": "2026-05-29",
+      "days_on_list": 2,
       "last_stars": 12778,
       "category": "llm",
       "language": "Python",
@@ -79,23 +79,23 @@
       "last_stars": 2505,
       "category": "tools",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-24",
-      "days_on_list": 4,
+      "last_seen": "2026-05-29",
+      "days_on_list": 1,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
-      "graduated": true,
+      "graduated": false,
       "last_pushed_at": ""
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-28",
-      "days_on_list": 2,
+      "last_seen": "2026-05-29",
+      "days_on_list": 3,
       "last_stars": 2584,
       "category": "tools",
       "language": "Rust",
@@ -114,8 +114,8 @@
     },
     "derv82/wifite2": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-28",
-      "days_on_list": 1,
+      "last_seen": "2026-05-29",
+      "days_on_list": 2,
       "last_stars": 7638,
       "category": "security",
       "language": "Python",
@@ -164,8 +164,8 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-28",
-      "days_on_list": 2,
+      "last_seen": "2026-05-29",
+      "days_on_list": 3,
       "last_stars": 1187,
       "category": "llm",
       "language": "Python",
@@ -369,7 +369,7 @@
       "last_stars": 19412,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": ""
     },
     "masterking32/MasterDnsVPN": {
@@ -644,7 +644,7 @@
     },
     "memvid/memvid": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-25",
+      "last_seen": "2026-05-29",
       "days_on_list": 1,
       "last_stars": 13349,
       "category": "llm",
@@ -654,8 +654,8 @@
     },
     "ki-editor/ki-editor": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-28",
-      "days_on_list": 1,
+      "last_seen": "2026-05-29",
+      "days_on_list": 2,
       "last_stars": 791,
       "category": "tools",
       "language": "Rust",
@@ -664,8 +664,8 @@
     },
     "datagouv/datagouv-mcp": {
       "first_seen": "2026-05-24",
-      "last_seen": "2026-05-25",
-      "days_on_list": 2,
+      "last_seen": "2026-05-29",
+      "days_on_list": 1,
       "last_stars": 686,
       "category": "llm",
       "language": "Python",
