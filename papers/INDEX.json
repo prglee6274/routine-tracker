@@ -3759,6 +3759,76 @@
       "first_seen": "2026-05-28",
       "last_updated": "2026-05-28",
       "folder": "2026-05-28"
+    },
+    "2605.26269": {
+      "version": "v1",
+      "title": "AgentSecBench: Measuring Prompt Injection, Privacy Leakage, and Tool-Use Integrity in LLM Agents",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.26133": {
+      "version": "v1",
+      "title": "Pretraining Data Exposure in Large Language Models: A Survey of Membership Inference, Data Contamination, and Security Implications",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.28597": {
+      "version": "v1",
+      "title": "Position: Retire the \"Positive Backdoor\" Label -- Secret Alignment Requires Strict and Systematic Evaluation",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.27958": {
+      "version": "v1",
+      "title": "Pressure-Testing Deception Probes in LLMs: Scaling, Robustness, and the Geometry of Deceptive Representations",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.27932": {
+      "version": "v1",
+      "title": "When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness?",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.27545": {
+      "version": "v1",
+      "title": "PAST2HARM: A Simple Adaptive Past-Tense Attack for Jailbreaking Multimodal AI",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.28116": {
+      "version": "v1",
+      "title": "MIRAGE: Context-Aware Prompt Injection against Mobile GUI Agents via User-Generated Content",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.27819": {
+      "version": "v1",
+      "title": "ReSAE: Residualized Sparse Autoencoders for Multi-Layer Transformer Interventions",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.26343": {
+      "version": "v1",
+      "title": "MechRL: Reinforcement Learning Agents Perform Circuit Discovery for Mechanistic Interpretability",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
+    },
+    "2605.27288": {
+      "version": "v1",
+      "title": "It's Not Always Sycophancy: Measuring LLM Conformity as a Function of Epistemic Uncertainty",
+      "first_seen": "2026-05-29",
+      "last_updated": "2026-05-29",
+      "folder": "2026-05-29"
     }
   },
   "_taxonomy": {
