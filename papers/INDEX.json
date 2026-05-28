@@ -3689,6 +3689,76 @@
         "MIA",
         "outlier_privacy"
       ]
+    },
+    "2605.28388": {
+      "version": "v1",
+      "title": "Mechanistically Interpreting the Role of Sample Difficulty in RLVR for LLMs",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.28632": {
+      "version": "v1",
+      "title": "Blind PRNG Hijacking: An Undetectable Integrity-Preserving Attack Against LLM Watermarking",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.27825": {
+      "version": "v1",
+      "title": "MRMMIA: Membership Inference Attacks on Memory in Chat Agents",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.28553": {
+      "version": "v1",
+      "title": "Refusal Before Decoding: Detecting and Exploiting Refusal Signals in Intermediate LLM Activations",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.28567": {
+      "version": "v1",
+      "title": "Semantic Optimal Transport for Sparse Autoencoder Feature Matching and Circuit Compression",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.27766": {
+      "version": "v1",
+      "title": "Got a Secret? LLM Agents Can't Keep It: Evaluating Privacy in Multi-Agent Systems",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.27569": {
+      "version": "v1",
+      "title": "RULER: Representation-Level Verification of Machine Unlearning",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.27997": {
+      "version": "v1",
+      "title": "Where Does Toxicity Live? Mechanistic Localization and Targeted Suppression in Language Models",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.28201": {
+      "version": "v1",
+      "title": "Plant, Persist, Trigger: Sleeper Attack on Large Language Model Agents",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
+    },
+    "2605.28078": {
+      "version": "v1",
+      "title": "Mind the Gap: Mixtures of Gaussians in Approximate Differential Privacy",
+      "first_seen": "2026-05-28",
+      "last_updated": "2026-05-28",
+      "folder": "2026-05-28"
     }
   },
   "_taxonomy": {
@@ -3730,5 +3800,6 @@
         "interp_method"
       ]
     }
-  }
+  },
+  "last_run": "2026-05-28"
 }
