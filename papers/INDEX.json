@@ -3829,6 +3829,203 @@
       "first_seen": "2026-05-29",
       "last_updated": "2026-05-29",
       "folder": "2026-05-29"
+    },
+    "2605.30260": {
+      "version": "v1",
+      "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "LoRA",
+        "parametric memory",
+        "memorization",
+        "phase transition",
+        "verbatim recall"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "memorization",
+        "mechanistic_position",
+        "representation"
+      ]
+    },
+    "2605.30189": {
+      "version": "v1",
+      "title": "Token-Level Generalization in LoRA Adapter Backdoors: Attack Characterization and Behavioral Detection",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "backdoor",
+        "LoRA adapter",
+        "data poisoning",
+        "causal patching",
+        "supply chain"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "data_poisoning",
+        "defense_mechanism"
+      ]
+    },
+    "2605.30076": {
+      "version": "v1",
+      "title": "UniSteer: Text-Guided Flow Matching in Activation Space for Versatile LLM Steering",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "activation steering",
+        "flow matching",
+        "representation engineering",
+        "controllable LLM"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2605.29888": {
+      "version": "v1",
+      "title": "LaRA: Layer-wise Representation Analysis for Detecting Data Contamination in RL Post-Training",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "data contamination",
+        "RL post-training",
+        "representation analysis",
+        "perturbation",
+        "evaluation integrity"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "data_contamination",
+        "representation",
+        "evaluation_integrity"
+      ]
+    },
+    "2605.29801": {
+      "version": "v1",
+      "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "agent safety",
+        "alignment framework",
+        "safety SFT",
+        "online guardrail",
+        "agent risk taxonomy"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "alignment_robustness",
+        "guardrail"
+      ]
+    },
+    "2605.29507": {
+      "version": "v1",
+      "title": "Xetrieval: Mechanistically Explaining Dense Retrieval",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "mechanistic interpretability",
+        "sparse features",
+        "dense retrieval",
+        "embedding interpretation"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "interp_method"
+      ]
+    },
+    "2605.27355": {
+      "version": "v1",
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "RLHF",
+        "alignment attack",
+        "reward hacking",
+        "bias amplification",
+        "preference dataset"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness",
+        "reward_hacking",
+        "bias"
+      ]
+    },
+    "2605.30162": {
+      "version": "v1",
+      "title": "BioRefusalAudit: Auditing Biosecurity Refusal Depth Using General and Domain-Fine-Tuned Sparse Autoencoders",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "sparse autoencoder",
+        "refusal auditing",
+        "biosecurity",
+        "over-refusal",
+        "activation-level evaluation"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "refusal",
+        "defense_mechanism"
+      ]
+    },
+    "2605.30049": {
+      "version": "v1",
+      "title": "Robust and Generalizable Safety Steering for Text-to-Image Diffusion Transformers",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "safety steering",
+        "diffusion transformer",
+        "sparse autoencoder",
+        "cross-domain transfer",
+        "text-to-image safety"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety_steering",
+        "sae",
+        "defense_mechanism"
+      ]
+    },
+    "2605.30203": {
+      "version": "v1",
+      "title": "A Bayesian Approach to Membership Inference for Statistical Release",
+      "first_seen": "2026-05-30",
+      "last_updated": "2026-05-30",
+      "folder": "2026-05-30",
+      "keywords": [
+        "membership inference",
+        "Bayesian network",
+        "differential privacy",
+        "probabilistic programming",
+        "attribute dependency"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "differential_privacy"
+      ]
     }
   },
   "_taxonomy": {
