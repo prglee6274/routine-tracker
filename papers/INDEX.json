@@ -4026,6 +4026,76 @@
         "membership_inference",
         "differential_privacy"
       ]
+    },
+    "2605.29901": {
+      "version": "v1",
+      "title": "Dissecting the Black Box: Circuit-Level Analysis of LLM Vulnerability Detection",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.29960": {
+      "version": "v1",
+      "title": "Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.30322": {
+      "version": "v1",
+      "title": "Gram: Assessing sabotage propensities via automated alignment auditing",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.29971": {
+      "version": "v1",
+      "title": "Causal Interventions on Continuous Variables: A Case Study on Verb Bias in Steering Vectors for In-Context Learning",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.29708": {
+      "version": "v1",
+      "title": "Understanding Safety-Sensitive Expert Behavior in Mixture-of-Experts LLMs",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.29354": {
+      "version": "v1",
+      "title": "Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.30096": {
+      "version": "v1",
+      "title": "How Reliable Are AI Attackers Against a Fixed Vulnerable Target? A 400-Run Empirical Study of LLM Penetration Testing Consistency",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.28999": {
+      "version": "v1",
+      "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.30123": {
+      "version": "v1",
+      "title": "Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
+    },
+    "2605.30136": {
+      "version": "v1",
+      "title": "Enhancing Multi-Agent Communication through Attention Steering with Context Relevance",
+      "first_seen": "2026-05-31",
+      "last_updated": "2026-05-31",
+      "folder": "2026-05-31"
     }
   },
   "_taxonomy": {
@@ -4068,5 +4138,5 @@
       ]
     }
   },
-  "last_run": "2026-05-28"
+  "last_run": "2026-05-31"
 }
