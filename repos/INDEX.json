@@ -4,13 +4,13 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-31",
-      "days_on_list": 1,
-      "last_stars": 7310,
+      "last_seen": "2026-06-01",
+      "days_on_list": 2,
+      "last_stars": 6382,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-01"
     },
     "X-PLUG/MobileAgent": {
       "first_seen": "2026-05-22",
@@ -24,13 +24,13 @@
     },
     "sxyazi/yazi": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-31",
-      "days_on_list": 1,
-      "last_stars": 33701,
+      "last_seen": "2026-06-01",
+      "days_on_list": 2,
+      "last_stars": 33742,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-01"
     },
     "ast-grep/ast-grep": {
       "first_seen": "2026-05-22",
@@ -44,23 +44,23 @@
     },
     "ruvnet/wifi-densepose": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 4,
+      "last_seen": "2026-06-01",
+      "days_on_list": 5,
       "last_stars": 13289,
       "category": "security",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-31"
     },
     "anthropics/skills": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 5,
+      "last_seen": "2026-06-01",
+      "days_on_list": 6,
       "last_stars": 80100,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-31"
     },
     "muratcankoylan/Agent-Skills-for-Context-Engineering": {
       "first_seen": "2026-05-21",
@@ -84,43 +84,43 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 3,
-      "last_stars": 23211,
+      "last_seen": "2026-06-01",
+      "days_on_list": 4,
+      "last_stars": 23376,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-01"
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 5,
-      "last_stars": 2670,
+      "last_seen": "2026-06-01",
+      "days_on_list": 6,
+      "last_stars": 2756,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-01"
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 6,
-      "last_stars": 80664,
+      "last_seen": "2026-06-01",
+      "days_on_list": 7,
+      "last_stars": 80746,
       "category": "tools",
       "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": ""
+      "graduated": true,
+      "last_pushed_at": "2026-06-01"
     },
     "derv82/wifite2": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-05-31",
-      "days_on_list": 4,
+      "last_seen": "2026-06-01",
+      "days_on_list": 5,
       "last_stars": 7650,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-31"
     },
     "mattpocock/skills": {
       "first_seen": "2026-05-08",
@@ -164,13 +164,13 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-05-31",
-      "days_on_list": 5,
+      "last_seen": "2026-06-01",
+      "days_on_list": 6,
       "last_stars": 1247,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-05-31"
     },
     "CloakHQ/CloakBrowser": {
       "first_seen": "2026-05-11",
@@ -644,13 +644,13 @@
     },
     "memvid/memvid": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-05-31",
-      "days_on_list": 1,
-      "last_stars": 13382,
+      "last_seen": "2026-06-01",
+      "days_on_list": 2,
+      "last_stars": 13415,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-01"
     },
     "ki-editor/ki-editor": {
       "first_seen": "2026-05-23",
