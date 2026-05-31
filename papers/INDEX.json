@@ -4096,6 +4096,217 @@
       "first_seen": "2026-05-31",
       "last_updated": "2026-05-31",
       "folder": "2026-05-31"
+    },
+    "2605.29358": {
+      "version": "v1",
+      "title": "Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "monosemanticity",
+        "mechanistic_position",
+        "safety_features"
+      ],
+      "keywords": [
+        "mechanistic interpretability",
+        "sparse autoencoder",
+        "monosemanticity",
+        "Claude 3",
+        "safety-relevant features"
+      ]
+    },
+    "2605.30312": {
+      "version": "v1",
+      "title": "DP-SAPF: Saliency-Aware Parameter Fine-tuning of Public Models for Differentially Private Image Synthesis",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "dp_sgd",
+        "lora",
+        "image_synthesis"
+      ],
+      "keywords": [
+        "differential privacy",
+        "DP-SGD",
+        "LoRA",
+        "private image synthesis",
+        "parameter saliency"
+      ]
+    },
+    "2605.29224": {
+      "version": "v1",
+      "title": "Relevance as a Vulnerability: How Web Retrieval Degrades Safety Alignment in LLM Agents",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "security",
+      "subtopics": [
+        "agent_safety",
+        "rag",
+        "alignment_robustness",
+        "benchmark"
+      ],
+      "keywords": [
+        "agent safety",
+        "RAG",
+        "safety alignment",
+        "harmful compliance",
+        "HarmURLBench"
+      ]
+    },
+    "2605.28860": {
+      "version": "v1",
+      "title": "Mechanistic origins of catastrophic forgetting: why RL preserves circuits better than SFT?",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "interp",
+      "subtopics": [
+        "circuit_analysis",
+        "catastrophic_forgetting",
+        "rl_vs_sft",
+        "mechanistic_method"
+      ],
+      "keywords": [
+        "mechanistic interpretability",
+        "catastrophic forgetting",
+        "RL vs SFT",
+        "circuit retention",
+        "differential causal mediation"
+      ]
+    },
+    "2605.29068": {
+      "version": "v1",
+      "title": "Robust and Efficient Guardrails with Latent Reasoning",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "security",
+      "subtopics": [
+        "guardrail",
+        "latent_reasoning",
+        "safety_classifier",
+        "inference_efficiency"
+      ],
+      "keywords": [
+        "safety guardrail",
+        "latent reasoning",
+        "Coconut",
+        "Llama Guard",
+        "inference efficiency"
+      ]
+    },
+    "2605.30031": {
+      "version": "v1",
+      "title": "Audio Jailbreaks in Large Audio-Language Models: Taxonomy, Attack-Defense Analysis, and Cost-Aware Evaluation",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "audio_lm",
+        "red_teaming",
+        "safety_benchmark"
+      ],
+      "keywords": [
+        "audio jailbreak",
+        "LALM",
+        "acoustic attack",
+        "safety benchmark",
+        "red-teaming"
+      ]
+    },
+    "2605.29202": {
+      "version": "v1",
+      "title": "Auditing Training Data in Generative Music Models via Black-Box Membership Inference",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "music_generation",
+        "black_box",
+        "training_data_audit"
+      ],
+      "keywords": [
+        "membership inference attack",
+        "generative music",
+        "training data auditing",
+        "black-box",
+        "MusicGen"
+      ]
+    },
+    "2605.29454": {
+      "version": "v1",
+      "title": "A Full-Pipeline Framework for Evaluating Membership Inference Attacks in Machine Learning",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "privacy_auditing",
+        "unlearning",
+        "benchmark"
+      ],
+      "keywords": [
+        "membership inference attack",
+        "privacy auditing",
+        "unlearning",
+        "benchmark",
+        "threat models"
+      ]
+    },
+    "2605.28896": {
+      "version": "v1",
+      "title": "Feature Geometry of LoRA Adapters: A Sparse Autoencoder Analysis of Representational Divergence in Fine-Tuned Language Models",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "lora",
+        "feature_geometry",
+        "safety_audit"
+      ],
+      "keywords": [
+        "LoRA",
+        "sparse autoencoder",
+        "representational geometry",
+        "safety fine-tuning",
+        "interpretability"
+      ]
+    },
+    "2605.28825": {
+      "version": "v1",
+      "title": "MechELK: A Mechanistic Interpretability Framework for Eliciting Latent Knowledge in Large Language Models",
+      "first_seen": "2026-06-01",
+      "last_updated": "2026-06-01",
+      "folder": "2026-06-01",
+      "category": "interp",
+      "subtopics": [
+        "elk",
+        "sae",
+        "activation_patching",
+        "representation_engineering",
+        "deceptive_alignment"
+      ],
+      "keywords": [
+        "eliciting latent knowledge",
+        "sparse autoencoder",
+        "activation patching",
+        "representation engineering",
+        "deceptive alignment"
+      ]
     }
   },
   "_taxonomy": {
