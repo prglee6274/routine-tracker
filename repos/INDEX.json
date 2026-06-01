@@ -4,13 +4,13 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-06-01",
-      "days_on_list": 2,
+      "last_seen": "2026-06-02",
+      "days_on_list": 3,
       "last_stars": 6382,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "X-PLUG/MobileAgent": {
       "first_seen": "2026-05-22",
@@ -24,13 +24,13 @@
     },
     "sxyazi/yazi": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-06-01",
-      "days_on_list": 2,
-      "last_stars": 33742,
+      "last_seen": "2026-06-02",
+      "days_on_list": 3,
+      "last_stars": 33660,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "ast-grep/ast-grep": {
       "first_seen": "2026-05-22",
@@ -44,22 +44,22 @@
     },
     "ruvnet/wifi-densepose": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 5,
-      "last_stars": 13289,
+      "last_seen": "2026-06-02",
+      "days_on_list": 6,
+      "last_stars": 13400,
       "category": "security",
-      "language": "Rust",
+      "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-05-31"
     },
     "anthropics/skills": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 6,
-      "last_stars": 80100,
+      "last_seen": "2026-06-02",
+      "days_on_list": 7,
+      "last_stars": 80300,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-05-31"
     },
     "muratcankoylan/Agent-Skills-for-Context-Engineering": {
@@ -84,39 +84,39 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 4,
-      "last_stars": 23376,
+      "last_seen": "2026-06-02",
+      "days_on_list": 5,
+      "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 6,
-      "last_stars": 2756,
+      "last_seen": "2026-06-02",
+      "days_on_list": 7,
+      "last_stars": 2584,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 7,
-      "last_stars": 80746,
+      "last_seen": "2026-06-02",
+      "days_on_list": 8,
+      "last_stars": 80582,
       "category": "tools",
       "language": "Rust",
       "graduated": true,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "derv82/wifite2": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-01",
-      "days_on_list": 5,
-      "last_stars": 7650,
+      "last_seen": "2026-06-02",
+      "days_on_list": 6,
+      "last_stars": 7680,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -164,9 +164,9 @@
     },
     "NousResearch/hermes-agent": {
       "first_seen": "2026-05-11",
-      "last_seen": "2026-06-01",
-      "days_on_list": 6,
-      "last_stars": 1247,
+      "last_seen": "2026-06-02",
+      "days_on_list": 7,
+      "last_stars": 1280,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -644,13 +644,13 @@
     },
     "memvid/memvid": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-06-01",
-      "days_on_list": 2,
-      "last_stars": 13415,
+      "last_seen": "2026-06-02",
+      "days_on_list": 3,
+      "last_stars": 13349,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-01"
+      "last_pushed_at": "2026-06-02"
     },
     "ki-editor/ki-editor": {
       "first_seen": "2026-05-23",
@@ -743,5 +743,5 @@
       "last_pushed_at": ""
     }
   },
-  "last_updated": "2026-05-30"
+  "last_updated": "2026-06-02"
 }
