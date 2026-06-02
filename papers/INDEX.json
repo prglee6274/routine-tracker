@@ -4503,6 +4503,76 @@
         "unlearning",
         "pii_leakage"
       ]
+    },
+    "2606.00995": {
+      "version": "v1",
+      "title": "Subliminal Learning Is Steering Vector Distillation",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.00485": {
+      "version": "v1",
+      "title": "Confused ChatGPT: Cross-App Context Poisoning via First-Party APIs",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.00152": {
+      "version": "v1",
+      "title": "PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.02530": {
+      "version": "v1",
+      "title": "SafeSteer: Localized On-Policy Distillation for Efficient Safety Alignment",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2605.30727": {
+      "version": "v1",
+      "title": "MosaicLeaks:Privacy Risks in Querying-in-the-Open for Deep Research Agents",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.02111": {
+      "version": "v1",
+      "title": "Jailbreaking Multimodal Large Language Models using Multi-Clip Video",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2605.30848": {
+      "version": "v2",
+      "title": "LLM Anonymization Against Agentic Re-Identification",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.01243": {
+      "version": "v1",
+      "title": "Unlocking the Black Box of Latent Reasoning: An Interpretability-Guided Approach to Intervention",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2605.30686": {
+      "version": "v1",
+      "title": "Depth-Dependent Indirect Prompt Injection in Tool-Calling ReAct Agents: Injection Depth, Payload Framing, and Turn-Budget Sensitivity",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
+    },
+    "2606.01148": {
+      "version": "v1",
+      "title": "Not All Explanations Simulate Equally: Comparing Verbalized Feature Attributions and Self-Generated Rationales",
+      "first_seen": "2026-06-03",
+      "last_updated": "2026-06-03",
+      "folder": "2026-06-03"
     }
   },
   "_taxonomy": {
