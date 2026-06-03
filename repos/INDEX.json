@@ -4,13 +4,13 @@
   "entries": {
     "0xPlaygrounds/rig": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-06-03",
-      "days_on_list": 4,
+      "last_seen": "2026-06-04",
+      "days_on_list": 5,
       "last_stars": 6382,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-03"
+      "last_pushed_at": "2026-06-04"
     },
     "X-PLUG/MobileAgent": {
       "first_seen": "2026-05-22",
@@ -34,13 +34,13 @@
     },
     "ast-grep/ast-grep": {
       "first_seen": "2026-05-22",
-      "last_seen": "2026-05-22",
+      "last_seen": "2026-06-04",
       "days_on_list": 1,
       "last_stars": 12825,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-04"
     },
     "ruvnet/wifi-densepose": {
       "first_seen": "2026-05-21",
@@ -84,13 +84,13 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-03",
-      "days_on_list": 6,
+      "last_seen": "2026-06-04",
+      "days_on_list": 7,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-03"
+      "last_pushed_at": "2026-06-04"
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
@@ -644,13 +644,13 @@
     },
     "memvid/memvid": {
       "first_seen": "2026-05-23",
-      "last_seen": "2026-06-03",
-      "days_on_list": 4,
+      "last_seen": "2026-06-04",
+      "days_on_list": 5,
       "last_stars": 13349,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-03"
+      "last_pushed_at": "2026-06-04"
     },
     "ki-editor/ki-editor": {
       "first_seen": "2026-05-23",
@@ -761,7 +761,67 @@
       "category": "llm",
       "language": "Python",
       "graduated": false
+    },
+    "lsdefine/GenericAgent": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": 4000,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "perplexityai/bumblebee": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "badlogic/pi-mono": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": 45000,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "VulcanLab/IPI-Proxy": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "vaultmcp/vault": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "biomejs/biome": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": 24009,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
     }
   },
-  "last_updated": "2026-06-03"
+  "last_updated": "2026-06-04"
 }
