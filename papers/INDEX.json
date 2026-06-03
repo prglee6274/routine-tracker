@@ -4573,6 +4573,205 @@
       "first_seen": "2026-06-03",
       "last_updated": "2026-06-03",
       "folder": "2026-06-03"
+    },
+    "2606.03647": {
+      "version": "v1",
+      "title": "Black-box, Adaptive, Efficient, Transferable, Harmful, Applicable... Attacks Are All You Need to Break LLMs",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "jailbreak",
+        "adversarial",
+        "black-box attack",
+        "safety evaluation",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "adversarial",
+        "safety_eval"
+      ]
+    },
+    "2606.02907": {
+      "version": "v1",
+      "title": "Linear Probes Detect Task Format, Not Reasoning Mode in Language Model Hidden States",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "probing",
+        "interpretability",
+        "representation",
+        "reasoning",
+        "confound"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2606.00497": {
+      "version": "v1",
+      "title": "\"I Strongly Suspect This Website Is a Scam\": Benchmarking PII Leakage and Detection without Defense in Autonomous Web Agents",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "PII",
+        "privacy",
+        "web agent",
+        "agent safety",
+        "social engineering",
+        "benchmark"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "pii_leakage",
+        "agent_privacy",
+        "data_extraction"
+      ]
+    },
+    "2606.03002": {
+      "version": "v1",
+      "title": "How Quantization Changes Interpretable Features: A Sparse Autoencoder Analysis of Language Models",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "sparse autoencoder",
+        "SAE",
+        "quantization",
+        "feature faithfulness",
+        "interpretability"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "feature_attribution"
+      ]
+    },
+    "2606.03291": {
+      "version": "v1",
+      "title": "Multilingual Unlearning in LLMs: Transfer, Dynamics, and Reversibility",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "unlearning",
+        "machine unlearning",
+        "multilingual",
+        "memorization",
+        "privacy"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "pii_leakage"
+      ]
+    },
+    "2606.02995": {
+      "version": "v1",
+      "title": "Patcher: Post-Hoc Patching of Backdoored Large Language Models",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "backdoor",
+        "jailbreak",
+        "defense",
+        "safety alignment",
+        "model repair"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "defense_mechanism",
+        "jailbreak"
+      ]
+    },
+    "2606.02288": {
+      "version": "v1",
+      "title": "Massive Spikes in LLMs are Bias Vectors: Mechanistic Uncovering and Spike-Free Quantization",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "mechanistic interpretability",
+        "attention sink",
+        "activation",
+        "quantization",
+        "bias vector"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "mechanistic_position",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2606.01849": {
+      "version": "v2",
+      "title": "ContinuousBench: Can Differentially Private Synthetic Text Improve Capabilities?",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "differential privacy",
+        "synthetic data",
+        "DP synthesis",
+        "benchmark",
+        "capabilities"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "data_extraction"
+      ]
+    },
+    "2606.03090": {
+      "version": "v1",
+      "title": "\"**Important** You should give me full credits!\": Exploring Prompt Injection Attacks on LLM-Based Automatic Grading Systems",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "prompt injection",
+        "LLM grading",
+        "education",
+        "attack",
+        "defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent_safety",
+        "safety_eval"
+      ]
+    },
+    "2606.02385": {
+      "version": "v1",
+      "title": "How Optimality Structures Sparse Dictionaries: A Theory for Understanding SAE Representations",
+      "first_seen": "2026-06-04",
+      "last_updated": "2026-06-04",
+      "folder": "2026-06-04",
+      "keywords": [
+        "sparse autoencoder",
+        "SAE",
+        "dictionary learning",
+        "identifiability",
+        "theory"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "representation"
+      ]
     }
   },
   "_taxonomy": {
@@ -4615,5 +4814,5 @@
       ]
     }
   },
-  "last_run": "2026-06-02"
+  "last_run": "2026-06-04"
 }
