@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-06-02",
+  "last_run": "backfill",
+  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
+  "in_scope": [
+    {
+      "id": "ndss2023-domtreetype",
+      "title": "A Security Study about Electron Applications and a Programming Methodology to Tame DOM Functionalities",
+      "title_norm": "a security study about electron applications and a programming methodology to tame dom functionalities",
+      "authors": ["Zihao Jin", "Shuo Chen", "Yang Chen", "Haixin Duan", "Jianjun Chen", "Jianping Wu"],
+      "venue": "NDSS", "year": 2023, "scope": "PRIMARY",
+      "doi": null,
+      "url": "https://www.ndss-symposium.org/ndss-paper/a-security-study-about-electron-applications-and-a-programming-methodology-to-tame-dom-functionalities/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-305-paper.pdf",
+      "note_file": "papers/ndss2023-domtreetype.md",
+      "added": "2026-06-02", "grounding": "full-text"
+    },
+    {
+      "id": "ccs2022-xrce-xguard",
+      "title": "Understanding and Mitigating Remote Code Execution Vulnerabilities in Cross-platform Ecosystem",
+      "title_norm": "understanding and mitigating remote code execution vulnerabilities in cross-platform ecosystem",
+      "authors": ["Feng Xiao", "Zheng Yang", "Joey Allen", "Guangliang Yang", "Grant Williams", "Wenke Lee"],
+      "venue": "ACM CCS", "year": 2022, "scope": "PRIMARY",
+      "doi": "10.1145/3548606.3559340",
+      "url": "https://dl.acm.org/doi/10.1145/3548606.3559340",
+      "pdf": "https://dl.acm.org/doi/pdf/10.1145/3548606.3559340",
+      "note_file": "papers/ccs2022-xrce-xguard.md",
+      "added": "2026-06-02", "grounding": "abstract+secondary (ACM paywalled)"
+    },
+    {
+      "id": "usenixsec2024-inspectron",
+      "title": "Rise of Inspectron: Automated Black-box Auditing of Cross-platform Electron Apps",
+      "title_norm": "rise of inspectron automated black-box auditing of cross-platform electron apps",
+      "authors": ["Mir Masood Ali", "Mohammad Ghasemisharif", "Chris Kanich", "Jason Polakis"],
+      "venue": "USENIX Security", "year": 2024, "scope": "PRIMARY",
+      "doi": null,
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ali",
+      "pdf": "https://www.usenix.org/system/files/usenixsecurity24-ali.pdf",
+      "note_file": "papers/usenixsec2024-inspectron.md",
+      "added": "2026-06-02", "grounding": "full-text"
+    },
+    {
+      "id": "sp2025-coindef",
+      "title": "COINDEF: A Comprehensive Code Injection Defense for the Electron Framework",
+      "title_norm": "coindef a comprehensive code injection defense for the electron framework",
+      "authors": ["Zheng Yang", "Simon P. Chung", "Jizhou Chen", "Runze Zhang", "Brendan Saltaformaggio", "Wenke Lee"],
+      "venue": "IEEE S&P", "year": 2025, "scope": "PRIMARY",
+      "doi": null,
+      "url": "https://ieeexplore.ieee.org/document/11023394/",
+      "pdf": "https://saltaformaggio.ece.gatech.edu/publications/yang2025coindef.pdf",
+      "note_file": "papers/sp2025-coindef.md",
+      "added": "2026-06-02", "grounding": "full-text"
+    },
+    {
+      "id": "usenixsec2023-silent-spring",
+      "title": "Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js",
+      "title_norm": "silent spring prototype pollution leads to remote code execution in node.js",
+      "authors": ["Mikhail Shcherbakov", "Musard Balliu", "Cristian-Alexandru Staicu"],
+      "venue": "USENIX Security", "year": 2023, "scope": "ADJACENT",
+      "doi": null,
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shcherbakov",
+      "pdf": "https://arxiv.org/pdf/2207.11171",
+      "note_file": "papers/usenixsec2023-silent-spring.md",
+      "added": "2026-06-02", "grounding": "full-text (arXiv preprint)"
+    },
+    {
+      "id": "raid2020-mininode",
+      "title": "Mininode: Reducing the Attack Surface of Node.js Applications",
+      "title_norm": "mininode reducing the attack surface of node.js applications",
+      "authors": ["Igibek Koishybayev", "Alexandros Kapravelos"],
+      "venue": "RAID", "year": 2020, "scope": "ADJACENT",
+      "doi": null,
+      "url": "https://www.usenix.org/conference/raid2020/presentation/koishybayev",
+      "pdf": "https://www.usenix.org/system/files/raid20-koishybayev.pdf",
+      "note_file": "papers/raid2020-mininode.md",
+      "added": "2026-06-02", "grounding": "full-text"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Experimental Security Analysis of the App Model in Business Collaboration Platforms",
+      "title_norm": "experimental security analysis of the app model in business collaboration platforms",
+      "venue": "USENIX Security", "year": 2022,
+      "reason": "Studies the server-side third-party app permission model of Slack/Teams; no Electron client / renderer / IPC angle despite Slack & Teams being Electron apps.",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yunang-experimental"
+    },
+    {
+      "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+      "title_norm": "identity confusion in webview-based mobile app-in-app ecosystems",
+      "venue": "USENIX Security", "year": 2022,
+      "reason": "WebView app-in-app security, but explicitly mobile (super-apps); desktop/Electron out of scope. Conceptually adjacent only.",
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
+    },
+    {
+      "title": "Jack-in-the-box: An Empirical Study of JavaScript Bundling on the Web and its Security Implications",
+      "title_norm": "jack-in-the-box an empirical study of javascript bundling on the web and its security implications",
+      "venue": "ACM CCS", "year": 2023,
+      "reason": "Pure web study of JavaScript bundlers; no desktop/Electron angle.",
+      "doi": "10.1145/3576915.3623140"
+    },
+    {
+      "title": "webFuzz: Grey-Box Fuzzing for Web Applications",
+      "title_norm": "webfuzz grey-box fuzzing for web applications",
+      "venue": "ESORICS", "year": 2021,
+      "reason": "Server-side web-application fuzzing; no desktop privilege escalation / Electron angle.",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-88418-5_26"
+    },
+    {
+      "title": "On the Feasibility of Cross-Language Detection of Malicious Packages in npm and PyPI",
+      "title_norm": "on the feasibility of cross-language detection of malicious packages in npm and pypi",
+      "venue": "ACSAC", "year": 2023,
+      "reason": "Generic npm/PyPI supply-chain detection; not Electron/desktop-app specific. Borderline — promote only if the thesis has a broad supply-chain section.",
+      "url": "https://dl.acm.org/doi/10.1145/3627106.3627113"
+    }
+  ],
+  "context_non_venue": [
+    {
+      "title": "Electrolint and security of electron applications",
+      "venue": "Array (Elsevier journal)", "year": 2021,
+      "why": "Most-cited non-top-venue Electron static-analysis work (client-side XSS, clickjacking, DOM clobbering in Electron apps). Use if broadening beyond the 9 venues.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667295221000222"
+    },
+    {
+      "title": "ElectroVolt: Pwning popular desktop apps while uncovering new attack surface on Electron",
+      "venue": "Black Hat USA / DEF CON 30", "year": 2022,
+      "why": "Industry research (not peer-reviewed). Widely cited 1-click RCE chains in Discord, Teams, VS Code, Element. Good motivation / real-world impact citation.",
+      "url": "https://www.blackhat.com/us-22/briefings/schedule/"
+    },
+    {
+      "title": "Developers Are Victims Too: A Comprehensive Analysis of the VS Code Extension Ecosystem",
+      "venue": "arXiv (preprint)", "year": 2024,
+      "why": "Security of the VS Code (Electron) extension ecosystem. Preprint — confirm any venue acceptance before citing as published.",
+      "url": "https://arxiv.org/abs/2411.07479"
+    },
+    {
+      "title": "JavaSith: A Client-Side Framework for Analyzing Potentially Malicious Extensions in Browsers, VS Code, and NPM Packages",
+      "venue": "arXiv (preprint)", "year": 2025,
+      "why": "Client-side analysis spanning browsers, VS Code, and npm. Preprint — verify status before citing.",
+      "url": "https://arxiv.org/abs/2505.21263"
+    }
+  ]
+}

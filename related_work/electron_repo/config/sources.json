@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "topic": "Vulnerability discovery in Electron-framework desktop applications (and closely adjacent mechanisms)",
+  "backfill_from_year": 2020,
+  "scope": {
+    "include": [
+      "Electron apps (VS Code, Slack, Teams, Discord, etc.) security/vulnerabilities",
+      "nodeIntegration, contextIsolation, sandbox, preload/contextBridge, remote module",
+      "renderer<->main IPC vulnerabilities",
+      "Chromium Embedded Framework (CEF), WebView-based desktop apps, hybrid web/desktop apps",
+      "DOM-based / XSS->RCE escalation into local privileges in desktop apps",
+      "npm / supply-chain issues as they affect Electron or the Node.js runtime"
+    ],
+    "exclude": [
+      "pure web-app XSS with no desktop/Electron angle",
+      "physics/electronics 'electron' papers",
+      "mobile-only studies",
+      "generic Chromium browser bugs unrelated to embedded/desktop apps"
+    ]
+  },
+  "keywords": {
+    "primary": ["electron", "electronjs", "nodeintegration", "context isolation", "contextbridge", "preload script", "renderer process", "main process", "ipc", "cross-platform app", "desktop application", "webview", "chromium embedded", "cef", "hybrid app"],
+    "escalation": ["xss to rce", "xrce", "remote code execution", "code injection", "prototype pollution", "dom clobbering", "dom-based"],
+    "runtime_supply_chain": ["node.js", "npm", "supply chain", "dependency", "attack surface"]
+  },
+  "venues": [
+    { "name": "USENIX Security Symposium", "short": "USENIX Sec", "tier": "top-4", "dblp_key": "uss", "dblp_toc": "https://dblp.org/db/conf/uss/uss{YEAR}.html", "accepted_papers": "https://www.usenix.org/conference/usenixsecurity{YY}/technical-sessions", "notes": "Some years split into summer/fall/winter cycles." },
+    { "name": "IEEE Symposium on Security and Privacy", "short": "IEEE S&P", "tier": "top-4", "dblp_key": "sp", "dblp_toc": "https://dblp.org/db/conf/sp/sp{YEAR}.html", "accepted_papers": "https://www.ieee-security.org/TC/SP{YEAR}/accepted-papers.html", "notes": "Official accepted-papers page renders fully and is grep-friendly." },
+    { "name": "Network and Distributed System Security Symposium", "short": "NDSS", "tier": "top-4", "dblp_key": "ndss", "dblp_toc": "https://dblp.org/db/conf/ndss/ndss{YEAR}.html", "accepted_papers": "https://www.ndss-symposium.org/ndss{YEAR}/accepted-papers/", "notes": "Often multiple submission cycles per year." },
+    { "name": "ACM Conference on Computer and Communications Security", "short": "ACM CCS", "tier": "top-4", "dblp_key": "ccs", "dblp_toc": "https://dblp.org/db/conf/ccs/ccs{YEAR}.html", "accepted_papers": "https://www.sigsac.org/ccs/CCS{YEAR}/accepted-papers.html", "notes": "ACM PDFs are paywalled; use author pages / preprints for full text." },
+    { "name": "Annual Computer Security Applications Conference", "short": "ACSAC", "tier": "1.5", "dblp_key": "acsac", "dblp_toc": "https://dblp.org/db/conf/acsac/acsac{YEAR}.html", "accepted_papers": "https://www.acsac.org/{YEAR}/program/", "notes": "" },
+    { "name": "Research in Attacks, Intrusions and Defenses", "short": "RAID", "tier": "1.5", "dblp_key": "raid", "dblp_toc": "https://dblp.org/db/conf/raid/raid{YEAR}.html", "accepted_papers": "https://raid{YEAR}.org/", "notes": "RAID 2020 proceedings were hosted by USENIX." },
+    { "name": "European Symposium on Research in Computer Security", "short": "ESORICS", "tier": "1.5", "dblp_key": "esorics", "dblp_toc": "https://dblp.org/db/conf/esorics/esorics{YEAR}-1.html", "accepted_papers": "", "notes": "Proceedings split into multiple volumes: esorics{YEAR}-1, -2, -3, -4. Springer LNCS." },
+    { "name": "ACM Asia Conference on Computer and Communications Security", "short": "AsiaCCS", "tier": "1.5", "dblp_key": "asiaccs", "dblp_toc": "https://dblp.org/db/conf/asiaccs/asiaccs{YEAR}.html", "accepted_papers": "", "notes": "" },
+    { "name": "IEEE/IFIP Intl. Conference on Dependable Systems and Networks", "short": "DSN", "tier": "1.5", "dblp_key": "dsn", "dblp_toc": "https://dblp.org/db/conf/dsn/dsn{YEAR}.html", "accepted_papers": "", "notes": "" }
+  ],
+  "discovery_method": {
+    "primary": "WebSearch with the standing queries below (most reliable for this niche).",
+    "secondary": "Fetch each venue's accepted-papers page (HTML renders and is grep-friendly).",
+    "tertiary": "DBLP HTML TOC pages — note: web_fetch may return only a partial 'zoomed-in' view of large TOCs; open in a real browser for an exhaustive sweep.",
+    "do_not_use": "JSON APIs (dblp /search/api, api.semanticscholar.org) return EMPTY via web_fetch. The sandbox shell has no outbound network."
+  },
+  "standing_queries": [
+    "Electron application security {VENUE} {YEAR}",
+    "Electron vulnerability {VENUE}",
+    "nodeIntegration vulnerability paper",
+    "context isolation Electron attack",
+    "desktop web application remote code execution academic paper",
+    "IPC renderer main process Electron security",
+    "Chromium Embedded Framework vulnerability research",
+    "preload contextBridge Electron security paper",
+    "XSS to RCE cross-platform desktop app"
+  ]
+}

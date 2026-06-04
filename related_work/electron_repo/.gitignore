@@ -1,0 +1,8 @@
+# scratch / extraction artifacts
+*_raw.txt
+_*.txt
+*.tmp
+
+# OS cruft
+.DS_Store
+Thumbs.db
