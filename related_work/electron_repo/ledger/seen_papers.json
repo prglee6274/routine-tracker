@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-02",
-  "last_run": "backfill",
+  "last_updated": "2026-06-04",
+  "last_run": "2026-06-04",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -75,6 +75,42 @@
       "pdf": "https://www.usenix.org/system/files/raid20-koishybayev.pdf",
       "note_file": "papers/raid2020-mininode.md",
       "added": "2026-06-02", "grounding": "full-text"
+    },
+    {
+      "id": "ccs2023-hodor",
+      "title": "HODOR: Shrinking Attack Surface on Node.js via System Call Limitation",
+      "title_norm": "hodor shrinking attack surface on node.js via system call limitation",
+      "authors": ["Wenya Wang", "Xingwei Lin", "Jingyi Wang", "Wang Gao", "Dawu Gu", "Wei Lv", "Jiashui Wang"],
+      "venue": "ACM CCS", "year": 2023, "scope": "ADJACENT",
+      "doi": "10.1145/3576915.3616609",
+      "url": "https://dl.acm.org/doi/10.1145/3576915.3616609",
+      "pdf": "https://arxiv.org/pdf/2306.13984",
+      "note_file": "papers/ccs2023-hodor.md",
+      "added": "2026-06-04", "grounding": "full-text (arXiv preprint)"
+    },
+    {
+      "id": "ccs2025-nodeshield",
+      "title": "NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js",
+      "title_norm": "nodeshield runtime enforcement of security-enhanced sboms for node.js",
+      "authors": ["Eric Cornelissen", "Musard Balliu"],
+      "venue": "ACM CCS", "year": 2025, "scope": "ADJACENT",
+      "doi": "10.1145/3719027.3765136",
+      "url": "https://dl.acm.org/doi/10.1145/3719027.3765136",
+      "pdf": "https://arxiv.org/pdf/2508.13750",
+      "note_file": "papers/ccs2025-nodeshield.md",
+      "added": "2026-06-04", "grounding": "full-text (arXiv preprint)"
+    },
+    {
+      "id": "ndss2026-bullseye",
+      "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
+      "title_norm": "bullseye detecting prototype pollution in npm packages with proof of concept exploits",
+      "authors": ["Tariq Houis", "Shaoqi Jiang", "Mohammad Mannan", "Amr Youssef"],
+      "venue": "NDSS", "year": 2026, "scope": "ADJACENT",
+      "doi": null,
+      "url": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
+      "pdf": "http://users.encs.concordia.ca/home/m/mmannan/publications/Bullseye-NDSS2026.pdf",
+      "note_file": "papers/ndss2026-bullseye.md",
+      "added": "2026-06-04", "grounding": "full-text"
     }
   ],
   "excluded": [
@@ -112,6 +148,27 @@
       "venue": "ACSAC", "year": 2023,
       "reason": "Generic npm/PyPI supply-chain detection; not Electron/desktop-app specific. Borderline — promote only if the thesis has a broad supply-chain section.",
       "url": "https://dl.acm.org/doi/10.1145/3627106.3627113"
+    },
+    {
+      "title": "Cross-Boundary Mobile Tracking: Exploring Java-to-JavaScript Information Diffusion in WebViews",
+      "title_norm": "cross-boundary mobile tracking exploring java-to-javascript information diffusion in webviews",
+      "venue": "NDSS", "year": 2026,
+      "reason": "WebView Java-to-JS information-flow tracking, but explicitly mobile (Android in-app browsers / tracking-privacy); no desktop/Electron renderer/IPC angle.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/cross-boundary-mobile-tracking-exploring-java-to-javascript-information-diffusion-in-webviews/"
+    },
+    {
+      "title": "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem",
+      "title_norm": "from noise to signal precisely identify affected packages of known vulnerabilities in npm ecosystem",
+      "venue": "NDSS", "year": 2026,
+      "reason": "Generic npm vulnerability-to-package mapping / SCA accuracy; not Electron- or Node.js-runtime-vulnerability-discovery specific (same rationale as the excluded npm/PyPI detection paper).",
+      "url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/"
+    },
+    {
+      "title": "FirmCross: Detecting Taint-style Vulnerabilities in Modern C-Lua Hybrid Web Services of Linux-based Firmware",
+      "title_norm": "firmcross detecting taint-style vulnerabilities in modern c-lua hybrid web services of linux-based firmware",
+      "venue": "NDSS", "year": 2026,
+      "reason": "Matched on 'hybrid' but targets C-Lua hybrid web services in Linux-based firmware (embedded/IoT), not a hybrid web/desktop (Electron) app.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/"
     }
   ],
   "context_non_venue": [
