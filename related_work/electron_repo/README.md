@@ -92,16 +92,14 @@ electron_repo/
 
 ## Pushing to GitHub
 
-This repo was initialized locally with an initial commit. To put it on GitHub from your own machine (where your credentials live):
+`electron_repo` lives inside the parent **`routine 생성`** git repo (the same repo that tracks your other projects), as an ordinary subfolder — it has **no separate `.git`**. The backfill is already committed there, scoped to this folder only.
 
-```bash
-# create an empty repo on github.com first, then:
-git remote add origin git@github.com:<you>/electron_repo.git
-git branch -M main
-git push -u origin main
-```
+Ongoing git works two ways:
 
-If you keep `electron_repo` as a subfolder inside your existing thesis git project instead, skip `git init` and just commit the folder there.
+- The **daily watch** commits *only* `electron_repo` changes into the parent repo, using an `electron_repo watch` author identity so your own git config is untouched. It cannot push (this run environment has no network).
+- **You push** to GitHub from your own machine as part of your normal `routine 생성` workflow (`git push`), or run `scripts/commit_and_push.sh`, which commits just this folder and pushes if an `origin` remote exists.
+
+If a run is ever interrupted and leaves a `.git/index.lock` in the parent repo, delete that file to unblock git.
 
 ---
 

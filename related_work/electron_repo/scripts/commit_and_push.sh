@@ -6,6 +6,8 @@ SELF_DIR="$(cd "$(dirname "$0")/.." && pwd)"          # .../electron_repo
 REPO_ROOT="$(git -C "$SELF_DIR" rev-parse --show-toplevel)" || { echo "Not inside a git repo."; exit 1; }
 REL="${SELF_DIR#"$REPO_ROOT"/}"                        # electron_repo path relative to repo root
 cd "$REPO_ROOT"
+# Clear stale git locks left by an interrupted run (needs file-deletion enabled).
+find "$REPO_ROOT/.git" -maxdepth 2 -name '*.lock' -type f -delete 2>/dev/null || true
 if [ -z "$(git status --porcelain -- "$REL")" ]; then
   echo "No electron_repo changes to commit."
 else
