@@ -84,13 +84,13 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-05",
-      "days_on_list": 8,
+      "last_seen": "2026-06-06",
+      "days_on_list": 9,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
@@ -624,13 +624,13 @@
     },
     "HKUDS/CLI-Anything": {
       "first_seen": "2026-05-18",
-      "last_seen": "2026-06-05",
-      "days_on_list": 1,
-      "last_stars": 36497,
+      "last_seen": "2026-06-06",
+      "days_on_list": 2,
+      "last_stars": 36500,
       "category": "tools",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "Imbad0202/academic-research-skills": {
       "first_seen": "2026-05-19",
@@ -784,13 +784,13 @@
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-05",
-      "days_on_list": 2,
+      "last_seen": "2026-06-06",
+      "days_on_list": 3,
       "last_stars": 54000,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "VulcanLab/IPI-Proxy": {
       "first_seen": "2026-06-04",
@@ -824,23 +824,23 @@
     },
     "microsoft/RAMPART": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "days_on_list": 1,
+      "last_seen": "2026-06-06",
+      "days_on_list": 2,
       "last_stars": null,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "days_on_list": 1,
+      "last_seen": "2026-06-06",
+      "days_on_list": 2,
       "last_stars": 577,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
@@ -854,23 +854,23 @@
     },
     "sipyourdrink-ltd/bernstein": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "days_on_list": 1,
+      "last_seen": "2026-06-06",
+      "days_on_list": 2,
       "last_stars": 178,
       "category": "tools",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "openclaw/openclaw": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
-      "days_on_list": 1,
+      "last_seen": "2026-06-06",
+      "days_on_list": 2,
       "last_stars": 250000,
       "category": "llm",
       "language": "unknown",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-06-06"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
@@ -881,7 +881,37 @@
       "language": "C++",
       "graduated": false,
       "last_pushed_at": "2026-06-05"
+    },
+    "volcengine/OpenViking": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "days_on_list": 1,
+      "last_stars": 22600,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-06"
+    },
+    "lightseekorg/tokenspeed": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "days_on_list": 1,
+      "last_stars": 636,
+      "category": "llm",
+      "language": "C++",
+      "graduated": false,
+      "last_pushed_at": "2026-06-06"
+    },
+    "affaan-m/agentshield": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "days_on_list": 1,
+      "last_stars": 626,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-03-22"
     }
   },
-  "last_updated": "2026-06-05"
+  "last_updated": "2026-06-06"
 }
