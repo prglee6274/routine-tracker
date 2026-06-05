@@ -1,0 +1,36 @@
+# NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities
+
+**Authors:** Darion Cassel, Nuno Sabino, Min-Chien Hsu, Ruben Martins, Limin Jia (Carnegie Mellon University; Sabino also Instituto Superior Técnico / Universidade de Lisboa & Instituto de Telecomunicações). *Cassel and Sabino: shared first authorship.*
+**Venue / Year:** NDSS 2025 (24–28 Feb 2025, San Diego)
+**Links:** [NDSS paper page](https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/) · [PDF](https://www.ndss-symposium.org/wp-content/uploads/2025-1636-paper.pdf) · DOI: [10.14722/ndss.2025.241636](https://dx.doi.org/10.14722/ndss.2025.241636)
+**Scope tag:** ADJACENT
+**Relation to a thesis on discovering Electron-app vulnerabilities (one line):** Electron apps bundle thousands of npm packages that execute with full Node.js privileges in the main/preload processes, so an ACE/ACI discovery-plus-exploit-synthesis engine at npm scale directly maps the "code execution" payload end of the Electron exploitation chain.
+> **한 줄 요약 (KO):** NodeMedic-FINE은 타입·객체구조 인지 퍼저로 동적 테인트 분석의 경로 탐색을 넓히고, 그 정보로 SMT 기반 익스플로잇 합성을 유도해 Node.js 패키지의 ACE/ACI 취약점을 자동 탐지·확증하는 도구로, ACE/ACI sink 호출이 있는 npm 패키지 33,011개에서 2,257개의 잠재 흐름을 찾고 766개 패키지에서 실제 동작하는 익스플로잇을 자동 생성했다.
+
+## 1. Problem, Gap & Hypothesis
+The npm/Node.js ecosystem's most serious bugs are **Arbitrary Command Injection (ACI)** and **Arbitrary Code Execution (ACE)**, which let attacker-controlled input reach sinks like `eval`/`exec` and run code on the host. Prior dynamic-taint tools both detect such flows *and* try to synthesize proof-of-concept exploits that confirm them — but with limited success. Two gaps: (1) package API inputs have **varied types and object structures**; if the analysis does not invoke an API with the correctly-typed/structured input, the vulnerable path never executes and the bug is missed; and (2) generating a working exploit must account for transformations the package performs on tainted input before it reaches the sink, and (for ACE) the payload must be syntactically and semantically valid JavaScript. Concretely, the predecessor NODEMEDIC confirmed only **155 ACI/ACE flows in 10,000 packages**, failing to confirm **23% of ACI** and **73% of ACE** flows. Hypothesis: a **type- and object-structure-aware fuzzer**, coupled with taint-inferred type/structure information fed into the exploit synthesizer, will explore more paths and confirm far more exploitable vulnerabilities.
+*(KO) 핵심 갭: 패키지 API 입력의 타입·구조가 제각각이라 잘못된 입력을 주면 취약 경로가 실행되지 않아 미탐 발생, 또 sink 도달 전 변형 때문에 익스플로잇 합성이 어렵다. 전작 NODEMEDIC은 1만 개 중 155개만 확증(ACI 23%·ACE 73% 미확증). 가설: 타입·구조 인지 퍼저 + 테인트 기반 타입정보로 합성을 유도하면 훨씬 많이 확증 가능.*
+
+## 2. Methodology
+NODEMEDIC-FINE extends a dynamic provenance/taint pipeline for Node.js. For a package under test, it **generates a driver** that requires the package and calls its entry-point function with a tainted input; the **type- and object-structure-aware fuzzer** mutates the *type and field structure* of that input to drive execution down more paths during dynamic taint analysis. The taint analysis records provenance from attacker-controlled entry points to sensitive sinks. The types/structure inferred during taint analysis are then handed to an **exploit-synthesis engine** (SMT/string-synthesis style, building on NODEMEDIC's synthesis) that constructs a concrete input carrying a payload (e.g., `'$(touch success)#'`) which, when re-run on an uninstrumented Node.js, demonstrates a *working* exploit (success/failure is checked by the payload's observable effect).
+*(KO) 방법: 대상 패키지를 require해 진입점에 테인트 입력을 주는 드라이버를 생성하고, 타입·구조 인지 퍼저로 입력의 타입·필드 구조를 변형해 동적 테인트 분석의 경로 탐색을 확대. 테인트로 추론한 타입/구조를 익스플로잇 합성 엔진(SMT 문자열 합성 계열)에 넘겨 실제 페이로드를 만든 뒤, 계측 없는 Node.js에서 재실행해 동작 여부로 확증.*
+
+## 3. Experiments / Evaluation Setup — targets, dataset sizes, configs, what was measured
+The corpus is **npm packages that contain calls to ACE and ACI sinks** — **33,011 packages** in total. Measured: the number of **potential (taint) flows** detected and the number of packages for which a **working exploit** is **automatically synthesized** (the strongest signal, since it confirms true-positive exploitability). The design is explicitly compared against the predecessor NODEMEDIC's confirmation rates as the baseline to beat.
+*(KO) 평가 대상: ACE/ACI sink 호출이 있는 npm 패키지 33,011개. 측정: 탐지된 잠재 흐름 수, 그리고 자동으로 '동작하는' 익스플로잇이 합성된 패키지 수(참양성 확증 신호). 베이스라인은 전작 NODEMEDIC.*
+
+## 4. Results / Key Findings — concrete numbers
+- Over **33,011 npm packages** (those calling ACE/ACI sinks), NODEMEDIC-FINE found **2,257 potential flows** and **automatically synthesized working exploits in 766 packages**.
+- This is a large step over the predecessor baseline, which had confirmed only **155 ACI/ACE flows in 10,000 packages** and failed to confirm 23% of ACI / 73% of ACE flows — the type/structure-aware fuzzing plus synthesis-guidance is credited with closing much of that gap.
+*(KO) 결과: 33,011개 패키지에서 잠재 흐름 2,257개 탐지, 766개 패키지에서 동작 익스플로잇 자동 합성. 1만 개 중 155개 확증에 그쳤던 전작 대비 대폭 향상.*
+
+## 5. How to cite in Related Work
+> A long line of work detects Arbitrary Code/Command Execution in the npm ecosystem via dynamic taint tracking and then attempts to synthesize confirming exploits, but suffers from inputs of the wrong type or structure that never reach the vulnerable path. Cassel et al. address this with NODEMEDIC-FINE, which pairs a type- and object-structure-aware fuzzer with taint-inferred type information that guides SMT-based exploit synthesis; evaluated on 33,011 npm packages containing ACE/ACI sinks, it identified 2,257 candidate flows and automatically produced working proof-of-concept exploits for 766 packages — a substantial improvement over the prior NODEMEDIC baseline of 155 confirmed flows in 10,000 packages.
+>
+> *(KO) 포지셔닝: Electron 앱은 npm 패키지를 그대로 번들해 main/preload에서 Node 권한으로 실행하므로, 패키지 단위 ACE/ACI 발견·익스플로잇 합성은 Electron 위협 모델에서 '코드실행 페이로드' 단계의 발견 엔진이다. 본 논문은 (a) 발견+자동 익스플로잇 합성으로 참양성을 확증하는 강점이 있으나 (b) Electron 고유의 IPC·contextBridge·preload·DOM→Node 경계를 모델링하지 않는다 → Bullseye·Silent Spring·GHunter와 함께 'Node 패키지/런타임 발견' 라인으로 묶고, "패키지 단위 자동 익스플로잇은 성숙, Electron 애플리케이션 경계로의 확장은 미해결"이라는 갭으로 인용.*
+
+## 6. Caveats / what I could not confirm from the text
+- Grounding: built from the NDSS'25 full-text PDF — title/author block, abstract, and the §I introduction (including the worked driver→synthesized-exploit example) were read directly; the detailed evaluation tables (per-sink breakdowns, false-positive analysis, runtime cost, and the precise definition of "potential flow" vs. "confirmed exploit") were not read line-by-line, so only the abstract/intro-level numbers above are firmly grounded.
+- Targets **npm packages / Node.js**, **not** Electron; Electron relevance is analytical (bundled packages run with Node privileges), not claimed by the authors.
+- The 766 "working exploits" are automatically synthesized and self-checked; the paper's own success criteria and any manual spot-checking should be read in the evaluation before citing as fully validated CVEs.
+- "33,011 packages" is the *sink-containing* subset, not all of npm — cite with that qualifier.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-04",
-  "last_run": "2026-06-04",
+  "last_updated": "2026-06-05",
+  "last_run": "2026-06-05",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -111,6 +111,42 @@
       "pdf": "http://users.encs.concordia.ca/home/m/mmannan/publications/Bullseye-NDSS2026.pdf",
       "note_file": "papers/ndss2026-bullseye.md",
       "added": "2026-06-04", "grounding": "full-text"
+    },
+    {
+      "id": "sp2026-gasket",
+      "title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
+      "title_norm": "best of both worlds effective foreign bridge identification in v8 embedders for security analysis",
+      "authors": ["Georgios Alexopoulos", "Thodoris Sotiropoulos", "Zhendong Su", "Dimitris Mitropoulos"],
+      "venue": "IEEE S&P", "year": 2026, "scope": "ADJACENT",
+      "doi": null,
+      "url": "https://grgalex.gr/assets/pdf/gasket_sp26.pdf",
+      "pdf": "https://grgalex.gr/assets/pdf/gasket_sp26.pdf",
+      "note_file": "papers/sp2026-gasket.md",
+      "added": "2026-06-05", "grounding": "full-text (author PDF); 'Electron' not named — covers Node.js/Deno/Chromium embedders"
+    },
+    {
+      "id": "usenixsec2024-ghunter",
+      "title": "GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes",
+      "title_norm": "ghunter universal prototype pollution gadgets in javascript runtimes",
+      "authors": ["Eric Cornelissen", "Mikhail Shcherbakov", "Musard Balliu"],
+      "venue": "USENIX Security", "year": 2024, "scope": "ADJACENT",
+      "doi": null,
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/cornelissen",
+      "pdf": "https://arxiv.org/pdf/2407.10812",
+      "note_file": "papers/usenixsec2024-ghunter.md",
+      "added": "2026-06-05", "grounding": "full-text (arXiv preprint)"
+    },
+    {
+      "id": "ndss2025-nodemedic-fine",
+      "title": "NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities",
+      "title_norm": "nodemedic-fine automatic detection and exploit synthesis for node.js vulnerabilities",
+      "authors": ["Darion Cassel", "Nuno Sabino", "Min-Chien Hsu", "Ruben Martins", "Limin Jia"],
+      "venue": "NDSS", "year": 2025, "scope": "ADJACENT",
+      "doi": "10.14722/ndss.2025.241636",
+      "url": "https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2025-1636-paper.pdf",
+      "note_file": "papers/ndss2025-nodemedic-fine.md",
+      "added": "2026-06-05", "grounding": "full-text"
     }
   ],
   "excluded": [
@@ -169,6 +205,13 @@
       "venue": "NDSS", "year": 2026,
       "reason": "Matched on 'hybrid' but targets C-Lua hybrid web services in Linux-based firmware (embedded/IoT), not a hybrid web/desktop (Electron) app.",
       "url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/"
+    },
+    {
+      "title": "Original Sin of npm: A Study on Vulnerability Propagation in JavaScript Dependency Networks",
+      "title_norm": "original sin of npm a study on vulnerability propagation in javascript dependency networks",
+      "venue": "AsiaCCS", "year": 2026,
+      "reason": "Generic npm/JavaScript dependency-network vulnerability-propagation measurement (1,515 vulns across ~1.08M packages); empirical SCA, not Electron- or Node.js-runtime-vulnerability-DISCOVERY specific. Same rationale as the excluded 'From Noise to Signal' (NDSS'26) and 'Cross-Language Detection of Malicious Packages' (ACSAC'23).",
+      "url": "https://arxiv.org/abs/2604.17668"
     }
   ],
   "context_non_venue": [
