@@ -84,8 +84,8 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-06",
-      "days_on_list": 9,
+      "last_seen": "2026-06-07",
+      "days_on_list": 10,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
@@ -624,13 +624,13 @@
     },
     "HKUDS/CLI-Anything": {
       "first_seen": "2026-05-18",
-      "last_seen": "2026-06-06",
-      "days_on_list": 2,
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
       "last_stars": 36500,
       "category": "tools",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-07"
     },
     "Imbad0202/academic-research-skills": {
       "first_seen": "2026-05-19",
@@ -784,13 +784,13 @@
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-06",
-      "days_on_list": 3,
+      "last_seen": "2026-06-07",
+      "days_on_list": 4,
       "last_stars": 54000,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-07"
     },
     "VulcanLab/IPI-Proxy": {
       "first_seen": "2026-06-04",
@@ -824,8 +824,8 @@
     },
     "microsoft/RAMPART": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-06",
-      "days_on_list": 2,
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
       "last_stars": null,
       "category": "security",
       "language": "Python",
@@ -834,8 +834,8 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-06",
-      "days_on_list": 2,
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
       "last_stars": 577,
       "category": "security",
       "language": "Go",
@@ -844,33 +844,33 @@
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
+      "last_seen": "2026-06-07",
       "days_on_list": 1,
-      "last_stars": null,
+      "last_stars": 167,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "last_pushed_at": "2026-03-31"
     },
     "sipyourdrink-ltd/bernstein": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-06",
-      "days_on_list": 2,
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
       "last_stars": 178,
       "category": "tools",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-07"
     },
     "openclaw/openclaw": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-06",
-      "days_on_list": 2,
-      "last_stars": 250000,
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
+      "last_stars": 377000,
       "category": "llm",
       "language": "unknown",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-07"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
@@ -884,13 +884,13 @@
     },
     "volcengine/OpenViking": {
       "first_seen": "2026-06-06",
-      "last_seen": "2026-06-06",
-      "days_on_list": 1,
+      "last_seen": "2026-06-07",
+      "days_on_list": 2,
       "last_stars": 22600,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-07"
     },
     "lightseekorg/tokenspeed": {
       "first_seen": "2026-06-06",
@@ -911,7 +911,17 @@
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-03-22"
+    },
+    "Gen-Verse/OpenClaw-RL": {
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-07",
+      "days_on_list": 1,
+      "last_stars": 3100,
+      "last_pushed_at": "2026-06-07",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
     }
   },
-  "last_updated": "2026-06-06"
+  "last_updated": "2026-06-07"
 }
