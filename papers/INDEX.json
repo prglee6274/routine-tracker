@@ -5149,6 +5149,199 @@
         "circuits",
         "interp_method"
       ]
+    },
+    "2606.04027": {
+      "version": "v1",
+      "title": "MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "jailbreak",
+        "diffusion LLM",
+        "dLLM",
+        "black-box attack",
+        "red-teaming"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "adversarial",
+        "red_teaming"
+      ]
+    },
+    "2606.05725": {
+      "version": "v1",
+      "title": "An Embarrassingly Simple Detector for Model Extraction Attacks in Large Language Model API Traffic",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "model extraction",
+        "model stealing",
+        "LLM API security",
+        "MMD",
+        "distribution testing"
+      ],
+      "category": "security",
+      "subtopics": [
+        "defense_mechanism",
+        "adversarial"
+      ]
+    },
+    "2606.05378": {
+      "version": "v1",
+      "title": "Pattern Selectivity is Not Task-Causal Structure: A Cross-Architecture Mechanistic Study of Composed-Task Circuits in 1B-Class Language Models",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "mechanistic interpretability",
+        "attention circuits",
+        "causal ablation",
+        "composed tasks",
+        "mixture-of-experts"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "circuits",
+        "mechanistic_position",
+        "interp_method"
+      ]
+    },
+    "2606.05486": {
+      "version": "v1",
+      "title": "Localizing Prompt Ambiguity in Large Language Models with Probe-Targeted Attribution",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "probing",
+        "gradient attribution",
+        "prompt ambiguity",
+        "linear probe",
+        "residual stream"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "feature_attribution",
+        "interp_method"
+      ]
+    },
+    "2606.04483": {
+      "version": "v1",
+      "title": "Off-Distribution Voices: Fanfiction Subgenres as Universal Vernacular Jailbreaks for Aligned LLMs",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "jailbreak",
+        "alignment",
+        "red-teaming",
+        "vernacular attack",
+        "multi-turn attack"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "red_teaming",
+        "alignment_robustness"
+      ]
+    },
+    "2606.05566": {
+      "version": "v1",
+      "title": "GuardNet: Ensemble Strategies of Shallow Neural Networks for Robust Prompt Injection and Jailbreak Detection",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "prompt injection",
+        "jailbreak detection",
+        "guardrail",
+        "BiLSTM ensemble",
+        "LLM security"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "jailbreak",
+        "defense_mechanism"
+      ]
+    },
+    "2606.03785": {
+      "version": "v2",
+      "title": "Backdoor Unlearning Generalization: A Path Toward the Removal of Unknown Triggers in LLMs",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "machine unlearning",
+        "backdoor removal",
+        "trigger generalization",
+        "LLM safety"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "backdoor"
+      ]
+    },
+    "2606.05004": {
+      "version": "v1",
+      "title": "SharedRequest: Privacy-Preserving Model-Agnostic Inference for Large Language Models",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "privacy-preserving inference",
+        "prompt privacy",
+        "batch obfuscation",
+        "model-agnostic"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "pii_leakage",
+        "differential_privacy"
+      ]
+    },
+    "2606.03399": {
+      "version": "v1",
+      "title": "Selective Token-Level Cryptographic Redaction for Privacy-Preserving Clinical Deployment of Large Language Models",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "PII",
+        "clinical NLP",
+        "token-level redaction",
+        "encryption"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "pii_leakage",
+        "data_extraction"
+      ]
+    },
+    "2606.01479": {
+      "version": "v1",
+      "title": "Sparse Autoencoders for Interpretable Emotion Control in Text-to-Speech",
+      "first_seen": "2026-06-08",
+      "last_updated": "2026-06-08",
+      "folder": "2026-06-08",
+      "keywords": [
+        "sparse autoencoder",
+        "SAE",
+        "feature intervention",
+        "activation steering",
+        "TTS"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "activation_steering",
+        "interp_method"
+      ]
     }
   },
   "_taxonomy": {
@@ -5191,5 +5384,5 @@
       ]
     }
   },
-  "last_run": "2026-06-07"
+  "last_run": "2026-06-08"
 }
