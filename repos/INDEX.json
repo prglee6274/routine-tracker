@@ -94,13 +94,13 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-03",
-      "days_on_list": 8,
-      "last_stars": 2584,
+      "last_seen": "2026-06-08",
+      "days_on_list": 1,
+      "last_stars": 2600,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-03"
+      "last_pushed_at": "2026-06-08"
     },
     "astral-sh/uv": {
       "first_seen": "2026-05-21",
@@ -624,13 +624,13 @@
     },
     "HKUDS/CLI-Anything": {
       "first_seen": "2026-05-18",
-      "last_seen": "2026-06-07",
-      "days_on_list": 3,
+      "last_seen": "2026-06-08",
+      "days_on_list": 4,
       "last_stars": 36500,
       "category": "tools",
       "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-06-07"
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
     },
     "Imbad0202/academic-research-skills": {
       "first_seen": "2026-05-19",
@@ -754,10 +754,10 @@
     },
     "agentscope-ai/QwenPaw": {
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-08",
       "days_on_list": 1,
-      "last_stars": 2545,
-      "last_pushed_at": "2026-06-03",
+      "last_stars": 17300,
+      "last_pushed_at": "2026-06-08",
       "category": "llm",
       "language": "Python",
       "graduated": false
@@ -774,13 +774,13 @@
     },
     "perplexityai/bumblebee": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
       "days_on_list": 1,
-      "last_stars": null,
+      "last_stars": 4300,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-04"
+      "last_pushed_at": "2026-06-08"
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
@@ -814,23 +814,23 @@
     },
     "biomejs/biome": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-04",
+      "last_seen": "2026-06-08",
       "days_on_list": 1,
-      "last_stars": 24009,
+      "last_stars": 24000,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-04"
+      "last_pushed_at": "2026-06-08"
     },
     "microsoft/RAMPART": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-07",
-      "days_on_list": 3,
+      "last_seen": "2026-06-08",
+      "days_on_list": 4,
       "last_stars": null,
       "category": "security",
       "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
@@ -864,13 +864,13 @@
     },
     "openclaw/openclaw": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-07",
-      "days_on_list": 3,
-      "last_stars": 377000,
+      "last_seen": "2026-06-08",
+      "days_on_list": 4,
+      "last_stars": 373000,
       "category": "llm",
-      "language": "unknown",
-      "graduated": false,
-      "last_pushed_at": "2026-06-07"
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
@@ -884,13 +884,13 @@
     },
     "volcengine/OpenViking": {
       "first_seen": "2026-06-06",
-      "last_seen": "2026-06-07",
-      "days_on_list": 2,
-      "last_stars": 22600,
+      "last_seen": "2026-06-08",
+      "days_on_list": 3,
+      "last_stars": 25300,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-07"
+      "last_pushed_at": "2026-06-08"
     },
     "lightseekorg/tokenspeed": {
       "first_seen": "2026-06-06",
@@ -914,14 +914,24 @@
     },
     "Gen-Verse/OpenClaw-RL": {
       "first_seen": "2026-06-07",
-      "last_seen": "2026-06-07",
-      "days_on_list": 1,
+      "last_seen": "2026-06-08",
+      "days_on_list": 2,
       "last_stars": 3100,
-      "last_pushed_at": "2026-06-07",
+      "last_pushed_at": "2026-06-08",
       "category": "llm",
       "language": "TypeScript",
       "graduated": false
+    },
+    "Justin0504/Aegis": {
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-08"
     }
   },
-  "last_updated": "2026-06-07"
+  "last_updated": "2026-06-08"
 }
