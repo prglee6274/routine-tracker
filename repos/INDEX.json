@@ -84,8 +84,8 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-07",
-      "days_on_list": 10,
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
@@ -94,8 +94,8 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-08",
-      "days_on_list": 1,
+      "last_seen": "2026-06-09",
+      "days_on_list": 2,
       "last_stars": 2600,
       "category": "tools",
       "language": "Rust",
@@ -714,13 +714,13 @@
     },
     "Tencent/AI-Infra-Guard": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-05-27",
-      "days_on_list": 2,
-      "last_stars": 3400,
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
+      "last_stars": 3200,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-05-21"
+      "last_pushed_at": "2026-05-28"
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
@@ -814,8 +814,8 @@
     },
     "biomejs/biome": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-08",
-      "days_on_list": 1,
+      "last_seen": "2026-06-09",
+      "days_on_list": 2,
       "last_stars": 24000,
       "category": "tools",
       "language": "Rust",
@@ -834,8 +834,8 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-07",
-      "days_on_list": 3,
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
       "last_stars": 577,
       "category": "security",
       "language": "Go",
@@ -884,12 +884,12 @@
     },
     "volcengine/OpenViking": {
       "first_seen": "2026-06-06",
-      "last_seen": "2026-06-08",
-      "days_on_list": 3,
+      "last_seen": "2026-06-09",
+      "days_on_list": 4,
       "last_stars": 25300,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-08"
     },
     "lightseekorg/tokenspeed": {
@@ -914,8 +914,8 @@
     },
     "Gen-Verse/OpenClaw-RL": {
       "first_seen": "2026-06-07",
-      "last_seen": "2026-06-08",
-      "days_on_list": 2,
+      "last_seen": "2026-06-09",
+      "days_on_list": 3,
       "last_stars": 3100,
       "last_pushed_at": "2026-06-08",
       "category": "llm",
@@ -931,7 +931,37 @@
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-06-08"
+    },
+    "HKUDS/AI-Trader": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
+      "last_stars": 13700,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "samugit83/redamon": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
+      "last_stars": 1900,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "responsibleai/ASSERT": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "days_on_list": 1,
+      "last_stars": 77,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-02"
     }
   },
-  "last_updated": "2026-06-08"
+  "last_updated": "2026-06-09"
 }
