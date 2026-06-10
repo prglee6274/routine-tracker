@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-06-10 — Daily watch
+
+**No new papers today.** Swept all 9 venues (web search across the standing queries; web_fetch unavailable for the NDSS accepted-papers page this run — URL not in the provenance set — but NDSS '26 was fully grepped in prior runs and today's searches surfaced no additions).
+
+Every in-scope academic result that searches returned is already in the ledger: **Bullseye** (NDSS '26), **Silent Spring** (USENIX Sec '23), **HODOR** (CCS '23), **GHunter** (USENIX Sec '24) — plus the standing set (DOM-tree type, Inspectron, COINDEF, Mininode, NodeShield, GASKET, NodeMedic-FINE, XRCE/XGuard). The four out-of-venue context items (**Electrolint**, **ElectroVolt**, **"Developers Are Victims Too"**, **JavaSith**) also re-surfaced and remain in `context_non_venue`.
+
+Venue status unchanged from the 06-09 sweep: **USENIX Sec '26 Cycle 2** acceptances still not public — confirmed this run that Cycle-2 final papers are due **Jun 11** and the Cycle-2 papers release on **Jul 9, 2026** (symposium Aug 12–14); **CCS '26** accepted list still not public (only the ~19.5% between-cycle acceptance-rate stat). **IEEE S&P '26 / NDSS '26 / AsiaCCS '26** (fully grepped in prior runs), **DSN '26** (fully grepped 06-09), and **ACSAC / RAID / ESORICS '26** surfaced no new in-scope hits (ESORICS '26 is Sept 14, submission deadline was Apr 21 → proceedings not out).
+
+One genuinely new candidate surfaced and was triaged **without** ledgering: **"Protect Your Secrets: Understanding and Measuring Data Exposure in VSCode Extensions"** (arXiv 2412.00707) — a measurement study of secret/credential exposure in VS Code (Electron) extensions. It is an **arXiv-only preprint with no confirmed top-9-venue acceptance**, so consistent with prior out-of-venue handling (React2Shell, Dasty/WWW'24, "Learning to Triage Taint Flows") it is deliberately **not** added to `excluded[]` (which tracks watched-venue papers only). It is a data-exposure measurement rather than renderer/IPC/preload vulnerability-discovery work; it sits alongside the existing VS Code context entries and can be promoted if a watched venue accepts it.
+
+The 2026 Electron surface that searches returned remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: CVE-2026-33976 / CVE-2026-33955 (Notesnook stored-XSS→RCE via nodeIntegration:true / contextIsolation:false), the Vikunja Desktop XSS→RCE advisory (GHSA-xh67-63q3-hf7g), CVE-2026-34781 (Electron `clipboard.readImage` DoS), and CVE-2026-7992 (Chromium Views input-validation RCE on Chrome Linux/ChromeOS — desktop-UI layer, not the embedded WebView runtime). Consistent with prior out-of-venue handling these are **not** added to `excluded[]`; they remain useful as fresh motivation/impact citations.
+
+Ledger unchanged: **12 in-scope / 11 excluded / 4 context**. Scoped commit attempted via `scripts/commit_and_push.sh`; in this sandbox the parent `.git` sits one level above the mounted `related_work` folder and may not be reachable, so the commit may need to be completed on the user's machine (push is offline-expected regardless).
+
+## 2026-06-09 — Daily watch
+
+**No new in-scope papers; 2 new `excluded[]` (both DSN 2026).** Swept all 9 venues (web search across the standing queries; web_fetch on accepted-paper HTML).
+
+This run's substantive action: the **DSN 2026 accepted-papers list** (Research + Industry + Disrupt + Doctoral Forum + Poster) was fetched in full and grepped for the in-scope vocabulary (electron / nodeIntegration / contextIsolation / preload / contextBridge / renderer / main process / IPC / chromium / CEF / webview / desktop app / hybrid / node.js / npm / prototype pollution / XSS→RCE). DSN '26 (Charlotte, Jun 22–25; accepted list posted May 7, full program May 23) is dominated by ML reliability, DRAM/hardware faults, federated learning, blockchain / smart-contract, firmware/binary fuzzing, and LLM-for-security work. **Zero in-scope hits.** The only two titles near the JS/web keyword space were triaged out and recorded in `excluded[]`:
+
+- **"Demystifying Progressive Web Application Permission Systems"** (M. Wang, J. Huang, G. Gu; arXiv 2509.13563) — browser/web-platform PWA permission-model security (Permission API abuse, permission leakage, device identification) via the *Permissioner* tool; PWAs run inside the Chromium/Firefox sandbox → generic web/browser, no Electron / Node / renderer-IPC / preload desktop angle.
+- **"VulJSFormer: Learning to Detect JavaScript Vulnerabilities with Vulnerability-Relevant Graphs"** — generic learning-based (graph + Transformer) JavaScript source-code vulnerability detection; no Electron / Node.js-runtime / desktop angle in the title and no abstract indexed yet (sibling to DSN '26 "VulStyle", also out). Title/venue-level judgment with a re-triage caveat if a future read shows a Node.js focus.
+
+Other venues unchanged from the 06-08 sweep: **USENIX Sec '26 Cycle 2** acceptances still not public (final papers due Jun 11; symposium Aug 12–14, 2026); **CCS '26** accepted list still not public (only the ~19.5% between-cycle acceptance-rate stat). **IEEE S&P '26 / NDSS '26 / AsiaCCS '26** (fully grepped in prior runs) and **ACSAC / RAID / ESORICS '26** surfaced no new in-scope hits. Every in-scope academic result that appeared is already in the ledger (DOM-tree type, Inspectron, COINDEF, Silent Spring, Mininode, HODOR, NodeShield, Bullseye, GASKET, GHunter, NodeMedic-FINE, XRCE/XGuard).
+
+The 2026 Electron surface that searches returned remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: CVE-2026-39846 (SiYuan Electron client stored-XSS→RCE via synced table captions), CVE-2026-34765 (multi-window trust-level permission inheritance → ACE when nodeIntegration on / sandbox off), CVE-2026-34774 (offscreen-rendering use-after-free), CVE-2026-34781 (clipboard.readImage DoS), and CVE-2025-55305 (V8 heap-snapshot not covered by ASAR integrity validation). Consistent with prior out-of-venue handling these are **not** added to `excluded[]` (which tracks watched-venue papers only); they remain useful as fresh motivation/impact citations.
+
+Ledger now: **12 in-scope / 11 excluded / 4 context** (was 12 / 9 / 4). Scoped commit attempted via `scripts/commit_and_push.sh`; in this sandbox the parent `.git` sits one level above the mounted `related_work` folder and is not reachable, so the commit must be completed on the user's machine (push is offline-expected regardless).
+
 ## 2026-06-08 — Daily watch
 
 **No new papers today.** Swept all 9 venues (web search across the standing queries; web_fetch on accepted-paper HTML).

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-08",
-  "last_run": "2026-06-08",
+  "last_updated": "2026-06-10",
+  "last_run": "2026-06-10",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -212,6 +212,20 @@
       "venue": "AsiaCCS", "year": 2026,
       "reason": "Generic npm/JavaScript dependency-network vulnerability-propagation measurement (1,515 vulns across ~1.08M packages); empirical SCA, not Electron- or Node.js-runtime-vulnerability-DISCOVERY specific. Same rationale as the excluded 'From Noise to Signal' (NDSS'26) and 'Cross-Language Detection of Malicious Packages' (ACSAC'23).",
       "url": "https://arxiv.org/abs/2604.17668"
+    },
+    {
+      "title": "Demystifying Progressive Web Application Permission Systems",
+      "title_norm": "demystifying progressive web application permission systems",
+      "venue": "DSN", "year": 2026,
+      "reason": "Studies the browser/web-platform permission model of PWAs (push notifications, geolocation, installability, Permission API abuse, permission leakage, device identification) via the 'Permissioner' cross-platform tool; PWAs run inside the Chromium/Firefox sandbox. Pure web/browser permission-model security with no Electron / Node.js / renderer-main IPC / preload desktop-app angle (EXCLUDE: generic browser / web-app, no desktop-Electron angle). arXiv 2509.13563.",
+      "url": "https://arxiv.org/abs/2509.13563"
+    },
+    {
+      "title": "VulJSFormer: Learning to Detect JavaScript Vulnerabilities with Vulnerability-Relevant Graphs",
+      "title_norm": "vuljsformer learning to detect javascript vulnerabilities with vulnerability-relevant graphs",
+      "venue": "DSN", "year": 2026,
+      "reason": "Generic learning-based (graph + Transformer) JavaScript source-code vulnerability DETECTION; no Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle in the title, and no abstract was indexed yet to indicate a Node.js-runtime focus (sibling to DSN'26 'VulStyle', also out of scope). Title/venue-level judgment; re-triage if a future read shows a specific Node.js/Electron focus.",
+      "url": "https://dsn2026.github.io/cpaccepted.html"
     }
   ],
   "context_non_venue": [
