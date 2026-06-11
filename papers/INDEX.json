@@ -5690,6 +5690,187 @@
         "agent_privacy",
         "pii_leakage"
       ]
+    },
+    "2606.12360": {
+      "version": "v1",
+      "title": "Anatomy of Post-Training: Using Interpretability to Characterize Data and Shape the Learning Signal",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "data_centric"
+      ],
+      "keywords": [
+        "interpretability",
+        "post-training",
+        "preference data",
+        "sycophancy"
+      ]
+    },
+    "2606.12341": {
+      "version": "v1",
+      "title": "OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "privacy",
+      "subtopics": [
+        "pii",
+        "agent_safety"
+      ],
+      "keywords": [
+        "PII",
+        "LLM agent",
+        "inference leakage",
+        "privacy budget"
+      ]
+    },
+    "2606.12138": {
+      "version": "v1",
+      "title": "Unstable Features, Reproducible Subspaces: Understanding Seed Dependence in Sparse Autoencoders",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "interp_method",
+        "representation"
+      ],
+      "keywords": [
+        "sparse autoencoder",
+        "feature stability",
+        "reproducibility"
+      ]
+    },
+    "2606.11817": {
+      "version": "v1",
+      "title": "Grammar-Constrained Decoding Can Jailbreak LLMs into Generating Malicious Code",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "code_generation"
+      ],
+      "keywords": [
+        "jailbreak",
+        "code generation",
+        "grammar-constrained decoding",
+        "defense"
+      ]
+    },
+    "2606.11202": {
+      "version": "v1",
+      "title": "One Jailbreak, Many Tongues: Learning Language-Insensitive Intention Representations for Multilingual Jailbreak Detection",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "multilingual"
+      ],
+      "keywords": [
+        "multilingual jailbreak",
+        "jailbreak detection",
+        "cross-lingual"
+      ]
+    },
+    "2606.10525": {
+      "version": "v1",
+      "title": "Assessing Automated Prompt Injection Attacks in Agentic Environments",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent_safety"
+      ],
+      "keywords": [
+        "indirect prompt injection",
+        "LLM agent",
+        "AgentDojo"
+      ]
+    },
+    "2606.10080": {
+      "version": "v1",
+      "title": "VFUSE: Virulent Feature Understanding with Sparse autoEncoders",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "interp",
+      "subtopics": [
+        "sae",
+        "mechanistic_position",
+        "hazard_audit"
+      ],
+      "keywords": [
+        "sparse autoencoder",
+        "mechanistic interpretability",
+        "hazard auditing",
+        "protein models"
+      ]
+    },
+    "2606.10062": {
+      "version": "v1",
+      "title": "Deployment-Time Memorization in Foundation-Model Agents",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "privacy",
+      "subtopics": [
+        "memorization",
+        "agent_safety",
+        "unlearning"
+      ],
+      "keywords": [
+        "memorization",
+        "agent memory",
+        "privacy-utility",
+        "data extraction"
+      ]
+    },
+    "2606.08644": {
+      "version": "v1",
+      "title": "A retrieval conditioned rebinding circuit for dynamic entity tracking in large language models",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "interp",
+      "subtopics": [
+        "circuit",
+        "mechanistic_position",
+        "interp_method"
+      ],
+      "keywords": [
+        "mechanistic interpretability",
+        "circuit analysis",
+        "entity binding",
+        "attention heads"
+      ]
+    },
+    "2606.10481": {
+      "version": "v1",
+      "title": "Advancing the State-of-the-Art in Empirical Privacy Auditing",
+      "first_seen": "2026-06-11",
+      "last_updated": "2026-06-11",
+      "folder": "2026-06-11",
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference",
+        "privacy_audit"
+      ],
+      "keywords": [
+        "empirical privacy auditing",
+        "membership inference",
+        "canary design",
+        "PEFT"
+      ]
     }
   },
   "_taxonomy": {

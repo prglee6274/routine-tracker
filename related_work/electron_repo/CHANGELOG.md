@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-11 — Daily watch
+
+**No new papers today.** Swept all 9 venues via web search across the standing queries (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN).
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items (**Electrolint**, **ElectroVolt**, **"Developers Are Victims Too"**, **JavaSith**) re-surfaced and remain in `context_non_venue`.
+
+Venue status: **USENIX Sec '26 Cycle 2** acceptances still not public — confirmed this run that Cycle-2 final papers were due **today (Jun 11)** and embargoed papers release on the symposium's first day, **Aug 12, 2026** (Baltimore, Aug 12–14); only Cycle-1 is currently viewable. **CCS '26** accepted list still not public (notifications **Jul 17, 2026**; conference Nov 15, The Hague). **IEEE S&P '26 / NDSS '26 / AsiaCCS '26** (fully grepped in prior runs) and **DSN '26** (fully grepped 06-09) surfaced no new in-scope hits. **ACSAC '26** (Dec 7–11, LA — submissions closed, no accepted list yet), **RAID '26** and **ESORICS '26** (Sept 14; proceedings not out) returned no new in-scope hits.
+
+No genuinely new academic candidate surfaced this run (nothing to triage into `excluded[]`). The 2026 Electron surface that searches returned remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: CVE-2026-34780 (contextBridge VideoFrame transfer → context-isolation bypass, CVSS 8.4), CVE-2026-34769 (renderer command-line-switch injection via `commandLineSwitches` webPreference → sandbox disable, CVSS 7.8), CVE-2026-34770 (PowerMonitor UAF), CVE-2026-34774 (offscreen-rendering UAF), CVE-2026-34781 (`clipboard.readImage` DoS), CVE-2026-42890 (the `actual` app allowing Electron to run as Node), plus the "Five New Electron Vulnerabilities Shatter Context Isolation" industry write-up. Consistent with prior out-of-venue handling these are **not** added to `excluded[]` (which tracks watched-venue papers only); they remain useful as fresh motivation/impact citations.
+
+Ledger unchanged: **12 in-scope / 11 excluded / 4 context**. Scoped commit attempted via `scripts/commit_and_push.sh`; in this sandbox the parent `.git` sits one level above the mounted `related_work` folder and may not be reachable, so the commit may need to be completed on the user's machine (push is offline-expected regardless).
+
 ## 2026-06-10 — Daily watch
 
 **No new papers today.** Swept all 9 venues (web search across the standing queries; web_fetch unavailable for the NDSS accepted-papers page this run — URL not in the provenance set — but NDSS '26 was fully grepped in prior runs and today's searches surfaced no additions).
