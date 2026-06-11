@@ -84,8 +84,8 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-11",
-      "days_on_list": 3,
+      "last_seen": "2026-06-12",
+      "days_on_list": 4,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
@@ -94,8 +94,8 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-11",
-      "days_on_list": 4,
+      "last_seen": "2026-06-12",
+      "days_on_list": 5,
       "last_stars": 2600,
       "category": "tools",
       "language": "Rust",
@@ -444,7 +444,7 @@
     },
     "rtk-ai/rtk": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-05-08",
+      "last_seen": "2026-06-12",
       "days_on_list": 1,
       "last_stars": 44319,
       "category": "tools",
@@ -464,9 +464,9 @@
     },
     "always-further/nono": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-06-11",
-      "days_on_list": 2,
-      "last_stars": 2600,
+      "last_seen": "2026-06-12",
+      "days_on_list": 3,
+      "last_stars": 2558,
       "category": "security",
       "language": "Rust",
       "graduated": false,
@@ -554,9 +554,9 @@
     },
     "anomalyco/opencode": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-11",
-      "days_on_list": 2,
-      "last_stars": 55377,
+      "last_seen": "2026-06-12",
+      "days_on_list": 3,
+      "last_stars": 55407,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
@@ -954,8 +954,8 @@
     },
     "responsibleai/ASSERT": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-11",
-      "days_on_list": 3,
+      "last_seen": "2026-06-12",
+      "days_on_list": 4,
       "last_stars": 77,
       "category": "llm",
       "language": "Python",
@@ -974,8 +974,8 @@
     },
     "backbay-labs/clawdstrike": {
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "days_on_list": 1,
+      "last_seen": "2026-06-12",
+      "days_on_list": 2,
       "last_stars": null,
       "last_pushed_at": "2026-06",
       "category": "security",
@@ -994,14 +994,30 @@
     },
     "infiniflow/ragflow": {
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-11",
-      "days_on_list": 1,
-      "last_stars": 81330,
+      "last_seen": "2026-06-12",
+      "days_on_list": 2,
+      "last_stars": 61451,
       "last_pushed_at": "2026-05-26",
       "category": "llm",
       "language": "Python",
       "graduated": false
+    },
+    "praetorian-inc/augustus": {
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "days_on_list": 1,
+      "last_stars": 226,
+      "category": "security",
+      "language": "Go"
+    },
+    "block/goose": {
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "days_on_list": 1,
+      "last_stars": 23003,
+      "category": "llm",
+      "language": "Rust"
     }
   },
-  "last_updated": "2026-06-11"
+  "last_updated": "2026-06-12"
 }
