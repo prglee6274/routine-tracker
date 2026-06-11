@@ -84,8 +84,8 @@
     },
     "clockworklabs/SpacetimeDB": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-10",
-      "days_on_list": 2,
+      "last_seen": "2026-06-11",
+      "days_on_list": 3,
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
@@ -94,8 +94,8 @@
     },
     "tursodatabase/agentfs": {
       "first_seen": "2026-05-21",
-      "last_seen": "2026-06-10",
-      "days_on_list": 3,
+      "last_seen": "2026-06-11",
+      "days_on_list": 4,
       "last_stars": 2600,
       "category": "tools",
       "language": "Rust",
@@ -464,8 +464,8 @@
     },
     "always-further/nono": {
       "first_seen": "2026-05-08",
-      "last_seen": "2026-06-10",
-      "days_on_list": 1,
+      "last_seen": "2026-06-11",
+      "days_on_list": 2,
       "last_stars": 2600,
       "category": "security",
       "language": "Rust",
@@ -554,8 +554,8 @@
     },
     "anomalyco/opencode": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-10",
-      "days_on_list": 1,
+      "last_seen": "2026-06-11",
+      "days_on_list": 2,
       "last_stars": 55377,
       "category": "llm",
       "language": "TypeScript",
@@ -814,8 +814,8 @@
     },
     "biomejs/biome": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-10",
-      "days_on_list": 3,
+      "last_seen": "2026-06-11",
+      "days_on_list": 4,
       "last_stars": 24000,
       "category": "tools",
       "language": "Rust",
@@ -934,8 +934,8 @@
     },
     "HKUDS/AI-Trader": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-10",
-      "days_on_list": 2,
+      "last_seen": "2026-06-11",
+      "days_on_list": 3,
       "last_stars": 13700,
       "category": "llm",
       "language": "Python",
@@ -954,8 +954,8 @@
     },
     "responsibleai/ASSERT": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-10",
-      "days_on_list": 2,
+      "last_seen": "2026-06-11",
+      "days_on_list": 3,
       "last_stars": 77,
       "category": "llm",
       "language": "Python",
@@ -971,7 +971,37 @@
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-03-12"
+    },
+    "backbay-labs/clawdstrike": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "days_on_list": 1,
+      "last_stars": null,
+      "last_pushed_at": "2026-06",
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "Fangcun-AI/SkillWard": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "days_on_list": 1,
+      "last_stars": 61,
+      "last_pushed_at": "2026-06",
+      "category": "security",
+      "language": "Python",
+      "graduated": false
+    },
+    "infiniflow/ragflow": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "days_on_list": 1,
+      "last_stars": 81330,
+      "last_pushed_at": "2026-05-26",
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
     }
   },
-  "last_updated": "2026-06-10"
+  "last_updated": "2026-06-11"
 }
