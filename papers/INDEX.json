@@ -6065,6 +6065,198 @@
     "Rowhammer",
     "bit-flip"
    ]
+  },
+  "2606.13079": {
+   "version": "v1",
+   "title": "The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "agent safety",
+    "red-teaming",
+    "safety eval",
+    "autonomous cyberattack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2606.11409": {
+   "version": "v1",
+   "title": "Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "adversarial",
+    "jailbreak",
+    "safety eval",
+    "alignment robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "jailbreak",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2606.13603": {
+   "version": "v1",
+   "title": "Beyond the Commitment Boundary: Probing Epiphenomenal Chain-of-Thought in Large Reasoning Models",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "probing",
+    "chain-of-thought",
+    "causal importance",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2606.13385": {
+   "version": "v1",
+   "title": "Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "prompt injection",
+    "web agent",
+    "agent safety",
+    "safety eval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2606.13168": {
+   "version": "v1",
+   "title": "When Does Routing Become Interpretable? Causal Probes on Block Attention Residuals",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "mechanistic interpretability",
+    "probing",
+    "circuits",
+    "activation patching",
+    "routing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2606.12679": {
+   "version": "v1",
+   "title": "Fed-FBD: Federated Functional Block Diversification for Isolation, Privacy, and Surgical Unlearning",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "federated learning",
+    "membership inference",
+    "unlearning",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "membership_inference",
+    "unlearning"
+   ]
+  },
+  "2606.12764": {
+   "version": "v1",
+   "title": "Detecting Functional Memorization in Code Language Models",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "data extraction",
+    "memorization",
+    "training data leakage",
+    "auditing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ]
+  },
+  "2606.12918": {
+   "version": "v1",
+   "title": "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "red-teaming",
+    "multi-agent",
+    "agent safety",
+    "adversarial"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety",
+    "adversarial"
+   ]
+  },
+  "2606.07867": {
+   "version": "v1",
+   "title": "The Cold-Start Safety Gap in LLM Agents",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "agent safety",
+    "safety eval",
+    "jailbreak",
+    "alignment robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2606.12666": {
+   "version": "v1",
+   "title": "CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents",
+   "first_seen": "2026-06-13",
+   "last_updated": "2026-06-13",
+   "folder": "2026-06-13",
+   "keywords": [
+    "privacy",
+    "agent privacy",
+    "PII leakage",
+    "defense"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -6107,5 +6299,5 @@
    ]
   }
  },
- "last_run": "2026-06-12"
+ "last_run": "2026-06-13"
 }
