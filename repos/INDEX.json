@@ -89,7 +89,7 @@
       "last_stars": 23046,
       "category": "tools",
       "language": "Rust",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-06"
     },
     "tursodatabase/agentfs": {
@@ -469,7 +469,7 @@
       "last_stars": 2558,
       "category": "security",
       "language": "Rust",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-02"
     },
     "ruvnet/RuView": {
@@ -559,7 +559,7 @@
       "last_stars": 55420,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-09"
     },
     "colbymchenry/codegraph": {
@@ -694,12 +694,12 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-13",
-      "days_on_list": 1,
+      "last_seen": "2026-06-15",
+      "days_on_list": 2,
       "last_stars": 2600,
-      "last_pushed_at": "2026-06-11",
+      "last_pushed_at": "2026-06-15",
       "category": "security",
-      "language": "Python",
+      "language": "TypeScript",
       "graduated": false
     },
     "confident-ai/deepteam": {
@@ -714,13 +714,13 @@
     },
     "Tencent/AI-Infra-Guard": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-06-09",
+      "last_seen": "2026-06-15",
       "days_on_list": 1,
       "last_stars": 3200,
       "category": "security",
-      "language": "Go",
+      "language": "Go/TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-05-28"
+      "last_pushed_at": "2026-06-08"
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
@@ -774,13 +774,13 @@
     },
     "perplexityai/bumblebee": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-08",
+      "last_seen": "2026-06-15",
       "days_on_list": 1,
-      "last_stars": 4300,
+      "last_stars": 3000,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-08"
+      "last_pushed_at": "2026-06-15"
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
@@ -1013,12 +1013,13 @@
     },
     "block/goose": {
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-13",
-      "days_on_list": 2,
-      "last_stars": 23009,
+      "last_seen": "2026-06-15",
+      "days_on_list": 3,
+      "last_stars": 23025,
       "category": "llm",
       "language": "Rust",
-      "graduated": false
+      "graduated": false,
+      "last_pushed_at": "2026-06-15"
     },
     "OpenHands/OpenHands": {
       "first_seen": "2026-06-13",
@@ -1032,14 +1033,64 @@
     },
     "upstash/context7": {
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-13",
-      "days_on_list": 1,
-      "last_stars": 28274,
+      "last_seen": "2026-06-15",
+      "days_on_list": 2,
+      "last_stars": 28281,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-15"
+    },
+    "openai/codex": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 44680,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "llm",
+      "language": "Rust/TypeScript",
+      "graduated": false
+    },
+    "anthropics/claude-code": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 44624,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "ggml-org/llama.cpp": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 90526,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "llm",
+      "language": "C++",
+      "graduated": false
+    },
+    "zed-industries/zed": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 68653,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false
+    },
+    "microsoft/playwright-mcp": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 18900,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
     }
   },
-  "last_updated": "2026-06-12"
+  "last_updated": "2026-06-15"
 }
