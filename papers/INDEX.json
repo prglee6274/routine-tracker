@@ -5436,10 +5436,10 @@
    "source": "arxiv recent"
   },
   "2606.06735": {
-   "version": "v1",
+   "version": "v2",
    "title": "A Geometric Account of Activation Steering through Angle-Norm Decomposition",
    "first_seen": "2026-06-09",
-   "last_updated": "2026-06-09",
+   "last_updated": "2026-06-15",
    "folder": "2026-06-09",
    "keywords": [
     "activation steering",
@@ -6257,6 +6257,76 @@
     "pii_leakage",
     "defense_mechanism"
    ]
+  },
+  "2606.11599": {
+   "version": "v1",
+   "title": "When is Your LLM Steerable?",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.11722": {
+   "version": "v1",
+   "title": "ICA Lens: Interpreting Language Models Without Training Another Dictionary",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.08044": {
+   "version": "v1",
+   "title": "When Behavioral Safety Evaluation Fails: A Representation-Level Perspective",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.08960": {
+   "version": "v1",
+   "title": "Hardening Agent Benchmarks with Adversarial Hacker-Fixer Loops",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.09068": {
+   "version": "v1",
+   "title": "Emergent Misalignment Can Be Induced by Sycophancy and Reversed via Alignment Gating",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.07943": {
+   "version": "v1",
+   "title": "POISE: Position-Aware Undetectable Skill Injection on LLM Agents",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.13106": {
+   "version": "v1",
+   "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.07271": {
+   "version": "v1",
+   "title": "Where Rectified Flows Leak: Characterising Membership Signals Along the Interpolation Path",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.14518": {
+   "version": "v1",
+   "title": "Behavioral Audit of Machine Unlearning Has a Privacy Cost",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
+  },
+  "2606.14078": {
+   "version": "v1",
+   "title": "Rethinking Backdoor Adversarial Unlearning through the Lens of Catastrophic Forgetting in Continual Learning",
+   "first_seen": "2026-06-15",
+   "last_updated": "2026-06-15",
+   "folder": "2026-06-15"
   }
  },
  "_taxonomy": {

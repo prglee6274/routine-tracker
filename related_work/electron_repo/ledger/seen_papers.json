@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-06-12",
-  "last_run": "2026-06-12",
+  "last_updated": "2026-06-15",
+  "last_run": "2026-06-15",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -226,6 +226,13 @@
       "venue": "DSN", "year": 2026,
       "reason": "Generic learning-based (graph + Transformer) JavaScript source-code vulnerability DETECTION; no Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle in the title, and no abstract was indexed yet to indicate a Node.js-runtime focus (sibling to DSN'26 'VulStyle', also out of scope). Title/venue-level judgment; re-triage if a future read shows a specific Node.js/Electron focus.",
       "url": "https://dsn2026.github.io/cpaccepted.html"
+    },
+    {
+      "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
+      "title_norm": "cutting the gordian knot detecting malicious pypi packages via a knowledge-mining framework",
+      "venue": "USENIX Security", "year": 2026,
+      "reason": "PyPI malicious-package detection framework (PyGuard); only adjacency to this watch is one cross-ecosystem generalization test on NPM packages (98.07% accuracy) in the abstract. No Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle; generic supply-chain DETECTION, not Node.js-runtime-vulnerability DISCOVERY. Same rationale as the excluded ACSAC'23 'Cross-Language Detection of Malicious Packages in npm and PyPI', NDSS'26 'From Noise to Signal', and AsiaCCS'26 'Original Sin of npm'. Recorded so the recurring 'npm' near-miss on USENIX Sec '26 Cycle 1 never re-surfaces.",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
     }
   ],
   "context_non_venue": [
