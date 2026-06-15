@@ -556,7 +556,7 @@
       "first_seen": "2026-05-17",
       "last_seen": "2026-06-13",
       "days_on_list": 4,
-      "last_stars": 55420,
+      "last_stars": 55465,
       "category": "llm",
       "language": "TypeScript",
       "graduated": true,
@@ -694,10 +694,10 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-15",
-      "days_on_list": 2,
+      "last_seen": "2026-06-16",
+      "days_on_list": 3,
       "last_stars": 2600,
-      "last_pushed_at": "2026-06-15",
+      "last_pushed_at": "2026-06-16",
       "category": "security",
       "language": "TypeScript",
       "graduated": false
@@ -719,7 +719,7 @@
       "last_stars": 3200,
       "category": "security",
       "language": "Go/TypeScript",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-08"
     },
     "NVIDIA/garak": {
@@ -774,13 +774,13 @@
     },
     "perplexityai/bumblebee": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-15",
-      "days_on_list": 1,
+      "last_seen": "2026-06-16",
+      "days_on_list": 2,
       "last_stars": 3000,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-15"
+      "last_pushed_at": "2026-06-16"
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
@@ -1013,13 +1013,13 @@
     },
     "block/goose": {
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-15",
-      "days_on_list": 3,
-      "last_stars": 23025,
+      "last_seen": "2026-06-16",
+      "days_on_list": 4,
+      "last_stars": 23030,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-15"
+      "last_pushed_at": "2026-06-16"
     },
     "OpenHands/OpenHands": {
       "first_seen": "2026-06-13",
@@ -1033,50 +1033,50 @@
     },
     "upstash/context7": {
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-15",
-      "days_on_list": 2,
-      "last_stars": 28281,
+      "last_seen": "2026-06-16",
+      "days_on_list": 3,
+      "last_stars": 28284,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-15"
+      "last_pushed_at": "2026-06-16"
     },
     "openai/codex": {
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
-      "last_stars": 44680,
+      "last_stars": 44697,
       "last_pushed_at": "2026-06-15",
       "days_on_list": 1,
       "category": "llm",
       "language": "Rust/TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "anthropics/claude-code": {
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
-      "last_stars": 44624,
+      "last_stars": 44632,
       "last_pushed_at": "2026-06-15",
       "days_on_list": 1,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "ggml-org/llama.cpp": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-15",
-      "last_stars": 90526,
-      "last_pushed_at": "2026-06-15",
-      "days_on_list": 1,
+      "last_seen": "2026-06-16",
+      "last_stars": 90531,
+      "last_pushed_at": "2026-06-16",
+      "days_on_list": 2,
       "category": "llm",
       "language": "C++",
       "graduated": false
     },
     "zed-industries/zed": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-15",
-      "last_stars": 68653,
-      "last_pushed_at": "2026-06-15",
-      "days_on_list": 1,
+      "last_seen": "2026-06-16",
+      "last_stars": 68654,
+      "last_pushed_at": "2026-06-16",
+      "days_on_list": 2,
       "category": "tools",
       "language": "Rust",
       "graduated": false
@@ -1084,13 +1084,53 @@
     "microsoft/playwright-mcp": {
       "first_seen": "2026-06-15",
       "last_seen": "2026-06-15",
-      "last_stars": 18900,
+      "last_stars": 18902,
       "last_pushed_at": "2026-06-15",
       "days_on_list": 1,
       "category": "tools",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
+    },
+    "NVIDIA/SkillSpector": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "days_on_list": 1,
+      "last_stars": 113,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16"
+    },
+    "langgenius/dify": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "days_on_list": 1,
+      "last_stars": 111486,
+      "category": "llm",
+      "language": "TypeScript/Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16"
+    },
+    "mem0ai/mem0": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "days_on_list": 1,
+      "last_stars": 40010,
+      "category": "llm",
+      "language": "Python/TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16"
+    },
+    "github/github-mcp-server": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "days_on_list": 1,
+      "last_stars": 19992,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16"
     }
   },
-  "last_updated": "2026-06-15"
+  "last_updated": "2026-06-16"
 }
