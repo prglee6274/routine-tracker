@@ -694,13 +694,13 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-16",
-      "days_on_list": 3,
+      "last_seen": "2026-06-17",
+      "days_on_list": 4,
       "last_stars": 2600,
       "last_pushed_at": "2026-06-16",
       "category": "security",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
@@ -744,9 +744,9 @@
     },
     "cisco-ai-defense/mcp-scanner": {
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-03",
+      "last_seen": "2026-06-17",
       "days_on_list": 1,
-      "last_stars": 859,
+      "last_stars": 900,
       "last_pushed_at": "2026-06-03",
       "category": "security",
       "language": "Python",
@@ -774,8 +774,8 @@
     },
     "perplexityai/bumblebee": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-16",
-      "days_on_list": 2,
+      "last_seen": "2026-06-17",
+      "days_on_list": 3,
       "last_stars": 3000,
       "category": "security",
       "language": "Go",
@@ -1018,7 +1018,7 @@
       "last_stars": 23030,
       "category": "llm",
       "language": "Rust",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-16"
     },
     "OpenHands/OpenHands": {
@@ -1063,20 +1063,20 @@
     },
     "ggml-org/llama.cpp": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
       "last_stars": 90531,
       "last_pushed_at": "2026-06-16",
-      "days_on_list": 2,
+      "days_on_list": 3,
       "category": "llm",
       "language": "C++",
       "graduated": false
     },
     "zed-industries/zed": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-16",
+      "last_seen": "2026-06-17",
       "last_stars": 68654,
       "last_pushed_at": "2026-06-16",
-      "days_on_list": 2,
+      "days_on_list": 3,
       "category": "tools",
       "language": "Rust",
       "graduated": false
@@ -1103,8 +1103,8 @@
     },
     "langgenius/dify": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "days_on_list": 1,
+      "last_seen": "2026-06-17",
+      "days_on_list": 2,
       "last_stars": 111486,
       "category": "llm",
       "language": "TypeScript/Python",
@@ -1113,8 +1113,8 @@
     },
     "mem0ai/mem0": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "days_on_list": 1,
+      "last_seen": "2026-06-17",
+      "days_on_list": 2,
       "last_stars": 40010,
       "category": "llm",
       "language": "Python/TypeScript",
@@ -1123,13 +1123,33 @@
     },
     "github/github-mcp-server": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "days_on_list": 1,
+      "last_seen": "2026-06-17",
+      "days_on_list": 2,
       "last_stars": 19992,
       "category": "tools",
       "language": "Go",
       "graduated": false,
       "last_pushed_at": "2026-06-16"
+    },
+    "open-webui/open-webui": {
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "days_on_list": 1,
+      "last_stars": 105998,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "modelcontextprotocol/servers": {
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "days_on_list": 1,
+      "last_stars": 60554,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": ""
     }
   },
   "last_updated": "2026-06-16"
