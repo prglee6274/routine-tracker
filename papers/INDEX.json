@@ -6702,6 +6702,166 @@
         "activation_steering",
         "representation"
       ]
+    },
+    "2606.17168": {
+      "version": "v1",
+      "title": "RepSelect: Robust LLM Unlearning via Representation Selectivity",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI privacy",
+      "subtopics": [
+        "AI privacy"
+      ],
+      "keywords": [
+        "unlearning",
+        "representation engineering",
+        "robustness"
+      ]
+    },
+    "2606.18193": {
+      "version": "v1",
+      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI security",
+      "subtopics": [
+        "AI security"
+      ],
+      "keywords": [
+        "red-teaming",
+        "jailbreak",
+        "adversarial robustness"
+      ]
+    },
+    "2606.17464": {
+      "version": "v1",
+      "title": "CheckMIABench: Firm Foundations For Membership Inference Attacks on Language Models",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI privacy",
+      "subtopics": [
+        "AI privacy"
+      ],
+      "keywords": [
+        "membership inference",
+        "privacy benchmark"
+      ]
+    },
+    "2606.17110": {
+      "version": "v1",
+      "title": "Loss Landscape Poisoning: Targeted Extraction of Unseen Training Data from LLMs",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI privacy",
+      "subtopics": [
+        "AI privacy",
+        "AI security"
+      ],
+      "keywords": [
+        "training data extraction",
+        "data poisoning",
+        "differential privacy"
+      ]
+    },
+    "2606.17114": {
+      "version": "v1",
+      "title": "An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI security",
+      "subtopics": [
+        "AI privacy",
+        "AI security"
+      ],
+      "keywords": [
+        "agent safety",
+        "data leakage"
+      ]
+    },
+    "2606.17122": {
+      "version": "v1",
+      "title": "TrustErase: Auditable Instant Machine Unlearning with Passport-Embedded Representations",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI privacy",
+      "subtopics": [
+        "AI privacy"
+      ],
+      "keywords": [
+        "machine unlearning",
+        "auditable",
+        "data-free"
+      ]
+    },
+    "2606.15810": {
+      "version": "v1",
+      "title": "Let Them Steal: Trapping Large Language Model Extraction Attacks with Knowledge Honeypot",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI security",
+      "subtopics": [
+        "AI security"
+      ],
+      "keywords": [
+        "model extraction",
+        "honeypot"
+      ]
+    },
+    "2606.16527": {
+      "version": "v1",
+      "title": "DoubtProbe: Black-Box Jailbreak Defense via Structural Verification and Semantic Auditing",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI security",
+      "subtopics": [
+        "AI security",
+        "LLM interpretability"
+      ],
+      "keywords": [
+        "jailbreak defense",
+        "black-box"
+      ]
+    },
+    "2606.18062": {
+      "version": "v1",
+      "title": "Security and Privacy Prompts in the Wild: What Users Ask LLMs and How LLMs Respond",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "AI privacy",
+      "subtopics": [
+        "AI privacy",
+        "AI security"
+      ],
+      "keywords": [
+        "S&P advice",
+        "WildChat",
+        "response quality"
+      ]
+    },
+    "2606.16897": {
+      "version": "v1",
+      "title": "Contrastive-Difference CKA Reveals Concept-Specific Structural Alignment Across Language Model Architectures",
+      "first_seen": "2026-06-18",
+      "last_updated": "2026-06-18",
+      "folder": "2026-06-18",
+      "category": "LLM interpretability",
+      "subtopics": [
+        "LLM interpretability"
+      ],
+      "keywords": [
+        "interpretability",
+        "representation analysis",
+        "CKA"
+      ]
     }
   },
   "_taxonomy": {
@@ -6744,5 +6904,5 @@
       ]
     }
   },
-  "last_run": "2026-06-17"
+  "last_run": "2026-06-18"
 }
