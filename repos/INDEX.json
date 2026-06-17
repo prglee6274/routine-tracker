@@ -744,10 +744,10 @@
     },
     "cisco-ai-defense/mcp-scanner": {
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-17",
-      "days_on_list": 1,
+      "last_seen": "2026-06-18",
+      "days_on_list": 2,
       "last_stars": 900,
-      "last_pushed_at": "2026-06-03",
+      "last_pushed_at": "2026-06-18",
       "category": "security",
       "language": "Python",
       "graduated": false
@@ -774,13 +774,13 @@
     },
     "perplexityai/bumblebee": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-17",
-      "days_on_list": 3,
+      "last_seen": "2026-06-18",
+      "days_on_list": 4,
       "last_stars": 3000,
       "category": "security",
       "language": "Go",
-      "graduated": false,
-      "last_pushed_at": "2026-06-16"
+      "graduated": true,
+      "last_pushed_at": "2026-06-18"
     },
     "badlogic/pi-mono": {
       "first_seen": "2026-06-04",
@@ -1063,23 +1063,23 @@
     },
     "ggml-org/llama.cpp": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-17",
-      "last_stars": 90531,
-      "last_pushed_at": "2026-06-16",
-      "days_on_list": 3,
+      "last_seen": "2026-06-18",
+      "last_stars": 90534,
+      "last_pushed_at": "2026-06-18",
+      "days_on_list": 4,
       "category": "llm",
       "language": "C++",
-      "graduated": false
+      "graduated": true
     },
     "zed-industries/zed": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-17",
-      "last_stars": 68654,
-      "last_pushed_at": "2026-06-16",
-      "days_on_list": 3,
+      "last_seen": "2026-06-18",
+      "last_stars": 68656,
+      "last_pushed_at": "2026-06-18",
+      "days_on_list": 4,
       "category": "tools",
       "language": "Rust",
-      "graduated": false
+      "graduated": true
     },
     "microsoft/playwright-mcp": {
       "first_seen": "2026-06-15",
@@ -1103,54 +1103,64 @@
     },
     "langgenius/dify": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "days_on_list": 2,
-      "last_stars": 111486,
+      "last_seen": "2026-06-18",
+      "days_on_list": 3,
+      "last_stars": 111490,
       "category": "llm",
       "language": "TypeScript/Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-16"
+      "last_pushed_at": "2026-06-18"
     },
     "mem0ai/mem0": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "days_on_list": 2,
+      "last_seen": "2026-06-18",
+      "days_on_list": 3,
       "last_stars": 40010,
       "category": "llm",
       "language": "Python/TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-16"
+      "last_pushed_at": "2026-06-18"
     },
     "github/github-mcp-server": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-17",
-      "days_on_list": 2,
-      "last_stars": 19992,
+      "last_seen": "2026-06-18",
+      "days_on_list": 3,
+      "last_stars": 19993,
       "category": "tools",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-16"
+      "last_pushed_at": "2026-06-18"
     },
     "open-webui/open-webui": {
       "first_seen": "2026-06-17",
-      "last_seen": "2026-06-17",
-      "days_on_list": 1,
-      "last_stars": 105998,
+      "last_seen": "2026-06-18",
+      "days_on_list": 2,
+      "last_stars": 106005,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-18"
     },
     "modelcontextprotocol/servers": {
       "first_seen": "2026-06-17",
-      "last_seen": "2026-06-17",
-      "days_on_list": 1,
-      "last_stars": 60554,
+      "last_seen": "2026-06-18",
+      "days_on_list": 2,
+      "last_stars": 60557,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-06-18"
+    },
+    "microsoft/agent-governance-toolkit": {
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-18",
+      "days_on_list": 1,
+      "last_stars": 3600,
+      "graduated": false,
+      "category": "security",
+      "language": "Python",
+      "last_pushed_at": "2026-06-18"
     }
   },
-  "last_updated": "2026-06-16"
+  "last_updated": "2026-06-18"
 }
