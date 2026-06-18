@@ -554,13 +554,13 @@
     },
     "anomalyco/opencode": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-13",
-      "days_on_list": 4,
-      "last_stars": 55465,
-      "category": "llm",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 55483,
+      "category": "tools",
       "language": "TypeScript",
-      "graduated": true,
-      "last_pushed_at": "2026-06-09"
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
     },
     "colbymchenry/codegraph": {
       "first_seen": "2026-05-17",
@@ -744,10 +744,10 @@
     },
     "cisco-ai-defense/mcp-scanner": {
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-18",
-      "days_on_list": 2,
+      "last_seen": "2026-06-19",
+      "days_on_list": 3,
       "last_stars": 900,
-      "last_pushed_at": "2026-06-18",
+      "last_pushed_at": "2026-06-19",
       "category": "security",
       "language": "Python",
       "graduated": false
@@ -1013,13 +1013,13 @@
     },
     "block/goose": {
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-16",
-      "days_on_list": 4,
-      "last_stars": 23030,
-      "category": "llm",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 23033,
+      "category": "tools",
       "language": "Rust",
-      "graduated": true,
-      "last_pushed_at": "2026-06-16"
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
     },
     "OpenHands/OpenHands": {
       "first_seen": "2026-06-13",
@@ -1033,13 +1033,13 @@
     },
     "upstash/context7": {
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-16",
-      "days_on_list": 3,
-      "last_stars": 28284,
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 28289,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-16"
+      "last_pushed_at": "2026-06-19"
     },
     "openai/codex": {
       "first_seen": "2026-06-15",
@@ -1113,13 +1113,13 @@
     },
     "mem0ai/mem0": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-06-18",
-      "days_on_list": 3,
-      "last_stars": 40010,
+      "last_seen": "2026-06-19",
+      "days_on_list": 4,
+      "last_stars": 40013,
       "category": "llm",
-      "language": "Python/TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-06-18"
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-19"
     },
     "github/github-mcp-server": {
       "first_seen": "2026-06-16",
@@ -1133,13 +1133,13 @@
     },
     "open-webui/open-webui": {
       "first_seen": "2026-06-17",
-      "last_seen": "2026-06-18",
-      "days_on_list": 2,
-      "last_stars": 106005,
+      "last_seen": "2026-06-19",
+      "days_on_list": 3,
+      "last_stars": 106012,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-18"
+      "last_pushed_at": "2026-06-19"
     },
     "modelcontextprotocol/servers": {
       "first_seen": "2026-06-17",
@@ -1153,13 +1153,43 @@
     },
     "microsoft/agent-governance-toolkit": {
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-18",
-      "days_on_list": 1,
+      "last_seen": "2026-06-19",
+      "days_on_list": 2,
       "last_stars": 3600,
       "graduated": false,
       "category": "security",
       "language": "Python",
-      "last_pushed_at": "2026-06-18"
+      "last_pushed_at": "2026-06-19"
+    },
+    "All-Hands-AI/OpenHands": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 60642,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
+    },
+    "vllm-project/vllm": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 57514,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
+    },
+    "utkusen/promptmap": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 1200,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
     }
   },
   "last_updated": "2026-06-18"
