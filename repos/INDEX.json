@@ -554,13 +554,13 @@
     },
     "anomalyco/opencode": {
       "first_seen": "2026-05-17",
-      "last_seen": "2026-06-19",
-      "days_on_list": 1,
+      "last_seen": "2026-06-20",
+      "days_on_list": 2,
       "last_stars": 55483,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "colbymchenry/codegraph": {
       "first_seen": "2026-05-17",
@@ -744,10 +744,10 @@
     },
     "cisco-ai-defense/mcp-scanner": {
       "first_seen": "2026-06-03",
-      "last_seen": "2026-06-19",
-      "days_on_list": 3,
+      "last_seen": "2026-06-20",
+      "days_on_list": 4,
       "last_stars": 900,
-      "last_pushed_at": "2026-06-19",
+      "last_pushed_at": "2026-06-20",
       "category": "security",
       "language": "Python",
       "graduated": false
@@ -834,13 +834,13 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-09",
+      "last_seen": "2026-06-20",
       "days_on_list": 1,
-      "last_stars": 577,
+      "last_stars": 700,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-06"
+      "last_pushed_at": "2026-06-20"
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
@@ -864,13 +864,13 @@
     },
     "openclaw/openclaw": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-08",
-      "days_on_list": 4,
-      "last_stars": 373000,
+      "last_seen": "2026-06-20",
+      "days_on_list": 1,
+      "last_stars": 378000,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": true,
-      "last_pushed_at": "2026-06-08"
+      "graduated": false,
+      "last_pushed_at": "2026-06-20"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
@@ -1013,13 +1013,13 @@
     },
     "block/goose": {
       "first_seen": "2026-06-12",
-      "last_seen": "2026-06-19",
-      "days_on_list": 1,
+      "last_seen": "2026-06-20",
+      "days_on_list": 2,
       "last_stars": 23033,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "OpenHands/OpenHands": {
       "first_seen": "2026-06-13",
@@ -1033,13 +1033,13 @@
     },
     "upstash/context7": {
       "first_seen": "2026-06-13",
-      "last_seen": "2026-06-19",
-      "days_on_list": 1,
+      "last_seen": "2026-06-20",
+      "days_on_list": 2,
       "last_stars": 28289,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "openai/codex": {
       "first_seen": "2026-06-15",
@@ -1133,13 +1133,13 @@
     },
     "open-webui/open-webui": {
       "first_seen": "2026-06-17",
-      "last_seen": "2026-06-19",
-      "days_on_list": 3,
+      "last_seen": "2026-06-20",
+      "days_on_list": 4,
       "last_stars": 106012,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "modelcontextprotocol/servers": {
       "first_seen": "2026-06-17",
@@ -1153,23 +1153,23 @@
     },
     "microsoft/agent-governance-toolkit": {
       "first_seen": "2026-06-18",
-      "last_seen": "2026-06-19",
-      "days_on_list": 2,
+      "last_seen": "2026-06-20",
+      "days_on_list": 3,
       "last_stars": 3600,
       "graduated": false,
       "category": "security",
       "language": "Python",
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "All-Hands-AI/OpenHands": {
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-19",
-      "days_on_list": 1,
+      "last_seen": "2026-06-20",
+      "days_on_list": 2,
       "last_stars": 60642,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-19"
+      "last_pushed_at": "2026-06-20"
     },
     "vllm-project/vllm": {
       "first_seen": "2026-06-19",
@@ -1190,6 +1190,16 @@
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-06-19"
+    },
+    "HKUDS/nanobot": {
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-20",
+      "days_on_list": 1,
+      "last_stars": 41800,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-20"
     }
   },
   "last_updated": "2026-06-18"
