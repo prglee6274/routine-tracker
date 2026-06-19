@@ -7002,6 +7002,203 @@
     "risk evaluation"
    ],
    "category": "security"
+  },
+  "2606.20553": {
+   "version": "v1",
+   "title": "From Efficiency to Leakage — Privacy Backdoor in Federated Language Model Fine-Tuning",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "privacy backdoor",
+    "federated learning",
+    "PEFT",
+    "training data extraction",
+    "memorization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "privacy_backdoor",
+    "data_extraction",
+    "federated_learning"
+   ]
+  },
+  "2606.20546": {
+   "version": "v1",
+   "title": "Predictability as a Fine-Grained Measure for Privacy",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "differential privacy",
+    "privacy metric",
+    "membership inference",
+    "predictability",
+    "output perturbation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "privacy_metric",
+    "membership_inference"
+   ]
+  },
+  "2606.19946": {
+   "version": "v1",
+   "title": "GEMS: Geometric Constraints Enable Multi-Semantic Superposition in LLMs",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "activation steering",
+    "superposition",
+    "representation engineering",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "superposition",
+    "representation"
+   ]
+  },
+  "2606.19831": {
+   "version": "v1",
+   "title": "Leverage Is Not Reach: A Control-Window Law for Single-Neuron Steering in Language Models",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "single-neuron steering",
+    "refusal",
+    "mechanistic interpretability",
+    "feature attribution",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "refusal",
+    "interp_method"
+   ]
+  },
+  "2606.20431": {
+   "version": "v1",
+   "title": "Sparsity, Superposition, and Forgetting: A Mechanistic Study of Representation Retention in Continual Learning",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "superposition",
+    "mechanistic interpretability",
+    "continual learning",
+    "sparsity",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "superposition",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2606.20254": {
+   "version": "v1",
+   "title": "Quantization as a Malicious Task: Removing Quantization-Conditioned Backdoors via Task Arithmetic",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "backdoor defense",
+    "quantization",
+    "task arithmetic",
+    "model security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "quantization",
+    "defense"
+   ]
+  },
+  "2606.19535": {
+   "version": "v1",
+   "title": "FloatDoor: Platform-Triggered Backdoors in LLMs",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "backdoor attack",
+    "supply chain",
+    "floating-point",
+    "LoRA",
+    "model deployment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "supply_chain",
+    "attack"
+   ]
+  },
+  "2606.19191": {
+   "version": "v1",
+   "title": "PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "agent safety",
+    "supply chain attack",
+    "code injection",
+    "agent skills",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "supply_chain",
+    "code_injection"
+   ]
+  },
+  "2606.20508": {
+   "version": "v1",
+   "title": "What Do Safety-Aligned LLMs Learn From Mixed Compliance Demonstrations?",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "jailbreak",
+    "in-context learning",
+    "safety alignment",
+    "preference optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment",
+    "in_context_learning"
+   ]
+  },
+  "2606.20347": {
+   "version": "v1",
+   "title": "Critical Percolation as a Synthetic Data Model for Interpretability",
+   "first_seen": "2026-06-20",
+   "last_updated": "2026-06-20",
+   "folder": "2026-06-20",
+   "keywords": [
+    "interpretability",
+    "synthetic data",
+    "probing",
+    "representation",
+    "toy model"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "probing",
+    "representation"
+   ]
   }
  },
  "_taxonomy": {
@@ -7044,5 +7241,5 @@
    ]
   }
  },
- "last_run": "2026-06-19"
+ "last_run": "2026-06-20"
 }
