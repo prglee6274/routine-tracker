@@ -7199,6 +7199,206 @@
     "probing",
     "representation"
    ]
+  },
+  "2606.20225": {
+   "version": "v1",
+   "title": "Actionable Activation Directions for Detecting and Mitigating Emergent Misalignment Across Language Model Families",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "emergent misalignment",
+    "activation steering",
+    "difference-in-means",
+    "cross-architecture transfer",
+    "alignment auditing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "emergent_misalignment",
+    "representation",
+    "alignment_robustness"
+   ]
+  },
+  "2606.20408": {
+   "version": "v1",
+   "title": "NRT-Bench: Multi-Turn Red-Teaming of LLM Agents in Safety-Critical Systems",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "multi-turn red-teaming",
+    "LLM agent safety",
+    "jailbreak benchmark",
+    "safety-critical systems",
+    "adversarial robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2606.20155": {
+   "version": "v1",
+   "title": "NAMESAKES: Probing Identity Memorization in Text-to-Image Models",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "identity memorization",
+    "text-to-image",
+    "black-box probe",
+    "privacy",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "memorization",
+    "data_extraction",
+    "multimodal_privacy"
+   ]
+  },
+  "2606.16242": {
+   "version": "v1",
+   "title": "Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "data poisoning",
+    "prompt injection",
+    "jailbreak defense",
+    "concept backdoor",
+    "rapid response"
+   ],
+   "category": "security",
+   "subtopics": [
+    "data_poisoning",
+    "prompt_injection",
+    "jailbreak",
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2606.18383": {
+   "version": "v1",
+   "title": "From Sparse Features to Trustworthy Proxies: Certifying SAE-Based Interpretability",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "sparse autoencoder",
+    "faithfulness certification",
+    "generalization bound",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method",
+    "faithfulness"
+   ]
+  },
+  "2606.17421": {
+   "version": "v1",
+   "title": "Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "privacy-preserving inference",
+    "TEE",
+    "FHE",
+    "LLM serving",
+    "confidential computing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "privacy_preserving_inference",
+    "tee",
+    "fhe"
+   ]
+  },
+  "2606.15493": {
+   "version": "v1",
+   "title": "Model Stealing Through the Lens of Model Multiplicity",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "model stealing",
+    "model extraction",
+    "Rashomon set",
+    "model multiplicity",
+    "fairness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "model_stealing",
+    "model_extraction"
+   ]
+  },
+  "2606.18538": {
+   "version": "v1",
+   "title": "Effects of Sparsity and Superposition on Loss in Simple Autoencoders",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "superposition",
+    "polysemanticity",
+    "autoencoder",
+    "mechanistic interpretability",
+    "reconstruction loss bounds"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "superposition",
+    "sae",
+    "mechanistic_position"
+   ]
+  },
+  "2606.16763": {
+   "version": "v1",
+   "title": "Cross-Silo De-Anonymization Under Local Differential Privacy: Threat Model, Phase Transition, and Coordination Necessity",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "local differential privacy",
+    "de-anonymization",
+    "phase transition",
+    "composition",
+    "information theory"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "de_anonymization"
+   ]
+  },
+  "2606.15333": {
+   "version": "v1",
+   "title": "Replay What Matters: Off-Policy Replay for Efficient LLM Reinforcement Unlearning",
+   "first_seen": "2026-06-21",
+   "last_updated": "2026-06-21",
+   "folder": "2026-06-21",
+   "keywords": [
+    "LLM unlearning",
+    "reinforcement learning",
+    "off-policy replay",
+    "GRPO",
+    "knowledge removal"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "rl_unlearning"
+   ]
   }
  },
  "_taxonomy": {
