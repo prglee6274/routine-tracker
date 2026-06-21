@@ -1,0 +1,118 @@
+{
+ "2606.20225": {
+  "title": "Actionable Activation Directions for Detecting and Mitigating Emergent Misalignment Across Language Model Families",
+  "authors": [
+   "Abdul Rafay Syed"
+  ],
+  "ver": "v1",
+  "date": "18 Jun 2026",
+  "abstract": "Fine-tuning language models on insecure code induces emergent misalignment with poorly understood internal structure. We investigate whether this misalignment corresponds to a causally actionable activation-space direction shared across architectures. Across four instruction-tuned model families (Qwen2.5-1.5B, Gemma-2-2B, Llama-3.2-1B, Ministral-3-3B) finetuned identically, a difference-in-means direction achieves 99.6% separation of aligned and misaligned activations at each model's final layer. Causal steering by subtracting this direction reduces code spillover by 21-51 points, while a secure-code control confirms content specificity. Cross-architecture transfer via ridge regression maps yields large behavioral suppression (up to 46 points) but fails specificity controls as random and orthogonal directions perform comparably. We identify a two-tier specificity structure: within-model directions are causally specific and actionable; cross-model directions are causally real but non-specific. An asymmetric transfer topology emerges, with Gemma and Qwen acting as geometric donors and Llama as a receiver. These findings define the limits of linear cross-architecture correction and recommend within-model probing for auditing."
+ },
+ "2606.20408": {
+  "title": "LLM agent safety, multi-turn red-teaming, jailbreak benchmarks, adversarial robustness, safety-critical systems",
+  "authors": [
+   "Hanwool Lee",
+   "Dasol Choi",
+   "Bokyeong Kim",
+   "Seung Geun Kim",
+   "Haon Park"
+  ],
+  "ver": "v1",
+  "date": "18 Jun 2026",
+  "abstract": "Large language model (LLM) agents are increasingly proposed as supervisory components for safety-critical systems, yet their robustness under sustained, adaptive adversarial pressure remains poorly characterized. We present NRT-Bench, a benchmark for multi-turn red-teaming of LLM agents acting as operators of a safety-critical system, instantiated in a simulated nuclear power plant control room. A five-role operator team, each backed by a configurable LLM, runs a plant governed by six critical safety functions (CSFs), while adversaries inject messages over four channels in bounded multi-turn sessions with per-turn feedback. Harm is an objective signal rather than LLM-judged text: a run terminates the moment any CSF is lost, attributed to the causing message. Evaluating four frontier operator models under a fixed-attack paired-replay protocol, we find that adaptive multi-turn attacks reliably push the operator team past a safety limit: across the four models, between 8.7% and 12.1% of attack sessions end with the plant losing a critical safety function. Although the four models look almost equally robust by this aggregate rate, their failures barely overlap: of $149$ sessions, none defeat all four models while a third defeat at least one, so vulnerabilities are nearly disjoint across models rather than nested. The effect of added defences is strongly model-dependent: the same guardrail stack or safety-advisor agent that lowers attack success for one model can raise it for another. We release the simulation venue, attack dataset, and replay tooling for reproducible safety evaluation of LLM agents."
+ },
+ "2606.20155": {
+  "title": "NAMESAKES: Probing Identity Memorization in Text-to-Image Models",
+  "authors": [
+   "Morris Alper",
+   "Vasudha Varadarajan",
+   "Moran Yanuka",
+   "Angelina Wang",
+   "Hadar Averbuch-Elor"
+  ],
+  "ver": "v1",
+  "date": "18 Jun 2026",
+  "abstract": "Text-to-image (T2I) models generate realistic likenesses of some individuals when prompted with their names, raising privacy concerns. However, distinguishing whether a generated face is memorized or fabricated currently requires ground-truth photos, access to training data, or white-box access to model internals, limiting applicability. We introduce a fully black-box behavioral probe that distinguishes between these regimes while requiring no reference photos or prior knowledge of training data. To benchmark this task, we present the NAMESAKES dataset of over one thousand names and faces of public figures spanning a wide range of fame levels, along with perturbed, less famous names. Experiments on state-of-the-art T2I models show that our probe substantially predicts identity memorization and separates memorized from unrecognized names, with further insights into differences across model families."
+ },
+ "2606.16242": {
+  "title": "Rapid Poison: Practical Poisoning Attacks Against the Rapid Response Framework",
+  "authors": [
+   "David Huang",
+   "Jaewon Chang",
+   "Avidan Shah",
+   "Prateek Mittal",
+   "Chawin Sitawarin"
+  ],
+  "ver": "v1",
+  "date": "15 Jun 2026",
+  "abstract": "The Rapid Response (RR) framework, deployed in production systems, including Anthropic's ASL-3 safeguards, continuously improves jailbreak-detection classifiers. When new jailbreaks emerge that bypass these classifiers, Rapid Response generates synthetic variants for training, helping the model generalize from the new attacks and quickly adapt. We reveal that prompt injection can infiltrate this pipeline to deliver poisoned samples into the classifier's training set, enabling two attack objectives: (I) targeted poisoning attacks that create false positives on harmless samples by categorizing them as a jailbreak, with a specific desired feature (e.g., certain formatting, subject, or keyword), (II) concept-based backdoor attacks that induce false negatives on jailbreak inputs, generalizing even to jailbreaks from attack strategies the defender explicitly trained against, when the backdoor trigger is present. Importantly, our threat model restricts adversaries to modifying only jailbreak samples (not benign data or labels), a constraint unexplored by prior work that makes the second objective particularly challenging. We address this with Omission Attack, which exploits a new phenomenon: when training on concept-absent unsafe samples, the classifier misassociates that concept's presence with the safe label. Both attacks cause substantial and in some cases near-complete label flipping at only a 1% poisoning rate, achieving up to 100% false positive rates and up to 96% false negative rates."
+ },
+ "2606.18383": {
+  "title": "From Sparse Features to Trustworthy Proxies: Certifying SAE-Based Interpretability",
+  "authors": [
+   "Dibyanayan Bandyopadhyay",
+   "Asif Ekbal"
+  ],
+  "ver": "v1",
+  "date": "16 Jun 2026",
+  "abstract": "Sparse autoencoders (SAEs) are increasingly used to extract interpretable features from language models (LMs), yet a central question remains: when can an SAE-based explanation be treated as a faithful view of an underlying frozen LM We study this through a post-hoc generalization framework that certifies the LM via a sparse proxy, obtained by replacing a native hidden activation with its pretrained SAE reconstruction. Our framework derives an upper bound on the base model's expected risk using four measurable quantities: proxy risk, SAE reconstruction gap, concept-pool mismatch, and sparse complexity. We interpret this certificate as an operational criterion for explanatory faithfulness. In particular, a non-vacuous bound indicates that the extracted sparse features retain meaningful predictive information, while small reconstruction and mismatch errors indicate that the proxy remains behaviorally close to the original model. Empirically, we show that the bound becomes non-vacuous on GPT-2 Small, Gemma-2B, and Llama-3-8B at practical sample sizes. A detailed layerwise analysis of Llama-3-8B reveals a strong depth dependence, with later layers becoming much easier to certify, associated with both stronger local fidelity and weaker downstream error amplification. Finally, through feature-shuffling ablations, we show that the decomposition distinguishes genuine semantic alignment from mere statistical sparsity, providing a useful diagnostic for when SAE-based explanations become less reliable."
+ },
+ "2606.17421": {
+  "title": "Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving",
+  "authors": [
+   "Chenghao Chen",
+   "Kailun Qin",
+   "Xiaolin Zhang",
+   "Chi Zhang",
+   "Dawu Gu"
+  ],
+  "ver": "v1",
+  "date": "16 Jun 2026",
+  "abstract": "Cloud-hosted transformer and large language model (LLM) inference creates a direct confidentiality problem: user prompts may contain sensitive code, business data, personal information, or regulated documents, yet remote serving exposes intermediate state to the cloud software stack and accelerator runtime. Fully homomorphic encryption (FHE) keeps accelerator-side execution ciphertext-only, but end-to-end LLM inference remains expensive because linear layers are interleaved with non-linear, cache-state, and refresh-sensitive operators. CPU trusted execution environments (TEEs) can execute those operators natively, but a CPU TEE alone does not define how an untrusted accelerator should participate. We present Bifrost, a hybrid TEE-FHE serving architecture in which secrets are provisioned only to an attested CPU TEE, while the accelerator, device memory, driver/runtime stack, and host software remain outside the trusted computing base. Bifrost uses FHE as a secure delegation mechanism for projection and feed-forward linear layers on accelerator-backed CKKS, while non-linear operators, attention-side control logic, KV-state transitions, and decrypt-then-encrypt refresh execute inside the CPU TEE. Bifrost+ further applies a prefill/decode split: prompt-side KV state is built inside the CPU TEE, and only decode-side state enters the hybrid ciphertext path. In an estimator-style comparison matching Euston's methodology, Bifrost reduces projected latency by 9.25x on GPT-2 (1.5B) and 9.91x on LLaMA 3 (8B). In direct CKKS/FHE deployments, Bifrost+ reduces TTFT by 14.6-45.8x on GPT-2 (124M) and 15.3-53.4x on Qwen3 (0.6B). The systems lesson is selective encrypted execution: use FHE only where ciphertext-only accelerator delegation is required, and keep non-linear, refresh, and prompt-side work inside the CPU TEE."
+ },
+ "2606.15493": {
+  "title": "Model Stealing Through the Lens of Model Multiplicity",
+  "authors": [
+   "Eliott Baltz",
+   "Satoshi Hara",
+   "Ulrich Aïvodji"
+  ],
+  "ver": "v1",
+  "date": "13 Jun 2026",
+  "abstract": "Model stealing attacks, where adversaries create high-fidelity surrogate models, are a significant threat to the intellectual property of machine learning services. Conventional wisdom suggests these surrogates could provide adversaries with economic leverage comparable to the original service providers. This paper challenges this assumption by evaluating model stealing attacks beyond mere fidelity to the target model. Because query-based extraction provides only partial supervision of the target's input-output behavior, the surrogate is not uniquely identified: many near-optimal surrogates can achieve comparable fidelity while differing in deployment-relevant properties. Instead of performing a classic learning-based model stealing attack, we compute the Rashomon Set (i.e., the set of almost-equally-accurate models) of surrogate models, and evaluate its diversity using multiplicity metrics (ambiguity, discrepancy, and Rashomon Capacity) and group fairness metrics. Across tabular, medical imaging, and NLP tasks, our experiments on real-world datasets reveal that despite exhibiting similar fidelity to the target model, surrogate models can display significant variances in other critical performance metrics. These findings cast doubt on the presumed equivalence between high-fidelity surrogates and the target model in practical deployment scenarios."
+ },
+ "2606.18538": {
+  "title": "Effects of sparsity and superposition on loss in simple autoencoders",
+  "authors": [
+   "Mriganka Basu Roy Chowdhury",
+   "Eric McLaughlin Weiner"
+  ],
+  "ver": "v1",
+  "date": "16 Jun 2026",
+  "abstract": "One of the major difficulties in the mechanistic interpretability of neural networks is the occurrence of polysemanticity, which suggests that each neuron is typically responsible for multiple different tasks, impeding a clean interpretation of their function. The seminal paper of Elhage et al. (2022) argues that this occurs due to superposition, a phenomenon where the neural network represents distinct features as non-orthogonal directions in a lower-dimensional space, a strategy that allows much greater compression of the data without sacrificing fidelity due to the feature sparsity of input vectors. Elhage et al. (2022) empirically validates these hypotheses in a rather natural and simple autoencoder with sparse inputs. The contribution of the present work is to analyze the mathematical basis for the occurrence and optimality of superposition, while rigorously corroborating some of their findings. In particular, we provide upper and lower bounds for the L2 reconstruction loss, tight in the very sparse regime, for power activation functions. A short list of interesting open problems are also included at the end."
+ },
+ "2606.16763": {
+  "title": "Cross-Silo De-Anonymization Under Local Differential Privacy: Threat Model, Phase Transition, and Coordination Necessity",
+  "authors": [
+   "Ziniu Liu",
+   "Aiping Li"
+  ],
+  "ver": "v1",
+  "date": "15 Jun 2026",
+  "abstract": "When a person's records appear in k independent data silos, each protected by (epsilon, delta)-differential privacy, standard composition yields a valid (k*epsilon, k*delta)-DP guarantee for the joint output. This worst-case bound, however, does not answer the concrete inference question: at what k can an adversary actually identify a target person? This paper develops the information-theoretic framework needed to answer that question. We introduce cross-silo person-level DP (XSP-DP), a Pufferfish-style privacy notion whose adjacency relation captures all records of a single person across all silos simultaneously, and verify that the standard basic composition bound carries over to this adjacency model. Within this framework we prove that de-anonymization undergoes a phase transition at k* = Theta(log n / epsilon^2) (population size n, per-silo RR parameter epsilon): a Fano lower bound shows any estimator fails for k << k*, while a matching maximum-likelihood upper bound shows the attack succeeds for k >> k*. An explicit XOR + randomized-response construction demonstrates information synergy: each silo's output is individually uninformative about the target, yet the joint mutual information is strictly positive. For non-coordinated binary randomized-response mechanisms, we prove that de-anonymization is inevitable once k exceeds the threshold, establishing that cross-silo coordination is necessary. These results provide a baseline threat model and Theta-level threshold for cross-silo inference attacks under local DP."
+ },
+ "2606.15333": {
+  "title": "Replay What Matters: Off-Policy Replay for Efficient LLM Reinforcement Unlearning",
+  "authors": [
+   "Zirui Pang",
+   "Chenlong Zhang",
+   "Haosheng Tan",
+   "Zhuoran Jin",
+   "Jiaheng Wei",
+   "Zixin Zhong"
+  ],
+  "ver": "v1",
+  "date": "13 Jun 2026",
+  "abstract": "LLM unlearning has emerged as a cost-effective alternative to full retraining for removing hazardous knowledge from pretrained models while preserving general utility. Recent RL-based methods such as RULE reformulate unlearning as learning a refusal behavior, but their on-policy optimization repeatedly samples from the same forget and retain/boundary prompts throughout training. We identify a critical inefficiency in this process: easy cases quickly converge and provide little useful gradient signal, while hard cases near the forget/retain boundary continue to produce low-reward rollouts that are discarded after a single use. To address this issue, we propose ReRULE, an off-policy replay enhancement for reinforcement unlearning. ReRULE stores low-reward hard-case rollout groups in a replay buffer during early GRPO training and reuses them in later stages through importance-sampled off-policy updates, redirecting computation toward boundary cases that still require learning. Theoretically, we show that ReRULE yields a tighter hard-case convergence bound than pure on-policy RULE. Empirically, ReRULE improves MUSE-Books Retain Quality from 46.3 to 56.2 while adding only 5--11% training time across benchmarks. Its limited improvement on the simpler TOFU setting further supports the intended conditional behavior: replay is most beneficial when the hard/easy disparity is pronounced."
+ }
+}
