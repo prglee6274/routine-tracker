@@ -724,13 +724,13 @@
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-06-22",
-      "days_on_list": 1,
+      "last_seen": "2026-06-23",
+      "days_on_list": 2,
       "last_stars": 6938,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-22"
+      "last_pushed_at": "2026-06-23"
     },
     "meta-llama/PurpleLlama": {
       "first_seen": "2026-05-27",
@@ -834,13 +834,13 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-22",
-      "days_on_list": 3,
+      "last_seen": "2026-06-23",
+      "days_on_list": 4,
       "last_stars": 700,
       "category": "security",
       "language": "Go",
       "graduated": false,
-      "last_pushed_at": "2026-06-22"
+      "last_pushed_at": "2026-06-23"
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
@@ -864,13 +864,13 @@
     },
     "openclaw/openclaw": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-22",
-      "days_on_list": 3,
+      "last_seen": "2026-06-23",
+      "days_on_list": 4,
       "last_stars": 378000,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-06-22"
+      "last_pushed_at": "2026-06-23"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
@@ -994,10 +994,10 @@
     },
     "infiniflow/ragflow": {
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-22",
-      "days_on_list": 2,
+      "last_seen": "2026-06-23",
+      "days_on_list": 3,
       "last_stars": 61471,
-      "last_pushed_at": "2026-06-22",
+      "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "Python",
       "graduated": false
@@ -1183,23 +1183,63 @@
     },
     "utkusen/promptmap": {
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-22",
-      "days_on_list": 2,
+      "last_seen": "2026-06-23",
+      "days_on_list": 3,
       "last_stars": 1200,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-22"
+      "last_pushed_at": "2026-06-23"
     },
     "HKUDS/nanobot": {
       "first_seen": "2026-06-20",
-      "last_seen": "2026-06-22",
-      "days_on_list": 3,
+      "last_seen": "2026-06-23",
+      "days_on_list": 4,
       "last_stars": 41800,
       "category": "llm",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": "2026-06-22"
+      "last_pushed_at": "2026-06-23"
+    },
+    "getagentseal/agentseal": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 193,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "vercel-labs/json-render": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 14200,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "soth-ai/mcp-reticle": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 111,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "freestylefly/wesight": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 308,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-01"
     }
   },
   "last_updated": "2026-06-21"
