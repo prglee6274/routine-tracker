@@ -694,13 +694,13 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-17",
-      "days_on_list": 4,
+      "last_seen": "2026-06-24",
+      "days_on_list": 1,
       "last_stars": 2600,
-      "last_pushed_at": "2026-06-16",
+      "last_pushed_at": "2026-06-23",
       "category": "security",
-      "language": "TypeScript",
-      "graduated": true
+      "language": "Python",
+      "graduated": false
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
@@ -724,9 +724,9 @@
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-06-23",
-      "days_on_list": 2,
-      "last_stars": 6938,
+      "last_seen": "2026-06-24",
+      "days_on_list": 3,
+      "last_stars": 6900,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -789,8 +789,9 @@
       "last_stars": 54000,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-06-07"
+      "graduated": true,
+      "last_pushed_at": "2026-06-07",
+      "renamed_to": "earendil-works/pi"
     },
     "VulcanLab/IPI-Proxy": {
       "first_seen": "2026-06-04",
@@ -839,7 +840,7 @@
       "last_stars": 700,
       "category": "security",
       "language": "Go",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "HeadyZhang/agent-audit": {
@@ -869,18 +870,18 @@
       "last_stars": 378000,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-05",
+      "last_seen": "2026-06-24",
       "days_on_list": 1,
-      "last_stars": 1200,
+      "last_stars": 1300,
+      "last_pushed_at": "2026-06-13",
       "category": "llm",
       "language": "C++",
-      "graduated": false,
-      "last_pushed_at": "2026-06-05"
+      "graduated": false
     },
     "volcengine/OpenViking": {
       "first_seen": "2026-06-06",
@@ -994,9 +995,9 @@
     },
     "infiniflow/ragflow": {
       "first_seen": "2026-06-11",
-      "last_seen": "2026-06-23",
-      "days_on_list": 3,
-      "last_stars": 61471,
+      "last_seen": "2026-06-24",
+      "days_on_list": 4,
+      "last_stars": 61500,
       "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "Python",
@@ -1183,8 +1184,8 @@
     },
     "utkusen/promptmap": {
       "first_seen": "2026-06-19",
-      "last_seen": "2026-06-23",
-      "days_on_list": 3,
+      "last_seen": "2026-06-24",
+      "days_on_list": 4,
       "last_stars": 1200,
       "category": "security",
       "language": "Python",
@@ -1198,7 +1199,7 @@
       "last_stars": 41800,
       "category": "llm",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "getagentseal/agentseal": {
@@ -1213,8 +1214,8 @@
     },
     "vercel-labs/json-render": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
-      "days_on_list": 1,
+      "last_seen": "2026-06-24",
+      "days_on_list": 2,
       "last_stars": 14200,
       "category": "tools",
       "language": "TypeScript",
@@ -1223,8 +1224,8 @@
     },
     "soth-ai/mcp-reticle": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-23",
-      "days_on_list": 1,
+      "last_seen": "2026-06-24",
+      "days_on_list": 2,
       "last_stars": 111,
       "category": "tools",
       "language": "Rust",
@@ -1240,7 +1241,37 @@
       "language": "TypeScript",
       "graduated": false,
       "last_pushed_at": "2026-06-01"
+    },
+    "earendil-works/pi": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-24",
+      "days_on_list": 1,
+      "last_stars": 65000,
+      "last_pushed_at": "2026-06-23",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "MemoriLabs/Memori": {
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_on_list": 1,
+      "last_stars": 15400,
+      "last_pushed_at": "2026-05-28",
+      "category": "llm",
+      "language": "Python/TypeScript",
+      "graduated": false
+    },
+    "raindrop-ai/workshop": {
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "days_on_list": 1,
+      "last_stars": 473,
+      "last_pushed_at": "2026-05-14",
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
     }
   },
-  "last_updated": "2026-06-21"
+  "last_updated": "2026-06-24"
 }
