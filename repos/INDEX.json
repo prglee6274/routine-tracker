@@ -694,8 +694,8 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-24",
-      "days_on_list": 1,
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
       "last_stars": 2600,
       "last_pushed_at": "2026-06-23",
       "category": "security",
@@ -704,13 +704,13 @@
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-10",
+      "last_seen": "2026-06-25",
       "days_on_list": 1,
       "last_stars": 1800,
-      "last_pushed_at": "2026-06-01",
       "category": "security",
       "language": "Python",
-      "graduated": false
+      "graduated": false,
+      "last_pushed_at": "2026-06"
     },
     "Tencent/AI-Infra-Guard": {
       "first_seen": "2026-05-26",
@@ -724,13 +724,13 @@
     },
     "NVIDIA/garak": {
       "first_seen": "2026-05-26",
-      "last_seen": "2026-06-24",
-      "days_on_list": 3,
+      "last_seen": "2026-06-25",
+      "days_on_list": 4,
       "last_stars": 6900,
       "category": "security",
       "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-06-23"
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
     },
     "meta-llama/PurpleLlama": {
       "first_seen": "2026-05-27",
@@ -875,8 +875,8 @@
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-24",
-      "days_on_list": 1,
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
       "last_stars": 1300,
       "last_pushed_at": "2026-06-13",
       "category": "llm",
@@ -1001,7 +1001,7 @@
       "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "Python",
-      "graduated": false
+      "graduated": true
     },
     "praetorian-inc/augustus": {
       "first_seen": "2026-06-12",
@@ -1189,7 +1189,7 @@
       "last_stars": 1200,
       "category": "security",
       "language": "Python",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "HKUDS/nanobot": {
@@ -1214,9 +1214,9 @@
     },
     "vercel-labs/json-render": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-24",
-      "days_on_list": 2,
-      "last_stars": 14200,
+      "last_seen": "2026-06-25",
+      "days_on_list": 3,
+      "last_stars": 15000,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -1224,8 +1224,8 @@
     },
     "soth-ai/mcp-reticle": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-24",
-      "days_on_list": 2,
+      "last_seen": "2026-06-25",
+      "days_on_list": 3,
       "last_stars": 111,
       "category": "tools",
       "language": "Rust",
@@ -1244,9 +1244,9 @@
     },
     "earendil-works/pi": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-24",
-      "days_on_list": 1,
-      "last_stars": 65000,
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
+      "last_stars": 65300,
       "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "TypeScript",
@@ -1254,9 +1254,9 @@
     },
     "MemoriLabs/Memori": {
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24",
-      "days_on_list": 1,
-      "last_stars": 15400,
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
+      "last_stars": 15300,
       "last_pushed_at": "2026-05-28",
       "category": "llm",
       "language": "Python/TypeScript",
@@ -1264,14 +1264,24 @@
     },
     "raindrop-ai/workshop": {
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-24",
-      "days_on_list": 1,
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
       "last_stars": 473,
       "last_pushed_at": "2026-05-14",
       "category": "tools",
       "language": "TypeScript",
       "graduated": false
+    },
+    "microsoft/agent-framework": {
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-25",
+      "days_on_list": 1,
+      "last_stars": 10400,
+      "category": "llm",
+      "language": "Python/C#",
+      "graduated": false,
+      "last_pushed_at": "2026-05-08"
     }
   },
-  "last_updated": "2026-06-24"
+  "last_updated": "2026-06-25"
 }
