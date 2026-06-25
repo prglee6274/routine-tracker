@@ -694,9 +694,9 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-25",
-      "days_on_list": 2,
-      "last_stars": 2600,
+      "last_seen": "2026-06-26",
+      "days_on_list": 3,
+      "last_stars": 2700,
       "last_pushed_at": "2026-06-23",
       "category": "security",
       "language": "Python",
@@ -704,8 +704,8 @@
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-25",
-      "days_on_list": 1,
+      "last_seen": "2026-06-26",
+      "days_on_list": 2,
       "last_stars": 1800,
       "category": "security",
       "language": "Python",
@@ -845,7 +845,7 @@
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-07",
+      "last_seen": "2026-06-26",
       "days_on_list": 1,
       "last_stars": 167,
       "category": "security",
@@ -875,10 +875,10 @@
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-25",
-      "days_on_list": 2,
+      "last_seen": "2026-06-26",
+      "days_on_list": 3,
       "last_stars": 1300,
-      "last_pushed_at": "2026-06-13",
+      "last_pushed_at": "2026-04-14",
       "category": "llm",
       "language": "C++",
       "graduated": false
@@ -1214,22 +1214,22 @@
     },
     "vercel-labs/json-render": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-25",
-      "days_on_list": 3,
-      "last_stars": 15000,
+      "last_seen": "2026-06-26",
+      "days_on_list": 4,
+      "last_stars": 14200,
       "category": "tools",
       "language": "TypeScript",
-      "graduated": false,
-      "last_pushed_at": "2026-06-23"
+      "graduated": true,
+      "last_pushed_at": "2026-04-11"
     },
     "soth-ai/mcp-reticle": {
       "first_seen": "2026-06-23",
-      "last_seen": "2026-06-25",
-      "days_on_list": 3,
+      "last_seen": "2026-06-26",
+      "days_on_list": 4,
       "last_stars": 111,
       "category": "tools",
       "language": "Rust",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "freestylefly/wesight": {
@@ -1244,9 +1244,9 @@
     },
     "earendil-works/pi": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-25",
-      "days_on_list": 2,
-      "last_stars": 65300,
+      "last_seen": "2026-06-26",
+      "days_on_list": 3,
+      "last_stars": 65400,
       "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "TypeScript",
@@ -1254,9 +1254,9 @@
     },
     "MemoriLabs/Memori": {
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-25",
-      "days_on_list": 2,
-      "last_stars": 15300,
+      "last_seen": "2026-06-26",
+      "days_on_list": 3,
+      "last_stars": 15400,
       "last_pushed_at": "2026-05-28",
       "category": "llm",
       "language": "Python/TypeScript",
@@ -1274,14 +1274,24 @@
     },
     "microsoft/agent-framework": {
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-25",
-      "days_on_list": 1,
-      "last_stars": 10400,
+      "last_seen": "2026-06-26",
+      "days_on_list": 2,
+      "last_stars": 11600,
       "category": "llm",
       "language": "Python/C#",
       "graduated": false,
       "last_pushed_at": "2026-05-08"
+    },
+    "sstraus/tuicommander": {
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-26",
+      "days_on_list": 1,
+      "last_stars": 75,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-29"
     }
   },
-  "last_updated": "2026-06-25"
+  "last_updated": "2026-06-26"
 }
