@@ -694,18 +694,18 @@
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-26",
-      "days_on_list": 3,
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
       "last_stars": 2700,
       "last_pushed_at": "2026-06-23",
       "category": "security",
       "language": "Python",
-      "graduated": false
+      "graduated": true
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-26",
-      "days_on_list": 2,
+      "last_seen": "2026-06-27",
+      "days_on_list": 3,
       "last_stars": 1800,
       "category": "security",
       "language": "Python",
@@ -845,8 +845,8 @@
     },
     "HeadyZhang/agent-audit": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-26",
-      "days_on_list": 1,
+      "last_seen": "2026-06-27",
+      "days_on_list": 2,
       "last_stars": 167,
       "category": "security",
       "language": "Python",
@@ -875,13 +875,13 @@
     },
     "jd-opensource/xllm": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-06-26",
-      "days_on_list": 3,
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
       "last_stars": 1300,
       "last_pushed_at": "2026-04-14",
       "category": "llm",
       "language": "C++",
-      "graduated": false
+      "graduated": true
     },
     "volcengine/OpenViking": {
       "first_seen": "2026-06-06",
@@ -1244,23 +1244,23 @@
     },
     "earendil-works/pi": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-26",
-      "days_on_list": 3,
-      "last_stars": 65400,
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
+      "last_stars": 65700,
       "last_pushed_at": "2026-06-23",
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "MemoriLabs/Memori": {
       "first_seen": "2026-06-24",
-      "last_seen": "2026-06-26",
-      "days_on_list": 3,
-      "last_stars": 15400,
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
+      "last_stars": 15000,
       "last_pushed_at": "2026-05-28",
       "category": "llm",
       "language": "Python/TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "raindrop-ai/workshop": {
       "first_seen": "2026-06-24",
@@ -1274,9 +1274,9 @@
     },
     "microsoft/agent-framework": {
       "first_seen": "2026-06-25",
-      "last_seen": "2026-06-26",
-      "days_on_list": 2,
-      "last_stars": 11600,
+      "last_seen": "2026-06-27",
+      "days_on_list": 3,
+      "last_stars": 11700,
       "category": "llm",
       "language": "Python/C#",
       "graduated": false,
@@ -1284,14 +1284,32 @@
     },
     "sstraus/tuicommander": {
       "first_seen": "2026-06-26",
-      "last_seen": "2026-06-26",
-      "days_on_list": 1,
+      "last_seen": "2026-06-27",
+      "days_on_list": 2,
       "last_stars": 75,
       "category": "tools",
-      "language": "Rust",
+      "language": "Rust/TypeScript",
       "graduated": false,
       "last_pushed_at": "2026-05-29"
+    },
+    "zilliztech/claude-context": {
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-06-27",
+      "days_on_list": 1,
+      "last_stars": 8800,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "ComposioHQ/agent-orchestrator": {
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-06-27",
+      "days_on_list": 1,
+      "last_stars": 5800,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
     }
   },
-  "last_updated": "2026-06-26"
+  "last_updated": "2026-06-27"
 }
