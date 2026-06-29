@@ -8656,6 +8656,227 @@
         "evasion",
         "linear_probe"
       ]
+    },
+    "2606.09401": {
+      "version": "v1",
+      "title": "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "privacy",
+      "subtopics": [
+        "differential privacy",
+        "membership inference",
+        "canary extraction",
+        "privacy benchmark"
+      ],
+      "keywords": [
+        "differential privacy",
+        "membership inference attack",
+        "canary extraction",
+        "DP fine-tuning",
+        "DP-LoRA",
+        "privacy-utility tradeoff",
+        "ICLR 2026 Oral"
+      ]
+    },
+    "2606.10749": {
+      "version": "v1",
+      "title": "Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "agent safety",
+        "prompt injection",
+        "tool-mediated attacks",
+        "survey"
+      ],
+      "keywords": [
+        "LLM agent security",
+        "prompt injection",
+        "tool-mediated control-flow hijacking",
+        "persistent state corruption",
+        "multi-agent security",
+        "agent safety survey",
+        "trust boundaries"
+      ]
+    },
+    "2606.09700": {
+      "version": "v2",
+      "title": "What the Eyes See, the LLMs Miss: Exploiting Human Perception for Adversarial Text Attacks",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "adversarial attacks",
+        "content moderation evasion",
+        "typographic manipulation"
+      ],
+      "keywords": [
+        "adversarial text attacks",
+        "content moderation",
+        "typographic manipulation",
+        "HPAA",
+        "perceptual mismatch",
+        "evasion attack",
+        "USENIX Security 2026"
+      ]
+    },
+    "2606.23276": {
+      "version": "v1",
+      "title": "Exposing the Illusion of Erasure in Knowledge Editing for LLMs",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "interpretability",
+      "subtopics": [
+        "knowledge editing",
+        "adversarial elicitation",
+        "low-rank updates"
+      ],
+      "keywords": [
+        "knowledge editing",
+        "ROME",
+        "MEMIT",
+        "adversarial elicitation",
+        "low-rank updates",
+        "knowledge redistribution",
+        "model editing security"
+      ]
+    },
+    "2606.23496": {
+      "version": "v1",
+      "title": "TROPT: An Open Framework for Unifying and Advancing Discrete Text Optimization",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "jailbreaking",
+        "interpretability auditing",
+        "discrete text optimization"
+      ],
+      "keywords": [
+        "discrete text optimization",
+        "jailbreaking",
+        "GCG",
+        "AutoDAN",
+        "interpretability auditing",
+        "unified framework",
+        "open source"
+      ]
+    },
+    "2606.00801": {
+      "version": "v1",
+      "title": "Quality-Diversity Evolution for Discovering Diverse Vulnerabilities in LLM Safety",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "red-teaming",
+        "quality-diversity evolution",
+        "adversarial testing"
+      ],
+      "keywords": [
+        "red-teaming",
+        "quality-diversity",
+        "MAP-Elites",
+        "vulnerability profiling",
+        "adversarial testing",
+        "semantic evolution",
+        "ICLR 2026 Workshop AIWILD"
+      ]
+    },
+    "2604.01905": {
+      "version": "v2",
+      "title": "From Component Manipulation to System Compromise: Understanding and Detecting Malicious MCP Servers",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "MCP security",
+        "agent safety",
+        "tool poisoning"
+      ],
+      "keywords": [
+        "MCP security",
+        "malicious MCP servers",
+        "agent safety",
+        "tool poisoning",
+        "prompt injection",
+        "Connor detector",
+        "PoC MCP servers"
+      ]
+    },
+    "2606.02959": {
+      "version": "v1",
+      "title": "Gate AI: LLM Security Benchmark Evaluation Methodology and Results",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "security",
+      "subtopics": [
+        "jailbreak evaluation",
+        "prompt injection detection",
+        "benchmark"
+      ],
+      "keywords": [
+        "LLM security benchmark",
+        "jailbreak evaluation",
+        "prompt injection detection",
+        "evaluation harness",
+        "standardized testing",
+        "Gate AI"
+      ]
+    },
+    "2606.10989": {
+      "version": "v1",
+      "title": "Null-Space Constrained Low-Rank Adaptation for Response-Specified Large Language Model Unlearning",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "privacy",
+      "subtopics": [
+        "machine unlearning",
+        "null-space constraint",
+        "LoRA"
+      ],
+      "keywords": [
+        "machine unlearning",
+        "null-space constraint",
+        "LoRA",
+        "NSRU",
+        "response-specified",
+        "LLM forgetting",
+        "TOFU",
+        "WMDP"
+      ]
+    },
+    "2604.01014": {
+      "version": "v1",
+      "title": "AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration",
+      "first_seen": "2026-06-30",
+      "last_updated": "2026-06-30",
+      "folder": "2026-06-30",
+      "category": "privacy",
+      "subtopics": [
+        "membership inference",
+        "agentic self-exploration",
+        "privacy auditing"
+      ],
+      "keywords": [
+        "membership inference attack",
+        "agentic self-exploration",
+        "MIA baseline",
+        "privacy auditing",
+        "LLM privacy",
+        "adaptive attack"
+      ]
     }
   },
   "_taxonomy": {
