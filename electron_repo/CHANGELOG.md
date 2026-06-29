@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-23 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue check this run: re-fetched the **USENIX Sec '26** conference page and grepped it — it still links only **Cycle 1** accepted papers (sole keyword hit remains the already-excluded **PyGuard** / "Cutting the Gordian Knot"); **Cycle 2** acceptances still not public (Cycle-2 presentations Jul 9, 2026; embargoed papers release on the symposium's first day, Baltimore Aug 12–14, 2026). **CCS '26** accepted list still not public (author notifications ~Jul 17, 2026; conference Nov 15–19, The Hague). **RAID '26** accepted-papers page fetched directly (raid2026.org/accepted.html) — page is live but the list is **not yet populated** (Lancaster, UK, Oct 11–14, 2026). **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** fully grepped in prior runs — no new in-scope hits. **ACSAC '26** (notification ~Sep 8; no accepted list yet) and **ESORICS '26** (two cycles; Rome, Sept 14–18; proceedings not out) returned no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced (nothing to add to `excluded[]`). The 2026 Electron surface that searches returned again remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: **CVE-2026-34780** (contextBridge VideoFrame transfer → context-isolation bypass), **CVE-2026-34769** (`commandLineSwitches` renderer switch injection → sandbox disable), **DeepChat** XSS→RCE via unsafe Mermaid rendering + exposed Electron IPC (CVE-2025-67744, CVSS 9.6, patched in 0.5.3), plus Chrome/Chromium/WebView/V8 items affecting embedders (**CVE-2026-11645** V8 zero-day in active exploitation, **CVE-2026-11290** Android WebView integer overflow, **CVE-2026-7992** Chromium UI input-validation RCE). Consistent with prior handling these are **not** added to `excluded[]` (which tracks watched-venue papers only); they remain useful as motivation/impact citations.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Parent `.git` was reachable in the sandbox this run; scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine).
+
 ## 2026-06-18 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.

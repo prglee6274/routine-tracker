@@ -8447,6 +8447,215 @@
         "SVD truncation",
         "RAG privacy"
       ]
+    },
+    "2606.28153": {
+      "version": "v1",
+      "title": "Robust Harmful Features Under Jailbreak Attacks: Mechanistic Evidence from Attention Head Specialization in Large Language Models",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "jailbreak",
+        "attention head specialization",
+        "mechanistic interpretability",
+        "safety features",
+        "training-free detection"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "mechanistic_position",
+        "attention_heads",
+        "safety_detection"
+      ]
+    },
+    "2606.27941": {
+      "version": "v1",
+      "title": "VASAE: Naming SAE Dictionary Directions with Vocabulary-Aligned Anchoring",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "sparse autoencoder",
+        "vocabulary-aligned anchoring",
+        "feature naming",
+        "residual stream",
+        "GPT-2/Llama-3.1"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sparse_autoencoder",
+        "feature_naming",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2606.27510": {
+      "version": "v1",
+      "title": "The Curse of Multiple Mediators: Hidden Interaction Effects in Activation Patching",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "activation patching",
+        "causal mediation",
+        "interaction effects",
+        "mechanistic interpretability",
+        "IOI circuit"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_patching",
+        "causal_mediation",
+        "interp_method"
+      ]
+    },
+    "2606.28061": {
+      "version": "v1",
+      "title": "ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "LLM agent privacy",
+        "tool use",
+        "purpose-bound disclosure",
+        "benchmark",
+        "need-to-know"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "agent_privacy",
+        "tool_use",
+        "benchmark",
+        "information_flow"
+      ]
+    },
+    "2606.27936": {
+      "version": "v1",
+      "title": "Agentic AI-Powered Re-Identification: An Emerging, Scalable Threat to Mobility Microdata Privacy",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "re-identification",
+        "mobility microdata",
+        "agentic AI",
+        "GDPR",
+        "statistical disclosure control"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "re_identification",
+        "agentic_ai",
+        "location_privacy",
+        "gdpr"
+      ]
+    },
+    "2606.26474": {
+      "version": "v1",
+      "title": "Localizing RL-Induced Tool Use to a Single Crosscoder Feature",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "crosscoder",
+        "RL fine-tuning",
+        "tool use",
+        "feature steering",
+        "capability spillover"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "crosscoder",
+        "feature_steering",
+        "rl_finetuning",
+        "tool_use"
+      ]
+    },
+    "2606.25013": {
+      "version": "v1",
+      "title": "Do Thinking Tokens Help with Safety?",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "reasoning models",
+        "thinking tokens",
+        "safety",
+        "refusal prediction",
+        "deliberation"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety",
+        "reasoning_models",
+        "refusal",
+        "deliberation"
+      ]
+    },
+    "2606.27511": {
+      "version": "v1",
+      "title": "When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "federated learning",
+        "backdoor attack",
+        "gradient leakage",
+        "data-free poisoning",
+        "LLM QA"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "federated_learning",
+        "gradient_leakage",
+        "poisoning"
+      ]
+    },
+    "2606.27683": {
+      "version": "v1",
+      "title": "CBD: API-Only LLM Black-Box Unlearning through Controlled Behavioral Divergence",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "machine unlearning",
+        "black-box",
+        "API-only",
+        "Fisher matrix",
+        "TOFU/WMDP"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "machine_unlearning",
+        "black_box",
+        "api_only",
+        "edge"
+      ]
+    },
+    "2606.27091": {
+      "version": "v1",
+      "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+      "first_seen": "2026-06-29",
+      "last_updated": "2026-06-29",
+      "folder": "2026-06-29",
+      "keywords": [
+        "circuit analysis",
+        "fine-tuning",
+        "evasion",
+        "linear probe",
+        "security classifier"
+      ],
+      "category": "security",
+      "subtopics": [
+        "circuit_analysis",
+        "fine_tuning",
+        "evasion",
+        "linear_probe"
+      ]
     }
   },
   "_taxonomy": {
