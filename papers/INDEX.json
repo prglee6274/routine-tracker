@@ -8877,6 +8877,228 @@
         "LLM privacy",
         "adaptive attack"
       ]
+    },
+    "2606.16939": {
+      "version": "v1",
+      "title": "Scalable Circuit Learning for Interpreting Large Language Models",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "interp",
+      "subtopics": [
+        "circuit_analysis",
+        "sparse_autoencoder",
+        "mechanistic_interpretability",
+        "feature_attribution"
+      ],
+      "keywords": [
+        "CircuitLasso",
+        "SAE",
+        "circuit analysis",
+        "sparse linear regression",
+        "mechanistic interpretability",
+        "IBM Research"
+      ]
+    },
+    "2606.27237": {
+      "version": "v1",
+      "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "interp",
+      "subtopics": [
+        "parameter_localization",
+        "knowledge_probing",
+        "mechanistic_interpretability"
+      ],
+      "keywords": [
+        "task-specific knowledge",
+        "parameter localization",
+        "knowledge base",
+        "chain-of-thought",
+        "mechanistic interpretability",
+        "knowledge editing"
+      ]
+    },
+    "2606.26529": {
+      "version": "v1",
+      "title": "The Inattentional Gap",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "security",
+      "subtopics": [
+        "alignment_attacks",
+        "safety_evaluation",
+        "real_world_safety"
+      ],
+      "keywords": [
+        "inattentional blindness",
+        "inattentional gap",
+        "safety-critical signals",
+        "task-conditioned models",
+        "alignment gap",
+        "benchmark vs deployment"
+      ]
+    },
+    "2606.15821": {
+      "version": "v1",
+      "title": "The Truth Stays in the Family: Inherited Truthful Heads in Model Lineages",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "interp",
+      "subtopics": [
+        "probing",
+        "attention_heads",
+        "truthfulness",
+        "mechanistic_interpretability"
+      ],
+      "keywords": [
+        "TruthProbe",
+        "attention head",
+        "truthfulness",
+        "probing",
+        "model lineage",
+        "hallucination",
+        "ICML 2026"
+      ]
+    },
+    "2606.27210": {
+      "version": "v1",
+      "title": "Paved with True Intents: Intent-Aware Training for LLM Safety Classification",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "security",
+      "subtopics": [
+        "safety_classification",
+        "jailbreak",
+        "red_teaming"
+      ],
+      "keywords": [
+        "AIMS dataset",
+        "GRPO",
+        "intent-aware safety",
+        "safety classification",
+        "adversarial rephrasing",
+        "intent faithfulness"
+      ]
+    },
+    "2606.15730": {
+      "version": "v1",
+      "title": "InstantForget: Update-Free Backdoor Unlearning with Inference-Time Feature Reset",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "machine_unlearning",
+        "adversarial_attacks"
+      ],
+      "keywords": [
+        "backdoor unlearning",
+        "InstantForget",
+        "Mahalanobis score",
+        "inference-time defense",
+        "feature reset",
+        "machine unlearning",
+        "ASR"
+      ]
+    },
+    "2606.15788": {
+      "version": "v1",
+      "title": "GAS-Leak-LLM: Genetic Algorithm-Based Suffix Optimization for Black-Box LLM Jailbreaking",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "adversarial_attacks",
+        "red_teaming"
+      ],
+      "keywords": [
+        "jailbreak",
+        "genetic algorithm",
+        "suffix optimization",
+        "black-box attack",
+        "adversarial prompt",
+        "GAS-Leak-LLM",
+        "discrete optimization"
+      ]
+    },
+    "2606.15899": {
+      "version": "v1",
+      "title": "SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "security",
+      "subtopics": [
+        "red_teaming",
+        "prompt_injection",
+        "agent_safety",
+        "security_evaluation"
+      ],
+      "keywords": [
+        "SkillVetBench",
+        "SARS",
+        "LLM-as-judge",
+        "prompt injection",
+        "memory poisoning",
+        "agent security",
+        "CVSS v4.0"
+      ]
+    },
+    "2606.23591": {
+      "version": "v1",
+      "title": "Quantifying the Agreement Between Data-Influence and Data-Similarity to Understand LLM Behavior",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "interp",
+      "subtopics": [
+        "feature_attribution",
+        "training_data_influence",
+        "interpretability_method"
+      ],
+      "keywords": [
+        "data influence",
+        "data similarity",
+        "output tracing",
+        "training data attribution",
+        "feature attribution",
+        "OLMo2",
+        "Qwen3"
+      ]
+    },
+    "2606.15796": {
+      "version": "v1",
+      "title": "DifFRACT: Diffusion Feature Reconstruction and Attribution for Circuit Tracing",
+      "first_seen": "2026-07-01",
+      "last_updated": "2026-07-01",
+      "folder": "2026-07-01",
+      "category": "interp",
+      "subtopics": [
+        "circuit_analysis",
+        "sparse_autoencoder",
+        "mechanistic_interpretability",
+        "feature_attribution"
+      ],
+      "keywords": [
+        "DifFRACT",
+        "transcoder",
+        "circuit tracing",
+        "diffusion transformer",
+        "FLUX",
+        "MM-DiT",
+        "mechanistic interpretability",
+        "SAE",
+        "attribute binding"
+      ]
     }
   },
   "_taxonomy": {
