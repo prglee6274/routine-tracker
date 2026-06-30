@@ -1312,13 +1312,13 @@
   },
   "DeusData/codebase-memory-mcp": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-06-30",
-   "days_on_list": 2,
-   "last_stars": 19923,
+   "last_seen": "2026-07-01",
+   "days_on_list": 3,
+   "last_stars": 20500,
    "category": "tools",
    "language": "C",
    "graduated": false,
-   "last_pushed_at": "2026-06-12"
+   "last_pushed_at": "2026-07-01"
   },
   "topoteretes/cognee": {
    "first_seen": "2026-06-29",
@@ -1332,13 +1332,13 @@
   },
   "calesthio/OpenMontage": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-06-30",
-   "days_on_list": 2,
-   "last_stars": 27264,
+   "last_seen": "2026-07-01",
+   "days_on_list": 3,
+   "last_stars": 27500,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-06-28"
+   "last_pushed_at": "2026-07-01"
   },
   "bytedance/deer-flow": {
    "first_seen": "2026-06-29",
@@ -1362,13 +1362,13 @@
   },
   "simplex-chat/simplex-chat": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-06-29",
+   "last_seen": "2026-07-01",
    "days_on_list": 1,
-   "last_stars": 15113,
+   "last_stars": 15200,
    "category": "security",
    "language": "Haskell",
    "graduated": false,
-   "last_pushed_at": "2026-06-17"
+   "last_pushed_at": "2026-07-01"
   },
   "opendatalab/MinerU": {
    "first_seen": "2026-06-29",
@@ -1402,13 +1402,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-06-30",
-   "days_on_list": 2,
-   "last_stars": 26894,
+   "last_seen": "2026-07-01",
+   "days_on_list": 3,
+   "last_stars": 27000,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-06-09"
+   "last_pushed_at": "2026-07-01"
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
@@ -1432,13 +1432,13 @@
   },
   "msitarzewski/agency-agents": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-06-30",
-   "days_on_list": 1,
-   "last_stars": 1100,
+   "last_seen": "2026-07-01",
+   "days_on_list": 2,
+   "last_stars": 1300,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-06-30"
+   "last_pushed_at": "2026-07-01"
   },
   "cloudflare/security-audit-skill": {
    "first_seen": "2026-06-30",
@@ -1449,6 +1449,56 @@
    "language": "JavaScript",
    "graduated": false,
    "last_pushed_at": "2026-06-24"
+  },
+  "bikini/exploitarium": {
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-01",
+   "days_on_list": 1,
+   "last_stars": 2500,
+   "category": "security",
+   "language": "C",
+   "graduated": false,
+   "last_pushed_at": "2026-06-23"
+  },
+  "safishamsi/graphify": {
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-01",
+   "days_on_list": 1,
+   "last_stars": 73900,
+   "category": "tools",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-07-01"
+  },
+  "diegosouzapw/OmniRoute": {
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-01",
+   "days_on_list": 1,
+   "last_stars": 8100,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-01"
+  },
+  "deepseek-ai/DeepSpec": {
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-01",
+   "days_on_list": 1,
+   "last_stars": 5000,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-07-01"
+  },
+  "Panniantong/Agent-Reach": {
+   "first_seen": "2026-07-01",
+   "last_seen": "2026-07-01",
+   "days_on_list": 1,
+   "last_stars": 34000,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-07-01"
   }
  },
  "last_updated": "2026-06-30"
