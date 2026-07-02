@@ -58,6 +58,17 @@
     font-size:11px;background:rgba(23,26,33,.8);padding:5px 11px;border-radius:20px;border:1px solid var(--line)}
   a.linkbtn{display:inline-block;margin:8px 6px 0 0;padding:6px 11px;border-radius:7px;
     background:#26406e;border:1px solid #3E63DD;color:#dbe6ff !important;text-decoration:none!important;font-size:12px}
+  #overlay{position:absolute;inset:0;background:rgba(6,8,12,.74);backdrop-filter:blur(3px);
+    display:flex;align-items:center;justify-content:center;z-index:50}
+  #overlay .card{position:relative;max-width:560px;width:calc(100% - 40px);padding:22px 24px}
+  #overlay h2{margin:0 0 12px;font-size:18px}
+  #overlay p{margin:8px 0;color:#cdd2db;line-height:1.55;font-size:13px}
+  #overlay .steps{margin:13px 0;display:flex;flex-direction:column;gap:8px}
+  #overlay .steps div{color:#dfe3ea;line-height:1.45;font-size:13px}
+  #overlay .num{display:inline-flex;width:19px;height:19px;border-radius:50%;background:#26406e;
+    border:1px solid #3E63DD;color:#dbe6ff;font-size:11px;align-items:center;justify-content:center;margin-right:8px;font-weight:700}
+  #overlay .tip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:12px;margin-top:12px}
+  #overlay .close{position:absolute;top:11px;right:15px;color:var(--mut);cursor:pointer;font-size:16px}
 </style>
 </head>
 <body>
@@ -89,9 +100,39 @@
   <div id="dateout"></div>
 
   <div class="grp">보기</div>
+  <span class="btn on" id="btnLabels">라벨: 허브만</span>
   <span class="btn" id="btnPhysics">물리 ON</span>
   <span class="btn" id="btnNeighbors">이웃만 강조</span>
   <span class="btn" id="btnFit">전체 보기</span>
+  <span class="btn" id="btnHelp">❔ 사용법</span>
+</div>
+
+<div id="overlay">
+  <div class="card panel">
+    <span class="close" id="ovClose">✕</span>
+    <h2>이 그래프 읽는 법</h2>
+    <p><b>점 하나 = 논문 한 편.</b> 색은 분야 —
+      <span style="color:var(--interp)">●</span> interpretability ·
+      <span style="color:var(--security)">●</span> security ·
+      <span style="color:var(--privacy)">●</span> privacy.
+      점이 <b>클수록</b> 다른 논문이 많이 인용한 것(영향력↑).</p>
+    <p><b>선 = 관계.</b> 인용(화살표 A→B는 "A가 B를 인용")을 AI가 분류:
+      <span style="color:var(--extends)">확장</span> ·
+      <span style="color:var(--baseline)">베이스라인</span> ·
+      <span style="color:var(--compares)">비교</span> ·
+      <span style="color:var(--rebuts)">반박</span> ·
+      <span style="color:var(--cite)">배경</span>.
+      <span style="color:var(--author)">파랑</span>=공저자, <span style="color:var(--topic)">초록 점선</span>=주제 유사(기본 꺼짐).</p>
+    <div class="steps">
+      <div><span class="num">1</span> 점에 <b>마우스를 올리면</b> 제목·저자가 뜬다 (어떤 논문인지 확인).</div>
+      <div><span class="num">2</span> 점을 <b>클릭</b>하면 오른쪽에 상세 + 관계 목록(arXiv·PDF 링크).</div>
+      <div><span class="num">3</span> 위 <b>검색창</b>에 제목·저자 입력 → 결과 클릭으로 그 논문으로 이동.</div>
+      <div><span class="num">4</span> <b>이웃만 강조</b> 버튼: 선택한 논문과 직접 연결된 것만 남겨 복잡함 제거.</div>
+      <div><span class="num">5</span> 왼쪽에서 <b>분야·기간·엣지 종류</b> 필터로 좁히기.</div>
+    </div>
+    <p class="tip">💡 가장 큰 파란 점이 <b>Scaling Monosemanticity</b> (가장 많이 인용된 허브). 거기서 뻗은 <span style="color:var(--rebuts)">빨간 선(반박)</span>을 따라가면 학계 논쟁 지점이 보입니다.</p>
+    <span class="btn on" id="ovGo" style="margin-top:6px">그래프 보기 →</span>
+  </div>
 </div>
 
 <div id="detail" class="panel"><span class="close" id="detClose">✕</span><div id="detBody"></div></div>
@@ -135,13 +176,26 @@ for(const e of G.edges){
 }
 
 // ---- vis datasets ----
+let labelHubsOnly = true;           // show labels only for influential nodes by default
+const HUB = 2;                       // in-degree threshold for a default label
+function tipEl(n){                   // hover tooltip = "which paper is this"
+  const d=document.createElement('div');
+  d.style.cssText='max-width:330px;white-space:normal;font-size:12px;line-height:1.35';
+  d.innerHTML=`<b>${esc(n.title)}</b><br>`+
+    `<span style="color:#9aa1ad">${n.cat} · ${n.date} · 코퍼스 내 피인용 ${n.indeg}</span>`+
+    ((n.authors&&n.authors.length)?`<br><span style="color:#c7ccd6">${esc(n.authors.slice(0,6).join(', '))}${n.authors.length>6?' 외':''}</span>`:'')+
+    `<br><span style="color:#6b7280">클릭 → 상세·관계</span>`;
+  return d;
+}
 const nodesDS = new vis.DataSet(G.nodes.map(n=>({
-  id:n.id, label:n.label,
-  color:{background:CAT[n.cat]||CAT.other, border:shade(CAT[n.cat]||CAT.other),
-         highlight:{background:CAT[n.cat]||CAT.other,border:'#fff'}},
+  id:n.id, label: (n.indeg>=HUB ? n.label : ''),
+  title: tipEl(n),
+  color:{background:CAT[n.cat]||CAT.other, border:CAT[n.cat]||CAT.other,
+         highlight:{background:CAT[n.cat]||CAT.other,border:'#ffffff'},
+         hover:{background:CAT[n.cat]||CAT.other,border:'#ffffff'}},
   size: 8 + Math.sqrt(n.indeg)*4.2,
-  font:{color:'#c7ccd6', size: 11 + Math.min(n.indeg,10)*0.7, face:'-apple-system'},
-  _cat:n.cat, _date:n.date
+  font:{color:'#e4e8ef', size: 12 + Math.min(n.indeg,12)*0.8, face:'-apple-system', strokeWidth:3, strokeColor:'#0e1116'},
+  _cat:n.cat, _date:n.date, _indeg:n.indeg, _label:n.label
 })));
 let eid=0;
 const edgesDS = new vis.DataSet(G.edges.map(e=>{
@@ -187,7 +241,8 @@ const net=new vis.Network(container,{nodes:nodesView,edges:edgesView},{
   nodes:{shape:'dot',borderWidth:1.5},
   edges:{selectionWidth:1.6}
 });
-net.once('stabilizationIterationsDone',()=>{net.setOptions({physics:{enabled:false}});physicsOn=false;btnPhysics.classList.remove('on');btnPhysics.textContent='물리 OFF';});
+const HUBID=(G.nodes.reduce((a,b)=>(b.indeg>((a&&a.indeg)||-1)?b:a),null)||{}).id;
+net.once('stabilizationIterationsDone',()=>{net.setOptions({physics:{enabled:false}});physicsOn=false;btnPhysics.classList.remove('on');btnPhysics.textContent='물리 OFF';if(HUBID)showDetail(HUBID);});
 
 function refresh(){nodesView.refresh();edgesView.refresh();}
 
@@ -206,6 +261,18 @@ btnPhysics.onclick=()=>{physicsOn=!physicsOn;net.setOptions({physics:{enabled:ph
 let neighborsOnly=false;const btnN=document.getElementById('btnNeighbors');
 btnN.onclick=()=>{neighborsOnly=!neighborsOnly;btnN.classList.toggle('on',neighborsOnly);if(!neighborsOnly){restoreDim();}else if(lastSel){focusNeighbors(lastSel);}};
 document.getElementById('btnFit').onclick=()=>net.fit({animation:true});
+// label toggle (hub-only <-> all)
+const btnLabels=document.getElementById('btnLabels');
+btnLabels.onclick=()=>{labelHubsOnly=!labelHubsOnly;btnLabels.classList.toggle('on',labelHubsOnly);
+  btnLabels.textContent=labelHubsOnly?'라벨: 허브만':'라벨: 전체';
+  const upd=[];nodesDS.forEach(n=>upd.push({id:n.id,label:labelHubsOnly?(n._indeg>=HUB?n._label:''):n._label}));
+  nodesDS.update(upd);};
+// help overlay
+const overlay=document.getElementById('overlay');
+const hideOv=()=>overlay.style.display='none';
+document.getElementById('ovClose').onclick=hideOv;
+document.getElementById('ovGo').onclick=hideOv;
+document.getElementById('btnHelp').onclick=()=>overlay.style.display='flex';
 
 // ---- search ----
 const search=document.getElementById('search'),results=document.getElementById('results');
