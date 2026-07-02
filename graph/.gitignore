@@ -1,0 +1,4 @@
+# transient graph build artifacts (regenerated each run)
+cache/*.log
+cache/*.out
+cache/edges_to_label.json
