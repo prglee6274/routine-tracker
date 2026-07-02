@@ -684,8 +684,8 @@
     },
     "promptfoo/promptfoo": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-07-02",
-      "days_on_list": 1,
+      "last_seen": "2026-07-03",
+      "days_on_list": 2,
       "last_stars": 21300,
       "last_pushed_at": "",
       "category": "security",
@@ -704,8 +704,8 @@
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-06-27",
-      "days_on_list": 3,
+      "last_seen": "2026-07-03",
+      "days_on_list": 1,
       "last_stars": 1800,
       "category": "security",
       "language": "Python",
@@ -835,8 +835,8 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-02",
-      "days_on_list": 1,
+      "last_seen": "2026-07-03",
+      "days_on_list": 2,
       "last_stars": 577,
       "category": "security",
       "language": "Go",
@@ -1124,8 +1124,8 @@
     },
     "github/github-mcp-server": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-07-02",
-      "days_on_list": 1,
+      "last_seen": "2026-07-03",
+      "days_on_list": 2,
       "last_stars": 28400,
       "category": "tools",
       "language": "Go",
@@ -1294,7 +1294,7 @@
     },
     "zilliztech/claude-context": {
       "first_seen": "2026-06-27",
-      "last_seen": "2026-06-27",
+      "last_seen": "2026-07-03",
       "days_on_list": 1,
       "last_stars": 8800,
       "category": "tools",
@@ -1322,9 +1322,9 @@
     },
     "topoteretes/cognee": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-06-30",
-      "days_on_list": 2,
-      "last_stars": 24969,
+      "last_seen": "2026-07-03",
+      "days_on_list": 1,
+      "last_stars": 25000,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -1342,9 +1342,9 @@
     },
     "bytedance/deer-flow": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-02",
-      "days_on_list": 1,
-      "last_stars": 75875,
+      "last_seen": "2026-07-03",
+      "days_on_list": 2,
+      "last_stars": 75900,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -1462,8 +1462,8 @@
     },
     "safishamsi/graphify": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-02",
-      "days_on_list": 2,
+      "last_seen": "2026-07-03",
+      "days_on_list": 3,
       "last_stars": 74600,
       "category": "tools",
       "language": "Python",
@@ -1482,9 +1482,9 @@
     },
     "deepseek-ai/DeepSpec": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-02",
-      "days_on_list": 2,
-      "last_stars": 5700,
+      "last_seen": "2026-07-03",
+      "days_on_list": 3,
+      "last_stars": 6000,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -1492,8 +1492,8 @@
     },
     "Panniantong/Agent-Reach": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-02",
-      "days_on_list": 2,
+      "last_seen": "2026-07-03",
+      "days_on_list": 3,
       "last_stars": 43700,
       "category": "llm",
       "language": "Python",
@@ -1501,5 +1501,5 @@
       "last_pushed_at": "2026-07-01"
     }
   },
-  "last_updated": "2026-07-02"
+  "last_updated": "2026-07-03"
 }
