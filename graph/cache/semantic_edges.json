@@ -1,89 +1,354 @@
 {
-  "2510.02917->2605.29358": {"type": "extends", "evidence": "applies SAE decomposition to code generation"},
-  "2601.02978->2605.29358": {"type": "extends", "evidence": "uses SAEs for monosemantic feature labeling"},
-  "2601.03047->2605.29358": {"type": "background", "evidence": "cited within Anthropic SAE publication lineage"},
-  "2601.20885->2510.05582": {"type": "compares", "evidence": "contrasts InfoRMIA among related MIA methods"},
-  "2601.22447->2605.29358": {"type": "extends", "evidence": "builds on SAEs to interpret features"},
-  "2602.05444->2605.29358": {"type": "extends", "evidence": "uses SAE mono-semantic feature isolation"},
-  "2602.05859->2605.29358": {"type": "extends", "evidence": "applies SAEs to diffusion language models"},
-  "2602.12418->2605.29358": {"type": "extends", "evidence": "turns to SAEs for jailbreak defense"},
-  "2603.19183->2605.29358": {"type": "extends", "evidence": "uses SAEs on VLA model features"},
-  "2604.16548->2603.21654": {"type": "background", "evidence": "reference-list-only, RAG security background"},
-  "2605.03160->2605.29358": {"type": "rebuts", "evidence": "single-feature protocol mislabels causal axes"},
-  "2605.04072->2605.29358": {"type": "extends", "evidence": "applies SAE methodology to clinical models"},
-  "2605.05151->2605.29358": {"type": "extends", "evidence": "uses SAEs for time series interpretability"},
-  "2605.05892->2605.29358": {"type": "background", "evidence": "reference-list-only, steering background context"},
-  "2605.06342->2605.29358": {"type": "background", "evidence": "appears only in reference list"},
-  "2605.06494->2605.29358": {"type": "extends", "evidence": "builds on SAE features via graph motifs"},
-  "2605.06610->2605.29358": {"type": "extends", "evidence": "builds on scaled SAE methods"},
-  "2605.07990->2605.29358": {"type": "extends", "evidence": "uses SAEs to identify features"},
-  "2605.08012->2605.29358": {"type": "rebuts", "evidence": "challenges unstated recoverability assumptions of monosemanticity"},
-  "2605.08513->2605.29358": {"type": "extends", "evidence": "leverages SAE safety-relevant feature findings"},
-  "2605.08934->2605.29358": {"type": "background", "evidence": "cites SAE control as motivation"},
-  "2605.09887->2605.29358": {"type": "extends", "evidence": "studies SAE scaling laws building on method"},
-  "2605.12225->2605.29358": {"type": "extends", "evidence": "applies SAEs to ASR models"},
-  "2605.13930->2605.29358": {"type": "extends", "evidence": "applies SAEs to EEG foundation models"},
-  "2605.18133->2605.03378": {"type": "background", "evidence": "cites context-aware defenses as related work"},
-  "2605.23035->2605.29358": {"type": "extends", "evidence": "uses SAEs for brain-LLM feature decomposition"},
-  "2605.23036->2605.29358": {"type": "extends", "evidence": "builds SAEs for multilingual steering"},
-  "2605.25525->2605.29358": {"type": "extends", "evidence": "builds on production-scale SAE methods"},
-  "2605.27819->2605.29358": {"type": "extends", "evidence": "builds on and addresses SAE intervention degradation"},
-  "2605.28896->2605.29358": {"type": "extends", "evidence": "applies SAE toolkit to LoRA adapters"},
-  "2605.29888->2605.05115": {"type": "background", "evidence": "cites representation-steering direction as background"},
-  "2605.29901->2605.29358": {"type": "background", "evidence": "mechanistic interpretability background context"},
-  "2605.30031->2605.04700": {"type": "background", "evidence": "surveys audio jailbreak attack methods"},
-  "2605.30031->2605.18168": {"type": "background", "evidence": "surveys audio jailbreak attack variants"},
-  "2605.30049->2605.10180": {"type": "background", "evidence": "cites DiT safety intervention related work"},
-  "2605.31183->2605.29358": {"type": "baseline", "evidence": "compares SAEs against simple steering baselines"},
-  "2605.31304->2605.29358": {"type": "extends", "evidence": "builds on SAEs for disentangling polysemanticity"},
-  "2605.31518->2605.29358": {"type": "rebuts", "evidence": "feature-revival techniques remain ineffective on death"},
-  "2606.01479->2605.29358": {"type": "extends", "evidence": "applies SAEs to TTS emotion control"},
-  "2606.02385->2605.29358": {"type": "extends", "evidence": "develops theory of Templeton's SAE formulation"},
-  "2606.03002->2605.29358": {"type": "extends", "evidence": "analyzes quantization effects on SAE features"},
-  "2606.04160->2605.29358": {"type": "background", "evidence": "cited as frontier LLM developer"},
-  "2606.04284->2605.29358": {"type": "extends", "evidence": "uses SAE sparsity for interpretable units"},
-  "2606.05566->2605.23196": {"type": "rebuts", "evidence": "reports guardrail detection collapse and bypass"},
-  "2606.06315->2605.29358": {"type": "extends", "evidence": "proposes interpreting steered features via SAEs"},
-  "2606.06387->2604.01905": {"type": "background", "evidence": "cites tool-attribute steering as related risk"},
-  "2606.06784->2511.14045": {"type": "background", "evidence": "reference-list-only, privacy leakage background"},
-  "2606.07007->2605.29358": {"type": "extends", "evidence": "theorizes SAE concept learning and polysemanticity"},
-  "2606.07943->2603.17368": {"type": "background", "evidence": "reference-list-only, reasoning-model safety background"},
-  "2606.09850->2605.29358": {"type": "background", "evidence": "LLM scaling and interpretability background"},
-  "2606.10062->2604.16548": {"type": "background", "evidence": "reference-list-only, agent memory background"},
-  "2606.10080->2605.29358": {"type": "extends", "evidence": "uses SAEs to decompose activations"},
-  "2606.10481->2606.09401": {"type": "extends", "evidence": "benchmarks canaries following their LoRA methodology"},
-  "2606.10989->2605.01735": {"type": "background", "evidence": "reference-list-only, unlearning related work"},
-  "2606.11425->2605.01687": {"type": "background", "evidence": "reference-list-only, jailbreak benchmark background"},
-  "2606.11722->2605.29358": {"type": "compares", "evidence": "contrasts SAE costs with training-free method"},
-  "2606.12360->2605.29358": {"type": "extends", "evidence": "uses SAEs to characterize data concepts"},
-  "2606.12629->2605.29358": {"type": "compares", "evidence": "contrasts SAE learned rotations with training-free approach"},
-  "2606.15092->2605.29358": {"type": "background", "evidence": "SAE steering context, uses alternative method"},
-  "2606.15165->2601.18110": {"type": "background", "evidence": "reference-list-only, MIA related work"},
-  "2606.16193->2605.29358": {"type": "extends", "evidence": "builds cascaded SAEs on multimodal LLMs"},
-  "2606.18322->2605.29358": {"type": "rebuts", "evidence": "reports SAE interventions unreliable, behavior recovers"},
-  "2606.18389->2605.23036": {"type": "background", "evidence": "reference-list-only, activation steering background"},
-  "2606.19831->2605.08513": {"type": "extends", "evidence": "builds on single-neuron refusal-gating findings"},
-  "2606.19831->2605.12290": {"type": "extends", "evidence": "builds on targeted neuron modulation work"},
-  "2606.19946->2606.06735": {"type": "extends", "evidence": "builds on angle-norm steering geometry"},
-  "2606.20347->2605.29358": {"type": "extends", "evidence": "uses SAEs to extract interpretable features"},
-  "2606.20408->2605.01687": {"type": "background", "evidence": "appears only in reference list"},
-  "2606.22673->2605.12671": {"type": "extends", "evidence": "builds on circuit and functional-anisotropy analysis"},
-  "2606.24026->2605.01555": {"type": "compares", "evidence": "contrasts feature-focus with their circuit explanation"},
-  "2606.24322->2604.16548": {"type": "background", "evidence": "reference-list-only, memory security survey"},
-  "2606.24322->2605.29960": {"type": "background", "evidence": "reference-list-only, memory trojan attack"},
-  "2606.24388->2605.01687": {"type": "compares", "evidence": "contrasts MultiBreak multi-turn focus complementarily"},
-  "2606.24408->2606.09401": {"type": "background", "evidence": "privacy audit related work background"},
-  "2606.24496->2605.17634": {"type": "background", "evidence": "cites prompt-injection risk as background"},
-  "2606.24716->2605.29358": {"type": "extends", "evidence": "evaluates SAE interpretability via annotations"},
-  "2606.25182->2602.11495": {"type": "background", "evidence": "jailbreak detection background context"},
-  "2606.25657->2605.29358": {"type": "extends", "evidence": "uses large SAE dictionaries for VLMs"},
-  "2606.26396->2605.29358": {"type": "extends", "evidence": "uses SAEs to disentangle transformer concepts"},
-  "2606.26474->2605.29358": {"type": "extends", "evidence": "uses SAEs to decompose model activations"},
-  "2606.26620->2605.29358": {"type": "extends", "evidence": "builds on effectiveness of scaled SAEs"},
-  "2606.26627->2605.26269": {"type": "background", "evidence": "cites agent privacy benchmark as related work"},
-  "2606.26627->2606.10749": {"type": "background", "evidence": "cites secure-agent survey as related work"},
-  "2606.30566->2606.04329": {"type": "background", "evidence": "reference-list-only, memory poisoning study"},
-  "2606.30566->2606.04425": {"type": "background", "evidence": "reference-list-only, stored prompt injection"},
-  "2606.31208->2606.09401": {"type": "background", "evidence": "privacy protection benchmark background context"},
-  "2606.31394->2605.29358": {"type": "extends", "evidence": "trains SAEs to resolve superposition"}
+ "2510.02917->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE decomposition to code generation"
+ },
+ "2601.02978->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for monosemantic feature labeling"
+ },
+ "2601.03047->2605.29358": {
+  "type": "background",
+  "evidence": "cited within Anthropic SAE publication lineage"
+ },
+ "2601.20885->2510.05582": {
+  "type": "compares",
+  "evidence": "contrasts InfoRMIA among related MIA methods"
+ },
+ "2601.22447->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAEs to interpret features"
+ },
+ "2602.05444->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAE mono-semantic feature isolation"
+ },
+ "2602.05859->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to diffusion language models"
+ },
+ "2602.12418->2605.29358": {
+  "type": "extends",
+  "evidence": "turns to SAEs for jailbreak defense"
+ },
+ "2603.19183->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs on VLA model features"
+ },
+ "2604.16548->2603.21654": {
+  "type": "background",
+  "evidence": "reference-list-only, RAG security background"
+ },
+ "2605.03160->2605.29358": {
+  "type": "rebuts",
+  "evidence": "single-feature protocol mislabels causal axes"
+ },
+ "2605.04072->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE methodology to clinical models"
+ },
+ "2605.05151->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for time series interpretability"
+ },
+ "2605.05892->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list-only, steering background context"
+ },
+ "2605.06342->2605.29358": {
+  "type": "background",
+  "evidence": "appears only in reference list"
+ },
+ "2605.06494->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAE features via graph motifs"
+ },
+ "2605.06610->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on scaled SAE methods"
+ },
+ "2605.07990->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to identify features"
+ },
+ "2605.08012->2605.29358": {
+  "type": "rebuts",
+  "evidence": "challenges unstated recoverability assumptions of monosemanticity"
+ },
+ "2605.08513->2605.29358": {
+  "type": "extends",
+  "evidence": "leverages SAE safety-relevant feature findings"
+ },
+ "2605.08934->2605.29358": {
+  "type": "background",
+  "evidence": "cites SAE control as motivation"
+ },
+ "2605.09887->2605.29358": {
+  "type": "extends",
+  "evidence": "studies SAE scaling laws building on method"
+ },
+ "2605.12225->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to ASR models"
+ },
+ "2605.13930->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to EEG foundation models"
+ },
+ "2605.18133->2605.03378": {
+  "type": "background",
+  "evidence": "cites context-aware defenses as related work"
+ },
+ "2605.23035->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for brain-LLM feature decomposition"
+ },
+ "2605.23036->2605.29358": {
+  "type": "extends",
+  "evidence": "builds SAEs for multilingual steering"
+ },
+ "2605.25525->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on production-scale SAE methods"
+ },
+ "2605.27819->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on and addresses SAE intervention degradation"
+ },
+ "2605.28896->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE toolkit to LoRA adapters"
+ },
+ "2605.29888->2605.05115": {
+  "type": "background",
+  "evidence": "cites representation-steering direction as background"
+ },
+ "2605.29901->2605.29358": {
+  "type": "background",
+  "evidence": "mechanistic interpretability background context"
+ },
+ "2605.30031->2605.04700": {
+  "type": "background",
+  "evidence": "surveys audio jailbreak attack methods"
+ },
+ "2605.30031->2605.18168": {
+  "type": "background",
+  "evidence": "surveys audio jailbreak attack variants"
+ },
+ "2605.30049->2605.10180": {
+  "type": "background",
+  "evidence": "cites DiT safety intervention related work"
+ },
+ "2605.31183->2605.29358": {
+  "type": "baseline",
+  "evidence": "compares SAEs against simple steering baselines"
+ },
+ "2605.31304->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAEs for disentangling polysemanticity"
+ },
+ "2605.31518->2605.29358": {
+  "type": "rebuts",
+  "evidence": "feature-revival techniques remain ineffective on death"
+ },
+ "2606.01479->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to TTS emotion control"
+ },
+ "2606.02385->2605.29358": {
+  "type": "extends",
+  "evidence": "develops theory of Templeton's SAE formulation"
+ },
+ "2606.03002->2605.29358": {
+  "type": "extends",
+  "evidence": "analyzes quantization effects on SAE features"
+ },
+ "2606.04160->2605.29358": {
+  "type": "background",
+  "evidence": "cited as frontier LLM developer"
+ },
+ "2606.04284->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAE sparsity for interpretable units"
+ },
+ "2606.05566->2605.23196": {
+  "type": "rebuts",
+  "evidence": "reports guardrail detection collapse and bypass"
+ },
+ "2606.06315->2605.29358": {
+  "type": "extends",
+  "evidence": "proposes interpreting steered features via SAEs"
+ },
+ "2606.06387->2604.01905": {
+  "type": "background",
+  "evidence": "cites tool-attribute steering as related risk"
+ },
+ "2606.06784->2511.14045": {
+  "type": "background",
+  "evidence": "reference-list-only, privacy leakage background"
+ },
+ "2606.07007->2605.29358": {
+  "type": "extends",
+  "evidence": "theorizes SAE concept learning and polysemanticity"
+ },
+ "2606.07943->2603.17368": {
+  "type": "background",
+  "evidence": "reference-list-only, reasoning-model safety background"
+ },
+ "2606.09850->2605.29358": {
+  "type": "background",
+  "evidence": "LLM scaling and interpretability background"
+ },
+ "2606.10062->2604.16548": {
+  "type": "background",
+  "evidence": "reference-list-only, agent memory background"
+ },
+ "2606.10080->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to decompose activations"
+ },
+ "2606.10481->2606.09401": {
+  "type": "extends",
+  "evidence": "benchmarks canaries following their LoRA methodology"
+ },
+ "2606.10989->2605.01735": {
+  "type": "background",
+  "evidence": "reference-list-only, unlearning related work"
+ },
+ "2606.11425->2605.01687": {
+  "type": "background",
+  "evidence": "reference-list-only, jailbreak benchmark background"
+ },
+ "2606.11722->2605.29358": {
+  "type": "compares",
+  "evidence": "contrasts SAE costs with training-free method"
+ },
+ "2606.12360->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to characterize data concepts"
+ },
+ "2606.12629->2605.29358": {
+  "type": "compares",
+  "evidence": "contrasts SAE learned rotations with training-free approach"
+ },
+ "2606.15092->2605.29358": {
+  "type": "background",
+  "evidence": "SAE steering context, uses alternative method"
+ },
+ "2606.15165->2601.18110": {
+  "type": "background",
+  "evidence": "reference-list-only, MIA related work"
+ },
+ "2606.16193->2605.29358": {
+  "type": "extends",
+  "evidence": "builds cascaded SAEs on multimodal LLMs"
+ },
+ "2606.18322->2605.29358": {
+  "type": "rebuts",
+  "evidence": "reports SAE interventions unreliable, behavior recovers"
+ },
+ "2606.18389->2605.23036": {
+  "type": "background",
+  "evidence": "reference-list-only, activation steering background"
+ },
+ "2606.19831->2605.08513": {
+  "type": "extends",
+  "evidence": "builds on single-neuron refusal-gating findings"
+ },
+ "2606.19831->2605.12290": {
+  "type": "extends",
+  "evidence": "builds on targeted neuron modulation work"
+ },
+ "2606.19946->2606.06735": {
+  "type": "extends",
+  "evidence": "builds on angle-norm steering geometry"
+ },
+ "2606.20347->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to extract interpretable features"
+ },
+ "2606.20408->2605.01687": {
+  "type": "background",
+  "evidence": "appears only in reference list"
+ },
+ "2606.22673->2605.12671": {
+  "type": "extends",
+  "evidence": "builds on circuit and functional-anisotropy analysis"
+ },
+ "2606.24026->2605.01555": {
+  "type": "compares",
+  "evidence": "contrasts feature-focus with their circuit explanation"
+ },
+ "2606.24322->2604.16548": {
+  "type": "background",
+  "evidence": "reference-list-only, memory security survey"
+ },
+ "2606.24322->2605.29960": {
+  "type": "background",
+  "evidence": "reference-list-only, memory trojan attack"
+ },
+ "2606.24388->2605.01687": {
+  "type": "compares",
+  "evidence": "contrasts MultiBreak multi-turn focus complementarily"
+ },
+ "2606.24408->2606.09401": {
+  "type": "background",
+  "evidence": "privacy audit related work background"
+ },
+ "2606.24496->2605.17634": {
+  "type": "background",
+  "evidence": "cites prompt-injection risk as background"
+ },
+ "2606.24716->2605.29358": {
+  "type": "extends",
+  "evidence": "evaluates SAE interpretability via annotations"
+ },
+ "2606.25182->2602.11495": {
+  "type": "background",
+  "evidence": "jailbreak detection background context"
+ },
+ "2606.25657->2605.29358": {
+  "type": "extends",
+  "evidence": "uses large SAE dictionaries for VLMs"
+ },
+ "2606.26396->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to disentangle transformer concepts"
+ },
+ "2606.26474->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to decompose model activations"
+ },
+ "2606.26620->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on effectiveness of scaled SAEs"
+ },
+ "2606.26627->2605.26269": {
+  "type": "background",
+  "evidence": "cites agent privacy benchmark as related work"
+ },
+ "2606.26627->2606.10749": {
+  "type": "background",
+  "evidence": "cites secure-agent survey as related work"
+ },
+ "2606.30566->2606.04329": {
+  "type": "background",
+  "evidence": "reference-list-only, memory poisoning study"
+ },
+ "2606.30566->2606.04425": {
+  "type": "background",
+  "evidence": "reference-list-only, stored prompt injection"
+ },
+ "2606.31208->2606.09401": {
+  "type": "background",
+  "evidence": "privacy protection benchmark background context"
+ },
+ "2606.31394->2605.29358": {
+  "type": "extends",
+  "evidence": "trains SAEs to resolve superposition"
+ },
+ "2607.00481->2605.05058": {
+  "type": "background",
+  "evidence": "SMT(jailbreak attack)가 재현·비교 맥락에서 SoK(LLM 탈옥 강건성 서베이)의 JailbreakBench 범주/ASR 프레임을 배경으로 인용"
+ }
 }

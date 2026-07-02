@@ -9312,6 +9312,184 @@
     "privacy",
     "foundation model"
    ]
+  },
+  "2607.01033": {
+   "version": "v1",
+   "title": "The Model Organism Lottery: Model Organism Interpretability Strongly Depends on Training Methodology",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "mechanistic interpretability",
+    "model organisms",
+    "sparse autoencoder",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method",
+    "sae"
+   ]
+  },
+  "2607.00422": {
+   "version": "v1",
+   "title": "KidnapRAG: A Black-Box Attack for Hijacking Reasoning in Agentic Retrieval-Augmented Generation Systems",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "agentic RAG",
+    "poisoning attack",
+    "black-box attack",
+    "reasoning hijack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2607.00481": {
+   "version": "v1",
+   "title": "Beyond the Prompt: Jailbreaking Function-Calling LLMs via Simulated Moderation Traces",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "jailbreak",
+    "function calling",
+    "tool use",
+    "multi-turn attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "agent_safety"
+   ]
+  },
+  "2607.00572": {
+   "version": "v1",
+   "title": "HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "refusal direction",
+    "harmfulness direction",
+    "residual stream",
+    "safety alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2607.00876": {
+   "version": "v1",
+   "title": "The Binary Tree Mechanism is Optimal for Approximate Differentially Private Continual Counting",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "differential privacy",
+    "continual counting",
+    "binary tree mechanism",
+    "lower bound"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2606.30783": {
+   "version": "v1",
+   "title": "Security--Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "indirect prompt injection",
+    "defense",
+    "fidelity",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2607.00361": {
+   "version": "v1",
+   "title": "ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision-Language Models",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "backdoor attack",
+    "vision-language models",
+    "chain-of-thought",
+    "trigger"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "multimodal_attack"
+   ]
+  },
+  "2606.30899": {
+   "version": "v1",
+   "title": "Curvature-Guided Module Localization for Low-Rank Detoxification of Backdoored Large Language Models",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "activation patching",
+    "module localization",
+    "backdoor detoxification",
+    "low-rank repair"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "mechanistic_position"
+   ]
+  },
+  "2606.31066": {
+   "version": "v1",
+   "title": "Secure-CHG: A Comprehensive Framework for Robust and Fair Federated Learning via Hybrid Defense and Contribution-Aware Trust",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "federated learning",
+    "backdoor defense",
+    "Shapley",
+    "trust aggregation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.00693": {
+   "version": "v1",
+   "title": "The Rise and Fall of Google's Privacy Sandbox",
+   "first_seen": "2026-07-03",
+   "last_updated": "2026-07-03",
+   "folder": "2026-07-03",
+   "keywords": [
+    "web privacy",
+    "cross-site tracking",
+    "advertising",
+    "measurement study"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {

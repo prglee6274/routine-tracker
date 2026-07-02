@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-07-01 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search and direct HTML fetches.
+
+Key searches and checks this run:
+- **USENIX Security 2025** (34th, 438 papers, held Aug 13–15 Seattle): Grepped the full sched.com schedule — **zero hits** for Electron/nodeIntegration/contextBridge/preload/renderer-process/IPC/Node.js-vuln/XSS-RCE keywords. No Electron papers at USENIX Sec '25.
+- **USENIX Security 2026 Cycle 1**: Re-grepped the full accepted-papers HTML (123 KB) — sole "hybrid" false positive is still the MPC/LLM paper (SMASH); no Electron content. Cycle 2 papers still not released (notification Jul 9, 2026; Baltimore symposium Aug 12–14, 2026).
+- **IEEE S&P 2026** (135 papers): Fetched the accepted-papers HTML (68 KB) and grepped with strict Electron-specific regex — **zero hits**. `sp2026-gasket` ("Best of Both Worlds: V8 Embedders") remains the only S&P 2026 entry in the ledger.
+- **NDSS 2026** (265 papers): Re-grepped saved HTML — only `Bullseye` (already in ledger) hit; no new papers.
+- **ACM CCS 2025**: JS-rendered page; targeted web searches found only `NodeShield` (already in ledger); no new Electron papers.
+- **ACSAC 2025** (Dec 2025, Honolulu): Searched directly — no Electron/Node.js desktop-app vulnerability papers found.
+- **RAID 2025** (Oct 2025, Gold Coast): Fetched full accepted-papers list — no Electron/Node.js/IPC papers. Closest candidate `{{alert('CSTI')}}: Large-Scale Detection of Client-Side Template Injection` is web-focused (no desktop/Electron angle), not added.
+- **ESORICS 2025** (Sept 2025, Toulouse, 100 papers): Fetched full accepted-papers list — no Electron/Node.js/desktop-hybrid papers.
+- **AsiaCCS 2026 Cycle 1 & 2**: Fetched both lists — only `Original Sin of npm` (already excluded) present; no new Electron papers.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. Upcoming release checkpoints: USENIX Sec '26 Cycle 2 (Jul 9, 2026); CCS '26 (author notifications ~Jul 17, 2026); RAID '26 (notification Jul 10, Lancaster).
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**.
+
+---
+
 ## 2026-06-23 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
