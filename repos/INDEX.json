@@ -684,8 +684,8 @@
     },
     "promptfoo/promptfoo": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-07-03",
-      "days_on_list": 2,
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
       "last_stars": 21300,
       "last_pushed_at": "",
       "category": "security",
@@ -835,8 +835,8 @@
     },
     "luckyPipewrench/pipelock": {
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-03",
-      "days_on_list": 2,
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
       "last_stars": 577,
       "category": "security",
       "language": "Go",
@@ -945,9 +945,9 @@
     },
     "samugit83/redamon": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-06-09",
+      "last_seen": "2026-07-04",
       "days_on_list": 1,
-      "last_stars": 1900,
+      "last_stars": 2000,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -1124,8 +1124,8 @@
     },
     "github/github-mcp-server": {
       "first_seen": "2026-06-16",
-      "last_seen": "2026-07-03",
-      "days_on_list": 2,
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
       "last_stars": 28400,
       "category": "tools",
       "language": "Go",
@@ -1244,8 +1244,8 @@
     },
     "earendil-works/pi": {
       "first_seen": "2026-06-04",
-      "last_seen": "2026-06-27",
-      "days_on_list": 4,
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
       "last_stars": 65700,
       "last_pushed_at": "2026-06-23",
       "category": "llm",
@@ -1294,8 +1294,8 @@
     },
     "zilliztech/claude-context": {
       "first_seen": "2026-06-27",
-      "last_seen": "2026-07-03",
-      "days_on_list": 1,
+      "last_seen": "2026-07-04",
+      "days_on_list": 2,
       "last_stars": 8800,
       "category": "tools",
       "language": "TypeScript",
@@ -1322,8 +1322,8 @@
     },
     "topoteretes/cognee": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-03",
-      "days_on_list": 1,
+      "last_seen": "2026-07-04",
+      "days_on_list": 2,
       "last_stars": 25000,
       "category": "llm",
       "language": "Python",
@@ -1342,8 +1342,8 @@
     },
     "bytedance/deer-flow": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-03",
-      "days_on_list": 2,
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
       "last_stars": 75900,
       "category": "llm",
       "language": "Python",
@@ -1499,7 +1499,23 @@
       "language": "Python",
       "graduated": false,
       "last_pushed_at": "2026-07-01"
+    },
+    "anomalyco/opentui": {
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
+      "last_stars": 12300,
+      "category": "tools",
+      "language": "TypeScript"
+    },
+    "vibrantlabsai/ragas": {
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
+      "last_stars": 14600,
+      "category": "llm",
+      "language": "Python"
     }
   },
-  "last_updated": "2026-07-03"
+  "last_updated": "2026-07-04"
 }
