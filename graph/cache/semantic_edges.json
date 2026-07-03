@@ -350,5 +350,13 @@
  "2607.00481->2605.05058": {
   "type": "background",
   "evidence": "SMT(jailbreak attack)가 재현·비교 맥락에서 SoK(LLM 탈옥 강건성 서베이)의 JailbreakBench 범주/ASR 프레임을 배경으로 인용"
+ },
+ "2607.01793->2605.29801": {
+  "type": "background",
+  "evidence": "참고문헌 [50]에서 AI 에이전트 안전/보안 정렬 프레임워크(AgentDoG 1.5)를 관련 선행 연구로 나열 인용."
+ },
+ "2607.01799->2605.29358": {
+  "type": "background",
+  "evidence": "SAE의 기반 문헌(Bricken/Gao/Templeton 등)을 묶어 인용한 도입부 배경 — Scaling Monosemanticity를 SAE 패러다임의 토대로 언급."
  }
 }

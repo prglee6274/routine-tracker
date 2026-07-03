@@ -9490,6 +9490,193 @@
    "subtopics": [
     "pii_leakage"
    ]
+  },
+  "2607.02513": {
+   "version": "v1",
+   "title": "LACUNA: A Testbed for Evaluating Localization Precision for LLM Unlearning",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "machine unlearning",
+    "PII",
+    "localization",
+    "resurfacing attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ]
+  },
+  "2607.01940": {
+   "version": "v1",
+   "title": "Conditional Co-Ablation: Recovering Self-Repair Backups in Transformer Circuits",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "mechanistic interpretability",
+    "circuits",
+    "self-repair",
+    "ablation",
+    "structured pruning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2607.02072": {
+   "version": "v1",
+   "title": "kNNGuard: Turning LLM Hidden Activations into a Training-Free Configurable Guardrail",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "guardrail",
+    "hidden activations",
+    "kNN",
+    "jailbreak",
+    "training-free"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "jailbreak"
+   ]
+  },
+  "2607.01799": {
+   "version": "v1",
+   "title": "Expander Sparse Autoencoders: Parameter-Efficient Dictionaries for Mechanistic Interpretability",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "sparse autoencoder",
+    "dictionary learning",
+    "mechanistic interpretability",
+    "compressed sensing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2607.01492": {
+   "version": "v1",
+   "title": "Unveiling the Non-Monotonic Effect of Privacy on Generalization under Byzantine Robustness",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "differential privacy",
+    "Byzantine robustness",
+    "generalization",
+    "local DP",
+    "algorithmic stability"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "federated_privacy"
+   ]
+  },
+  "2607.02079": {
+   "version": "v1",
+   "title": "HaloGuard 1.0: An Open Weights Constitutional Classifier for Multilingual AI Safety",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "constitutional classifier",
+    "guardrail",
+    "multilingual safety",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2607.02396": {
+   "version": "v1",
+   "title": "Fast Multi-dimensional Refusal Subspaces via RFM-AGOP",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "refusal subspace",
+    "activation steering",
+    "representation engineering",
+    "RFM",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "activation_steering"
+   ]
+  },
+  "2607.01793": {
+   "version": "v1",
+   "title": "Safety Testing LLM Agents at Scale: From Risk Discovery to Evidence-Grounded Verification",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "agent safety",
+    "red-teaming",
+    "safety testing",
+    "tool use"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2607.01859": {
+   "version": "v1",
+   "title": "Safety Targeted Embedding Exploit via Refinement",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "jailbreak",
+    "multilingual",
+    "code-switching",
+    "embedding attack",
+    "adversarial"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "adversarial"
+   ]
+  },
+  "2607.02426": {
+   "version": "v1",
+   "title": "QFedAgent: Quantum-Enhanced Personalized Federated Learning for Multi-Agent Activity Recognition",
+   "first_seen": "2026-07-04",
+   "last_updated": "2026-07-04",
+   "folder": "2026-07-04",
+   "keywords": [
+    "federated learning",
+    "privacy",
+    "quantum",
+    "multi-agent",
+    "non-IID"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "agent_privacy"
+   ]
   }
  },
  "_taxonomy": {
