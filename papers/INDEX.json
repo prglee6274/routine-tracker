@@ -9677,6 +9677,199 @@
     "federated_privacy",
     "agent_privacy"
    ]
+  },
+  "2607.01802": {
+   "version": "v1",
+   "title": "On the Limits of Steering Vectors for Preference-Aligned Generation",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "activation steering",
+    "steering vectors",
+    "controlled generation",
+    "preference alignment",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.02121": {
+   "version": "v1",
+   "title": "Behind the Refusal: Determining Guardrail Activation via Behavioral Monitoring",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "guardrail",
+    "black-box reconnaissance",
+    "LLM security",
+    "behavioral monitoring",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2607.02047": {
+   "version": "v1",
+   "title": "OpenSafeIntent: Evaluating Intent-Calibrated Safe Completion Across Dual-Use Prompt Sets",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "safe completion",
+    "dual-use",
+    "safety benchmark",
+    "intent calibration",
+    "jailbreak"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2607.01239": {
+   "version": "v1",
+   "title": "Breaking Safety at the Token Boundary: How BPE Tokenization Creates Exploitable Gaps in LLM Alignment",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "jailbreak",
+    "BPE tokenization",
+    "safety alignment",
+    "activation patching",
+    "adversarial perturbation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment_robustness",
+    "defense_mechanism"
+   ]
+  },
+  "2606.30081": {
+   "version": "v1",
+   "title": "Discard the Dross and Select the Essential: Pre-query Sample Selection for Black-box Membership Inference Attacks",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "membership inference",
+    "black-box attack",
+    "query efficiency",
+    "sample selection",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
+  },
+  "2607.02510": {
+   "version": "v1",
+   "title": "Online Safety Monitoring for LLMs",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "safety monitoring",
+    "risk control",
+    "verifier",
+    "deployment safety",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2607.02140": {
+   "version": "v1",
+   "title": "Probing Chemical Language Models: Effects of Pre-training and Fine-tuning",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "probing",
+    "chemical language model",
+    "SMILES",
+    "representation analysis",
+    "fine-tuning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2606.31309": {
+   "version": "v1",
+   "title": "CSO-LLM: Class Subspace Orthogonalization for Post-Training Backdoor Detection and Trigger Inversion in LLMs",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "backdoor detection",
+    "trigger inversion",
+    "LLM classifier",
+    "class subspace orthogonalization",
+    "post-training defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2607.01235": {
+   "version": "v1",
+   "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "interpretability tool",
+    "token-level explainability",
+    "code generation",
+    "attention",
+    "uncertainty"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "interp_method"
+   ]
+  },
+  "2607.01366": {
+   "version": "v1",
+   "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+   "first_seen": "2026-07-05",
+   "last_updated": "2026-07-05",
+   "folder": "2026-07-05",
+   "keywords": [
+    "federated learning",
+    "agentic search",
+    "algorithm search",
+    "coding agent",
+    "FL benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {

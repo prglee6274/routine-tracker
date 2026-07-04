@@ -358,5 +358,13 @@
  "2607.01799->2605.29358": {
   "type": "background",
   "evidence": "SAE의 기반 문헌(Bricken/Gao/Templeton 등)을 묶어 인용한 도입부 배경 — Scaling Monosemanticity를 SAE 패러다임의 토대로 언급."
+ },
+ "2607.02121->2605.23196": {
+  "type": "background",
+  "evidence": "cites Prompt Overflow within a list of prior guardrail systems as related work"
+ },
+ "2607.02510->2605.06605": {
+  "type": "background",
+  "evidence": "references multi-turn jailbreak budget-allocation evaluation as related monitoring/efficiency context"
  }
 }
