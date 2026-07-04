@@ -684,13 +684,13 @@
     },
     "promptfoo/promptfoo": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-07-04",
-      "days_on_list": 3,
+      "last_seen": "2026-07-05",
+      "days_on_list": 4,
       "last_stars": 21300,
       "last_pushed_at": "",
       "category": "security",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "snyk/agent-scan": {
       "first_seen": "2026-05-25",
@@ -704,7 +704,7 @@
     },
     "confident-ai/deepteam": {
       "first_seen": "2026-05-25",
-      "last_seen": "2026-07-03",
+      "last_seen": "2026-07-05",
       "days_on_list": 1,
       "last_stars": 1800,
       "category": "security",
@@ -1322,9 +1322,9 @@
     },
     "topoteretes/cognee": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-04",
-      "days_on_list": 2,
-      "last_stars": 25000,
+      "last_seen": "2026-07-05",
+      "days_on_list": 3,
+      "last_stars": 26600,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -1352,9 +1352,9 @@
     },
     "google-labs-code/design.md": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-06-30",
-      "days_on_list": 2,
-      "last_stars": 23553,
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 15800,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -1382,9 +1382,9 @@
     },
     "mukul975/Anthropic-Cybersecurity-Skills": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-06-29",
+      "last_seen": "2026-07-05",
       "days_on_list": 1,
-      "last_stars": 22682,
+      "last_stars": 9600,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -1472,9 +1472,9 @@
     },
     "diegosouzapw/OmniRoute": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-01",
+      "last_seen": "2026-07-05",
       "days_on_list": 1,
-      "last_stars": 8100,
+      "last_stars": 4500,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -1492,9 +1492,9 @@
     },
     "Panniantong/Agent-Reach": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-03",
-      "days_on_list": 3,
-      "last_stars": 43700,
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 20900,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -1515,7 +1515,36 @@
       "last_stars": 14600,
       "category": "llm",
       "language": "Python"
+    },
+    "ogulcancelik/herdr": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 10000,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-24"
+    },
+    "alibaba/page-agent": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 18700,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-15"
+    },
+    "lfnovo/open-notebook": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 33900,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
     }
   },
-  "last_updated": "2026-07-04"
+  "last_updated": "2026-07-05"
 }
