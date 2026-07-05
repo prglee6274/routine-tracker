@@ -9387,10 +9387,10 @@
    ]
   },
   "2607.00876": {
-   "version": "v1",
+   "version": "v2",
    "title": "The Binary Tree Mechanism is Optimal for Approximate Differentially Private Continual Counting",
    "first_seen": "2026-07-03",
-   "last_updated": "2026-07-03",
+   "last_updated": "2026-07-06",
    "folder": "2026-07-03",
    "keywords": [
     "differential privacy",
@@ -9870,6 +9870,165 @@
    "subtopics": [
     "federated_privacy"
    ]
+  },
+  "2607.02514": {
+   "version": "v1",
+   "title": "Distributed Attacks in Persistent-State AI Control",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "prompt injection",
+    "AI control",
+    "LLM agent",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2607.02357": {
+   "version": "v1",
+   "title": "Cloak and Detonate: Scanner Evasion and Dynamic Detection of Agent Skill Malware",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "agent safety",
+    "supply chain attack",
+    "LLM coding agent",
+    "backdoor"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2607.01420": {
+   "version": "v1",
+   "title": "MultAttnAttrib: Training-Free Multimodal Attribution in Long Document Question Answering",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "feature attribution",
+    "multimodal",
+    "grounded QA",
+    "model safety"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution"
+   ]
+  },
+  "2607.01277": {
+   "version": "v1",
+   "title": "Cognitive Firewall: A Proactive, Zero-Trust, Multi-Gate Framework for LLM Safety",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "jailbreak",
+    "LLM safety",
+    "guardrail",
+    "multi-turn attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism"
+   ]
+  },
+  "2607.01276": {
+   "version": "v1",
+   "title": "Embedding Inference Attack",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "embedding inversion",
+    "embedding inference",
+    "black-box attack",
+    "information retrieval"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2607.01518": {
+   "version": "v1",
+   "title": "Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "adversarial attack",
+    "LVLM",
+    "denial-of-service",
+    "robotic systems"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "agent_safety"
+   ]
+  },
+  "2607.00333": {
+   "version": "v1",
+   "title": "(A)I Sees What You Don't: Exploiting New Attack Surfaces in Third-Party Mobile Agents",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "VLM",
+    "mobile agent",
+    "attack surface",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "multimodal_attack"
+   ]
+  },
+  "2607.01679": {
+   "version": "v1",
+   "title": "Beyond Gradient-Based Attacks: Adversarial Robustness and Explainability Stability in Cybersecurity Classifiers",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "adversarial robustness",
+    "feature attribution",
+    "SHAP",
+    "explainability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution"
+   ]
+  },
+  "2607.01773": {
+   "version": "v1",
+   "title": "Verifiable Knowledge Expansion through Retrieval-Grounded Formal Concept Analysis",
+   "first_seen": "2026-07-06",
+   "last_updated": "2026-07-06",
+   "folder": "2026-07-06",
+   "keywords": [
+    "interpretability",
+    "formal concept analysis",
+    "small language model",
+    "knowledge verification"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method"
+   ]
   }
  },
  "_taxonomy": {
@@ -9912,5 +10071,5 @@
    ]
   }
  },
- "last_run": "2026-07-02"
+ "last_run": "2026-07-06"
 }

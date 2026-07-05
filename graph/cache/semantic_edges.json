@@ -366,5 +366,13 @@
  "2607.02510->2605.06605": {
   "type": "background",
   "evidence": "references multi-turn jailbreak budget-allocation evaluation as related monitoring/efficiency context"
+ },
+ "2607.02357->2606.07131": {
+  "type": "background",
+  "evidence": "참고문헌에서 악성 에이전트 스킬 런타임 검증 벤치마크(MalSkillBench)를 관련 선행 연구로 인용 — 직접 비교/확장 문장 근거는 없음."
+ },
+ "2607.02357->2606.19191": {
+  "type": "background",
+  "evidence": "에이전트 스킬 생태계 악성 코드 주입 공격(PhantomSkill)을 관련 공격 선행 연구로 참고문헌 인용 — in-text 직접 비교 근거 없음."
  }
 }
