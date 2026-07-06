@@ -10029,6 +10029,190 @@
    "subtopics": [
     "interp_method"
    ]
+  },
+  "2607.00174": {
+   "version": "v1",
+   "title": "Steal the Patch Size: Adversarially Manipulate Vision-Language Models",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "model stealing",
+    "side-channel attack",
+    "vision-language model",
+    "patch size"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "multimodal_attack"
+   ]
+  },
+  "2607.01686": {
+   "version": "v1",
+   "title": "WARP: Weight-Space Analysis for Recovering Training Data Portfolios",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "training data extraction",
+    "data mixture recovery",
+    "weight-space analysis",
+    "foundation model"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ]
+  },
+  "2607.00089": {
+   "version": "v1",
+   "title": "Representation as a Bottleneck for Mechanistic Interpretability: The Manifestation Unit Protocol",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "mechanistic interpretability",
+    "representation",
+    "interpretability protocol",
+    "transformer"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2607.00576": {
+   "version": "v1",
+   "title": "Safe Alone, Unsafe Together: Safeguarding Against Implicit Toxicity When Benign Images Combine",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "multimodal safety",
+    "implicit toxicity",
+    "content moderation",
+    "vision-language model"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2607.00023": {
+   "version": "v1",
+   "title": "Aligning Sentence Embeddings to Human Concepts via Sparse Autoencoders",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "sparse autoencoder",
+    "sentence embeddings",
+    "concept disentanglement",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2606.27379": {
+   "version": "v1",
+   "title": "Position: The Term \"Machine Unlearning\" Is Overused in LLMs",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "machine unlearning",
+    "position paper",
+    "data deletion",
+    "LLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.01153": {
+   "version": "v1",
+   "title": "Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded Commands, and Policy Ambiguity",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "safety evaluation",
+    "benchmark",
+    "instruction conflict",
+    "embedded commands"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2606.30609": {
+   "version": "v1",
+   "title": "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "sparse autoencoder",
+    "feature splitting",
+    "feature absorption",
+    "consistency regularization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2606.29567": {
+   "version": "v1",
+   "title": "SurrogateShield: Beyond Redaction for High-Utility, Privacy-Preserving LLM Interactions",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "PII",
+    "privacy-preserving",
+    "surrogate substitution",
+    "LLM proxy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2606.28649": {
+   "version": "v1",
+   "title": "RIPA: Sensory-Vector Prompt Injection Attacks on LLM-Controlled ROS 2 Robots",
+   "first_seen": "2026-07-07",
+   "last_updated": "2026-07-07",
+   "folder": "2026-07-07",
+   "keywords": [
+    "prompt injection",
+    "LLM robot",
+    "ROS 2",
+    "embodied agent"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "multimodal_attack"
+   ]
   }
  },
  "_taxonomy": {
