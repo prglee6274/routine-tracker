@@ -374,5 +374,13 @@
  "2607.02357->2606.19191": {
   "type": "background",
   "evidence": "에이전트 스킬 생태계 악성 코드 주입 공격(PhantomSkill)을 관련 공격 선행 연구로 참고문헌 인용 — in-text 직접 비교 근거 없음."
+ },
+ "2607.04525->2607.04523": {
+  "type": "extends",
+  "evidence": "Same-group companion work: the concept-geometry paper builds on the prior study of whether core conceptual distinctions can be learned from language statistics, extending it from a single distinction to a general point-cloud/vector-field account of concept representation and contextual transformation."
+ },
+ "2607.05355->2605.08513": {
+  "type": "extends",
+  "evidence": "Cited as prior evidence that individual neurons causally control safety behavior (\"a single neuron is sufficient to bypass safety alignment\"); this work extends that into a systematic causal audit of neuron-row selectors, showing attributed rows are sufficient to install refusal on hate/crime."
  }
 }
