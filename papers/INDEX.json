@@ -10383,6 +10383,194 @@
     "unlearning",
     "pii_leakage"
    ]
+  },
+  "2607.05120": {
+   "version": "v1",
+   "title": "Agent Data Injection Attacks are Realistic Threats to AI Agents",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "prompt injection",
+    "indirect prompt injection",
+    "agent safety",
+    "data injection",
+    "LLM agent"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2607.05790": {
+   "version": "v1",
+   "title": "Controlling Tool Use with Heading-Specific Activation Steering",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "activation steering",
+    "steering vector",
+    "tool use",
+    "representation geometry",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.05898": {
+   "version": "v1",
+   "title": "Auditing of Unlearning Algorithms",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "machine unlearning",
+    "membership inference",
+    "auditing",
+    "differential privacy",
+    "epsilon lower bound"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "membership_inference"
+   ]
+  },
+  "2607.06320": {
+   "version": "v1",
+   "title": "Dithered Gaussian Mechanism for Randomness-Efficient Differential Privacy",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "differential privacy",
+    "Gaussian mechanism",
+    "floating-point vulnerability",
+    "randomness efficiency",
+    "DP-SGD"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.06432": {
+   "version": "v1",
+   "title": "TILDE: TILt-based Distributional Erasure for Concept Unlearning",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "concept unlearning",
+    "diffusion models",
+    "distributional alignment",
+    "GFlowNet",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2607.06326": {
+   "version": "v1",
+   "title": "DT-Guard: Intent-Driven Reasoning-Active Training for Reasoning-Free LLM Safety Guardrail",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "safety guardrail",
+    "content moderation",
+    "LLM safety",
+    "reasoning distillation",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2607.06503": {
+   "version": "v1",
+   "title": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "probing",
+    "hidden activations",
+    "LLM agent",
+    "failure prediction",
+    "inference efficiency"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2607.05748": {
+   "version": "v1",
+   "title": "Two Sides of the Same Coin: Learning the Backdoor to Remove the Backdoor",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "backdoor defense",
+    "data poisoning",
+    "anti-backdoor learning",
+    "reference model"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2607.05866": {
+   "version": "v1",
+   "title": "Differentially Private Natural Gradient Descent",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "natural gradient",
+    "second-order optimization",
+    "privacy-utility tradeoff"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.05554": {
+   "version": "v1",
+   "title": "Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation",
+   "first_seen": "2026-07-09",
+   "last_updated": "2026-07-09",
+   "folder": "2026-07-09",
+   "keywords": [
+    "prompt robustness",
+    "LLM evaluation",
+    "adversarial robustness",
+    "value probing",
+    "safety eval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "adversarial"
+   ]
   }
  },
  "_taxonomy": {
@@ -10425,5 +10613,5 @@
    ]
   }
  },
- "last_run": "2026-07-08"
+ "last_run": "2026-07-09"
 }
