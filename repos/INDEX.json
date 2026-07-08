@@ -1472,9 +1472,9 @@
     },
     "diegosouzapw/OmniRoute": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-08",
-      "days_on_list": 1,
-      "last_stars": 13055,
+      "last_seen": "2026-07-09",
+      "days_on_list": 2,
+      "last_stars": 13647,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
@@ -1547,12 +1547,12 @@
     },
     "openai/codex-plugin-cc": {
       "first_seen": "2026-07-06",
-      "last_seen": "2026-07-08",
-      "days_on_list": 3,
-      "last_stars": 26577,
+      "last_seen": "2026-07-09",
+      "days_on_list": 4,
+      "last_stars": 26859,
       "category": "tools",
       "language": "JavaScript",
-      "graduated": false,
+      "graduated": true,
       "last_pushed_at": "2026-06-23"
     },
     "browser-use/video-use": {
@@ -1587,9 +1587,9 @@
     },
     "Zackriya-Solutions/meetily": {
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-08",
-      "days_on_list": 2,
-      "last_stars": 20473,
+      "last_seen": "2026-07-09",
+      "days_on_list": 3,
+      "last_stars": 21539,
       "category": "llm",
       "language": "Rust",
       "graduated": false,
@@ -1597,9 +1597,9 @@
     },
     "asgeirtj/system_prompts_leaks": {
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-08",
-      "days_on_list": 2,
-      "last_stars": 52762,
+      "last_seen": "2026-07-09",
+      "days_on_list": 3,
+      "last_stars": 53973,
       "category": "security",
       "language": "JavaScript",
       "graduated": false,
@@ -1627,9 +1627,9 @@
     },
     "alibaba/zvec": {
       "first_seen": "2026-07-07",
-      "last_seen": "2026-07-07",
+      "last_seen": "2026-07-09",
       "days_on_list": 1,
-      "last_stars": 13348,
+      "last_stars": 14325,
       "category": "llm",
       "language": "C++",
       "graduated": false,
@@ -1653,7 +1653,52 @@
       "category": "tools",
       "language": "C#",
       "graduated": false
+    },
+    "TencentCloud/CubeSandbox": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 8852,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false
+    },
+    "vxcontrol/pentagi": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 18725,
+      "category": "security",
+      "language": "Go",
+      "graduated": false
+    },
+    "iOfficeAI/OfficeCLI": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 11526,
+      "category": "tools",
+      "language": "C#",
+      "graduated": false
+    },
+    "bradautomates/claude-video": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 5918,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 7541,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
     }
   },
-  "last_updated": "2026-07-07"
+  "last_updated": "2026-07-09"
 }
