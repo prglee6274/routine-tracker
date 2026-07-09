@@ -386,5 +386,21 @@
  "2607.05120->2605.28999": {
   "type": "compares",
   "evidence": "Distinguishes its ADI category from concurrent work by Zhang et al. that also calls its attack \"data injection\" (visually concealed resume content), noting the injected content is processed differently than in ADI."
+ },
+ "2607.07316->2602.11180": {
+  "type": "background",
+  "evidence": "cites companion mechanistic-interpretability-for-alignment survey as related field overview"
+ },
+ "2607.07316->2603.19183": {
+  "type": "background",
+  "evidence": "cites SAE-in-VLA work as example of sparse-autoencoder feature extraction and steering"
+ },
+ "2607.07316->2605.29358": {
+  "type": "background",
+  "evidence": "reports Templeton et al. Scaling Monosemanticity finding that higher monosemanticity need not reduce performance"
+ },
+ "2607.07433->2607.02357": {
+  "type": "background",
+  "evidence": "reference-list citation to related agent-skill-malware detection work"
  }
 }

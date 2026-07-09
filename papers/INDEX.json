@@ -10571,6 +10571,203 @@
     "safety_eval",
     "adversarial"
    ]
+  },
+  "2607.07368": {
+   "version": "v1",
+   "title": "Multi-Agent AI Control: Distributed Attacks Hamper Per-Instance Monitors",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "ai-control",
+    "multi-agent",
+    "distributed-attack",
+    "monitoring",
+    "agent-safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness",
+    "red_teaming"
+   ]
+  },
+  "2607.07316": {
+   "version": "v1",
+   "title": "Mechanistic Interpretability for Neural Networks: Circuits, Sparse Features and Symbolic Reasoning",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "mechanistic-interpretability",
+    "circuits",
+    "sparse-autoencoder",
+    "transformer",
+    "symbolic-reasoning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "circuits",
+    "sae"
+   ]
+  },
+  "2607.06815": {
+   "version": "v1",
+   "title": "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "behavioral-privacy",
+    "differential-privacy",
+    "inference-attack",
+    "negotiation-agent",
+    "agent-privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "differential_privacy",
+    "membership_inference"
+   ]
+  },
+  "2607.07433": {
+   "version": "v1",
+   "title": "Beware of Agentic Botnets: Scalable Untargeted Promptware Attacks via Universal and Transferable Adversarial HalluSquatting",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "promptware",
+    "prompt-injection",
+    "agentic-botnet",
+    "transferable-adversarial",
+    "hallusquatting"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "adversarial",
+    "agent_safety"
+   ]
+  },
+  "2607.07066": {
+   "version": "v1",
+   "title": "Multiplication Beyond Groups: Stratified Fourier Mechanisms in Transformer Circuits",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "mechanistic-interpretability",
+    "transformer-circuits",
+    "fourier",
+    "modular-multiplication",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position"
+   ]
+  },
+  "2607.07314": {
+   "version": "v1",
+   "title": "FedCVESA: Taking Away Training Data in Federated Learning via Correlation Value Encoding and Segmented Aggregation",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "federated-learning",
+    "training-data-extraction",
+    "memorization",
+    "data-leakage",
+    "privacy-attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "federated_privacy",
+    "membership_inference"
+   ]
+  },
+  "2607.06595": {
+   "version": "v1",
+   "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "memory-poisoning",
+    "llm-agent",
+    "backdoor",
+    "long-term-memory",
+    "agent-security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2607.06648": {
+   "version": "v1",
+   "title": "Final Checkpoints Are Not Enough: Analyzing Latent Reasoning Faithfulness Along Training Trajectories",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "latent-reasoning",
+    "faithfulness",
+    "probing",
+    "training-dynamics",
+    "interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2607.06612": {
+   "version": "v1",
+   "title": "PRoVeFL: Private Robust and Verifiable Aggregation in Federated Learning",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "federated-learning",
+    "secure-aggregation",
+    "differential-privacy",
+    "verifiable",
+    "byzantine-robust"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "differential_privacy"
+   ]
+  },
+  "2607.07184": {
+   "version": "v1",
+   "title": "Predicting LLM Safety Before Release by Simulating Deployment",
+   "first_seen": "2026-07-10",
+   "last_updated": "2026-07-10",
+   "folder": "2026-07-10",
+   "keywords": [
+    "safety-evaluation",
+    "deployment-simulation",
+    "red-teaming",
+    "pre-deployment",
+    "llm-safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "red_teaming",
+    "alignment_robustness"
+   ]
   }
  },
  "_taxonomy": {
@@ -10613,5 +10810,5 @@
    ]
   }
  },
- "last_run": "2026-07-09"
+ "last_run": "2026-07-10"
 }
