@@ -494,13 +494,13 @@
     },
     "NVIDIA/OpenShell": {
       "first_seen": "2026-05-16",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-05-16",
       "days_on_list": 1,
-      "last_stars": 7611,
-      "category": "security",
+      "last_stars": 5985,
+      "category": "llm",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-07-09"
+      "last_pushed_at": "2026-05-15T15:12:46Z"
     },
     "OpenCTI-Platform/opencti": {
       "first_seen": "2026-05-16",
@@ -1392,13 +1392,13 @@
     },
     "stablyai/orca": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-07",
       "days_on_list": 1,
-      "last_stars": 15860,
-      "category": "llm",
+      "last_stars": 12793,
+      "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-07-10"
+      "last_pushed_at": "2026-07-06"
     },
     "usestrix/strix": {
       "first_seen": "2026-06-29",
@@ -1472,13 +1472,13 @@
     },
     "diegosouzapw/OmniRoute": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-11",
-      "days_on_list": 4,
-      "last_stars": 14920,
+      "last_seen": "2026-07-10",
+      "days_on_list": 3,
+      "last_stars": 14216,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": true,
-      "last_pushed_at": "2026-07-07"
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
     },
     "deepseek-ai/DeepSpec": {
       "first_seen": "2026-07-01",
@@ -1656,43 +1656,39 @@
     },
     "TencentCloud/CubeSandbox": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 9562,
+      "last_seen": "2026-07-10",
+      "days_on_list": 2,
+      "last_stars": 9302,
       "category": "security",
       "language": "Rust",
-      "graduated": false,
-      "last_pushed_at": "2026-07-03"
+      "graduated": false
     },
     "vxcontrol/pentagi": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 19773,
+      "last_seen": "2026-07-10",
+      "days_on_list": 2,
+      "last_stars": 19271,
       "category": "security",
       "language": "Go",
-      "graduated": false,
-      "last_pushed_at": "2026-05-29"
+      "graduated": false
     },
     "iOfficeAI/OfficeCLI": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 14307,
+      "last_seen": "2026-07-10",
+      "days_on_list": 2,
+      "last_stars": 13240,
       "category": "tools",
       "language": "C#",
-      "graduated": false,
-      "last_pushed_at": "2026-07-10"
+      "graduated": false
     },
     "bradautomates/claude-video": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 7115,
+      "last_seen": "2026-07-10",
+      "days_on_list": 2,
+      "last_stars": 6569,
       "category": "tools",
       "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-07-01"
+      "graduated": false
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "first_seen": "2026-07-09",
@@ -1720,37 +1716,7 @@
       "category": "llm",
       "language": "TypeScript",
       "graduated": false
-    },
-    "charmbracelet/crush": {
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "days_on_list": 1,
-      "last_stars": 26425,
-      "category": "tools",
-      "language": "Go",
-      "graduated": false,
-      "last_pushed_at": "2026-07-10"
-    },
-    "LMCache/LMCache": {
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "days_on_list": 1,
-      "last_stars": 10381,
-      "category": "llm",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-07-06"
-    },
-    "huggingface/speech-to-speech": {
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
-      "days_on_list": 1,
-      "last_stars": 5987,
-      "category": "llm",
-      "language": "Python",
-      "graduated": false,
-      "last_pushed_at": "2026-06-11"
     }
   },
-  "last_updated": "2026-07-11"
+  "last_updated": "2026-07-09"
 }

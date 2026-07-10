@@ -10768,6 +10768,194 @@
     "red_teaming",
     "alignment_robustness"
    ]
+  },
+  "2607.07903": {
+   "version": "v1",
+   "title": "Mechanistic Interpretability of LLM Jailbreaks via Internal Attribution Graphs",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "jailbreak",
+    "mechanistic interpretability",
+    "attribution graph",
+    "causal intervention",
+    "adversarial robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "circuits"
+   ]
+  },
+  "2607.08147": {
+   "version": "v1",
+   "title": "Prismata: Confining Cross-Site Prompt Injection in Web Agents",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "prompt injection",
+    "web agent",
+    "least privilege",
+    "integrity model",
+    "agent security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2607.08393": {
+   "version": "v1",
+   "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in LLM Finetuning",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "memorization",
+    "knowing-using gap",
+    "self-patching",
+    "knowledge circuit",
+    "finetuning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
+  },
+  "2607.08349": {
+   "version": "v1",
+   "title": "Certified Interventional Fidelity: Anytime-Valid, Adaptive Evaluation of Causal Claims in Mechanistic Interpretability",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation patching",
+    "causal estimand",
+    "anytime-valid",
+    "confidence sequence"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "mechanistic_position"
+   ]
+  },
+  "2607.08605": {
+   "version": "v1",
+   "title": "When Structured Sparse Autoencoders Learn Consistent Concepts Across Modalities",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "sparse autoencoder",
+    "monosemanticity",
+    "VLM",
+    "structured sparsity",
+    "concept consistency"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation"
+   ]
+  },
+  "2607.07989": {
+   "version": "v1",
+   "title": "Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "multi-agent systems",
+    "failure localization",
+    "agent attribution",
+    "LLM judge",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.08282": {
+   "version": "v1",
+   "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "data leakage prevention",
+    "PII",
+    "LLM firewall",
+    "multi-agent pipeline",
+    "agent privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2607.08046": {
+   "version": "v1",
+   "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "probing",
+    "calibration",
+    "CoT faithfulness",
+    "lie detector",
+    "forecasting"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2607.06807": {
+   "version": "v1",
+   "title": "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "multi-agent systems",
+    "activation analysis",
+    "stealthy attack",
+    "malicious behavior detection",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2607.07907": {
+   "version": "v1",
+   "title": "Multimodal Unlearning Across Vision, Language, Video, and Audio: Survey of Methods, Datasets, and Benchmarks",
+   "first_seen": "2026-07-11",
+   "last_updated": "2026-07-11",
+   "folder": "2026-07-11",
+   "keywords": [
+    "machine unlearning",
+    "multimodal",
+    "survey",
+    "taxonomy",
+    "foundation models"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {

@@ -402,5 +402,13 @@
  "2607.07433->2607.02357": {
   "type": "background",
   "evidence": "reference-list citation to related agent-skill-malware detection work"
+ },
+ "2607.06807->2605.29358": {
+  "type": "background",
+  "evidence": "AcMAS analyzes agent activation space for malicious-behavior detection; cites Scaling Monosemanticity / SAE work as interpretability foundation in references."
+ },
+ "2607.07989->2606.02995": {
+  "type": "background",
+  "evidence": "Failure-localization in multi-agent systems cites Patcher (post-hoc backdoor patching of LLMs) as related work on attributing/repairing model failures."
  }
 }
