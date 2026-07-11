@@ -10956,6 +10956,184 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2607.08499": {
+   "version": "v1",
+   "title": "Cross-seed explainability using Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoders",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "feature universality",
+    "Procrustes alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation"
+   ]
+  },
+  "2607.07918": {
+   "version": "v1",
+   "title": "Efficient Safety Alignment of Language Models via Latent Personality Traits",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "safety alignment",
+    "latent adversarial training",
+    "jailbreak defense",
+    "representation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2607.08011": {
+   "version": "v1",
+   "title": "Beware What You Autocomplete: Forensic Attribution of Backdoored Code Completions",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "backdoor attack",
+    "code LLM",
+    "forensic attribution",
+    "data poisoning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "red_teaming"
+   ]
+  },
+  "2607.07209": {
+   "version": "v1",
+   "title": "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "differential privacy",
+    "continual release",
+    "participation privacy",
+    "federated learning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "federated_privacy"
+   ]
+  },
+  "2607.08337": {
+   "version": "v1",
+   "title": "AutoAnchor: Stable Diffusion Unlearning Using Cross-Attention as a Manifold Surrogate",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "machine unlearning",
+    "diffusion models",
+    "concept erasure",
+    "cross-attention"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.07739": {
+   "version": "v1",
+   "title": "Controllability-Aware Adversarial Examples Against LLM-Based Network Traffic Classifiers",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "adversarial examples",
+    "black-box transfer",
+    "LLM classifier",
+    "intrusion detection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2607.08122": {
+   "version": "v1",
+   "title": "Workload-Preserving Differentially Private Synthetic Data for Causal Inference via Maximum-Entropy Calibration",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "differential privacy",
+    "synthetic data",
+    "causal inference",
+    "maximum entropy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "data_extraction"
+   ]
+  },
+  "2607.08659": {
+   "version": "v1",
+   "title": "EdgeRefine: Privacy-Utility Balance for Graphs via Jaccard Sampling under Edge Differential Privacy",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "edge differential privacy",
+    "graph neural network",
+    "privacy-utility",
+    "local DP"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.08641": {
+   "version": "v1",
+   "title": "Steering Neural Network Training through Interpretable Constraints Based on Partial Dependence",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "interpretability",
+    "explanation-guided learning",
+    "partial dependence",
+    "faithfulness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2607.07635": {
+   "version": "v2",
+   "title": "Unlearning to Protect: A Distilled Reinforcement Learning Framework with Privacy-Preserving Feature Unlearning and XAI for IoT Security",
+   "first_seen": "2026-07-12",
+   "last_updated": "2026-07-12",
+   "folder": "2026-07-12",
+   "keywords": [
+    "machine unlearning",
+    "explainable AI",
+    "reinforcement learning",
+    "IoT security"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
@@ -10998,5 +11176,5 @@
    ]
   }
  },
- "last_run": "2026-07-10"
+ "last_run": "2026-07-12"
 }

@@ -410,5 +410,9 @@
  "2607.07989->2606.02995": {
   "type": "background",
   "evidence": "Failure-localization in multi-agent systems cites Patcher (post-hoc backdoor patching of LLMs) as related work on attributing/repairing model failures."
+ },
+ "2607.08011->2606.02995": {
+  "type": "background",
+  "evidence": "CodeTracer(포렌식 귀속)가 Patcher(백도어 사후 패칭)를 백도어 LLM 방어 연구 지형의 배경 문헌으로 인용; 동일 태스크 베이스라인이 아니라 상이한 접근(귀속 vs 완화)"
  }
 }
