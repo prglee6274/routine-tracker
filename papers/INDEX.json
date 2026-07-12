@@ -11134,6 +11134,197 @@
     "unlearning",
     "pii_leakage"
    ]
+  },
+  "2607.08066": {
+   "version": "v1",
+   "title": "Persuasion Attacks Can Decrease Effectiveness of CoT Monitoring",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "chain-of-thought monitoring",
+    "persuasion attack",
+    "jailbreak",
+    "AI safety",
+    "deceptive alignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2607.08339": {
+   "version": "v1",
+   "title": "TypeProbe: Recovering Type Representations from Hidden States of Pre-trained Code Models",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "probing",
+    "type representation",
+    "code models",
+    "hidden states",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2607.08034": {
+   "version": "v1",
+   "title": "PLURAL: A Global Dataset for Value Alignment",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "value alignment",
+    "preference dataset",
+    "cultural pluralism",
+    "RLHF",
+    "global values"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2607.08400": {
+   "version": "v1",
+   "title": "TRACE: A Two-Channel Robust Attribution Watermark via Complementary Embeddings for LLM-Agent Trajectories",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "watermarking",
+    "provenance",
+    "attribution",
+    "LLM agents",
+    "trajectory"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "agent_safety"
+   ]
+  },
+  "2607.07827": {
+   "version": "v1",
+   "title": "Open Models, Open Risks: Measuring Unsafe Generation in Text-to-Image Models In the Wild",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "text-to-image",
+    "unsafe generation",
+    "jailbreak",
+    "safety evaluation",
+    "in-the-wild"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "multimodal_attack",
+    "jailbreak"
+   ]
+  },
+  "2607.08137": {
+   "version": "v1",
+   "title": "Securing Autonomous Vehicle Systems via Twin-Aware Federated Reinforcement Learning",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "federated reinforcement learning",
+    "poisoning defense",
+    "privacy",
+    "autonomous vehicles",
+    "digital twin"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "agent_safety"
+   ]
+  },
+  "2607.08651": {
+   "version": "v1",
+   "title": "Secure Decentralized Federated Learning via Gossip and Virtual Voting",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "decentralized federated learning",
+    "Byzantine robustness",
+    "gossip protocol",
+    "provenance",
+    "virtual voting"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.08595": {
+   "version": "v1",
+   "title": "Federated Deep Learning for Privacy-Preserving Cardiovascular Disease Risk Prediction",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "federated learning",
+    "privacy-preserving",
+    "healthcare",
+    "cardiovascular",
+    "cross-institution"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.08017": {
+   "version": "v1",
+   "title": "Can We Trust LLM's Logic? Quantifying Uncertainty, Coherence, and Robustness via a Graph-Based Framework",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "reasoning faithfulness",
+    "uncertainty quantification",
+    "chain-of-thought",
+    "robustness",
+    "graph analysis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2607.07474": {
+   "version": "v1",
+   "title": "Beyond Attack-Success Rate: Action-Graded Severity Scale for Tool-Using AI Agents",
+   "first_seen": "2026-07-13",
+   "last_updated": "2026-07-13",
+   "folder": "2026-07-13",
+   "keywords": [
+    "agentic red-teaming",
+    "harm severity",
+    "tool-using agents",
+    "prompt injection",
+    "evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety",
+    "safety_eval"
+   ]
   }
  },
  "_taxonomy": {
@@ -11176,5 +11367,5 @@
    ]
   }
  },
- "last_run": "2026-07-12"
+ "last_run": "2026-07-13"
 }
