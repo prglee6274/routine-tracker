@@ -1044,13 +1044,13 @@
     },
     "openai/codex": {
       "first_seen": "2026-06-15",
-      "last_seen": "2026-06-15",
-      "last_stars": 44697,
-      "last_pushed_at": "2026-06-15",
+      "last_seen": "2026-07-13",
+      "last_stars": 97355,
+      "last_pushed_at": "2026-07-11",
       "days_on_list": 1,
       "category": "llm",
-      "language": "Rust/TypeScript",
-      "graduated": true
+      "language": "Rust",
+      "graduated": false
     },
     "anthropics/claude-code": {
       "first_seen": "2026-06-15",
@@ -1402,13 +1402,13 @@
     },
     "usestrix/strix": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-02",
-      "days_on_list": 4,
-      "last_stars": 25600,
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 40799,
       "category": "security",
       "language": "Python",
-      "graduated": true,
-      "last_pushed_at": "2026-07-01"
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
     },
     "DietrichGebert/ponytail": {
       "first_seen": "2026-06-30",
@@ -1763,13 +1763,13 @@
     },
     "malisper/pgrust": {
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
-      "days_on_list": 1,
-      "last_stars": 1944,
+      "last_seen": "2026-07-13",
+      "days_on_list": 2,
+      "last_stars": 2387,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-07-10"
     },
     "rowboatlabs/rowboat": {
       "first_seen": "2026-07-12",
@@ -1813,13 +1813,13 @@
     },
     "wonderwhy-er/DesktopCommanderMCP": {
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-12",
-      "days_on_list": 1,
-      "last_stars": 7728,
+      "last_seen": "2026-07-13",
+      "days_on_list": 2,
+      "last_stars": 7933,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-07-09"
+      "last_pushed_at": "2026-07-10"
     },
     "openai/plugins": {
       "first_seen": "2026-07-12",
@@ -1830,7 +1830,67 @@
       "language": "JavaScript",
       "graduated": false,
       "last_pushed_at": ""
+    },
+    "Dicklesworthstone/destructive_command_guard": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 2671,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "virattt/ai-hedge-fund": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 61338,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-10"
+    },
+    "astral-sh/ruff": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 48540,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
+    },
+    "pydantic/pydantic-ai": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 18448,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "Infisical/infisical": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 27867,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "ColeMurray/background-agents": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 2210,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
     }
   },
-  "last_updated": "2026-07-12"
+  "last_updated": "2026-07-13"
 }
