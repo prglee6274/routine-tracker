@@ -154,9 +154,9 @@
     },
     "github/spec-kit": {
       "first_seen": "2026-05-10",
-      "last_seen": "2026-05-19",
+      "last_seen": "2026-07-14",
       "days_on_list": 1,
-      "last_stars": 98174,
+      "last_stars": 120479,
       "category": "tools",
       "language": "Python",
       "graduated": false,
@@ -1392,9 +1392,9 @@
     },
     "stablyai/orca": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-11",
+      "last_seen": "2026-07-14",
       "days_on_list": 1,
-      "last_stars": 15860,
+      "last_stars": 18068,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
@@ -1402,9 +1402,9 @@
     },
     "usestrix/strix": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-13",
-      "days_on_list": 1,
-      "last_stars": 40799,
+      "last_seen": "2026-07-14",
+      "days_on_list": 2,
+      "last_stars": 41151,
       "category": "security",
       "language": "Python",
       "graduated": false,
@@ -1656,9 +1656,9 @@
     },
     "TencentCloud/CubeSandbox": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 9562,
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 9956,
       "category": "security",
       "language": "Rust",
       "graduated": false,
@@ -1666,9 +1666,9 @@
     },
     "vxcontrol/pentagi": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 19773,
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 20361,
       "category": "security",
       "language": "Go",
       "graduated": false,
@@ -1676,9 +1676,9 @@
     },
     "iOfficeAI/OfficeCLI": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-11",
-      "days_on_list": 3,
-      "last_stars": 14307,
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 16016,
       "category": "tools",
       "language": "C#",
       "graduated": false,
@@ -1763,9 +1763,9 @@
     },
     "malisper/pgrust": {
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-13",
-      "days_on_list": 2,
-      "last_stars": 2387,
+      "last_seen": "2026-07-14",
+      "days_on_list": 3,
+      "last_stars": 2785,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
@@ -1813,9 +1813,9 @@
     },
     "wonderwhy-er/DesktopCommanderMCP": {
       "first_seen": "2026-07-12",
-      "last_seen": "2026-07-13",
-      "days_on_list": 2,
-      "last_stars": 7933,
+      "last_seen": "2026-07-14",
+      "days_on_list": 3,
+      "last_stars": 8166,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -1883,14 +1883,22 @@
     },
     "ColeMurray/background-agents": {
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-13",
-      "days_on_list": 1,
-      "last_stars": 2210,
+      "last_seen": "2026-07-14",
+      "days_on_list": 2,
+      "last_stars": 2404,
       "category": "llm",
       "language": "TypeScript",
       "graduated": false,
       "last_pushed_at": "2026-07-12"
+    },
+    "HKUDS/Vibe-Trading": {
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 21564,
+      "category": "llm",
+      "language": "Python"
     }
   },
-  "last_updated": "2026-07-13"
+  "last_updated": "2026-07-14"
 }
