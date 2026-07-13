@@ -11325,6 +11325,194 @@
     "agent_safety",
     "safety_eval"
    ]
+  },
+  "2607.09532": {
+   "version": "v1",
+   "title": "Statistically Undetectable Backdoors in Deep Neural Networks",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "backdoor",
+    "undetectable",
+    "cryptographic hardness",
+    "adversarial examples",
+    "power asymmetry"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "adversarial"
+   ]
+  },
+  "2607.09236": {
+   "version": "v1",
+   "title": "Forget Narrowly, Retain Broadly: Unlearning as an Asymmetric Generalization Problem",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "machine unlearning",
+    "LLM",
+    "forget-retain",
+    "benchmark",
+    "JensUn++"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.09156": {
+   "version": "v1",
+   "title": "Present but Rescaled: Chat-to-Agent Transfer of Additive Activation Steering",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "activation steering",
+    "refusal bypass",
+    "ReAct agent",
+    "residual stream",
+    "safety"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.02714": {
+   "version": "v2",
+   "title": "Not All Refusals Are Equal: How Safety Alignment Fails Cybersecurity at Scale",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "abliteration",
+    "refusal subspace",
+    "safety alignment",
+    "cybersecurity",
+    "MoE"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2607.04339": {
+   "version": "v1",
+   "title": "One Framework for All: Cross-Modal Membership Inference for Generative Models",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "membership inference",
+    "generative models",
+    "cross-modal",
+    "likelihood ratio",
+    "black-box"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2607.09649": {
+   "version": "v1",
+   "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "concept-based XAI",
+    "auditing",
+    "perturbation",
+    "trustworthiness",
+    "surrogate fidelity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "interp_method"
+   ]
+  },
+  "2607.02961": {
+   "version": "v1",
+   "title": "Overloading Large Vision-Language Models for Jailbreaking",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "jailbreak",
+    "vision-language model",
+    "information overloading",
+    "multimodal attack",
+    "transferability"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack"
+   ]
+  },
+  "2607.06649": {
+   "version": "v1",
+   "title": "POPS: Recovering Unlearned Multi-Modality Knowledge in MLLMs with Prompt-Optimized Parameter Shaking",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "machine unlearning",
+    "MLLM",
+    "recovery attack",
+    "prompt optimization",
+    "privacy robustness"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2607.06845": {
+   "version": "v1",
+   "title": "LLMs Silently Correct African American English: Auditing and Mitigating Dialect Bias via Activation Steering",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "dialect bias",
+    "activation steering",
+    "auditing",
+    "causal tracing",
+    "AAE"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "probing"
+   ]
+  },
+  "2607.04379": {
+   "version": "v1",
+   "title": "Knowledge Base Poisoning Attacks and Defense for Policy-Aware LLM-RAG Framework",
+   "first_seen": "2026-07-14",
+   "last_updated": "2026-07-14",
+   "folder": "2026-07-14",
+   "keywords": [
+    "RAG poisoning",
+    "knowledge base",
+    "retrieval",
+    "LLM-RAG",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -11367,5 +11555,5 @@
    ]
   }
  },
- "last_run": "2026-07-13"
+ "last_run": "2026-07-14"
 }

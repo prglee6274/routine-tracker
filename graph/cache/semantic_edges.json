@@ -414,5 +414,33 @@
  "2607.08011->2606.02995": {
   "type": "background",
   "evidence": "CodeTracer(포렌식 귀속)가 Patcher(백도어 사후 패칭)를 백도어 LLM 방어 연구 지형의 배경 문헌으로 인용; 동일 태스크 베이스라인이 아니라 상이한 접근(귀속 vs 완화)"
+ },
+ "2607.02714->2605.29358": {
+  "type": "background",
+  "evidence": "Cites Scaling Monosemanticity when framing the linear-representation hypothesis as central to mechanistic interpretability in Background & Related Work."
+ },
+ "2607.09156->2605.01167": {
+  "type": "compares",
+  "evidence": "Runs a matched-norm control building on this work to confirm the reported coupling rescaling is direction-specific, not generic residual-stream perturbation."
+ },
+ "2607.09156->2605.10664": {
+  "type": "background",
+  "evidence": "Positions against prior additive-steering-in-agent-loops work when reviewing related activation-steering methods."
+ },
+ "2607.09156->2606.19946": {
+  "type": "compares",
+  "evidence": "Contrasts its capability-matched control against GEMS's norm-accumulation/superposition account, ruling that out as generic degradation."
+ },
+ "2607.09156->2606.22673": {
+  "type": "compares",
+  "evidence": "Contrasts with concurrent AgentLens, which builds in-agent safety-steering subspaces but lacks the chat-vs-agent comparison this paper introduces."
+ },
+ "2607.09156->2607.05790": {
+  "type": "extends",
+  "evidence": "Takes prior chat-extracted steering vectors proposed as control/monitoring primitives and tests whether the control half survives chat-to-agent transfer."
+ },
+ "2607.09532->2605.04209": {
+  "type": "extends",
+  "evidence": "Builds on prior 'undetectable backdoors in model parameters' by strengthening to statistically-undetectable backdoors (close in total-variation distance) in deep feedforward nets."
  }
 }
