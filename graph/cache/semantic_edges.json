@@ -442,5 +442,21 @@
  "2607.09532->2605.04209": {
   "type": "extends",
   "evidence": "Builds on prior 'undetectable backdoors in model parameters' by strengthening to statistically-undetectable backdoors (close in total-variation distance) in deep feedforward nets."
+ },
+ "2607.11698->2605.10067": {
+  "type": "background",
+  "evidence": "Cited in related-work list alongside other jailbreak/red-team methods (Metis: self-evolving metacognitive jailbreak); situates AHA among agentic red-teaming prior work."
+ },
+ "2607.11698->2605.24659": {
+  "type": "background",
+  "evidence": "Cited as prior indirect-prompt-injection attack (IterInject) covering part of the attack surface AHA red-teams; reference-list context, not a benchmarked baseline."
+ },
+ "2607.11871->2605.01844": {
+  "type": "background",
+  "evidence": "Representation/steering foundation (Cylindrical Representation Hypothesis for LM steering) underpinning the paper's hidden-state subspace steering of judges."
+ },
+ "2607.11871->2605.29358": {
+  "type": "background",
+  "evidence": "Foundational SAE/interpretability reference (Scaling Monosemanticity, Claude 3 Sonnet); reference-list only."
  }
 }
