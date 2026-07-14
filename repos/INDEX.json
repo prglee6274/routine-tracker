@@ -234,9 +234,9 @@
     },
     "millionco/react-doctor": {
       "first_seen": "2026-05-20",
-      "last_seen": "2026-05-20",
+      "last_seen": "2026-07-15",
       "days_on_list": 1,
-      "last_stars": 10305,
+      "last_stars": 13784,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -1656,9 +1656,9 @@
     },
     "TencentCloud/CubeSandbox": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
-      "days_on_list": 1,
-      "last_stars": 9956,
+      "last_seen": "2026-07-15",
+      "days_on_list": 2,
+      "last_stars": 10151,
       "category": "security",
       "language": "Rust",
       "graduated": false,
@@ -1676,9 +1676,9 @@
     },
     "iOfficeAI/OfficeCLI": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-14",
-      "days_on_list": 1,
-      "last_stars": 16016,
+      "last_seen": "2026-07-15",
+      "days_on_list": 2,
+      "last_stars": 16647,
       "category": "tools",
       "language": "C#",
       "graduated": false,
@@ -1833,9 +1833,9 @@
     },
     "Dicklesworthstone/destructive_command_guard": {
       "first_seen": "2026-07-13",
-      "last_seen": "2026-07-13",
+      "last_seen": "2026-07-15",
       "days_on_list": 1,
-      "last_stars": 2671,
+      "last_stars": 4287,
       "category": "security",
       "language": "Rust",
       "graduated": false,
@@ -1898,7 +1898,55 @@
       "last_stars": 21564,
       "category": "llm",
       "language": "Python"
+    },
+    "QuantumNous/new-api": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 42225,
+      "category": "llm",
+      "language": "Go"
+    },
+    "browseros-ai/BrowserOS": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 12063,
+      "category": "llm",
+      "language": "TypeScript"
+    },
+    "PrimeIntellect-ai/verifiers": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 4350,
+      "category": "llm",
+      "language": "Python"
+    },
+    "Tencent/WeKnora": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 18281,
+      "category": "llm",
+      "language": "Go"
+    },
+    "agentgateway/agentgateway": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 3843,
+      "category": "security",
+      "language": "Rust"
+    },
+    "chenhg5/cc-connect": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 13976,
+      "category": "tools",
+      "language": "Go"
     }
   },
-  "last_updated": "2026-07-14"
+  "last_updated": "2026-07-15"
 }
