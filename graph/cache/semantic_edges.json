@@ -458,5 +458,21 @@
  "2607.11871->2605.29358": {
   "type": "background",
   "evidence": "Foundational SAE/interpretability reference (Scaling Monosemanticity, Claude 3 Sonnet); reference-list only."
+ },
+ "2607.12166->2605.29358": {
+  "type": "background",
+  "evidence": "cites Scaling Monosemanticity as the canonical SAE-feature interpretability reference while auditing SAE evaluation metrics"
+ },
+ "2607.12279->2605.05115": {
+  "type": "extends",
+  "evidence": "countdown subcircuit representation shares the same 1D-manifold geometry described in the cited shared-geometry work (Gurnee et al.)"
+ },
+ "2607.12624->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list citation to Scaling Monosemanticity within activation/latent-concept interpretability lineage"
+ },
+ "2607.12624->2606.07335": {
+  "type": "background",
+  "evidence": "related latent/manifold-space defense against LLM attacks; cited as related defense work"
  }
 }
