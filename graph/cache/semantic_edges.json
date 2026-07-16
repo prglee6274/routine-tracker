@@ -474,5 +474,21 @@
  "2607.12624->2606.07335": {
   "type": "background",
   "evidence": "related latent/manifold-space defense against LLM attacks; cited as related defense work"
+ },
+ "2607.13081->2606.22873": {
+  "type": "extends",
+  "evidence": "SingGuard-NSFA is the same Ant Group team's follow-up that extends the earlier SingGuard policy-adaptive guardrail into an extensible agentic-AI framework."
+ },
+ "2607.13081->2605.29801": {
+  "type": "background",
+  "evidence": "Cited in related-work survey of agent-security approaches (execution-trace monitoring, access control) as prior context, not a direct baseline."
+ },
+ "2607.13346->2605.29358": {
+  "type": "background",
+  "evidence": "Cited in 'representation engineering for safety' lineage (Templeton et al. SAE features); the refusal direction builds on this interpretability tradition."
+ },
+ "2607.13899->2605.29358": {
+  "type": "background",
+  "evidence": "Cited among current interpretability works (case studies/localized analyses) that motivate the challenge's push toward comparable, generalizable evaluation."
  }
 }

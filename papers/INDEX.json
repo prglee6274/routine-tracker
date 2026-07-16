@@ -11890,6 +11890,184 @@
     "probing",
     "representation"
    ]
+  },
+  "2607.09786": {
+   "version": "v1",
+   "title": "Length Penalties Make Chain-of-Thought Less Monitorable",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "probing"
+   ],
+   "keywords": [
+    "chain-of-thought monitorability",
+    "faithfulness",
+    "length penalty RL",
+    "safety evaluation"
+   ]
+  },
+  "2607.13346": {
+   "version": "v1",
+   "title": "The Refusal Residue: When Probes Catch Alignment Faking and When They Don't",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "probing"
+   ],
+   "keywords": [
+    "alignment faking",
+    "hidden-state probing",
+    "activation steering",
+    "refusal"
+   ]
+  },
+  "2607.13899": {
+   "version": "v1",
+   "title": "AIMO Interpretability Challenge",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method"
+   ],
+   "keywords": [
+    "mechanistic interpretability",
+    "reasoning faithfulness",
+    "math reasoning",
+    "benchmark"
+   ]
+  },
+  "2607.13081": {
+   "version": "v1",
+   "title": "SingGuard-NSFA: Extensible Guardrails for Agentic AI via Generative Reasoning and Real-Time Classification",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ],
+   "keywords": [
+    "guardrails",
+    "prompt injection",
+    "agent security",
+    "tool misuse"
+   ]
+  },
+  "2607.12094": {
+   "version": "v1",
+   "title": "Sparse Autoencoders for Interpretable Out-of-Distribution Detection",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing"
+   ],
+   "keywords": [
+    "sparse autoencoder",
+    "OOD detection",
+    "interpretable features",
+    "safety"
+   ]
+  },
+  "2607.11975": {
+   "version": "v1",
+   "title": "Signal-Guided Optimization for Machine Unlearning",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ],
+   "keywords": [
+    "machine unlearning",
+    "privacy attack",
+    "memorization strength",
+    "optimization"
+   ]
+  },
+  "2607.13453": {
+   "version": "v1",
+   "title": "Adversarial Prompting Framework for AI Safety Assessment",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "adversarial"
+   ],
+   "keywords": [
+    "adversarial prompting",
+    "red-teaming",
+    "AI safety assessment",
+    "jailbreak"
+   ]
+  },
+  "2607.09804": {
+   "version": "v1",
+   "title": "Trivial Prompt Reframing Bypasses Safety Guardrails in Googleś MedGemma-4B",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval"
+   ],
+   "keywords": [
+    "jailbreak",
+    "guardrail bypass",
+    "medical LLM",
+    "red-teaming"
+   ]
+  },
+  "2607.13328": {
+   "version": "v1",
+   "title": "Privacy Preserving Recommender Systems Balancing Personalization with Privacy",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "differential_privacy"
+   ],
+   "keywords": [
+    "differential privacy",
+    "federated learning",
+    "recommender systems",
+    "agent privacy"
+   ]
+  },
+  "2607.12616": {
+   "version": "v1",
+   "title": "The Geometry of Memorization: Finite-Time Spectral Sensitivity as a Diagnostic for Flow Matching Models",
+   "first_seen": "2026-07-17",
+   "last_updated": "2026-07-17",
+   "folder": "2026-07-17",
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ],
+   "keywords": [
+    "memorization",
+    "generative models",
+    "training data leakage",
+    "diagnostic"
+   ]
   }
  },
  "_taxonomy": {
@@ -11932,5 +12110,5 @@
    ]
   }
  },
- "last_run": "2026-07-16"
+ "last_run": "2026-07-17"
 }
