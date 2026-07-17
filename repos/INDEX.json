@@ -614,13 +614,13 @@
     },
     "oven-sh/bun": {
       "first_seen": "2026-05-20",
-      "last_seen": "2026-05-20",
+      "last_seen": "2026-07-18",
       "days_on_list": 1,
-      "last_stars": 92054,
+      "last_stars": 94783,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
-      "last_pushed_at": "2026-05-13T03:48:28Z"
+      "last_pushed_at": "2026-07-17"
     },
     "HKUDS/CLI-Anything": {
       "first_seen": "2026-05-18",
@@ -1392,13 +1392,13 @@
     },
     "stablyai/orca": {
       "first_seen": "2026-06-29",
-      "last_seen": "2026-07-16",
+      "last_seen": "2026-07-18",
       "days_on_list": 1,
-      "last_stars": 19767,
+      "last_stars": 21059,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-07-10"
+      "last_pushed_at": "2026-07-17"
     },
     "usestrix/strix": {
       "first_seen": "2026-06-29",
@@ -1472,13 +1472,13 @@
     },
     "diegosouzapw/OmniRoute": {
       "first_seen": "2026-07-01",
-      "last_seen": "2026-07-11",
-      "days_on_list": 4,
-      "last_stars": 14920,
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 18330,
       "category": "llm",
       "language": "TypeScript",
-      "graduated": true,
-      "last_pushed_at": "2026-07-07"
+      "graduated": false,
+      "last_pushed_at": "2026-07-17"
     },
     "deepseek-ai/DeepSpec": {
       "first_seen": "2026-07-01",
@@ -1518,13 +1518,13 @@
     },
     "ogulcancelik/herdr": {
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-08",
-      "days_on_list": 4,
-      "last_stars": 13399,
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 17557,
       "category": "tools",
       "language": "Rust",
-      "graduated": true,
-      "last_pushed_at": "2026-06-24"
+      "graduated": false,
+      "last_pushed_at": "2026-07-17"
     },
     "alibaba/page-agent": {
       "first_seen": "2026-07-05",
@@ -1676,13 +1676,13 @@
     },
     "iOfficeAI/OfficeCLI": {
       "first_seen": "2026-07-09",
-      "last_seen": "2026-07-17",
-      "days_on_list": 4,
-      "last_stars": 18289,
+      "last_seen": "2026-07-18",
+      "days_on_list": 5,
+      "last_stars": 18765,
       "category": "tools",
       "language": "C#",
       "graduated": false,
-      "last_pushed_at": "2026-07-10"
+      "last_pushed_at": "2026-07-17"
     },
     "bradautomates/claude-video": {
       "first_seen": "2026-07-09",
@@ -1891,11 +1891,13 @@
     },
     "HKUDS/Vibe-Trading": {
       "first_seen": "2026-07-14",
-      "last_seen": "2026-07-14",
+      "last_seen": "2026-07-18",
       "days_on_list": 1,
-      "last_stars": 21564,
+      "last_stars": 24580,
       "category": "llm",
-      "language": "Python"
+      "language": "Python",
+      "last_pushed_at": "2026-07-17",
+      "graduated": false
     },
     "QuantumNous/new-api": {
       "first_seen": "2026-07-15",
@@ -2003,6 +2005,46 @@
       "last_stars": 6679,
       "category": "security",
       "language": "Go"
+    },
+    "Nutlope/hallmark": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 11842,
+      "category": "llm",
+      "language": "CSS",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "dstotijn/hetty": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 11873,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-27"
+    },
+    "safing/portmaster": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 13214,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-11"
+    },
+    "fingerprintjs/fingerprintjs": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 27878,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-10"
     }
   },
   "last_updated": "2026-07-17",
