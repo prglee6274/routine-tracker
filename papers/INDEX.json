@@ -12068,6 +12068,187 @@
     "training data leakage",
     "diagnostic"
    ]
+  },
+  "2607.14611": {
+   "version": "v1",
+   "title": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "agentic memory",
+    "LLM agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2607.14147": {
+   "version": "v1",
+   "title": "Breaking Refusal in the First Half: A Mechanistic Study of the Prefill Jailbreak",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "mechanistic interpretability",
+    "jailbreak",
+    "refusal mechanism",
+    "linear probe",
+    "activation patching"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "probing",
+    "representation"
+   ]
+  },
+  "2607.14943": {
+   "version": "v1",
+   "title": "Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation steering",
+    "representation engineering",
+    "optimal control"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.13541": {
+   "version": "v1",
+   "title": "When T2I Synthetic Data Backfires: Amplified Privacy Risks in Real-Synthetic Mix Training",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "membership inference",
+    "memorization",
+    "synthetic data",
+    "privacy leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
+  },
+  "2607.10269": {
+   "version": "v1",
+   "title": "Devil in the Lens: Analyzing and Defending Physical Prompt Injection Against Vision-Language Models on Wearable Devices",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "prompt injection",
+    "vision-language model",
+    "multimodal attack",
+    "physical adversarial"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "multimodal_attack",
+    "defense_mechanism"
+   ]
+  },
+  "2607.14811": {
+   "version": "v1",
+   "title": "Is External Database Protection Static in Retrieval-Augmented Generation? Rethinking Privacy Preservation under Dynamic Queries",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "differential privacy",
+    "RAG",
+    "data extraction",
+    "privacy-preserving"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "data_extraction",
+    "agent_privacy"
+   ]
+  },
+  "2607.13083": {
+   "version": "v1",
+   "title": "Phantom Guardrails: When Self-Improving Agent Harnesses Fix Failures That Never Happened",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "agent safety",
+    "guardrails",
+    "self-improving agents",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.14101": {
+   "version": "v1",
+   "title": "LBA: Textual Hard-Label Adversarial Attack under Low Query Budgets",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "adversarial attack",
+    "hard-label attack",
+    "textual adversarial"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2607.13088": {
+   "version": "v1",
+   "title": "Securing LLMs in the Wild: Privacy and Security Challenges at the Edge",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "privacy leakage",
+    "edge LLM",
+    "model compression",
+    "security-efficiency"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "defense_mechanism"
+   ]
+  },
+  "2607.14406": {
+   "version": "v1",
+   "title": "Better Privacy Guarantees for Larger Groups",
+   "first_seen": "2026-07-18",
+   "last_updated": "2026-07-18",
+   "folder": "2026-07-18",
+   "keywords": [
+    "differential privacy",
+    "zCDP",
+    "group privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -12110,5 +12291,5 @@
    ]
   }
  },
- "last_run": "2026-07-17"
+ "last_run": "2026-07-18"
 }

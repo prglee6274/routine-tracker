@@ -490,5 +490,13 @@
  "2607.13899->2605.29358": {
   "type": "background",
   "evidence": "Cited among current interpretability works (case studies/localized analyses) that motivate the challenge's push toward comparable, generalizable evaluation."
+ },
+ "2607.14811->2603.21654": {
+  "type": "background",
+  "evidence": "Cites a comprehensive review of RAG threats/defenses/benchmarks in the reference list to establish the RAG-security landscape."
+ },
+ "2607.14943->2603.19183": {
+  "type": "extends",
+  "evidence": "Builds on the interpretable/steerable-features-in-VLA line (SAE-based steering), extending mechanistic-interpretability-driven activation steering to World Action Models under the shared linear-feature-direction assumption."
  }
 }
