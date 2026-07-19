@@ -1518,9 +1518,9 @@
     },
     "ogulcancelik/herdr": {
       "first_seen": "2026-07-05",
-      "last_seen": "2026-07-19",
-      "days_on_list": 2,
-      "last_stars": 17936,
+      "last_seen": "2026-07-20",
+      "days_on_list": 3,
+      "last_stars": 18312,
       "category": "tools",
       "language": "Rust",
       "graduated": false,
@@ -2029,9 +2029,9 @@
     },
     "safing/portmaster": {
       "first_seen": "2026-07-18",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-20",
       "days_on_list": 1,
-      "last_stars": 13214,
+      "last_stars": 13306,
       "category": "security",
       "language": "Go",
       "graduated": false,
@@ -2049,9 +2049,9 @@
     },
     "SigNoz/signoz": {
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-19",
-      "days_on_list": 1,
-      "last_stars": 30739,
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 31107,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
@@ -2069,9 +2069,9 @@
     },
     "lyogavin/airllm": {
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-19",
-      "days_on_list": 1,
-      "last_stars": 23259,
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 23584,
       "category": "llm",
       "language": "Python",
       "graduated": false,
@@ -2089,9 +2089,9 @@
     },
     "elder-plinius/G0DM0D3": {
       "first_seen": "2026-07-19",
-      "last_seen": "2026-07-19",
-      "days_on_list": 1,
-      "last_stars": 9453,
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 9651,
       "category": "security",
       "language": "TypeScript",
       "graduated": false,
@@ -2126,9 +2126,49 @@
       "language": "TypeScript",
       "graduated": false,
       "last_pushed_at": "2026-07-15"
+    },
+    "jamiepine/voicebox": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 43212,
+      "category": "llm",
+      "language": "TypeScript"
+    },
+    "tirth8205/code-review-graph": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 20979,
+      "category": "tools",
+      "language": "Python"
+    },
+    "MoonshotAI/kimi-cli": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 9817,
+      "category": "llm",
+      "language": "Python"
+    },
+    "kvcache-ai/ktransformers": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 18284,
+      "category": "llm",
+      "language": "Python"
+    },
+    "TecharoHQ/anubis": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 20789,
+      "category": "security",
+      "language": "Go"
     }
   },
   "last_updated": "2026-07-17",
   "updated": "2026-07-17",
-  "last_run": "2026-07-19"
+  "last_run": "2026-07-20"
 }
