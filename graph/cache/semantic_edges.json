@@ -502,5 +502,17 @@
   "2607.14651->2604.16548": {
     "type": "background",
     "evidence": "MemPoison cites this survey on the security of long-term memory in LLM agents to frame its threat model / motivate persistent-memory attacks; survey-as-background."
+  },
+  "2607.15495->2605.29358": {
+    "type": "background",
+    "evidence": "J-lens 실험을 Sonnet에서 수행하며 SAE/monosemanticity 해석성 계보를 배경으로 인용 (방법을 확장·비교하지 않음)"
+  },
+  "2607.15893->2602.05859": {
+    "type": "background",
+    "evidence": "'DLM의 내부 메커니즘은 거의 알려지지 않았다'며 DLM 해석성 관련 연구(DLM-Scope 등)를 관련연구로 위치시킴"
+  },
+  "2607.15893->2605.29358": {
+    "type": "background",
+    "evidence": "잔차 스트림에 표현된 정보를 연구하는 probing·sparse-feature 방법의 예로 Scaling Monosemanticity를 인용"
   }
 }
