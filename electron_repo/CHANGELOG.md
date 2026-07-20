@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-07-20 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. This run targeted the three release checkpoints the 07-06 run flagged, all now past: **USENIX Sec '26 Cycle 2** (notification Jul 9), **RAID '26** (notification Jul 10), **CCS '26** (author notifications Jul 17).
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue status this run:
+- **USENIX Sec '26** — re-fetched and re-grepped the full **Cycle 1** accepted-papers HTML (123 KB / 797 lines) across the in-scope vocabulary; the sole hit remains the already-excluded **PyGuard** ("Cutting the Gordian Knot"), whose only adjacency is one cross-ecosystem NPM generalization test (98.07% accuracy). **Cycle 2** acceptances are **not yet browsable** — only the Cycle 1 page is public, the `technical-sessions` program page is client-rendered (returns empty via web_fetch), and Cycle-2 embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Targeted Cycle-2 + Electron/Node.js/prototype-pollution/contextIsolation/XSS→RCE searches returned **zero new in-scope hits**.
+- **CCS '26** — author notifications went out **Jul 17** (3 days ago); the accepted list is **not yet public** on sigsac.org or the ACM DL. Searches surfaced no new in-scope hits (The Hague, Nov 15–19).
+- **RAID '26** — `raid2026.org/accepted.html` is live but the list is **still unpopulated** (notifications Jul 10; Lancaster, UK, Oct 11–14).
+- **ESORICS '26** — notifications went out Jun 12; accepted list / LNCS proceedings **still not browsable** (Rome, Sept 14–18).
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; no new in-scope hits. **ACSAC '26** — no accepted list yet.
+
+**One genuinely new academic candidate surfaced and was triaged out WITHOUT ledgering (out of venue):** **PoCGen — "Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages"** (arXiv 2506.04962). It is topically adjacent (automatic PoC-exploit synthesis for npm-package vulnerabilities, sibling to the in-scope Bullseye / NodeMedic-FINE line), **but it was accepted at FSE 2026 (PACMSE Vol. 3, FSE issue)** — a software-engineering venue **outside the 9 watched security venues**. Consistent with prior out-of-venue handling (Dasty/WWW '24, React2Shell, "Learning to Triage Taint Flows", LLMVD.js), it is **not** added to `excluded[]` (which tracks watched-venue papers only) and can be promoted if a watched venue accepts related work. The other recurring Node.js preprints (**LLMVD.js** arXiv 2604.20179, **"Learning to Triage Taint Flows"** arXiv 2510.20739, **Taint-Style/LLM** variants) remain out-of-venue and unledgered.
+
+The 2026 Electron surface that searches returned again remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: **CVE-2026-34774** (offscreen-rendering use-after-free via `window.open` child window), **CVE-2026-34781** (`clipboard.readImage` DoS), **CVE-2026-34765** (multi-window trust-level permission inheritance → RCE when nodeIntegration on / sandbox off), and **CVE-2026-39846** (SiYuan Electron client stored-XSS→RCE). Consistent with prior handling these are **not** added to `excluded[]`; they remain useful as motivation/impact citations only.
+
+Run note: the parent **"routine 생성"** folder was **not connected** at run start (Read/Grep and the sandbox could not reach `electron_repo`), so it was re-requested and mounted before any state was read — the config, ledger, and parent `.git` were then all reachable and the sweep ran normally.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine). Next checkpoints to catch: **CCS '26** accepted list (post-Jul 17 notification), **RAID '26** list population (post-Jul 10), **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept).
+
+---
+
 ## 2026-07-06 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. (Run start was blocked until the parent **"routine 생성"** folder was reconnected and stale git locks — `.git/index.lock`, `.git/HEAD.lock`, `.git/objects/maintenance.lock` — were cleared; both resolved, so the sweep and scoped commit ran normally.)
