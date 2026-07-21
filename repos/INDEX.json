@@ -1,2210 +1,2238 @@
 {
- "_schema": "owner/repo -> { first_seen, last_seen (YYYY-MM-DD), last_stars, last_pushed_at (ISO), days_on_list, category, language, graduated }",
- "_note": "연속 트렌딩 일수 + 24h 스타 velocity + graduate(4일째 자동 졸업) 추적. graduated=true 는 Top 10 후보 제외, GitHub 새 push 들어오면 1회 부활.",
- "entries": {
-  "0xPlaygrounds/rig": {
-   "first_seen": "2026-05-22",
-   "last_seen": "2026-06-04",
-   "days_on_list": 5,
-   "last_stars": 6382,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-04"
-  },
-  "X-PLUG/MobileAgent": {
-   "first_seen": "2026-05-22",
-   "last_seen": "2026-05-22",
-   "days_on_list": 1,
-   "last_stars": 7566,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "sxyazi/yazi": {
-   "first_seen": "2026-05-22",
-   "last_seen": "2026-06-03",
-   "days_on_list": 4,
-   "last_stars": 33660,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-03"
-  },
-  "ast-grep/ast-grep": {
-   "first_seen": "2026-05-22",
-   "last_seen": "2026-06-04",
-   "days_on_list": 1,
-   "last_stars": 12825,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-04"
-  },
-  "ruvnet/wifi-densepose": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-06-02",
-   "days_on_list": 6,
-   "last_stars": 13400,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-31"
-  },
-  "anthropics/skills": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-06-02",
-   "days_on_list": 7,
-   "last_stars": 80300,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-05-31"
-  },
-  "muratcankoylan/Agent-Skills-for-Context-Engineering": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-05-30",
-   "days_on_list": 3,
-   "last_stars": 12778,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "alibaba/OpenSandbox": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-05-30",
-   "days_on_list": 4,
-   "last_stars": 2505,
-   "category": "tools",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": ""
-  },
-  "clockworklabs/SpacetimeDB": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-06-13",
-   "days_on_list": 5,
-   "last_stars": 23046,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-06"
-  },
-  "tursodatabase/agentfs": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-06-12",
-   "days_on_list": 5,
-   "last_stars": 2600,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-08"
-  },
-  "astral-sh/uv": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 87554,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-02"
-  },
-  "derv82/wifite2": {
-   "first_seen": "2026-05-21",
-   "last_seen": "2026-06-02",
-   "days_on_list": 6,
-   "last_stars": 7680,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-31"
-  },
-  "mattpocock/skills": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-20",
-   "days_on_list": 2,
-   "last_stars": 94108,
-   "category": "llm",
-   "language": "Shell",
-   "graduated": false,
-   "last_pushed_at": "2026-05-13T00:00:00Z"
-  },
-  "farion1231/cc-switch": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-14",
-   "days_on_list": 3,
-   "last_stars": 69726,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-05-11T07:49:36Z"
-  },
-  "ruvnet/ruflo": {
-   "first_seen": "2026-05-09",
-   "last_seen": "2026-05-14",
-   "days_on_list": 1,
-   "last_stars": 50220,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-13T17:34:12Z"
-  },
-  "github/spec-kit": {
-   "first_seen": "2026-05-10",
-   "last_seen": "2026-07-14",
-   "days_on_list": 1,
-   "last_stars": 120479,
-   "category": "tools",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-12T22:50:39Z"
-  },
-  "NousResearch/hermes-agent": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-06-02",
-   "days_on_list": 7,
-   "last_stars": 1280,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-31"
-  },
-  "CloakHQ/CloakBrowser": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-05-16",
-   "days_on_list": 6,
-   "last_stars": 11742,
-   "category": "security",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-04-28T03:44:50Z"
-  },
-  "rohitg00/agentmemory": {
-   "first_seen": "2026-05-13",
-   "last_seen": "2026-05-16",
-   "days_on_list": 4,
-   "last_stars": 9539,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-05-15T18:59:06Z"
-  },
-  "decolua/9router": {
-   "first_seen": "2026-05-13",
-   "last_seen": "2026-05-14",
-   "days_on_list": 2,
-   "last_stars": 9819,
-   "category": "llm",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-13T15:54:39Z"
-  },
-  "apernet/hysteria": {
-   "first_seen": "2026-05-20",
-   "last_seen": "2026-05-20",
-   "days_on_list": 1,
-   "last_stars": 21341,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-05-10T17:44:28Z"
-  },
-  "zizmorcore/zizmor": {
-   "first_seen": "2026-05-14",
-   "last_seen": "2026-05-15",
-   "days_on_list": 2,
-   "last_stars": 4856,
-   "category": "security",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-05-13T00:00:00Z"
-  },
-  "domcyrus/rustnet": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-05-13",
-   "days_on_list": 1,
-   "last_stars": 3080,
-   "category": "security",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-05-11T08:28:45Z"
-  },
-  "millionco/react-doctor": {
-   "first_seen": "2026-05-20",
-   "last_seen": "2026-07-15",
-   "days_on_list": 1,
-   "last_stars": 13784,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-12T04:29:34Z"
-  },
-  "tinyhumansai/openhuman": {
-   "first_seen": "2026-05-13",
-   "last_seen": "2026-05-20",
-   "days_on_list": 4,
-   "last_stars": 20666,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-05-19T07:17:46Z"
-  },
-  "cline/cline": {
-   "first_seen": "2026-05-15",
-   "last_seen": "2026-05-15",
-   "days_on_list": 1,
-   "last_stars": 61774,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-13T17:25:42Z"
-  },
-  "trufflesecurity/trufflehog": {
-   "first_seen": "2026-05-15",
-   "last_seen": "2026-05-15",
-   "days_on_list": 1,
-   "last_stars": 26277,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-05-11T18:38:34Z"
-  },
-  "mostlygeek/llama-swap": {
-   "first_seen": "2026-05-15",
-   "last_seen": "2026-05-15",
-   "days_on_list": 1,
-   "last_stars": 4047,
-   "category": "llm",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-05-14T05:14:07Z"
-  },
-  "addyosmani/agent-skills": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-12",
-   "days_on_list": 5,
-   "last_stars": 39358,
-   "category": "llm",
-   "language": "Shell",
-   "graduated": true,
-   "last_pushed_at": "2026-04-28T04:39:22Z"
-  },
-  "Hmbown/DeepSeek-TUI": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-12",
-   "days_on_list": 5,
-   "last_stars": 25074,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-05-11T00:05:18Z"
-  },
-  "anthropics/financial-services": {
-   "first_seen": "2026-05-20",
-   "last_seen": "2026-05-20",
-   "days_on_list": 1,
-   "last_stars": 25868,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "moonD4rk/HackBrowserData": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-05-12",
-   "days_on_list": 2,
-   "last_stars": 13995,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-04-29T00:00:00Z"
-  },
-  "InsForge/InsForge": {
-   "first_seen": "2026-05-12",
-   "last_seen": "2026-05-12",
-   "days_on_list": 1,
-   "last_stars": 9439,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-11T00:00:00Z"
-  },
-  "bytedance/UI-TARS-desktop": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-05-11",
-   "days_on_list": 1,
-   "last_stars": 31975,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "microsoft/waza": {
-   "first_seen": "2026-05-11",
-   "last_seen": "2026-05-11",
-   "days_on_list": 1,
-   "last_stars": 568,
-   "category": "tools",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "soxoj/maigret": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-10",
-   "days_on_list": 3,
-   "last_stars": 26368,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "VectifyAI/PageIndex": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-30",
-   "days_on_list": 4,
-   "last_stars": 19412,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": ""
-  },
-  "masterking32/MasterDnsVPN": {
-   "first_seen": "2026-05-10",
-   "last_seen": "2026-05-10",
-   "days_on_list": 1,
-   "last_stars": 2385,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "LearningCircuit/local-deep-research": {
-   "first_seen": "2026-05-10",
-   "last_seen": "2026-05-10",
-   "days_on_list": 1,
-   "last_stars": 6956,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "ChromeDevTools/chrome-devtools-mcp": {
-   "first_seen": "2026-05-10",
-   "last_seen": "2026-07-06",
-   "days_on_list": 1,
-   "last_stars": 45944,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-03"
-  },
-  "enfein/mieru": {
-   "first_seen": "2026-05-10",
-   "last_seen": "2026-05-17",
-   "days_on_list": 1,
-   "last_stars": 1979,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-04-27T03:37:32Z"
-  },
-  "TauricResearch/TradingAgents": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-07-06",
-   "days_on_list": 1,
-   "last_stars": 91047,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-05"
-  },
-  "fleetdm/fleet": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-09",
-   "days_on_list": 2,
-   "last_stars": 6343,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "cilium/cilium": {
-   "first_seen": "2026-05-09",
-   "last_seen": "2026-05-09",
-   "days_on_list": 1,
-   "last_stars": 24305,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "rtk-ai/rtk": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-06-13",
-   "days_on_list": 2,
-   "last_stars": 44319,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "aaif-goose/goose": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-05-08",
-   "days_on_list": 1,
-   "last_stars": 44638,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "always-further/nono": {
-   "first_seen": "2026-05-08",
-   "last_seen": "2026-06-13",
-   "days_on_list": 4,
-   "last_stars": 2558,
-   "category": "security",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-02"
-  },
-  "ruvnet/RuView": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-05-20",
-   "days_on_list": 3,
-   "last_stars": 60676,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-05-18T21:06:38Z"
-  },
-  "czlonkowski/n8n-mcp": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-05-16",
-   "days_on_list": 1,
-   "last_stars": 20837,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-14T10:02:26Z"
-  },
-  "NVIDIA/OpenShell": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-07-12",
-   "days_on_list": 2,
-   "last_stars": 7642,
-   "category": "security",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-09"
-  },
-  "OpenCTI-Platform/opencti": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-05-16",
-   "days_on_list": 1,
-   "last_stars": 9354,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-15T10:17:42Z"
-  },
-  "facebook/pyrefly": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-05-18",
-   "days_on_list": 3,
-   "last_stars": 6089,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-05-12T20:13:51Z"
-  },
-  "komari-monitor/komari": {
-   "first_seen": "2026-05-16",
-   "last_seen": "2026-05-16",
-   "days_on_list": 1,
-   "last_stars": 4635,
-   "category": "tools",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-05-08T04:46:11Z"
-  },
-  "obra/superpowers": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-20",
-   "days_on_list": 4,
-   "last_stars": 198197,
-   "category": "llm",
-   "language": "Shell",
-   "graduated": true,
-   "last_pushed_at": "2026-05-04T22:13:34Z"
-  },
-  "K-Dense-AI/scientific-agent-skills": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-18",
-   "days_on_list": 2,
-   "last_stars": 23724,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-01T18:02:44Z"
-  },
-  "anomalyco/opencode": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-06-22",
-   "days_on_list": 4,
-   "last_stars": 55507,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
-  },
-  "colbymchenry/codegraph": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-19",
-   "days_on_list": 1,
-   "last_stars": 4600,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-18T01:27:17Z"
-  },
-  "KeygraphHQ/shannon": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-20",
-   "days_on_list": 4,
-   "last_stars": 43144,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-05-06T13:02:55Z"
-  },
-  "BigBodyCobain/Shadowbroker": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-20",
-   "days_on_list": 4,
-   "last_stars": 8196,
-   "category": "security",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-05-12T18:15:01Z"
-  },
-  "getsentry/XcodeBuildMCP": {
-   "first_seen": "2026-05-17",
-   "last_seen": "2026-05-17",
-   "days_on_list": 1,
-   "last_stars": 5603,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-12T07:40:43Z"
-  },
-  "tech-leads-club/agent-skills": {
-   "first_seen": "2026-05-18",
-   "last_seen": "2026-05-18",
-   "days_on_list": 1,
-   "last_stars": 3415,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-04-28T05:13:23Z"
-  },
-  "oven-sh/bun": {
-   "first_seen": "2026-05-20",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 94783,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-17"
-  },
-  "HKUDS/CLI-Anything": {
-   "first_seen": "2026-05-18",
-   "last_seen": "2026-06-08",
-   "days_on_list": 4,
-   "last_stars": 36500,
-   "category": "tools",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-08"
-  },
-  "Imbad0202/academic-research-skills": {
-   "first_seen": "2026-05-19",
-   "last_seen": "2026-05-19",
-   "days_on_list": 1,
-   "last_stars": 11320,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-05-18T07:00:00Z"
-  },
-  "memvid/memvid": {
-   "first_seen": "2026-05-23",
-   "last_seen": "2026-06-04",
-   "days_on_list": 5,
-   "last_stars": 13349,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-04"
-  },
-  "ki-editor/ki-editor": {
-   "first_seen": "2026-05-23",
-   "last_seen": "2026-06-03",
-   "days_on_list": 1,
-   "last_stars": 791,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-03"
-  },
-  "datagouv/datagouv-mcp": {
-   "first_seen": "2026-05-24",
-   "last_seen": "2026-05-29",
-   "days_on_list": 1,
-   "last_stars": 686,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "ratatui/ratatui": {
-   "first_seen": "2026-05-24",
-   "last_seen": "2026-05-24",
-   "days_on_list": 1,
-   "last_stars": 18916,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "promptfoo/promptfoo": {
-   "first_seen": "2026-05-25",
-   "last_seen": "2026-07-05",
-   "days_on_list": 4,
-   "last_stars": 21300,
-   "last_pushed_at": "",
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": true
-  },
-  "snyk/agent-scan": {
-   "first_seen": "2026-05-25",
-   "last_seen": "2026-06-27",
-   "days_on_list": 4,
-   "last_stars": 2700,
-   "last_pushed_at": "2026-06-23",
-   "category": "security",
-   "language": "Python",
-   "graduated": true
-  },
-  "confident-ai/deepteam": {
-   "first_seen": "2026-05-25",
-   "last_seen": "2026-07-05",
-   "days_on_list": 1,
-   "last_stars": 1800,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06"
-  },
-  "Tencent/AI-Infra-Guard": {
-   "first_seen": "2026-05-26",
-   "last_seen": "2026-06-15",
-   "days_on_list": 1,
-   "last_stars": 3200,
-   "category": "security",
-   "language": "Go/TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-08"
-  },
-  "NVIDIA/garak": {
-   "first_seen": "2026-05-26",
-   "last_seen": "2026-06-25",
-   "days_on_list": 4,
-   "last_stars": 6900,
-   "category": "security",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
-  },
-  "meta-llama/PurpleLlama": {
-   "first_seen": "2026-05-27",
-   "last_seen": "2026-05-27",
-   "days_on_list": 1,
-   "last_stars": 4100,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "cisco-ai-defense/mcp-scanner": {
-   "first_seen": "2026-06-03",
-   "last_seen": "2026-06-20",
-   "days_on_list": 4,
-   "last_stars": 900,
-   "last_pushed_at": "2026-06-20",
-   "category": "security",
-   "language": "Python",
-   "graduated": true
-  },
-  "agentscope-ai/QwenPaw": {
-   "first_seen": "2026-06-03",
-   "last_seen": "2026-06-08",
-   "days_on_list": 1,
-   "last_stars": 17300,
-   "last_pushed_at": "2026-06-08",
-   "category": "llm",
-   "language": "Python",
-   "graduated": false
-  },
-  "lsdefine/GenericAgent": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-05",
-   "days_on_list": 2,
-   "last_stars": 4000,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-05"
-  },
-  "perplexityai/bumblebee": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-18",
-   "days_on_list": 4,
-   "last_stars": 3000,
-   "category": "security",
-   "language": "Go",
-   "graduated": true,
-   "last_pushed_at": "2026-06-18"
-  },
-  "badlogic/pi-mono": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-07",
-   "days_on_list": 4,
-   "last_stars": 54000,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-07",
-   "renamed_to": "earendil-works/pi"
-  },
-  "VulcanLab/IPI-Proxy": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-04",
-   "days_on_list": 1,
-   "last_stars": null,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "vaultmcp/vault": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-04",
-   "days_on_list": 1,
-   "last_stars": null,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "biomejs/biome": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-06-11",
-   "days_on_list": 4,
-   "last_stars": 24000,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-06-08"
-  },
-  "microsoft/RAMPART": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-06-08",
-   "days_on_list": 4,
-   "last_stars": null,
-   "category": "security",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-08"
-  },
-  "luckyPipewrench/pipelock": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-07-04",
-   "days_on_list": 3,
-   "last_stars": 577,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-23"
-  },
-  "HeadyZhang/agent-audit": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-06-27",
-   "days_on_list": 2,
-   "last_stars": 167,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-03-31"
-  },
-  "sipyourdrink-ltd/bernstein": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-06-07",
-   "days_on_list": 3,
-   "last_stars": 178,
-   "category": "tools",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-07"
-  },
-  "openclaw/openclaw": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-06-23",
-   "days_on_list": 4,
-   "last_stars": 378000,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-23"
-  },
-  "jd-opensource/xllm": {
-   "first_seen": "2026-06-05",
-   "last_seen": "2026-06-27",
-   "days_on_list": 4,
-   "last_stars": 1300,
-   "last_pushed_at": "2026-04-14",
-   "category": "llm",
-   "language": "C++",
-   "graduated": true
-  },
-  "volcengine/OpenViking": {
-   "first_seen": "2026-06-06",
-   "last_seen": "2026-06-09",
-   "days_on_list": 4,
-   "last_stars": 25300,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-08"
-  },
-  "lightseekorg/tokenspeed": {
-   "first_seen": "2026-06-06",
-   "last_seen": "2026-06-06",
-   "days_on_list": 1,
-   "last_stars": 636,
-   "category": "llm",
-   "language": "C++",
-   "graduated": false,
-   "last_pushed_at": "2026-06-06"
-  },
-  "affaan-m/agentshield": {
-   "first_seen": "2026-06-06",
-   "last_seen": "2026-06-06",
-   "days_on_list": 1,
-   "last_stars": 626,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-03-22"
-  },
-  "Gen-Verse/OpenClaw-RL": {
-   "first_seen": "2026-06-07",
-   "last_seen": "2026-06-10",
-   "days_on_list": 4,
-   "last_stars": 3100,
-   "last_pushed_at": "2026-06-08",
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true
-  },
-  "Justin0504/Aegis": {
-   "first_seen": "2026-06-08",
-   "last_seen": "2026-06-08",
-   "days_on_list": 1,
-   "last_stars": null,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-08"
-  },
-  "HKUDS/AI-Trader": {
-   "first_seen": "2026-06-09",
-   "last_seen": "2026-06-11",
-   "days_on_list": 3,
-   "last_stars": 13700,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "samugit83/redamon": {
-   "first_seen": "2026-06-09",
-   "last_seen": "2026-07-04",
-   "days_on_list": 1,
-   "last_stars": 2000,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "responsibleai/ASSERT": {
-   "first_seen": "2026-06-09",
-   "last_seen": "2026-06-12",
-   "days_on_list": 4,
-   "last_stars": 77,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-02"
-  },
-  "openguardrails/openguardrails": {
-   "first_seen": "2026-06-10",
-   "last_seen": "2026-06-10",
-   "days_on_list": 1,
-   "last_stars": 356,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-03-12"
-  },
-  "backbay-labs/clawdstrike": {
-   "first_seen": "2026-06-11",
-   "last_seen": "2026-06-12",
-   "days_on_list": 2,
-   "last_stars": null,
-   "last_pushed_at": "2026-06",
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "Fangcun-AI/SkillWard": {
-   "first_seen": "2026-06-11",
-   "last_seen": "2026-06-11",
-   "days_on_list": 1,
-   "last_stars": 61,
-   "last_pushed_at": "2026-06",
-   "category": "security",
-   "language": "Python",
-   "graduated": false
-  },
-  "infiniflow/ragflow": {
-   "first_seen": "2026-06-11",
-   "last_seen": "2026-06-24",
-   "days_on_list": 4,
-   "last_stars": 61500,
-   "last_pushed_at": "2026-06-23",
-   "category": "llm",
-   "language": "Python",
-   "graduated": true
-  },
-  "praetorian-inc/augustus": {
-   "first_seen": "2026-07-08",
-   "last_seen": "2026-07-08",
-   "days_on_list": 1,
-   "last_stars": 252,
-   "category": "security",
-   "language": "Go",
-   "graduated": false
-  },
-  "block/goose": {
-   "first_seen": "2026-06-12",
-   "last_seen": "2026-06-22",
-   "days_on_list": 4,
-   "last_stars": 23043,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
-  },
-  "OpenHands/OpenHands": {
-   "first_seen": "2026-06-13",
-   "last_seen": "2026-06-13",
-   "days_on_list": 1,
-   "last_stars": 76500,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-10"
-  },
-  "upstash/context7": {
-   "first_seen": "2026-06-13",
-   "last_seen": "2026-06-22",
-   "days_on_list": 4,
-   "last_stars": 28295,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
-  },
-  "openai/codex": {
-   "first_seen": "2026-06-15",
-   "last_seen": "2026-07-17",
-   "last_stars": 98822,
-   "last_pushed_at": "2026-07-11",
-   "days_on_list": 1,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false
-  },
-  "anthropics/claude-code": {
-   "first_seen": "2026-06-15",
-   "last_seen": "2026-06-15",
-   "last_stars": 44632,
-   "last_pushed_at": "2026-06-15",
-   "days_on_list": 1,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true
-  },
-  "ggml-org/llama.cpp": {
-   "first_seen": "2026-06-15",
-   "last_seen": "2026-06-18",
-   "last_stars": 90534,
-   "last_pushed_at": "2026-06-18",
-   "days_on_list": 4,
-   "category": "llm",
-   "language": "C++",
-   "graduated": true
-  },
-  "zed-industries/zed": {
-   "first_seen": "2026-06-15",
-   "last_seen": "2026-06-18",
-   "last_stars": 68656,
-   "last_pushed_at": "2026-06-18",
-   "days_on_list": 4,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true
-  },
-  "microsoft/playwright-mcp": {
-   "first_seen": "2026-06-15",
-   "last_seen": "2026-06-15",
-   "last_stars": 18902,
-   "last_pushed_at": "2026-06-15",
-   "days_on_list": 1,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": true
-  },
-  "NVIDIA/SkillSpector": {
-   "first_seen": "2026-06-16",
-   "last_seen": "2026-06-16",
-   "days_on_list": 1,
-   "last_stars": 113,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-16"
-  },
-  "langgenius/dify": {
-   "first_seen": "2026-06-16",
-   "last_seen": "2026-06-18",
-   "days_on_list": 3,
-   "last_stars": 111490,
-   "category": "llm",
-   "language": "TypeScript/Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-18"
-  },
-  "mem0ai/mem0": {
-   "first_seen": "2026-06-16",
-   "last_seen": "2026-06-19",
-   "days_on_list": 4,
-   "last_stars": 40013,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-19"
-  },
-  "github/github-mcp-server": {
-   "first_seen": "2026-06-16",
-   "last_seen": "2026-07-04",
-   "days_on_list": 3,
-   "last_stars": 28400,
-   "category": "tools",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-18"
-  },
-  "open-webui/open-webui": {
-   "first_seen": "2026-06-17",
-   "last_seen": "2026-06-20",
-   "days_on_list": 4,
-   "last_stars": 106013,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-20"
-  },
-  "modelcontextprotocol/servers": {
-   "first_seen": "2026-06-17",
-   "last_seen": "2026-06-18",
-   "days_on_list": 2,
-   "last_stars": 60557,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-18"
-  },
-  "microsoft/agent-governance-toolkit": {
-   "first_seen": "2026-06-18",
-   "last_seen": "2026-06-21",
-   "days_on_list": 4,
-   "last_stars": 3600,
-   "graduated": true,
-   "category": "security",
-   "language": "Python",
-   "last_pushed_at": "2026-06-21"
-  },
-  "All-Hands-AI/OpenHands": {
-   "first_seen": "2026-06-19",
-   "last_seen": "2026-06-22",
-   "days_on_list": 4,
-   "last_stars": 60650,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
-  },
-  "vllm-project/vllm": {
-   "first_seen": "2026-06-19",
-   "last_seen": "2026-06-19",
-   "days_on_list": 1,
-   "last_stars": 57514,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-19"
-  },
-  "utkusen/promptmap": {
-   "first_seen": "2026-06-19",
-   "last_seen": "2026-06-24",
-   "days_on_list": 4,
-   "last_stars": 1200,
-   "category": "security",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-23"
-  },
-  "HKUDS/nanobot": {
-   "first_seen": "2026-06-20",
-   "last_seen": "2026-06-23",
-   "days_on_list": 4,
-   "last_stars": 41800,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-23"
-  },
-  "getagentseal/agentseal": {
-   "first_seen": "2026-06-23",
-   "last_seen": "2026-06-23",
-   "days_on_list": 1,
-   "last_stars": 193,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-23"
-  },
-  "vercel-labs/json-render": {
-   "first_seen": "2026-06-23",
-   "last_seen": "2026-06-26",
-   "days_on_list": 4,
-   "last_stars": 14200,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-04-11"
-  },
-  "soth-ai/mcp-reticle": {
-   "first_seen": "2026-06-23",
-   "last_seen": "2026-06-26",
-   "days_on_list": 4,
-   "last_stars": 111,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-23"
-  },
-  "freestylefly/wesight": {
-   "first_seen": "2026-06-23",
-   "last_seen": "2026-06-23",
-   "days_on_list": 1,
-   "last_stars": 308,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-01"
-  },
-  "earendil-works/pi": {
-   "first_seen": "2026-06-04",
-   "last_seen": "2026-07-04",
-   "days_on_list": 1,
-   "last_stars": 65700,
-   "last_pushed_at": "2026-06-23",
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true
-  },
-  "MemoriLabs/Memori": {
-   "first_seen": "2026-06-24",
-   "last_seen": "2026-06-27",
-   "days_on_list": 4,
-   "last_stars": 15000,
-   "last_pushed_at": "2026-05-28",
-   "category": "llm",
-   "language": "Python/TypeScript",
-   "graduated": true
-  },
-  "raindrop-ai/workshop": {
-   "first_seen": "2026-06-24",
-   "last_seen": "2026-06-25",
-   "days_on_list": 2,
-   "last_stars": 473,
-   "last_pushed_at": "2026-05-14",
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "microsoft/agent-framework": {
-   "first_seen": "2026-06-25",
-   "last_seen": "2026-06-27",
-   "days_on_list": 3,
-   "last_stars": 11700,
-   "category": "llm",
-   "language": "Python/C#",
-   "graduated": false,
-   "last_pushed_at": "2026-05-08"
-  },
-  "sstraus/tuicommander": {
-   "first_seen": "2026-06-26",
-   "last_seen": "2026-06-27",
-   "days_on_list": 2,
-   "last_stars": 75,
-   "category": "tools",
-   "language": "Rust/TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-05-29"
-  },
-  "zilliztech/claude-context": {
-   "first_seen": "2026-06-27",
-   "last_seen": "2026-07-04",
-   "days_on_list": 2,
-   "last_stars": 8800,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "ComposioHQ/agent-orchestrator": {
-   "first_seen": "2026-06-27",
-   "last_seen": "2026-06-27",
-   "days_on_list": 1,
-   "last_stars": 5800,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "DeusData/codebase-memory-mcp": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-02",
-   "days_on_list": 4,
-   "last_stars": 23000,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-07-01"
-  },
-  "topoteretes/cognee": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-21",
-   "days_on_list": 1,
-   "last_stars": 28702,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-20T15:48:27Z"
-  },
-  "calesthio/OpenMontage": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-02",
-   "days_on_list": 4,
-   "last_stars": 27500,
-   "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-07-01"
-  },
-  "bytedance/deer-flow": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-04",
-   "days_on_list": 3,
-   "last_stars": 75900,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-25"
-  },
-  "google-labs-code/design.md": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-05",
-   "days_on_list": 1,
-   "last_stars": 15800,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-15"
-  },
-  "simplex-chat/simplex-chat": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-06",
-   "days_on_list": 1,
-   "last_stars": 17909,
-   "category": "security",
-   "language": "Haskell",
-   "graduated": false,
-   "last_pushed_at": "2026-06-17"
-  },
-  "opendatalab/MinerU": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-06-29",
-   "days_on_list": 1,
-   "last_stars": 71653,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-18"
-  },
-  "mukul975/Anthropic-Cybersecurity-Skills": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-05",
-   "days_on_list": 1,
-   "last_stars": 9600,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-22"
-  },
-  "stablyai/orca": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 21059,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-17"
-  },
-  "usestrix/strix": {
-   "first_seen": "2026-06-29",
-   "last_seen": "2026-07-14",
-   "days_on_list": 2,
-   "last_stars": 41151,
-   "category": "security",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-12"
-  },
-  "DietrichGebert/ponytail": {
-   "first_seen": "2026-06-30",
-   "last_seen": "2026-06-30",
-   "days_on_list": 1,
-   "last_stars": 65300,
-   "category": "tools",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-14"
-  },
-  "vercel-labs/deepsec": {
-   "first_seen": "2026-06-30",
-   "last_seen": "2026-06-30",
-   "days_on_list": 1,
-   "last_stars": 4500,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-30"
-  },
-  "msitarzewski/agency-agents": {
-   "first_seen": "2026-06-30",
-   "last_seen": "2026-07-01",
-   "days_on_list": 2,
-   "last_stars": 1300,
-   "category": "llm",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-01"
-  },
-  "cloudflare/security-audit-skill": {
-   "first_seen": "2026-06-30",
-   "last_seen": "2026-06-30",
-   "days_on_list": 1,
-   "last_stars": 1600,
-   "category": "security",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-24"
-  },
-  "bikini/exploitarium": {
-   "first_seen": "2026-07-01",
-   "last_seen": "2026-07-01",
-   "days_on_list": 1,
-   "last_stars": 2500,
-   "category": "security",
-   "language": "C",
-   "graduated": false,
-   "last_pushed_at": "2026-06-23"
-  },
-  "safishamsi/graphify": {
-   "first_seen": "2026-07-01",
-   "last_seen": "2026-07-03",
-   "days_on_list": 3,
-   "last_stars": 74600,
-   "category": "tools",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-01"
-  },
-  "diegosouzapw/OmniRoute": {
-   "first_seen": "2026-07-01",
-   "last_seen": "2026-07-21",
-   "days_on_list": 1,
-   "last_stars": 21402,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-13T21:19:15Z"
-  },
-  "deepseek-ai/DeepSpec": {
-   "first_seen": "2026-07-01",
-   "last_seen": "2026-07-03",
-   "days_on_list": 3,
-   "last_stars": 6000,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-01"
-  },
-  "Panniantong/Agent-Reach": {
-   "first_seen": "2026-07-01",
-   "last_seen": "2026-07-05",
-   "days_on_list": 1,
-   "last_stars": 20900,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-01"
-  },
-  "anomalyco/opentui": {
-   "first_seen": "2026-07-04",
-   "last_seen": "2026-07-04",
-   "days_on_list": 1,
-   "last_stars": 12300,
-   "category": "tools",
-   "language": "TypeScript"
-  },
-  "vibrantlabsai/ragas": {
-   "first_seen": "2026-07-04",
-   "last_seen": "2026-07-04",
-   "days_on_list": 1,
-   "last_stars": 14600,
-   "category": "llm",
-   "language": "Python"
-  },
-  "ogulcancelik/herdr": {
-   "first_seen": "2026-07-05",
-   "last_seen": "2026-07-20",
-   "days_on_list": 3,
-   "last_stars": 18312,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-15"
-  },
-  "alibaba/page-agent": {
-   "first_seen": "2026-07-05",
-   "last_seen": "2026-07-08",
-   "days_on_list": 4,
-   "last_stars": 24874,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-07-03"
-  },
-  "lfnovo/open-notebook": {
-   "first_seen": "2026-07-05",
-   "last_seen": "2026-07-05",
-   "days_on_list": 1,
-   "last_stars": 33900,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false
-  },
-  "openai/codex-plugin-cc": {
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-09",
-   "days_on_list": 4,
-   "last_stars": 26859,
-   "category": "tools",
-   "language": "JavaScript",
-   "graduated": true,
-   "last_pushed_at": "2026-06-23"
-  },
-  "browser-use/video-use": {
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
-   "days_on_list": 1,
-   "last_stars": 14985,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "yaklang/yakit": {
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08",
-   "days_on_list": 1,
-   "last_stars": 7555,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-03"
-  },
-  "logto-io/logto": {
-   "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06",
-   "days_on_list": 1,
-   "last_stars": 13804,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-30"
-  },
-  "Zackriya-Solutions/meetily": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-10",
-   "days_on_list": 4,
-   "last_stars": 22138,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": true,
-   "last_pushed_at": "2026-06-05"
-  },
-  "asgeirtj/system_prompts_leaks": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-10",
-   "days_on_list": 4,
-   "last_stars": 54994,
-   "category": "security",
-   "language": "JavaScript",
-   "graduated": true,
-   "last_pushed_at": ""
-  },
-  "firecrawl/firecrawl": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-07",
-   "days_on_list": 1,
-   "last_stars": 146032,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-19"
-  },
-  "steipete/CodexBar": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-07",
-   "days_on_list": 1,
-   "last_stars": 16667,
-   "category": "tools",
-   "language": "Swift",
-   "graduated": false,
-   "last_pushed_at": "2026-07-05"
-  },
-  "alibaba/zvec": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-09",
-   "days_on_list": 1,
-   "last_stars": 14325,
-   "category": "llm",
-   "language": "C++",
-   "graduated": false,
-   "last_pushed_at": "2026-06-24"
-  },
-  "Infisical/agent-vault": {
-   "first_seen": "2026-07-07",
-   "last_seen": "2026-07-07",
-   "days_on_list": 1,
-   "last_stars": 1822,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-24"
-  },
-  "CoplayDev/unity-mcp": {
-   "first_seen": "2026-07-08",
-   "last_seen": "2026-07-08",
-   "days_on_list": 1,
-   "last_stars": 12198,
-   "category": "tools",
-   "language": "C#",
-   "graduated": false
-  },
-  "TencentCloud/CubeSandbox": {
-   "first_seen": "2026-07-09",
-   "last_seen": "2026-07-16",
-   "days_on_list": 3,
-   "last_stars": 10278,
-   "category": "security",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-03"
-  },
-  "vxcontrol/pentagi": {
-   "first_seen": "2026-07-09",
-   "last_seen": "2026-07-14",
-   "days_on_list": 1,
-   "last_stars": 20361,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-05-29"
-  },
-  "iOfficeAI/OfficeCLI": {
-   "first_seen": "2026-07-09",
-   "last_seen": "2026-07-21",
-   "days_on_list": 1,
-   "last_stars": 20090,
-   "category": "tools",
-   "language": "C#",
-   "graduated": false,
-   "last_pushed_at": "2026-07-19T05:22:37Z"
-  },
-  "bradautomates/claude-video": {
-   "first_seen": "2026-07-09",
-   "last_seen": "2026-07-11",
-   "days_on_list": 3,
-   "last_stars": 7115,
-   "category": "tools",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-01"
-  },
-  "TencentCloud/TencentDB-Agent-Memory": {
-   "first_seen": "2026-07-09",
-   "last_seen": "2026-07-10",
-   "days_on_list": 2,
-   "last_stars": 7994,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "MadsLorentzen/ai-job-search": {
-   "first_seen": "2026-07-10",
-   "last_seen": "2026-07-10",
-   "days_on_list": 1,
-   "last_stars": 18328,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "can1357/oh-my-pi": {
-   "first_seen": "2026-07-10",
-   "last_seen": "2026-07-10",
-   "days_on_list": 1,
-   "last_stars": 16986,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "charmbracelet/crush": {
-   "first_seen": "2026-07-11",
-   "last_seen": "2026-07-12",
-   "days_on_list": 2,
-   "last_stars": 26467,
-   "category": "tools",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-07-11"
-  },
-  "LMCache/LMCache": {
-   "first_seen": "2026-07-11",
-   "last_seen": "2026-07-11",
-   "days_on_list": 1,
-   "last_stars": 10381,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-06"
-  },
-  "huggingface/speech-to-speech": {
-   "first_seen": "2026-07-11",
-   "last_seen": "2026-07-11",
-   "days_on_list": 1,
-   "last_stars": 5987,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-11"
-  },
-  "projectdiscovery/nuclei": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 29726,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-07-06"
-  },
-  "malisper/pgrust": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-14",
-   "days_on_list": 3,
-   "last_stars": 2785,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-10"
-  },
-  "rowboatlabs/rowboat": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 16142,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "google/gvisor": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 18834,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "davila7/claude-code-templates": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 28967,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "google/adk-go": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 8530,
-   "category": "llm",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-30"
-  },
-  "wonderwhy-er/DesktopCommanderMCP": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-14",
-   "days_on_list": 3,
-   "last_stars": 8166,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-10"
-  },
-  "openai/plugins": {
-   "first_seen": "2026-07-12",
-   "last_seen": "2026-07-12",
-   "days_on_list": 1,
-   "last_stars": 4362,
-   "category": "llm",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": ""
-  },
-  "Dicklesworthstone/destructive_command_guard": {
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 5009,
-   "category": "security",
-   "language": "Rust"
-  },
-  "virattt/ai-hedge-fund": {
-   "first_seen": "2026-07-13",
-   "last_seen": "2026-07-13",
-   "days_on_list": 1,
-   "last_stars": 61338,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-10"
-  },
-  "astral-sh/ruff": {
-   "first_seen": "2026-07-13",
-   "last_seen": "2026-07-13",
-   "days_on_list": 1,
-   "last_stars": 48540,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-12"
-  },
-  "pydantic/pydantic-ai": {
-   "first_seen": "2026-07-13",
-   "last_seen": "2026-07-13",
-   "days_on_list": 1,
-   "last_stars": 18448,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-07-11"
-  },
-  "Infisical/infisical": {
-   "first_seen": "2026-07-13",
-   "last_seen": "2026-07-13",
-   "days_on_list": 1,
-   "last_stars": 27867,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-11"
-  },
-  "ColeMurray/background-agents": {
-   "first_seen": "2026-07-13",
-   "last_seen": "2026-07-14",
-   "days_on_list": 2,
-   "last_stars": 2404,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-12"
-  },
-  "HKUDS/Vibe-Trading": {
-   "first_seen": "2026-07-14",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 24580,
-   "category": "llm",
-   "language": "Python",
-   "last_pushed_at": "2026-07-17",
-   "graduated": false
-  },
-  "QuantumNous/new-api": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-16",
-   "days_on_list": 2,
-   "last_stars": 42331,
-   "category": "llm",
-   "language": "Go"
-  },
-  "browseros-ai/BrowserOS": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-16",
-   "days_on_list": 2,
-   "last_stars": 12205,
-   "category": "llm",
-   "language": "TypeScript"
-  },
-  "PrimeIntellect-ai/verifiers": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-15",
-   "days_on_list": 1,
-   "last_stars": 4350,
-   "category": "llm",
-   "language": "Python"
-  },
-  "Tencent/WeKnora": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-15",
-   "days_on_list": 1,
-   "last_stars": 18281,
-   "category": "llm",
-   "language": "Go"
-  },
-  "agentgateway/agentgateway": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-16",
-   "days_on_list": 2,
-   "last_stars": 3876,
-   "category": "security",
-   "language": "Rust"
-  },
-  "chenhg5/cc-connect": {
-   "first_seen": "2026-07-15",
-   "last_seen": "2026-07-15",
-   "days_on_list": 1,
-   "last_stars": 13976,
-   "category": "tools",
-   "language": "Go"
-  },
-  "Graphify-Labs/graphify": {
-   "first_seen": "2026-07-16",
-   "last_seen": "2026-07-17",
-   "days_on_list": 2,
-   "last_stars": 88768,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false
-  },
-  "openinterpreter/openinterpreter": {
-   "first_seen": "2026-07-16",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 66637,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-18"
-  },
-  "screenpipe/screenpipe": {
-   "first_seen": "2026-07-16",
-   "last_seen": "2026-07-16",
-   "days_on_list": 1,
-   "last_stars": 20079,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false
-  },
-  "HKUDS/DeepTutor": {
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 26782,
-   "category": "llm",
-   "language": "Python"
-  },
-  "PostHog/posthog": {
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 35759,
-   "category": "tools",
-   "language": "Python"
-  },
-  "chaitin/SafeLine": {
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 21848,
-   "category": "security",
-   "language": "Go"
-  },
-  "openbao/openbao": {
-   "first_seen": "2026-07-17",
-   "last_seen": "2026-07-17",
-   "days_on_list": 1,
-   "last_stars": 6679,
-   "category": "security",
-   "language": "Go"
-  },
-  "Nutlope/hallmark": {
-   "first_seen": "2026-07-18",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 11842,
-   "category": "llm",
-   "language": "CSS",
-   "graduated": false,
-   "last_pushed_at": "2026-06-04"
-  },
-  "dstotijn/hetty": {
-   "first_seen": "2026-07-18",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 11873,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-27"
-  },
-  "safing/portmaster": {
-   "first_seen": "2026-07-18",
-   "last_seen": "2026-07-21",
-   "days_on_list": 2,
-   "last_stars": 13326,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-06-16T08:35:18Z"
-  },
-  "fingerprintjs/fingerprintjs": {
-   "first_seen": "2026-07-18",
-   "last_seen": "2026-07-18",
-   "days_on_list": 1,
-   "last_stars": 27878,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-06-10"
-  },
-  "SigNoz/signoz": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-20",
-   "days_on_list": 2,
-   "last_stars": 31107,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-15"
-  },
-  "tursodatabase/turso": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 23158,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-13"
-  },
-  "lyogavin/airllm": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-20",
-   "days_on_list": 2,
-   "last_stars": 23584,
-   "category": "llm",
-   "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-06-30"
-  },
-  "rivet-dev/agentos": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 3884,
-   "category": "llm",
-   "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-07-07"
-  },
-  "elder-plinius/G0DM0D3": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-20",
-   "days_on_list": 2,
-   "last_stars": 9651,
-   "category": "security",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-15"
-  },
-  "Ed1s0nZ/CyberStrikeAI": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 5195,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-07-16"
-  },
-  "anchore/grype": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 12586,
-   "category": "security",
-   "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-07-16"
-  },
-  "musistudio/claude-code-router": {
-   "first_seen": "2026-07-19",
-   "last_seen": "2026-07-19",
-   "days_on_list": 1,
-   "last_stars": 35889,
-   "category": "llm",
-   "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-15"
-  },
-  "jamiepine/voicebox": {
-   "first_seen": "2026-07-20",
-   "last_seen": "2026-07-21",
-   "days_on_list": 2,
-   "last_stars": 44040,
-   "category": "llm",
-   "language": "TypeScript",
-   "last_pushed_at": "2026-04-25T22:46:53Z",
-   "graduated": false
-  },
-  "tirth8205/code-review-graph": {
-   "first_seen": "2026-07-20",
-   "last_seen": "2026-07-21",
-   "days_on_list": 2,
-   "last_stars": 22854,
-   "category": "tools",
-   "language": "Python",
-   "last_pushed_at": "2026-07-18T00:33:57Z",
-   "graduated": false
-  },
-  "MoonshotAI/kimi-cli": {
-   "first_seen": "2026-07-20",
-   "last_seen": "2026-07-20",
-   "days_on_list": 1,
-   "last_stars": 9817,
-   "category": "llm",
-   "language": "Python"
-  },
-  "kvcache-ai/ktransformers": {
-   "first_seen": "2026-07-20",
-   "last_seen": "2026-07-21",
-   "days_on_list": 2,
-   "last_stars": 18695,
-   "category": "llm",
-   "language": "Python",
-   "last_pushed_at": "2026-06-21T09:40:28Z",
-   "graduated": false
-  },
-  "TecharoHQ/anubis": {
-   "first_seen": "2026-07-20",
-   "last_seen": "2026-07-20",
-   "days_on_list": 1,
-   "last_stars": 20789,
-   "category": "security",
-   "language": "Go"
-  },
-  "every-app/open-seo": {
-   "first_seen": "2026-07-21",
-   "last_seen": "2026-07-21",
-   "last_stars": 5691,
-   "last_pushed_at": "2026-07-19T06:19:44Z",
-   "days_on_list": 1,
-   "category": "tools",
-   "language": "TypeScript",
-   "graduated": false
-  },
-  "AlexsJones/llmfit": {
-   "first_seen": "2026-07-21",
-   "last_seen": "2026-07-21",
-   "last_stars": 29875,
-   "last_pushed_at": "2026-07-19T21:44:16Z",
-   "days_on_list": 1,
-   "category": "tools",
-   "language": "Rust",
-   "graduated": false
-  },
-  "megadose/holehe": {
-   "first_seen": "2026-07-21",
-   "last_seen": "2026-07-21",
-   "last_stars": 11745,
-   "last_pushed_at": null,
-   "days_on_list": 1,
-   "category": "security",
-   "language": "Python",
-   "graduated": false
-  }
- },
- "last_updated": "2026-07-17",
- "updated": "2026-07-17",
- "last_run": "2026-07-20"
+  "_schema": "owner/repo -> { first_seen, last_seen (YYYY-MM-DD), last_stars, last_pushed_at (ISO), days_on_list, category, language, graduated }",
+  "_note": "연속 트렌딩 일수 + 24h 스타 velocity + graduate(4일째 자동 졸업) 추적. graduated=true 는 Top 10 후보 제외, GitHub 새 push 들어오면 1회 부활.",
+  "entries": {
+    "0xPlaygrounds/rig": {
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-06-04",
+      "days_on_list": 5,
+      "last_stars": 6382,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "X-PLUG/MobileAgent": {
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-05-22",
+      "days_on_list": 1,
+      "last_stars": 7566,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "sxyazi/yazi": {
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-06-03",
+      "days_on_list": 4,
+      "last_stars": 33660,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-03"
+    },
+    "ast-grep/ast-grep": {
+      "first_seen": "2026-05-22",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": 12825,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "ruvnet/wifi-densepose": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-02",
+      "days_on_list": 6,
+      "last_stars": 13400,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-31"
+    },
+    "anthropics/skills": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-02",
+      "days_on_list": 7,
+      "last_stars": 80300,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-05-31"
+    },
+    "muratcankoylan/Agent-Skills-for-Context-Engineering": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-30",
+      "days_on_list": 3,
+      "last_stars": 12778,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "alibaba/OpenSandbox": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-05-30",
+      "days_on_list": 4,
+      "last_stars": 2505,
+      "category": "tools",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": ""
+    },
+    "clockworklabs/SpacetimeDB": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-13",
+      "days_on_list": 5,
+      "last_stars": 23046,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-06"
+    },
+    "tursodatabase/agentfs": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-12",
+      "days_on_list": 5,
+      "last_stars": 2600,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-08"
+    },
+    "astral-sh/uv": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-07-17",
+      "days_on_list": 1,
+      "last_stars": 87554,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-02"
+    },
+    "derv82/wifite2": {
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-06-02",
+      "days_on_list": 6,
+      "last_stars": 7680,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-31"
+    },
+    "mattpocock/skills": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-20",
+      "days_on_list": 2,
+      "last_stars": 94108,
+      "category": "llm",
+      "language": "Shell",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T00:00:00Z"
+    },
+    "farion1231/cc-switch": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-14",
+      "days_on_list": 3,
+      "last_stars": 69726,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T07:49:36Z"
+    },
+    "ruvnet/ruflo": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-14",
+      "days_on_list": 1,
+      "last_stars": 50220,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T17:34:12Z"
+    },
+    "github/spec-kit": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 120479,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T22:50:39Z"
+    },
+    "NousResearch/hermes-agent": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-06-02",
+      "days_on_list": 7,
+      "last_stars": 1280,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-31"
+    },
+    "CloakHQ/CloakBrowser": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 28827,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-04-28T03:44:50Z"
+    },
+    "rohitg00/agentmemory": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-16",
+      "days_on_list": 4,
+      "last_stars": 9539,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-05-15T18:59:06Z"
+    },
+    "decolua/9router": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-14",
+      "days_on_list": 2,
+      "last_stars": 9819,
+      "category": "llm",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T15:54:39Z"
+    },
+    "apernet/hysteria": {
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "days_on_list": 1,
+      "last_stars": 21341,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-10T17:44:28Z"
+    },
+    "zizmorcore/zizmor": {
+      "first_seen": "2026-05-14",
+      "last_seen": "2026-05-15",
+      "days_on_list": 2,
+      "last_stars": 4856,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T00:00:00Z"
+    },
+    "domcyrus/rustnet": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-13",
+      "days_on_list": 1,
+      "last_stars": 3080,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T08:28:45Z"
+    },
+    "millionco/react-doctor": {
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 13784,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T04:29:34Z"
+    },
+    "tinyhumansai/openhuman": {
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-05-20",
+      "days_on_list": 4,
+      "last_stars": 20666,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-05-19T07:17:46Z"
+    },
+    "cline/cline": {
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "days_on_list": 1,
+      "last_stars": 61774,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-13T17:25:42Z"
+    },
+    "trufflesecurity/trufflehog": {
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "days_on_list": 1,
+      "last_stars": 26277,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T18:38:34Z"
+    },
+    "mostlygeek/llama-swap": {
+      "first_seen": "2026-05-15",
+      "last_seen": "2026-05-15",
+      "days_on_list": 1,
+      "last_stars": 4047,
+      "category": "llm",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-14T05:14:07Z"
+    },
+    "addyosmani/agent-skills": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-12",
+      "days_on_list": 5,
+      "last_stars": 39358,
+      "category": "llm",
+      "language": "Shell",
+      "graduated": true,
+      "last_pushed_at": "2026-04-28T04:39:22Z"
+    },
+    "Hmbown/DeepSeek-TUI": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-12",
+      "days_on_list": 5,
+      "last_stars": 25074,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-05-11T00:05:18Z"
+    },
+    "anthropics/financial-services": {
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-05-20",
+      "days_on_list": 1,
+      "last_stars": 25868,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "moonD4rk/HackBrowserData": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-12",
+      "days_on_list": 2,
+      "last_stars": 13995,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-04-29T00:00:00Z"
+    },
+    "InsForge/InsForge": {
+      "first_seen": "2026-05-12",
+      "last_seen": "2026-05-12",
+      "days_on_list": 1,
+      "last_stars": 9439,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-11T00:00:00Z"
+    },
+    "bytedance/UI-TARS-desktop": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 31975,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "microsoft/waza": {
+      "first_seen": "2026-05-11",
+      "last_seen": "2026-05-11",
+      "days_on_list": 1,
+      "last_stars": 568,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "soxoj/maigret": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-10",
+      "days_on_list": 3,
+      "last_stars": 26368,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "VectifyAI/PageIndex": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-30",
+      "days_on_list": 4,
+      "last_stars": 19412,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": ""
+    },
+    "masterking32/MasterDnsVPN": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 2385,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "LearningCircuit/local-deep-research": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-10",
+      "days_on_list": 1,
+      "last_stars": 6956,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-07-06",
+      "days_on_list": 1,
+      "last_stars": 45944,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-03"
+    },
+    "enfein/mieru": {
+      "first_seen": "2026-05-10",
+      "last_seen": "2026-05-17",
+      "days_on_list": 1,
+      "last_stars": 1979,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-04-27T03:37:32Z"
+    },
+    "TauricResearch/TradingAgents": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-07-06",
+      "days_on_list": 1,
+      "last_stars": 91047,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-05"
+    },
+    "fleetdm/fleet": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-09",
+      "days_on_list": 2,
+      "last_stars": 6343,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "cilium/cilium": {
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "days_on_list": 1,
+      "last_stars": 24305,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "rtk-ai/rtk": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-06-13",
+      "days_on_list": 2,
+      "last_stars": 44319,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "aaif-goose/goose": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-05-08",
+      "days_on_list": 1,
+      "last_stars": 44638,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "always-further/nono": {
+      "first_seen": "2026-05-08",
+      "last_seen": "2026-06-13",
+      "days_on_list": 4,
+      "last_stars": 2558,
+      "category": "security",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-02"
+    },
+    "ruvnet/RuView": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-20",
+      "days_on_list": 3,
+      "last_stars": 60676,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-18T21:06:38Z"
+    },
+    "czlonkowski/n8n-mcp": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 20837,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-14T10:02:26Z"
+    },
+    "NVIDIA/OpenShell": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-07-12",
+      "days_on_list": 2,
+      "last_stars": 7642,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-09"
+    },
+    "OpenCTI-Platform/opencti": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 9354,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-15T10:17:42Z"
+    },
+    "facebook/pyrefly": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-18",
+      "days_on_list": 3,
+      "last_stars": 6089,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T20:13:51Z"
+    },
+    "komari-monitor/komari": {
+      "first_seen": "2026-05-16",
+      "last_seen": "2026-05-16",
+      "days_on_list": 1,
+      "last_stars": 4635,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-08T04:46:11Z"
+    },
+    "obra/superpowers": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-20",
+      "days_on_list": 4,
+      "last_stars": 198197,
+      "category": "llm",
+      "language": "Shell",
+      "graduated": true,
+      "last_pushed_at": "2026-05-04T22:13:34Z"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-18",
+      "days_on_list": 2,
+      "last_stars": 23724,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-01T18:02:44Z"
+    },
+    "anomalyco/opencode": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-06-22",
+      "days_on_list": 4,
+      "last_stars": 55507,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
+    },
+    "colbymchenry/codegraph": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-19",
+      "days_on_list": 1,
+      "last_stars": 4600,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-18T01:27:17Z"
+    },
+    "KeygraphHQ/shannon": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-20",
+      "days_on_list": 4,
+      "last_stars": 43144,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-05-06T13:02:55Z"
+    },
+    "BigBodyCobain/Shadowbroker": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-20",
+      "days_on_list": 4,
+      "last_stars": 8196,
+      "category": "security",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-05-12T18:15:01Z"
+    },
+    "getsentry/XcodeBuildMCP": {
+      "first_seen": "2026-05-17",
+      "last_seen": "2026-05-17",
+      "days_on_list": 1,
+      "last_stars": 5603,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-12T07:40:43Z"
+    },
+    "tech-leads-club/agent-skills": {
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-05-18",
+      "days_on_list": 1,
+      "last_stars": 3415,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-04-28T05:13:23Z"
+    },
+    "oven-sh/bun": {
+      "first_seen": "2026-05-20",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 94783,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-17"
+    },
+    "HKUDS/CLI-Anything": {
+      "first_seen": "2026-05-18",
+      "last_seen": "2026-06-08",
+      "days_on_list": 4,
+      "last_stars": 36500,
+      "category": "tools",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
+    },
+    "Imbad0202/academic-research-skills": {
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-05-19",
+      "days_on_list": 1,
+      "last_stars": 11320,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-05-18T07:00:00Z"
+    },
+    "memvid/memvid": {
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-06-04",
+      "days_on_list": 5,
+      "last_stars": 13349,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "ki-editor/ki-editor": {
+      "first_seen": "2026-05-23",
+      "last_seen": "2026-06-03",
+      "days_on_list": 1,
+      "last_stars": 791,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-03"
+    },
+    "datagouv/datagouv-mcp": {
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-29",
+      "days_on_list": 1,
+      "last_stars": 686,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "ratatui/ratatui": {
+      "first_seen": "2026-05-24",
+      "last_seen": "2026-05-24",
+      "days_on_list": 1,
+      "last_stars": 18916,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "promptfoo/promptfoo": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-07-05",
+      "days_on_list": 4,
+      "last_stars": 21300,
+      "last_pushed_at": "",
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": true
+    },
+    "snyk/agent-scan": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
+      "last_stars": 2700,
+      "last_pushed_at": "2026-06-23",
+      "category": "security",
+      "language": "Python",
+      "graduated": true
+    },
+    "confident-ai/deepteam": {
+      "first_seen": "2026-05-25",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 1800,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06"
+    },
+    "Tencent/AI-Infra-Guard": {
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-06-15",
+      "days_on_list": 1,
+      "last_stars": 3200,
+      "category": "security",
+      "language": "Go/TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
+    },
+    "NVIDIA/garak": {
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-06-25",
+      "days_on_list": 4,
+      "last_stars": 6900,
+      "category": "security",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
+    },
+    "meta-llama/PurpleLlama": {
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-05-27",
+      "days_on_list": 1,
+      "last_stars": 4100,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "cisco-ai-defense/mcp-scanner": {
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-20",
+      "days_on_list": 4,
+      "last_stars": 900,
+      "last_pushed_at": "2026-06-20",
+      "category": "security",
+      "language": "Python",
+      "graduated": true
+    },
+    "agentscope-ai/QwenPaw": {
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-08",
+      "days_on_list": 1,
+      "last_stars": 17300,
+      "last_pushed_at": "2026-06-08",
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
+    },
+    "lsdefine/GenericAgent": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-05",
+      "days_on_list": 2,
+      "last_stars": 4000,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-05"
+    },
+    "perplexityai/bumblebee": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-18",
+      "days_on_list": 4,
+      "last_stars": 3000,
+      "category": "security",
+      "language": "Go",
+      "graduated": true,
+      "last_pushed_at": "2026-06-18"
+    },
+    "badlogic/pi-mono": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-07",
+      "days_on_list": 4,
+      "last_stars": 54000,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-07",
+      "renamed_to": "earendil-works/pi"
+    },
+    "VulcanLab/IPI-Proxy": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "vaultmcp/vault": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-04",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "biomejs/biome": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-06-11",
+      "days_on_list": 4,
+      "last_stars": 24000,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-06-08"
+    },
+    "microsoft/RAMPART": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-08",
+      "days_on_list": 4,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
+    },
+    "luckyPipewrench/pipelock": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
+      "last_stars": 577,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "HeadyZhang/agent-audit": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-27",
+      "days_on_list": 2,
+      "last_stars": 167,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-03-31"
+    },
+    "sipyourdrink-ltd/bernstein": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-07",
+      "days_on_list": 3,
+      "last_stars": 178,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-07"
+    },
+    "openclaw/openclaw": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-23",
+      "days_on_list": 4,
+      "last_stars": 378000,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-23"
+    },
+    "jd-opensource/xllm": {
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
+      "last_stars": 1300,
+      "last_pushed_at": "2026-04-14",
+      "category": "llm",
+      "language": "C++",
+      "graduated": true
+    },
+    "volcengine/OpenViking": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-09",
+      "days_on_list": 4,
+      "last_stars": 25300,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-08"
+    },
+    "lightseekorg/tokenspeed": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "days_on_list": 1,
+      "last_stars": 636,
+      "category": "llm",
+      "language": "C++",
+      "graduated": false,
+      "last_pushed_at": "2026-06-06"
+    },
+    "affaan-m/agentshield": {
+      "first_seen": "2026-06-06",
+      "last_seen": "2026-06-06",
+      "days_on_list": 1,
+      "last_stars": 626,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-03-22"
+    },
+    "Gen-Verse/OpenClaw-RL": {
+      "first_seen": "2026-06-07",
+      "last_seen": "2026-06-10",
+      "days_on_list": 4,
+      "last_stars": 3100,
+      "last_pushed_at": "2026-06-08",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true
+    },
+    "Justin0504/Aegis": {
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-08",
+      "days_on_list": 1,
+      "last_stars": null,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-08"
+    },
+    "HKUDS/AI-Trader": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-11",
+      "days_on_list": 3,
+      "last_stars": 13700,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "samugit83/redamon": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
+      "last_stars": 2000,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "responsibleai/ASSERT": {
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-12",
+      "days_on_list": 4,
+      "last_stars": 77,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-02"
+    },
+    "openguardrails/openguardrails": {
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-10",
+      "days_on_list": 1,
+      "last_stars": 356,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-03-12"
+    },
+    "backbay-labs/clawdstrike": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-12",
+      "days_on_list": 2,
+      "last_stars": null,
+      "last_pushed_at": "2026-06",
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "Fangcun-AI/SkillWard": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "days_on_list": 1,
+      "last_stars": 61,
+      "last_pushed_at": "2026-06",
+      "category": "security",
+      "language": "Python",
+      "graduated": false
+    },
+    "infiniflow/ragflow": {
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-24",
+      "days_on_list": 4,
+      "last_stars": 61500,
+      "last_pushed_at": "2026-06-23",
+      "category": "llm",
+      "language": "Python",
+      "graduated": true
+    },
+    "praetorian-inc/augustus": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "days_on_list": 1,
+      "last_stars": 252,
+      "category": "security",
+      "language": "Go",
+      "graduated": false
+    },
+    "block/goose": {
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-22",
+      "days_on_list": 4,
+      "last_stars": 23043,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
+    },
+    "OpenHands/OpenHands": {
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-13",
+      "days_on_list": 1,
+      "last_stars": 76500,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-10"
+    },
+    "upstash/context7": {
+      "first_seen": "2026-06-13",
+      "last_seen": "2026-06-22",
+      "days_on_list": 4,
+      "last_stars": 28295,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
+    },
+    "openai/codex": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-07-17",
+      "last_stars": 98822,
+      "last_pushed_at": "2026-07-11",
+      "days_on_list": 1,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false
+    },
+    "anthropics/claude-code": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 44632,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true
+    },
+    "ggml-org/llama.cpp": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-18",
+      "last_stars": 90534,
+      "last_pushed_at": "2026-06-18",
+      "days_on_list": 4,
+      "category": "llm",
+      "language": "C++",
+      "graduated": true
+    },
+    "zed-industries/zed": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-18",
+      "last_stars": 68656,
+      "last_pushed_at": "2026-06-18",
+      "days_on_list": 4,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true
+    },
+    "microsoft/playwright-mcp": {
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "last_stars": 18902,
+      "last_pushed_at": "2026-06-15",
+      "days_on_list": 1,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": true
+    },
+    "NVIDIA/SkillSpector": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "days_on_list": 1,
+      "last_stars": 113,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16"
+    },
+    "langgenius/dify": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-18",
+      "days_on_list": 3,
+      "last_stars": 111490,
+      "category": "llm",
+      "language": "TypeScript/Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-18"
+    },
+    "mem0ai/mem0": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-19",
+      "days_on_list": 4,
+      "last_stars": 40013,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-19"
+    },
+    "github/github-mcp-server": {
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
+      "last_stars": 28400,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-18"
+    },
+    "open-webui/open-webui": {
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-20",
+      "days_on_list": 4,
+      "last_stars": 106013,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-20"
+    },
+    "modelcontextprotocol/servers": {
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-18",
+      "days_on_list": 2,
+      "last_stars": 60557,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-18"
+    },
+    "microsoft/agent-governance-toolkit": {
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-21",
+      "days_on_list": 4,
+      "last_stars": 3600,
+      "graduated": true,
+      "category": "security",
+      "language": "Python",
+      "last_pushed_at": "2026-06-21"
+    },
+    "All-Hands-AI/OpenHands": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-22",
+      "days_on_list": 4,
+      "last_stars": 60650,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-22"
+    },
+    "vllm-project/vllm": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-19",
+      "days_on_list": 1,
+      "last_stars": 57514,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
+    },
+    "utkusen/promptmap": {
+      "first_seen": "2026-06-19",
+      "last_seen": "2026-06-24",
+      "days_on_list": 4,
+      "last_stars": 1200,
+      "category": "security",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-23"
+    },
+    "HKUDS/nanobot": {
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-06-23",
+      "days_on_list": 4,
+      "last_stars": 41800,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-06-23"
+    },
+    "getagentseal/agentseal": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 193,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "vercel-labs/json-render": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-26",
+      "days_on_list": 4,
+      "last_stars": 14200,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-04-11"
+    },
+    "soth-ai/mcp-reticle": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-26",
+      "days_on_list": 4,
+      "last_stars": 111,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-23"
+    },
+    "freestylefly/wesight": {
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "days_on_list": 1,
+      "last_stars": 308,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-01"
+    },
+    "earendil-works/pi": {
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 74556,
+      "last_pushed_at": "2026-06-23",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "MemoriLabs/Memori": {
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-27",
+      "days_on_list": 4,
+      "last_stars": 15000,
+      "last_pushed_at": "2026-05-28",
+      "category": "llm",
+      "language": "Python/TypeScript",
+      "graduated": true
+    },
+    "raindrop-ai/workshop": {
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-25",
+      "days_on_list": 2,
+      "last_stars": 473,
+      "last_pushed_at": "2026-05-14",
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "microsoft/agent-framework": {
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-06-27",
+      "days_on_list": 3,
+      "last_stars": 11700,
+      "category": "llm",
+      "language": "Python/C#",
+      "graduated": false,
+      "last_pushed_at": "2026-05-08"
+    },
+    "sstraus/tuicommander": {
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-27",
+      "days_on_list": 2,
+      "last_stars": 75,
+      "category": "tools",
+      "language": "Rust/TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-05-29"
+    },
+    "zilliztech/claude-context": {
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-07-04",
+      "days_on_list": 2,
+      "last_stars": 8800,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "ComposioHQ/agent-orchestrator": {
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-06-27",
+      "days_on_list": 1,
+      "last_stars": 5800,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "DeusData/codebase-memory-mcp": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-02",
+      "days_on_list": 4,
+      "last_stars": 23000,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-07-01"
+    },
+    "topoteretes/cognee": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-21",
+      "days_on_list": 1,
+      "last_stars": 28702,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-20T15:48:27Z"
+    },
+    "calesthio/OpenMontage": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-02",
+      "days_on_list": 4,
+      "last_stars": 27500,
+      "category": "llm",
+      "language": "Python",
+      "graduated": true,
+      "last_pushed_at": "2026-07-01"
+    },
+    "bytedance/deer-flow": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-04",
+      "days_on_list": 3,
+      "last_stars": 75900,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-25"
+    },
+    "google-labs-code/design.md": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 15800,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-15"
+    },
+    "simplex-chat/simplex-chat": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-06",
+      "days_on_list": 1,
+      "last_stars": 17909,
+      "category": "security",
+      "language": "Haskell",
+      "graduated": false,
+      "last_pushed_at": "2026-06-17"
+    },
+    "opendatalab/MinerU": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "days_on_list": 1,
+      "last_stars": 71653,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-18"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 9600,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-22"
+    },
+    "stablyai/orca": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 21059,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-17"
+    },
+    "usestrix/strix": {
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-14",
+      "days_on_list": 2,
+      "last_stars": 41151,
+      "category": "security",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
+    },
+    "DietrichGebert/ponytail": {
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "days_on_list": 1,
+      "last_stars": 65300,
+      "category": "tools",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-14"
+    },
+    "vercel-labs/deepsec": {
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 6102,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-30"
+    },
+    "msitarzewski/agency-agents": {
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-07-01",
+      "days_on_list": 2,
+      "last_stars": 1300,
+      "category": "llm",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
+    },
+    "cloudflare/security-audit-skill": {
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-06-30",
+      "days_on_list": 1,
+      "last_stars": 1600,
+      "category": "security",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-24"
+    },
+    "bikini/exploitarium": {
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-01",
+      "days_on_list": 1,
+      "last_stars": 2500,
+      "category": "security",
+      "language": "C",
+      "graduated": false,
+      "last_pushed_at": "2026-06-23"
+    },
+    "safishamsi/graphify": {
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "days_on_list": 3,
+      "last_stars": 74600,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
+    },
+    "diegosouzapw/OmniRoute": {
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-22",
+      "days_on_list": 2,
+      "last_stars": 23243,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-13T21:19:15Z"
+    },
+    "deepseek-ai/DeepSpec": {
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-03",
+      "days_on_list": 3,
+      "last_stars": 6000,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
+    },
+    "Panniantong/Agent-Reach": {
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 20900,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
+    },
+    "anomalyco/opentui": {
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
+      "last_stars": 12300,
+      "category": "tools",
+      "language": "TypeScript"
+    },
+    "vibrantlabsai/ragas": {
+      "first_seen": "2026-07-04",
+      "last_seen": "2026-07-04",
+      "days_on_list": 1,
+      "last_stars": 14600,
+      "category": "llm",
+      "language": "Python"
+    },
+    "ogulcancelik/herdr": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-20",
+      "days_on_list": 3,
+      "last_stars": 18312,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-15"
+    },
+    "alibaba/page-agent": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-08",
+      "days_on_list": 4,
+      "last_stars": 24874,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": true,
+      "last_pushed_at": "2026-07-03"
+    },
+    "lfnovo/open-notebook": {
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-07-05",
+      "days_on_list": 1,
+      "last_stars": 33900,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
+    },
+    "openai/codex-plugin-cc": {
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-09",
+      "days_on_list": 4,
+      "last_stars": 26859,
+      "category": "tools",
+      "language": "JavaScript",
+      "graduated": true,
+      "last_pushed_at": "2026-06-23"
+    },
+    "browser-use/video-use": {
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "days_on_list": 1,
+      "last_stars": 14985,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "yaklang/yakit": {
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-08",
+      "days_on_list": 1,
+      "last_stars": 7555,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-03"
+    },
+    "logto-io/logto": {
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "days_on_list": 1,
+      "last_stars": 13804,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-30"
+    },
+    "Zackriya-Solutions/meetily": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-10",
+      "days_on_list": 4,
+      "last_stars": 22138,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": true,
+      "last_pushed_at": "2026-06-05"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-10",
+      "days_on_list": 4,
+      "last_stars": 54994,
+      "category": "security",
+      "language": "JavaScript",
+      "graduated": true,
+      "last_pushed_at": ""
+    },
+    "firecrawl/firecrawl": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "days_on_list": 1,
+      "last_stars": 146032,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-19"
+    },
+    "steipete/CodexBar": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "days_on_list": 1,
+      "last_stars": 16667,
+      "category": "tools",
+      "language": "Swift",
+      "graduated": false,
+      "last_pushed_at": "2026-07-05"
+    },
+    "alibaba/zvec": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-09",
+      "days_on_list": 1,
+      "last_stars": 14325,
+      "category": "llm",
+      "language": "C++",
+      "graduated": false,
+      "last_pushed_at": "2026-06-24"
+    },
+    "Infisical/agent-vault": {
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-07-07",
+      "days_on_list": 1,
+      "last_stars": 1822,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-24"
+    },
+    "CoplayDev/unity-mcp": {
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "days_on_list": 1,
+      "last_stars": 12198,
+      "category": "tools",
+      "language": "C#",
+      "graduated": false
+    },
+    "TencentCloud/CubeSandbox": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-16",
+      "days_on_list": 3,
+      "last_stars": 10278,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-03"
+    },
+    "vxcontrol/pentagi": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-14",
+      "days_on_list": 1,
+      "last_stars": 20361,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-05-29"
+    },
+    "iOfficeAI/OfficeCLI": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-21",
+      "days_on_list": 1,
+      "last_stars": 20090,
+      "category": "tools",
+      "language": "C#",
+      "graduated": false,
+      "last_pushed_at": "2026-07-19T05:22:37Z"
+    },
+    "bradautomates/claude-video": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-11",
+      "days_on_list": 3,
+      "last_stars": 7115,
+      "category": "tools",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-01"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-07-10",
+      "days_on_list": 2,
+      "last_stars": 7994,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "MadsLorentzen/ai-job-search": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "days_on_list": 1,
+      "last_stars": 18328,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "can1357/oh-my-pi": {
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-07-10",
+      "days_on_list": 1,
+      "last_stars": 16986,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "charmbracelet/crush": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-12",
+      "days_on_list": 2,
+      "last_stars": 26467,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "LMCache/LMCache": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "days_on_list": 1,
+      "last_stars": 10381,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-06"
+    },
+    "huggingface/speech-to-speech": {
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "days_on_list": 1,
+      "last_stars": 5987,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-11"
+    },
+    "projectdiscovery/nuclei": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 29726,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-07-06"
+    },
+    "malisper/pgrust": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-14",
+      "days_on_list": 3,
+      "last_stars": 2785,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-10"
+    },
+    "rowboatlabs/rowboat": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 16142,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "google/gvisor": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 18834,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "davila7/claude-code-templates": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 28967,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "google/adk-go": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 8530,
+      "category": "llm",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-30"
+    },
+    "wonderwhy-er/DesktopCommanderMCP": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-14",
+      "days_on_list": 3,
+      "last_stars": 8166,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-10"
+    },
+    "openai/plugins": {
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "days_on_list": 1,
+      "last_stars": 4362,
+      "category": "llm",
+      "language": "JavaScript",
+      "graduated": false,
+      "last_pushed_at": ""
+    },
+    "Dicklesworthstone/destructive_command_guard": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 5263,
+      "category": "security",
+      "language": "Rust",
+      "graduated": false
+    },
+    "virattt/ai-hedge-fund": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 61338,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-10"
+    },
+    "astral-sh/ruff": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 48540,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
+    },
+    "pydantic/pydantic-ai": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 18448,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "Infisical/infisical": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-13",
+      "days_on_list": 1,
+      "last_stars": 27867,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-11"
+    },
+    "ColeMurray/background-agents": {
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-07-14",
+      "days_on_list": 2,
+      "last_stars": 2404,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-12"
+    },
+    "HKUDS/Vibe-Trading": {
+      "first_seen": "2026-07-14",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 24580,
+      "category": "llm",
+      "language": "Python",
+      "last_pushed_at": "2026-07-17",
+      "graduated": false
+    },
+    "QuantumNous/new-api": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "days_on_list": 2,
+      "last_stars": 42331,
+      "category": "llm",
+      "language": "Go"
+    },
+    "browseros-ai/BrowserOS": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "days_on_list": 2,
+      "last_stars": 12205,
+      "category": "llm",
+      "language": "TypeScript"
+    },
+    "PrimeIntellect-ai/verifiers": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 4350,
+      "category": "llm",
+      "language": "Python"
+    },
+    "Tencent/WeKnora": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 18281,
+      "category": "llm",
+      "language": "Go"
+    },
+    "agentgateway/agentgateway": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-16",
+      "days_on_list": 2,
+      "last_stars": 3876,
+      "category": "security",
+      "language": "Rust"
+    },
+    "chenhg5/cc-connect": {
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "days_on_list": 1,
+      "last_stars": 13976,
+      "category": "tools",
+      "language": "Go"
+    },
+    "Graphify-Labs/graphify": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "days_on_list": 2,
+      "last_stars": 88768,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
+    },
+    "openinterpreter/openinterpreter": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 66637,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-18"
+    },
+    "screenpipe/screenpipe": {
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-16",
+      "days_on_list": 1,
+      "last_stars": 20079,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false
+    },
+    "HKUDS/DeepTutor": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "days_on_list": 1,
+      "last_stars": 26782,
+      "category": "llm",
+      "language": "Python"
+    },
+    "PostHog/posthog": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "days_on_list": 1,
+      "last_stars": 35759,
+      "category": "tools",
+      "language": "Python"
+    },
+    "chaitin/SafeLine": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "days_on_list": 1,
+      "last_stars": 21848,
+      "category": "security",
+      "language": "Go"
+    },
+    "openbao/openbao": {
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-07-17",
+      "days_on_list": 1,
+      "last_stars": 6679,
+      "category": "security",
+      "language": "Go"
+    },
+    "Nutlope/hallmark": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 11842,
+      "category": "llm",
+      "language": "CSS",
+      "graduated": false,
+      "last_pushed_at": "2026-06-04"
+    },
+    "dstotijn/hetty": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 11873,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-27"
+    },
+    "safing/portmaster": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-21",
+      "days_on_list": 2,
+      "last_stars": 13326,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-06-16T08:35:18Z"
+    },
+    "fingerprintjs/fingerprintjs": {
+      "first_seen": "2026-07-18",
+      "last_seen": "2026-07-18",
+      "days_on_list": 1,
+      "last_stars": 27878,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-06-10"
+    },
+    "SigNoz/signoz": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 31107,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-15"
+    },
+    "tursodatabase/turso": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 23158,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-13"
+    },
+    "lyogavin/airllm": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 23584,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false,
+      "last_pushed_at": "2026-06-30"
+    },
+    "rivet-dev/agentos": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 3884,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false,
+      "last_pushed_at": "2026-07-07"
+    },
+    "elder-plinius/G0DM0D3": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
+      "days_on_list": 2,
+      "last_stars": 9651,
+      "category": "security",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-15"
+    },
+    "Ed1s0nZ/CyberStrikeAI": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 5195,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-07-16"
+    },
+    "anchore/grype": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 12586,
+      "category": "security",
+      "language": "Go",
+      "graduated": false,
+      "last_pushed_at": "2026-07-16"
+    },
+    "musistudio/claude-code-router": {
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-19",
+      "days_on_list": 1,
+      "last_stars": 35889,
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false,
+      "last_pushed_at": "2026-07-15"
+    },
+    "jamiepine/voicebox": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
+      "days_on_list": 2,
+      "last_stars": 44040,
+      "category": "llm",
+      "language": "TypeScript",
+      "last_pushed_at": "2026-04-25T22:46:53Z",
+      "graduated": false
+    },
+    "tirth8205/code-review-graph": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-22",
+      "days_on_list": 3,
+      "last_stars": 24413,
+      "category": "tools",
+      "language": "Python/TypeScript",
+      "last_pushed_at": "2026-07-18T00:33:57Z",
+      "graduated": false
+    },
+    "MoonshotAI/kimi-cli": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 9817,
+      "category": "llm",
+      "language": "Python"
+    },
+    "kvcache-ai/ktransformers": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-21",
+      "days_on_list": 2,
+      "last_stars": 18695,
+      "category": "llm",
+      "language": "Python",
+      "last_pushed_at": "2026-06-21T09:40:28Z",
+      "graduated": false
+    },
+    "TecharoHQ/anubis": {
+      "first_seen": "2026-07-20",
+      "last_seen": "2026-07-20",
+      "days_on_list": 1,
+      "last_stars": 20789,
+      "category": "security",
+      "language": "Go"
+    },
+    "every-app/open-seo": {
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-22",
+      "last_stars": 6467,
+      "last_pushed_at": "2026-07-19T06:19:44Z",
+      "days_on_list": 2,
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "AlexsJones/llmfit": {
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "last_stars": 29875,
+      "last_pushed_at": "2026-07-19T21:44:16Z",
+      "days_on_list": 1,
+      "category": "tools",
+      "language": "Rust",
+      "graduated": false
+    },
+    "megadose/holehe": {
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "last_stars": 11745,
+      "last_pushed_at": null,
+      "days_on_list": 1,
+      "category": "security",
+      "language": "Python",
+      "graduated": false
+    },
+    "1jehuang/jcode": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 10212,
+      "category": "llm",
+      "language": "Rust",
+      "graduated": false
+    },
+    "AstrBotDevs/AstrBot": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 37413,
+      "category": "llm",
+      "language": "Python",
+      "graduated": false
+    },
+    "schollz/croc": {
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-22",
+      "days_on_list": 1,
+      "last_stars": 36651,
+      "category": "tools",
+      "language": "Go",
+      "graduated": false
+    }
+  },
+  "last_updated": "2026-07-22",
+  "updated": "2026-07-22",
+  "last_run": "2026-07-20"
 }
