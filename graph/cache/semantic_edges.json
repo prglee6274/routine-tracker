@@ -1,518 +1,530 @@
 {
-  "2510.02917->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAE decomposition to code generation"
-  },
-  "2601.02978->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs for monosemantic feature labeling"
-  },
-  "2601.03047->2605.29358": {
-    "type": "background",
-    "evidence": "cited within Anthropic SAE publication lineage"
-  },
-  "2601.20885->2510.05582": {
-    "type": "compares",
-    "evidence": "contrasts InfoRMIA among related MIA methods"
-  },
-  "2601.22447->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on SAEs to interpret features"
-  },
-  "2602.05444->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAE mono-semantic feature isolation"
-  },
-  "2602.05859->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAEs to diffusion language models"
-  },
-  "2602.12418->2605.29358": {
-    "type": "extends",
-    "evidence": "turns to SAEs for jailbreak defense"
-  },
-  "2603.19183->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs on VLA model features"
-  },
-  "2604.16548->2603.21654": {
-    "type": "background",
-    "evidence": "reference-list-only, RAG security background"
-  },
-  "2605.03160->2605.29358": {
-    "type": "rebuts",
-    "evidence": "single-feature protocol mislabels causal axes"
-  },
-  "2605.04072->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAE methodology to clinical models"
-  },
-  "2605.05151->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs for time series interpretability"
-  },
-  "2605.05892->2605.29358": {
-    "type": "background",
-    "evidence": "reference-list-only, steering background context"
-  },
-  "2605.06342->2605.29358": {
-    "type": "background",
-    "evidence": "appears only in reference list"
-  },
-  "2605.06494->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on SAE features via graph motifs"
-  },
-  "2605.06610->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on scaled SAE methods"
-  },
-  "2605.07990->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to identify features"
-  },
-  "2605.08012->2605.29358": {
-    "type": "rebuts",
-    "evidence": "challenges unstated recoverability assumptions of monosemanticity"
-  },
-  "2605.08513->2605.29358": {
-    "type": "extends",
-    "evidence": "leverages SAE safety-relevant feature findings"
-  },
-  "2605.08934->2605.29358": {
-    "type": "background",
-    "evidence": "cites SAE control as motivation"
-  },
-  "2605.09887->2605.29358": {
-    "type": "extends",
-    "evidence": "studies SAE scaling laws building on method"
-  },
-  "2605.12225->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAEs to ASR models"
-  },
-  "2605.13930->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAEs to EEG foundation models"
-  },
-  "2605.18133->2605.03378": {
-    "type": "background",
-    "evidence": "cites context-aware defenses as related work"
-  },
-  "2605.23035->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs for brain-LLM feature decomposition"
-  },
-  "2605.23036->2605.29358": {
-    "type": "extends",
-    "evidence": "builds SAEs for multilingual steering"
-  },
-  "2605.25525->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on production-scale SAE methods"
-  },
-  "2605.27819->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on and addresses SAE intervention degradation"
-  },
-  "2605.28896->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAE toolkit to LoRA adapters"
-  },
-  "2605.29888->2605.05115": {
-    "type": "background",
-    "evidence": "cites representation-steering direction as background"
-  },
-  "2605.29901->2605.29358": {
-    "type": "background",
-    "evidence": "mechanistic interpretability background context"
-  },
-  "2605.30031->2605.04700": {
-    "type": "background",
-    "evidence": "surveys audio jailbreak attack methods"
-  },
-  "2605.30031->2605.18168": {
-    "type": "background",
-    "evidence": "surveys audio jailbreak attack variants"
-  },
-  "2605.30049->2605.10180": {
-    "type": "background",
-    "evidence": "cites DiT safety intervention related work"
-  },
-  "2605.31183->2605.29358": {
-    "type": "baseline",
-    "evidence": "compares SAEs against simple steering baselines"
-  },
-  "2605.31304->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on SAEs for disentangling polysemanticity"
-  },
-  "2605.31518->2605.29358": {
-    "type": "rebuts",
-    "evidence": "feature-revival techniques remain ineffective on death"
-  },
-  "2606.01479->2605.29358": {
-    "type": "extends",
-    "evidence": "applies SAEs to TTS emotion control"
-  },
-  "2606.02385->2605.29358": {
-    "type": "extends",
-    "evidence": "develops theory of Templeton's SAE formulation"
-  },
-  "2606.03002->2605.29358": {
-    "type": "extends",
-    "evidence": "analyzes quantization effects on SAE features"
-  },
-  "2606.04160->2605.29358": {
-    "type": "background",
-    "evidence": "cited as frontier LLM developer"
-  },
-  "2606.04284->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAE sparsity for interpretable units"
-  },
-  "2606.05566->2605.23196": {
-    "type": "rebuts",
-    "evidence": "reports guardrail detection collapse and bypass"
-  },
-  "2606.06315->2605.29358": {
-    "type": "extends",
-    "evidence": "proposes interpreting steered features via SAEs"
-  },
-  "2606.06387->2604.01905": {
-    "type": "background",
-    "evidence": "cites tool-attribute steering as related risk"
-  },
-  "2606.06784->2511.14045": {
-    "type": "background",
-    "evidence": "reference-list-only, privacy leakage background"
-  },
-  "2606.07007->2605.29358": {
-    "type": "extends",
-    "evidence": "theorizes SAE concept learning and polysemanticity"
-  },
-  "2606.07943->2603.17368": {
-    "type": "background",
-    "evidence": "reference-list-only, reasoning-model safety background"
-  },
-  "2606.09850->2605.29358": {
-    "type": "background",
-    "evidence": "LLM scaling and interpretability background"
-  },
-  "2606.10062->2604.16548": {
-    "type": "background",
-    "evidence": "reference-list-only, agent memory background"
-  },
-  "2606.10080->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to decompose activations"
-  },
-  "2606.10481->2606.09401": {
-    "type": "extends",
-    "evidence": "benchmarks canaries following their LoRA methodology"
-  },
-  "2606.10989->2605.01735": {
-    "type": "background",
-    "evidence": "reference-list-only, unlearning related work"
-  },
-  "2606.11425->2605.01687": {
-    "type": "background",
-    "evidence": "reference-list-only, jailbreak benchmark background"
-  },
-  "2606.11722->2605.29358": {
-    "type": "compares",
-    "evidence": "contrasts SAE costs with training-free method"
-  },
-  "2606.12360->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to characterize data concepts"
-  },
-  "2606.12629->2605.29358": {
-    "type": "compares",
-    "evidence": "contrasts SAE learned rotations with training-free approach"
-  },
-  "2606.15092->2605.29358": {
-    "type": "background",
-    "evidence": "SAE steering context, uses alternative method"
-  },
-  "2606.15165->2601.18110": {
-    "type": "background",
-    "evidence": "reference-list-only, MIA related work"
-  },
-  "2606.16193->2605.29358": {
-    "type": "extends",
-    "evidence": "builds cascaded SAEs on multimodal LLMs"
-  },
-  "2606.18322->2605.29358": {
-    "type": "rebuts",
-    "evidence": "reports SAE interventions unreliable, behavior recovers"
-  },
-  "2606.18389->2605.23036": {
-    "type": "background",
-    "evidence": "reference-list-only, activation steering background"
-  },
-  "2606.19831->2605.08513": {
-    "type": "extends",
-    "evidence": "builds on single-neuron refusal-gating findings"
-  },
-  "2606.19831->2605.12290": {
-    "type": "extends",
-    "evidence": "builds on targeted neuron modulation work"
-  },
-  "2606.19946->2606.06735": {
-    "type": "extends",
-    "evidence": "builds on angle-norm steering geometry"
-  },
-  "2606.20347->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to extract interpretable features"
-  },
-  "2606.20408->2605.01687": {
-    "type": "background",
-    "evidence": "appears only in reference list"
-  },
-  "2606.22673->2605.12671": {
-    "type": "extends",
-    "evidence": "builds on circuit and functional-anisotropy analysis"
-  },
-  "2606.24026->2605.01555": {
-    "type": "compares",
-    "evidence": "contrasts feature-focus with their circuit explanation"
-  },
-  "2606.24322->2604.16548": {
-    "type": "background",
-    "evidence": "reference-list-only, memory security survey"
-  },
-  "2606.24322->2605.29960": {
-    "type": "background",
-    "evidence": "reference-list-only, memory trojan attack"
-  },
-  "2606.24388->2605.01687": {
-    "type": "compares",
-    "evidence": "contrasts MultiBreak multi-turn focus complementarily"
-  },
-  "2606.24408->2606.09401": {
-    "type": "background",
-    "evidence": "privacy audit related work background"
-  },
-  "2606.24496->2605.17634": {
-    "type": "background",
-    "evidence": "cites prompt-injection risk as background"
-  },
-  "2606.24716->2605.29358": {
-    "type": "extends",
-    "evidence": "evaluates SAE interpretability via annotations"
-  },
-  "2606.25182->2602.11495": {
-    "type": "background",
-    "evidence": "jailbreak detection background context"
-  },
-  "2606.25657->2605.29358": {
-    "type": "extends",
-    "evidence": "uses large SAE dictionaries for VLMs"
-  },
-  "2606.26396->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to disentangle transformer concepts"
-  },
-  "2606.26474->2605.29358": {
-    "type": "extends",
-    "evidence": "uses SAEs to decompose model activations"
-  },
-  "2606.26620->2605.29358": {
-    "type": "extends",
-    "evidence": "builds on effectiveness of scaled SAEs"
-  },
-  "2606.26627->2605.26269": {
-    "type": "background",
-    "evidence": "cites agent privacy benchmark as related work"
-  },
-  "2606.26627->2606.10749": {
-    "type": "background",
-    "evidence": "cites secure-agent survey as related work"
-  },
-  "2606.30566->2606.04329": {
-    "type": "background",
-    "evidence": "reference-list-only, memory poisoning study"
-  },
-  "2606.30566->2606.04425": {
-    "type": "background",
-    "evidence": "reference-list-only, stored prompt injection"
-  },
-  "2606.31208->2606.09401": {
-    "type": "background",
-    "evidence": "privacy protection benchmark background context"
-  },
-  "2606.31394->2605.29358": {
-    "type": "extends",
-    "evidence": "trains SAEs to resolve superposition"
-  },
-  "2607.00481->2605.05058": {
-    "type": "background",
-    "evidence": "SMT(jailbreak attack)가 재현·비교 맥락에서 SoK(LLM 탈옥 강건성 서베이)의 JailbreakBench 범주/ASR 프레임을 배경으로 인용"
-  },
-  "2607.01793->2605.29801": {
-    "type": "background",
-    "evidence": "참고문헌 [50]에서 AI 에이전트 안전/보안 정렬 프레임워크(AgentDoG 1.5)를 관련 선행 연구로 나열 인용."
-  },
-  "2607.01799->2605.29358": {
-    "type": "background",
-    "evidence": "SAE의 기반 문헌(Bricken/Gao/Templeton 등)을 묶어 인용한 도입부 배경 — Scaling Monosemanticity를 SAE 패러다임의 토대로 언급."
-  },
-  "2607.02121->2605.23196": {
-    "type": "background",
-    "evidence": "cites Prompt Overflow within a list of prior guardrail systems as related work"
-  },
-  "2607.02510->2605.06605": {
-    "type": "background",
-    "evidence": "references multi-turn jailbreak budget-allocation evaluation as related monitoring/efficiency context"
-  },
-  "2607.02357->2606.07131": {
-    "type": "background",
-    "evidence": "참고문헌에서 악성 에이전트 스킬 런타임 검증 벤치마크(MalSkillBench)를 관련 선행 연구로 인용 — 직접 비교/확장 문장 근거는 없음."
-  },
-  "2607.02357->2606.19191": {
-    "type": "background",
-    "evidence": "에이전트 스킬 생태계 악성 코드 주입 공격(PhantomSkill)을 관련 공격 선행 연구로 참고문헌 인용 — in-text 직접 비교 근거 없음."
-  },
-  "2607.04525->2607.04523": {
-    "type": "extends",
-    "evidence": "Same-group companion work: the concept-geometry paper builds on the prior study of whether core conceptual distinctions can be learned from language statistics, extending it from a single distinction to a general point-cloud/vector-field account of concept representation and contextual transformation."
-  },
-  "2607.05355->2605.08513": {
-    "type": "extends",
-    "evidence": "Cited as prior evidence that individual neurons causally control safety behavior (\"a single neuron is sufficient to bypass safety alignment\"); this work extends that into a systematic causal audit of neuron-row selectors, showing attributed rows are sufficient to install refusal on hate/crime."
-  },
-  "2607.05120->2605.28999": {
-    "type": "compares",
-    "evidence": "Distinguishes its ADI category from concurrent work by Zhang et al. that also calls its attack \"data injection\" (visually concealed resume content), noting the injected content is processed differently than in ADI."
-  },
-  "2607.07316->2602.11180": {
-    "type": "background",
-    "evidence": "cites companion mechanistic-interpretability-for-alignment survey as related field overview"
-  },
-  "2607.07316->2603.19183": {
-    "type": "background",
-    "evidence": "cites SAE-in-VLA work as example of sparse-autoencoder feature extraction and steering"
-  },
-  "2607.07316->2605.29358": {
-    "type": "background",
-    "evidence": "reports Templeton et al. Scaling Monosemanticity finding that higher monosemanticity need not reduce performance"
-  },
-  "2607.07433->2607.02357": {
-    "type": "background",
-    "evidence": "reference-list citation to related agent-skill-malware detection work"
-  },
-  "2607.06807->2605.29358": {
-    "type": "background",
-    "evidence": "AcMAS analyzes agent activation space for malicious-behavior detection; cites Scaling Monosemanticity / SAE work as interpretability foundation in references."
-  },
-  "2607.07989->2606.02995": {
-    "type": "background",
-    "evidence": "Failure-localization in multi-agent systems cites Patcher (post-hoc backdoor patching of LLMs) as related work on attributing/repairing model failures."
-  },
-  "2607.08011->2606.02995": {
-    "type": "background",
-    "evidence": "CodeTracer(포렌식 귀속)가 Patcher(백도어 사후 패칭)를 백도어 LLM 방어 연구 지형의 배경 문헌으로 인용; 동일 태스크 베이스라인이 아니라 상이한 접근(귀속 vs 완화)"
-  },
-  "2607.02714->2605.29358": {
-    "type": "background",
-    "evidence": "Cites Scaling Monosemanticity when framing the linear-representation hypothesis as central to mechanistic interpretability in Background & Related Work."
-  },
-  "2607.09156->2605.01167": {
-    "type": "compares",
-    "evidence": "Runs a matched-norm control building on this work to confirm the reported coupling rescaling is direction-specific, not generic residual-stream perturbation."
-  },
-  "2607.09156->2605.10664": {
-    "type": "background",
-    "evidence": "Positions against prior additive-steering-in-agent-loops work when reviewing related activation-steering methods."
-  },
-  "2607.09156->2606.19946": {
-    "type": "compares",
-    "evidence": "Contrasts its capability-matched control against GEMS's norm-accumulation/superposition account, ruling that out as generic degradation."
-  },
-  "2607.09156->2606.22673": {
-    "type": "compares",
-    "evidence": "Contrasts with concurrent AgentLens, which builds in-agent safety-steering subspaces but lacks the chat-vs-agent comparison this paper introduces."
-  },
-  "2607.09156->2607.05790": {
-    "type": "extends",
-    "evidence": "Takes prior chat-extracted steering vectors proposed as control/monitoring primitives and tests whether the control half survives chat-to-agent transfer."
-  },
-  "2607.09532->2605.04209": {
-    "type": "extends",
-    "evidence": "Builds on prior 'undetectable backdoors in model parameters' by strengthening to statistically-undetectable backdoors (close in total-variation distance) in deep feedforward nets."
-  },
-  "2607.11698->2605.10067": {
-    "type": "background",
-    "evidence": "Cited in related-work list alongside other jailbreak/red-team methods (Metis: self-evolving metacognitive jailbreak); situates AHA among agentic red-teaming prior work."
-  },
-  "2607.11698->2605.24659": {
-    "type": "background",
-    "evidence": "Cited as prior indirect-prompt-injection attack (IterInject) covering part of the attack surface AHA red-teams; reference-list context, not a benchmarked baseline."
-  },
-  "2607.11871->2605.01844": {
-    "type": "background",
-    "evidence": "Representation/steering foundation (Cylindrical Representation Hypothesis for LM steering) underpinning the paper's hidden-state subspace steering of judges."
-  },
-  "2607.11871->2605.29358": {
-    "type": "background",
-    "evidence": "Foundational SAE/interpretability reference (Scaling Monosemanticity, Claude 3 Sonnet); reference-list only."
-  },
-  "2607.12166->2605.29358": {
-    "type": "background",
-    "evidence": "cites Scaling Monosemanticity as the canonical SAE-feature interpretability reference while auditing SAE evaluation metrics"
-  },
-  "2607.12279->2605.05115": {
-    "type": "extends",
-    "evidence": "countdown subcircuit representation shares the same 1D-manifold geometry described in the cited shared-geometry work (Gurnee et al.)"
-  },
-  "2607.12624->2605.29358": {
-    "type": "background",
-    "evidence": "reference-list citation to Scaling Monosemanticity within activation/latent-concept interpretability lineage"
-  },
-  "2607.12624->2606.07335": {
-    "type": "background",
-    "evidence": "related latent/manifold-space defense against LLM attacks; cited as related defense work"
-  },
-  "2607.13081->2606.22873": {
-    "type": "extends",
-    "evidence": "SingGuard-NSFA is the same Ant Group team's follow-up that extends the earlier SingGuard policy-adaptive guardrail into an extensible agentic-AI framework."
-  },
-  "2607.13081->2605.29801": {
-    "type": "background",
-    "evidence": "Cited in related-work survey of agent-security approaches (execution-trace monitoring, access control) as prior context, not a direct baseline."
-  },
-  "2607.13346->2605.29358": {
-    "type": "background",
-    "evidence": "Cited in 'representation engineering for safety' lineage (Templeton et al. SAE features); the refusal direction builds on this interpretability tradition."
-  },
-  "2607.13899->2605.29358": {
-    "type": "background",
-    "evidence": "Cited among current interpretability works (case studies/localized analyses) that motivate the challenge's push toward comparable, generalizable evaluation."
-  },
-  "2607.14811->2603.21654": {
-    "type": "background",
-    "evidence": "Cites a comprehensive review of RAG threats/defenses/benchmarks in the reference list to establish the RAG-security landscape."
-  },
-  "2607.14943->2603.19183": {
-    "type": "extends",
-    "evidence": "Builds on the interpretable/steerable-features-in-VLA line (SAE-based steering), extending mechanistic-interpretability-driven activation steering to World Action Models under the shared linear-feature-direction assumption."
-  },
-  "2607.14651->2604.16548": {
-    "type": "background",
-    "evidence": "MemPoison cites this survey on the security of long-term memory in LLM agents to frame its threat model / motivate persistent-memory attacks; survey-as-background."
-  },
-  "2607.15495->2605.29358": {
-    "type": "background",
-    "evidence": "J-lens 실험을 Sonnet에서 수행하며 SAE/monosemanticity 해석성 계보를 배경으로 인용 (방법을 확장·비교하지 않음)"
-  },
-  "2607.15893->2602.05859": {
-    "type": "background",
-    "evidence": "'DLM의 내부 메커니즘은 거의 알려지지 않았다'며 DLM 해석성 관련 연구(DLM-Scope 등)를 관련연구로 위치시킴"
-  },
-  "2607.15893->2605.29358": {
-    "type": "background",
-    "evidence": "잔차 스트림에 표현된 정보를 연구하는 probing·sparse-feature 방법의 예로 Scaling Monosemanticity를 인용"
-  }
+ "2510.02917->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE decomposition to code generation"
+ },
+ "2601.02978->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for monosemantic feature labeling"
+ },
+ "2601.03047->2605.29358": {
+  "type": "background",
+  "evidence": "cited within Anthropic SAE publication lineage"
+ },
+ "2601.20885->2510.05582": {
+  "type": "compares",
+  "evidence": "contrasts InfoRMIA among related MIA methods"
+ },
+ "2601.22447->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAEs to interpret features"
+ },
+ "2602.05444->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAE mono-semantic feature isolation"
+ },
+ "2602.05859->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to diffusion language models"
+ },
+ "2602.12418->2605.29358": {
+  "type": "extends",
+  "evidence": "turns to SAEs for jailbreak defense"
+ },
+ "2603.19183->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs on VLA model features"
+ },
+ "2604.16548->2603.21654": {
+  "type": "background",
+  "evidence": "reference-list-only, RAG security background"
+ },
+ "2605.03160->2605.29358": {
+  "type": "rebuts",
+  "evidence": "single-feature protocol mislabels causal axes"
+ },
+ "2605.04072->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE methodology to clinical models"
+ },
+ "2605.05151->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for time series interpretability"
+ },
+ "2605.05892->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list-only, steering background context"
+ },
+ "2605.06342->2605.29358": {
+  "type": "background",
+  "evidence": "appears only in reference list"
+ },
+ "2605.06494->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAE features via graph motifs"
+ },
+ "2605.06610->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on scaled SAE methods"
+ },
+ "2605.07990->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to identify features"
+ },
+ "2605.08012->2605.29358": {
+  "type": "rebuts",
+  "evidence": "challenges unstated recoverability assumptions of monosemanticity"
+ },
+ "2605.08513->2605.29358": {
+  "type": "extends",
+  "evidence": "leverages SAE safety-relevant feature findings"
+ },
+ "2605.08934->2605.29358": {
+  "type": "background",
+  "evidence": "cites SAE control as motivation"
+ },
+ "2605.09887->2605.29358": {
+  "type": "extends",
+  "evidence": "studies SAE scaling laws building on method"
+ },
+ "2605.12225->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to ASR models"
+ },
+ "2605.13930->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to EEG foundation models"
+ },
+ "2605.18133->2605.03378": {
+  "type": "background",
+  "evidence": "cites context-aware defenses as related work"
+ },
+ "2605.23035->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs for brain-LLM feature decomposition"
+ },
+ "2605.23036->2605.29358": {
+  "type": "extends",
+  "evidence": "builds SAEs for multilingual steering"
+ },
+ "2605.25525->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on production-scale SAE methods"
+ },
+ "2605.27819->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on and addresses SAE intervention degradation"
+ },
+ "2605.28896->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAE toolkit to LoRA adapters"
+ },
+ "2605.29888->2605.05115": {
+  "type": "background",
+  "evidence": "cites representation-steering direction as background"
+ },
+ "2605.29901->2605.29358": {
+  "type": "background",
+  "evidence": "mechanistic interpretability background context"
+ },
+ "2605.30031->2605.04700": {
+  "type": "background",
+  "evidence": "surveys audio jailbreak attack methods"
+ },
+ "2605.30031->2605.18168": {
+  "type": "background",
+  "evidence": "surveys audio jailbreak attack variants"
+ },
+ "2605.30049->2605.10180": {
+  "type": "background",
+  "evidence": "cites DiT safety intervention related work"
+ },
+ "2605.31183->2605.29358": {
+  "type": "baseline",
+  "evidence": "compares SAEs against simple steering baselines"
+ },
+ "2605.31304->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on SAEs for disentangling polysemanticity"
+ },
+ "2605.31518->2605.29358": {
+  "type": "rebuts",
+  "evidence": "feature-revival techniques remain ineffective on death"
+ },
+ "2606.01479->2605.29358": {
+  "type": "extends",
+  "evidence": "applies SAEs to TTS emotion control"
+ },
+ "2606.02385->2605.29358": {
+  "type": "extends",
+  "evidence": "develops theory of Templeton's SAE formulation"
+ },
+ "2606.03002->2605.29358": {
+  "type": "extends",
+  "evidence": "analyzes quantization effects on SAE features"
+ },
+ "2606.04160->2605.29358": {
+  "type": "background",
+  "evidence": "cited as frontier LLM developer"
+ },
+ "2606.04284->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAE sparsity for interpretable units"
+ },
+ "2606.05566->2605.23196": {
+  "type": "rebuts",
+  "evidence": "reports guardrail detection collapse and bypass"
+ },
+ "2606.06315->2605.29358": {
+  "type": "extends",
+  "evidence": "proposes interpreting steered features via SAEs"
+ },
+ "2606.06387->2604.01905": {
+  "type": "background",
+  "evidence": "cites tool-attribute steering as related risk"
+ },
+ "2606.06784->2511.14045": {
+  "type": "background",
+  "evidence": "reference-list-only, privacy leakage background"
+ },
+ "2606.07007->2605.29358": {
+  "type": "extends",
+  "evidence": "theorizes SAE concept learning and polysemanticity"
+ },
+ "2606.07943->2603.17368": {
+  "type": "background",
+  "evidence": "reference-list-only, reasoning-model safety background"
+ },
+ "2606.09850->2605.29358": {
+  "type": "background",
+  "evidence": "LLM scaling and interpretability background"
+ },
+ "2606.10062->2604.16548": {
+  "type": "background",
+  "evidence": "reference-list-only, agent memory background"
+ },
+ "2606.10080->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to decompose activations"
+ },
+ "2606.10481->2606.09401": {
+  "type": "extends",
+  "evidence": "benchmarks canaries following their LoRA methodology"
+ },
+ "2606.10989->2605.01735": {
+  "type": "background",
+  "evidence": "reference-list-only, unlearning related work"
+ },
+ "2606.11425->2605.01687": {
+  "type": "background",
+  "evidence": "reference-list-only, jailbreak benchmark background"
+ },
+ "2606.11722->2605.29358": {
+  "type": "compares",
+  "evidence": "contrasts SAE costs with training-free method"
+ },
+ "2606.12360->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to characterize data concepts"
+ },
+ "2606.12629->2605.29358": {
+  "type": "compares",
+  "evidence": "contrasts SAE learned rotations with training-free approach"
+ },
+ "2606.15092->2605.29358": {
+  "type": "background",
+  "evidence": "SAE steering context, uses alternative method"
+ },
+ "2606.15165->2601.18110": {
+  "type": "background",
+  "evidence": "reference-list-only, MIA related work"
+ },
+ "2606.16193->2605.29358": {
+  "type": "extends",
+  "evidence": "builds cascaded SAEs on multimodal LLMs"
+ },
+ "2606.18322->2605.29358": {
+  "type": "rebuts",
+  "evidence": "reports SAE interventions unreliable, behavior recovers"
+ },
+ "2606.18389->2605.23036": {
+  "type": "background",
+  "evidence": "reference-list-only, activation steering background"
+ },
+ "2606.19831->2605.08513": {
+  "type": "extends",
+  "evidence": "builds on single-neuron refusal-gating findings"
+ },
+ "2606.19831->2605.12290": {
+  "type": "extends",
+  "evidence": "builds on targeted neuron modulation work"
+ },
+ "2606.19946->2606.06735": {
+  "type": "extends",
+  "evidence": "builds on angle-norm steering geometry"
+ },
+ "2606.20347->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to extract interpretable features"
+ },
+ "2606.20408->2605.01687": {
+  "type": "background",
+  "evidence": "appears only in reference list"
+ },
+ "2606.22673->2605.12671": {
+  "type": "extends",
+  "evidence": "builds on circuit and functional-anisotropy analysis"
+ },
+ "2606.24026->2605.01555": {
+  "type": "compares",
+  "evidence": "contrasts feature-focus with their circuit explanation"
+ },
+ "2606.24322->2604.16548": {
+  "type": "background",
+  "evidence": "reference-list-only, memory security survey"
+ },
+ "2606.24322->2605.29960": {
+  "type": "background",
+  "evidence": "reference-list-only, memory trojan attack"
+ },
+ "2606.24388->2605.01687": {
+  "type": "compares",
+  "evidence": "contrasts MultiBreak multi-turn focus complementarily"
+ },
+ "2606.24408->2606.09401": {
+  "type": "background",
+  "evidence": "privacy audit related work background"
+ },
+ "2606.24496->2605.17634": {
+  "type": "background",
+  "evidence": "cites prompt-injection risk as background"
+ },
+ "2606.24716->2605.29358": {
+  "type": "extends",
+  "evidence": "evaluates SAE interpretability via annotations"
+ },
+ "2606.25182->2602.11495": {
+  "type": "background",
+  "evidence": "jailbreak detection background context"
+ },
+ "2606.25657->2605.29358": {
+  "type": "extends",
+  "evidence": "uses large SAE dictionaries for VLMs"
+ },
+ "2606.26396->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to disentangle transformer concepts"
+ },
+ "2606.26474->2605.29358": {
+  "type": "extends",
+  "evidence": "uses SAEs to decompose model activations"
+ },
+ "2606.26620->2605.29358": {
+  "type": "extends",
+  "evidence": "builds on effectiveness of scaled SAEs"
+ },
+ "2606.26627->2605.26269": {
+  "type": "background",
+  "evidence": "cites agent privacy benchmark as related work"
+ },
+ "2606.26627->2606.10749": {
+  "type": "background",
+  "evidence": "cites secure-agent survey as related work"
+ },
+ "2606.30566->2606.04329": {
+  "type": "background",
+  "evidence": "reference-list-only, memory poisoning study"
+ },
+ "2606.30566->2606.04425": {
+  "type": "background",
+  "evidence": "reference-list-only, stored prompt injection"
+ },
+ "2606.31208->2606.09401": {
+  "type": "background",
+  "evidence": "privacy protection benchmark background context"
+ },
+ "2606.31394->2605.29358": {
+  "type": "extends",
+  "evidence": "trains SAEs to resolve superposition"
+ },
+ "2607.00481->2605.05058": {
+  "type": "background",
+  "evidence": "SMT(jailbreak attack)가 재현·비교 맥락에서 SoK(LLM 탈옥 강건성 서베이)의 JailbreakBench 범주/ASR 프레임을 배경으로 인용"
+ },
+ "2607.01793->2605.29801": {
+  "type": "background",
+  "evidence": "참고문헌 [50]에서 AI 에이전트 안전/보안 정렬 프레임워크(AgentDoG 1.5)를 관련 선행 연구로 나열 인용."
+ },
+ "2607.01799->2605.29358": {
+  "type": "background",
+  "evidence": "SAE의 기반 문헌(Bricken/Gao/Templeton 등)을 묶어 인용한 도입부 배경 — Scaling Monosemanticity를 SAE 패러다임의 토대로 언급."
+ },
+ "2607.02121->2605.23196": {
+  "type": "background",
+  "evidence": "cites Prompt Overflow within a list of prior guardrail systems as related work"
+ },
+ "2607.02510->2605.06605": {
+  "type": "background",
+  "evidence": "references multi-turn jailbreak budget-allocation evaluation as related monitoring/efficiency context"
+ },
+ "2607.02357->2606.07131": {
+  "type": "background",
+  "evidence": "참고문헌에서 악성 에이전트 스킬 런타임 검증 벤치마크(MalSkillBench)를 관련 선행 연구로 인용 — 직접 비교/확장 문장 근거는 없음."
+ },
+ "2607.02357->2606.19191": {
+  "type": "background",
+  "evidence": "에이전트 스킬 생태계 악성 코드 주입 공격(PhantomSkill)을 관련 공격 선행 연구로 참고문헌 인용 — in-text 직접 비교 근거 없음."
+ },
+ "2607.04525->2607.04523": {
+  "type": "extends",
+  "evidence": "Same-group companion work: the concept-geometry paper builds on the prior study of whether core conceptual distinctions can be learned from language statistics, extending it from a single distinction to a general point-cloud/vector-field account of concept representation and contextual transformation."
+ },
+ "2607.05355->2605.08513": {
+  "type": "extends",
+  "evidence": "Cited as prior evidence that individual neurons causally control safety behavior (\"a single neuron is sufficient to bypass safety alignment\"); this work extends that into a systematic causal audit of neuron-row selectors, showing attributed rows are sufficient to install refusal on hate/crime."
+ },
+ "2607.05120->2605.28999": {
+  "type": "compares",
+  "evidence": "Distinguishes its ADI category from concurrent work by Zhang et al. that also calls its attack \"data injection\" (visually concealed resume content), noting the injected content is processed differently than in ADI."
+ },
+ "2607.07316->2602.11180": {
+  "type": "background",
+  "evidence": "cites companion mechanistic-interpretability-for-alignment survey as related field overview"
+ },
+ "2607.07316->2603.19183": {
+  "type": "background",
+  "evidence": "cites SAE-in-VLA work as example of sparse-autoencoder feature extraction and steering"
+ },
+ "2607.07316->2605.29358": {
+  "type": "background",
+  "evidence": "reports Templeton et al. Scaling Monosemanticity finding that higher monosemanticity need not reduce performance"
+ },
+ "2607.07433->2607.02357": {
+  "type": "background",
+  "evidence": "reference-list citation to related agent-skill-malware detection work"
+ },
+ "2607.06807->2605.29358": {
+  "type": "background",
+  "evidence": "AcMAS analyzes agent activation space for malicious-behavior detection; cites Scaling Monosemanticity / SAE work as interpretability foundation in references."
+ },
+ "2607.07989->2606.02995": {
+  "type": "background",
+  "evidence": "Failure-localization in multi-agent systems cites Patcher (post-hoc backdoor patching of LLMs) as related work on attributing/repairing model failures."
+ },
+ "2607.08011->2606.02995": {
+  "type": "background",
+  "evidence": "CodeTracer(포렌식 귀속)가 Patcher(백도어 사후 패칭)를 백도어 LLM 방어 연구 지형의 배경 문헌으로 인용; 동일 태스크 베이스라인이 아니라 상이한 접근(귀속 vs 완화)"
+ },
+ "2607.02714->2605.29358": {
+  "type": "background",
+  "evidence": "Cites Scaling Monosemanticity when framing the linear-representation hypothesis as central to mechanistic interpretability in Background & Related Work."
+ },
+ "2607.09156->2605.01167": {
+  "type": "compares",
+  "evidence": "Runs a matched-norm control building on this work to confirm the reported coupling rescaling is direction-specific, not generic residual-stream perturbation."
+ },
+ "2607.09156->2605.10664": {
+  "type": "background",
+  "evidence": "Positions against prior additive-steering-in-agent-loops work when reviewing related activation-steering methods."
+ },
+ "2607.09156->2606.19946": {
+  "type": "compares",
+  "evidence": "Contrasts its capability-matched control against GEMS's norm-accumulation/superposition account, ruling that out as generic degradation."
+ },
+ "2607.09156->2606.22673": {
+  "type": "compares",
+  "evidence": "Contrasts with concurrent AgentLens, which builds in-agent safety-steering subspaces but lacks the chat-vs-agent comparison this paper introduces."
+ },
+ "2607.09156->2607.05790": {
+  "type": "extends",
+  "evidence": "Takes prior chat-extracted steering vectors proposed as control/monitoring primitives and tests whether the control half survives chat-to-agent transfer."
+ },
+ "2607.09532->2605.04209": {
+  "type": "extends",
+  "evidence": "Builds on prior 'undetectable backdoors in model parameters' by strengthening to statistically-undetectable backdoors (close in total-variation distance) in deep feedforward nets."
+ },
+ "2607.11698->2605.10067": {
+  "type": "background",
+  "evidence": "Cited in related-work list alongside other jailbreak/red-team methods (Metis: self-evolving metacognitive jailbreak); situates AHA among agentic red-teaming prior work."
+ },
+ "2607.11698->2605.24659": {
+  "type": "background",
+  "evidence": "Cited as prior indirect-prompt-injection attack (IterInject) covering part of the attack surface AHA red-teams; reference-list context, not a benchmarked baseline."
+ },
+ "2607.11871->2605.01844": {
+  "type": "background",
+  "evidence": "Representation/steering foundation (Cylindrical Representation Hypothesis for LM steering) underpinning the paper's hidden-state subspace steering of judges."
+ },
+ "2607.11871->2605.29358": {
+  "type": "background",
+  "evidence": "Foundational SAE/interpretability reference (Scaling Monosemanticity, Claude 3 Sonnet); reference-list only."
+ },
+ "2607.12166->2605.29358": {
+  "type": "background",
+  "evidence": "cites Scaling Monosemanticity as the canonical SAE-feature interpretability reference while auditing SAE evaluation metrics"
+ },
+ "2607.12279->2605.05115": {
+  "type": "extends",
+  "evidence": "countdown subcircuit representation shares the same 1D-manifold geometry described in the cited shared-geometry work (Gurnee et al.)"
+ },
+ "2607.12624->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list citation to Scaling Monosemanticity within activation/latent-concept interpretability lineage"
+ },
+ "2607.12624->2606.07335": {
+  "type": "background",
+  "evidence": "related latent/manifold-space defense against LLM attacks; cited as related defense work"
+ },
+ "2607.13081->2606.22873": {
+  "type": "extends",
+  "evidence": "SingGuard-NSFA is the same Ant Group team's follow-up that extends the earlier SingGuard policy-adaptive guardrail into an extensible agentic-AI framework."
+ },
+ "2607.13081->2605.29801": {
+  "type": "background",
+  "evidence": "Cited in related-work survey of agent-security approaches (execution-trace monitoring, access control) as prior context, not a direct baseline."
+ },
+ "2607.13346->2605.29358": {
+  "type": "background",
+  "evidence": "Cited in 'representation engineering for safety' lineage (Templeton et al. SAE features); the refusal direction builds on this interpretability tradition."
+ },
+ "2607.13899->2605.29358": {
+  "type": "background",
+  "evidence": "Cited among current interpretability works (case studies/localized analyses) that motivate the challenge's push toward comparable, generalizable evaluation."
+ },
+ "2607.14811->2603.21654": {
+  "type": "background",
+  "evidence": "Cites a comprehensive review of RAG threats/defenses/benchmarks in the reference list to establish the RAG-security landscape."
+ },
+ "2607.14943->2603.19183": {
+  "type": "extends",
+  "evidence": "Builds on the interpretable/steerable-features-in-VLA line (SAE-based steering), extending mechanistic-interpretability-driven activation steering to World Action Models under the shared linear-feature-direction assumption."
+ },
+ "2607.14651->2604.16548": {
+  "type": "background",
+  "evidence": "MemPoison cites this survey on the security of long-term memory in LLM agents to frame its threat model / motivate persistent-memory attacks; survey-as-background."
+ },
+ "2607.15495->2605.29358": {
+  "type": "background",
+  "evidence": "J-lens 실험을 Sonnet에서 수행하며 SAE/monosemanticity 해석성 계보를 배경으로 인용 (방법을 확장·비교하지 않음)"
+ },
+ "2607.15893->2602.05859": {
+  "type": "background",
+  "evidence": "'DLM의 내부 메커니즘은 거의 알려지지 않았다'며 DLM 해석성 관련 연구(DLM-Scope 등)를 관련연구로 위치시킴"
+ },
+ "2607.15893->2605.29358": {
+  "type": "background",
+  "evidence": "잔차 스트림에 표현된 정보를 연구하는 probing·sparse-feature 방법의 예로 Scaling Monosemanticity를 인용"
+ },
+ "2607.15977->2607.05120": {
+  "type": "background",
+  "evidence": "Cites agent data/prefix injection attacks as the motivating threat context for why refusal prefixes can be bypassed."
+ },
+ "2607.16448->2605.29358": {
+  "type": "rebuts",
+  "evidence": "Frames Scaling Monosemanticity as the training/data-scaling paradigm it challenges; HARP is training-free, outperforms SAE-based agents, and argues such methods do not surface insight beyond their training data."
+ },
+ "2607.17117->2605.29358": {
+  "type": "extends",
+  "evidence": "Builds on the standard SAE framework (Templeton et al. 2024) by adding per-feature persistence coefficients so features can span a sequence rather than being encoded per-token."
+ }
 }
