@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-22 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. First real sweep since 07-20 (07-21 was infrastructure-only maintenance).
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue status this run (targeting the checkpoints the 07-20 run flagged):
+- **CCS '26** — author notifications went out **Jul 17** (5 days ago); the accepted list is **still not public** on sigsac.org or the ACM DL (only the HotCRP submission sites `ccs2026a/b.hotcrp.com`, the CfP, and the between-cycle Transparency Report are reachable). No new in-scope hits (The Hague, Nov 15–19; ~19.5% acceptance).
+- **RAID '26** — re-fetched `raid2026.org/accepted.html`: the page is live but the **"Accepted papers" section is still empty** (no titles rendered), unchanged from 07-20 (notifications Jul 10; Lancaster, UK, Oct 11–14).
+- **USENIX Sec '26 Cycle 2** — still **not browsable**; only the Cycle 2 HotCRP/AE sites are public and embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Cycle 1 already fully grepped (sole hit remains the excluded **PyGuard** / "Cutting the Gordian Knot"). Zero new in-scope hits.
+- **ESORICS '26** — notifications went out Jun 12; accepted list / LNCS proceedings **still not browsable** (Rome, Sept 14–18).
+- **ACSAC '26** — confirmed **no accepted list yet**: acceptance notification is **Sept 8, 2026** (early-reject Jul 13; author response Aug 18–25). Dec 7–11, Los Angeles.
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. Non-venue / out-of-scope material that searches returned was evaluated and set aside, consistent with prior handling: the 2026 Electron surface remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers — e.g. **CVE-2026-0628** (Chromium WebView extension privilege escalation via insufficient Mojo-IPC validation, CVSS 8.8; a generic Chromium-browser bug → EXCLUDE category, and not a watched venue), **CVE-2026-44490** (axios prototype-pollution CVE), and the recurring "V8 heap-snapshot deserialization → persistent code execution" Electron integrity-fuse write-up. The **ESEC/FSE object-lookup-analysis** prototype-pollution paper that searches surfaced is a software-engineering (FSE) venue **outside the 9 watched security venues**, so it is not ledgered (same handling as PoCGen/FSE '26, Dasty/WWW '24, and the Node.js LLM taint preprints). These remain useful only as motivation/impact citations.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine). Next release checkpoints to catch: **CCS '26** accepted list (post-Jul 17 notification), **RAID '26** list population (post-Jul 10), **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept), **ACSAC '26** acceptances (Sept 8).
+
+---
+
 ## 2026-07-21 — Maintenance (no paper sweep)
 
 **Infrastructure fix, not a venue sweep.** Triggered by the user asking why the automated `git push` keeps failing. Root cause confirmed: the run sandbox intermittently blocks file **deletion** (`rm` / `find -delete` → "Operation not permitted"), while git releases some of its lock files via `unlink()`. So a routine `git status`/`git add` leaves an undeletable `.git/index.lock` (plus `HEAD.lock` / ref `.lock`s) behind, and that jams every following git command. At inspection time 347 stale `*.lock*` files had accumulated and a live `.git/index.lock` (dated 04:18) was blocking the whole repo — which is why nothing reached the push step.
