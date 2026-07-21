@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-21 — Maintenance (no paper sweep)
+
+**Infrastructure fix, not a venue sweep.** Triggered by the user asking why the automated `git push` keeps failing. Root cause confirmed: the run sandbox intermittently blocks file **deletion** (`rm` / `find -delete` → "Operation not permitted"), while git releases some of its lock files via `unlink()`. So a routine `git status`/`git add` leaves an undeletable `.git/index.lock` (plus `HEAD.lock` / ref `.lock`s) behind, and that jams every following git command. At inspection time 347 stale `*.lock*` files had accumulated and a live `.git/index.lock` (dated 04:18) was blocking the whole repo — which is why nothing reached the push step.
+
+Fixes applied: (1) cleared the stuck `.git/index.lock` by **renaming** it aside (rename is permitted even when delete is not); (2) hardened `scripts/commit_and_push.sh` to fall back to rename-aside for any lock it cannot delete, and to run that cleanup **before every git step** rather than once at the start, so a lock left mid-run no longer blocks the next command. Verified `git ls-remote` and `git push` both reach `origin` and local == remote — auth + network are fine (the embedded credential is valid; push itself was never the failure). No ledger or `papers/` change this run.
+
+---
+
 ## 2026-07-20 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. This run targeted the three release checkpoints the 07-06 run flagged, all now past: **USENIX Sec '26 Cycle 2** (notification Jul 9), **RAID '26** (notification Jul 10), **CCS '26** (author notifications Jul 17).
