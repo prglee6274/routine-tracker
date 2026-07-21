@@ -20,7 +20,7 @@ clear_locks() {
     rm -f "$_lock" 2>/dev/null \
       || mv -f "$_lock" "${_lock}.OLD.$(date +%s).$$.$_i" 2>/dev/null \
       || true
-  done < <(find "$REPO_ROOT/.git" -maxdepth 3 -name '*.lock' -type f 2>/dev/null)
+  done < <(find "$REPO_ROOT/.git" -maxdepth 4 -name '*.lock' -type f 2>/dev/null)
 }
 
 clear_locks
