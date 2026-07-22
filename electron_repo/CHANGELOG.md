@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-23 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue status this run (targeting the open release checkpoints):
+- **CCS '26** — accepted list **still not public** (author notifications were Jul 17, 6 days ago); only the HotCRP submission sites (`ccs2026a/b.hotcrp.com`), the CfP, and `sigsac.org/ccs/CCS2026/` are reachable. No new in-scope hits (The Hague, Nov 15–19).
+- **RAID '26** — **re-fetched `raid2026.org/accepted.html` directly**: the page renders but the "Accepted papers" section is **still empty** (heading present, no titles), unchanged from 07-22 (notifications Jul 10; Lancaster, UK, Oct 11–14).
+- **USENIX Sec '26 Cycle 2** — still **not browsable**; only the Cycle 1 accepted-papers link is public and Cycle-2 embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Cycle 1 already fully grepped (sole hit remains the excluded **PyGuard** / "Cutting the Gordian Knot"). Zero new in-scope hits.
+- **ESORICS '26** — accepted list / LNCS proceedings **still not browsable** (notifications Jun 12; Rome, Sept 14–18).
+- **ACSAC '26** — no accepted list yet (acceptance notification Sept 8; Dec 7–11, Los Angeles).
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. Out-of-venue / non-peer-reviewed material that searches returned was evaluated and set aside, consistent with prior handling: a **UIC master's thesis "Differential Security Analysis of Cross-Platform Electron Applications"** (Figshare, Jun 2025 — compares Electron vs. Chrome header/CORS/permission handling in local-file contexts) and a **PoPETs 2025 paper "Exploring the Risks of Web-to-Cross-platform Application (Generation)"** (popets-2025-0117) are both **outside the 9 watched security venues**, so — like the existing VS Code / arXiv / FSE context items — they are **not** ledgered (promote only if a watched venue accepts related work). The 2026 Electron surface otherwise remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: newly surfaced **CVE-2026-34779** (Electron `app.moveToApplicationsFolder()` fails to sanitize the bundle path → AppleScript command-injection RCE on macOS), plus the recurring **CVE-2026-34774** (offscreen-rendering UAF), **CVE-2026-34765** (multi-window trust-level permission inheritance → ACE when nodeIntegration on / sandbox off), **CVE-2026-39846** (SiYuan Electron client stored-XSS→RCE), and the CefSharp/.NET and DarkNavy Steam-CEF RCE-chain industry write-ups. Consistent with prior handling these are **not** added to `excluded[]`; they remain useful as motivation/impact citations only.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine). Next release checkpoints to catch: **CCS '26** accepted list (post-Jul 17 notification), **RAID '26** list population (post-Jul 10), **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept), **ACSAC '26** acceptances (Sept 8).
+
+---
+
 ## 2026-07-22 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. First real sweep since 07-20 (07-21 was infrastructure-only maintenance).
