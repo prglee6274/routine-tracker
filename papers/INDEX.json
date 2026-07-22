@@ -13001,6 +13001,187 @@
     "pii_leakage",
     "federated_privacy"
    ]
+  },
+  "2607.19317": {
+   "version": "v1",
+   "title": "CircuitKIT : Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit discovery",
+    "model editing",
+    "steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2607.17770": {
+   "version": "v1",
+   "title": "Measuring Monosemanticity in Sparse Autoencoders via Latent Activation Coherence",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "sparse autoencoder",
+    "monosemanticity",
+    "mechanistic interpretability",
+    "feature quality"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation"
+   ]
+  },
+  "2607.18100": {
+   "version": "v1",
+   "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "activation steering",
+    "reasoning control",
+    "steering vectors",
+    "latent states"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.18485": {
+   "version": "v1",
+   "title": "Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "LLM agent security",
+    "indirect prompt injection",
+    "HPC",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2607.16199": {
+   "version": "v1",
+   "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "prompt injection",
+    "multi-agent",
+    "planning attack",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2607.17152": {
+   "version": "v1",
+   "title": "How Jailbreak Attacks Inform Safety Alignment: A Defender-Centric, Shapley-Based Evaluation of Jailbreak Contributions",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "jailbreak",
+    "safety alignment",
+    "Shapley",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2607.18268": {
+   "version": "v1",
+   "title": "Fence: Specialized SLM Guardrails for LLM Applications",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "guardrails",
+    "small language models",
+    "synthetic data",
+    "safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2607.18615": {
+   "version": "v1",
+   "title": "Stochastic Meta-Unlearning: Bridging Language Backbone and Multimodal Unlearning",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "machine unlearning",
+    "vision-language models",
+    "multimodal",
+    "meta-learning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.18847": {
+   "version": "v1",
+   "title": "Data Leakage Prevention in Agentic Applications via Preemptive Hardening",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "data leakage",
+    "agentic systems",
+    "prompt injection",
+    "hardening"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "data_extraction"
+   ]
+  },
+  "2607.18021": {
+   "version": "v1",
+   "title": "Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation",
+   "first_seen": "2026-07-23",
+   "last_updated": "2026-07-23",
+   "folder": "2026-07-23",
+   "keywords": [
+    "differential privacy",
+    "synthetic data",
+    "public data",
+    "histogram"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {

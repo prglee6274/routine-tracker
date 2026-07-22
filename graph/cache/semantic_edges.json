@@ -526,5 +526,13 @@
  "2607.17117->2605.29358": {
   "type": "extends",
   "evidence": "Builds on the standard SAE framework (Templeton et al. 2024) by adding per-feature persistence coefficients so features can span a sequence rather than being encoded per-token."
+ },
+ "2607.19317->2605.15138": {
+  "type": "background",
+  "evidence": "CircuitKIT cites circuit-attribution unlearning as an example application of the locate-then-act interpretability loop it supports."
+ },
+ "2607.19317->2607.05355": {
+  "type": "background",
+  "evidence": "CircuitKIT cites the causal audit of neuron selectors as an example of actionable-interpretability work its toolkit enables."
  }
 }
