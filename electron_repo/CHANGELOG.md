@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-24 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue status this run (targeting the open release checkpoints from 07-23):
+- **CCS '26** — accepted list **still not public**. Re-fetched `sigsac.org/ccs/CCS2026/` directly: latest "Latest News" item is **Jul 13** (registrations open); no accepted-papers announcement and no accepted-papers link in the nav, despite author notifications on Jul 17. Only the HotCRP sites (`ccs2026a/b.hotcrp.com`), CfP, and the between-cycle Transparency Report are reachable. No new in-scope hits (The Hague, Nov 15–19).
+- **RAID '26** — **re-fetched `raid2026.org/accepted.html` directly**: the "Accepted papers" heading renders but the section is **still empty** (no titles), unchanged from 07-22/07-23 (notifications Jul 10; Lancaster, UK, Oct 11–14).
+- **USENIX Sec '26 Cycle 2** — still **not browsable**; Cycle-2 embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Cycle 1 already fully grepped (sole hit remains the excluded **PyGuard** / "Cutting the Gordian Knot"). Zero new in-scope hits.
+- **ESORICS '26** — accepted list / LNCS proceedings **still not browsable** (notifications Jun 12; Rome, Sept 14–18).
+- **ACSAC '26** — no accepted list yet (acceptance notification Sept 8; Dec 7–11, Los Angeles).
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. Newly surfaced this run and evaluated, consistent with prior handling of non-venue material: **"PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages"** (arXiv:2506.04962, v1 Jun 2025 — first fully autonomous LLM + static/dynamic-analysis pipeline to generate & validate PoC exploits for npm-package vulns; 5 of 6 generated PoCs accepted into vuln reports). Topically it is a strong **ADJACENT** sibling to Bullseye (NDSS '26), NodeMedic-FINE (NDSS '25) and GHunter (USENIX '24), **but it carries no acceptance at any of the 9 watched venues** (arXiv-only; neighbouring arXiv items show "Accepted to ARES 2025" tags, PoCGen shows none — and ARES is not a watched venue). Per established precedent (the VS Code-ecosystem arXiv, JavaSith arXiv, the UIC master's thesis, and the PoPETs '25 paper are all *not* ledgered), PoCGen is **not** added to `in_scope[]` or `excluded[]` — recorded here as a strong `context_non_venue` promotion candidate to pick up **if a watched venue accepts it**. The 2026 Electron surface otherwise remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: **CVE-2026-34781** (clipboard `readImage()` decode DoS) joins the recurring **CVE-2026-34779** (`moveToApplicationsFolder()` AppleScript command-injection RCE, macOS), **CVE-2026-34774** (offscreen-rendering UAF), **CVE-2026-34765** (multi-window trust-level permission inheritance → ACE), **CVE-2026-40322** (SiYuan Electron stored-XSS→RCE), plus a GMO Flatt Security write-up (RCE in a Japanese chat app via an obsolete Electron feature) and the Chromium-WebView **CVE-2026-0628** (generic browser/extension privilege-escalation — EXCLUDE category). Consistent with prior handling these are **not** added to `excluded[]`; they remain useful as motivation/impact citations only.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine). Next release checkpoints to catch: **CCS '26** accepted list (post-Jul 17 notification), **RAID '26** list population (post-Jul 10), **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept), **ACSAC '26** acceptances (Sept 8).
+
+---
+
 ## 2026-07-23 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
