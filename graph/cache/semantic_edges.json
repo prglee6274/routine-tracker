@@ -534,5 +534,13 @@
  "2607.19317->2607.05355": {
   "type": "background",
   "evidence": "CircuitKIT cites the causal audit of neuron selectors as an example of actionable-interpretability work its toolkit enables."
+ },
+ "2607.19386->2605.29358": {
+  "type": "background",
+  "evidence": "Cites 'Scaling Monosemanticity' as the seminal SAE feature-interpretability work whose autointerp-style evaluation this paper scrutinizes; referenced as foundational context, not extended or rebutted."
+ },
+ "2607.19829->2607.15081": {
+  "type": "background",
+  "evidence": "Lists DataShield in the related-work/references as prior LLM safety and risky-data work; a background citation with no methodological extension or comparison."
  }
 }

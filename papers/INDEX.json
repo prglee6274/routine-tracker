@@ -13182,6 +13182,186 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2607.20121": {
+   "version": "v1",
+   "title": "OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "agent safety",
+    "third-party skills",
+    "LLM agents",
+    "safety benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.19386": {
+   "version": "v1",
+   "title": "Building Fast, Evaluating Slow: Pipeline Choices Dominate Autointerpretability Score Variance",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "sparse autoencoder",
+    "autointerpretability",
+    "SAE evaluation",
+    "interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2607.20192": {
+   "version": "v1",
+   "title": "On Optimization Complexity of Second-Order Certified Unlearning",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "machine unlearning",
+    "certified unlearning",
+    "optimization complexity",
+    "convex regularization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.19396": {
+   "version": "v1",
+   "title": "CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "prompt injection",
+    "PDF",
+    "document LLM",
+    "guardrails",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2607.19806": {
+   "version": "v1",
+   "title": "OPIUM: Mitigating Steering Externalities and Over-Refusal via Dual Objective Latent Optimization",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "activation steering",
+    "steering vectors",
+    "over-refusal",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.19580": {
+   "version": "v1",
+   "title": "End-to-End Differential Privacy in Training Deep Neural Network Classifiers",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "differential privacy",
+    "DP training",
+    "public labels",
+    "softmax"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.19894": {
+   "version": "v1",
+   "title": "Defense Against LLM Backdoors using Critical Neuron Isolation Pruning",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "backdoor",
+    "neuron pruning",
+    "model editing",
+    "LLM defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2607.17890": {
+   "version": "v2",
+   "title": "Stress Testing Concept Erasure with Large Language Model Agents",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "concept erasure",
+    "generative models",
+    "LLM agents",
+    "stress testing",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.16442": {
+   "version": "v1",
+   "title": "One Modality to Forget Them All: Enhancing Cross-Modal Unlearning in Vision-Language Models",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "machine unlearning",
+    "vision-language models",
+    "cross-modal",
+    "VLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.19829": {
+   "version": "v1",
+   "title": "DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection",
+   "first_seen": "2026-07-24",
+   "last_updated": "2026-07-24",
+   "folder": "2026-07-24",
+   "keywords": [
+    "jailbreak",
+    "guardrails",
+    "evolutionary",
+    "attack-defense",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
   }
  },
  "_taxonomy": {
@@ -13224,5 +13404,5 @@
    ]
   }
  },
- "last_run": "2026-07-22"
+ "last_run": "2026-07-24"
 }
