@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-07-25 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
+
+Every in-scope academic result that searches returned is already in the ledger: the Electron core set (**DOM-tree type** NDSS '23, **Inspectron** USENIX Sec '24, **COINDEF** S&P '25, **XRCE/XGuard** CCS '22) and the Node.js/runtime adjacency set (**Silent Spring** USENIX Sec '23, **GHunter** USENIX Sec '24, **HODOR** CCS '23, **NodeShield** CCS '25, **Mininode** RAID '20, **Bullseye** NDSS '26, **GASKET/Best of Both Worlds** S&P '26, **NodeMedic-FINE** NDSS '25). The four out-of-venue context items remain in `context_non_venue`.
+
+Per-venue status this run (targeting the open release checkpoints):
+- **CCS '26** — accepted list **still not public**. Re-fetched `sigsac.org/ccs/CCS2026/` directly: latest "Latest News" item remains **Jul 13** (registrations open); no accepted-papers announcement and no accepted-papers link in the nav, unchanged from 07-24 (author notifications were Jul 17). Only the HotCRP sites (`ccs2026a/b.hotcrp.com`) and CfP are otherwise reachable. No new in-scope hits (The Hague, Nov 15–19).
+- **RAID '26** — **re-fetched `raid2026.org/accepted.html` directly**: the "Accepted papers" heading renders but the section is **still empty** (no titles), unchanged from 07-22/07-23/07-24 (notifications Jul 10; Lancaster, UK, Oct 11–14).
+- **USENIX Sec '26 Cycle 2** — still **not browsable**; only the Cycle-2 AE HotCRP site (`sec26cycle2ae.usenix.hotcrp.com`) is public, and Cycle-2 embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Cycle 1 already fully grepped (sole hit remains the excluded **PyGuard** / "Cutting the Gordian Knot"). Zero new in-scope hits.
+- **ESORICS '26** — accepted list / LNCS proceedings **still not browsable** (notifications Jun 12; Rome, Sept 14–18).
+- **ACSAC '26** — no accepted list yet (acceptance notification Sept 8; Dec 7–11, Los Angeles).
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; re-checked via search this run, no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. The 2026 Electron surface that searches returned again remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers: newly surfaced **CVE-2026-26462** (RCE in an offline Hospital Management System Electron app configured with nodeIntegration:true / contextIsolation:false) and **CVE-2026-34725** (dbgate-web stored-XSS in `applicationIcon` → potential RCE under unsafe renderer config), alongside the recurring **CVE-2026-34769** (`commandLineSwitches` renderer switch injection → sandbox disable), **CVE-2026-34770** (PowerMonitor UAF), and the Chromium-WebView **CVE-2026-0628** (generic browser/extension privilege-escalation — EXCLUDE category). Also surfaced were 2026 npm/runtime **supply-chain industry campaigns** — **TrapDoor** (first campaign to weaponize npm + PyPI + Crates.io simultaneously; includes an Exodus desktop-wallet hook that weakens Electron sandboxing to capture the seed mnemonic), **"Sha1-Hulud: The Second Coming"**, **PackageGate** (six npm/pnpm/vlt/Bun zero-days), and the node-ipc / node-gyp compromises — plus out-of-venue arXiv preprints (e.g. "AI Code Sandboxes: A Comparative Security Study" arXiv 2606.08433, "ExploitGym" arXiv 2605.11086, "Lexo" arXiv 2510.14522) with no watched-venue acceptance. Consistent with prior handling, all of these are **not** added to `excluded[]` (which tracks watched-venue papers only); they remain useful as motivation/impact citations only, and the arXiv items can be promoted if a watched venue accepts related work.
+
+Ledger unchanged: **12 in-scope / 12 excluded / 4 context**. Scoped commit run via `scripts/commit_and_push.sh` (commits only `electron_repo` into the parent repo; push may be offline-expected, in which case the user pushes from their own machine). Next release checkpoints to catch: **CCS '26** accepted list (post-Jul 17 notification), **RAID '26** list population (post-Jul 10), **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept), **ACSAC '26** acceptances (Sept 8).
+
+---
+
 ## 2026-07-24 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
