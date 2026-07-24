@@ -542,5 +542,21 @@
  "2607.19829->2607.15081": {
   "type": "background",
   "evidence": "Lists DataShield in the related-work/references as prior LLM safety and risky-data work; a background citation with no methodological extension or comparison."
+ },
+ "2607.19683->2606.07335": {
+  "type": "background",
+  "evidence": "cites a jailbreak-defense (manifold trajectory) method as related VLM/LLM safety work"
+ },
+ "2607.20596->2605.29358": {
+  "type": "background",
+  "evidence": "cites Scaling Monosemanticity as foundational SAE/monosemanticity context for cross-family feature study"
+ },
+ "2607.20727->2607.07209": {
+  "type": "extends",
+  "evidence": "generalizes the prior continual-observation neighboring formulation into a stricter edit-neighboring stream notion"
+ },
+ "2607.21351->2511.14045": {
+  "type": "background",
+  "evidence": "cites RLVR membership-auditing among prior leakage results; motivates gap that none measures how many bits an adapter writes"
  }
 }

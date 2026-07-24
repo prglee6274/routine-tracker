@@ -13256,10 +13256,10 @@
    ]
   },
   "2607.19806": {
-   "version": "v1",
+   "version": "v2",
    "title": "OPIUM: Mitigating Steering Externalities and Over-Refusal via Dual Objective Latent Optimization",
    "first_seen": "2026-07-24",
-   "last_updated": "2026-07-24",
+   "last_updated": "2026-07-25",
    "folder": "2026-07-24",
    "keywords": [
     "activation steering",
@@ -13361,6 +13361,174 @@
    "subtopics": [
     "jailbreak",
     "red_teaming"
+   ]
+  },
+  "2607.20759": {
+   "version": "v1",
+   "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "AI coding agents",
+    "malicious issue requests",
+    "agent safety",
+    "code security",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "backdoor"
+   ]
+  },
+  "2607.20995": {
+   "version": "v1",
+   "title": "Where Animacy Lives in Large Language Models: Tracing the Circuits of the Animacy Concept",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "circuit analysis",
+    "mechanistic interpretability",
+    "animacy concept",
+    "causal ablation",
+    "minimal pairs"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing"
+   ]
+  },
+  "2607.21351": {
+   "version": "v1",
+   "title": "How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "memorization",
+    "LoRA",
+    "parameter-efficient fine-tuning",
+    "model capacity",
+    "data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2607.20581": {
+   "version": "v1",
+   "title": "Geometric Configurations of Perturbed Jailbreak Prompts",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "jailbreak",
+    "adversarial prompts",
+    "internal representations",
+    "LLM safety",
+    "representation geometry"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "adversarial"
+   ]
+  },
+  "2607.20596": {
+   "version": "v1",
+   "title": "Are Single-Token Sparse Autoencoder Features Causally Necessary? Layer-Depth and SAE-Family Effects",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE",
+    "causal necessity",
+    "feature ablation",
+    "single-token features"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "circuits"
+   ]
+  },
+  "2607.20727": {
+   "version": "v1",
+   "title": "Edit-Neighboring Data Streams and Privacy under Continual Observation",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "differential privacy",
+    "continual observation",
+    "data streams",
+    "lower bounds",
+    "edit-neighboring"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.20852": {
+   "version": "v1",
+   "title": "Code Monitor Red Teaming for Public-Test-Passing Code",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "red-teaming",
+    "code monitoring",
+    "weak-to-strong",
+    "LLM verifier",
+    "AI control"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2607.21300": {
+   "version": "v1",
+   "title": "Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "machine unlearning",
+    "multimodal LLM",
+    "fairness",
+    "benchmark",
+    "demographic bias"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.19683": {
+   "version": "v1",
+   "title": "GhostPrompt: Cross-Image Adversarial Prompt for Vision-Language Models",
+   "first_seen": "2026-07-25",
+   "last_updated": "2026-07-25",
+   "folder": "2026-07-25",
+   "keywords": [
+    "adversarial prompt",
+    "vision-language models",
+    "cross-image transferability",
+    "adversarial attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "adversarial"
    ]
   }
  },
