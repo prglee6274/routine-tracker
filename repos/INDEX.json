@@ -124,13 +124,13 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-07-24",
-   "days_on_list": 1,
-   "last_stars": 184281,
+   "last_seen": "2026-07-25",
+   "days_on_list": 2,
+   "last_stars": 186456,
    "category": "tools",
    "language": "Shell",
    "graduated": false,
-   "last_pushed_at": "2026-05-13T00:00:00Z"
+   "last_pushed_at": "2026-07-21"
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
@@ -1244,13 +1244,13 @@
   },
   "earendil-works/pi": {
    "first_seen": "2026-06-04",
-   "last_seen": "2026-07-24",
-   "days_on_list": 3,
-   "last_stars": 76218,
-   "last_pushed_at": "2026-07-21",
+   "last_seen": "2026-07-25",
+   "days_on_list": 4,
+   "last_stars": 76993,
+   "last_pushed_at": "2026-07-24",
    "category": "llm",
    "language": "TypeScript",
-   "graduated": false
+   "graduated": true
   },
   "MemoriLabs/Memori": {
    "first_seen": "2026-06-24",
@@ -1474,11 +1474,11 @@
    "first_seen": "2026-07-01",
    "last_seen": "2026-07-24",
    "days_on_list": 4,
-   "last_stars": 26858,
+   "last_stars": 28565,
    "category": "tools",
    "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-07-13"
+   "graduated": true,
+   "last_pushed_at": "2026-07-24"
   },
   "deepseek-ai/DeepSpec": {
    "first_seen": "2026-07-01",
@@ -2148,7 +2148,7 @@
    "category": "tools",
    "language": "Python/TypeScript",
    "last_pushed_at": "2026-07-18T00:33:57Z",
-   "graduated": false
+   "graduated": true
   },
   "MoonshotAI/kimi-cli": {
    "first_seen": "2026-07-20",
@@ -2261,10 +2261,90 @@
    "last_stars": 15278,
    "category": "llm",
    "language": "Python"
+  },
+  "block/buzz": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 9436,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "koala73/worldmonitor": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 73079,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "citrolabs/ego-lite": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 2399,
+   "category": "llm",
+   "language": "JavaScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "Automattic/harper": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 12925,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-07-23"
+  },
+  "likec4/likec4": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 4964,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-22"
+  },
+  "dani-garcia/vaultwarden": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 64197,
+   "category": "security",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "pocket-id/pocket-id": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 8550,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "aquasecurity/trivy": {
+   "first_seen": "2026-07-25",
+   "last_seen": "2026-07-25",
+   "days_on_list": 1,
+   "last_stars": 37066,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-07-22"
   }
  },
- "last_updated": "2026-07-23",
- "updated": "2026-07-23",
- "last_run": "2026-07-24",
- "count": 230
+ "last_updated": "2026-07-25",
+ "updated": "2026-07-25",
+ "last_run": "2026-07-25",
+ "count": 238
 }
