@@ -13530,6 +13530,190 @@
     "multimodal_attack",
     "adversarial"
    ]
+  },
+  "2607.19913": {
+   "version": "v1",
+   "title": "JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "agent safety",
+    "guardrail",
+    "long-horizon risk",
+    "tool-use",
+    "foresight"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.20473": {
+   "version": "v1",
+   "title": "Incomplete Prompt Jailbreaks in Large Language Models",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "jailbreak",
+    "sentence completion",
+    "refusal",
+    "termination neuron",
+    "neuron intervention"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment_robustness"
+   ]
+  },
+  "2607.20778": {
+   "version": "v1",
+   "title": "Toward Mechanistic Interpretability of an AI Foundation Model Fine-Tuned for Atmospheric Chemistry",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "mechanistic interpretability",
+    "sparse autoencoder",
+    "foundation model",
+    "causal intervention",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2607.18622": {
+   "version": "v1",
+   "title": "CPInj: Uncovering Prompt Injection Risks in Textual Collaborative Prompt Optimization",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "prompt injection",
+    "collaborative prompt optimization",
+    "aggregation attack",
+    "federated",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2607.20803": {
+   "version": "v1",
+   "title": "The Geometry of Personality: Activation Steering with Jungian Cognitive Functions",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "activation steering",
+    "representation",
+    "steering vector",
+    "personality control"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.16227": {
+   "version": "v1",
+   "title": "LLM Unlearning for Cyber Defense: A Survey on Methods, Challenges, and Emerging Threats",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "unlearning",
+    "memorization",
+    "membership inference",
+    "data extraction",
+    "verifiable forgetting"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "membership_inference"
+   ]
+  },
+  "2607.19449": {
+   "version": "v1",
+   "title": "Guardrails as Scapegoats: Auditing Unfaithful Safety Refusals in Tool-Augmented LLM Agents",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "safety refusal",
+    "tool-augmented agent",
+    "auditing",
+    "fabrication"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.21353": {
+   "version": "v1",
+   "title": "Gradient Concentration, Not Weight Saliency, Explains Representation-Level Class Unlearning",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "unlearning",
+    "weight saliency",
+    "representation-level forgetting",
+    "gradient concentration"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.20522": {
+   "version": "v1",
+   "title": "Do Active SAE Feature Planes Carry More Holonomy? A Preregistered Reversal in Gemma",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE feature",
+    "Gemma",
+    "representation geometry"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2607.21111": {
+   "version": "v1",
+   "title": "TOUR: A Trajectory-Level Unlearning Benchmark for Offline Reinforcement Learning",
+   "first_seen": "2026-07-26",
+   "last_updated": "2026-07-26",
+   "folder": "2026-07-26",
+   "keywords": [
+    "unlearning",
+    "offline RL",
+    "membership inference",
+    "trajectory deletion"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -13572,5 +13756,5 @@
    ]
   }
  },
- "last_run": "2026-07-24"
+ "last_run": "2026-07-26"
 }
