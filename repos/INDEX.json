@@ -124,9 +124,9 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-07-25",
-   "days_on_list": 2,
-   "last_stars": 186456,
+   "last_seen": "2026-07-26",
+   "days_on_list": 3,
+   "last_stars": 188040,
    "category": "tools",
    "language": "Shell",
    "graduated": false,
@@ -494,13 +494,13 @@
   },
   "NVIDIA/OpenShell": {
    "first_seen": "2026-05-16",
-   "last_seen": "2026-07-24",
-   "days_on_list": 2,
-   "last_stars": 7772,
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 7801,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-22"
+   "last_pushed_at": "2026-07-24"
   },
   "OpenCTI-Platform/opencti": {
    "first_seen": "2026-05-16",
@@ -1392,13 +1392,13 @@
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-26",
    "days_on_list": 1,
-   "last_stars": 25928,
-   "category": "tools",
+   "last_stars": 28911,
+   "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-07-22"
+   "last_pushed_at": "2026-07-25"
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
@@ -2132,12 +2132,12 @@
   },
   "jamiepine/voicebox": {
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-21",
-   "days_on_list": 2,
-   "last_stars": 44040,
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 46683,
    "category": "llm",
    "language": "TypeScript",
-   "last_pushed_at": "2026-04-25T22:46:53Z",
+   "last_pushed_at": "2026-07-21",
    "graduated": false
   },
   "tirth8205/code-review-graph": {
@@ -2226,13 +2226,13 @@
   },
   "schollz/croc": {
    "first_seen": "2026-07-22",
-   "last_seen": "2026-07-24",
-   "days_on_list": 3,
-   "last_stars": 38084,
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 38426,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-07-21"
+   "last_pushed_at": "2026-07-24"
   },
   "MoonshotAI/kimi-code": {
    "first_seen": "2026-07-23",
@@ -2274,13 +2274,13 @@
   },
   "koala73/worldmonitor": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-25",
-   "days_on_list": 1,
-   "last_stars": 73079,
+   "last_seen": "2026-07-26",
+   "days_on_list": 2,
+   "last_stars": 74037,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-07-24"
+   "last_pushed_at": "2026-07-25"
   },
   "citrolabs/ego-lite": {
    "first_seen": "2026-07-25",
@@ -2341,6 +2341,46 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-07-22"
+  },
+  "oblien/openship": {
+   "first_seen": "2026-07-26",
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 8462,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-25"
+  },
+  "microsoft/SkillOpt": {
+   "first_seen": "2026-07-26",
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 14987,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
+  },
+  "DioxusLabs/dioxus": {
+   "first_seen": "2026-07-26",
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 38291,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-07-23"
+  },
+  "jhaals/yopass": {
+   "first_seen": "2026-07-26",
+   "last_seen": "2026-07-26",
+   "days_on_list": 1,
+   "last_stars": 3016,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-07-24"
   }
  },
  "last_updated": "2026-07-25",
