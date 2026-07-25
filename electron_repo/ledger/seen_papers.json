@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-25",
-  "last_run": "2026-07-25",
+  "last_updated": "2026-07-26",
+  "last_run": "2026-07-26",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -259,6 +259,21 @@
       "venue": "arXiv (preprint)", "year": 2025,
       "why": "Client-side analysis spanning browsers, VS Code, and npm. Preprint — verify status before citing.",
       "url": "https://arxiv.org/abs/2505.21263"
+    },
+    {
+      "title": "Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing",
+      "title_norm": "buzz to boom detecting message progression vulnerabilities in electron applications via segmented directed fuzzing",
+      "authors": ["Jianjia Yu", "Zhengyu Liu", "Ziyang Li", "Yu Sun", "Yinzhi Cao"],
+      "venue": "arXiv (preprint)", "year": 2026,
+      "arxiv": "2607.20698", "submitted": "2026-07-22",
+      "scope_topical": "PRIMARY (Electron vulnerability discovery — most thesis-central out-of-venue item to date)",
+      "why": "Strongest out-of-venue candidate this watch has surfaced: a segmented directed fuzzing framework (Proton) that DISCOVERS zero-day vulnerabilities in real Electron apps — the exact thesis topic, not merely Node.js-runtime-adjacent. Defines a new bug class, Message Progression Vulnerabilities (MPVs): attacker-controlled inputs that chain across processes via message passing to reach privileged/terminal sinks (OS command execution). Explicitly positions past prior Electron work (unsafe-config + malicious-DOM studies, i.e. DOM-tree type/Inspectron/COINDEF) as unable to detect these cross-process, multi-step exploits. Evaluated on 589 real Electron apps → 23 zero-day MPVs, 22 to full RCE (projects >50k GitHub stars), 13 acks / 11 fixes / 11 CVEs, Vercel bug bounty on Hyper; 17 more zero-days than end-to-end fuzzing.",
+      "venue_status": "arXiv-only v1 (22 Jul 2026), cs.CR. NO Comments/venue field on the arXiv abstract page and no venue annotation in the full text — no confirmed acceptance at any of the 9 watched venues. NOT added to in_scope[]/excluded[] per established out-of-venue precedent (PoCGen, JavaSith, LLM-taint preprints).",
+      "promotion_trigger": "Promote to in_scope PRIMARY (write a full papers/ note) the moment a watched venue publishes it — watch CCS '26 (notified Jul 17), USENIX Sec '26 Cycle 2 (release Aug 12), NDSS '27, and S&P '27 accepted lists.",
+      "url": "https://arxiv.org/abs/2607.20698",
+      "pdf": "https://arxiv.org/pdf/2607.20698",
+      "added": "2026-07-26",
+      "grounding": "full arXiv abstract (verbatim) + intro/contributions of the full-text HTML (grepped, not a complete read)"
     }
   ]
 }
