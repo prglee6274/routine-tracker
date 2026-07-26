@@ -1472,9 +1472,9 @@
   },
   "diegosouzapw/OmniRoute": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-07-24",
-   "days_on_list": 4,
-   "last_stars": 28565,
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 30851,
    "category": "tools",
    "language": "TypeScript",
    "graduated": true,
@@ -2226,9 +2226,9 @@
   },
   "schollz/croc": {
    "first_seen": "2026-07-22",
-   "last_seen": "2026-07-26",
-   "days_on_list": 1,
-   "last_stars": 38426,
+   "last_seen": "2026-07-27",
+   "days_on_list": 2,
+   "last_stars": 38615,
    "category": "security",
    "language": "Go",
    "graduated": false,
@@ -2264,9 +2264,9 @@
   },
   "block/buzz": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-07-27",
    "days_on_list": 1,
-   "last_stars": 9436,
+   "last_stars": 12939,
    "category": "llm",
    "language": "Rust",
    "graduated": false,
@@ -2274,9 +2274,9 @@
   },
   "koala73/worldmonitor": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-26",
-   "days_on_list": 2,
-   "last_stars": 74037,
+   "last_seen": "2026-07-27",
+   "days_on_list": 3,
+   "last_stars": 74646,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
@@ -2284,9 +2284,9 @@
   },
   "citrolabs/ego-lite": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-07-27",
    "days_on_list": 1,
-   "last_stars": 2399,
+   "last_stars": 4312,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
@@ -2381,10 +2381,50 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-07-24"
+  },
+  "permissionlesstech/bitchat": {
+   "first_seen": "2026-07-27",
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 29956,
+   "category": "security",
+   "language": "Swift"
+  },
+  "alibaba/open-code-review": {
+   "first_seen": "2026-07-27",
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 13655,
+   "category": "llm",
+   "language": "Go"
+  },
+  "OtterMind/Chat2DB": {
+   "first_seen": "2026-07-27",
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 27019,
+   "category": "tools",
+   "language": "Java"
+  },
+  "yorukot/superfile": {
+   "first_seen": "2026-07-27",
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 20108,
+   "category": "tools",
+   "language": "Go"
+  },
+  "amnezia-vpn/amnezia-client": {
+   "first_seen": "2026-07-27",
+   "last_seen": "2026-07-27",
+   "days_on_list": 1,
+   "last_stars": 13219,
+   "category": "security",
+   "language": "C++"
   }
  },
- "last_updated": "2026-07-25",
- "updated": "2026-07-25",
- "last_run": "2026-07-25",
- "count": 238
+ "last_updated": "2026-07-27",
+ "updated": "2026-07-27",
+ "last_run": "2026-07-27",
+ "count": 247
 }
