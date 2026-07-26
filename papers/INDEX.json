@@ -13714,6 +13714,195 @@
     "unlearning",
     "membership_inference"
    ]
+  },
+  "2607.19957": {
+   "version": "v1",
+   "title": "HijackKV: New Threat in Position-Independent KV Cache Reuse",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "kv cache",
+    "position-independent reuse",
+    "inference attack",
+    "llm serving",
+    "cache hijacking"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "adversarial"
+   ]
+  },
+  "2607.19430": {
+   "version": "v1",
+   "title": "ChannelGuard: Safe Models Do Not Compose into Safe Multi-Agent Systems",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "multi-agent",
+    "prompt injection",
+    "inter-agent channel",
+    "compositional safety",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2607.20952": {
+   "version": "v1",
+   "title": "The Weight of Silence: A Causal Case for Weights Over the Scratchpad in Latent Chess Reasoning",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "latent reasoning",
+    "chain-of-thought",
+    "causal analysis",
+    "reinforcement learning",
+    "faithfulness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.19432": {
+   "version": "v1",
+   "title": "ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "mcp",
+    "ai agents",
+    "multi-step attack",
+    "kill chain",
+    "sequential detection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2607.20437": {
+   "version": "v1",
+   "title": "TopoGuard: Graph Theory Based Defenses Against Split-Knowledge Attacks on RAG",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "rag",
+    "split-knowledge attack",
+    "indirect prompt injection",
+    "graph theory",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2607.21491": {
+   "version": "v1",
+   "title": "What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "concept circuits",
+    "code models",
+    "representational universality",
+    "probing",
+    "cross-lingual"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "representation",
+    "probing"
+   ]
+  },
+  "2607.21433": {
+   "version": "v1",
+   "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "chain-of-thought",
+    "reasoning convergence",
+    "mechanistic detection",
+    "probing",
+    "token budget"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2607.20890": {
+   "version": "v1",
+   "title": "Information-Theoretically Secure Aggregation for Lightweight Federated Learning: Resilient to Dropouts and Adversaries",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "federated learning",
+    "secure aggregation",
+    "signSGD",
+    "inference attack",
+    "information-theoretic"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.20280": {
+   "version": "v1",
+   "title": "Chained Attacks on Drone-Based Federated Learning: From Network Disruption to Device Impersonation",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "federated learning",
+    "drone swarm",
+    "impersonation",
+    "denial-of-service",
+    "edge intelligence"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.20914": {
+   "version": "v1",
+   "title": "Three-Pronged Spectral Control for Federated Parameter Efficient Fine Tuning",
+   "first_seen": "2026-07-27",
+   "last_updated": "2026-07-27",
+   "folder": "2026-07-27",
+   "keywords": [
+    "federated learning",
+    "parameter-efficient fine-tuning",
+    "lora",
+    "spectral control",
+    "non-iid"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -13756,5 +13945,5 @@
    ]
   }
  },
- "last_run": "2026-07-26"
+ "last_run": "2026-07-27"
 }

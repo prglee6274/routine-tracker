@@ -558,5 +558,21 @@
  "2607.21351->2511.14045": {
   "type": "background",
   "evidence": "cites RLVR membership-auditing among prior leakage results; motivates gap that none measures how many bits an adapter writes"
+ },
+ "2607.20952->2606.01243": {
+  "type": "extends",
+  "evidence": "reuses interpretability-guided causal intervention on latent thought vectors, extending it with a before/after-RL six-condition suite"
+ },
+ "2607.20952->2606.13106": {
+  "type": "compares",
+  "evidence": "engages the hidden-state recurrence claim, noting the activation-patching result was challenged by matched-control reruns"
+ },
+ "2607.20952->2607.15495": {
+  "type": "background",
+  "evidence": "cites verbalizable-representation / global-workspace work as context for whether internal representations are used in reasoning"
+ },
+ "2607.21491->2605.29358": {
+  "type": "background",
+  "evidence": "cites Scaling Monosemanticity (Templeton et al. 2024) as SAE foundation, then notes SAE dictionaries are per-model"
  }
 }
