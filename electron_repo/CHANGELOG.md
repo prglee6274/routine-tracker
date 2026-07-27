@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-07-28 — Daily watch
+
+**No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material. Every in-scope academic result returned is already in the ledger. Ledger unchanged: **12 in-scope / 12 excluded / 5 context**.
+
+**Buzz to Boom promotion check (top open item) — trigger NOT met, no change.** Re-fetched the arXiv abstract page for **"Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing"** (Yu, Liu, Li, Sun, Cao — Johns Hopkins; **arXiv:2607.20698**): still **v1 only** (submitted 22 Jul 2026), Subjects **cs.CR**, **no Comments field, no journal-ref, no venue tag** → still **no confirmed acceptance** at any of the 9 watched venues. Stays in `context_non_venue[]` as the top promotion candidate; promote to `in_scope` PRIMARY (full `papers/` note) only when a watched venue publishes it. Keep watching **CCS '26**, **USENIX Sec '26 Cycle 2**, **NDSS '27**, **S&P '27**.
+
+Per-venue status this run:
+- **CCS '26** — accepted list **still not public**. Re-fetched `sigsac.org/ccs/CCS2026/` directly: "Latest News" top item is still **Jul 13** (registrations open); no accepted-papers announcement and no accepted-papers link in the nav (author notifications were Jul 17). Unchanged from 07-27. Still the top checkpoint for Buzz to Boom. The Hague, Nov 15–19.
+- **RAID '26** — accepted list **still empty**. This run the `raid2026.org/accepted.html` page WAS directly reachable (change from 07-27, when the URL was outside the fetch provenance set): it renders the "Accepted papers" heading followed by an empty body — the list is **not yet populated**. Notification was Jul 10; Lancaster, UK, Oct 11–14. Recheck for population.
+- **USENIX Sec '26 Cycle 2** — accepted list still **not public/browsable**; only the Cycle 1 page is public (already fully grepped — sole hit remains the excluded **PyGuard** / "Cutting the Gordian Knot"). Cycle 2 notifications were ~Jul 9; embargoed papers release on the symposium's first day (**Baltimore, Aug 12–14, 2026**). Zero new in-scope hits.
+- **ESORICS '26** (Rome, Sept 14–18; notifications Jun 12) / **ACSAC '26** (submissions closed; acceptances ~Sept 8; Dec 7–11, LA) — accepted lists still not browsable.
+- **IEEE S&P '26 / NDSS '26 / AsiaCCS '26 (both cycles) / DSN '26** — fully grepped in prior runs; re-checked via search this run, no new in-scope hits.
+
+No genuinely new watched-venue academic candidate surfaced; nothing added to `in_scope[]` or `excluded[]`. The 2026 Electron surface that searches returned again remains **CVE disclosures and industry write-ups**, not peer-reviewed top-venue papers (HackTricks contextIsolation/IPC RCE guides, DARKNAVY's Steam/CEF RCE write-up, an "XSS to RCE" browser-exploitation guide, and the out-of-scope LLM preprint "Confused ChatGPT: Cross-App Context Poisoning" arXiv 2606.00485). Consistent with prior handling these are **not** added to `excluded[]`; they remain motivation/impact citations only. Scoped commit run via `scripts/commit_and_push.sh`. Next checkpoints: **CCS '26** accepted list (post-Jul 17 — recheck for Buzz to Boom), **RAID '26** list population, **USENIX Sec '26 Cycle 2** papers (release Aug 12), **ESORICS '26** proceedings (Sept), **ACSAC '26** acceptances (~Sept 8).
+
 ## 2026-07-27 — Daily watch
 
 **No new papers today.** Swept all 9 venues (USENIX Sec, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN) via web search across the standing queries (Electron app security, nodeIntegration/contextIsolation, preload/contextBridge, renderer↔main IPC, CEF/WebView, XSS→RCE, prototype pollution, npm/supply-chain), focused on 2026 and newly posted material.
