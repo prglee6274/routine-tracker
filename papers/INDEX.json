@@ -13903,6 +13903,192 @@
    "subtopics": [
     "federated_privacy"
    ]
+  },
+  "2607.21735": {
+   "version": "v1",
+   "title": "What AI Red-Team Evaluations Can and Cannot Prove",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "red-teaming",
+    "safety evaluation",
+    "evidential ceiling",
+    "benchmark",
+    "statistical bound"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "red_teaming"
+   ]
+  },
+  "2607.20435": {
+   "version": "v1",
+   "title": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "llm watermarking",
+    "model merging",
+    "merge-adversarial training",
+    "open-source models",
+    "provenance"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism"
+   ]
+  },
+  "2607.19442": {
+   "version": "v1",
+   "title": "Unlearning as Distribution Restoration: A Controlled Counterfactual Study, a Validated Selective Screen, and the Limits of Oracle-Free Certification",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "machine unlearning",
+    "distribution restoration",
+    "oracle-free certification",
+    "counterfactual",
+    "evaluation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2607.22367": {
+   "version": "v1",
+   "title": "Interior interpretability with attention rollout: contraction and propagation profiles in Transformers",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "attention rollout",
+    "interior interpretability",
+    "Dobrushin contraction",
+    "transformers",
+    "propagation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2607.21774": {
+   "version": "v1",
+   "title": "Probing Latent Colombian Identity Inferences in Qwen2.5-7B with Natural Language Autoencoders",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "probing",
+    "natural language autoencoders",
+    "residual stream",
+    "demographic inference",
+    "Qwen2.5"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2607.22450": {
+   "version": "v1",
+   "title": "A Maximum Entropy Implementation of Differential Privacy Under Linear Invariants",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "differential privacy",
+    "linear invariants",
+    "maximum entropy",
+    "census",
+    "correlated noise"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.21619": {
+   "version": "v1",
+   "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "jailbreak",
+    "vision-language models",
+    "GRPO",
+    "stylistic triggers",
+    "safety alignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "jailbreak"
+   ]
+  },
+  "2607.19361": {
+   "version": "v1",
+   "title": "Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "guardrails",
+    "multi-turn",
+    "conversational risk accumulation",
+    "semantic drift",
+    "moderation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "agent_safety"
+   ]
+  },
+  "2607.21620": {
+   "version": "v1",
+   "title": "From Profiles to Steering Vectors: Global Sparse Priors and Local Semantic Calibration for Personalized Text Generation",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "activation steering",
+    "sparse autoencoders",
+    "steering vectors",
+    "personalization",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "sae"
+   ]
+  },
+  "2607.22230": {
+   "version": "v1",
+   "title": "trasgoDP: An Open Source Framework for Releasing Noised Tabular Microdata under Local Differential Privacy",
+   "first_seen": "2026-07-28",
+   "last_updated": "2026-07-28",
+   "folder": "2026-07-28",
+   "keywords": [
+    "local differential privacy",
+    "tabular microdata",
+    "geo-indistinguishability",
+    "open-source",
+    "privacy-utility"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -13945,5 +14131,5 @@
    ]
   }
  },
- "last_run": "2026-07-27"
+ "last_run": "2026-07-28"
 }
