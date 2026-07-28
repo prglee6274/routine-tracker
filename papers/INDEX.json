@@ -14089,6 +14089,194 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2607.24645": {
+   "version": "v1",
+   "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "sparse autoencoder",
+    "feature effects",
+    "steering",
+    "representation geometry"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "feature_attribution",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2607.21824": {
+   "version": "v1",
+   "title": "Protocol-Level Attacks on Agentic Commerce Platforms: A Cross-Platform Taxonomy, AIP-Bench, and Unified Defense",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "agent security",
+    "agentic commerce",
+    "protocol attack",
+    "benchmark",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "adversarial",
+    "defense_mechanism"
+   ]
+  },
+  "2607.23444": {
+   "version": "v1",
+   "title": "Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "LLM agent",
+    "memory extraction",
+    "long-term memory",
+    "tool interface",
+    "agent privacy"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "adversarial"
+   ]
+  },
+  "2607.24425": {
+   "version": "v1",
+   "title": "Context Is King: How In-Context Specification Shapes the Geometry of Concepts",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "concept geometry",
+    "in-context learning",
+    "representation",
+    "activation patching"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "probing",
+    "mechanistic_position"
+   ]
+  },
+  "2607.24392": {
+   "version": "v1",
+   "title": "When LLM Defenses Backfire: Characterizing Safety, Performance, and Cost Trade-offs",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "jailbreak defense",
+    "over-refusal",
+    "trade-off",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2607.22695": {
+   "version": "v1",
+   "title": "PANOPTICON: A PII-Based Assemblage of Naturalistic Output Tokens for Investigating Privacy Leakage Within LLM Context Window",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "PII",
+    "privacy leakage",
+    "prompt inversion attack",
+    "dataset"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2607.23379": {
+   "version": "v1",
+   "title": "When Activation Oracles Learn Not to Read: Concept-Specific Blind Spots in Fine-Tuned Oracles",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "activation oracle",
+    "probing",
+    "interpretability reliability",
+    "LogitLens"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2607.23649": {
+   "version": "v1",
+   "title": "DP-IVON-Gradsq: Differentially Private Squared-Gradient Improved Variational Online Newton",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "Bayesian deep learning",
+    "variational inference"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2607.23496": {
+   "version": "v1",
+   "title": "Do LLMs Know Their Vulnerable Scenarios?",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "jailbreak",
+    "red-teaming",
+    "sparse autoencoder",
+    "activation steering",
+    "refusal"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2607.23970": {
+   "version": "v1",
+   "title": "Understanding Machine Unlearning Through the Lens of Mode Connectivity",
+   "first_seen": "2026-07-29",
+   "last_updated": "2026-07-29",
+   "folder": "2026-07-29",
+   "keywords": [
+    "machine unlearning",
+    "mode connectivity",
+    "loss landscape",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {

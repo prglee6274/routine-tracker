@@ -574,5 +574,21 @@
  "2607.21491->2605.29358": {
   "type": "background",
   "evidence": "cites Scaling Monosemanticity (Templeton et al. 2024) as SAE foundation, then notes SAE dictionaries are per-model"
+ },
+ "2607.21824->2606.24322": {
+  "type": "background",
+  "evidence": "Cites prior LLM-agent long-term-memory security work as related background; citing paper's focus is commerce-protocol structural attacks, a different layer."
+ },
+ "2607.23496->2602.12418": {
+  "type": "extends",
+  "evidence": "Builds on SAE-based jailbreak work, extending SAE concept attribution from mitigation to vulnerable-scenario discovery."
+ },
+ "2607.24425->2605.05115": {
+  "type": "background",
+  "evidence": "References manifold-steering / shared-geometry work in related work on representational geometry."
+ },
+ "2607.24645->2605.29358": {
+  "type": "extends",
+  "evidence": "Extends the SAE feature-steering paradigm (Scaling Monosemanticity) by scrutinizing downstream causal feature effects."
  }
 }
