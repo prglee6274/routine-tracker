@@ -14277,6 +14277,188 @@
     "unlearning",
     "membership_inference"
    ]
+  },
+  "2607.25857": {
+   "version": "v1",
+   "title": "Shieldstral",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "safety classifier",
+    "content moderation",
+    "multimodal safety",
+    "guardrail"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "defense_mechanism",
+    "multimodal_attack"
+   ]
+  },
+  "2607.25270": {
+   "version": "v1",
+   "title": "Where Steering Signals Come From: Activation Source Selection in Activation Steering",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "activation steering",
+    "mechanistic interpretability",
+    "representation",
+    "steering vectors"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.24897": {
+   "version": "v1",
+   "title": "TYPO: Instruction-Dense Visual Jailbreaks against Commercial Closed-Source Image-Generation Models",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "visual jailbreak",
+    "image generation",
+    "safety alignment",
+    "multimodal attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack"
+   ]
+  },
+  "2607.25907": {
+   "version": "v1",
+   "title": "Minimizing Targeted Activations: Input-Only Suppression of Evaluation-Awareness Latents in Large Language Models",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "evaluation awareness",
+    "activation steering",
+    "sparse autoencoder",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "probing",
+    "safety_eval"
+   ]
+  },
+  "2607.24893": {
+   "version": "v1",
+   "title": "Early Detection of Distributed Backdoors in Multi-Agent LLM Systems: A Characterization Study",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "backdoor",
+    "multi-agent",
+    "agent safety",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2607.25041": {
+   "version": "v1",
+   "title": "ScoreShield: Differentially Private Release of Similarity Scores",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "differential privacy",
+    "membership inference",
+    "embedding privacy",
+    "RAG"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "membership_inference"
+   ]
+  },
+  "2607.25987": {
+   "version": "v1",
+   "title": "IH-Benchmark: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "instruction hierarchy",
+    "prompt injection",
+    "benchmark",
+    "safety evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2607.25459": {
+   "version": "v1",
+   "title": "Emergent Latent-State Computation under Stochastic Volatility",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "mechanistic interpretability",
+    "latent state",
+    "representation",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "probing"
+   ]
+  },
+  "2607.25716": {
+   "version": "v1",
+   "title": "SpeechLLM Meets Federated Learning for End-to-End ASR: English and Italian Case Studies",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "federated learning",
+    "speech LLM",
+    "ASR privacy",
+    "privacy-preserving"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2607.25107": {
+   "version": "v1",
+   "title": "MOSAIC-FL, a micro-service based privacy-preserving framework with application to genomics",
+   "first_seen": "2026-07-30",
+   "last_updated": "2026-07-30",
+   "folder": "2026-07-30",
+   "keywords": [
+    "federated learning",
+    "homomorphic encryption",
+    "secure aggregation",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {

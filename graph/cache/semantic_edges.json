@@ -590,5 +590,13 @@
  "2607.24645->2605.29358": {
   "type": "extends",
   "evidence": "Extends the SAE feature-steering paradigm (Scaling Monosemanticity) by scrutinizing downstream causal feature effects."
+ },
+ "2607.24897->2606.07335": {
+  "type": "background",
+  "evidence": "TYPO(공격)가 관련 재일브레이크 방어 연구를 배경 문헌으로 인용"
+ },
+ "2607.25270->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 기반 Scaling Monosemanticity를 특징 수준 해석·스티어링의 관련 방법론으로 배경 인용"
  }
 }
