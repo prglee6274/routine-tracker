@@ -13905,10 +13905,10 @@
    ]
   },
   "2607.21735": {
-   "version": "v1",
+   "version": "v2",
    "title": "What AI Red-Team Evaluations Can and Cannot Prove",
    "first_seen": "2026-07-28",
-   "last_updated": "2026-07-28",
+   "last_updated": "2026-08-01",
    "folder": "2026-07-28",
    "keywords": [
     "red-teaming",
@@ -14390,10 +14390,10 @@
    ]
   },
   "2607.25987": {
-   "version": "v1",
+   "version": "v2",
    "title": "IH-Benchmark: A Conflict-Centered Benchmark for Instruction-Hierarchy Robustness in LLM Applications",
    "first_seen": "2026-07-30",
-   "last_updated": "2026-07-30",
+   "last_updated": "2026-08-01",
    "folder": "2026-07-30",
    "keywords": [
     "instruction hierarchy",
@@ -14535,10 +14535,10 @@
    ]
   },
   "2607.25255": {
-   "version": "v1",
+   "version": "v2",
    "title": "SafeFlow: Semantic Information-Flow Control for Blocking Malicious Propagation in Multi-Agent Systems",
    "first_seen": "2026-07-31",
-   "last_updated": "2026-07-31",
+   "last_updated": "2026-08-01",
    "folder": "2026-07-31",
    "category": "security",
    "subtopics": [
@@ -14643,6 +14643,196 @@
     "PCA",
     "LoRA"
    ]
+  },
+  "2607.20891": {
+   "version": "v2",
+   "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "deep research agent",
+    "misinformation injection",
+    "agent safety",
+    "long-horizon reasoning",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2607.28319": {
+   "version": "v1",
+   "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "bias localization",
+    "differential activation",
+    "neuron pruning",
+    "causal intervention",
+    "GLU-MLP"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing"
+   ]
+  },
+  "2607.26228": {
+   "version": "v1",
+   "title": "Steering Instruction Hierarchies at Inference Time",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "instruction hierarchy",
+    "activation steering",
+    "direct logit attribution",
+    "value vector editing",
+    "prompt injection defense"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "interp_method"
+   ]
+  },
+  "2607.28165": {
+   "version": "v1",
+   "title": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "audio prompt injection",
+    "multimodal agent",
+    "stealth attack",
+    "benchmark",
+    "source separation defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "multimodal_attack"
+   ]
+  },
+  "2607.27836": {
+   "version": "v1",
+   "title": "Crossing the Margin Cliff: Toward Relearn-Robust LLM Unlearning via Margin Calibration",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "machine unlearning",
+    "relearn attack",
+    "margin calibration",
+    "TOFU",
+    "membership inference"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "membership_inference"
+   ]
+  },
+  "2607.27951": {
+   "version": "v1",
+   "title": "Safeguards Based on Copyable Context Cannot Provide Reliable Safety for LLMs",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "dual-use",
+    "safeguard limits",
+    "safety trilemma",
+    "adaptive attack",
+    "trusted access"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2607.26389": {
+   "version": "v1",
+   "title": "Misalignment Has a Personality: A Big Five Account of Emergent Misalignment",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "emergent misalignment",
+    "persona vector",
+    "activation direction",
+    "sycophancy",
+    "Big Five"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "activation_steering"
+   ]
+  },
+  "2607.27886": {
+   "version": "v1",
+   "title": "Don't Trust the AI Ecosystem: Analyzing Privacy Leakage in Compromised Open-Source Components",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "model inversion",
+    "training-time injection",
+    "supply chain attack",
+    "data extraction",
+    "gradient locking"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2607.26639": {
+   "version": "v1",
+   "title": "Borrowed Strength: Best-of-N Search over a Code Encoding Breaks Self-Check Jailbreak Defenses",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "jailbreak",
+    "best-of-N",
+    "attack composition",
+    "self-check defense",
+    "SAGE"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism"
+   ]
+  },
+  "2607.27940": {
+   "version": "v1",
+   "title": "TriShield: Zero-Utility-Loss Defense Against Privacy Backdoors in Federated Language Model Fine-Tuning via Orthogonal Gradient Projection and Optimizer State Entanglement",
+   "first_seen": "2026-08-01",
+   "last_updated": "2026-08-01",
+   "folder": "2026-08-01",
+   "keywords": [
+    "federated learning",
+    "privacy backdoor",
+    "PEFT",
+    "gradient projection",
+    "data reconstruction"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
@@ -14685,5 +14875,5 @@
    ]
   }
  },
- "last_run": "2026-07-31"
+ "last_run": "2026-08-01"
 }
