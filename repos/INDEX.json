@@ -1154,13 +1154,13 @@
   },
   "microsoft/agent-governance-toolkit": {
    "first_seen": "2026-06-18",
-   "last_seen": "2026-07-31",
-   "days_on_list": 2,
-   "last_stars": 5494,
+   "last_seen": "2026-08-02",
+   "days_on_list": 1,
+   "last_stars": 5552,
    "graduated": false,
    "category": "security",
    "language": "Python",
-   "last_pushed_at": "2026-07-30"
+   "last_pushed_at": "2026-08-01"
   },
   "All-Hands-AI/OpenHands": {
    "first_seen": "2026-06-19",
@@ -1518,13 +1518,13 @@
   },
   "ogulcancelik/herdr": {
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-02",
    "days_on_list": 1,
-   "last_stars": 22331,
+   "last_stars": 23321,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-29"
+   "last_pushed_at": "2026-08-01"
   },
   "alibaba/page-agent": {
    "first_seen": "2026-07-05",
@@ -1743,9 +1743,9 @@
   },
   "huggingface/speech-to-speech": {
    "first_seen": "2026-07-11",
-   "last_seen": "2026-08-01",
-   "days_on_list": 3,
-   "last_stars": 9752,
+   "last_seen": "2026-08-02",
+   "days_on_list": 4,
+   "last_stars": 10138,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -2412,9 +2412,9 @@
   },
   "yorukot/superfile": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-07-29",
-   "days_on_list": 3,
-   "last_stars": 21363,
+   "last_seen": "2026-08-02",
+   "days_on_list": 1,
+   "last_stars": 22073,
    "category": "tools",
    "language": "Go",
    "last_pushed_at": "2026-07-27"
@@ -2490,19 +2490,19 @@
   },
   "virgiliojr94/book-to-skill": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-07-31",
-   "days_on_list": 2,
-   "last_stars": 13616,
-   "category": "tools",
+   "last_seen": "2026-08-02",
+   "days_on_list": 1,
+   "last_stars": 14747,
+   "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-07-30"
+   "last_pushed_at": "2026-07-31"
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-02",
    "days_on_list": 1,
-   "last_stars": 235439,
+   "last_stars": 236804,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
@@ -2520,13 +2520,13 @@
   },
   "nolabs-ai/nono": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-02",
    "days_on_list": 1,
-   "last_stars": 3287,
+   "last_stars": 3399,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-28"
+   "last_pushed_at": "2026-07-31"
   },
   "different-ai/openwork": {
    "first_seen": "2026-07-30",
@@ -2560,13 +2560,13 @@
   },
   "zhaoxuya520/reverse-skill": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-01",
-   "days_on_list": 1,
-   "last_stars": 10486,
+   "last_seen": "2026-08-02",
+   "days_on_list": 2,
+   "last_stars": 11719,
    "category": "security",
    "language": "PowerShell",
    "graduated": false,
-   "last_pushed_at": "2026-07-31"
+   "last_pushed_at": "2026-08-01"
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
@@ -2617,10 +2617,28 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-07-28"
+  },
+  "esengine/DeepSeek-Reasonix": {
+   "first_seen": "2026-08-02",
+   "last_seen": "2026-08-02",
+   "days_on_list": 1,
+   "last_stars": 28509,
+   "category": "llm",
+   "language": "Go",
+   "last_pushed_at": "2026-08-01"
+  },
+  "github/gh-stack": {
+   "first_seen": "2026-08-02",
+   "last_seen": "2026-08-02",
+   "days_on_list": 1,
+   "last_stars": 769,
+   "category": "tools",
+   "language": "Go",
+   "last_pushed_at": "2026-07-30"
   }
  },
  "last_updated": "2026-08-01",
  "updated": "2026-08-01",
- "last_run": "2026-07-31",
+ "last_run": "2026-08-02",
  "count": 260
 }
