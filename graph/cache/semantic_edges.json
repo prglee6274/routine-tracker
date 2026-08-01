@@ -642,5 +642,17 @@
  "2607.28319->2605.29358": {
   "type": "background",
   "evidence": "해석 가능한 특성 구조가 실제 규모 모델에서도 유지된다는 선행 결과를 배경으로 인용해 뉴런 단위 위치 특정의 근거로 삼음"
+ },
+ "2607.26574->2605.27932": {
+  "type": "background",
+  "evidence": "related-work 나열 속 멀티모달 안전 벤치마크/경쟁 기법 중 하나로 언급"
+ },
+ "2607.26574->2606.16527": {
+  "type": "compares",
+  "evidence": "DoubtProbe 등 기존 블랙박스 자테 방어와 대비해 자사 amplifier의 guard-agnostic 성격을 차별점으로 제시"
+ },
+ "2607.28147->2606.20470": {
+  "type": "extends",
+  "evidence": "defensive misdirection 이 질의 예산 증가에도 ASR 을 bound 한다는 이론적 결과를 원리로 삼아 자사 기만 기반 방어를 구현"
  }
 }
