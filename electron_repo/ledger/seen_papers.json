@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-01",
-  "last_run": "2026-08-01",
+  "last_updated": "2026-08-02",
+  "last_run": "2026-08-02",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -233,6 +233,20 @@
       "venue": "USENIX Security", "year": 2026,
       "reason": "PyPI malicious-package detection framework (PyGuard); only adjacency to this watch is one cross-ecosystem generalization test on NPM packages (98.07% accuracy) in the abstract. No Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle; generic supply-chain DETECTION, not Node.js-runtime-vulnerability DISCOVERY. Same rationale as the excluded ACSAC'23 'Cross-Language Detection of Malicious Packages in npm and PyPI', NDSS'26 'From Noise to Signal', and AsiaCCS'26 'Original Sin of npm'. Recorded so the recurring 'npm' near-miss on USENIX Sec '26 Cycle 1 never re-surfaces.",
       "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
+    },
+    {
+      "title": "Short Paths, Real Risks: A Large-Scale Empirical Study of Dependency Relationships in PyPI Ecosystem",
+      "title_norm": "short paths real risks a large-scale empirical study of dependency relationships in pypi ecosystem",
+      "venue": "ESORICS", "year": 2026,
+      "reason": "Surfaced from the newly-published ESORICS '26 accepted list (Winter Cycle, #106). Large-scale empirical study of dependency relationships in the PyPI (Python) ecosystem — matched only the generic 'dependency / supply chain' vocabulary. PyPI-only, no npm / Node.js runtime / Electron angle at all, so it falls outside the INCLUDE scope (npm/supply-chain *as it affects Electron or the Node.js runtime*). Same rationale as the excluded ACSAC'23 npm/PyPI malicious-package paper, NDSS'26 'From Noise to Signal', AsiaCCS'26 'Original Sin of npm', and USENIX Sec'26 PyGuard.",
+      "url": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers"
+    },
+    {
+      "title": "Local Models, Global Risk: Assessing Emerging Threats in Local AI APIs in Browsers",
+      "title_norm": "local models global risk assessing emerging threats in local ai apis in browsers",
+      "venue": "ESORICS", "year": 2026,
+      "reason": "Surfaced from the newly-published ESORICS '26 accepted list (Spring Cycle, #724; Moti, Mehrvarz, Vlummens, Shaji, Acar — Radboud). Assesses security/privacy threats of browser-built-in local AI model APIs (in-browser LLM inference); a browser/web-platform study with no Electron / Node.js / renderer-main IPC / preload / desktop-app angle → EXCLUDE category 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Same rationale as the excluded DSN'26 'Demystifying Progressive Web Application Permission Systems'.",
+      "url": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers"
     }
   ],
   "context_non_venue": [
