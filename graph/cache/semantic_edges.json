@@ -654,5 +654,9 @@
  "2607.28147->2606.20470": {
   "type": "extends",
   "evidence": "defensive misdirection 이 질의 예산 증가에도 ASR 을 bound 한다는 이론적 결과를 원리로 삼아 자사 기만 기반 방어를 구현"
+ },
+ "2607.26849->2605.23168": {
+  "type": "background",
+  "evidence": "관련 연구 개괄에서 기존 LLM 백도어 벤치마크의 커버리지 한계를 지적하며 PoisonForge를 BackdoorLLM과 함께 더 폭넓은 데이터 오염 벤치마크 사례로 언급 — 비교 baseline이 아니라 배경 위치짓기"
  }
 }
