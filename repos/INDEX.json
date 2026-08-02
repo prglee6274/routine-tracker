@@ -164,13 +164,13 @@
   },
   "NousResearch/hermes-agent": {
    "first_seen": "2026-05-11",
-   "last_seen": "2026-06-02",
-   "days_on_list": 7,
-   "last_stars": 1280,
+   "last_seen": "2026-08-03",
+   "days_on_list": 1,
+   "last_stars": 224235,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-05-31"
+   "last_pushed_at": "2026-08-02"
   },
   "CloakHQ/CloakBrowser": {
    "first_seen": "2026-05-11",
@@ -1492,13 +1492,13 @@
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-07-05",
+   "last_seen": "2026-08-03",
    "days_on_list": 1,
-   "last_stars": 20900,
+   "last_stars": 64557,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-07-01"
+   "last_pushed_at": "2026-07-25"
   },
   "anomalyco/opentui": {
    "first_seen": "2026-07-04",
@@ -1696,12 +1696,13 @@
   },
   "TencentCloud/TencentDB-Agent-Memory": {
    "first_seen": "2026-07-09",
-   "last_seen": "2026-07-10",
-   "days_on_list": 2,
-   "last_stars": 7994,
+   "last_seen": "2026-08-03",
+   "days_on_list": 1,
+   "last_stars": 10788,
    "category": "llm",
    "language": "TypeScript",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-07-29"
   },
   "MadsLorentzen/ai-job-search": {
    "first_seen": "2026-07-10",
@@ -2285,13 +2286,13 @@
   },
   "citrolabs/ego-lite": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-08-03",
    "days_on_list": 1,
-   "last_stars": 4312,
-   "category": "llm",
+   "last_stars": 7624,
+   "category": "tools",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-07-24"
+   "last_pushed_at": "2026-07-27"
   },
   "Automattic/harper": {
    "first_seen": "2026-07-25",
@@ -2480,13 +2481,13 @@
   },
   "microsoft/flint-chart": {
    "first_seen": "2026-07-29",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-03",
    "days_on_list": 1,
-   "last_stars": 2393,
+   "last_stars": 3141,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-07-27"
+   "last_pushed_at": "2026-07-29"
   },
   "virgiliojr94/book-to-skill": {
    "first_seen": "2026-07-30",
@@ -2560,13 +2561,13 @@
   },
   "zhaoxuya520/reverse-skill": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-02",
-   "days_on_list": 2,
-   "last_stars": 11719,
+   "last_seen": "2026-08-03",
+   "days_on_list": 3,
+   "last_stars": 13066,
    "category": "security",
    "language": "PowerShell",
    "graduated": false,
-   "last_pushed_at": "2026-08-01"
+   "last_pushed_at": "2026-08-02"
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
@@ -2610,9 +2611,9 @@
   },
   "adithyan-ak/AgentHound": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-03",
    "days_on_list": 1,
-   "last_stars": 140,
+   "last_stars": 196,
    "category": "security",
    "language": "Go",
    "graduated": false,
@@ -2620,25 +2621,55 @@
   },
   "esengine/DeepSeek-Reasonix": {
    "first_seen": "2026-08-02",
-   "last_seen": "2026-08-02",
-   "days_on_list": 1,
-   "last_stars": 28509,
+   "last_seen": "2026-08-03",
+   "days_on_list": 2,
+   "last_stars": 28961,
    "category": "llm",
    "language": "Go",
-   "last_pushed_at": "2026-08-01"
+   "last_pushed_at": "2026-08-02"
   },
   "github/gh-stack": {
    "first_seen": "2026-08-02",
-   "last_seen": "2026-08-02",
-   "days_on_list": 1,
-   "last_stars": 769,
+   "last_seen": "2026-08-03",
+   "days_on_list": 2,
+   "last_stars": 914,
    "category": "tools",
    "language": "Go",
    "last_pushed_at": "2026-07-30"
+  },
+  "sherlock-project/sherlock": {
+   "first_seen": "2026-08-03",
+   "last_seen": "2026-08-03",
+   "days_on_list": 1,
+   "last_stars": 87968,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-01"
+  },
+  "antirez/ds4": {
+   "first_seen": "2026-08-03",
+   "last_seen": "2026-08-03",
+   "days_on_list": 1,
+   "last_stars": 19934,
+   "category": "llm",
+   "language": "C",
+   "graduated": false,
+   "last_pushed_at": "2026-07-28"
+  },
+  "pranshuparmar/witr": {
+   "first_seen": "2026-08-03",
+   "last_seen": "2026-08-03",
+   "days_on_list": 1,
+   "last_stars": 18499,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-07-31"
   }
  },
- "last_updated": "2026-08-01",
- "updated": "2026-08-01",
- "last_run": "2026-08-02",
- "count": 260
+ "last_updated": "2026-08-03",
+ "updated": "2026-08-03",
+ "last_run": "2026-08-03",
+ "count": 271
 }
