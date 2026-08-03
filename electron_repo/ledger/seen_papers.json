@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-03",
-  "last_run": "2026-08-03",
+  "last_updated": "2026-08-04",
+  "last_run": "2026-08-04",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -171,6 +171,19 @@
       "pdf": "https://yinzhicao.org/UoP/UoP-Oakland.pdf",
       "note_file": "papers/sp2024-uop.md",
       "added": "2026-08-03", "grounding": "full-text (author-hosted PDF; abstract, S1, S5.1-S5.4 + Tables 2-3 read in full). NOTE: unresolved numeric discrepancy between abstract (25 gadgets/13 chained) and S5.2 (21 reported/20 unique) and Table 2 (24 rows) / Table 3 (26 TP) - see note caveats."
+    },
+    {
+      "id": "ndss2024-untrustide",
+      "title": "UntrustIDE: Exploiting Weaknesses in VS Code Extensions",
+      "title_norm": "untrustide exploiting weaknesses in vs code extensions",
+      "authors": ["Elizabeth Lin", "Igibek Koishybayev", "Trevor Dunlap", "William Enck", "Alexandros Kapravelos"],
+      "venue": "NDSS", "year": 2024, "scope": "PRIMARY",
+      "doi": "10.14722/ndss.2024.24073",
+      "url": "https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2024-73-paper.pdf",
+      "note_file": "papers/ndss2024-untrustide.md",
+      "added": "2026-08-04",
+      "grounding": "full-text (NDSS open-access camera-ready; abstract, S1-S9 read in full; Tables III-VI read only as flattened PDF text, per-column numbers reconstructed from S6 prose; appendix/Table VII not read). NDSS 2024 Distinguished Paper Award. NOTE: paper names Electron only as background (S1, S2) - no nodeIntegration/contextIsolation/preload/contextBridge/renderer-main IPC analysis; PRIMARY tag reflects that the target is a real Electron desktop app (VS Code) and the task is vulnerability discovery with verified exploits."
     }
   ],
   "excluded": [
