@@ -14609,10 +14609,10 @@
    ]
   },
   "2607.22657": {
-   "version": "v1",
+   "version": "v2",
    "title": "Between Suppression and Collapse: Evaluating Narrative Unlearning with LENS",
    "first_seen": "2026-07-31",
-   "last_updated": "2026-07-31",
+   "last_updated": "2026-08-04",
    "folder": "2026-07-31",
    "category": "privacy",
    "subtopics": [
@@ -14702,10 +14702,10 @@
    ]
   },
   "2607.28165": {
-   "version": "v1",
+   "version": "v2",
    "title": "Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM Agents",
    "first_seen": "2026-08-01",
-   "last_updated": "2026-08-01",
+   "last_updated": "2026-08-04",
    "folder": "2026-08-01",
    "keywords": [
     "audio prompt injection",
@@ -14778,10 +14778,10 @@
    ]
   },
   "2607.27886": {
-   "version": "v1",
+   "version": "v2",
    "title": "Don't Trust the AI Ecosystem: Analyzing Privacy Leakage in Compromised Open-Source Components",
    "first_seen": "2026-08-01",
-   "last_updated": "2026-08-01",
+   "last_updated": "2026-08-04",
    "folder": "2026-08-01",
    "keywords": [
     "model inversion",
@@ -14816,10 +14816,10 @@
    ]
   },
   "2607.27940": {
-   "version": "v1",
+   "version": "v2",
    "title": "TriShield: Zero-Utility-Loss Defense Against Privacy Backdoors in Federated Language Model Fine-Tuning via Orthogonal Gradient Projection and Optimizer State Entanglement",
    "first_seen": "2026-08-01",
-   "last_updated": "2026-08-01",
+   "last_updated": "2026-08-04",
    "folder": "2026-08-01",
    "keywords": [
     "federated learning",
@@ -15218,6 +15218,179 @@
    "subtopics": [
     "federated_privacy"
    ]
+  },
+  "2607.28617": {
+   "version": "v1",
+   "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "system prompt",
+    "auditing",
+    "AI accountability",
+    "transparency",
+    "safety eval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval"
+   ]
+  },
+  "2607.29254": {
+   "version": "v1",
+   "title": "Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "agent safety",
+    "tool use",
+    "prompt injection",
+    "refusal",
+    "representation analysis"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2607.29062": {
+   "version": "v1",
+   "title": "On the Generalization of Steering Vectors for Chain-of-Thought Faithfulness",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "activation steering",
+    "steering vector",
+    "CoT faithfulness",
+    "representation engineering",
+    "monitorability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2607.28884": {
+   "version": "v1",
+   "title": "Hollow-LLM Attack: Computationally Trivial Weights in Zero-Knowledge Verification of LLM Inference",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "zero-knowledge proof",
+    "verifiable inference",
+    "model provenance",
+    "attack",
+    "serving integrity"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "defense_mechanism"
+   ]
+  },
+  "2607.28959": {
+   "version": "v1",
+   "title": "Efficient LLM Adversarial Training via Low-Rank Defense and Circuit-Guided Surrogates",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "circuit analysis",
+    "latent adversarial training",
+    "ReFT",
+    "surrogate model",
+    "robustness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2607.28685": {
+   "version": "v1",
+   "title": "Safety, or Just Capability? A Validity Audit of Agent-Safety Benchmarks",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "safety eval",
+    "benchmark validity",
+    "agent safety",
+    "measurement",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2607.28829": {
+   "version": "v1",
+   "title": "When Unlearning Fails: Reliable Data Deletion under Post-Training in Agent Networks",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "machine unlearning",
+    "federated learning privacy",
+    "agent networks",
+    "influence estimation",
+    "right to be forgotten"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "federated_privacy",
+    "agent_privacy"
+   ]
+  },
+  "2607.28906": {
+   "version": "v1",
+   "title": "Token-Level Diagnosis of Sycophancy in LLMs with Attribution-Guided Steering",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "feature attribution",
+    "integrated gradients",
+    "activation steering",
+    "sycophancy",
+    "contrastive steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "activation_steering"
+   ]
+  },
+  "2607.29019": {
+   "version": "v1",
+   "title": "GoldenRetriever: Non-Interactive Homomorphic Encrypted Retrieval for Privacy-Preserving RAG",
+   "first_seen": "2026-08-04",
+   "last_updated": "2026-08-04",
+   "folder": "2026-08-04",
+   "keywords": [
+    "homomorphic encryption",
+    "privacy-preserving RAG",
+    "private information retrieval",
+    "CKKS",
+    "query privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
@@ -15260,5 +15433,5 @@
    ]
   }
  },
- "last_run": "2026-08-03"
+ "last_run": "2026-08-04"
 }
