@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-04",
-  "last_run": "2026-08-04",
+  "last_updated": "2026-08-05",
+  "last_run": "2026-08-05",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -325,6 +325,33 @@
       "pdf": "https://arxiv.org/pdf/2607.20698",
       "added": "2026-07-26",
       "grounding": "full arXiv abstract (verbatim) + intro/contributions of the full-text HTML (grepped, not a complete read)"
+    },
+    {
+      "title": "An Analysis of the State of Electron Security in the Wild",
+      "title_norm": "an analysis of the state of electron security in the wild",
+      "authors": ["Benjamin Altpeter"],
+      "venue": "MSc/BSc thesis, Technische Universität Braunschweig (published via Zenodo)", "year": 2020,
+      "scope_topical": "PRIMARY (Electron security measurement) — but NOT a peer-reviewed venue",
+      "why": "Direct methodological predecessor of Inspectron: the earliest large-scale 'state of Electron security in the wild' measurement this watch has found. Analyzes 1,204 open- and closed-source Electron applications for security indicators (Electron security features enabled/disabled, use of dangerous functions), and first surveys known Electron attack classes while contrasting their impact against the same attacks in a browser sandbox. Directly useful as (a) a baseline measurement to compare against Inspectron's later numbers and (b) prior art showing that a *master's thesis* on exactly this topic is an established format. Numbers above are from the Zenodo abstract only — full text (thesis-electron.pdf, 473.7 kB) not read.",
+      "venue_status": "Thesis (Technische Universität Braunschweig), published 2020-08-01, Zenodo record created 2022-01-27, DOI 10.5281/zenodo.5910501, CC-BY-4.0. Not published at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[] per out-of-venue precedent.",
+      "url": "https://zenodo.org/records/5910501",
+      "pdf": "https://zenodo.org/records/5910501/files/thesis-electron.pdf",
+      "doi": "10.5281/zenodo.5910501",
+      "added": "2026-08-05",
+      "grounding": "Zenodo record metadata + abstract (verbatim); full thesis PDF not read"
+    },
+    {
+      "title": "Differential Security Analysis of Cross-Platform Electron Applications",
+      "title_norm": "differential security analysis of cross-platform electron applications",
+      "authors": ["Claudio Paloscia"],
+      "venue": "MS thesis, University of Illinois Chicago (advisor Jason Polakis)", "year": 2025,
+      "scope_topical": "PRIMARY (Electron framework security analysis) — but NOT a peer-reviewed venue",
+      "why": "Same-lab successor to Inspectron (USENIX Sec '24): advisor Jason Polakis, committee Chris Kanich (both Inspectron co-authors) + Stefano Zanero. Takes a *differential* angle this watch has not seen at a watched venue — it compares Electron's implementation of web security mechanisms against Google Chrome's, using manual testing plus the Web Platform Tests (WPT) cross-browser suite, and reports significant divergences in CORS, permissions, cookie handling, and especially the notion of an *origin* for local (file://) HTML content and webviews. Reported consequence: third-party web resources can navigate the file system and reach sensitive information; concludes by advocating stricter Electron security defaults. Two reasons it matters to this thesis: (1) it is the clearest example of a *differential-testing* methodology for Electron vulnerability discovery — complementary to Inspectron (black-box config auditing), Proton (directed fuzzing), and COINDEF (defense); (2) it is a master's thesis at the same scope level as the user's, useful as a structural/scoping reference.",
+      "venue_status": "MS thesis (University of Illinois Chicago, Dept. of Computer Science), posted 2025-05-01 in the UIC INDIGO repository. No peer-reviewed venue publication found; not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[]. PROMOTION TRIGGER: if Polakis's group publishes this differential analysis at a watched venue (a plausible follow-up to Inspectron), promote to in_scope PRIMARY.",
+      "url": "https://indigo.uic.edu/articles/thesis/Differential_Security_Analysis_of_Cross-Platform_Electron_Applications/29336699/1",
+      "pdf": null,
+      "added": "2026-08-05",
+      "grounding": "UIC INDIGO record metadata + abstract (verbatim); full thesis PDF not read"
     }
   ]
 }
