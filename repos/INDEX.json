@@ -1402,13 +1402,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-07-29",
-   "days_on_list": 2,
-   "last_stars": 45269,
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 48119,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-07-28"
+   "last_pushed_at": "2026-08-04"
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
@@ -1472,13 +1472,13 @@
   },
   "diegosouzapw/OmniRoute": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-08-05",
    "days_on_list": 1,
-   "last_stars": 30851,
-   "category": "tools",
+   "last_stars": 39530,
+   "category": "llm",
    "language": "TypeScript",
    "graduated": true,
-   "last_pushed_at": "2026-07-24"
+   "last_pushed_at": "2026-08-04"
   },
   "deepseek-ai/DeepSpec": {
    "first_seen": "2026-07-01",
@@ -2387,21 +2387,21 @@
   },
   "permissionlesstech/bitchat": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-07-28",
-   "days_on_list": 2,
-   "last_stars": 32020,
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 34421,
    "category": "security",
    "language": "Swift",
-   "last_pushed_at": "2026-07-26"
+   "last_pushed_at": "2026-08-01"
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-08-04",
-   "days_on_list": 2,
-   "last_stars": 18366,
+   "last_seen": "2026-08-05",
+   "days_on_list": 3,
+   "last_stars": 18743,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-08-03",
+   "last_pushed_at": "2026-08-04",
    "graduated": false
   },
   "OtterMind/Chat2DB": {
@@ -2423,22 +2423,22 @@
   },
   "amnezia-vpn/amnezia-client": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-07-28",
-   "days_on_list": 2,
-   "last_stars": 13720,
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 14304,
    "category": "security",
    "language": "C++",
-   "last_pushed_at": "2026-07-26"
+   "last_pushed_at": "2026-07-31"
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-08-05",
    "days_on_list": 1,
-   "last_stars": 51396,
+   "last_stars": 55082,
    "category": "tools",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-07-27"
+   "last_pushed_at": "2026-08-04"
   },
   "CoreBunch/Instatic": {
    "first_seen": "2026-07-28",
@@ -2677,10 +2677,50 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-04"
+  },
+  "ayghri/i-have-adhd": {
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 16698,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-07-31"
+  },
+  "KnockOutEZ/wigolo": {
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 4146,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-01"
+  },
+  "BuilderIO/agent-native": {
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 4404,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-04"
+  },
+  "benbjohnson/litestream": {
+   "first_seen": "2026-08-05",
+   "last_seen": "2026-08-05",
+   "days_on_list": 1,
+   "last_stars": 14181,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-04"
   }
  },
- "last_updated": "2026-08-04",
- "updated": "2026-08-04",
- "last_run": "2026-08-03",
- "count": 271
+ "last_updated": "2026-08-05",
+ "updated": "2026-08-05",
+ "last_run": "2026-08-05",
+ "count": 276
 }
