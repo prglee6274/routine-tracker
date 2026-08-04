@@ -658,5 +658,21 @@
  "2607.26849->2605.23168": {
   "type": "background",
   "evidence": "관련 연구 개괄에서 기존 LLM 백도어 벤치마크의 커버리지 한계를 지적하며 PoisonForge를 BackdoorLLM과 함께 더 폭넓은 데이터 오염 벤치마크 사례로 언급 — 비교 baseline이 아니라 배경 위치짓기"
+ },
+ "2608.00144->2601.18110": {
+  "type": "background",
+  "evidence": "참고문헌 나열 맥락에서 선행 LLM membership inference 공격군의 하나로 인용 (attention 신호 기반 MIA)."
+ },
+ "2608.01117->2605.01687": {
+  "type": "background",
+  "evidence": "멀티턴 jailbreak taxonomy의 DEA 하위 패러다임(과제 분해·지식 집계)을 정리하며 선행 멀티턴 벤치마크 사례로 인용."
+ },
+ "2608.01117->2605.05058": {
+  "type": "extends",
+  "evidence": "선행 SoK가 jailbreak 공격/방어 스펙트럼을 다루지만 멀티턴 의도 조직 측면은 다루지 못한다고 지적하며 그 공백을 메우는 체계화로 자리매김."
+ },
+ "2608.02585->2607.15495": {
+  "type": "background",
+  "evidence": "잠재 상태를 토큰으로 사상하는 verbalizable representation 선행 연구로 인용. 인접 각주에서 설명가능성 목적의 동시기 연구와 달리 본 논문은 latent reasoning 성능 향상이 목표임을 구분."
  }
 }
