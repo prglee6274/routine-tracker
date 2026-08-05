@@ -674,5 +674,29 @@
  "2608.02585->2607.15495": {
   "type": "background",
   "evidence": "잠재 상태를 토큰으로 사상하는 verbalizable representation 선행 연구로 인용. 인접 각주에서 설명가능성 목적의 동시기 연구와 달리 본 논문은 latent reasoning 성능 향상이 목표임을 구분."
+ },
+ "2608.03201->2603.23268": {
+  "type": "background",
+  "evidence": "안전 가드의 shortcut 연관 어텐션 헤드·MLP 뉴런을 식별해 억제하는 사후 개입의 회로 수준 근거로 safety-circuit attribution 선행 연구를 인용"
+ },
+ "2608.03509->2606.04329": {
+  "type": "extends",
+  "evidence": "\"prior work studies memory and retrieval poisoning ... we examine the corresponding security boundary created when the same transformation persists and reuses untrusted experience\" — 메모리 포이즈닝 위협모델을 경험→스킬 변환 단계로 확장"
+ },
+ "2608.03509->2606.24322": {
+  "type": "background",
+  "evidence": "provenance/lifecycle 방어 논의 맥락에서 장기 메모리 포이즈닝 방어 선행 연구를 배경으로 인용, 추출 파이프라인을 견디는 transformation-resilient payload 설계 동기로 사용"
+ },
+ "2608.03700->2606.00152": {
+  "type": "extends",
+  "evidence": "에이전트가 '무엇을 획득하는가'를 감사하는 선행 프라이버시 감사 라인을 페르소나 스킬 증류 파이프라인으로 확장해 AntiSkillBench를 구성"
+ },
+ "2608.03700->2606.07943": {
+  "type": "background",
+  "evidence": "스킬 증류가 사용자 속성·선호·상호작용 스타일까지 포착한다는 서술의 배경으로 스킬 주입 공격 선행 연구를 인용"
+ },
+ "2608.03700->2606.28061": {
+  "type": "background",
+  "evidence": "재사용 가능한 태스크 지식 수요를 설명하는 서론 맥락에서 도구 사용 에이전트 프라이버시 벤치마크를 배경으로 인용"
  }
 }

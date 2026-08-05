@@ -15589,6 +15589,198 @@
    "first_seen": "2026-08-05",
    "last_updated": "2026-08-05",
    "folder": "2026-08-05"
+  },
+  "2608.03509": {
+   "version": "v1",
+   "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "backdoor",
+    "agent safety",
+    "self-evolving agent",
+    "skill poisoning",
+    "provenance"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2608.02820": {
+   "version": "v1",
+   "title": "Evading Chain-of-Thought Monitoring Through Model Poisoning",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "cot monitoring",
+    "backdoor",
+    "model poisoning",
+    "activation patching",
+    "alignment robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "alignment_robustness"
+   ]
+  },
+  "2608.03700": {
+   "version": "v1",
+   "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "agent privacy",
+    "pii leakage",
+    "impersonation",
+    "persona skill",
+    "privacy benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2608.02632": {
+   "version": "v1",
+   "title": "LLMs Can Annotate Attribution Graphs",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "circuits",
+    "circuit tracing",
+    "attribution graph",
+    "automated interpretability",
+    "supernode"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2608.03745": {
+   "version": "v1",
+   "title": "Risky Business: Measuring The Faithfulness-Safety Tension",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "faithfulness",
+    "cot monitoring",
+    "representation",
+    "activation steering",
+    "safety eval"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "activation_steering",
+    "mechanistic_position"
+   ]
+  },
+  "2608.03201": {
+   "version": "v1",
+   "title": "When Refusal Looks Safe: The Refusal-Cue Shortcut in Safety Guard Models",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "guardrail",
+    "safety eval",
+    "shortcut learning",
+    "attention head",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2608.02957": {
+   "version": "v1",
+   "title": "Inverted Detection and Control in Steering Vectors",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "activation steering",
+    "steering vector",
+    "representation",
+    "inference time intervention",
+    "linear probe"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "probing"
+   ]
+  },
+  "2608.03130": {
+   "version": "v1",
+   "title": "DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "differential privacy",
+    "agent privacy",
+    "long-term memory",
+    "attribute inference",
+    "privacy budget"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "agent_privacy"
+   ]
+  },
+  "2608.03210": {
+   "version": "v1",
+   "title": "ICO: Enhancing Semantic-Shift Jailbreaks via Iterative Context Optimization",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "jailbreak",
+    "semantic shift",
+    "black-box attack",
+    "red teaming",
+    "context optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2608.03791": {
+   "version": "v1",
+   "title": "Does Forgetting Transfer Across Modalities? A Real-World Benchmark for Cross-Modal Knowledge Unlearning Evaluation",
+   "first_seen": "2026-08-06",
+   "last_updated": "2026-08-06",
+   "folder": "2026-08-06",
+   "keywords": [
+    "machine unlearning",
+    "cross-modal",
+    "vision-language model",
+    "unlearning benchmark",
+    "memorization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -15631,5 +15823,5 @@
    ]
   }
  },
- "last_run": "2026-08-05"
+ "last_run": "2026-08-06"
 }
