@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-05",
-  "last_run": "2026-08-05",
+  "last_updated": "2026-08-06",
+  "last_run": "2026-08-06",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -284,6 +284,22 @@
       "venue": "ESORICS", "year": 2026,
       "reason": "Surfaced from the newly-published ESORICS '26 accepted list (Spring Cycle, #724; Moti, Mehrvarz, Vlummens, Shaji, Acar — Radboud). Assesses security/privacy threats of browser-built-in local AI model APIs (in-browser LLM inference); a browser/web-platform study with no Electron / Node.js / renderer-main IPC / preload / desktop-app angle → EXCLUDE category 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Same rationale as the excluded DSN'26 'Demystifying Progressive Web Application Permission Systems'.",
       "url": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers"
+    },
+    {
+      "title": "DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale",
+      "title_norm": "doublex statically detecting vulnerable data flows in browser extensions at scale",
+      "venue": "ACM CCS", "year": 2021,
+      "reason": "Surfaced during the 2020-2024 backfill sweep as a methodological neighbour of UntrustIDE (extension security + taint analysis at a watched venue). Fass, Some, Backes, Stock (CISPA). Builds an Extension Dependence Graph (control/data flow + pointer analysis + message modelling) and runs it over 154,484 CHROME browser extensions, flagging 278 with suspicious data flows (89% externally influenceable; ~93% detection on a labelled vulnerable set). Target is the Chrome extension platform, which IS sandboxed and has no Node.js/desktop privilege surface -> EXCLUDE category 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Contrast with the in-scope UntrustIDE (NDSS'24), whose whole premise is that VS Code (Electron) extensions are NOT sandboxed. Recorded so this recurring near-miss never re-surfaces; still usable as a *methodological* citation for message-flow-aware static analysis.",
+      "doi": "10.1145/3460120.3484745",
+      "url": "https://dl.acm.org/doi/10.1145/3460120.3484745"
+    },
+    {
+      "title": "Open Access Alert: Studying the Privacy Risks in Android WebView's Web Permission Enforcement",
+      "title_norm": "open access alert studying the privacy risks in android webview s web permission enforcement",
+      "venue": "AsiaCCS", "year": 2025,
+      "reason": "Surfaced during the CEF/WebView backfill sweep. Nguyen & Stock (CISPA); AsiaCCS 2025 Cycle 1. First large-scale study of web-permission enforcement in WebView, flagging 12,109 potentially privacy-harmful Android apps that render websites in a WebView without re-implementing the browser's per-site permission prompts. Matched the config keyword 'webview' but is explicitly ANDROID/mobile -> EXCLUDE category 'mobile-only studies'. Same rationale as the excluded 'Identity Confusion in WebView-based Mobile App-in-app Ecosystems' (USENIX Sec'22) and 'Cross-Boundary Mobile Tracking' (NDSS'26). Conceptually adjacent only: the *pattern* (an embedded web engine whose host app must re-implement browser security guarantees, and usually gets it wrong) is exactly the Electron argument, so it remains usable as a cross-platform analogy citation.",
+      "doi": "10.1145/3708821.3710821",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3708821.3710821"
     }
   ],
   "context_non_venue": [
