@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-06",
-  "last_run": "2026-08-06",
+  "last_updated": "2026-08-07",
+  "last_run": "2026-08-07",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -300,6 +300,37 @@
       "reason": "Surfaced during the CEF/WebView backfill sweep. Nguyen & Stock (CISPA); AsiaCCS 2025 Cycle 1. First large-scale study of web-permission enforcement in WebView, flagging 12,109 potentially privacy-harmful Android apps that render websites in a WebView without re-implementing the browser's per-site permission prompts. Matched the config keyword 'webview' but is explicitly ANDROID/mobile -> EXCLUDE category 'mobile-only studies'. Same rationale as the excluded 'Identity Confusion in WebView-based Mobile App-in-app Ecosystems' (USENIX Sec'22) and 'Cross-Boundary Mobile Tracking' (NDSS'26). Conceptually adjacent only: the *pattern* (an embedded web engine whose host app must re-implement browser security guarantees, and usually gets it wrong) is exactly the Electron argument, so it remains usable as a cross-platform analogy citation.",
       "doi": "10.1145/3708821.3710821",
       "url": "https://dl.acm.org/doi/abs/10.1145/3708821.3710821"
+    },
+    {
+      "title": "TranSPArent: Taint-style Vulnerability Detection in Generic Single Page Applications through Automated Framework Abstraction",
+      "title_norm": "transparent taint-style vulnerability detection in generic single page applications through automated framework abstraction",
+      "venue": "NDSS", "year": 2026,
+      "reason": "Surfaced from Yinzhi Cao's own 2026 publication list (JHU) while checking the Buzz to Boom promotion trigger, then confirmed on the NDSS '26 accepted list. Diwangkara & Cao. Automatically abstracts SPA frameworks (Vue, React, Angular) via static+dynamic analysis to recover framework-specific taint sinks, then runs end-to-end static dataflow detection: 19 intermediate SPA sinks recovered (14 absent from the CodeQL standard library), 11 zero-days in GitHub repos (one with 24k+ stars / 30M requests/month), 4 fixed or acknowledged. Matched the config keywords 'dom-based' / 'taint' but the target is BROWSER-RENDERED web SPAs; sinks are insecure DOM APIs inside the browser sandbox, worst case is web XSS. No Electron / Node.js-runtime / renderer-main IPC / preload / desktop-privilege angle -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. Notable as lineage only: same senior author as the (context-only) Buzz to Boom Electron fuzzing preprint, and its framework-abstraction idea is a plausible methodological analogue for abstracting Electron's IPC/contextBridge surface.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/transparent-taint-style-vulnerability-detection-in-generic-single-page-applications-through-automated-framework-abstraction/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1721-paper.pdf"
+    },
+    {
+      "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
+      "title_norm": "dom-xss detection via webpage interaction fuzzing and url component synthesis",
+      "venue": "NDSS", "year": 2026,
+      "reason": "Surfaced on the NDSS '26 accepted list during a re-sweep (missed by earlier NDSS '26 passes). Sabino, Cassel, Abreu, Adao, Bauer, Jia (CMU / IST Lisboa) - i.e. the SAME TEAM as the in-scope NodeMedic-FINE (NDSS '25). Presents SWIPE: fuzzes user interactions to trigger event handlers plus dynamic symbolic execution to synthesize URL GET parameters/fragments; run over 44,480 URLs from Tranco top-30,000 domains, finds 15% more vulnerabilities than prior work and 20 new vulnerabilities from synthesized URL components. Matched the config keywords 'dom-based' / 'xss' but is pure in-browser DOM-XSS on ordinary web pages - no desktop app, no Node.js privilege surface, no escalation past the browser sandbox -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. Recorded permanently because 'DOM-XSS' is a standing query term that will keep re-surfacing it. Still citable as a methodological reference for interaction-driven fuzzing of DOM sinks, which is the browser-side analogue of driving an Electron renderer.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s1467-paper.pdf"
+    },
+    {
+      "title": "The First Large-Scale Systematic Study of Python Class Pollution Vulnerability",
+      "title_norm": "the first large-scale systematic study of python class pollution vulnerability",
+      "venue": "IEEE S&P", "year": 2026,
+      "reason": "Confirmed on the IEEE S&P '26 accepted-papers page. Liu, Zhong, Yu, Lyu, Kang, Cao (JHU) - note Jianjia Yu and Zhengyu Liu are also Buzz to Boom / UoP authors. Presents Pyrl, a static operational taint analysis over 'get'/'set' primitives yielding a 6-type taxonomy of Python class pollution; applied to >500,000 Python programs from GitHub and PyPI, finds 47 zero-day exploitable class pollutions (incl. Microsoft Azure CLI and Google Mesop, both patched), 5 developer fixes, 7 CVEs assigned. Matched the config keyword 'prototype pollution' as its direct PYTHON analogue, but the language, runtime and ecosystem are Python/PyPI throughout - no JavaScript prototype chain, no Node.js runtime, no Electron/desktop angle -> outside the INCLUDE scope (npm/supply-chain *as it affects Electron or the Node.js runtime*). Same rationale as the excluded PyPI items (ACSAC'23 npm/PyPI malicious packages, USENIX Sec'26 PyGuard, ESORICS'26 'Short Paths, Real Risks'). Useful to the thesis only as a cross-language framing citation: pollution-class bugs generalize beyond JS prototypes.",
+      "url": "https://sp2026.ieee-security.org/accepted-papers.html",
+      "pdf": "https://yinzhicao.org/class-pollution/Pyrl.pdf"
+    },
+    {
+      "title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection",
+      "title_norm": "kintsugi empowering llms to mitigate web vulnerabilities via runtime policy injection",
+      "venue": "USENIX Security", "year": 2026,
+      "reason": "Reviewed and deliberately not ledgered on 08-04 and 08-06 because no abstract had been released; the USENIX Sec '26 Technical Sessions page now publishes abstracts ahead of PDFs, so this is finally decidable and is being recorded permanently to stop it re-surfacing. Peng Yihao et al. (Tsinghua). Automated runtime containment for the 'response gap' between vulnerability detection and patching: differential syscall analysis on normal vs. malicious requests to localize vulnerability-related functions, an LLM to delineate the offending code snippet and set policy trigger points, then a least-privilege syscall whitelist enforced via eBPF and cgroups, activated only when execution enters the protected snippet. Evaluated on 27 real-world CVEs across PHP, Python and Java; 7.6 min average response time, 9.2% latency overhead on targeted APIs, 2.21% throughput drop on concurrent traffic. Matched only the generic escalation keyword 'remote code execution'; it is server-side WEB-application defense on PHP/Python/Java stacks -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. No Electron / Node.js / renderer-main IPC / preload / desktop angle anywhere in the abstract.",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao"
     }
   ],
   "context_non_venue": [
