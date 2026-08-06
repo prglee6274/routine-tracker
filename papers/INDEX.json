@@ -14873,10 +14873,10 @@
    ]
   },
   "2607.28503": {
-   "version": "v1",
+   "version": "v2",
    "title": "InfoOps Bench: A live information operations safety benchmark",
    "first_seen": "2026-08-02",
-   "last_updated": "2026-08-02",
+   "last_updated": "2026-08-07",
    "folder": "2026-08-02",
    "keywords": [
     "safety benchmark",
@@ -14968,10 +14968,10 @@
    ]
   },
   "2607.27594": {
-   "version": "v1",
-   "title": "Compliance2LoRA: On-Demand Safety Alignment on Arbitrary Policy Subsets via Hypernetwork-Generated LoRA Adapters",
+   "version": "v2",
+   "title": "Compliance2LoRA: Personalizable On-Demand Safety Alignment on Arbitrary Policy Subsets via Hypernetwork-Generated LoRA Adapters",
    "first_seen": "2026-08-02",
-   "last_updated": "2026-08-02",
+   "last_updated": "2026-08-07",
    "folder": "2026-08-02",
    "keywords": [
     "safety alignment",
@@ -15781,6 +15781,178 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2608.04570": {
+   "version": "v1",
+   "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+   "keywords": [
+    "personalization",
+    "over-inference",
+    "user profiling",
+    "faithfulness",
+    "self-monitoring"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.05108": {
+   "version": "v1",
+   "title": "Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming",
+   "keywords": [
+    "prompt injection",
+    "red teaming",
+    "LLM agent",
+    "strategy library",
+    "transferability"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "red_teaming"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.03913": {
+   "version": "v1",
+   "title": "Sparse Weight Decomposition for Efficient Circuit Extraction",
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit extraction",
+    "sparse decomposition",
+    "transcoder",
+    "weight factorization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.04347": {
+   "version": "v1",
+   "title": "Looking in the Mirror: Introspecting Side-Effect Misalignments Induced by Fine-Tuning",
+   "keywords": [
+    "introspection",
+    "emergent misalignment",
+    "fine-tuning side effects",
+    "activation difference",
+    "LoRA adapter"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.04053": {
+   "version": "v1",
+   "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
+   "keywords": [
+    "prompt injection",
+    "defense mechanism",
+    "agent safety",
+    "self-evolving defense",
+    "security boundary"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "agent_safety"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.04519": {
+   "version": "v1",
+   "title": "Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness",
+   "keywords": [
+    "machine unlearning",
+    "multi-hop reasoning",
+    "knowledge leakage",
+    "recovery attack",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.01414": {
+   "version": "v1",
+   "title": "No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks",
+   "keywords": [
+    "safety neurons",
+    "white-box attack",
+    "neuron-level intervention",
+    "redundant encoding",
+    "alignment robustness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "probing"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.01637": {
+   "version": "v1",
+   "title": "Salami Attack: Stealthy Collusive Memory Poisoning against OpenClaw",
+   "keywords": [
+    "memory poisoning",
+    "agent memory",
+    "collusive attack",
+    "red teaming",
+    "cross-session attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety",
+    "red_teaming"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
+  },
+  "2608.03123": {
+   "version": "v1",
+   "title": "Trajectory-Guided Forget-Recover Network for Continual LLM Unlearning",
+   "keywords": [
+    "continual unlearning",
+    "machine unlearning",
+    "channel-level risk",
+    "capacity recovery",
+    "utility trade-off"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ],
+   "first_seen": "2026-08-07",
+   "last_updated": "2026-08-07",
+   "folder": "2026-08-07"
   }
  },
  "_taxonomy": {
@@ -15823,5 +15995,5 @@
    ]
   }
  },
- "last_run": "2026-08-06"
+ "last_run": "2026-08-07"
 }

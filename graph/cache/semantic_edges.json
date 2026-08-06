@@ -698,5 +698,29 @@
  "2608.03700->2606.28061": {
   "type": "background",
   "evidence": "재사용 가능한 태스크 지식 수요를 설명하는 서론 맥락에서 도구 사용 에이전트 프라이버시 벤치마크를 배경으로 인용"
+ },
+ "2608.04053->2605.03378": {
+  "type": "background",
+  "evidence": "참고문헌에서만 확인됨 — 동일 문제(프롬프트 인젝션 방어) 영역의 선행 방어 기법으로 인용"
+ },
+ "2608.04053->2605.15030": {
+  "type": "compares",
+  "evidence": "관련연구에서 'WARD instead adapts a guard through adversarial training' 와 대비하여 AgentAntibody는 검증된 전이 가능 항체를 저장한다고 차별화"
+ },
+ "2608.04053->2605.17634": {
+  "type": "background",
+  "evidence": "'The missing state is not simply more task context, but memory of the user's boundary' 라는 문제 정식화의 근거로 인용"
+ },
+ "2608.04053->2606.04329": {
+  "type": "background",
+  "evidence": "'Persistent memory also permits cross-session poisoning' 문장에서 지속 메모리 오염 위협의 배경 근거로 인용"
+ },
+ "2608.04053->2607.14611": {
+  "type": "background",
+  "evidence": "동일 문장에서 메모리 유래 인젝션 위험의 배경 근거로 병기 인용"
+ },
+ "2608.05108->2607.26115": {
+  "type": "baseline",
+  "evidence": "'Existing automated red-teaming methods primarily fall into two categories: reinforcement learning...' 도입부에서 PIMiner가 개선 대상으로 삼는 기존 자동 레드팀 계열로 인용"
  }
 }
