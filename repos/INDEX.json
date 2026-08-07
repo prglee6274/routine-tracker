@@ -284,13 +284,13 @@
   },
   "addyosmani/agent-skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-08-08",
-   "days_on_list": 1,
-   "last_stars": 83735,
+   "last_seen": "2026-05-12",
+   "days_on_list": 5,
+   "last_stars": 39358,
    "category": "llm",
-   "language": "JavaScript",
-   "graduated": false,
-   "last_pushed_at": "2026-08-06"
+   "language": "Shell",
+   "graduated": true,
+   "last_pushed_at": "2026-04-28T04:39:22Z"
   },
   "Hmbown/DeepSeek-TUI": {
    "first_seen": "2026-05-08",
@@ -2741,11 +2741,13 @@
   },
   "huangruiteng/loopx": {
    "first_seen": "2026-08-07",
-   "last_seen": "2026-08-07",
-   "days_on_list": 1,
-   "last_stars": 2749,
+   "last_seen": "2026-08-08",
+   "days_on_list": 2,
+   "last_stars": 3337,
    "category": "llm",
-   "language": "Python"
+   "language": "Python",
+   "last_pushed_at": "2026-08-07",
+   "graduated": false
   },
   "Unclecheng-li/VulnClaw": {
    "first_seen": "2026-08-08",
