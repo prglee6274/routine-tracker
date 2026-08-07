@@ -722,5 +722,17 @@
  "2608.05108->2607.26115": {
   "type": "baseline",
   "evidence": "'Existing automated red-teaming methods primarily fall into two categories: reinforcement learning...' 도입부에서 PIMiner가 개선 대상으로 삼는 기존 자동 레드팀 계열로 인용"
+ },
+ "2608.05045->2607.15081": {
+  "type": "background",
+  "evidence": "LLM 안전 과제 전반을 나열하는 인트로 배경 인용 (Shanghai AI Lab, Purpura, Qi 등과 함께 나열)"
+ },
+ "2608.05045->2607.19829": {
+  "type": "background",
+  "evidence": "인트로에서 LLM이 직면한 안전 과제의 배경 문헌으로 나열"
+ },
+ "2608.05563->2606.07943": {
+  "type": "compares",
+  "evidence": "Related work의 'Skill and agent supply-chain attacks' 문단에서 POISE 등은 배포된 스킬/지시문에 대한 공격자 통제를 가정하는 반면 본 연구의 공격자는 제한된 평범한 레코드만 기여한다고 위협모델을 대비"
  }
 }
