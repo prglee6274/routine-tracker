@@ -734,5 +734,13 @@
  "2608.05563->2606.07943": {
   "type": "compares",
   "evidence": "Related work의 'Skill and agent supply-chain attacks' 문단에서 POISE 등은 배포된 스킬/지시문에 대한 공격자 통제를 가정하는 반면 본 연구의 공격자는 제한된 평범한 레코드만 기여한다고 위협모델을 대비"
+ },
+ "2608.04548->2605.05909": {
+  "type": "baseline",
+  "evidence": "prior one-shot MLLM unlearning method that MCU merges/compares against in the continual setting"
+ },
+ "2608.04741->2606.00497": {
+  "type": "extends",
+  "evidence": "extends PII-leakage-in-web-agents line by actively inducing login rather than benchmarking passive leakage"
  }
 }
