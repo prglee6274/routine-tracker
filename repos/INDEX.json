@@ -704,13 +704,13 @@
   },
   "confident-ai/deepteam": {
    "first_seen": "2026-05-25",
-   "last_seen": "2026-07-05",
+   "last_seen": "2026-08-11",
    "days_on_list": 1,
-   "last_stars": 1800,
+   "last_stars": 2414,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-06"
+   "last_pushed_at": "2026-08-05"
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
@@ -1607,13 +1607,13 @@
   },
   "firecrawl/firecrawl": {
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-07",
+   "last_seen": "2026-08-11",
    "days_on_list": 1,
-   "last_stars": 146032,
-   "category": "llm",
+   "last_stars": 164898,
+   "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-06-19"
+   "last_pushed_at": "2026-08-10"
   },
   "steipete/CodexBar": {
    "first_seen": "2026-07-07",
@@ -2562,13 +2562,13 @@
   },
   "zhaoxuya520/reverse-skill": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-09",
-   "days_on_list": 4,
-   "last_stars": 21076,
+   "last_seen": "2026-08-11",
+   "days_on_list": 1,
+   "last_stars": 23254,
    "category": "security",
    "language": "PowerShell",
    "graduated": true,
-   "last_pushed_at": "2026-08-08"
+   "last_pushed_at": "2026-08-10"
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
@@ -2751,10 +2751,10 @@
   },
   "PrimeIntellect-ai/prime-agent": {
    "first_seen": "2026-08-09",
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
    "days_on_list": 1,
-   "last_stars": 8444,
-   "last_pushed_at": "2026-08-07",
+   "last_stars": 12850,
+   "last_pushed_at": "2026-08-10",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -2771,19 +2771,19 @@
   },
   "goauthentik/authentik": {
    "first_seen": "2026-08-09",
-   "last_seen": "2026-08-10",
-   "days_on_list": 2,
-   "last_stars": 24204,
-   "last_pushed_at": "2026-08-09",
+   "last_seen": "2026-08-11",
+   "days_on_list": 3,
+   "last_stars": 24494,
+   "last_pushed_at": "2026-08-10",
    "category": "security",
    "language": "Python",
    "graduated": false
   },
   "denoland/celld": {
    "first_seen": "2026-08-09",
-   "last_seen": "2026-08-09",
+   "last_seen": "2026-08-11",
    "days_on_list": 1,
-   "last_stars": 2484,
+   "last_stars": 2984,
    "last_pushed_at": "2026-08-05",
    "category": "tools",
    "language": "Rust",
@@ -2819,10 +2819,50 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-09"
+  },
+  "semantica-agi/semantica": {
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-08-11",
+   "days_on_list": 1,
+   "last_stars": 3956,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-10"
+  },
+  "vitali87/code-graph-rag": {
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-08-11",
+   "days_on_list": 1,
+   "last_stars": 3454,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-10"
+  },
+  "pingdotgg/t3code": {
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-08-11",
+   "days_on_list": 1,
+   "last_stars": 17957,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-10"
+  },
+  "brightdata/cli": {
+   "first_seen": "2026-08-11",
+   "last_seen": "2026-08-11",
+   "days_on_list": 1,
+   "last_stars": 3680,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-07-27"
   }
  },
- "last_updated": "2026-08-10",
- "updated": "2026-08-10",
+ "last_updated": "2026-08-11",
+ "updated": "2026-08-11",
  "last_run": "2026-08-05",
  "count": 276
 }
