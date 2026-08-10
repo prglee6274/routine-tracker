@@ -742,5 +742,9 @@
  "2608.04741->2606.00497": {
   "type": "extends",
   "evidence": "extends PII-leakage-in-web-agents line by actively inducing login rather than benchmarking passive leakage"
+ },
+ "2608.07208->2607.15495": {
+  "type": "background",
+  "evidence": "내부 활성이 응답보다 많은 정보를 담는다는 전제를 뒷받침하는 선행 연구 묶음의 하나로 인용됨 (비교·반박 없이 배경 근거로만 등장)."
  }
 }

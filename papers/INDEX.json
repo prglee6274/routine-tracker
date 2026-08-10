@@ -12405,10 +12405,10 @@
    ]
   },
   "2607.13093": {
-   "version": "v1",
+   "version": "v4",
    "title": "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
    "first_seen": "2026-07-19",
-   "last_updated": "2026-07-19",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-19",
    "keywords": [
     "LLM inference",
@@ -12570,10 +12570,10 @@
    ]
   },
   "2607.10645": {
-   "version": "v1",
+   "version": "v2",
    "title": "MafiaScope: Non-Invasive, Time-Resolved Belief Probing for LLM Agents in Social Deduction Games",
    "first_seen": "2026-07-20",
-   "last_updated": "2026-07-20",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-20",
    "keywords": [
     "belief probing",
@@ -12701,10 +12701,10 @@
    ]
   },
   "2607.15893": {
-   "version": "v1",
+   "version": "v2",
    "title": "Induction in Both Directions: A Mechanistic Analysis of In-Context Learning in Masked Diffusion Language Models",
    "first_seen": "2026-07-21",
-   "last_updated": "2026-07-21",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-21",
    "keywords": [
     "mechanistic interpretability",
@@ -12837,10 +12837,10 @@
    ]
   },
   "2607.15263": {
-   "version": "v2",
+   "version": "v3",
    "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
    "first_seen": "2026-07-22",
-   "last_updated": "2026-07-22",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-22",
    "keywords": [
     "security agents",
@@ -12856,10 +12856,10 @@
    ]
   },
   "2607.15434": {
-   "version": "v2",
+   "version": "v4",
    "title": "Coercion and Deception in AI-to-AI Management: An Agentic Benchmark of Unprompted Escalation",
    "first_seen": "2026-07-22",
-   "last_updated": "2026-07-22",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-22",
    "keywords": [
     "multi-agent",
@@ -12947,10 +12947,10 @@
    ]
   },
   "2607.17425": {
-   "version": "v1",
+   "version": "v2",
    "title": "Decoder-Preserving Sparse Autoencoders: Which Readouts Survive Sparse Compression?",
    "first_seen": "2026-07-22",
-   "last_updated": "2026-07-22",
+   "last_updated": "2026-08-11",
    "folder": "2026-07-22",
    "keywords": [
     "sparse autoencoder",
@@ -15592,10 +15592,10 @@
    "folder": "2026-08-05"
   },
   "2608.03509": {
-   "version": "v1",
+   "version": "v2",
    "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
    "first_seen": "2026-08-06",
-   "last_updated": "2026-08-06",
+   "last_updated": "2026-08-11",
    "folder": "2026-08-06",
    "keywords": [
     "backdoor",
@@ -15997,7 +15997,7 @@
    "folder": "2026-08-08"
   },
   "2608.05563": {
-   "version": "v1",
+   "version": "v2",
    "title": "When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems",
    "keywords": [
     "trajectory poisoning",
@@ -16013,7 +16013,7 @@
     "red_teaming"
    ],
    "first_seen": "2026-08-08",
-   "last_updated": "2026-08-08",
+   "last_updated": "2026-08-11",
    "folder": "2026-08-08"
   },
   "2608.05409": {
@@ -16038,7 +16038,7 @@
    "folder": "2026-08-08"
   },
   "2608.05127": {
-   "version": "v1",
+   "version": "v2",
    "title": "SSTQ: Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
    "keywords": [
     "local differential privacy",
@@ -16053,7 +16053,7 @@
     "federated_privacy"
    ],
    "first_seen": "2026-08-08",
-   "last_updated": "2026-08-08",
+   "last_updated": "2026-08-11",
    "folder": "2026-08-08"
   },
   "2608.05045": {
@@ -16517,6 +16517,203 @@
     "feature_attribution",
     "interp_method"
    ]
+  },
+  "2608.06477": {
+   "version": "v1",
+   "title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "prompt injection",
+    "computer-use agent",
+    "agent safety",
+    "safety benchmark",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "safety_eval",
+    "red_teaming"
+   ]
+  },
+  "2608.06862": {
+   "version": "v1",
+   "title": "SynChain: Inducing Computer-Use Agent Systems to Construct Their Own Attack Chains",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "agent safety",
+    "backdoor",
+    "self-evolving agent",
+    "persistent memory",
+    "supply chain"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "backdoor",
+    "prompt_injection"
+   ]
+  },
+  "2608.06526": {
+   "version": "v1",
+   "title": "GRASP: Reinforcing Language Model Anonymizers with Group Relative Policy Optimization",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "PII",
+    "anonymization",
+    "privacy-utility tradeoff",
+    "attribute inference",
+    "on-device privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2608.06638": {
+   "version": "v1",
+   "title": "MI-MIDI: Mechanistic Interpretability of Text-to-MIDI Generation Models via Probing, Lenses and Steering",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "mechanistic interpretability",
+    "linear probing",
+    "logit lens",
+    "activation patching",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "activation_steering",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2608.06947": {
+   "version": "v1",
+   "title": "When Context Bites: Detecting RAG Poisoning via Document-Level Attention Collapse",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "RAG poisoning",
+    "attention analysis",
+    "defense mechanism",
+    "internal representation",
+    "anomaly detection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2608.06795": {
+   "version": "v1",
+   "title": "LoRAScan: Detecting Backdoor Prompts in Low-Rank Adapters for Large Language Models via Down-Projection Activation Spikes",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "backdoor",
+    "LoRA",
+    "supply chain attack",
+    "activation analysis",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2608.07208": {
+   "version": "v1",
+   "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "linear probing",
+    "concept vectors",
+    "representation",
+    "internal vs expressed knowledge",
+    "feature attribution"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "feature_attribution"
+   ]
+  },
+  "2608.05163": {
+   "version": "v1",
+   "title": "Where Privacy Risk Lives in English-Source Multilingual RAG: A Stage-Decomposed Audit Across Five Query Languages",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "PII leakage",
+    "multilingual RAG",
+    "privacy audit",
+    "guardrail",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2608.07353": {
+   "version": "v1",
+   "title": "Geo-Spatial Concept Probing of Large Language Models: Abstraction, Compositionality, and Grounding",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "probing",
+    "concept understanding",
+    "compositionality",
+    "grounding",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.05737": {
+   "version": "v1",
+   "title": "ABC: Numerical Data Collection under Local Differential Privacy without Prior Knowledge",
+   "first_seen": "2026-08-11",
+   "last_updated": "2026-08-11",
+   "folder": "2026-08-11",
+   "keywords": [
+    "local differential privacy",
+    "data collection",
+    "domain estimation",
+    "privacy-utility tradeoff",
+    "clipping"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -16559,5 +16756,5 @@
    ]
   }
  },
- "last_run": "2026-08-10"
+ "last_run": "2026-08-11"
 }
