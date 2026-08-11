@@ -16714,6 +16714,203 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2608.07594": {
+   "version": "v1",
+   "title": "Scaling Inherently Interpretable Language Models",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "inherent interpretability",
+    "concept attribution",
+    "training data attribution",
+    "concept steering",
+    "diffusion language model"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "representation",
+    "feature_attribution",
+    "activation_steering"
+   ]
+  },
+  "2608.07430": {
+   "version": "v1",
+   "title": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "diffusion LLM",
+    "safety neurons",
+    "mechanistic interpretability",
+    "jailbreak",
+    "transfer attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment_robustness",
+    "mechanistic_position"
+   ]
+  },
+  "2608.09624": {
+   "version": "v1",
+   "title": "Measuring the Wrong Thing: Internal Harmfulness Scores Anti-Rank Successful Jailbreaks",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "jailbreak",
+    "safety probe",
+    "attention probing",
+    "harmfulness score",
+    "evaluation critique"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval",
+    "probing"
+   ]
+  },
+  "2608.09095": {
+   "version": "v1",
+   "title": "Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "mechanistic interpretability",
+    "safety pathways",
+    "multilingual safety",
+    "circuit analysis",
+    "targeted alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position",
+    "alignment_robustness"
+   ]
+  },
+  "2608.09140": {
+   "version": "v1",
+   "title": "Beyond Direct Identifiers: Probabilistic Privacy Risk Estimation for Privacy-Conscious LLM Query Delegation",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "PII",
+    "self-disclosure",
+    "k-anonymity",
+    "privacy-conscious delegation",
+    "local LLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2608.09577": {
+   "version": "v1",
+   "title": "ElasticBack: Stealthy Conditional Backdoor in LLM-Agent Skills via Coupled Trigger-Rule Optimization",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "backdoor",
+    "agent skill",
+    "supply chain attack",
+    "trigger optimization",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2608.07852": {
+   "version": "v1",
+   "title": "\"Many Are My Names\": The Anatomy of the Assistant and Its Personas via Sparse Autoencoders",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "sparse autoencoder",
+    "persona",
+    "activation steering",
+    "speaker representation",
+    "roleplay"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2608.09164": {
+   "version": "v1",
+   "title": "CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy Preference Alignment",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "privacy preference alignment",
+    "contextual integrity",
+    "disclosure boundary",
+    "personalization",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2608.08264": {
+   "version": "v1",
+   "title": "OBLIVION: Workflow-Level Operational Skill Unlearning for Deployed Agents",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "machine unlearning",
+    "skill revocation",
+    "agent memory",
+    "residual carriers",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "agent_privacy"
+   ]
+  },
+  "2608.08939": {
+   "version": "v1",
+   "title": "Not an A11y: How Android Accessibility Exposes Mobile AI Agents to Indirect Prompt Injection",
+   "first_seen": "2026-08-12",
+   "last_updated": "2026-08-12",
+   "folder": "2026-08-12",
+   "keywords": [
+    "indirect prompt injection",
+    "mobile agent",
+    "accessibility tree",
+    "goal hijacking",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "multimodal_attack"
+   ]
   }
  },
  "_taxonomy": {
@@ -16756,5 +16953,5 @@
    ]
   }
  },
- "last_run": "2026-08-11"
+ "last_run": "2026-08-12"
 }
