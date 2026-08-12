@@ -770,5 +770,13 @@
  "2608.09624->2606.28153": {
   "type": "rebuts",
   "evidence": "jailbreak 하에서도 유해 feature가 robust하다는 mechanistic 주장에 대해, 내부 유해성 점수가 성공한 공격을 오히려 더 안전하게 순위매김(AUROC 0.220)한다는 반대 증거를 제시"
+ },
+ "2608.10669->2607.01793": {
+  "type": "extends",
+  "evidence": "REDAgentBench builds directly on the evidence-grounded verification line of agent safety testing, extending it into an executable sandboxed benchmark that confirms violations from service receipts and final-state changes."
+ },
+ "2608.11197->2605.29358": {
+  "type": "background",
+  "evidence": "Cited in a background list of SAE work (Cunningham et al.; Templeton et al.; Bricken et al.) establishing that SAEs decompose Transformer activations into sparse, individually interpretable latents."
  }
 }

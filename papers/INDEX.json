@@ -16911,6 +16911,205 @@
     "agent_safety",
     "multimodal_attack"
    ]
+  },
+  "2608.09900": {
+   "version": "v1",
+   "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+   "keywords": [
+    "robustness stress test",
+    "logit-space intervention",
+    "guardrail auditing",
+    "decoding constraint",
+    "safety evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness",
+    "red_teaming"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.10172": {
+   "version": "v1",
+   "title": "Intrinsic Structure: Spectral Identifiability for Mechanistic Interpretability",
+   "keywords": [
+    "mechanistic interpretability",
+    "identifiability",
+    "Koopman operator",
+    "sparse autoencoder",
+    "dictionary learning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "mechanistic_position",
+    "interp_method",
+    "circuits"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.10959": {
+   "version": "v1",
+   "title": "Once Poisoned, Arbitrarily Controlled: A Programmable Backdoor in VLMs",
+   "keywords": [
+    "backdoor",
+    "vision-language model",
+    "data poisoning",
+    "trigger steganography",
+    "multimodal attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "multimodal_attack"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.10669": {
+   "version": "v1",
+   "title": "REDAgentBench: Executable Red Teaming and Faithful Measurement of LLM Agent Systems",
+   "keywords": [
+    "red-teaming",
+    "agent safety",
+    "executable benchmark",
+    "attack success rate",
+    "safety evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety",
+    "safety_eval"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.11197": {
+   "version": "v1",
+   "title": "Beyond a Bag of Features: Set-Level Instability in Sparse Autoencoders",
+   "keywords": [
+    "sparse autoencoder",
+    "feature composition",
+    "concept representation",
+    "SAE evaluation",
+    "interpretability critique"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.09001": {
+   "version": "v1",
+   "title": "Mind the Hook: Source-Level Auditing of Privacy Defenses in Retrieval-Augmented Generation",
+   "keywords": [
+    "RAG privacy",
+    "differential privacy",
+    "membership inference",
+    "canary",
+    "PII leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "membership_inference",
+    "pii_leakage",
+    "data_extraction"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.07705": {
+   "version": "v1",
+   "title": "Protecting patient privacy in clinical foundation models: Technical and legal perspectives",
+   "keywords": [
+    "clinical foundation model",
+    "re-identification",
+    "training data leakage",
+    "HIPAA/GDPR",
+    "privacy risk assessment"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction",
+    "membership_inference"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.08245": {
+   "version": "v1",
+   "title": "Privacy-Preserving Data Drift Detection and Recovery for Large-Scale LLM Applications via Proxy Representations",
+   "keywords": [
+    "PII",
+    "privacy-preserving telemetry",
+    "data drift",
+    "synthetic data",
+    "production LLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.08303": {
+   "version": "v1",
+   "title": "Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning",
+   "keywords": [
+    "backdoor",
+    "trajectory poisoning",
+    "self-evolving skills",
+    "agent safety",
+    "query-only attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety",
+    "prompt_injection"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
+  },
+  "2608.08032": {
+   "version": "v1",
+   "title": "Decided Upstream, Written Late: Locating and Pricing the Cross-Lingual Refusal Circuit of a Multilingual MoE",
+   "keywords": [
+    "refusal circuit",
+    "mechanistic interpretability",
+    "multilingual safety",
+    "mixture-of-experts",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "activation_steering",
+    "representation"
+   ],
+   "first_seen": "2026-08-13",
+   "last_updated": "2026-08-13",
+   "folder": "2026-08-13"
   }
  },
  "_taxonomy": {
@@ -16953,5 +17152,5 @@
    ]
   }
  },
- "last_run": "2026-08-12"
+ "last_run": "2026-08-13"
 }
