@@ -264,13 +264,13 @@
   },
   "trufflesecurity/trufflehog": {
    "first_seen": "2026-05-15",
-   "last_seen": "2026-05-15",
+   "last_seen": "2026-08-13",
    "days_on_list": 1,
-   "last_stars": 26277,
+   "last_stars": 27409,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-05-11T18:38:34Z"
+   "last_pushed_at": "2026-08-12"
   },
   "mostlygeek/llama-swap": {
    "first_seen": "2026-05-15",
@@ -1244,10 +1244,10 @@
   },
   "earendil-works/pi": {
    "first_seen": "2026-06-04",
-   "last_seen": "2026-07-25",
-   "days_on_list": 4,
-   "last_stars": 76993,
-   "last_pushed_at": "2026-07-24",
+   "last_seen": "2026-08-13",
+   "days_on_list": 1,
+   "last_stars": 88500,
+   "last_pushed_at": "2026-08-12",
    "category": "llm",
    "language": "TypeScript",
    "graduated": true
@@ -1392,13 +1392,13 @@
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-12",
-   "days_on_list": 1,
-   "last_stars": 42570,
+   "last_seen": "2026-08-13",
+   "days_on_list": 2,
+   "last_stars": 43690,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-11"
+   "last_pushed_at": "2026-08-12"
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
@@ -2562,13 +2562,13 @@
   },
   "zhaoxuya520/reverse-skill": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-13",
    "days_on_list": 1,
-   "last_stars": 23254,
+   "last_stars": 24407,
    "category": "security",
    "language": "PowerShell",
    "graduated": true,
-   "last_pushed_at": "2026-08-10"
+   "last_pushed_at": "2026-08-12"
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
@@ -2641,9 +2641,9 @@
   },
   "sherlock-project/sherlock": {
    "first_seen": "2026-08-03",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-13",
    "days_on_list": 1,
-   "last_stars": 87968,
+   "last_stars": 89331,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -2822,13 +2822,13 @@
   },
   "semantica-agi/semantica": {
    "first_seen": "2026-08-11",
-   "last_seen": "2026-08-12",
-   "days_on_list": 2,
-   "last_stars": 4765,
+   "last_seen": "2026-08-13",
+   "days_on_list": 3,
+   "last_stars": 5588,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-11"
+   "last_pushed_at": "2026-08-12"
   },
   "vitali87/code-graph-rag": {
    "first_seen": "2026-08-11",
@@ -2862,13 +2862,13 @@
   },
   "cathrynlavery/diagram-design": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-12",
-   "days_on_list": 1,
-   "last_stars": 6403,
+   "last_seen": "2026-08-13",
+   "days_on_list": 2,
+   "last_stars": 9615,
    "category": "tools",
    "language": "HTML",
    "graduated": false,
-   "last_pushed_at": "2026-08-11"
+   "last_pushed_at": "2026-08-12"
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
@@ -2909,10 +2909,40 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-07-22"
+  },
+  "NVIDIA-NeMo/Switchyard": {
+   "first_seen": "2026-08-13",
+   "last_seen": "2026-08-13",
+   "days_on_list": 1,
+   "last_stars": 740,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-12"
+  },
+  "cactus-compute/needle": {
+   "first_seen": "2026-08-13",
+   "last_seen": "2026-08-13",
+   "days_on_list": 1,
+   "last_stars": 4082,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-11"
+  },
+  "macro-inc/macro": {
+   "first_seen": "2026-08-13",
+   "last_seen": "2026-08-13",
+   "days_on_list": 1,
+   "last_stars": 1556,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-12"
   }
  },
- "last_updated": "2026-08-12",
- "updated": "2026-08-12",
+ "last_updated": "2026-08-13",
+ "updated": "2026-08-13",
  "last_run": "2026-08-05",
  "count": 276
 }
