@@ -17110,6 +17110,202 @@
    "first_seen": "2026-08-13",
    "last_updated": "2026-08-13",
    "folder": "2026-08-13"
+  },
+  "2608.12036": {
+   "version": "v1",
+   "title": "Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence",
+   "keywords": [
+    "mechanistic interpretability",
+    "agentic discovery",
+    "AI scientist",
+    "causal intervention",
+    "knowledge graph"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method",
+    "circuits"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11274": {
+   "version": "v1",
+   "title": "Agent Safety Should Be a Runtime Contract",
+   "keywords": [
+    "agent safety",
+    "runtime enforcement",
+    "harness",
+    "trajectory monitoring",
+    "safety evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism",
+    "safety_eval"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11888": {
+   "version": "v1",
+   "title": "Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents",
+   "keywords": [
+    "agent safety",
+    "agent skills",
+    "failure attribution",
+    "differential analysis",
+    "SWE agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11295": {
+   "version": "v1",
+   "title": "Backdoor Decontamination Dynamics in LLM Agents",
+   "keywords": [
+    "backdoor",
+    "defensive poisoning",
+    "unlearning",
+    "tool-calling agents",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism",
+    "agent_safety"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.10537": {
+   "version": "v1",
+   "title": "Measuring Semantic Abstractness of SAE Features via Nonlocality",
+   "keywords": [
+    "sparse autoencoder",
+    "feature abstractness",
+    "autointerp",
+    "activation steering",
+    "jailbreak mitigation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11583": {
+   "version": "v1",
+   "title": "Localizing Safety Alignment: MLP Layers and Mid-Network Blocks Encode Refusal Behavior in Large Language Models",
+   "keywords": [
+    "refusal behavior",
+    "safety alignment",
+    "weight transplantation",
+    "localization",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "representation",
+    "mechanistic_position"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11408": {
+   "version": "v1",
+   "title": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+   "keywords": [
+    "unlearning",
+    "knowledge recovery",
+    "internal auditing",
+    "Jacobian lens",
+    "privacy risk monitoring"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "probing"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.11691": {
+   "version": "v1",
+   "title": "LEMUR: Latent Entropy-aware Multimodal Unlearning via Visual-anchored Reasoning Redirection",
+   "keywords": [
+    "multimodal unlearning",
+    "reasoning trace leakage",
+    "entropy signature",
+    "inference-time defense",
+    "MLRM privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.05474": {
+   "version": "v1",
+   "title": "Exploring Privacy Leakage and Data Disclosure Violations in the MacOS Application Ecosystem",
+   "keywords": [
+    "privacy leakage",
+    "data disclosure",
+    "desktop ecosystem",
+    "static/dynamic analysis",
+    "tracking"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
+  },
+  "2608.08795": {
+   "version": "v1",
+   "title": "Toward Metacognitive One-Shot Indirect Prompt Injection: Strategy Abstraction Via Outcome-Conditioned Reflection",
+   "keywords": [
+    "indirect prompt injection",
+    "tool-using agents",
+    "strategy distillation",
+    "one-shot attack",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "red_teaming"
+   ],
+   "first_seen": "2026-08-14",
+   "last_updated": "2026-08-14",
+   "folder": "2026-08-14"
   }
  },
  "_taxonomy": {
@@ -17152,5 +17348,5 @@
    ]
   }
  },
- "last_run": "2026-08-13"
+ "last_run": "2026-08-14"
 }
