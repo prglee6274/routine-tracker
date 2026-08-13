@@ -574,13 +574,13 @@
   },
   "KeygraphHQ/shannon": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-05-20",
-   "days_on_list": 4,
-   "last_stars": 43144,
+   "last_seen": "2026-08-14",
+   "days_on_list": 1,
+   "last_stars": 46778,
    "category": "security",
    "language": "TypeScript",
    "graduated": true,
-   "last_pushed_at": "2026-05-06T13:02:55Z"
+   "last_pushed_at": "2026-08-12"
   },
   "BigBodyCobain/Shadowbroker": {
    "first_seen": "2026-05-17",
@@ -1244,10 +1244,10 @@
   },
   "earendil-works/pi": {
    "first_seen": "2026-06-04",
-   "last_seen": "2026-08-13",
-   "days_on_list": 1,
-   "last_stars": 88500,
-   "last_pushed_at": "2026-08-12",
+   "last_seen": "2026-08-14",
+   "days_on_list": 2,
+   "last_stars": 89514,
+   "last_pushed_at": "2026-08-13",
    "category": "llm",
    "language": "TypeScript",
    "graduated": true
@@ -1696,9 +1696,9 @@
   },
   "TencentCloud/TencentDB-Agent-Memory": {
    "first_seen": "2026-07-09",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-14",
    "days_on_list": 1,
-   "last_stars": 19823,
+   "last_stars": 21160,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
@@ -2562,13 +2562,13 @@
   },
   "zhaoxuya520/reverse-skill": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-13",
-   "days_on_list": 1,
-   "last_stars": 24407,
+   "last_seen": "2026-08-14",
+   "days_on_list": 2,
+   "last_stars": 24876,
    "category": "security",
    "language": "PowerShell",
    "graduated": true,
-   "last_pushed_at": "2026-08-12"
+   "last_pushed_at": "2026-08-13"
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
@@ -2721,13 +2721,13 @@
   },
   "cloudflare/computer": {
    "first_seen": "2026-08-06",
-   "last_seen": "2026-08-09",
-   "days_on_list": 4,
-   "last_stars": 6476,
-   "category": "tools",
+   "last_seen": "2026-08-14",
+   "days_on_list": 1,
+   "last_stars": 7949,
+   "category": "llm",
    "language": "TypeScript",
    "graduated": true,
-   "last_pushed_at": "2026-08-07"
+   "last_pushed_at": "2026-08-12"
   },
   "uber/ADR": {
    "first_seen": "2026-08-06",
@@ -2751,10 +2751,10 @@
   },
   "PrimeIntellect-ai/prime-agent": {
    "first_seen": "2026-08-09",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-14",
    "days_on_list": 1,
-   "last_stars": 12850,
-   "last_pushed_at": "2026-08-10",
+   "last_stars": 15379,
+   "last_pushed_at": "2026-08-13",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -2862,13 +2862,13 @@
   },
   "cathrynlavery/diagram-design": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-13",
-   "days_on_list": 2,
-   "last_stars": 9615,
+   "last_seen": "2026-08-14",
+   "days_on_list": 3,
+   "last_stars": 13844,
    "category": "tools",
    "language": "HTML",
    "graduated": false,
-   "last_pushed_at": "2026-08-12"
+   "last_pushed_at": "2026-08-13"
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
@@ -2892,13 +2892,13 @@
   },
   "superradcompany/microsandbox": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-14",
    "days_on_list": 1,
-   "last_stars": 7258,
+   "last_stars": 7417,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-11"
+   "last_pushed_at": "2026-08-13"
   },
   "gitleaks/gitleaks": {
    "first_seen": "2026-08-12",
@@ -2932,17 +2932,27 @@
   },
   "macro-inc/macro": {
    "first_seen": "2026-08-13",
-   "last_seen": "2026-08-13",
-   "days_on_list": 1,
-   "last_stars": 1556,
+   "last_seen": "2026-08-14",
+   "days_on_list": 2,
+   "last_stars": 2522,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-12"
+   "last_pushed_at": "2026-08-13"
+  },
+  "hugohe3/ppt-master": {
+   "first_seen": "2026-08-14",
+   "last_seen": "2026-08-14",
+   "days_on_list": 1,
+   "last_stars": 46467,
+   "category": "tools",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-13"
   }
  },
- "last_updated": "2026-08-13",
- "updated": "2026-08-13",
+ "last_updated": "2026-08-14",
+ "updated": "2026-08-14",
  "last_run": "2026-08-05",
  "count": 276
 }
