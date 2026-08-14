@@ -17306,6 +17306,196 @@
    "first_seen": "2026-08-14",
    "last_updated": "2026-08-14",
    "folder": "2026-08-14"
+  },
+  "2608.12149": {
+   "version": "v1",
+   "title": "Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "massive activations",
+    "hybrid linear attention",
+    "attention sink",
+    "outlier features",
+    "mechanistic analysis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation"
+   ]
+  },
+  "2608.08975": {
+   "version": "v1",
+   "title": "How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "reward hacking",
+    "LLM-as-judge",
+    "adversarial rewriting",
+    "AI peer review",
+    "evaluation robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2608.13538": {
+   "version": "v1",
+   "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "sparse autoencoder",
+    "feature explanation",
+    "auto-interp",
+    "activation injection",
+    "representation verbalization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2608.13345": {
+   "version": "v1",
+   "title": "Rules or Character? Scaling Laws for AI Safety Design",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "safety architecture",
+    "RLHF",
+    "constitutional AI",
+    "guardrail",
+    "CVaR",
+    "resource allocation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2608.11878": {
+   "version": "v1",
+   "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "indirect prompt injection",
+    "agent safety",
+    "adversarial environment synthesis",
+    "benchmark",
+    "safety alignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2608.13337": {
+   "version": "v1",
+   "title": "Where You Measure Decides What You Measure: Position Selection in Ablation-Based SAE Evaluation",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "sparse autoencoder",
+    "ablation evaluation",
+    "causal metric",
+    "position selection",
+    "reproducibility"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2608.12771": {
+   "version": "v1",
+   "title": "Memorization Diagnostics for Code LLMs Should be Scale-Aware",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "memorization",
+    "benchmark contamination",
+    "probing",
+    "code LLM",
+    "representation load"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ]
+  },
+  "2608.12911": {
+   "version": "v1",
+   "title": "Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "pii leakage",
+    "multimodal LLM",
+    "unlearning",
+    "key information extraction",
+    "privacy benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "unlearning"
+   ]
+  },
+  "2608.12675": {
+   "version": "v1",
+   "title": "Privacy-Preserving RAG by Concealing Sensitive Information from External LLMs",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "rag privacy",
+    "pii",
+    "entity anonymization",
+    "third-party llm",
+    "sensitive entity"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2608.08383": {
+   "version": "v1",
+   "title": "Safety Cost of Steering Vectors Is Separable and Reducible",
+   "first_seen": "2026-08-15",
+   "last_updated": "2026-08-15",
+   "folder": "2026-08-15",
+   "keywords": [
+    "steering vector",
+    "activation steering",
+    "safety degradation",
+    "jailbreak robustness",
+    "constrained optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -17348,5 +17538,5 @@
    ]
   }
  },
- "last_run": "2026-08-14"
+ "last_run": "2026-08-15"
 }
