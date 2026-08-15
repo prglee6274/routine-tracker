@@ -17496,6 +17496,198 @@
     "alignment_robustness",
     "defense_mechanism"
    ]
+  },
+  "2608.13329": {
+   "version": "v1",
+   "title": "A Probe Direction Is a Property of Its Prompt",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "probing",
+    "evaluation awareness",
+    "linear probe",
+    "measurement validity",
+    "interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2608.11392": {
+   "version": "v2",
+   "title": "AI Guardrail Survival under Single-Cycle Agentic Self-Summarization",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "agent safety",
+    "context compaction",
+    "guardrail",
+    "safety evaluation",
+    "LLM-as-judge"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2608.13010": {
+   "version": "v1",
+   "title": "RAGSieve: Self-Referenced Local Contrast for Knowledge-Poison Detection in Retrieval-Augmented Generation",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "RAG poisoning",
+    "knowledge poisoning",
+    "prompt injection",
+    "defense mechanism",
+    "retrieval security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "backdoor"
+   ]
+  },
+  "2608.09643": {
+   "version": "v1",
+   "title": "Activation Probes Surface Code-Security Signals that the Model's Output Misses",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "probing",
+    "activation probe",
+    "code security",
+    "linear probe",
+    "AI coding agent"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.10281": {
+   "version": "v1",
+   "title": "From Prompt Injection to Web Exploitation: Revisiting Classic Vulnerabilities in LLM-Integrated Applications",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "prompt injection",
+    "confused deputy",
+    "web exploitation",
+    "agent safety",
+    "attack taxonomy"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2608.13484": {
+   "version": "v1",
+   "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "probing",
+    "knowledge boundary",
+    "hallucination",
+    "representation",
+    "alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2608.07892": {
+   "version": "v1",
+   "title": "Capability-Routed Guard: Defending Large Reasoning Models Against Reasoning-Centric Jailbreaks",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "jailbreak",
+    "large reasoning model",
+    "guardrail",
+    "defense mechanism",
+    "over-refusal"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "alignment_robustness"
+   ]
+  },
+  "2608.10521": {
+   "version": "v1",
+   "title": "Synthesizing Probabilistic Saturating Counters with Differentially Private Formal Guarantees",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "differential privacy",
+    "side-channel",
+    "formal verification",
+    "branch predictor",
+    "Prime+Probe"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2608.13390": {
+   "version": "v1",
+   "title": "TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "privacy policy",
+    "PII leakage",
+    "dynamic analysis",
+    "third-party tracking",
+    "compliance"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2608.08341": {
+   "version": "v1",
+   "title": "Differential Privacy for Markov Chain State Trajectories",
+   "first_seen": "2026-08-16",
+   "last_updated": "2026-08-16",
+   "folder": "2026-08-16",
+   "keywords": [
+    "differential privacy",
+    "Markov chain",
+    "trajectory privacy",
+    "online mechanism",
+    "utility analysis"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -17538,5 +17730,5 @@
    ]
   }
  },
- "last_run": "2026-08-15"
+ "last_run": "2026-08-16"
 }

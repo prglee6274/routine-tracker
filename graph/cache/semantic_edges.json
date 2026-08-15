@@ -846,5 +846,9 @@
  "2608.13538->2605.29358": {
   "type": "background",
   "evidence": "'SAE가 LLM 내부 표현 해석에 널리 쓰인다'는 서술의 근거 문헌 중 하나로 병렬 인용."
+ },
+ "2608.13010->2607.04379": {
+  "type": "background",
+  "evidence": "RAGSieve cites the policy-aware LLM-RAG knowledge-base poisoning work as prior context on the RAG poisoning threat model; its empirical baselines are GMTP and CleanBase, not this paper, and no in-text comparative claim was recoverable."
  }
 }
