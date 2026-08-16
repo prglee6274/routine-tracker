@@ -17688,6 +17688,204 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2608.09158": {
+   "version": "v1",
+   "title": "From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs",
+   "keywords": [
+    "audio-language model",
+    "red-teaming",
+    "inaudible attack",
+    "multimodal attack",
+    "black-box attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "multimodal_attack",
+    "defense_mechanism"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.09476": {
+   "version": "v1",
+   "title": "ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents",
+   "keywords": [
+    "agent safety",
+    "safety evaluation",
+    "prompt injection",
+    "benchmark",
+    "execution trajectory"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "prompt_injection"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.09225": {
+   "version": "v1",
+   "title": "Governing the KV Cache: Preventing Timing Side-Channel Leakage in Multi-Tenant LLM Inference",
+   "keywords": [
+    "side-channel",
+    "KV cache",
+    "prompt leakage",
+    "multi-tenant inference",
+    "pii leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage",
+    "agent_privacy"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.13453": {
+   "version": "v1",
+   "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
+   "keywords": [
+    "adversarial attack",
+    "VLA model",
+    "embodied agent safety",
+    "universal perturbation",
+    "differentiable rendering"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "multimodal_attack",
+    "agent_safety"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.12652": {
+   "version": "v1",
+   "title": "Excess Separability: Nuisance-Controlled Residual-Stream Probing for Benchmark Contamination Detection",
+   "keywords": [
+    "probing",
+    "residual stream",
+    "benchmark contamination",
+    "membership inference",
+    "measurement validity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.08029": {
+   "version": "v1",
+   "title": "Do All LLMs Know When They're Being Harmful? A Reproducibility Study of Latent-Space Safety Probes Across Model Families",
+   "keywords": [
+    "probing",
+    "latent space",
+    "safety classifier",
+    "reproducibility",
+    "harmful prompt detection"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.12962": {
+   "version": "v1",
+   "title": "Understanding Backdoor Vulnerabilities in Vertical Federated Learning: The Gap Between Research and Practice",
+   "keywords": [
+    "federated learning",
+    "vertical FL",
+    "backdoor",
+    "threat model",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "membership_inference"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.09732": {
+   "version": "v1",
+   "title": "ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners",
+   "keywords": [
+    "agent safety",
+    "agent skills",
+    "supply chain attack",
+    "static analysis evasion",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism",
+    "prompt_injection"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.12717": {
+   "version": "v1",
+   "title": "Perturbation-based Regional Interpretability through Subtraction Mapping (PRISM): naming-error dissociations in language models and post-stroke aphasia",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation patching",
+    "layer perturbation",
+    "functional specialization",
+    "neuroscience analogy"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method",
+    "mechanistic_position"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
+  },
+  "2608.07913": {
+   "version": "v1",
+   "title": "Private Anytime Selective-Risk Certification for Federated Retrieval-Augmented Generation: Guarantees and Empirical Limits",
+   "keywords": [
+    "differential privacy",
+    "federated learning",
+    "RAG",
+    "selective risk",
+    "anytime-valid inference"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "federated_privacy"
+   ],
+   "first_seen": "2026-08-17",
+   "last_updated": "2026-08-17",
+   "folder": "2026-08-17"
   }
  },
  "_taxonomy": {
@@ -17730,5 +17928,5 @@
    ]
   }
  },
- "last_run": "2026-08-16"
+ "last_run": "2026-08-17"
 }

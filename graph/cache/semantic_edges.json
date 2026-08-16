@@ -850,5 +850,33 @@
  "2608.13010->2607.04379": {
   "type": "background",
   "evidence": "RAGSieve cites the policy-aware LLM-RAG knowledge-base poisoning work as prior context on the RAG poisoning threat model; its empirical baselines are GMTP and CleanBase, not this paper, and no in-text comparative claim was recoverable."
+ },
+ "2608.09476->2606.31227": {
+  "type": "baseline",
+  "evidence": "ActBench가 행동 탐지 비교군으로 해당 프레임워크 계열 가드/스캐너를 실험에 투입해 동일 300/300 케이스로 판별력을 비교"
+ },
+ "2608.09732->2606.07131": {
+  "type": "background",
+  "evidence": "악성 스킬 설치 시 데이터 유출·권한 오남용 위험을 서술하는 선행 문헌 묶음으로 인용"
+ },
+ "2608.09732->2606.07943": {
+  "type": "background",
+  "evidence": "스킬이 코드 실행·자원 접근까지 가능해 새로운 보안 위험을 만든다는 배경 서술에서 인용"
+ },
+ "2608.09732->2606.15242": {
+  "type": "extends",
+  "evidence": "개별 스킬은 정상이나 조합 시 유해해지는 'composition blind spot'을 지적한 선행 연구를 이어받아, 스캐너 피드백 기반 공모 체인으로 그 취약성을 체계적으로 공격"
+ },
+ "2608.09732->2606.18198": {
+  "type": "background",
+  "evidence": "에이전트 스킬 스캐너를 겨냥한 기존 공격 계열로 참조 (본문 컨텍스트는 표제부라 근거 약함)"
+ },
+ "2608.09732->2607.02357": {
+  "type": "background",
+  "evidence": "스캐너 회피·동적 탐지를 다룬 선행 스킬 멀웨어 연구로 참조 (컨텍스트 근거 약함)"
+ },
+ "2608.12717->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 특징 분해 등 기존 기계적 해석가능성 기법 나열 중 인용하며, 이들이 외부 검증된 정답이 아닌 벤치마크/재구성 품질로만 주장을 평가한다는 문제의식의 배경으로 삼음"
  }
 }
