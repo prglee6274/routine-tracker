@@ -1,183 +1,306 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-16",
-  "last_run": "2026-08-16",
+  "last_updated": "2026-08-17",
+  "last_run": "2026-08-17",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
       "id": "ndss2023-domtreetype",
       "title": "A Security Study about Electron Applications and a Programming Methodology to Tame DOM Functionalities",
       "title_norm": "a security study about electron applications and a programming methodology to tame dom functionalities",
-      "authors": ["Zihao Jin", "Shuo Chen", "Yang Chen", "Haixin Duan", "Jianjun Chen", "Jianping Wu"],
-      "venue": "NDSS", "year": 2023, "scope": "PRIMARY",
+      "authors": [
+        "Zihao Jin",
+        "Shuo Chen",
+        "Yang Chen",
+        "Haixin Duan",
+        "Jianjun Chen",
+        "Jianping Wu"
+      ],
+      "venue": "NDSS",
+      "year": 2023,
+      "scope": "PRIMARY",
       "doi": null,
       "url": "https://www.ndss-symposium.org/ndss-paper/a-security-study-about-electron-applications-and-a-programming-methodology-to-tame-dom-functionalities/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2023-305-paper.pdf",
       "note_file": "papers/ndss2023-domtreetype.md",
-      "added": "2026-06-02", "grounding": "full-text"
+      "added": "2026-06-02",
+      "grounding": "full-text"
     },
     {
       "id": "ccs2022-xrce-xguard",
       "title": "Understanding and Mitigating Remote Code Execution Vulnerabilities in Cross-platform Ecosystem",
       "title_norm": "understanding and mitigating remote code execution vulnerabilities in cross-platform ecosystem",
-      "authors": ["Feng Xiao", "Zheng Yang", "Joey Allen", "Guangliang Yang", "Grant Williams", "Wenke Lee"],
-      "venue": "ACM CCS", "year": 2022, "scope": "PRIMARY",
+      "authors": [
+        "Feng Xiao",
+        "Zheng Yang",
+        "Joey Allen",
+        "Guangliang Yang",
+        "Grant Williams",
+        "Wenke Lee"
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "scope": "PRIMARY",
       "doi": "10.1145/3548606.3559340",
       "url": "https://dl.acm.org/doi/10.1145/3548606.3559340",
       "pdf": "https://dl.acm.org/doi/pdf/10.1145/3548606.3559340",
       "note_file": "papers/ccs2022-xrce-xguard.md",
-      "added": "2026-06-02", "grounding": "abstract+secondary (ACM paywalled)"
+      "added": "2026-06-02",
+      "grounding": "abstract+secondary (ACM paywalled)"
     },
     {
       "id": "usenixsec2024-inspectron",
       "title": "Rise of Inspectron: Automated Black-box Auditing of Cross-platform Electron Apps",
       "title_norm": "rise of inspectron automated black-box auditing of cross-platform electron apps",
-      "authors": ["Mir Masood Ali", "Mohammad Ghasemisharif", "Chris Kanich", "Jason Polakis"],
-      "venue": "USENIX Security", "year": 2024, "scope": "PRIMARY",
+      "authors": [
+        "Mir Masood Ali",
+        "Mohammad Ghasemisharif",
+        "Chris Kanich",
+        "Jason Polakis"
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "scope": "PRIMARY",
       "doi": null,
       "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ali",
       "pdf": "https://www.usenix.org/system/files/usenixsecurity24-ali.pdf",
       "note_file": "papers/usenixsec2024-inspectron.md",
-      "added": "2026-06-02", "grounding": "full-text"
+      "added": "2026-06-02",
+      "grounding": "full-text"
     },
     {
       "id": "sp2025-coindef",
       "title": "COINDEF: A Comprehensive Code Injection Defense for the Electron Framework",
       "title_norm": "coindef a comprehensive code injection defense for the electron framework",
-      "authors": ["Zheng Yang", "Simon P. Chung", "Jizhou Chen", "Runze Zhang", "Brendan Saltaformaggio", "Wenke Lee"],
-      "venue": "IEEE S&P", "year": 2025, "scope": "PRIMARY",
+      "authors": [
+        "Zheng Yang",
+        "Simon P. Chung",
+        "Jizhou Chen",
+        "Runze Zhang",
+        "Brendan Saltaformaggio",
+        "Wenke Lee"
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "scope": "PRIMARY",
       "doi": null,
       "url": "https://ieeexplore.ieee.org/document/11023394/",
       "pdf": "https://saltaformaggio.ece.gatech.edu/publications/yang2025coindef.pdf",
       "note_file": "papers/sp2025-coindef.md",
-      "added": "2026-06-02", "grounding": "full-text"
+      "added": "2026-06-02",
+      "grounding": "full-text"
     },
     {
       "id": "usenixsec2023-silent-spring",
       "title": "Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js",
       "title_norm": "silent spring prototype pollution leads to remote code execution in node.js",
-      "authors": ["Mikhail Shcherbakov", "Musard Balliu", "Cristian-Alexandru Staicu"],
-      "venue": "USENIX Security", "year": 2023, "scope": "ADJACENT",
+      "authors": [
+        "Mikhail Shcherbakov",
+        "Musard Balliu",
+        "Cristian-Alexandru Staicu"
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shcherbakov",
       "pdf": "https://arxiv.org/pdf/2207.11171",
       "note_file": "papers/usenixsec2023-silent-spring.md",
-      "added": "2026-06-02", "grounding": "full-text (arXiv preprint)"
+      "added": "2026-06-02",
+      "grounding": "full-text (arXiv preprint)"
     },
     {
       "id": "raid2020-mininode",
       "title": "Mininode: Reducing the Attack Surface of Node.js Applications",
       "title_norm": "mininode reducing the attack surface of node.js applications",
-      "authors": ["Igibek Koishybayev", "Alexandros Kapravelos"],
-      "venue": "RAID", "year": 2020, "scope": "ADJACENT",
+      "authors": [
+        "Igibek Koishybayev",
+        "Alexandros Kapravelos"
+      ],
+      "venue": "RAID",
+      "year": 2020,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://www.usenix.org/conference/raid2020/presentation/koishybayev",
       "pdf": "https://www.usenix.org/system/files/raid20-koishybayev.pdf",
       "note_file": "papers/raid2020-mininode.md",
-      "added": "2026-06-02", "grounding": "full-text"
+      "added": "2026-06-02",
+      "grounding": "full-text"
     },
     {
       "id": "ccs2023-hodor",
       "title": "HODOR: Shrinking Attack Surface on Node.js via System Call Limitation",
       "title_norm": "hodor shrinking attack surface on node.js via system call limitation",
-      "authors": ["Wenya Wang", "Xingwei Lin", "Jingyi Wang", "Wang Gao", "Dawu Gu", "Wei Lv", "Jiashui Wang"],
-      "venue": "ACM CCS", "year": 2023, "scope": "ADJACENT",
+      "authors": [
+        "Wenya Wang",
+        "Xingwei Lin",
+        "Jingyi Wang",
+        "Wang Gao",
+        "Dawu Gu",
+        "Wei Lv",
+        "Jiashui Wang"
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "scope": "ADJACENT",
       "doi": "10.1145/3576915.3616609",
       "url": "https://dl.acm.org/doi/10.1145/3576915.3616609",
       "pdf": "https://arxiv.org/pdf/2306.13984",
       "note_file": "papers/ccs2023-hodor.md",
-      "added": "2026-06-04", "grounding": "full-text (arXiv preprint)"
+      "added": "2026-06-04",
+      "grounding": "full-text (arXiv preprint)"
     },
     {
       "id": "ccs2025-nodeshield",
       "title": "NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js",
       "title_norm": "nodeshield runtime enforcement of security-enhanced sboms for node.js",
-      "authors": ["Eric Cornelissen", "Musard Balliu"],
-      "venue": "ACM CCS", "year": 2025, "scope": "ADJACENT",
+      "authors": [
+        "Eric Cornelissen",
+        "Musard Balliu"
+      ],
+      "venue": "ACM CCS",
+      "year": 2025,
+      "scope": "ADJACENT",
       "doi": "10.1145/3719027.3765136",
       "url": "https://dl.acm.org/doi/10.1145/3719027.3765136",
       "pdf": "https://arxiv.org/pdf/2508.13750",
       "note_file": "papers/ccs2025-nodeshield.md",
-      "added": "2026-06-04", "grounding": "full-text (arXiv preprint)"
+      "added": "2026-06-04",
+      "grounding": "full-text (arXiv preprint)"
     },
     {
       "id": "ndss2026-bullseye",
       "title": "Bullseye: Detecting Prototype Pollution in NPM Packages with Proof of Concept Exploits",
       "title_norm": "bullseye detecting prototype pollution in npm packages with proof of concept exploits",
-      "authors": ["Tariq Houis", "Shaoqi Jiang", "Mohammad Mannan", "Amr Youssef"],
-      "venue": "NDSS", "year": 2026, "scope": "ADJACENT",
+      "authors": [
+        "Tariq Houis",
+        "Shaoqi Jiang",
+        "Mohammad Mannan",
+        "Amr Youssef"
+      ],
+      "venue": "NDSS",
+      "year": 2026,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://www.ndss-symposium.org/ndss-paper/bullseye-detecting-prototype-pollution-in-npm-packages-with-proof-of-concept-exploits/",
       "pdf": "http://users.encs.concordia.ca/home/m/mmannan/publications/Bullseye-NDSS2026.pdf",
       "note_file": "papers/ndss2026-bullseye.md",
-      "added": "2026-06-04", "grounding": "full-text"
+      "added": "2026-06-04",
+      "grounding": "full-text"
     },
     {
       "id": "sp2026-gasket",
       "title": "Best of Both Worlds: Effective Foreign Bridge Identification in V8 Embedders for Security Analysis",
       "title_norm": "best of both worlds effective foreign bridge identification in v8 embedders for security analysis",
-      "authors": ["Georgios Alexopoulos", "Thodoris Sotiropoulos", "Zhendong Su", "Dimitris Mitropoulos"],
-      "venue": "IEEE S&P", "year": 2026, "scope": "ADJACENT",
+      "authors": [
+        "Georgios Alexopoulos",
+        "Thodoris Sotiropoulos",
+        "Zhendong Su",
+        "Dimitris Mitropoulos"
+      ],
+      "venue": "IEEE S&P",
+      "year": 2026,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://grgalex.gr/assets/pdf/gasket_sp26.pdf",
       "pdf": "https://grgalex.gr/assets/pdf/gasket_sp26.pdf",
       "note_file": "papers/sp2026-gasket.md",
-      "added": "2026-06-05", "grounding": "full-text (author PDF); 'Electron' not named — covers Node.js/Deno/Chromium embedders"
+      "added": "2026-06-05",
+      "grounding": "full-text (author PDF); 'Electron' not named — covers Node.js/Deno/Chromium embedders"
     },
     {
       "id": "usenixsec2024-ghunter",
       "title": "GHunter: Universal Prototype Pollution Gadgets in JavaScript Runtimes",
       "title_norm": "ghunter universal prototype pollution gadgets in javascript runtimes",
-      "authors": ["Eric Cornelissen", "Mikhail Shcherbakov", "Musard Balliu"],
-      "venue": "USENIX Security", "year": 2024, "scope": "ADJACENT",
+      "authors": [
+        "Eric Cornelissen",
+        "Mikhail Shcherbakov",
+        "Musard Balliu"
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/cornelissen",
       "pdf": "https://arxiv.org/pdf/2407.10812",
       "note_file": "papers/usenixsec2024-ghunter.md",
-      "added": "2026-06-05", "grounding": "full-text (arXiv preprint)"
+      "added": "2026-06-05",
+      "grounding": "full-text (arXiv preprint)"
     },
     {
       "id": "ndss2025-nodemedic-fine",
       "title": "NodeMedic-FINE: Automatic Detection and Exploit Synthesis for Node.js Vulnerabilities",
       "title_norm": "nodemedic-fine automatic detection and exploit synthesis for node.js vulnerabilities",
-      "authors": ["Darion Cassel", "Nuno Sabino", "Min-Chien Hsu", "Ruben Martins", "Limin Jia"],
-      "venue": "NDSS", "year": 2025, "scope": "ADJACENT",
+      "authors": [
+        "Darion Cassel",
+        "Nuno Sabino",
+        "Min-Chien Hsu",
+        "Ruben Martins",
+        "Limin Jia"
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "scope": "ADJACENT",
       "doi": "10.14722/ndss.2025.241636",
       "url": "https://www.ndss-symposium.org/ndss-paper/nodemedic-fine-automatic-detection-and-exploit-synthesis-for-node-js-vulnerabilities/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2025-1636-paper.pdf",
       "note_file": "papers/ndss2025-nodemedic-fine.md",
-      "added": "2026-06-05", "grounding": "full-text"
+      "added": "2026-06-05",
+      "grounding": "full-text"
     },
     {
       "id": "usenixsec2022-odgen",
       "title": "Mining Node.js Vulnerabilities via Object Dependence Graph and Query",
       "title_norm": "mining node.js vulnerabilities via object dependence graph and query",
-      "authors": ["Song Li", "Mingqing Kang", "Jianwei Hou", "Yinzhi Cao"],
-      "venue": "USENIX Security", "year": 2022, "scope": "ADJACENT",
+      "authors": [
+        "Song Li",
+        "Mingqing Kang",
+        "Jianwei Hou",
+        "Yinzhi Cao"
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/li-song",
       "pdf": "https://www.usenix.org/system/files/sec22-li-song.pdf",
       "note_file": "papers/usenixsec2022-odgen.md",
-      "added": "2026-08-03", "grounding": "full-text (USENIX open-access camera-ready; abstract, S1-S2, S6.1-S6.3 read in full, S3-S5 not line-by-line)"
+      "added": "2026-08-03",
+      "grounding": "full-text (USENIX open-access camera-ready; abstract, S1-S2, S6.1-S6.3 read in full, S3-S5 not line-by-line)"
     },
     {
       "id": "sp2024-uop",
       "title": "Undefined-oriented Programming: Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences",
       "title_norm": "undefined-oriented programming detecting and chaining prototype pollution gadgets in node.js template engines for malicious consequences",
-      "authors": ["Zhengyu Liu", "Kecheng An", "Yinzhi Cao"],
-      "venue": "IEEE S&P", "year": 2024, "scope": "ADJACENT",
+      "authors": [
+        "Zhengyu Liu",
+        "Kecheng An",
+        "Yinzhi Cao"
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "scope": "ADJACENT",
       "doi": null,
       "url": "https://ieeexplore.ieee.org/document/10646867/",
       "pdf": "https://yinzhicao.org/UoP/UoP-Oakland.pdf",
       "note_file": "papers/sp2024-uop.md",
-      "added": "2026-08-03", "grounding": "full-text (author-hosted PDF; abstract, S1, S5.1-S5.4 + Tables 2-3 read in full). NOTE: unresolved numeric discrepancy between abstract (25 gadgets/13 chained) and S5.2 (21 reported/20 unique) and Table 2 (24 rows) / Table 3 (26 TP) - see note caveats."
+      "added": "2026-08-03",
+      "grounding": "full-text (author-hosted PDF; abstract, S1, S5.1-S5.4 + Tables 2-3 read in full). NOTE: unresolved numeric discrepancy between abstract (25 gadgets/13 chained) and S5.2 (21 reported/20 unique) and Table 2 (24 rows) / Table 3 (26 TP) - see note caveats."
     },
     {
       "id": "ndss2024-untrustide",
       "title": "UntrustIDE: Exploiting Weaknesses in VS Code Extensions",
       "title_norm": "untrustide exploiting weaknesses in vs code extensions",
-      "authors": ["Elizabeth Lin", "Igibek Koishybayev", "Trevor Dunlap", "William Enck", "Alexandros Kapravelos"],
-      "venue": "NDSS", "year": 2024, "scope": "PRIMARY",
+      "authors": [
+        "Elizabeth Lin",
+        "Igibek Koishybayev",
+        "Trevor Dunlap",
+        "William Enck",
+        "Alexandros Kapravelos"
+      ],
+      "venue": "NDSS",
+      "year": 2024,
+      "scope": "PRIMARY",
       "doi": "10.14722/ndss.2024.24073",
       "url": "https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2024-73-paper.pdf",
@@ -190,105 +313,120 @@
     {
       "title": "Experimental Security Analysis of the App Model in Business Collaboration Platforms",
       "title_norm": "experimental security analysis of the app model in business collaboration platforms",
-      "venue": "USENIX Security", "year": 2022,
+      "venue": "USENIX Security",
+      "year": 2022,
       "reason": "Studies the server-side third-party app permission model of Slack/Teams; no Electron client / renderer / IPC angle despite Slack & Teams being Electron apps.",
       "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yunang-experimental"
     },
     {
       "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
       "title_norm": "identity confusion in webview-based mobile app-in-app ecosystems",
-      "venue": "USENIX Security", "year": 2022,
+      "venue": "USENIX Security",
+      "year": 2022,
       "reason": "WebView app-in-app security, but explicitly mobile (super-apps); desktop/Electron out of scope. Conceptually adjacent only.",
       "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
     },
     {
       "title": "Jack-in-the-box: An Empirical Study of JavaScript Bundling on the Web and its Security Implications",
       "title_norm": "jack-in-the-box an empirical study of javascript bundling on the web and its security implications",
-      "venue": "ACM CCS", "year": 2023,
+      "venue": "ACM CCS",
+      "year": 2023,
       "reason": "Pure web study of JavaScript bundlers; no desktop/Electron angle.",
       "doi": "10.1145/3576915.3623140"
     },
     {
       "title": "webFuzz: Grey-Box Fuzzing for Web Applications",
       "title_norm": "webfuzz grey-box fuzzing for web applications",
-      "venue": "ESORICS", "year": 2021,
+      "venue": "ESORICS",
+      "year": 2021,
       "reason": "Server-side web-application fuzzing; no desktop privilege escalation / Electron angle.",
       "url": "https://link.springer.com/chapter/10.1007/978-3-030-88418-5_26"
     },
     {
       "title": "On the Feasibility of Cross-Language Detection of Malicious Packages in npm and PyPI",
       "title_norm": "on the feasibility of cross-language detection of malicious packages in npm and pypi",
-      "venue": "ACSAC", "year": 2023,
+      "venue": "ACSAC",
+      "year": 2023,
       "reason": "Generic npm/PyPI supply-chain detection; not Electron/desktop-app specific. Borderline — promote only if the thesis has a broad supply-chain section.",
       "url": "https://dl.acm.org/doi/10.1145/3627106.3627113"
     },
     {
       "title": "Cross-Boundary Mobile Tracking: Exploring Java-to-JavaScript Information Diffusion in WebViews",
       "title_norm": "cross-boundary mobile tracking exploring java-to-javascript information diffusion in webviews",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "WebView Java-to-JS information-flow tracking, but explicitly mobile (Android in-app browsers / tracking-privacy); no desktop/Electron renderer/IPC angle.",
       "url": "https://www.ndss-symposium.org/ndss-paper/cross-boundary-mobile-tracking-exploring-java-to-javascript-information-diffusion-in-webviews/"
     },
     {
       "title": "From Noise to Signal: Precisely Identify Affected Packages of Known Vulnerabilities in npm Ecosystem",
       "title_norm": "from noise to signal precisely identify affected packages of known vulnerabilities in npm ecosystem",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "Generic npm vulnerability-to-package mapping / SCA accuracy; not Electron- or Node.js-runtime-vulnerability-discovery specific (same rationale as the excluded npm/PyPI detection paper).",
       "url": "https://www.ndss-symposium.org/ndss-paper/from-noise-to-signal-precisely-identify-affected-packages-of-known-vulnerabilities-in-npm-ecosystem/"
     },
     {
       "title": "FirmCross: Detecting Taint-style Vulnerabilities in Modern C-Lua Hybrid Web Services of Linux-based Firmware",
       "title_norm": "firmcross detecting taint-style vulnerabilities in modern c-lua hybrid web services of linux-based firmware",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "Matched on 'hybrid' but targets C-Lua hybrid web services in Linux-based firmware (embedded/IoT), not a hybrid web/desktop (Electron) app.",
       "url": "https://www.ndss-symposium.org/ndss-paper/firmcross-detecting-taint-style-vulnerabilities-in-modern-c-lua-hybrid-web-services-of-linux-based-firmware/"
     },
     {
       "title": "Original Sin of npm: A Study on Vulnerability Propagation in JavaScript Dependency Networks",
       "title_norm": "original sin of npm a study on vulnerability propagation in javascript dependency networks",
-      "venue": "AsiaCCS", "year": 2026,
+      "venue": "AsiaCCS",
+      "year": 2026,
       "reason": "Generic npm/JavaScript dependency-network vulnerability-propagation measurement (1,515 vulns across ~1.08M packages); empirical SCA, not Electron- or Node.js-runtime-vulnerability-DISCOVERY specific. Same rationale as the excluded 'From Noise to Signal' (NDSS'26) and 'Cross-Language Detection of Malicious Packages' (ACSAC'23).",
       "url": "https://arxiv.org/abs/2604.17668"
     },
     {
       "title": "Demystifying Progressive Web Application Permission Systems",
       "title_norm": "demystifying progressive web application permission systems",
-      "venue": "DSN", "year": 2026,
+      "venue": "DSN",
+      "year": 2026,
       "reason": "Studies the browser/web-platform permission model of PWAs (push notifications, geolocation, installability, Permission API abuse, permission leakage, device identification) via the 'Permissioner' cross-platform tool; PWAs run inside the Chromium/Firefox sandbox. Pure web/browser permission-model security with no Electron / Node.js / renderer-main IPC / preload desktop-app angle (EXCLUDE: generic browser / web-app, no desktop-Electron angle). arXiv 2509.13563.",
       "url": "https://arxiv.org/abs/2509.13563"
     },
     {
       "title": "VulJSFormer: Learning to Detect JavaScript Vulnerabilities with Vulnerability-Relevant Graphs",
       "title_norm": "vuljsformer learning to detect javascript vulnerabilities with vulnerability-relevant graphs",
-      "venue": "DSN", "year": 2026,
+      "venue": "DSN",
+      "year": 2026,
       "reason": "Generic learning-based (graph + Transformer) JavaScript source-code vulnerability DETECTION; no Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle in the title, and no abstract was indexed yet to indicate a Node.js-runtime focus (sibling to DSN'26 'VulStyle', also out of scope). Title/venue-level judgment; re-triage if a future read shows a specific Node.js/Electron focus.",
       "url": "https://dsn2026.github.io/cpaccepted.html"
     },
     {
       "title": "Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework",
       "title_norm": "cutting the gordian knot detecting malicious pypi packages via a knowledge-mining framework",
-      "venue": "USENIX Security", "year": 2026,
+      "venue": "USENIX Security",
+      "year": 2026,
       "reason": "PyPI malicious-package detection framework (PyGuard); only adjacency to this watch is one cross-ecosystem generalization test on NPM packages (98.07% accuracy) in the abstract. No Electron / Node.js-runtime / renderer-IPC / preload / desktop-app angle; generic supply-chain DETECTION, not Node.js-runtime-vulnerability DISCOVERY. Same rationale as the excluded ACSAC'23 'Cross-Language Detection of Malicious Packages in npm and PyPI', NDSS'26 'From Noise to Signal', and AsiaCCS'26 'Original Sin of npm'. Recorded so the recurring 'npm' near-miss on USENIX Sec '26 Cycle 1 never re-surfaces.",
       "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/guo-wenbo"
     },
     {
       "title": "Short Paths, Real Risks: A Large-Scale Empirical Study of Dependency Relationships in PyPI Ecosystem",
       "title_norm": "short paths real risks a large-scale empirical study of dependency relationships in pypi ecosystem",
-      "venue": "ESORICS", "year": 2026,
+      "venue": "ESORICS",
+      "year": 2026,
       "reason": "Surfaced from the newly-published ESORICS '26 accepted list (Winter Cycle, #106). Large-scale empirical study of dependency relationships in the PyPI (Python) ecosystem — matched only the generic 'dependency / supply chain' vocabulary. PyPI-only, no npm / Node.js runtime / Electron angle at all, so it falls outside the INCLUDE scope (npm/supply-chain *as it affects Electron or the Node.js runtime*). Same rationale as the excluded ACSAC'23 npm/PyPI malicious-package paper, NDSS'26 'From Noise to Signal', AsiaCCS'26 'Original Sin of npm', and USENIX Sec'26 PyGuard.",
       "url": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers"
     },
     {
       "title": "Local Models, Global Risk: Assessing Emerging Threats in Local AI APIs in Browsers",
       "title_norm": "local models global risk assessing emerging threats in local ai apis in browsers",
-      "venue": "ESORICS", "year": 2026,
+      "venue": "ESORICS",
+      "year": 2026,
       "reason": "Surfaced from the newly-published ESORICS '26 accepted list (Spring Cycle, #724; Moti, Mehrvarz, Vlummens, Shaji, Acar — Radboud). Assesses security/privacy threats of browser-built-in local AI model APIs (in-browser LLM inference); a browser/web-platform study with no Electron / Node.js / renderer-main IPC / preload / desktop-app angle → EXCLUDE category 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Same rationale as the excluded DSN'26 'Demystifying Progressive Web Application Permission Systems'.",
       "url": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers"
     },
     {
       "title": "DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale",
       "title_norm": "doublex statically detecting vulnerable data flows in browser extensions at scale",
-      "venue": "ACM CCS", "year": 2021,
+      "venue": "ACM CCS",
+      "year": 2021,
       "reason": "Surfaced during the 2020-2024 backfill sweep as a methodological neighbour of UntrustIDE (extension security + taint analysis at a watched venue). Fass, Some, Backes, Stock (CISPA). Builds an Extension Dependence Graph (control/data flow + pointer analysis + message modelling) and runs it over 154,484 CHROME browser extensions, flagging 278 with suspicious data flows (89% externally influenceable; ~93% detection on a labelled vulnerable set). Target is the Chrome extension platform, which IS sandboxed and has no Node.js/desktop privilege surface -> EXCLUDE category 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Contrast with the in-scope UntrustIDE (NDSS'24), whose whole premise is that VS Code (Electron) extensions are NOT sandboxed. Recorded so this recurring near-miss never re-surfaces; still usable as a *methodological* citation for message-flow-aware static analysis.",
       "doi": "10.1145/3460120.3484745",
       "url": "https://dl.acm.org/doi/10.1145/3460120.3484745"
@@ -296,7 +434,8 @@
     {
       "title": "Open Access Alert: Studying the Privacy Risks in Android WebView's Web Permission Enforcement",
       "title_norm": "open access alert studying the privacy risks in android webview s web permission enforcement",
-      "venue": "AsiaCCS", "year": 2025,
+      "venue": "AsiaCCS",
+      "year": 2025,
       "reason": "Surfaced during the CEF/WebView backfill sweep. Nguyen & Stock (CISPA); AsiaCCS 2025 Cycle 1. First large-scale study of web-permission enforcement in WebView, flagging 12,109 potentially privacy-harmful Android apps that render websites in a WebView without re-implementing the browser's per-site permission prompts. Matched the config keyword 'webview' but is explicitly ANDROID/mobile -> EXCLUDE category 'mobile-only studies'. Same rationale as the excluded 'Identity Confusion in WebView-based Mobile App-in-app Ecosystems' (USENIX Sec'22) and 'Cross-Boundary Mobile Tracking' (NDSS'26). Conceptually adjacent only: the *pattern* (an embedded web engine whose host app must re-implement browser security guarantees, and usually gets it wrong) is exactly the Electron argument, so it remains usable as a cross-platform analogy citation.",
       "doi": "10.1145/3708821.3710821",
       "url": "https://dl.acm.org/doi/abs/10.1145/3708821.3710821"
@@ -304,7 +443,8 @@
     {
       "title": "TranSPArent: Taint-style Vulnerability Detection in Generic Single Page Applications through Automated Framework Abstraction",
       "title_norm": "transparent taint-style vulnerability detection in generic single page applications through automated framework abstraction",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "Surfaced from Yinzhi Cao's own 2026 publication list (JHU) while checking the Buzz to Boom promotion trigger, then confirmed on the NDSS '26 accepted list. Diwangkara & Cao. Automatically abstracts SPA frameworks (Vue, React, Angular) via static+dynamic analysis to recover framework-specific taint sinks, then runs end-to-end static dataflow detection: 19 intermediate SPA sinks recovered (14 absent from the CodeQL standard library), 11 zero-days in GitHub repos (one with 24k+ stars / 30M requests/month), 4 fixed or acknowledged. Matched the config keywords 'dom-based' / 'taint' but the target is BROWSER-RENDERED web SPAs; sinks are insecure DOM APIs inside the browser sandbox, worst case is web XSS. No Electron / Node.js-runtime / renderer-main IPC / preload / desktop-privilege angle -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. Notable as lineage only: same senior author as the (context-only) Buzz to Boom Electron fuzzing preprint, and its framework-abstraction idea is a plausible methodological analogue for abstracting Electron's IPC/contextBridge surface.",
       "url": "https://www.ndss-symposium.org/ndss-paper/transparent-taint-style-vulnerability-detection-in-generic-single-page-applications-through-automated-framework-abstraction/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1721-paper.pdf"
@@ -312,7 +452,8 @@
     {
       "title": "DOM-XSS Detection via Webpage Interaction Fuzzing and URL Component Synthesis",
       "title_norm": "dom-xss detection via webpage interaction fuzzing and url component synthesis",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "Surfaced on the NDSS '26 accepted list during a re-sweep (missed by earlier NDSS '26 passes). Sabino, Cassel, Abreu, Adao, Bauer, Jia (CMU / IST Lisboa) - i.e. the SAME TEAM as the in-scope NodeMedic-FINE (NDSS '25). Presents SWIPE: fuzzes user interactions to trigger event handlers plus dynamic symbolic execution to synthesize URL GET parameters/fragments; run over 44,480 URLs from Tranco top-30,000 domains, finds 15% more vulnerabilities than prior work and 20 new vulnerabilities from synthesized URL components. Matched the config keywords 'dom-based' / 'xss' but is pure in-browser DOM-XSS on ordinary web pages - no desktop app, no Node.js privilege surface, no escalation past the browser sandbox -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. Recorded permanently because 'DOM-XSS' is a standing query term that will keep re-surfacing it. Still citable as a methodological reference for interaction-driven fuzzing of DOM sinks, which is the browser-side analogue of driving an Electron renderer.",
       "url": "https://www.ndss-symposium.org/ndss-paper/dom-xss-detection-via-webpage-interaction-fuzzing-and-url-component-synthesis/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-s1467-paper.pdf"
@@ -320,7 +461,8 @@
     {
       "title": "The First Large-Scale Systematic Study of Python Class Pollution Vulnerability",
       "title_norm": "the first large-scale systematic study of python class pollution vulnerability",
-      "venue": "IEEE S&P", "year": 2026,
+      "venue": "IEEE S&P",
+      "year": 2026,
       "reason": "Confirmed on the IEEE S&P '26 accepted-papers page. Liu, Zhong, Yu, Lyu, Kang, Cao (JHU) - note Jianjia Yu and Zhengyu Liu are also Buzz to Boom / UoP authors. Presents Pyrl, a static operational taint analysis over 'get'/'set' primitives yielding a 6-type taxonomy of Python class pollution; applied to >500,000 Python programs from GitHub and PyPI, finds 47 zero-day exploitable class pollutions (incl. Microsoft Azure CLI and Google Mesop, both patched), 5 developer fixes, 7 CVEs assigned. Matched the config keyword 'prototype pollution' as its direct PYTHON analogue, but the language, runtime and ecosystem are Python/PyPI throughout - no JavaScript prototype chain, no Node.js runtime, no Electron/desktop angle -> outside the INCLUDE scope (npm/supply-chain *as it affects Electron or the Node.js runtime*). Same rationale as the excluded PyPI items (ACSAC'23 npm/PyPI malicious packages, USENIX Sec'26 PyGuard, ESORICS'26 'Short Paths, Real Risks'). Useful to the thesis only as a cross-language framing citation: pollution-class bugs generalize beyond JS prototypes.",
       "url": "https://sp2026.ieee-security.org/accepted-papers.html",
       "pdf": "https://yinzhicao.org/class-pollution/Pyrl.pdf"
@@ -328,14 +470,16 @@
     {
       "title": "Kintsugi: Empowering LLMs to Mitigate Web Vulnerabilities via Runtime Policy Injection",
       "title_norm": "kintsugi empowering llms to mitigate web vulnerabilities via runtime policy injection",
-      "venue": "USENIX Security", "year": 2026,
+      "venue": "USENIX Security",
+      "year": 2026,
       "reason": "Reviewed and deliberately not ledgered on 08-04 and 08-06 because no abstract had been released; the USENIX Sec '26 Technical Sessions page now publishes abstracts ahead of PDFs, so this is finally decidable and is being recorded permanently to stop it re-surfacing. Peng Yihao et al. (Tsinghua). Automated runtime containment for the 'response gap' between vulnerability detection and patching: differential syscall analysis on normal vs. malicious requests to localize vulnerability-related functions, an LLM to delineate the offending code snippet and set policy trigger points, then a least-privilege syscall whitelist enforced via eBPF and cgroups, activated only when execution enters the protected snippet. Evaluated on 27 real-world CVEs across PHP, Python and Java; 7.6 min average response time, 9.2% latency overhead on targeted APIs, 2.21% throughput drop on concurrent traffic. Matched only the generic escalation keyword 'remote code execution'; it is server-side WEB-application defense on PHP/Python/Java stacks -> EXCLUDE 'pure web-app XSS with no desktop/Electron angle'. No Electron / Node.js / renderer-main IPC / preload / desktop angle anywhere in the abstract.",
       "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/peng-yihao"
     },
     {
       "title": "From Obfuscated to Obvious: A Comprehensive JavaScript Deobfuscation Tool for Security Analysis",
       "title_norm": "from obfuscated to obvious a comprehensive javascript deobfuscation tool for security analysis",
-      "venue": "NDSS", "year": 2026,
+      "venue": "NDSS",
+      "year": 2026,
       "reason": "Surfaced on the NDSS '26 accepted list (A-P range) during this run's re-sweep; never previously ledgered. Zhou, Ying, Chai, Wang (Beijing Univ. of Posts and Telecommunications + QI-ANXIN Technology Research Institute). Presents JSIMPLIFIER, a multi-stage JavaScript deobfuscation pipeline (preprocessing -> AST-based static analysis -> dynamic execution tracing -> LLM-enhanced identifier renaming) plus multi-dimensional evaluation metrics (control/data-flow, code simplification, entropy, LLM-based readability). Releases the largest real-world obfuscated-JS dataset to date: 44,421 samples (23,212 wild malicious + 21,209 benign); reports 100% processing capability across 20 obfuscation techniques, 100% correctness on evaluation subsets, 88.2% code-complexity reduction, and >4x readability improvement. Matched only the generic 'javascript' vocabulary: the target is obfuscated JS delivered on the WEB / in malware samples, analyzed for readability, with no Electron / Node.js-runtime / renderer-main IPC / preload / desktop-privilege angle -> outside the INCLUDE scope. Recorded permanently because JS-analysis queries will keep re-surfacing it. Retains genuine METHODOLOGICAL value to the thesis, however: packaged Electron apps ship bundled/minified (and sometimes obfuscated) JS inside app.asar, so any static or taint analysis of a shipped Electron app faces exactly this preprocessing problem - JSIMPLIFIER is a citable off-the-shelf front-end for that step, and its 44,421-sample dataset is a ready benchmark. Same handling as the excluded CCS'23 'Jack-in-the-box' JS-bundling study.",
       "url": "https://www.ndss-symposium.org/ndss-paper/from-obfuscated-to-obvious-a-comprehensive-javascript-deobfuscation-tool-for-security-analysis/",
       "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f2198-paper.pdf"
@@ -343,7 +487,8 @@
     {
       "title": "VCAligner: Aligning Source Distribution Versions with Upstream Git Commits to Secure Supply Chain",
       "title_norm": "vcaligner aligning source distribution versions with upstream git commits to secure supply chain",
-      "venue": "DSN", "year": 2026,
+      "venue": "DSN",
+      "year": 2026,
       "reason": "Surfaced on this run's end-to-end read of the DSN '26 accepted-papers page (Research Track); never previously ledgered even though the DSN '26 list has been swept before (only 'Demystifying PWA Permission Systems' and 'VulJSFormer' were recorded from it). Li, Jiang, Zhou, Xu, Xie, Jia (Institute of Information Engineering, CAS). Targets the 'Provenance Gap' in the artifact-publication phase of the OSS supply chain (the 2024 XZ Utils backdoor is the motivating case): builds content-based inverted indexes over VCS histories to map a released source distribution back to its originating upstream commit without relying on fragile version tags. Evaluated on 2,984 verifiable PyPI packages drawn from the 4,000 most-downloaded projects with public GitHub upstreams; tag-based heuristics succeed on 85% but the remaining 15% implies >10.3M commits of audit workload, which VCAligner reduces ~158x to under 65,000 commits. Matched only the generic 'supply chain' vocabulary; the ecosystem is PyPI/Python + Git source tarballs throughout, with no npm / Node.js runtime / Electron / renderer-main IPC / preload / desktop angle -> outside the INCLUDE scope (npm/supply-chain *as it affects Electron or the Node.js runtime*). Same rationale as the excluded ACSAC'23 npm/PyPI malicious-package paper, NDSS'26 'From Noise to Signal', AsiaCCS'26 'Original Sin of npm', USENIX Sec'26 PyGuard, and ESORICS'26 'Short Paths, Real Risks'. Recorded permanently because 'supply chain' is a standing keyword that will keep re-surfacing it. Retains marginal methodological value only: the artifact-vs-upstream provenance question applies verbatim to npm packages bundled into an Electron app.asar, but the paper itself does not go there.",
       "doi": null,
       "url": "https://ieeexplore.ieee.org/abstract/document/11593337",
@@ -353,34 +498,46 @@
   "context_non_venue": [
     {
       "title": "Electrolint and security of electron applications",
-      "venue": "Array (Elsevier journal)", "year": 2021,
+      "venue": "Array (Elsevier journal)",
+      "year": 2021,
       "why": "Most-cited non-top-venue Electron static-analysis work (client-side XSS, clickjacking, DOM clobbering in Electron apps). Use if broadening beyond the 9 venues.",
       "url": "https://www.sciencedirect.com/science/article/pii/S2667295221000222"
     },
     {
       "title": "ElectroVolt: Pwning popular desktop apps while uncovering new attack surface on Electron",
-      "venue": "Black Hat USA / DEF CON 30", "year": 2022,
+      "venue": "Black Hat USA / DEF CON 30",
+      "year": 2022,
       "why": "Industry research (not peer-reviewed). Widely cited 1-click RCE chains in Discord, Teams, VS Code, Element. Good motivation / real-world impact citation.",
       "url": "https://www.blackhat.com/us-22/briefings/schedule/"
     },
     {
       "title": "Developers Are Victims Too: A Comprehensive Analysis of the VS Code Extension Ecosystem",
-      "venue": "arXiv (preprint)", "year": 2024,
+      "venue": "arXiv (preprint)",
+      "year": 2024,
       "why": "Security of the VS Code (Electron) extension ecosystem. Preprint — confirm any venue acceptance before citing as published.",
       "url": "https://arxiv.org/abs/2411.07479"
     },
     {
       "title": "JavaSith: A Client-Side Framework for Analyzing Potentially Malicious Extensions in Browsers, VS Code, and NPM Packages",
-      "venue": "arXiv (preprint)", "year": 2025,
+      "venue": "arXiv (preprint)",
+      "year": 2025,
       "why": "Client-side analysis spanning browsers, VS Code, and npm. Preprint — verify status before citing.",
       "url": "https://arxiv.org/abs/2505.21263"
     },
     {
       "title": "Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing",
       "title_norm": "buzz to boom detecting message progression vulnerabilities in electron applications via segmented directed fuzzing",
-      "authors": ["Jianjia Yu", "Zhengyu Liu", "Ziyang Li", "Yu Sun", "Yinzhi Cao"],
-      "venue": "arXiv (preprint)", "year": 2026,
-      "arxiv": "2607.20698", "submitted": "2026-07-22",
+      "authors": [
+        "Jianjia Yu",
+        "Zhengyu Liu",
+        "Ziyang Li",
+        "Yu Sun",
+        "Yinzhi Cao"
+      ],
+      "venue": "arXiv (preprint)",
+      "year": 2026,
+      "arxiv": "2607.20698",
+      "submitted": "2026-07-22",
       "scope_topical": "PRIMARY (Electron vulnerability discovery — most thesis-central out-of-venue item to date)",
       "why": "Strongest out-of-venue candidate this watch has surfaced: a segmented directed fuzzing framework (Proton) that DISCOVERS zero-day vulnerabilities in real Electron apps — the exact thesis topic, not merely Node.js-runtime-adjacent. Defines a new bug class, Message Progression Vulnerabilities (MPVs): attacker-controlled inputs that chain across processes via message passing to reach privileged/terminal sinks (OS command execution). Explicitly positions past prior Electron work (unsafe-config + malicious-DOM studies, i.e. DOM-tree type/Inspectron/COINDEF) as unable to detect these cross-process, multi-step exploits. Evaluated on 589 real Electron apps → 23 zero-day MPVs, 22 to full RCE (projects >50k GitHub stars), 13 acks / 11 fixes / 11 CVEs, Vercel bug bounty on Hyper; 17 more zero-days than end-to-end fuzzing.",
       "venue_status": "arXiv-only v1 (22 Jul 2026), cs.CR. NO Comments/venue field on the arXiv abstract page and no venue annotation in the full text — no confirmed acceptance at any of the 9 watched venues. NOT added to in_scope[]/excluded[] per established out-of-venue precedent (PoCGen, JavaSith, LLM-taint preprints).",
@@ -394,8 +551,11 @@
     {
       "title": "An Analysis of the State of Electron Security in the Wild",
       "title_norm": "an analysis of the state of electron security in the wild",
-      "authors": ["Benjamin Altpeter"],
-      "venue": "MSc/BSc thesis, Technische Universität Braunschweig (published via Zenodo)", "year": 2020,
+      "authors": [
+        "Benjamin Altpeter"
+      ],
+      "venue": "MSc/BSc thesis, Technische Universität Braunschweig (published via Zenodo)",
+      "year": 2020,
       "scope_topical": "PRIMARY (Electron security measurement) — but NOT a peer-reviewed venue",
       "why": "Direct methodological predecessor of Inspectron: the earliest large-scale 'state of Electron security in the wild' measurement this watch has found. Analyzes 1,204 open- and closed-source Electron applications for security indicators (Electron security features enabled/disabled, use of dangerous functions), and first surveys known Electron attack classes while contrasting their impact against the same attacks in a browser sandbox. Directly useful as (a) a baseline measurement to compare against Inspectron's later numbers and (b) prior art showing that a *master's thesis* on exactly this topic is an established format. Numbers above are from the Zenodo abstract only — full text (thesis-electron.pdf, 473.7 kB) not read.",
       "venue_status": "Thesis (Technische Universität Braunschweig), published 2020-08-01, Zenodo record created 2022-01-27, DOI 10.5281/zenodo.5910501, CC-BY-4.0. Not published at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[] per out-of-venue precedent.",
@@ -408,8 +568,11 @@
     {
       "title": "Differential Security Analysis of Cross-Platform Electron Applications",
       "title_norm": "differential security analysis of cross-platform electron applications",
-      "authors": ["Claudio Paloscia"],
-      "venue": "MS thesis, University of Illinois Chicago (advisor Jason Polakis)", "year": 2025,
+      "authors": [
+        "Claudio Paloscia"
+      ],
+      "venue": "MS thesis, University of Illinois Chicago (advisor Jason Polakis)",
+      "year": 2025,
       "scope_topical": "PRIMARY (Electron framework security analysis) — but NOT a peer-reviewed venue",
       "why": "Same-lab successor to Inspectron (USENIX Sec '24): advisor Jason Polakis, committee Chris Kanich (both Inspectron co-authors) + Stefano Zanero. Takes a *differential* angle this watch has not seen at a watched venue — it compares Electron's implementation of web security mechanisms against Google Chrome's, using manual testing plus the Web Platform Tests (WPT) cross-browser suite, and reports significant divergences in CORS, permissions, cookie handling, and especially the notion of an *origin* for local (file://) HTML content and webviews. Reported consequence: third-party web resources can navigate the file system and reach sensitive information; concludes by advocating stricter Electron security defaults. Two reasons it matters to this thesis: (1) it is the clearest example of a *differential-testing* methodology for Electron vulnerability discovery — complementary to Inspectron (black-box config auditing), Proton (directed fuzzing), and COINDEF (defense); (2) it is a master's thesis at the same scope level as the user's, useful as a structural/scoping reference.",
       "venue_status": "MS thesis (University of Illinois Chicago, Dept. of Computer Science), posted 2025-05-01 in the UIC INDIGO repository. No peer-reviewed venue publication found; not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[]. PROMOTION TRIGGER: if Polakis's group publishes this differential analysis at a watched venue (a plausible follow-up to Inspectron), promote to in_scope PRIMARY.",
@@ -421,21 +584,116 @@
     {
       "title": "Electron upstream security advisories, 2026 (two coordinated batches: CVE-2026-34764..34781 and CVE-2026-70597..70612)",
       "title_norm": "electron upstream security advisories 2026",
-      "venue": "Electron project / GitHub Security Advisories (GHSA), mirrored in the GitLab Advisory Database and NVD", "year": 2026,
+      "venue": "Electron project / GitHub Security Advisories (GHSA), mirrored in the GitLab Advisory Database and NVD",
+      "year": 2026,
       "scope_topical": "PRIMARY (Electron framework vulnerabilities) — but upstream CVEs, not peer-reviewed academic work",
       "why": "Best-grounded real-world motivation material the watch has produced, and the first item that lets the thesis quantify the Electron framework's own vulnerability trend from an authoritative source. GLAD's npm/electron index lists 35 advisories dated 2026 versus 1 in 2025, 2 in 2024 and 5 in 2023 — a step change driven by two coordinated batch disclosures. Most thesis-relevant, all landing squarely on the boundaries this thesis targets: (a) CONTEXT-ISOLATION BYPASSES — CVE-2026-70601 (7.5 HIGH, CWE-693): apps exposing Promise-returning functions via contextBridge (the standard wrapper for ipcRenderer.invoke) let untrusted web content hijack Function.prototype.bind and reach the isolated preload world and every capability it holds, escalating to Node.js access where the renderer is unsandboxed or nodeIntegration is on; CVE-2026-70610 (5.4 MEDIUM, CWE-1321): the contextBridge object-copy path used v8::Object::Set ([[Set]] semantics) in CreateProxyForAPI (shell/renderer/api/electron_api_context_bridge.cc), so a crafted __proto__ property fired the inherited Object.prototype setter and polluted the prototype of objects landing in the privileged preload context — fixed by switching to CreateDataProperty ([[DefineOwnProperty]]), PR #51083, fix commits 2026-04-16, GHSA-ff2p-hmqr-hxm4; CVE-2026-34780 (8.3 HIGH): context-isolation bypass via bridged WebCodecs VideoFrame objects. (b) PROCESS/PRIVILEGE CONFIGURATION — CVE-2026-34769 (7.7 HIGH): an undocumented commandLineSwitches webPreference lets switches be appended to the renderer command line, potentially disabling renderer sandboxing, when webPreferences is built by spreading untrusted config; CVE-2026-34775 (6.8): nodeIntegrationInWorker not correctly scoped in shared renderer processes, so workers in frames set to false could still receive Node.js integration. (c) IPC INTEGRITY — CVE-2026-34778 (5.9): a service worker can spoof reply messages on the internal IPC channel used by webContents.executeJavaScript(), resolving the main-process promise with attacker-controlled data. Why this matters to the argument: CVE-2026-70610 is prototype pollution crossing the context-isolation boundary, which is the missing link between the ledger's Node.js prototype-pollution line (Silent Spring, GHunter, Bullseye, UoP) and Electron proper — the pollution primitive those papers study, landing in Electron's own C++ bridge. And CVE-2026-70601 is a near-repeat of CVE-2023-29198 (contextBridge context-isolation bypass), supporting a recurrence/regression framing. Also closes the 08-07 open item: that run recorded an unverified search-summary claim about CVE-2026-70601; it is now confirmed against GLAD + the Electron GHSA references.",
       "venue_status": "Upstream framework CVEs / GHSAs, not a peer-reviewed publication and not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[], consistent with the handling of ElectroVolt (Black Hat / DEF CON 30). Use as motivation, impact and taxonomy evidence, never as related work.",
       "url": "https://advisories.gitlab.com/pkg/npm/electron/",
       "pdf": null,
       "key_advisories": {
-        "CVE-2026-70601": {"severity": "7.5 HIGH", "cwe": "CWE-693", "title": "Context isolation bypass via Function.prototype.bind hijack", "published": "2026-08-05", "fixed_in": ["39.8.9", "40.9.2", "41.2.2", "42.0.0-beta.5"], "ghsa": "GHSA-h7rp-cf8h-j98x", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70601/"},
-        "CVE-2026-70610": {"severity": "5.4 MEDIUM", "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N", "cwe": "CWE-1321 (Improperly Controlled Modification of Object Prototype Attributes / Prototype Pollution)", "title": "contextBridge object copy honors prototype setters", "published": "2026-08-05", "affected": "<39.8.9; 40.0.0-alpha.1..<40.9.2; 41.0.0-alpha.1..<41.2.2; 42.0.0-alpha.1..<42.0.0-beta.4", "fixed_in": ["39.8.9", "40.9.2", "41.2.2", "42.0.0-beta.4"], "ghsa": "GHSA-ff2p-hmqr-hxm4", "fix_prs": [51083, 51084, 51085, 51086], "fix_commits": ["17d5d26499cd279fab48f5f26527f8edc02a7713", "23a6efb714dec80e2cf45d3054d18d701162e4dd", "4ac50292d552fb510eb778392620c85308770a55", "5b699544cbbed51bedb7c60d75c8c42be5825737"], "advisory_text_verbatim": "Objects copied across the contextBridge boundary from untrusted content could carry an attacker-influenced prototype, enabling prototype-pollution-style attacks against preload code despite context isolation being enabled. Apps are only affected if their preload code accepts object arguments from untrusted content and reads properties from them without own-property checks. Apps that only accept primitive arguments, or that validate object arguments, are not affected.", "exploitation_precondition": "Preload code must accept OBJECT arguments from untrusted content and read properties WITHOUT own-property checks (hasOwnProperty / Object.hasOwn). Primitive-only or validating preloads are unaffected. This is the most thesis-relevant sentence in the whole 2026 advisory set: it defines, in the framework maintainers' own words, the exact preload coding pattern that turns prototype pollution into a context-isolation bypass - i.e. a concrete, checkable detection predicate for any static/dynamic Electron analysis.", "note_2026-08-12": "GLAD advisory page read in full this run, upgrading this CVE from third-party-only grounding. CONFIRMED by GLAD: title, Aug 5 2026 date, 5.4 MEDIUM + full CVSS vector (note S:C scope change), CWE-1321, affected/fixed ranges, the verbatim impact text above, and FOUR backport PRs (51083-51086) with FOUR fix commits - not the single PR #51083 recorded on 08-08/08-11. STILL NOT CONFIRMED by any primary source: the v8::Object::Set -> CreateDataProperty root-cause narrative and the CreateProxyForAPI / electron_api_context_bridge.cc file attribution, and the '2026-04-16 fix commit date'; all three still trace only to the AI-generated CVEReports write-up. The four commit SHAs above are now known, so the C++ diff can be verified directly before the thesis quotes the root cause.", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70610/"},
-        "CVE-2026-34780": {"severity": "8.3 HIGH", "title": "Context Isolation bypass via contextBridge VideoFrame transfer", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34780/"},
-        "CVE-2026-34769": {"severity": "7.7 HIGH", "title": "Renderer command-line switch injection via undocumented commandLineSwitches webPreference", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34769/"},
-        "CVE-2026-34775": {"severity": "6.8 MEDIUM", "title": "nodeIntegrationInWorker not correctly scoped in shared renderer processes", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34775/"},
-        "CVE-2026-34778": {"severity": "5.9 MEDIUM", "title": "Service worker can spoof executeJavaScript IPC replies", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34778/"},
-        "CVE-2026-70598": {"severity": "3.9 LOW", "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:N/A:L", "cwe": "CWE-125 (Out-of-bounds Read)", "title": "Off-screen rendering trusts GPU-supplied geometry over shared-memory size", "published": "2026-08-05", "affected": "<39.8.10; 40.0.0-alpha.1..<40.9.0; 41.0.0-alpha.1..<41.2.1; 42.0.0-alpha.1..<42.0.0-beta.3", "fixed_in": ["39.8.10", "40.9.0", "41.2.1", "42.0.0-beta.3"], "ghsa": "GHSA-pfmc-3mgc-p6fp", "fix_commit": "2c24640e7b0b9c74fe9f44bce0fde138340ff4fb", "detail": "In offscreen rendering mode the MAIN process does not validate that the byte count implied by the GPU-supplied frame geometry fits the received shared-memory buffer, so a compromised GPU process makes the main process read out-of-bounds while producing 'paint' event images - memory disclosure or crash. Only affects apps using webPreferences.offscreen, and requires the attacker to already hold code execution in the GPU process (hence LOW). Note the CVSS scope change (S:C): the bug is a PROCESS-BOUNDARY trust failure that is NOT the renderer<->main IPC channel.", "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70598/"},
-        "CVE-2026-34764": {"severity": "2.3 LOW", "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L", "cwe": "CWE-416 (Use After Free)", "title": "Use-after-free in offscreen shared texture release() callback", "published": "2026-04-03", "publisher": "MarshallOfSound (Electron)", "reporter": "daffainfo", "affected": ">=33.0.0-alpha.1 <39.8.5; >=40.0.0-alpha.1 <40.8.5; >=41.0.0-alpha.1 <41.1.0; >=42.0.0-alpha.1 <42.0.0-alpha.5", "fixed_in": ["39.8.5", "40.8.5", "41.1.0", "42.0.0-alpha.5"], "ghsa": "GHSA-8x5q-pvf5-64mp", "detail": "The release() callback handed to app code on a 'paint' event texture can outlive its backing native state; invoking it afterwards dereferences freed memory IN THE MAIN PROCESS (crash or memory corruption). Only affects webPreferences.offscreen: { useSharedTexture: true }. Workaround: call texture.release() promptly before the texture object becomes unreachable. IMPORTANT LEDGER FIX: this GHSA was published 2026-04-03, which finally dates the CVE-2026-34764..34781 batch (an 08-08 open item recorded as unconfirmed) - the two 2026 batches are therefore APRIL (34764..34781) and AUGUST (70597..70612), not one August disclosure.", "url": "https://github.com/electron/electron/security/advisories/GHSA-8x5q-pvf5-64mp"}
+        "CVE-2026-70601": {
+          "severity": "7.5 HIGH",
+          "cwe": "CWE-693",
+          "title": "Context isolation bypass via Function.prototype.bind hijack",
+          "published": "2026-08-05",
+          "fixed_in": [
+            "39.8.9",
+            "40.9.2",
+            "41.2.2",
+            "42.0.0-beta.5"
+          ],
+          "ghsa": "GHSA-h7rp-cf8h-j98x",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70601/"
+        },
+        "CVE-2026-70610": {
+          "severity": "5.4 MEDIUM",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N",
+          "cwe": "CWE-1321 (Improperly Controlled Modification of Object Prototype Attributes / Prototype Pollution)",
+          "title": "contextBridge object copy honors prototype setters",
+          "published": "2026-08-05",
+          "affected": "<39.8.9; 40.0.0-alpha.1..<40.9.2; 41.0.0-alpha.1..<41.2.2; 42.0.0-alpha.1..<42.0.0-beta.4",
+          "fixed_in": [
+            "39.8.9",
+            "40.9.2",
+            "41.2.2",
+            "42.0.0-beta.4"
+          ],
+          "ghsa": "GHSA-ff2p-hmqr-hxm4",
+          "fix_prs": [
+            51083,
+            51084,
+            51085,
+            51086
+          ],
+          "fix_commits": [
+            "17d5d26499cd279fab48f5f26527f8edc02a7713",
+            "23a6efb714dec80e2cf45d3054d18d701162e4dd",
+            "4ac50292d552fb510eb778392620c85308770a55",
+            "5b699544cbbed51bedb7c60d75c8c42be5825737"
+          ],
+          "advisory_text_verbatim": "Objects copied across the contextBridge boundary from untrusted content could carry an attacker-influenced prototype, enabling prototype-pollution-style attacks against preload code despite context isolation being enabled. Apps are only affected if their preload code accepts object arguments from untrusted content and reads properties from them without own-property checks. Apps that only accept primitive arguments, or that validate object arguments, are not affected.",
+          "exploitation_precondition": "Preload code must accept OBJECT arguments from untrusted content and read properties WITHOUT own-property checks (hasOwnProperty / Object.hasOwn). Primitive-only or validating preloads are unaffected. This is the most thesis-relevant sentence in the whole 2026 advisory set: it defines, in the framework maintainers' own words, the exact preload coding pattern that turns prototype pollution into a context-isolation bypass - i.e. a concrete, checkable detection predicate for any static/dynamic Electron analysis.",
+          "note_2026-08-12": "GLAD advisory page read in full this run, upgrading this CVE from third-party-only grounding. CONFIRMED by GLAD: title, Aug 5 2026 date, 5.4 MEDIUM + full CVSS vector (note S:C scope change), CWE-1321, affected/fixed ranges, the verbatim impact text above, and FOUR backport PRs (51083-51086) with FOUR fix commits - not the single PR #51083 recorded on 08-08/08-11. STILL NOT CONFIRMED by any primary source: the v8::Object::Set -> CreateDataProperty root-cause narrative and the CreateProxyForAPI / electron_api_context_bridge.cc file attribution, and the '2026-04-16 fix commit date'; all three still trace only to the AI-generated CVEReports write-up. The four commit SHAs above are now known, so the C++ diff can be verified directly before the thesis quotes the root cause.",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70610/"
+        },
+        "CVE-2026-34780": {
+          "severity": "8.3 HIGH",
+          "title": "Context Isolation bypass via contextBridge VideoFrame transfer",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34780/"
+        },
+        "CVE-2026-34769": {
+          "severity": "7.7 HIGH",
+          "title": "Renderer command-line switch injection via undocumented commandLineSwitches webPreference",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34769/"
+        },
+        "CVE-2026-34775": {
+          "severity": "6.8 MEDIUM",
+          "title": "nodeIntegrationInWorker not correctly scoped in shared renderer processes",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34775/"
+        },
+        "CVE-2026-34778": {
+          "severity": "5.9 MEDIUM",
+          "title": "Service worker can spoof executeJavaScript IPC replies",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-34778/"
+        },
+        "CVE-2026-70598": {
+          "severity": "3.9 LOW",
+          "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:N/A:L",
+          "cwe": "CWE-125 (Out-of-bounds Read)",
+          "title": "Off-screen rendering trusts GPU-supplied geometry over shared-memory size",
+          "published": "2026-08-05",
+          "affected": "<39.8.10; 40.0.0-alpha.1..<40.9.0; 41.0.0-alpha.1..<41.2.1; 42.0.0-alpha.1..<42.0.0-beta.3",
+          "fixed_in": [
+            "39.8.10",
+            "40.9.0",
+            "41.2.1",
+            "42.0.0-beta.3"
+          ],
+          "ghsa": "GHSA-pfmc-3mgc-p6fp",
+          "fix_commit": "2c24640e7b0b9c74fe9f44bce0fde138340ff4fb",
+          "detail": "In offscreen rendering mode the MAIN process does not validate that the byte count implied by the GPU-supplied frame geometry fits the received shared-memory buffer, so a compromised GPU process makes the main process read out-of-bounds while producing 'paint' event images - memory disclosure or crash. Only affects apps using webPreferences.offscreen, and requires the attacker to already hold code execution in the GPU process (hence LOW). Note the CVSS scope change (S:C): the bug is a PROCESS-BOUNDARY trust failure that is NOT the renderer<->main IPC channel.",
+          "url": "https://advisories.gitlab.com/npm/electron/CVE-2026-70598/"
+        },
+        "CVE-2026-34764": {
+          "severity": "2.3 LOW",
+          "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L",
+          "cwe": "CWE-416 (Use After Free)",
+          "title": "Use-after-free in offscreen shared texture release() callback",
+          "published": "2026-04-03",
+          "publisher": "MarshallOfSound (Electron)",
+          "reporter": "daffainfo",
+          "affected": ">=33.0.0-alpha.1 <39.8.5; >=40.0.0-alpha.1 <40.8.5; >=41.0.0-alpha.1 <41.1.0; >=42.0.0-alpha.1 <42.0.0-alpha.5",
+          "fixed_in": [
+            "39.8.5",
+            "40.8.5",
+            "41.1.0",
+            "42.0.0-alpha.5"
+          ],
+          "ghsa": "GHSA-8x5q-pvf5-64mp",
+          "detail": "The release() callback handed to app code on a 'paint' event texture can outlive its backing native state; invoking it afterwards dereferences freed memory IN THE MAIN PROCESS (crash or memory corruption). Only affects webPreferences.offscreen: { useSharedTexture: true }. Workaround: call texture.release() promptly before the texture object becomes unreachable. IMPORTANT LEDGER FIX: this GHSA was published 2026-04-03, which finally dates the CVE-2026-34764..34781 batch (an 08-08 open item recorded as unconfirmed) - the two 2026 batches are therefore APRIL (34764..34781) and AUGUST (70597..70612), not one August disclosure.",
+          "url": "https://github.com/electron/electron/security/advisories/GHSA-8x5q-pvf5-64mp"
+        }
       },
       "taxonomy_note_added_2026-08-11": "The 2026 advisories now cover THREE distinct trust boundaries, not two. (a) contextBridge / context-isolation: CVE-2026-70601, -70610, -34780. (b) process privilege configuration + renderer<->main IPC integrity: CVE-2026-34769, -34775, -34778. (c) NEW - GPU process -> main process: CVE-2026-70598 (out-of-bounds read from unvalidated GPU-supplied geometry, scope-changed) and CVE-2026-34764 (use-after-free in the offscreen shared-texture release() callback). Both (c) bugs land in the MAIN process, are gated on webPreferences.offscreen, and are memory-safety rather than JavaScript-semantics bugs - a boundary that Inspectron (config auditing), COINDEF (injection defense) and Proton (message-passing fuzzing) all leave untouched. Useful to the thesis as a scoping statement: 'Electron's attack surface is not only the renderer->main IPC channel.'",
       "added": "2026-08-08",
@@ -445,16 +703,67 @@
     {
       "title": "SiYuan desktop client (Electron) XSS-to-RCE advisory series, 2026 — eight advisories against one unchanged insecure webPreferences profile",
       "title_norm": "siyuan desktop client electron xss to rce advisory series 2026",
-      "authors": ["Reporters: ngocnn97 (GHSA-phhp-9rm9-6gr2); Nguyen Van Hiep / @hypnguyen1209, MBBank (GHSA-6gx2-8gcr-x83f)"],
-      "venue": "GitHub Security Advisories, siyuan-note/siyuan repository (vendor-published)", "year": 2026,
+      "authors": [
+        "Reporters: ngocnn97 (GHSA-phhp-9rm9-6gr2); Nguyen Van Hiep / @hypnguyen1209, MBBank (GHSA-6gx2-8gcr-x83f)"
+      ],
+      "venue": "GitHub Security Advisories, siyuan-note/siyuan repository (vendor-published)",
+      "year": 2026,
       "scope_topical": "PRIMARY (XSS→RCE in a real Electron desktop app, exactly the thesis vulnerability class) — but vendor advisories, not peer-reviewed academic work",
       "why": "The best single-application longitudinal case study this watch has found, and the application-level counterpart to the already-ledgered upstream-Electron CVE entry (which covers the FRAMEWORK's own bugs). SiYuan is a personal knowledge-management app (siyuan-note/siyuan, ~45.5k GitHub stars) whose Electron desktop client ships an insecure renderer profile, and the vendor has now published EIGHT XSS-to-RCE advisories against that same profile without ever changing it. Two were read in full from the primary GHSA pages this run: (a) GHSA-phhp-9rm9-6gr2 / CVE-2026-39846 — STORED XSS in synced table captions: the table `caption` attribute is saved into the node's IAL properties without HTML escaping, then read back, HTML-UNescaped, and written into the rendered DOM; delivery is a crafted `.sy.zip` note imported into a shared sync target, so the victim is compromised simply by syncing and opening the note. Because the renderer runs `nodeIntegration: true` / `contextIsolation: false`, the payload `<img src=x onerror=require('child_process').exec('calc')>` executes as OS code. (b) GHSA-6gx2-8gcr-x83f — REFLECTED XSS to OS RCE via the `siyuan://` deep link, with a file-and-line-level root-cause chain that is unusually citable: `app/electron/main.js:81,84` registers `setAsDefaultProtocolClient(\"siyuan\")`; the received URL is fanned out with NO allowlist or sanitizer to every workspace window via `workspaces.forEach(item => item.browserWindow.webContents.send(\"siyuan-open-url\", url))` (main.js:1692-1696; macOS `open-url` 1675-1697; argv scan 568-577); the renderer picks it up at `app/src/boot/onGetConfig.ts:168` (`ipcRenderer.on(Constants.SIYUAN_OPEN_URL, ...)`); `processSiYuanUriBazaar` (`app/src/util/uri.ts:100-127`) `decodeURIComponent`s the path segment at line 107 with no allowlist, no length cap and no escapeHtml; `openBazaarReadme` (`app/src/config/index.ts:88-134`) feeds it verbatim into `showMessage(`Package not found: ${itemName}`)`; and `app/src/dialog/message.ts:73,84` writes it with `insertAdjacentHTML` (two further sinks at lines 44-51 and 59). THIS IS THE THESIS-USABLE PART: the advisory states that every `BrowserWindow` in the app is configured `nodeIntegration:true, webviewTag:true, webSecurity:false, contextIsolation:false`, with `@electron/remote` enabled globally, `--disable-web-security` set on the command line (main.js:87), and `content-security-policy` / `x-frame-options` / `access-control-allow-origin` STRIPPED from every response (main.js:554-565) — 'There is no CSP, no SOP, no origin isolation.' It then names the seven prior XSS-to-RCE advisories filed against that identical profile — GHSA-pcjq-j3mq-jv5j, GHSA-27qc-m5gf-jv5r, GHSA-mvjr-vv3c-w4qv, GHSA-ff66-236v-p4fg, GHSA-phhp-9rm9-6gr2, GHSA-grjj-6f6g-cq8q, GHSA-2h64-c999-c9r6 — and observes, verbatim: 'Each has been fixed at the sink, never at the profile.' It adds that `showMessage` is the shared sink for roughly 20 sibling reflection paths, so a per-call escape leaves the siblings live. WHY THIS MATTERS TO THE ARGUMENT: (1) it is a documented, primary-sourced, eight-times-repeated instance of the exact escalation the thesis is about (DOM/XSS sink → Node.js privilege → OS command execution), i.e. motivation with a recurrence curve rather than a single anecdote; (2) it is direct empirical support for the claim that per-sink patching does not close the class while the webPreferences profile is unsafe — the argument for tooling that audits the PROFILE (Inspectron) or defends the ESCALATION (COINDEF) rather than individual sinks; (3) the deep-link path (OS protocol handler → main process → unsanitized broadcast over renderer IPC → DOM sink) is a concrete, real-world instance of a cross-process message-progression chain, i.e. field evidence for the bug class Proton / 'Buzz to Boom' defines; and (4) the advisory's own recommended fix — `contextIsolation:true, sandbox:true, nodeIntegration:false, webSecurity:true` plus a `contextBridge` preload exposing only the required Node subset, and deleting both `--disable-web-security` and the header-strip block — is a clean statement of the secure-baseline the thesis can measure real apps against.",
       "venue_status": "Vendor-published GitHub Security Advisories, not peer-reviewed and not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[], consistent with the handling of ElectroVolt (Black Hat / DEF CON 30) and the upstream Electron CVE entry. Use as motivation, impact, taxonomy and baseline-comparison evidence, never as related work.",
       "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-6gx2-8gcr-x83f",
       "pdf": null,
       "key_advisories": {
-        "CVE-2026-39846": {"ghsa": "GHSA-phhp-9rm9-6gr2", "title": "Remote Code Execution in the Electron desktop client via stored XSS in synced table captions", "severity": "Critical 9.0", "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H", "cwe": ["CWE-79", "CWE-94"], "published": "2026-04-07", "publisher": "88250 (SiYuan maintainer)", "reporter": "ngocnn97", "affected": "<=v3.6.3", "patched": "v3.6.4", "root_cause_verbatim": "table caption content is stored without safe escaping and later unescaped into rendered HTML, creating a stored XSS sink. Because the desktop renderer runs with nodeIntegration enabled and contextIsolation disabled, attacker-controlled JavaScript executes with access to Node.js APIs", "delivery": "crafted .sy.zip note imported into a synced workspace (NOT Markdown import) — victim syncs, opens the note, payload fires automatically", "poc_payload": "<img src=x onerror=require('child_process').exec('calc')>", "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-phhp-9rm9-6gr2"},
-        "GHSA-6gx2-8gcr-x83f": {"cve": "No known CVE (as of the advisory page)", "title": "Reflected XSS to OS RCE in the SiYuan desktop via `siyuan://` deep link", "severity": "Critical 9.6", "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H", "cwe": ["CWE-79", "CWE-1188 (Initialization of a Resource with an Insecure Default)"], "published": "2026-07-13", "publisher": "88250 (SiYuan maintainer)", "reporter": "Nguyen Van Hiep (@hypnguyen1209), MBBank", "affected": "3.7.1 (Windows, macOS, Linux signed release builds)", "patched": "v3.7.2", "chain": "siyuan:// protocol handler (main.js:81,84) -> unsanitized webContents.send('siyuan-open-url', url) fan-out to EVERY workspace window (main.js:1692-1696) -> renderer ipcRenderer.on(SIYUAN_OPEN_URL) (onGetConfig.ts:168) -> decodeURIComponent of path segment, no allowlist (uri.ts:100-127, decode at :107) -> openBazaarReadme (config/index.ts:88-134) -> showMessage(`Package not found: ${itemName}`) -> insertAdjacentHTML (message.ts:73,84; further sinks at 44-51 and 59)", "browserwindow_profile_verbatim": "nodeIntegration: true, webviewTag: true, webSecurity: false, contextIsolation: false — plus @electron/remote enabled globally, --disable-web-security set at main.js:87, and content-security-policy / x-frame-options / access-control-allow-origin stripped from every response at main.js:554-565. 'There is no CSP, no SOP, no origin isolation.'", "prior_advisories_same_profile": ["GHSA-pcjq-j3mq-jv5j", "GHSA-27qc-m5gf-jv5r", "GHSA-mvjr-vv3c-w4qv", "GHSA-ff66-236v-p4fg", "GHSA-phhp-9rm9-6gr2", "GHSA-grjj-6f6g-cq8q", "GHSA-2h64-c999-c9r6"], "key_quote_verbatim": "The vendor has published seven prior XSS-to-RCE advisories against this same profile ... Each has been fixed at the sink, never at the profile. `showMessage` is the shared sink for roughly 20 reflection paths across the codebase, so a per-call escape leaves siblings live.", "preconditions": "setAsDefaultProtocolClient('siyuan') in effect (default) AND Conf.Bazaar.Trust=true (opt-in, but set by any marketplace-using install). The Trust prerequisite is removable by chaining GHSA-cvhv-7xhj-xjp8 (unauthenticated workspace write via Publish + MCP `file` tool) to flip Conf.Bazaar.Trust=true on disk, making the composed chain zero-configuration and single-click.", "related_variant": "GHSA-wp64-x7qh-h728 — anchor advisory also planned for v3.7.2; distinct because it uses the plugin subpath's ?icon= query rather than the bazaar subpath's <name> segment, and its sink is the tab icon xlink:href rather than showMessage.", "recommended_fix_verbatim": "Change the BrowserWindow profile in app/electron/main.js to contextIsolation:true, sandbox:true, nodeIntegration:false, webSecurity:true, and expose only the required subset of Node API through a contextBridge preload. Delete the --disable-web-security command-line flag and the response-header strip block at lines 554 to 565.", "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-6gx2-8gcr-x83f"}
+        "CVE-2026-39846": {
+          "ghsa": "GHSA-phhp-9rm9-6gr2",
+          "title": "Remote Code Execution in the Electron desktop client via stored XSS in synced table captions",
+          "severity": "Critical 9.0",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-79",
+            "CWE-94"
+          ],
+          "published": "2026-04-07",
+          "publisher": "88250 (SiYuan maintainer)",
+          "reporter": "ngocnn97",
+          "affected": "<=v3.6.3",
+          "patched": "v3.6.4",
+          "root_cause_verbatim": "table caption content is stored without safe escaping and later unescaped into rendered HTML, creating a stored XSS sink. Because the desktop renderer runs with nodeIntegration enabled and contextIsolation disabled, attacker-controlled JavaScript executes with access to Node.js APIs",
+          "delivery": "crafted .sy.zip note imported into a synced workspace (NOT Markdown import) — victim syncs, opens the note, payload fires automatically",
+          "poc_payload": "<img src=x onerror=require('child_process').exec('calc')>",
+          "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-phhp-9rm9-6gr2"
+        },
+        "GHSA-6gx2-8gcr-x83f": {
+          "cve": "No known CVE (as of the advisory page)",
+          "title": "Reflected XSS to OS RCE in the SiYuan desktop via `siyuan://` deep link",
+          "severity": "Critical 9.6",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-79",
+            "CWE-1188 (Initialization of a Resource with an Insecure Default)"
+          ],
+          "published": "2026-07-13",
+          "publisher": "88250 (SiYuan maintainer)",
+          "reporter": "Nguyen Van Hiep (@hypnguyen1209), MBBank",
+          "affected": "3.7.1 (Windows, macOS, Linux signed release builds)",
+          "patched": "v3.7.2",
+          "chain": "siyuan:// protocol handler (main.js:81,84) -> unsanitized webContents.send('siyuan-open-url', url) fan-out to EVERY workspace window (main.js:1692-1696) -> renderer ipcRenderer.on(SIYUAN_OPEN_URL) (onGetConfig.ts:168) -> decodeURIComponent of path segment, no allowlist (uri.ts:100-127, decode at :107) -> openBazaarReadme (config/index.ts:88-134) -> showMessage(`Package not found: ${itemName}`) -> insertAdjacentHTML (message.ts:73,84; further sinks at 44-51 and 59)",
+          "browserwindow_profile_verbatim": "nodeIntegration: true, webviewTag: true, webSecurity: false, contextIsolation: false — plus @electron/remote enabled globally, --disable-web-security set at main.js:87, and content-security-policy / x-frame-options / access-control-allow-origin stripped from every response at main.js:554-565. 'There is no CSP, no SOP, no origin isolation.'",
+          "prior_advisories_same_profile": [
+            "GHSA-pcjq-j3mq-jv5j",
+            "GHSA-27qc-m5gf-jv5r",
+            "GHSA-mvjr-vv3c-w4qv",
+            "GHSA-ff66-236v-p4fg",
+            "GHSA-phhp-9rm9-6gr2",
+            "GHSA-grjj-6f6g-cq8q",
+            "GHSA-2h64-c999-c9r6"
+          ],
+          "key_quote_verbatim": "The vendor has published seven prior XSS-to-RCE advisories against this same profile ... Each has been fixed at the sink, never at the profile. `showMessage` is the shared sink for roughly 20 reflection paths across the codebase, so a per-call escape leaves siblings live.",
+          "preconditions": "setAsDefaultProtocolClient('siyuan') in effect (default) AND Conf.Bazaar.Trust=true (opt-in, but set by any marketplace-using install). The Trust prerequisite is removable by chaining GHSA-cvhv-7xhj-xjp8 (unauthenticated workspace write via Publish + MCP `file` tool) to flip Conf.Bazaar.Trust=true on disk, making the composed chain zero-configuration and single-click.",
+          "related_variant": "GHSA-wp64-x7qh-h728 — anchor advisory also planned for v3.7.2; distinct because it uses the plugin subpath's ?icon= query rather than the bazaar subpath's <name> segment, and its sink is the tab icon xlink:href rather than showMessage.",
+          "recommended_fix_verbatim": "Change the BrowserWindow profile in app/electron/main.js to contextIsolation:true, sandbox:true, nodeIntegration:false, webSecurity:true, and expose only the required subset of Node API through a contextBridge preload. Delete the --disable-web-security command-line flag and the response-header strip block at lines 554 to 565.",
+          "url": "https://github.com/siyuan-note/siyuan/security/advisories/GHSA-6gx2-8gcr-x83f"
+        }
       },
       "added": "2026-08-13",
       "grounding": "PRIMARY SOURCE, full read. Both GitHub Security Advisory pages (GHSA-phhp-9rm9-6gr2 and GHSA-6gx2-8gcr-x83f) were fetched and read end-to-end this run: summary, details, PoC, reproduction steps, impact, recommended fix, CVSS score + full vector, CWE list, affected/patched versions, publisher, publication date and reporter are all taken verbatim from the advisories themselves. Star counts (44.1k on the GHSA-phhp page, 45.5k on the GHSA-6gx2 page) are as rendered at fetch time and differ between the two pages — the pages appear to be served from different cache generations, so treat ~45k as approximate. NOT VERIFIED: (1) the surfacing source was a SentinelOne vulnerability-database page which carries an explicit disclaimer that its content is AI-generated; nothing from that page is relied on here except as a pointer, and note its Discovery Timeline ('2026-04-07 published to NVD') conflicts with its own 'Published: April 10, 2026' header — the GHSA date of 2026-04-07 is authoritative. (2) That page also listed four sibling SiYuan RCE CVEs — CVE-2026-54759, CVE-2026-50551, CVE-2026-54067, CVE-2026-55570 — which were NOT opened and are recorded here only as leads; do not quote them until checked against their own advisories. (3) The seven prior GHSA IDs listed in GHSA-6gx2-8gcr-x83f were read from that advisory's text but the individual advisory pages were not opened, so their dates, severities and specific sinks are unconfirmed; opening them would give the thesis a fully dated eight-point recurrence timeline for one app and is the obvious next step. (4) The `.deep-research/cross-verify/*` artifacts the advisory cites as its independent verification are internal to the reporter and were not accessible."
@@ -462,16 +771,80 @@
     {
       "title": "Notesnook desktop client (Electron) XSS-to-RCE advisory pair, 2026 — CVE-2026-33976 (Web Clipper) and CVE-2026-42090 (note export)",
       "title_norm": "notesnook desktop client electron xss to rce advisory pair 2026",
-      "authors": ["Reporters: ngocnn97 (GHSA-f42f-phvp-43x5 / CVE-2026-33976); iiihaiii (GHSA-fjm8-jg78-89h4 / CVE-2026-42090). Publisher: thecodrr (Notesnook maintainer)"],
-      "venue": "GitHub Security Advisories, streetwriters/notesnook repository (vendor-published)", "year": 2026,
+      "authors": [
+        "Reporters: ngocnn97 (GHSA-f42f-phvp-43x5 / CVE-2026-33976); iiihaiii (GHSA-fjm8-jg78-89h4 / CVE-2026-42090). Publisher: thecodrr (Notesnook maintainer)"
+      ],
+      "venue": "GitHub Security Advisories, streetwriters/notesnook repository (vendor-published)",
+      "year": 2026,
       "scope_topical": "PRIMARY (XSS→RCE in a real Electron desktop app, exactly the thesis vulnerability class) — but vendor advisories, not peer-reviewed academic work",
       "why": "SECOND independent application-level case study of the same insecure-profile pattern, and the one that turns the SiYuan entry from an anecdote into a CROSS-APPLICATION claim. Notesnook (streetwriters/notesnook, ~14.1-14.4k GitHub stars) is a note-taking app whose Electron desktop client ships `nodeIntegration: true` / `contextIsolation: false` (and `nodeIntegrationInWorker: true`), and the vendor published TWO Critical 9.6 XSS→RCE advisories against that same profile a month apart, through two entirely different feature paths, reported by two different people. Both were read END-TO-END from the GitHub advisory pages this run. (a) GHSA-f42f-phvp-43x5 / CVE-2026-33976 — 'RCE via stored XSS in Web Clipper rendering', published 25 Mar 2026, affected Web/Desktop <3.3.11 (patched 3.3.11) and iOS/Android <3.3.17 (patched 3.3.17), reporter ngocnn97 — WHO IS ALSO THE REPORTER OF THE SiYuan stored-XSS advisory GHSA-phhp-9rm9-6gr2, i.e. one researcher replaying one technique across two unrelated Electron apps. Root cause: the Web Clipper's `toAttributes()` (packages/clipper/src/index.ts) copies EVERY attribute from the source page's documentElement with no filtering, so event-handler attributes (`onload`, `onclick`, `onmouseover`) from an attacker-controlled page are preserved into the stored `.clip` attachment; the web-clip renderer (packages/editor/src/extensions/web-clip/component.tsx) then writes that HTML into a SAME-ORIGIN, UNSANDBOXED iframe via `iframe.contentDocument.write(...)` (the `<iframe>` element carries no `sandbox` attribute). Delivery is a sync-propagated stored payload: the victim clips an attacker page, the clip syncs to every device, and opening it on desktop fires the handler with Node privileges. (b) GHSA-fjm8-jg78-89h4 / CVE-2026-42090 — 'RCE via stored XSS in note export rendering', published 25 Apr 2026, affected Web/Desktop <3.3.15 (patched 3.3.15) and iOS/Android <3.3.20 (patched 3.3.20), reporter iiihaiii. Root cause: note `title`, `headline` and `content` are interpolated into the export HTML template WITHOUT escaping (packages/core/src/utils/templates/html/template.ts lines 31, 33, 210, 211, reached via notes.ts:416 and common/src/utils/export-notes.ts:219), and `exportToPDF()` (apps/web/src/common/export.ts:40) sets `iframe.srcdoc = content` with NO `sandbox` attribute. Because `srcdoc` INHERITS THE PARENT ORIGIN, injected script reaches `parent.require('fs')` / `parent.require('child_process')` — the advisory's PoC writes %TEMP%/notesnook-xss-proof.txt and separately spawns calc.exe. The advisory pins the profile to a file and line: apps/desktop/src/main.ts:126 — `nodeIntegration: true`, `contextIsolation: false`, `nodeIntegrationInWorker: true`. WHY THIS MATTERS TO THE ARGUMENT: (1) GENERALITY — the SiYuan series alone could be dismissed as one badly-configured project; Notesnook is an independent codebase, an independent maintainer and an independent reporter exhibiting the identical escalation, which supports stating the pattern as a CLASS rather than a case. (2) A SECOND, DISTINCT ESCALATION PRIMITIVE — SiYuan escalates through direct DOM sinks (`insertAdjacentHTML`) in the top-level renderer; Notesnook escalates through SAME-ORIGIN UNSANDBOXED IFRAMES (`contentDocument.write` and `srcdoc`), where the missing `sandbox` attribute is what carries Node privileges into attacker-controlled markup. That is a concrete, checkable detection predicate an Electron audit tool could implement (`nodeIntegration && !contextIsolation && iframe without sandbox`) and one that config-level auditing such as Inspectron, which inspects webPreferences, would not by itself flag. (3) THE SAME PER-SINK-PATCHING FAILURE — both fixes are at the sink (escape the template / filter the attributes); the `main.ts:126` profile is unchanged across both advisories a month apart, exactly the 'fixed at the sink, never at the profile' dynamic the SiYuan advisory names verbatim. (4) IMPORT/EXPORT AND SYNC AS ATTACK SURFACE — neither payload arrives over the network at render time; both ride the app's own data flows (clip sync, backup/import, PDF export), i.e. surfaces a network-facing fuzzer would not reach and that Proton's message-passing model does not cover either.",
       "venue_status": "Vendor-published GitHub Security Advisories, not peer-reviewed and not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[], consistent with the handling of ElectroVolt (Black Hat / DEF CON 30), the upstream Electron CVE entry, and the SiYuan advisory series. Use as motivation, impact, taxonomy and baseline-comparison evidence, never as related work.",
       "url": "https://github.com/streetwriters/notesnook/security/advisories/GHSA-f42f-phvp-43x5",
       "pdf": null,
       "key_advisories": {
-        "CVE-2026-33976": {"ghsa": "GHSA-f42f-phvp-43x5", "title": "RCE via stored XSS in Web Clipper rendering", "severity": "Critical 9.6", "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H", "cwe": ["CWE-79", "CWE-94"], "published": "2026-03-25", "publisher": "thecodrr (Notesnook maintainer)", "reporter": "ngocnn97", "remediation_developers": ["01zulfi", "thecodrr"], "affected": "Notesnook Web/Desktop <3.3.11; Notesnook iOS/Android <3.3.17", "patched": ["3.3.11 (Web/Desktop)", "3.3.17 (iOS/Android)"], "root_cause_verbatim": "the clipper preserves attacker-controlled attributes from the source page's root element and stores them inside web-clip HTML. When the clip is later opened, Notesnook renders that HTML into a same-origin, unsandboxed iframe using `contentDocument.write(...)`. Event-handler attributes such as `onload`, `onclick`, or `onmouseover` execute in the Notesnook origin. In the desktop app, this becomes RCE because Electron is configured with `nodeIntegration: true` and `contextIsolation: false`.", "code_sites": ["packages/clipper/src/index.ts — toAttributes() copies all attributes from documentElement with no filtering", "apps/web/src/utils/web-extension-server.ts — clip stored as a .clip attachment (application/vnd.notesnook.web-clip)", "packages/editor/src/extensions/web-clip/component.tsx — iframe.contentDocument.write(html); the <iframe> has no sandbox attribute"], "poc": "attacker-hosted page whose root element carries an event handler, e.g. <html onload=\"top.alert(1)\">, clipped with Area=Full page / Mode=Complete with styles; the clip syncs to the victim's other devices and fires on open", "url": "https://github.com/streetwriters/notesnook/security/advisories/GHSA-f42f-phvp-43x5"},
-        "CVE-2026-42090": {"ghsa": "GHSA-fjm8-jg78-89h4", "title": "RCE via stored XSS in note export rendering", "severity": "Critical 9.6", "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H", "cwe": ["CWE-79", "CWE-94"], "published": "2026-04-25", "publisher": "thecodrr (Notesnook maintainer)", "reporter": "iiihaiii", "remediation_developers": ["01zulfi", "thecodrr (verifier)"], "affected": "Notesnook Web/Desktop <3.3.15; Notesnook iOS/Android <3.3.20", "patched": ["3.3.15 (Web/Desktop)", "3.3.20 (iOS/Android)"], "root_cause_verbatim": "exported note fields such as `title`, `headline`, and `content` are inserted into the generated HTML template without HTML escaping. When the note is later exported to PDF, Notesnook renders that HTML into a same-origin, unsandboxed iframe using `iframe.srcdoc = ...`. Injected script executes in the Notesnook origin. In the desktop app, this becomes RCE because Electron is configured with `nodeIntegration: true` and `contextIsolation: false`.", "code_sites": ["packages/core/src/collections/notes.ts:416 — notes.export() passes note data into the HTML template builder", "packages/core/src/utils/templates/html/template.ts:31 (headline into a meta tag), :33 (title into <title>), :210 (title into <h1>), :211 (content into the body) — all unescaped", "packages/common/src/utils/export-notes.ts:219 — reachable through the normal export flow", "apps/web/src/common/export.ts:40 — exportToPDF() sets iframe.srcdoc = content with no sandbox attribute", "apps/desktop/src/main.ts:126 — nodeIntegration: true, contextIsolation: false, nodeIntegrationInWorker: true"], "escalation_mechanism_verbatim": "Because `srcdoc` inherits the parent origin, JavaScript running inside the exported iframe can call: parent.require(\"fs\") and use Node primitives such as fs, child_process, etc.", "poc": "note title containing </h1><script>…parent.require('fs')…</script><h1>, then File > Export as PDF; advisory demonstrates both a %TEMP%/notesnook-xss-proof.txt file write and parent.require('child_process').exec('calc.exe')", "url": "https://github.com/streetwriters/notesnook/security/advisories/GHSA-fjm8-jg78-89h4"}
+        "CVE-2026-33976": {
+          "ghsa": "GHSA-f42f-phvp-43x5",
+          "title": "RCE via stored XSS in Web Clipper rendering",
+          "severity": "Critical 9.6",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-79",
+            "CWE-94"
+          ],
+          "published": "2026-03-25",
+          "publisher": "thecodrr (Notesnook maintainer)",
+          "reporter": "ngocnn97",
+          "remediation_developers": [
+            "01zulfi",
+            "thecodrr"
+          ],
+          "affected": "Notesnook Web/Desktop <3.3.11; Notesnook iOS/Android <3.3.17",
+          "patched": [
+            "3.3.11 (Web/Desktop)",
+            "3.3.17 (iOS/Android)"
+          ],
+          "root_cause_verbatim": "the clipper preserves attacker-controlled attributes from the source page's root element and stores them inside web-clip HTML. When the clip is later opened, Notesnook renders that HTML into a same-origin, unsandboxed iframe using `contentDocument.write(...)`. Event-handler attributes such as `onload`, `onclick`, or `onmouseover` execute in the Notesnook origin. In the desktop app, this becomes RCE because Electron is configured with `nodeIntegration: true` and `contextIsolation: false`.",
+          "code_sites": [
+            "packages/clipper/src/index.ts — toAttributes() copies all attributes from documentElement with no filtering",
+            "apps/web/src/utils/web-extension-server.ts — clip stored as a .clip attachment (application/vnd.notesnook.web-clip)",
+            "packages/editor/src/extensions/web-clip/component.tsx — iframe.contentDocument.write(html); the <iframe> has no sandbox attribute"
+          ],
+          "poc": "attacker-hosted page whose root element carries an event handler, e.g. <html onload=\"top.alert(1)\">, clipped with Area=Full page / Mode=Complete with styles; the clip syncs to the victim's other devices and fires on open",
+          "url": "https://github.com/streetwriters/notesnook/security/advisories/GHSA-f42f-phvp-43x5"
+        },
+        "CVE-2026-42090": {
+          "ghsa": "GHSA-fjm8-jg78-89h4",
+          "title": "RCE via stored XSS in note export rendering",
+          "severity": "Critical 9.6",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-79",
+            "CWE-94"
+          ],
+          "published": "2026-04-25",
+          "publisher": "thecodrr (Notesnook maintainer)",
+          "reporter": "iiihaiii",
+          "remediation_developers": [
+            "01zulfi",
+            "thecodrr (verifier)"
+          ],
+          "affected": "Notesnook Web/Desktop <3.3.15; Notesnook iOS/Android <3.3.20",
+          "patched": [
+            "3.3.15 (Web/Desktop)",
+            "3.3.20 (iOS/Android)"
+          ],
+          "root_cause_verbatim": "exported note fields such as `title`, `headline`, and `content` are inserted into the generated HTML template without HTML escaping. When the note is later exported to PDF, Notesnook renders that HTML into a same-origin, unsandboxed iframe using `iframe.srcdoc = ...`. Injected script executes in the Notesnook origin. In the desktop app, this becomes RCE because Electron is configured with `nodeIntegration: true` and `contextIsolation: false`.",
+          "code_sites": [
+            "packages/core/src/collections/notes.ts:416 — notes.export() passes note data into the HTML template builder",
+            "packages/core/src/utils/templates/html/template.ts:31 (headline into a meta tag), :33 (title into <title>), :210 (title into <h1>), :211 (content into the body) — all unescaped",
+            "packages/common/src/utils/export-notes.ts:219 — reachable through the normal export flow",
+            "apps/web/src/common/export.ts:40 — exportToPDF() sets iframe.srcdoc = content with no sandbox attribute",
+            "apps/desktop/src/main.ts:126 — nodeIntegration: true, contextIsolation: false, nodeIntegrationInWorker: true"
+          ],
+          "escalation_mechanism_verbatim": "Because `srcdoc` inherits the parent origin, JavaScript running inside the exported iframe can call: parent.require(\"fs\") and use Node primitives such as fs, child_process, etc.",
+          "poc": "note title containing </h1><script>…parent.require('fs')…</script><h1>, then File > Export as PDF; advisory demonstrates both a %TEMP%/notesnook-xss-proof.txt file write and parent.require('child_process').exec('calc.exe')",
+          "url": "https://github.com/streetwriters/notesnook/security/advisories/GHSA-fjm8-jg78-89h4"
+        }
       },
       "cross_app_note": "Taken together with the SiYuan entry the watch now holds TEN vendor-published XSS→RCE advisories across TWO independent Electron applications, all against an unchanged `nodeIntegration:true` + `contextIsolation:false` profile, and with one reporter (ngocnn97) appearing in both projects. Distinct escalation primitives observed so far: (i) direct DOM sink in the top-level renderer — SiYuan `insertAdjacentHTML` via showMessage; (ii) same-origin UNSANDBOXED iframe via `contentDocument.write` — Notesnook Web Clipper; (iii) same-origin UNSANDBOXED iframe via `srcdoc`, which inherits the parent origin and therefore `parent.require` — Notesnook PDF export. Delivery channels observed: OS protocol handler / deep link (SiYuan), sync of an imported note archive (SiYuan .sy.zip, Notesnook clip sync), and local user-initiated export (Notesnook PDF). None of (ii)/(iii) is visible from webPreferences alone, which is a concrete gap argument against config-only auditing.",
       "added": "2026-08-15",
@@ -481,19 +854,89 @@
     {
       "title": "DeepChat desktop client (Electron) XSS-to-RCE via over-broad IPC bridge — GHSA-v8v5-c872-mf8r / CVE-2025-66222",
       "title_norm": "deepchat desktop client electron xss to rce via over broad ipc bridge",
-      "authors": ["Reporter: c2an1. Publisher: zerob13 (DeepChat maintainer)"],
-      "venue": "GitHub Security Advisory, ThinkInAIXYZ/deepchat repository (vendor-published)", "year": 2025,
+      "authors": [
+        "Reporter: c2an1. Publisher: zerob13 (DeepChat maintainer)"
+      ],
+      "venue": "GitHub Security Advisory, ThinkInAIXYZ/deepchat repository (vendor-published)",
+      "year": 2025,
       "scope_topical": "PRIMARY (XSS→RCE in a real Electron desktop app via renderer→main IPC, exactly the thesis vulnerability class) — but a vendor advisory, not peer-reviewed academic work",
       "why": "THIRD independent application-level case study, and the one that CORRECTS the generalization the SiYuan and Notesnook entries were converging on. Those two both escalate through `nodeIntegration: true` + `contextIsolation: false` — an unsafe *webPreferences profile*. DeepChat (ThinkInAIXYZ/deepchat, ~5.8k stars, an LLM chat client) escalates through a completely different mechanism: an **over-broad IPC bridge with an unvalidated command-execution gadget behind it**, with no reliance on nodeIntegration anywhere in the chain. Read end-to-end from the GHSA page. THE CHAIN, verbatim from the advisory: (1) XSS SINK — `MermaidArtifact.vue` renders diagram content with `mermaidRef.value.innerHTML = props.block.content`, so `<img onerror=...>` embedded in Mermaid syntax executes *before* the Mermaid library's own sanitization runs. (2) INSECURE IPC EXPOSURE — the app exposes the raw `ipcRenderer` to the renderer as `window.electron`, and the main process registers a GENERIC routing handler, `ipcMain.handle('presenter:call', (event, name, method, ...payloads) => ...)`, that allows invoking ANY method on ANY 'Presenter' class. (3) RCE GADGET — `McpPresenter.addMcpServer` accepts a server-config object including a `command` property WITHOUT validating the executable path, and `startServer` then runs it via `child_process.spawn`. The PoC is a single Mermaid artifact whose `onerror` calls `ipc.invoke('presenter:call','mcpPresenter','addMcpServer', ...{command:'calc.exe'...})` then `startServer`, working under DEFAULT SETTINGS (the advisory notes MCP does not even need to be enabled first). WHY THIS MATTERS TO THE ARGUMENT: (1) IT BREAKS THE PROFILE-ONLY STORY. The thesis-relevant claim after SiYuan+Notesnook was 'the unsafe webPreferences profile is the root cause and per-sink patching does not close the class'. DeepChat shows the DUAL failure mode: even with a nominally correct profile, exposing raw `ipcRenderer` plus a *generic method-dispatch* IPC handler reconstitutes full Node privilege in the renderer. An audit tool that only inspects `webPreferences` (Inspectron) would give this app a clean bill of health. (2) IT IS A REAL-WORLD MESSAGE-PROGRESSION VULNERABILITY. renderer DOM sink -> `presenter:call` IPC -> main-process presenter method -> `child_process.spawn`: attacker-controlled input propagating across the process boundary via message passing into a privileged sink is exactly the MPV class Proton / 'Buzz to Boom' defines. This is field evidence for that bug class from an app OUTSIDE that paper's 589-app corpus. (3) A NEW DELIVERY CHANNEL THE WATCH HAS NOT SEEN — PROMPT INJECTION. The advisory's impact statement, verbatim: 'Any malicious prompt injection (e.g., from a web search result, a shared conversation, or a malicious model response) can execute arbitrary system commands on the victim's machine.' The untrusted content enters through the LLM's own output, i.e. an attack surface that neither webPreferences auditing, DOM-tree typing, nor network-facing fuzzing models. For a 2026 thesis this is a strong forward-looking scoping point: LLM-backed Electron clients are a growing app class whose renderer content is attacker-influenceable by construction. (4) UNPATCHED. 'Patched versions: None' as rendered on the advisory page — unlike the SiYuan and Notesnook advisories, which all name a fixed release.",
       "venue_status": "Vendor-published GitHub Security Advisory, not peer-reviewed and not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[], consistent with ElectroVolt (Black Hat / DEF CON 30), the upstream Electron CVE entry, and the SiYuan and Notesnook advisory entries. Use as motivation, impact, taxonomy and gap-argument evidence, never as related work.",
       "url": "https://github.com/ThinkInAIXYZ/deepchat/security/advisories/GHSA-v8v5-c872-mf8r",
       "pdf": null,
       "key_advisories": {
-        "CVE-2025-66222": {"ghsa": "GHSA-v8v5-c872-mf8r", "title": "Cross-Site Scripting (XSS) escalate to Remote Code Execution (RCE)", "severity": "Critical 9.6", "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H", "cwe": ["CWE-94 (Improper Control of Generation of Code / Code Injection)"], "published": "2025-12-03", "publisher": "zerob13 (DeepChat maintainer)", "reporter": "c2an1", "ecosystem": "npm (package listed as 'DeepChat')", "affected": "<=0.5.0", "patched": "None (as rendered on the advisory page)", "summary_verbatim": "A Stored Cross-Site Scripting (XSS) vulnerability in the Mermaid diagram renderer allows an attacker to execute arbitrary JavaScript within the application context. By leveraging the exposed Electron IPC bridge, this XSS can be escalated to Remote Code Execution (RCE) by registering and starting a malicious MCP (Model Context Protocol) server.", "chain": "MermaidArtifact.vue -> mermaidRef.value.innerHTML = props.block.content (XSS sink, fires before Mermaid's sanitizer) -> raw ipcRenderer exposed to the renderer as window.electron -> generic main-process router ipcMain.handle('presenter:call', (event, name, method, ...payloads) => ...) allowing any method on any Presenter class -> McpPresenter.addMcpServer accepts a config object with an unvalidated `command` -> McpPresenter.startServer executes it via child_process.spawn", "poc_summary": "A Mermaid artifact node whose <img onerror=...> awaits ipc.invoke('presenter:call','mcpPresenter','addMcpServer','test',{command:'calc.exe',args:[],type:'stdio',enabled:true,name:'test'}) then ipc.invoke('presenter:call','mcpPresenter','startServer','test'); works with default settings, MCP does NOT need to be enabled first; Windows Calculator opens.", "impact_verbatim": "Remote Code Execution (RCE). Any malicious prompt injection (e.g., from a web search result, a shared conversation, or a malicious model response) can execute arbitrary system commands on the victim's machine.", "url": "https://github.com/ThinkInAIXYZ/deepchat/security/advisories/GHSA-v8v5-c872-mf8r"}
+        "CVE-2025-66222": {
+          "ghsa": "GHSA-v8v5-c872-mf8r",
+          "title": "Cross-Site Scripting (XSS) escalate to Remote Code Execution (RCE)",
+          "severity": "Critical 9.6",
+          "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-94 (Improper Control of Generation of Code / Code Injection)"
+          ],
+          "published": "2025-12-03",
+          "publisher": "zerob13 (DeepChat maintainer)",
+          "reporter": "c2an1",
+          "ecosystem": "npm (package listed as 'DeepChat')",
+          "affected": "<=0.5.0",
+          "patched": "None (as rendered on the advisory page)",
+          "summary_verbatim": "A Stored Cross-Site Scripting (XSS) vulnerability in the Mermaid diagram renderer allows an attacker to execute arbitrary JavaScript within the application context. By leveraging the exposed Electron IPC bridge, this XSS can be escalated to Remote Code Execution (RCE) by registering and starting a malicious MCP (Model Context Protocol) server.",
+          "chain": "MermaidArtifact.vue -> mermaidRef.value.innerHTML = props.block.content (XSS sink, fires before Mermaid's sanitizer) -> raw ipcRenderer exposed to the renderer as window.electron -> generic main-process router ipcMain.handle('presenter:call', (event, name, method, ...payloads) => ...) allowing any method on any Presenter class -> McpPresenter.addMcpServer accepts a config object with an unvalidated `command` -> McpPresenter.startServer executes it via child_process.spawn",
+          "poc_summary": "A Mermaid artifact node whose <img onerror=...> awaits ipc.invoke('presenter:call','mcpPresenter','addMcpServer','test',{command:'calc.exe',args:[],type:'stdio',enabled:true,name:'test'}) then ipc.invoke('presenter:call','mcpPresenter','startServer','test'); works with default settings, MCP does NOT need to be enabled first; Windows Calculator opens.",
+          "impact_verbatim": "Remote Code Execution (RCE). Any malicious prompt injection (e.g., from a web search result, a shared conversation, or a malicious model response) can execute arbitrary system commands on the victim's machine.",
+          "url": "https://github.com/ThinkInAIXYZ/deepchat/security/advisories/GHSA-v8v5-c872-mf8r"
+        }
       },
       "cross_app_note_v2": "CORRECTED cross-application taxonomy, superseding the two-app version in the Notesnook entry. The watch now holds ELEVEN vendor-published XSS→RCE advisories across THREE independent Electron applications (SiYuan x8, Notesnook x2, DeepChat x1). They split into TWO root-cause families, which is the more useful framing than a single 'unsafe profile' story: (A) UNSAFE webPreferences PROFILE — SiYuan and Notesnook, both `nodeIntegration:true` + `contextIsolation:false`, where any DOM sink is directly Node-privileged. Detectable by config-level auditing (Inspectron). (B) OVER-BROAD IPC SURFACE — DeepChat, where raw `ipcRenderer` is handed to the renderer and a GENERIC `presenter:call` dispatcher forwards to an unvalidated `child_process.spawn` gadget. NOT detectable from webPreferences at all; requires reasoning about what the IPC handlers actually reach. Escalation primitives observed so far: (i) direct DOM sink in the top-level renderer (SiYuan, `insertAdjacentHTML` via showMessage); (ii) same-origin UNSANDBOXED iframe via `contentDocument.write` (Notesnook Web Clipper); (iii) same-origin UNSANDBOXED iframe via `srcdoc`, inheriting the parent origin and therefore `parent.require` (Notesnook PDF export); (iv) NEW — renderer→main IPC dispatch to a command-execution gadget (DeepChat). Delivery channels observed: OS protocol handler / deep link (SiYuan); sync of an imported note archive (SiYuan .sy.zip, Notesnook clip sync); local user-initiated export (Notesnook PDF); and NEW — LLM PROMPT INJECTION via model output / web-search result / shared conversation (DeepChat). Only family (A) is visible from webPreferences; primitives (ii), (iii) and (iv) are not, which is the concrete gap argument against config-only auditing and the case for IPC-aware analysis (Proton-style) or escalation-level defense (COINDEF).",
       "added": "2026-08-16",
       "grounding": "PRIMARY SOURCE, full read. The GitHub Security Advisory page GHSA-v8v5-c872-mf8r was fetched and read end-to-end this run: summary, details with the three code excerpts, PoC, impact, CVSS score + full vector, CWE, CVE ID, ecosystem, affected/patched version ranges, publisher, publication date and reporter credit are all verbatim from the advisory. Star/fork counts (5.8k stars, 667 forks) are as rendered at fetch time. NOT VERIFIED: (1) the lead surfaced from the standing 'XSS to RCE cross-platform desktop app' search; nothing from the search summary is relied on — every fact above comes from the GHSA page. (2) The advisory does NOT state DeepChat's webPreferences settings, so the claim that this chain does not depend on nodeIntegration is an INFERENCE from the exploit mechanism (it goes through `window.electron` + `ipcRenderer.invoke`, i.e. a preload-exposed bridge, not `require()` in the renderer) — the repository source was not opened and should be checked before the thesis asserts contextIsolation was enabled. (3) 'Patched versions: None' is as rendered on 2026-08-16; whether a fix has since shipped in >0.5.0 was not checked. (4) Note the CVE year is 2025 and publication date 2025-12-03, i.e. this advisory PREDATES the SiYuan and Notesnook ones and was simply never surfaced by earlier runs — it is new to the ledger, not new to the world. (5) No search was run for further DeepChat advisories; the repo shows 'Security and quality 7' in its nav, so more may exist."
+    },
+    {
+      "title": "DbGate desktop client (Electron) stored XSS-to-RCE via Svelte {@html} icon sink — GHSA-35xm-qvjg-8m42 / CVE-2026-34725",
+      "title_norm": "dbgate desktop client electron stored xss to rce via svelte html icon sink",
+      "authors": [
+        "Reporter: ngocnn97. Publisher: Stelinkaa (dbgate/dbgate)"
+      ],
+      "venue": "GitHub Security Advisory, dbgate/dbgate repository (vendor-published)",
+      "year": 2026,
+      "scope_topical": "PRIMARY (stored XSS→RCE in a real Electron desktop app, exactly the thesis vulnerability class) — but a vendor advisory, not peer-reviewed academic work",
+      "why": "FOURTH independent application-level case study, and the strongest single piece of evidence so far that this class is SYSTEMATICALLY DISCOVERABLE rather than incidental. DbGate (dbgate/dbgate) is a database-management GUI whose desktop build is Electron. Read end-to-end from the GHSA page. THE CHAIN, verbatim from the advisory: (1) STORED SINK — `packages/web/src/icons/FontIcon.svelte` treats any icon string starting with `<svg` as inline SVG and renders it with Svelte's `{@html iconValue}` WITHOUT sanitization; `packages/api/src/controllers/apps.js` loads app definitions from disk and returns `applicationIcon` to clients unchanged; `packages/web/src/appobj/DatabaseAppObject.svelte` passes `applicationIcon` into `additionalIcons`; `packages/web/src/appobj/AppObjectCore.svelte` renders those icons through `<FontIcon icon={ic.icon}>`. This makes `applicationIcon` a stored XSS sink. (2) PRIVILEGE — `app/src/electron.js` sets `nodeIntegration: true` and `contextIsolation: false`, so 'JavaScript gained through XSS can access Node/Electron APIs, making local code execution possible'. (3) POC — an app-definition JSON whose `applicationIcon` is a benign `<svg>` followed by `<img src=x onerror=\"require('fs').writeFileSync(require('path').join(process.cwd(),'xss-rce-poc.txt'),'poc')\">`, with `usageRules` regexes set to match any database so the icon is certain to render. WHY THIS MATTERS TO THE ARGUMENT — four defensible uses: (1) SAME REPORTER, THIRD APP. The reporter credited on this advisory is `ngocnn97` — per this repo's own earlier entries, the same reporter as SiYuan's stored-XSS advisory (GHSA-phhp-9rm9-6gr2) and Notesnook's Web Clipper advisory (CVE-2026-33976). One researcher has now landed the identical XSS→RCE technique against THREE unrelated codebases. That is direct evidence the family-(A) pattern is mechanically findable at scale by a human, which is precisely the argument for automating it — the motivating observation a discovery thesis wants. (2) A NEW SINK TYPE: FRAMEWORK RAW-HTML DIRECTIVE. Prior corpus sinks were browser DOM APIs — `insertAdjacentHTML` (SiYuan), `contentDocument.write` and `srcdoc` (Notesnook), `innerHTML` (DeepChat). This one is Svelte's `{@html}`, i.e. a deliberate escape hatch out of a framework's automatic escaping. That generalizes to a compact, greppable predicate across the whole modern-frontend Electron population: `{@html}` (Svelte) / `v-html` (Vue) / `dangerouslySetInnerHTML` (React) reachable from stored data, inside a renderer with `nodeIntegration:true`. A DOM-API-only sink list misses all three. (3) A NEW DELIVERY CHANNEL: THE APP'S OWN CONFIGURATION FILE. The payload does not arrive over the network or via sync — the victim IMPORTS OR SAVES an attacker-supplied application-definition JSON, which DbGate later loads through `apps/get-all-apps`. Together with Notesnook's clip-sync and PDF-export paths this establishes a general point: in desktop apps the untrusted-input frontier includes project/config/profile files, a surface a network-facing web fuzzer never reaches. (4) SAME BUG, TWO SEVERITIES — THE CLEANEST MOTIVATION SENTENCE IN THE CORPUS. DbGate ships the same Svelte code as a web app and as an Electron desktop app, and the advisory scores the two separately: in the web UI the impact is 'token theft, session hijacking, and performing privileged actions as the victim inside DbGate'; in Electron it is local code execution. Identical source, identical sink, and the desktop runtime alone converts a session bug into an RCE. That is the thesis's premise stated by a vendor, in one advisory, without any interpretation needed.",
+      "venue_status": "Vendor-published GitHub Security Advisory, not peer-reviewed and not at any of the 9 watched venues → context only, NOT added to in_scope[]/excluded[], consistent with ElectroVolt, the upstream Electron CVE entry, and the SiYuan / Notesnook / DeepChat advisory entries. Use as motivation, taxonomy and gap-argument evidence, never as related work.",
+      "url": "https://github.com/advisories/GHSA-35xm-qvjg-8m42",
+      "pdf": null,
+      "key_advisories": {
+        "CVE-2026-34725": {
+          "ghsa": "GHSA-35xm-qvjg-8m42",
+          "title_verbatim": "dbgate-web: Stored XSS in applicationIcon leads to potential RCE in Electron due to unsafe renderer configuration",
+          "severity": "High 8.2",
+          "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+          "cwe": [
+            "CWE-79 (Cross-site Scripting)",
+            "CWE-94 (Improper Control of Generation of Code / Code Injection)"
+          ],
+          "epss": "0.168% (6th percentile)",
+          "published_repo": "2026-04-01 (in dbgate/dbgate)",
+          "published_ghsa_db": "2026-04-01, reviewed 2026-04-01",
+          "published_nvd": "2026-04-02",
+          "last_updated": "2026-04-06",
+          "publisher": "Stelinkaa",
+          "reporter": "ngocnn97",
+          "ecosystem": "npm, package `dbgate-web`",
+          "affected": ">= 7.0.0, < 7.1.5",
+          "patched": "7.1.5",
+          "fix_refs": [
+            "dbgate/dbgate@a7d2ed11f3f3d4dfb5d2e4e5467dedafa5fa947e",
+            "https://github.com/dbgate/dbgate/releases/tag/v7.1.5"
+          ],
+          "summary_verbatim": "A stored XSS vulnerability exists in DbGate because attacker-controlled SVG icon strings are rendered as raw HTML without sanitization. In the web UI this allows script execution in another user's browser; in the Electron desktop app this can escalate to local code execution because Electron is configured with nodeIntegration: true and contextIsolation: false.",
+          "sink_chain_verbatim": "packages/web/src/icons/FontIcon.svelte (treats any icon string starting with `<svg` as inline SVG; renders it with `{@html iconValue}` without sanitization) <- packages/web/src/appobj/AppObjectCore.svelte (`<FontIcon icon={ic.icon}>`) <- packages/web/src/appobj/DatabaseAppObject.svelte (passes `applicationIcon` into `additionalIcons`) <- packages/api/src/controllers/apps.js (loads app definitions from disk and returns `applicationIcon` to clients unchanged)",
+          "privilege_config_verbatim": "app/src/electron.js — nodeIntegration: true, contextIsolation: false",
+          "poc_marker": "xss-rce-poc.txt written via require('fs').writeFileSync in an <img onerror=...> appended after a benign <svg>",
+          "root_cause_family": "(A) unsafe webPreferences profile"
+        }
+      },
+      "cross_app_note_v3": "UPDATED cross-application taxonomy, superseding cross_app_note_v2 in the DeepChat entry. The watch now holds TWELVE vendor-published XSS→RCE advisories across FOUR independent Electron applications: SiYuan x8, Notesnook x2, DeepChat x1, DbGate x1. TWO root-cause families: (A) UNSAFE webPreferences PROFILE — SiYuan, Notesnook, DbGate, all `nodeIntegration:true` + `contextIsolation:false`, so any renderer-reachable HTML sink is directly Node-privileged; detectable by config-level auditing (Inspectron). (B) OVER-BROAD IPC SURFACE — DeepChat, raw `ipcRenderer` handed to the renderer plus a generic `presenter:call` dispatcher into an unvalidated `child_process.spawn` gadget; invisible to webPreferences inspection. FIVE escalation primitives now observed: (i) direct DOM sink in the top-level renderer (SiYuan, `insertAdjacentHTML`); (ii) same-origin UNSANDBOXED iframe via `contentDocument.write` (Notesnook Web Clipper); (iii) same-origin UNSANDBOXED iframe via `srcdoc` inheriting the parent origin, hence `parent.require` (Notesnook export); (iv) renderer→main IPC dispatch into a command-execution gadget (DeepChat); (v) NEW — FRAMEWORK RAW-HTML DIRECTIVE, Svelte `{@html}`, i.e. an explicit opt-out of the framework's automatic escaping (DbGate). DELIVERY CHANNELS now observed: network/shared content (SiYuan), clip sync (Notesnook), PDF/HTML export (Notesnook), LLM output / prompt injection (DeepChat), and NEW — attacker-supplied APP-DEFINITION / CONFIG FILE imported by the victim (DbGate). REPORTER OVERLAP: `ngocnn97` is credited on SiYuan GHSA-phhp-9rm9-6gr2, Notesnook CVE-2026-33976 and now DbGate CVE-2026-34725 — one researcher, three unrelated codebases, one technique. SEVERITY-SCORING INCONSISTENCY WORTH FLAGGING: SiYuan / Notesnook / DeepChat are scored Critical 9.6 with AV:N, while DbGate — the same class of bug — is scored High 8.2 with AV:L and PR:L. If the thesis quantifies impact across advisories, note that vendor CVSS vectors for this class are not applied consistently.",
+      "added": "2026-08-17",
+      "grounding": "PRIMARY SOURCE, full read. https://github.com/advisories/GHSA-35xm-qvjg-8m42 was fetched and read end-to-end this run: summary, the four-file sink chain, the `app/src/electron.js` configuration, both PoC payloads, the split web/desktop impact statement, CVSS score and full vector, EPSS, both CWEs, CVE and GHSA IDs, npm package and affected/patched ranges, fix commit and release tag, publisher, reporter and all four publication dates are verbatim from that page. NOT VERIFIED: (1) the lead surfaced from the standing 'XSS to RCE cross-platform desktop app' web search; nothing from the search summary or from the GitLab-advisory mirror is relied on — every fact above comes from the GHSA page. (2) The dbgate repository source was NOT opened: neither the `{@html}` sink nor the `nodeIntegration:true` / `contextIsolation:false` line in `app/src/electron.js` was independently confirmed, and it was not checked whether 7.1.5 changed the webPreferences profile or only the icon sink (the fix commit a7d2ed1 was not read). Given the SiYuan and Notesnook pattern, 'patched at the sink, profile unchanged' is the LIKELY but UNCONFIRMED outcome — reading commit a7d2ed1 is the obvious next step. (3) The claim that `ngocnn97` is the same reporter as on the SiYuan and Notesnook advisories rests on this repo's own earlier ledger entries, not on a re-fetch of those two advisories this run. (4) DbGate's GitHub star count was not recorded (the advisory page does not show it)."
     }
   ]
 }
