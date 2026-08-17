@@ -17886,6 +17886,202 @@
    "first_seen": "2026-08-17",
    "last_updated": "2026-08-17",
    "folder": "2026-08-17"
+  },
+  "2608.09928": {
+   "version": "v1",
+   "title": "Multimodal Model Diffing for Feature Discovery and Control",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "sparse autoencoder",
+    "model diffing",
+    "multimodal interpretability",
+    "feature steering",
+    "multimodal safety"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.14391": {
+   "version": "v1",
+   "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Generators and Social Dissemination",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "AI-generated video detection",
+    "misinformation",
+    "benchmark",
+    "red-teaming",
+    "multimodal security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "safety_eval",
+    "red_teaming"
+   ]
+  },
+  "2608.13754": {
+   "version": "v1",
+   "title": "Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "circuit analysis",
+    "mechanistic interpretability",
+    "reproducibility",
+    "EU AI Act",
+    "interpretability evaluation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2608.10835": {
+   "version": "v1",
+   "title": "UniProbe: A Learnable Token-Level Hallucination Detector for Large VLMs using Multi-Structural Internal Representations",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "probing",
+    "internal representation",
+    "hallucination detection",
+    "vision-language models",
+    "attention graph"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.14229": {
+   "version": "v1",
+   "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "machine unlearning",
+    "memorization",
+    "training data leakage",
+    "adversarial reformulation",
+    "representation analysis"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2608.09209": {
+   "version": "v1",
+   "title": "UNMASK: Discovering and Causally Verifying Spurious Shortcuts in Text Classifiers",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "spurious correlation",
+    "causal intervention",
+    "counterfactual",
+    "probing",
+    "shortcut discovery"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2608.08542": {
+   "version": "v1",
+   "title": "When Skills Meet Safety: Benchmarking and Characterizing the Adaptive Jailbreak Robustness of Skill-Merged LLMs",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "jailbreak",
+    "model merging",
+    "safety alignment",
+    "adaptive attack",
+    "task vector"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2608.12623": {
+   "version": "v1",
+   "title": "When Explanations Betray Backdoors: Black-Box Auditing for Language Model Classifiers",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "backdoor",
+    "black-box auditing",
+    "explanation",
+    "trigger detection",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2608.14094": {
+   "version": "v1",
+   "title": "P2Skill: Privacy Preserving Skill Distillation for Cloud-Local LLM Inference Systems",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "PII",
+    "privacy-preserving inference",
+    "skill distillation",
+    "on-device SLM",
+    "data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2608.13773": {
+   "version": "v1",
+   "title": "CutClean: Neural Network Pruning for Privacy-Preserving Inference",
+   "first_seen": "2026-08-18",
+   "last_updated": "2026-08-18",
+   "folder": "2026-08-18",
+   "keywords": [
+    "privacy leakage",
+    "pruning",
+    "sensitive attribute",
+    "privacy head",
+    "sparsity"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -17928,5 +18124,5 @@
    ]
   }
  },
- "last_run": "2026-08-17"
+ "last_run": "2026-08-18"
 }
