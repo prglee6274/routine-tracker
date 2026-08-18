@@ -890,5 +890,21 @@
  "2608.13754->2606.06267": {
   "type": "rebuts",
   "evidence": "선행 연구는 구조적으로 다른 회로가 같은 계산을 구현한다(phantom specialisation)고 보지만, 본 논문은 발견된 회로들이 기능적으로도 무상관(κ=0.015)임을 보이며 그 해석을 가장 강한 반론으로 다루고 반박한다."
+ },
+ "2608.11227->2605.01167": {
+  "type": "background",
+  "evidence": "Related-work grouping: cited among prior work that measures or mitigates collateral steering effects during steering, while this paper forecasts them beforehand."
+ },
+ "2608.15022->2605.10664": {
+  "type": "background",
+  "evidence": "Bibliography-only citation on attention-level activation steering interventions; no in-text engagement."
+ },
+ "2608.15022->2607.15495": {
+  "type": "rebuts",
+  "evidence": "The cited 'global workspace' paper motivates the admission-gate hypothesis that this paper explicitly tests and fails to find ('no gate where it predicts one')."
+ },
+ "2608.15022->2607.23379": {
+  "type": "background",
+  "evidence": "Bibliography-only citation on fine-tuned activation oracles' concept-specific blind spots."
  }
 }
