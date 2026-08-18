@@ -1382,9 +1382,9 @@
   },
   "mukul975/Anthropic-Cybersecurity-Skills": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-18",
-   "days_on_list": 1,
-   "last_stars": 28273,
+   "last_seen": "2026-08-19",
+   "days_on_list": 2,
+   "last_stars": 29030,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -1402,9 +1402,9 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-18",
-   "days_on_list": 2,
-   "last_stars": 53939,
+   "last_seen": "2026-08-19",
+   "days_on_list": 3,
+   "last_stars": 54994,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -2582,13 +2582,13 @@
   },
   "multica-ai/multica": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-19",
    "days_on_list": 1,
-   "last_stars": 42932,
-   "category": "llm",
+   "last_stars": 46684,
+   "category": "tools",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-07-31"
+   "last_pushed_at": "2026-08-18"
   },
   "geo-tp/ESP32-Bit-Pirate": {
    "first_seen": "2026-08-01",
@@ -2751,10 +2751,10 @@
   },
   "PrimeIntellect-ai/prime-agent": {
    "first_seen": "2026-08-09",
-   "last_seen": "2026-08-18",
-   "days_on_list": 1,
-   "last_stars": 16863,
-   "last_pushed_at": "2026-08-17",
+   "last_seen": "2026-08-19",
+   "days_on_list": 2,
+   "last_stars": 17153,
+   "last_pushed_at": "2026-08-18",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -2822,13 +2822,13 @@
   },
   "semantica-agi/semantica": {
    "first_seen": "2026-08-11",
-   "last_seen": "2026-08-18",
-   "days_on_list": 1,
-   "last_stars": 8468,
+   "last_seen": "2026-08-19",
+   "days_on_list": 2,
+   "last_stars": 8943,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-17"
+   "last_pushed_at": "2026-08-18"
   },
   "vitali87/code-graph-rag": {
    "first_seen": "2026-08-11",
@@ -2862,13 +2862,13 @@
   },
   "cathrynlavery/diagram-design": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-18",
-   "days_on_list": 1,
-   "last_stars": 20414,
+   "last_seen": "2026-08-19",
+   "days_on_list": 2,
+   "last_stars": 21568,
    "category": "tools",
    "language": "HTML",
    "graduated": false,
-   "last_pushed_at": "2026-08-14"
+   "last_pushed_at": "2026-08-18"
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
@@ -2892,13 +2892,13 @@
   },
   "superradcompany/microsandbox": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-16",
-   "days_on_list": 3,
-   "last_stars": 7525,
+   "last_seen": "2026-08-19",
+   "days_on_list": 1,
+   "last_stars": 7638,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-14"
+   "last_pushed_at": "2026-08-18"
   },
   "gitleaks/gitleaks": {
    "first_seen": "2026-08-12",
@@ -2927,7 +2927,7 @@
    "last_stars": 7068,
    "category": "llm",
    "language": "Python",
-   "graduated": false,
+   "graduated": true,
    "last_pushed_at": "2026-08-17"
   },
   "macro-inc/macro": {
@@ -3065,6 +3065,36 @@
    "language": "Python",
    "graduated": false,
    "last_pushed_at": "2026-08-06"
+  },
+  "akitaonrails/ai-memory": {
+   "first_seen": "2026-08-19",
+   "last_seen": "2026-08-19",
+   "days_on_list": 1,
+   "last_stars": 2627,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-18"
+  },
+  "jundot/omlx": {
+   "first_seen": "2026-08-19",
+   "last_seen": "2026-08-19",
+   "days_on_list": 1,
+   "last_stars": 19323,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-18"
+  },
+  "Gaurav-Gosain/tuios": {
+   "first_seen": "2026-08-19",
+   "last_seen": "2026-08-19",
+   "days_on_list": 1,
+   "last_stars": 3428,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-16"
   }
  },
  "last_updated": "2026-08-18",
