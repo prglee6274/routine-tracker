@@ -885,13 +885,13 @@
   },
   "volcengine/OpenViking": {
    "first_seen": "2026-06-06",
-   "last_seen": "2026-06-09",
-   "days_on_list": 4,
-   "last_stars": 25300,
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 30054,
    "category": "llm",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-08"
+   "graduated": false,
+   "last_pushed_at": "2026-08-19"
   },
   "lightseekorg/tokenspeed": {
    "first_seen": "2026-06-06",
@@ -1382,9 +1382,9 @@
   },
   "mukul975/Anthropic-Cybersecurity-Skills": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-19",
-   "days_on_list": 2,
-   "last_stars": 29030,
+   "last_seen": "2026-08-20",
+   "days_on_list": 3,
+   "last_stars": 29717,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -1402,13 +1402,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-19",
-   "days_on_list": 3,
-   "last_stars": 54994,
+   "last_seen": "2026-08-20",
+   "days_on_list": 4,
+   "last_stars": 55599,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-08-17"
+   "graduated": true,
+   "last_pushed_at": "2026-08-19"
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
@@ -2572,13 +2572,13 @@
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-20",
    "days_on_list": 1,
-   "last_stars": 12837,
+   "last_stars": 15901,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-31"
+   "last_pushed_at": "2026-08-19"
   },
   "multica-ai/multica": {
    "first_seen": "2026-08-01",
@@ -3078,13 +3078,13 @@
   },
   "jundot/omlx": {
    "first_seen": "2026-08-19",
-   "last_seen": "2026-08-19",
-   "days_on_list": 1,
-   "last_stars": 19323,
+   "last_seen": "2026-08-20",
+   "days_on_list": 2,
+   "last_stars": 19765,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-18"
+   "last_pushed_at": "2026-08-19"
   },
   "Gaurav-Gosain/tuios": {
    "first_seen": "2026-08-19",
@@ -3095,6 +3095,56 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-08-16"
+  },
+  "harry0703/MoneyPrinterTurbo": {
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 110298,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-19"
+  },
+  "JuliusBrussee/caveman": {
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 99209,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-19"
+  },
+  "RyanCodrai/turbovec": {
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 15620,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-18"
+  },
+  "dmtrKovalenko/fff": {
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 10091,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-19"
+  },
+  "google/sam": {
+   "first_seen": "2026-08-20",
+   "last_seen": "2026-08-20",
+   "days_on_list": 1,
+   "last_stars": 289,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-18"
   }
  },
  "last_updated": "2026-08-18",
