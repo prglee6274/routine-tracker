@@ -906,5 +906,21 @@
  "2608.15022->2607.23379": {
   "type": "background",
   "evidence": "Bibliography-only citation on fine-tuned activation oracles' concept-specific blind spots."
+ },
+ "2608.16026->2606.07131": {
+  "type": "background",
+  "evidence": "참고문헌 목록에서 악성 에이전트 스킬 보안 연구 계보(MalSkillBench, Agent Skills in the Wild 등)와 나란히 인용 — 스킬 공격면 선행 연구 배경."
+ },
+ "2608.16852->2605.27958": {
+  "type": "background",
+  "evidence": "본문 인용 컨텍스트 없이 참조만 확인됨. 프로브 강건성/기만 탐지 선행 연구로서 컴플라이언스 탐지기 감사의 배경 문헌."
+ },
+ "2608.17202->2606.20470": {
+  "type": "background",
+  "evidence": "참고문헌에서 방어적 오도(defensive misdirection) 계열 선행 연구로 인용 — Fool's Gold의 defensive deception 아이디어가 놓인 문헌 배경."
+ },
+ "2608.17597->2605.31042": {
+  "type": "background",
+  "evidence": "프롬프트 인젝션→지속적 제어 및 에이전트 워크스페이스 방어 선행 연구로 인용. 하네스 라이프사이클 벤치마크의 위협 모델 배경."
  }
 }
