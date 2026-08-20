@@ -17345,10 +17345,10 @@
    ]
   },
   "2608.13538": {
-   "version": "v1",
+   "version": "v2",
    "title": "SAEVerbalizer: Generating Explanations for Sparse Autoencoder Features via Representation Verbalization",
    "first_seen": "2026-08-15",
-   "last_updated": "2026-08-15",
+   "last_updated": "2026-08-21",
    "folder": "2026-08-15",
    "keywords": [
     "sparse autoencoder",
@@ -17770,7 +17770,7 @@
    "folder": "2026-08-17"
   },
   "2608.12652": {
-   "version": "v1",
+   "version": "v2",
    "title": "Excess Separability: Nuisance-Controlled Residual-Stream Probing for Benchmark Contamination Detection",
    "keywords": [
     "probing",
@@ -17786,7 +17786,7 @@
     "interp_method"
    ],
    "first_seen": "2026-08-17",
-   "last_updated": "2026-08-17",
+   "last_updated": "2026-08-21",
    "folder": "2026-08-17"
   },
   "2608.08029": {
@@ -18470,6 +18470,179 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2608.15888": {
+   "version": "v1",
+   "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "agent safety",
+    "authorization",
+    "prompt injection",
+    "delegation",
+    "multi-agent"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2608.18274": {
+   "version": "v1",
+   "title": "Model Card for OpenAI Privacy Filter",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "PII",
+    "redaction",
+    "data minimization",
+    "token classification",
+    "privacy tooling"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2608.17659": {
+   "version": "v1",
+   "title": "MobileWorldSafety: Benchmarking GUI Agent Safety Against Environmental Injection Attacks in Android Apps",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "agent safety",
+    "prompt injection",
+    "GUI agent",
+    "safety eval",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2608.18545": {
+   "version": "v1",
+   "title": "Shared Circuits for Shared Grammar: Tracing Subject-Verb Agreement Across Languages",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "circuits",
+    "activation patching",
+    "attention heads",
+    "multilingual",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2608.17445": {
+   "version": "v1",
+   "title": "Decomposition Attacks Across Unlinkable Identities: Limits of Stateful Defenses for LLM Services",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "decomposition attack",
+    "stateful defense",
+    "jailbreak",
+    "safety eval",
+    "impossibility result"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2608.18610": {
+   "version": "v1",
+   "title": "Denoising-Aware Inversion: Revealing Privacy Risks in Noise-Protected Text Embeddings",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "embedding inversion",
+    "training data leakage",
+    "gaussian perturbation",
+    "adaptive attack",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2608.16246": {
+   "version": "v1",
+   "title": "CompoSkill: Compositional Skill Chain Attacks from Individually Scanner-Passing LLM Agent Skills",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "agent safety",
+    "skill marketplace",
+    "composition attack",
+    "supply chain",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2608.17051": {
+   "version": "v1",
+   "title": "Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "PII",
+    "PHI",
+    "de-identification",
+    "in-context learning",
+    "healthcare privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2608.18106": {
+   "version": "v1",
+   "title": "Different Facets of Verbalised Overconfidence: an Interpretability Study",
+   "first_seen": "2026-08-21",
+   "last_updated": "2026-08-21",
+   "folder": "2026-08-21",
+   "keywords": [
+    "transcoder features",
+    "feature attribution",
+    "activation steering",
+    "uncertainty",
+    "calibration"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "activation_steering",
+    "interp_method"
+   ]
   }
  },
  "_taxonomy": {
@@ -18512,5 +18685,5 @@
    ]
   }
  },
- "last_run": "2026-08-20"
+ "last_run": "2026-08-21"
 }
