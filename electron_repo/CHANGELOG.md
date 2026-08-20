@@ -1,5 +1,44 @@
 # Changelog
 
+## 2026-08-21 — Daily watch
+
+**One new in-scope paper, and it was hiding in a venue this watch believed it had already swept clean.** Ledger counts move to **16 in-scope / 24 excluded / 12 context**.
+
+### Added — `papers/sp2026-site-isolation-dead.md`
+
+**Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions** — Suyoung Lee, Seongho Keum, Changoo Lee, Dongwon Shin (KAIST), Sanghyun Hong (Oregon State), Byoungyoung Lee (SNU), Sooel Son (KAIST). **IEEE S&P 2026**, DOI `10.1109/SP63933.2026.00241`, open-access author PDF at `wsp-lab.github.io/papers/lee-sp26.pdf`, artifact at `github.com/WSP-LAB/Site-Isolation-Is-Dead`. Tagged **ADJACENT**, note written from the **full text**.
+
+**Why it is in scope, in one line:** it is the renderer→privileged-process IPC trust failure — the exact boundary this thesis targets — demonstrated end-to-end in real Chromium-based desktop applications. Nine systems analyzed (2 open-source agentic browsers + 7 Chrome extensions); **all nine vulnerable**; renderer RCE chained from CVE-2025-0291 + Chromium Issue 379140430 on Chromium 130, then **forged Mojo IPC at the C++ level bypasses site isolation with no additional sandbox escape**. Root causes named by the authors: no origin/authenticity check on IPC-borne prompts, and unrestricted renderer access to privileged storage. Their guardrail drops indirect-prompt-injection ASR **0.89 → 0.00** (BrowserOS) and **0.52 → 0.00** (Nanobrowser) for a 6-point TSR cost on 100 WebArena tasks.
+
+**Caveat recorded prominently in the note: the paper never says "Electron"** (grep-confirmed across the full retrieved text). The Electron mapping — Chromium multi-process + privileged background process + IPC bridge ≈ renderer/main + `ipcRenderer`/`ipcMain`/`contextBridge` — is this watch's analysis, not the authors' claim.
+
+**Method lesson worth keeping.** Prior runs swept the S&P '26 accepted-papers page and missed this, because the keyword grep (`electron|preload|contextIsolation|nodeIntegration|renderer|ipc|webview|npm|node.js`) does not match a title made of the words *site isolation*, *agentic browsers* and *extensions*. This run caught it only by widening the title screen to `browser|extension|desktop|isolation|javascript|v8|chromium` and then reading abstracts for the survivors. **Recommendation: keep the widened title screen; the config's keyword list is tuned for abstracts, not titles.**
+
+### Also excluded (so they never re-surface)
+
+- **State of Browser Process-Isolation: The Same-Site Weakness** (S&P '26) — same-site isolation weakness in general-purpose browsers; no embedded/desktop-app angle.
+- **KeyChaser: Unveiling API Keys in Browser Extensions** (S&P '26) — extension secret leakage; same rationale as the already-excluded DoubleX.
+
+### *Buzz to Boom* promotion check — trigger NOT met (fifteenth consecutive)
+
+`arXiv:2607.20698` re-fetched in full: still a single **[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)**, **cs.CR** only, **no Comments / journal-ref / venue field**, abstract byte-identical. Stays in `context_non_venue[]`.
+
+**The two-step PDF fetch was executed exactly as yesterday's changelog instructed — and step 2 still failed, for the third distinct reason in three runs.** Fetching `arxiv.org/abs/2607.20698` *did* establish provenance (the `View PDF` link and `meta-citation_pdf_url` are both in the retrieved text), and the immediate follow-up fetch of `arxiv.org/pdf/2607.20698` returned **HTTP 429 "Cowork web_fetch rate limit exceeded"**. Not retried in a loop.
+
+**Correction to yesterday's instruction, for whoever runs this next:** "do the two-step first" was not precise enough. This run did the two-step before any *arXiv-adjacent* work but **after five venue fetches** — the S&P '26 sweep that produced today's paper. The fetch budget, not the ordering, is the binding constraint. **Next run: make the two-step fetch #1 and #2, before any venue page at all.** §6 (all five RQs), §7–§9 and Appendices A–D remain unread; the per-RQ breakdowns, false-positive rates, runtime costs, the LLM ablation (§6.5) and the segmented-vs-end-to-end table (§6.6) must still not be quoted.
+
+### Per-venue status
+
+- **IEEE S&P '26** — accepted-papers page re-fetched (67,761 chars / 1,347 lines) and **all ~250 titles extracted and screened**, not just keyword-grepped. Yield: one new in-scope paper (above) and two new exclusions. **'27 remains eliminated near-term** (Cycle 1 due 10 Nov 2026, notification 5 Mar 2027).
+- **USENIX Sec '26** — `/technical-sessions` fetched (122,772 chars / 878 lines). **Only 56 distinct presentation links are present**, versus ~53 on the Cycle 1 page — the page still truncates far short of the ~400-paper program, reproducing the known wall. Zero hits across the full Electron vocabulary; the only "supply chain" hits were the Pickle-model-poisoning and SOHO-kernel papers. A `usenix.org` domain-restricted search again returned **only the 2024 Inspectron paper**. Cycle 2 remains formally unverifiable through `web_fetch`.
+- **CCS '26** — accepted-papers page **still does not exist**; the only `sigsac.org/ccs/CCS2026/` path any engine returns is the CFP. Now **5 weeks** past the 17 Jul Cycle B notification. Cycle B minor-revision approval **4 Sep**, camera-ready **13 Sep**; conference 15–19 Nov, The Hague. Still the most likely landing spot for *Buzz to Boom*.
+- **NDSS** — '26 unchanged. **'27 accepted list still unpublished**; searches return only the 2027 CfP / submissions / templates / HotCRP pages. Expected window unchanged: **Sep–Oct 2026**. The recurring *"265 accepted (113 summer + 152 fall)"* artifact did **not** recur.
+- **ACSAC '26** — notification **8 Sep 2026**; nothing to publish yet.
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it** (ninth consecutive reproduction), ~6 weeks past the 10 Jul notification and 8 days past the 13 Aug camera-ready. **New this run:** `program.html` was fetched for the first time and is **entirely `Session Title: TBD` placeholders for all four days** — so the program page is not an alternate channel either. Stop trying both until roughly mid-September.
+- **ESORICS '26** — accepted-papers page re-fetched and read end-to-end (Winter Cycle 23 papers + Spring Cycle ~76). Only matches remain the two already-excluded items, *Short Paths, Real Risks* (#106) and *Local Models, Global Risk* (#724). Nothing new.
+- **AsiaCCS '26** — Cycle 1 + Cycle 2 lists released 26 Apr 2026 and already swept (the ledger's *Original Sin of npm* exclusion is from that sweep). No change.
+- **DSN '26** — `cpaccepted.html` fetched in full and read end-to-end across Research / Industry / Disrupt / Doctoral / Poster tracks. Three keyword hits, **all already triaged**: *Demystifying Progressive Web Application Permission Systems*, *VulJSFormer*, *VCAligner*. Nothing new.
+
 ## 2026-08-20 — Daily watch
 
 **No new papers today**, and no new advisory. Ledger counts UNCHANGED at **15 in-scope / 22 excluded / 12 context**. No `papers/` note written; no `in_scope`, `excluded` or `context_non_venue` entry added. `last_updated` / `last_run` moved to 2026-08-20 and the *Buzz to Boom* `promotion_checks` field was prepended with this run's evidence.
