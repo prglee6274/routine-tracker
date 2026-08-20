@@ -124,13 +124,13 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-08-10",
-   "days_on_list": 2,
-   "last_stars": 210938,
+   "last_seen": "2026-08-21",
+   "days_on_list": 1,
+   "last_stars": 225915,
    "category": "llm",
    "language": "Shell",
    "graduated": false,
-   "last_pushed_at": "2026-08-06"
+   "last_pushed_at": "2026-08-20"
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
@@ -214,13 +214,13 @@
   },
   "zizmorcore/zizmor": {
    "first_seen": "2026-05-14",
-   "last_seen": "2026-05-15",
-   "days_on_list": 2,
-   "last_stars": 4856,
+   "last_seen": "2026-08-21",
+   "days_on_list": 1,
+   "last_stars": 6360,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-05-13T00:00:00Z"
+   "last_pushed_at": "2026-08-18"
   },
   "domcyrus/rustnet": {
    "first_seen": "2026-05-11",
@@ -885,13 +885,13 @@
   },
   "volcengine/OpenViking": {
    "first_seen": "2026-06-06",
-   "last_seen": "2026-08-20",
-   "days_on_list": 1,
-   "last_stars": 30054,
+   "last_seen": "2026-08-21",
+   "days_on_list": 2,
+   "last_stars": 30921,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-19"
+   "last_pushed_at": "2026-08-20"
   },
   "lightseekorg/tokenspeed": {
    "first_seen": "2026-06-06",
@@ -1382,13 +1382,13 @@
   },
   "mukul975/Anthropic-Cybersecurity-Skills": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-08-20",
-   "days_on_list": 3,
-   "last_stars": 29717,
+   "last_seen": "2026-08-21",
+   "days_on_list": 4,
+   "last_stars": 30308,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-08-08"
+   "graduated": true,
+   "last_pushed_at": "2026-08-20"
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
@@ -1656,13 +1656,13 @@
   },
   "TencentCloud/CubeSandbox": {
    "first_seen": "2026-07-09",
-   "last_seen": "2026-07-16",
-   "days_on_list": 3,
-   "last_stars": 10278,
+   "last_seen": "2026-08-21",
+   "days_on_list": 1,
+   "last_stars": 11274,
    "category": "security",
-   "language": "Rust",
+   "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-07-03"
+   "last_pushed_at": "2026-08-20"
   },
   "vxcontrol/pentagi": {
    "first_seen": "2026-07-09",
@@ -2572,13 +2572,13 @@
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-20",
-   "days_on_list": 1,
-   "last_stars": 15901,
+   "last_seen": "2026-08-21",
+   "days_on_list": 2,
+   "last_stars": 16032,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-19"
+   "last_pushed_at": "2026-08-20"
   },
   "multica-ai/multica": {
    "first_seen": "2026-08-01",
@@ -3028,13 +3028,13 @@
   },
   "chaitanyagiri/munder-difflin": {
    "first_seen": "2026-08-17",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-21",
    "days_on_list": 1,
-   "last_stars": 1197,
+   "last_stars": 3066,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-16"
+   "last_pushed_at": "2026-08-20"
   },
   "cursor/plugins": {
    "first_seen": "2026-08-17",
@@ -3118,9 +3118,9 @@
   },
   "RyanCodrai/turbovec": {
    "first_seen": "2026-08-20",
-   "last_seen": "2026-08-20",
-   "days_on_list": 1,
-   "last_stars": 15620,
+   "last_seen": "2026-08-21",
+   "days_on_list": 2,
+   "last_stars": 15875,
    "category": "llm",
    "language": "Rust",
    "graduated": false,
@@ -3145,6 +3145,26 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-08-18"
+  },
+  "vercel-labs/agent-browser": {
+   "first_seen": "2026-08-21",
+   "last_seen": "2026-08-21",
+   "days_on_list": 1,
+   "last_stars": 41023,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-10"
+  },
+  "abhigyanpatwari/GitNexus": {
+   "first_seen": "2026-08-21",
+   "last_seen": "2026-08-21",
+   "days_on_list": 1,
+   "last_stars": 45625,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-19"
   }
  },
  "last_updated": "2026-08-18",
