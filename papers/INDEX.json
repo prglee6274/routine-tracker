@@ -18643,6 +18643,199 @@
     "activation_steering",
     "interp_method"
    ]
+  },
+  "2608.19861": {
+   "version": "v1",
+   "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "agent safety",
+    "policy compliance",
+    "guardrail",
+    "workflow verification",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2608.19901": {
+   "version": "v1",
+   "title": "MaliciousSkillBench: A Comprehensive Benchmark for Malicious Agent Skill Detection",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "agent safety",
+    "skill marketplace",
+    "supply chain",
+    "malicious detection",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2608.18419": {
+   "version": "v1",
+   "title": "Mechanistic Interpretability of Structure-Aware Numerical Reasoning in LLaMA 3.1 8B",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "mechanistic interpretability",
+    "probing",
+    "activation patching",
+    "induction circuit",
+    "numerical reasoning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2608.18772": {
+   "version": "v1",
+   "title": "Decisive Margins in Differentially Private Voting",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "differential privacy",
+    "local differential privacy",
+    "voting",
+    "margin of victory",
+    "hardness"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2608.14876": {
+   "version": "v1",
+   "title": "Workspace Topology as an Attack Vector in Agentic Coding Assistants",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "prompt injection",
+    "indirect prompt injection",
+    "coding agent",
+    "agent safety",
+    "attack surface"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2608.20338": {
+   "version": "v1",
+   "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "unlearning",
+    "dual-use concepts",
+    "benchmark",
+    "forgetting-utility tradeoff",
+    "safety"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2608.19338": {
+   "version": "v1",
+   "title": "Mechanistic Tomography: Designed Measurement for Control-Oriented Interpretability",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation patching",
+    "feature attribution",
+    "intervention design",
+    "circuits"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "circuits",
+    "feature_attribution"
+   ]
+  },
+  "2608.19737": {
+   "version": "v1",
+   "title": "TempJail: Temporal Jailbreak Attack against Large Vision-Language Models via Subtitle Scheduling",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "jailbreak",
+    "multimodal attack",
+    "vision-language model",
+    "video",
+    "black-box attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack"
+   ]
+  },
+  "2608.18089": {
+   "version": "v1",
+   "title": "Latent Space Refusal Anchoring for Low-Resource African Languages: Mechanistic Safety Recovery Without Retraining",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "activation steering",
+    "refusal direction",
+    "sparse autoencoder",
+    "multilingual safety",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "sae",
+    "representation"
+   ]
+  },
+  "2608.17722": {
+   "version": "v1",
+   "title": "MemCatalyst: Amplifying Data Auditing on Vision-Language Models via Data Poisoning",
+   "first_seen": "2026-08-22",
+   "last_updated": "2026-08-22",
+   "folder": "2026-08-22",
+   "keywords": [
+    "membership inference",
+    "data auditing",
+    "data poisoning",
+    "vision-language model",
+    "copyright"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -18685,5 +18878,5 @@
    ]
   }
  },
- "last_run": "2026-08-21"
+ "last_run": "2026-08-22"
 }

@@ -942,5 +942,45 @@
  "2608.17445->2606.13994": {
   "type": "background",
   "evidence": "분해 공격 방어의 유리한 전제(모니터가 한 공격 과제의 요청을 정확히 묶는 경우)를 세운 선행 연구로 배경 인용"
+ },
+ "2608.14876->2603.12277": {
+  "type": "background",
+  "evidence": "cited as prior framing of indirect prompt injection in agentic settings"
+ },
+ "2608.17722->2606.15165": {
+  "type": "extends",
+  "evidence": "same-author prior MI attack on VLA models; MemCatalyst amplifies MI-based auditing signal"
+ },
+ "2608.18089->2605.29358": {
+  "type": "background",
+  "evidence": "cited as foundational SAE work for decomposing residual activations"
+ },
+ "2608.19737->2606.02111": {
+  "type": "baseline",
+  "evidence": "listed among existing video jailbreak methods TempJail outperforms"
+ },
+ "2608.19901->2606.07131": {
+  "type": "compares",
+  "evidence": "competing malicious-skill benchmark consolidated/contrasted in source aggregation"
+ },
+ "2608.19901->2606.18198": {
+  "type": "background",
+  "evidence": "cited as an attack on agent skill scanners motivating broader benchmark coverage"
+ },
+ "2608.19901->2606.23416": {
+  "type": "background",
+  "evidence": "cited as a prior malicious-skill detection approach"
+ },
+ "2608.19901->2607.02357": {
+  "type": "background",
+  "evidence": "cited as scanner-evasion and dynamic detection prior work"
+ },
+ "2608.19901->2607.25619": {
+  "type": "background",
+  "evidence": "cited as a runtime malicious-skill file detector"
+ },
+ "2608.19901->2608.09732": {
+  "type": "background",
+  "evidence": "cited as cross-skill composition evasion of skill scanners"
  }
 }
