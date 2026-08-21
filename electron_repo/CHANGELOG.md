@@ -1,5 +1,61 @@
 # Changelog
 
+## 2026-08-22 — Daily watch
+
+**The CCS '26 accepted-papers page finally exists, and sweeping it produced one new in-scope paper plus five new exclusions.** Fifteen consecutive runs recorded "CCS '26 accepted-papers page still does not exist." That is no longer true. Ledger counts move to **17 in-scope / 29 excluded / 12 context**.
+
+### The unlock, because it generalises
+
+`https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html` has probably existed for a little while — what changed is that a **search query phrased around the venue and city ("CCS 2026 accepted papers list November The Hague sigsac") surfaced it as a search-*result* link**, which is the only thing that puts a URL into `web_fetch`'s provenance set. Prior runs searched for "CCS 2026 accepted papers list sigsac" and got only the CFP, concluded the page did not exist, and never got a fetchable URL.
+
+**Lesson to keep: "no search engine returns this URL" is evidence about the search query, not about the page.** When a venue's notification date has passed by more than a month, re-phrase the query (add the city, the month, the ordinal) before recording another "still unpublished".
+
+### Added — `papers/ccs2026-pdfuzzer.md`
+
+**From Documentation to Zero-day Vulnerabilities: LLM-Driven Fuzzing of JavaScript Engines in PDF Readers** — Suyue Guo, Stijn Pletinckx, Tianle Yu, Yigitcan Kaya, Saad Ullah, Wenbo Guo, Christopher Kruegel, Giovanni Vigna (UC Santa Barbara). Tool: **PDFuzzer**. **ACM CCS 2026, First Cycle**; preprint `arXiv:2608.06641` (6 Aug 2026, CC-BY 4.0, 16 pages), whose Comments field reads verbatim **"accepted by ACM CCS 2026"**. Tagged **ADJACENT**.
+
+**Why it is in scope, in one line:** it is the same structural target as Electron — a native desktop application that embeds a JavaScript engine and hands script a large *documented* privileged host API — and it turns the vendor's own API manual into the grammar that drives discovery. An LLM mines context-free grammars and inter-call relationships from the readers' JavaScript API manuals plus execution traces; a constraint solver then instantiates concrete multi-call sequences. Against Adobe Acrobat Reader, Foxit PDF Reader and PDF-XChange Editor it reports **up to 48% higher coverage** than TypeOracle, Favocado, Cooper, Fuzz4All and a naive-LLM baseline, and **31 zero-days** ranging from information leakage to arbitrary code execution, with LLM stage accuracy **93–98%** and bug bounties received.
+
+**Grounding caveat, recorded at the top of the note: the full text was NOT read.** `arxiv.org/pdf/2608.06641` returned **HTTP 429** and was not retried; arXiv provides **no HTML rendering** for this submission, so the cheap channel that works for *Buzz to Boom* is unavailable. Every number traces to the abstract. Do not write "31 CVEs" — the abstract says 31 *vulnerabilities* and does not give a CVE count. The word "Electron" never appears; the Electron mapping is this watch's analysis.
+
+**The gap it leaves open, which is the useful part for a discovery thesis:** single-process engine memory safety only (no cross-process propagation), closed-source black-box targets (Electron source usually sits readable in the asar), and a single fixed input source (the document file) versus Electron's multi-source problem.
+
+### Also excluded (five, all from the newly-readable CCS '26 list)
+
+- **TANTRUM: Breaking the Heap Sandbox in JavaScript Engines via Protection Domain Fuzzing** — the closest call of the five, and the reasoning is recorded in the ledger so it is not relitigated. It attacks the **V8-style heap sandbox**, an engine-internal memory-safety mitigation reached only *after* the attacker already holds a corruption primitive. Contrast with **"Best of Both Worlds"** (S&P '26, in scope): that paper's subject is the **embedder bridge** — the host API a V8 embedder exposes to script, the direct analogue of `contextBridge`/preload — which an Electron app author actually controls. TANTRUM's subject is heap partitioning, which they do not. No preprint exists; only the title/author row was read.
+- **Overloading Ad Blockers: Exploiting Filtering Logic for Selective Denial of Service** — browser-extension DoS; same rationale as DoubleX and KeyChaser.
+- **Exploring Privacy Leakage and Data Disclosure Violations in the MacOS Application Ecosystem** — desktop apps, but privacy-compliance measurement rather than vulnerability discovery, and framework-agnostic.
+- **Mini-Programs, Mega-Problems** (OAuth misuse in mini-programs) — mobile-only, same rationale as the already-excluded *Identity Confusion in WebView-based Mobile App-in-app Ecosystems*.
+- **Reproducing Web Application Vulnerabilities with Patch-Guided Routing Inference and Sink Exploration** — pure server-side web; its sibling *BACAgent* is excluded for the same reason and is not separately ledgered.
+
+### *Buzz to Boom* promotion check — trigger NOT met (sixteenth consecutive), but the negative is finally a real one
+
+For the first time this is a **primary-source negative at CCS rather than an "unpublished" non-answer**. All **187 First-Cycle titles** were read end-to-end, and *Buzz to Boom* is not among them — grep-confirmed: no `buzz` as a title (the only hit is *Beyond the Buzzword*), no `progression`, no `proton`, no `Jianjia`, no `Yinzhi`. The only `Zhengyu` is Zhengyu **Zhao** of Xi'an Jiaotong, a different person. And the only two `Electron` substring matches on the entire page are *University of Electronic Science and Technology* affiliations — **there is no Electron paper in CCS '26 Cycle A at all.**
+
+**This does not eliminate CCS.** The page is headed **"First Cycle" only**. arXiv v1 was posted **22 Jul 2026, five days after the 17 Jul Cycle B notification**, so Cycle B is exactly as plausible as before and is now the only remaining CCS possibility. Cycle B camera-ready is 13 Sep → expect the Cycle B list mid-to-late September, **at the same URL**.
+
+### Correction to the two-step arXiv recipe (it failed at step 1 this run, for a new reason)
+
+The 08-20/08-21 instruction was "fetch `arxiv.org/abs/2607.20698` first, then the PDF." Executed as fetch #1 of the run, **step 1 itself was rejected: "URL not in provenance set."** In a cold session *nothing* is in the provenance set until a WebSearch puts it there.
+
+**Corrected recipe, which worked:** run a **WebSearch for the paper title first** — one search placed `arxiv.org/abs/…`, `arxiv.org/html/…` *and* `arxiv.org/pdf/…` in the provenance set together. That also revealed `arxiv.org/html/2607.20698v1` is directly fetchable. It was re-fetched (88,874 chars / 421 lines) but **truncates even earlier than the 08-18 fetch** — mid-Algorithm-1 in §4.3 rather than in "Harness Synthesis". The MathML bloat is what eats the budget. **§4.4, §5, §6 (all five RQs), §7–§9 and Appendices A–D remain unread; their numbers must still not be quoted.**
+
+### Per-venue status
+
+- **ACM CCS '26** — **accepted-papers page now published and swept in full** (81,704 chars / 222 lines; all 187 First-Cycle titles read, not keyword-grepped). One new in-scope paper, five new exclusions. **Second Cycle not yet listed** — re-check the same URL from early September.
+- **USENIX Sec '26** — `/cycle1-accepted-papers` fetched in full (119,569 chars / 739 lines); **108 presentation links, 54 distinct titles**, all extracted and read. Zero hits across the Electron vocabulary; the only ledger-adjacent title is the already-excluded *Cutting the Gordian Knot* (PyPI). Cycle 2 still has no public page and a `usenix.org` domain-restricted search again returned only the 2024 Inspectron paper. One unresolved lead for next run: that search also surfaced `usenix.org/system/files/usenixsecurity26-collins.pdf`, a Sec '26 proceedings PDF whose title is unknown — **check it before assuming it is unrelated.**
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it** (tenth consecutive reproduction), ~6 weeks past the 10 Jul notification and 9 days past the 13 Aug camera-ready. Conference 11–14 Oct, Lancaster UK. Given the CCS lesson above, try a re-phrased search (city/month/ordinal) next run before recording an eleventh.
+- **NDSS** — '27 list still unpublished. The **"265 accepted (113 summer + 152 fall)" artifact recurred** this run and is again discarded: those are NDSS '26 figures being used to answer an NDSS '27 question.
+- **IEEE S&P '26** — no re-fetch this run; yesterday's full sweep of ~250 titles stands. **'27 eliminated near-term** (Cycle 1 due 10 Nov 2026, notification 5 Mar 2027).
+- **ESORICS '26** — not re-fetched (fetch budget). A search summary reports **130 full papers from 882 submissions** for the Rome edition; yesterday's end-to-end read found nothing new.
+- **ACSAC '26** — notification **8 Sep 2026**; nothing to publish yet.
+- **AsiaCCS '26** — unchanged; Cycle 1 + Cycle 2 lists released 26 Apr 2026 and already swept.
+- **DSN '26** — unchanged; `cpaccepted.html` read end-to-end yesterday across all tracks, three keyword hits all already triaged.
+
+### Fetch-budget note for whoever runs this next
+
+This run spent its budget as: USENIX Cycle 1 → arXiv abs (rejected) → arXiv abs (after search) → arXiv HTML → CCS accepted papers → RAID → **HTTP 429 on the PDFuzzer PDF**. The 429 arrived on fetch #7. **If the priority next run is grounding rather than discovery, fetch `arxiv.org/pdf/2608.06641` first** (after a title search to establish provenance) and rewrite §§2–4 of `papers/ccs2026-pdfuzzer.md` from the real text.
+
 ## 2026-08-21 — Daily watch
 
 **One new in-scope paper, and it was hiding in a venue this watch believed it had already swept clean.** Ledger counts move to **16 in-scope / 24 excluded / 12 context**.
