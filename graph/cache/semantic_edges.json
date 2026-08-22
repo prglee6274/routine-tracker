@@ -982,5 +982,25 @@
  "2608.19901->2608.09732": {
   "type": "background",
   "evidence": "cited as cross-skill composition evasion of skill scanners"
+ },
+ "2608.15687->2605.29708": {
+  "type": "background",
+  "evidence": "MoE 안전 관련 선행 관찰(정렬 모델의 라우팅은 행동보다 주제에 좌우 → 행동의 위치는 expert 연산)을 동기로 인용하고, 개입 실험 결과가 이와 일치한다고 서술"
+ },
+ "2608.16032->2604.16548": {
+  "type": "background",
+  "evidence": "LLM 에이전트 장기 메모리 보안 서베이를 위협 모델 배경으로 인용"
+ },
+ "2608.16032->2606.12703": {
+  "type": "background",
+  "evidence": "런타임 메모리 포이즈닝 방어 선행연구를 관련 연구 맥락으로 인용 (직접 비교 대상은 SENTINEL)"
+ },
+ "2608.17804->2607.27968": {
+  "type": "extends",
+  "evidence": "강화 언러닝의 보상 설계 비교 연구를 이어받아 GRPO 보상 명세와 벤치마크 신뢰성 문제로 확장"
+ },
+ "2608.18768->2605.13339": {
+  "type": "background",
+  "evidence": "페르소나 의존 선호 probing 선행연구를 관련 연구로 인용하며 자신들의 dissociation 결과와 수렴함을 언급"
  }
 }
