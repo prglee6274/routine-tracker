@@ -124,9 +124,9 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-08-22",
-   "days_on_list": 2,
-   "last_stars": 229046,
+   "last_seen": "2026-08-23",
+   "days_on_list": 3,
+   "last_stars": 231611,
    "category": "llm",
    "language": "Shell",
    "graduated": false,
@@ -714,9 +714,9 @@
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-08-22",
-   "days_on_list": 1,
-   "last_stars": 5297,
+   "last_seen": "2026-08-23",
+   "days_on_list": 2,
+   "last_stars": 5434,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -1044,9 +1044,9 @@
   },
   "openai/codex": {
    "first_seen": "2026-06-15",
-   "last_seen": "2026-07-17",
-   "last_stars": 98822,
-   "last_pushed_at": "2026-07-11",
+   "last_seen": "2026-08-23",
+   "last_stars": 112904,
+   "last_pushed_at": "2026-08-22",
    "days_on_list": 1,
    "category": "llm",
    "language": "Rust",
@@ -1472,13 +1472,13 @@
   },
   "diegosouzapw/OmniRoute": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-23",
    "days_on_list": 1,
-   "last_stars": 39530,
+   "last_stars": 53139,
    "category": "llm",
    "language": "TypeScript",
    "graduated": true,
-   "last_pushed_at": "2026-08-04"
+   "last_pushed_at": "2026-08-22"
   },
   "deepseek-ai/DeepSpec": {
    "first_seen": "2026-07-01",
@@ -1952,12 +1952,13 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-07-17",
-   "days_on_list": 2,
-   "last_stars": 88768,
+   "last_seen": "2026-08-23",
+   "days_on_list": 1,
+   "last_stars": 109511,
    "category": "llm",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-08-20"
   },
   "openinterpreter/openinterpreter": {
    "first_seen": "2026-07-16",
@@ -2267,13 +2268,13 @@
   },
   "block/buzz": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-08-07",
+   "last_seen": "2026-08-23",
    "days_on_list": 1,
-   "last_stars": 24042,
+   "last_stars": 29703,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-31"
+   "last_pushed_at": "2026-08-22"
   },
   "koala73/worldmonitor": {
    "first_seen": "2026-07-25",
@@ -2317,13 +2318,13 @@
   },
   "dani-garcia/vaultwarden": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-08-23",
    "days_on_list": 1,
-   "last_stars": 64197,
+   "last_stars": 65820,
    "category": "security",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-07-24"
+   "last_pushed_at": "2026-08-20"
   },
   "pocket-id/pocket-id": {
    "first_seen": "2026-07-25",
@@ -2731,13 +2732,13 @@
   },
   "uber/ADR": {
    "first_seen": "2026-08-06",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-23",
    "days_on_list": 1,
-   "last_stars": 1315,
+   "last_stars": 1486,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-08"
+   "last_pushed_at": "2026-08-22"
   },
   "huangruiteng/loopx": {
    "first_seen": "2026-08-07",
@@ -3168,9 +3169,9 @@
   },
   "AprilNEA/OpenLogi": {
    "first_seen": "2026-08-22",
-   "last_seen": "2026-08-22",
-   "days_on_list": 1,
-   "last_stars": 12726,
+   "last_seen": "2026-08-23",
+   "days_on_list": 2,
+   "last_stars": 13700,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
@@ -3215,10 +3216,20 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-21"
+  },
+  "sinelaw/fresh": {
+   "first_seen": "2026-08-23",
+   "last_seen": "2026-08-23",
+   "days_on_list": 1,
+   "last_stars": 8441,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-08-20"
   }
  },
- "last_updated": "2026-08-22",
- "updated": "2026-08-22",
+ "last_updated": "2026-08-23",
+ "updated": "2026-08-23",
  "last_run": "2026-08-22",
  "count": 326
 }
