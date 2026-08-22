@@ -1,5 +1,63 @@
 # Changelog
 
+## 2026-08-23 — Daily watch
+
+**No new in-scope papers. This run was a grounding run, and it paid off: the PDFuzzer full text is now read end-to-end, replacing yesterday's abstract-only note.** Ledger counts move to **17 in-scope / 30 excluded / 12 context** (the one new entry is an exclusion that closes an open lead).
+
+### The fetch that worked — record the recipe, it is now proven twice
+
+Yesterday's run ended on **HTTP 429** trying to fetch `arxiv.org/pdf/2608.06641`, and recorded that arXiv offers no HTML rendering for that submission. Today it fetched cleanly (**103,792 chars / 1,616 lines**) as fetch #6 of the run. The sequence that worked is the same corrected recipe the *Buzz to Boom* entry already carries:
+
+1. **WebSearch the paper title.** This is the only thing that puts arXiv URLs into `web_fetch`'s provenance set. A cold `/pdf/` fetch is rejected outright.
+2. The title search surfaced only `arxiv.org/abs/…`, **not** `/pdf/…` — so a direct `/pdf/` fetch still failed at this point.
+3. **Fetch `arxiv.org/abs/…`.** Its `View PDF` link and `meta-citation_pdf_url` put the `/pdf/` URL into the provenance set.
+4. **Then fetch `/pdf/…`.** Succeeded.
+
+**Lesson to keep alongside the 08-22 CCS lesson: a 429 is a statement about that moment's budget, not about the document.** Do not convert a rate-limit into a permanent "unreachable" in the ledger.
+
+### Rewritten — `papers/ccs2026-pdfuzzer.md`, now **full-text grounded**
+
+The arXiv entry has moved to **v2 (18 Aug 2026)** and v2 is the **camera-ready**: it carries the **ACM DOI `10.1145/3830454.3832609`** and ISBN `979-8-4007-2871-6/2026/11` in its copyright block. That supersedes yesterday's "ACM DOI not yet assigned". Affiliations are now from the paper's own title block: seven UCSB authors, **Saad Ullah at Boston University**.
+
+**What the full text changes about how this paper should be cited.**
+
+- **"Up to 48%" is against Cooper specifically.** Against the strongest baseline (TypeOracle+Cooper) the gap is **19%**. Writing "48% better than state of the art" would misrepresent the paper. Full ladder: Cooper 48%, TypeOracle 37%, TO+Cooper 19%, TO+Favocado 17%, Favocado 15%, Claude-3.7-Sonnet 16–49%.
+- **The 31 zero-days are a dedup count, not a raw crash count.** 57 crashing inputs (23 Adobe / 24 Foxit / 10 PDF-XChange) → statement-level reduction → dedup by normalized call-stack signature → **31 unique**. **11 potentially ACE. 26 of 31 fixed. 10 CVEs assigned.** The **$2,450 is from two bounties**, not from 26 — §1 and §6.2 word this differently and §6.2 is the precise one.
+- **The number that actually matters for this thesis is 12 → 28.** Table 1's aggregated row: candidate-relationships-only finds **12** vulnerabilities; strong symbolic relationships find **28**; PDFuzzer-full **31**. Knowing which APIs *co-occur* is worth little; enforcing **parameter-value constraints and ordering** is what surfaces bugs.
+- **Producer-consumer modelling is a bad prior.** Of 1,019 inferred strong relationships: **value-constraint 887 (87.0%)**, producer-consumer **69 (6.8%)**, implicit **63 (6.2%)**. Most prior API fuzzers model only the 6.8%.
+- **Implicit relationships are the ones they solve worst — 64.0% instantiation success**, versus 95.1% value-constraint and 81.5% producer-consumer, because they need both a parameter constraint and a state precondition. **This is the single best hook for an Electron thesis:** state-mediated dependency (login → session handle → file access) is the *dominant* form of Electron IPC channel coupling, and it is precisely the form this paper handles least well.
+- **§8 "Generalization Beyond PDF Readers" is a feasibility study only.** They extracted **2,925 Word VBA APIs / 3,768 parameters from 5,920 pages** of docs and built CFGs — but **ran no fuzzing and report no results**. Citing it as demonstrated generalization would be an overstatement.
+
+Other now-grounded specifics recorded in the note: exact reader versions (Acrobat v24.005.20421, Foxit v2024.4.0.27683, PDF-XChange v10.5.2.395); **DynamoRIO** basic-block coverage over **five independent 24-hour runs** per tool per target; a **separate two-week** vulnerability campaign with `werfault.exe` crash detection and manual triage; Windows 8.1 VM with re-verification on Win10 22H2 / Win11 24H2; 666 API functions and 886 parameters; the 221,445-pair / 1,845-hour brute-force figure that motivates the two-stage RAG design; per-stage LLM accuracy 93/94/97/98%; and end-to-end cost $60.77 (GPT-4o) versus $76.14–$174.83 for the naive LLM baseline.
+
+**One oddity recorded so it is not relitigated:** Table 4, Dimension 3, Foxit — `PC-Only` (397,916 bbks) scores **below** `None` (406,448), i.e. producer-consumer-only modelling looks *worse* than no relationship modelling at all on that target. The paper does not comment. Do not build an argument on the Dim-3 sub-rows.
+
+**Still unread, and flagged at the top of the note:** Figure 2 is six coverage curves that flatten to axis labels only — no curve value may be quoted. **Table 1 is elided in the extracted text** (rows for IDs 10–14 and 26–28 collapse to `...`), so eight vulnerabilities' per-ID details are unavailable; the ten CVE identifiers listed in the note are those visible in un-elided rows, and the paper's own "10 assigned" is the authoritative count. If those rows are ever needed, try `arxiv.org/src/2608.06641` (TeX source).
+
+### Also excluded (one) — and it closes an open lead
+
+- **Download More RAM: Dismantling Windows Operating System Defences with Mischievous Memory** (USENIX Sec '26) — Sam Collins, Tom Chothia, William Burgess, Marius Muench (Birmingham); David Oswald (Durham). This resolves the 08-22 open lead *"`usenixsecurity26-collins.pdf`, title unknown — check it before assuming it is unrelated."* It is a Windows kernel memory-defence bypass. **No Electron, renderer, IPC, JS-runtime or embedded-web-app angle. Lead CLOSED.**
+
+### *Buzz to Boom* promotion check — trigger NOT met (seventeenth consecutive)
+
+`arXiv:2607.20698` re-fetched in full: still a **single** `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, **cs.CR only**, **no Comments / journal-ref / venue field**, abstract byte-identical. Stays in `context_non_venue[]`.
+
+**A useful contrast surfaced today:** PDFuzzer's arXiv entry moved to **v2 carrying its ACM DOI** five days before this run. *That* is what an acceptance looks like on arXiv. *Buzz to Boom* has shown none of those markers in seventeen checks. That is weak evidence, not proof — plenty of accepted papers never update their preprint — but it is worth noting that the two papers are now behaving differently.
+
+### Per-venue status
+
+- **ACM CCS '26** — accepted-papers page re-fetched (81,704 chars / 222 lines). Heading grep returns exactly `## ACCEPTED PAPERS`, `### First Cycle`, `## About ACM CCS`: **Second Cycle is still not listed**. Cycle B is now the only remaining CCS possibility for *Buzz to Boom*. Camera-ready 13 Sep → expect the list mid-to-late September, **same URL**.
+- **USENIX Sec '26** — the `collins.pdf` lead is closed (see above); Cycle 2 still has no public page. **USENIX Sec '27 eliminated near-term**: Cycle 1 registration was 18 Aug 2026 and submissions close **25 Aug 2026**, so no '27 list can exist for months.
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it** — **eleventh** consecutive reproduction, 6 weeks past the 10 Jul notification. The 08-22 lesson was applied: a re-phrased search including city/month/ordinal ("RAID 2026 Lancaster October 29th symposium accepted papers list") surfaced **no alternative URL**, so unlike CCS this negative is not a query artifact. `program.html` also re-fetched — still 100% "Session Title: TBD" for all four days.
+- **NDSS '27 Summer** — submissions closed, accepted list still unpublished. Expected Sep–Oct 2026.
+- **IEEE S&P '27** — unchanged, eliminated near-term (Cycle 1 due 10 Nov 2026, notification 5 Mar 2027).
+- **ESORICS '26 / AsiaCCS '26 / DSN '26** — **not re-fetched this run.** The fetch budget went to the PDFuzzer full-text re-grounding, which the 08-22 changelog explicitly named as the priority. Prior end-to-end reads (08-21 / 08-22) stand.
+- **ACSAC '26** — notification **8 Sep 2026**; nothing to publish yet.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: USENIX Sec '26 Cycle 1 → CCS '26 accepted papers → RAID accepted → RAID program → arXiv abs (PDFuzzer) → **arXiv PDF (PDFuzzer, 1,616 lines — the expensive one)** → arXiv abs (Buzz to Boom). No 429 this time. **Next run's discovery priority should swing back outward**: ESORICS '26 and AsiaCCS '26 have not been re-fetched in two runs, and CCS Cycle B is the highest-value new surface but will not exist before September.
+
 ## 2026-08-22 — Daily watch
 
 **The CCS '26 accepted-papers page finally exists, and sweeping it produced one new in-scope paper plus five new exclusions.** Fifteen consecutive runs recorded "CCS '26 accepted-papers page still does not exist." That is no longer true. Ledger counts move to **17 in-scope / 29 excluded / 12 context**.
