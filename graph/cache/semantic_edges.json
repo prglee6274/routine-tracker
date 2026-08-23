@@ -1002,5 +1002,29 @@
  "2608.18768->2605.13339": {
   "type": "background",
   "evidence": "페르소나 의존 선호 probing 선행연구를 관련 연구로 인용하며 자신들의 dissociation 결과와 수렴함을 언급"
+ },
+ "2608.16393->2606.31227": {
+  "type": "background",
+  "evidence": "간접 프롬프트 인젝션이 에이전트의 중심 리스크라는 문제 설정을 뒷받침하는 인용 [3,6,10,12] 중 하나로 배경 참조."
+ },
+ "2608.16393->2608.03509": {
+  "type": "background",
+  "evidence": "스킬 채널을 통한 에이전트 공격 선행 연구로 관련 연구 절에서 배경 인용."
+ },
+ "2608.17360->2605.05058": {
+  "type": "background",
+  "evidence": "ASR 중심 탈옥 평가 관행을 정리한 SoK로, 문제 제기의 배경 근거로 인용."
+ },
+ "2608.17360->2606.11409": {
+  "type": "rebuts",
+  "evidence": "FLOPs로 이질적 자원을 단일 스칼라로 합치는 compute-aware 평가가 자원별 제약을 가린다고 비판하며 target-call 예산 축을 대안으로 제시."
+ },
+ "2608.17360->2608.16465": {
+  "type": "baseline",
+  "evidence": "Fair-ASR 프로토콜 하에서 재평가되는 대표 블랙박스 탈옥 공격 11종 중 하나로 비교 대상."
+ },
+ "2608.17638->2607.15495": {
+  "type": "extends",
+  "evidence": "Gurnee et al.의 Jacobian lens / J-space 정의를 그대로 채택해 J64 readout으로 증류·확장 (\"We use this readout operationally\")."
  }
 }
