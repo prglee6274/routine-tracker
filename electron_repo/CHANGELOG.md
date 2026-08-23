@@ -1,5 +1,35 @@
 # Changelog
 
+## 2026-08-24 — Daily watch
+
+**No new papers today.** Ledger unchanged at **17 in-scope / 30 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-24. This was the "swing outward" run the 08-23 changelog asked for, and the outward sweep came back empty — which is the expected result in late August.
+
+### Venues checked
+
+- **USENIX Sec '26** — Cycle 1 accepted-papers page re-fetched (119,569 chars / 739 lines) and swept by heading. **52 titles visible**; the only keyword-adjacent one is *Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework*, **already in `excluded[]`**. A full-text grep of the page for `electron|node\.js|npm|renderer|preload|webview|chromium|desktop|prototype pollution|ipc|supply chain|extension` returned **3 lines, all false positives** ("ECH extension", "Client-Side Scanning… extension"). Cycle 2 still has no public page — USENIX states Cycle 2 papers publish **on the first day of the symposium**, and the symposium (Baltimore Marriott Waterfront, **12–14 Aug 2026**) has already passed, so the Cycle 2 page should be treated as a **high-priority target for the next run** rather than a future event.
+- **ACM CCS '26** — **could not be fetched this run: `www.sigsac.org/ccs/CCS2026/program/accepted-papers.html` was rejected as "URL not in provenance set."** Two searches were tried, including the exact 08-22 phrasing that first unlocked it ("CCS 2026 accepted papers list November The Hague sigsac"); neither returned the accepted-papers URL as a result link this time, so it never entered the provenance set. Fetching the CCS2026 **home page** succeeded but its rendered output carries only the News list — no nav links — so it does not seed the provenance set either. **This is a new failure mode worth recording: provenance is per-run, and a URL that was fetchable yesterday can be unfetchable today purely because the search engine ranked it differently.** Low cost this time — camera-ready is 13 Sep and Second Cycle was confirmed absent yesterday — but if it recurs in September, try searching for a distinctive *title* known to be on the page rather than for the page itself.
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it** — **twelfth** consecutive reproduction, now 6.5 weeks past the 10 Jul notification. Dates confirmed on-page as **Oct 11–14, 2026, Lancaster UK**.
+- **ESORICS '26** — **attempted re-fetch failed for the same provenance reason**: two searches (including one naming Rome, the cycles, and the `sites.google.com` host) returned only the CfP and the site root, never the accepted-papers page. Searches did re-confirm the cycle structure — Winter notification **10 Mar 2026**, Spring notification **12 Jun 2026**, symposium **14–18 Sep 2026, Sapienza, Rome** — so no third cycle exists and nothing can have been added since the 08-21 end-to-end read. The two keyword-adjacent items remain excluded.
+- **AsiaCCS '26** — re-checked via search. Cycle 1 + Cycle 2 lists released **26 Apr 2026**; conference **held 1–5 Jun 2026, Bangalore**. Already swept end-to-end. Nothing new. (**AsiaCCS '27**: Cycle 1 final notification **13 Nov 2026** — still nothing before mid-November.)
+- **ACSAC '26** — notification **8 Sep 2026**; nothing can exist yet.
+- **NDSS '27 Summer** — accepted list still unpublished; expected Sep–Oct 2026.
+- **IEEE S&P '27** — unchanged, eliminated near-term (Cycle 1 due 10 Nov 2026, notification 5 Mar 2027).
+- **DSN '26** — not re-fetched; prior end-to-end read stands.
+
+### Standing queries — four run, zero academic hits
+
+`Electron application security … USENIX 2026`, `nodeIntegration contextIsolation Electron IPC … 2026`, `Electron desktop application vulnerability discovery … August 2026`, `CEF / WebView desktop app vulnerability … ACSAC DSN 2026`, and `"XSS to RCE" … Electron Tauri hybrid app`. Everything returned was either **already ledgered** (DOMTreeType/NDSS'23, Inspectron/USENIX'24, *Buzz to Boom*) or **non-venue industry material**, notably a Bishop Fox post on **Tauri** XSS→RCE (Jun 2026) and fresh Electron CVEs (**CVE-2026-70599**, origin-confusion permission bypass via cross-origin iframe reaching serial/camera/mic, 5 Aug 2026; **CVE-2026-34765**, multi-window scoping RCE). None is a paper at one of the nine venues, so none is ledgered — but **the Tauri angle is worth a deliberate look**: the watch's scope rules were written around Electron and CEF, and a Rust-backed competitor with the same XSS→capability-escalation shape is arguably in-scope-adjacent. Consider whether `sources.json` should name Tauri explicitly.
+
+### *Buzz to Boom* promotion check — trigger NOT met (eighteenth consecutive)
+
+`arXiv:2607.20698` abs page re-fetched in full. Still a **single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`**, **cs.CR only**, **no Comments / journal-ref / DOI-other-than-DataCite**, abstract byte-identical (589 apps → 23 zero-day MPVs, 22 → OS command execution, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). The DataCite DOI still reads "pending registration". Stays in `context_non_venue[]`.
+
+Worth restating the 08-23 contrast, because the next plausible landing spot just moved: with **CCS Cycle B camera-ready on 13 Sep** and **USENIX Sec '26 Cycle 2 due to publish now that the symposium has passed**, the next four weeks are the highest-probability window this paper has had. If it is going to acquire venue markers, it should happen soon.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: USENIX Sec '26 Cycle 1 (large) → arXiv abs (Buzz to Boom) → RAID accepted → CCS2026 home (wasted — no nav) . Two intended fetches (CCS accepted-papers, ESORICS accepted-papers) were **blocked by provenance, not by the sites**. **Next run's priority, in order: (1) USENIX Sec '26 Cycle 2 — the symposium has now passed, so this is the single most likely place for something new; (2) CCS '26 Second Cycle from mid-September; (3) re-establish provenance for the ESORICS page.** Do not spend budget re-reading ESORICS/AsiaCCS/DSN lists that have been read end-to-end and whose venues have no open cycle.
+
 ## 2026-08-23 — Daily watch
 
 **No new in-scope papers. This run was a grounding run, and it paid off: the PDFuzzer full text is now read end-to-end, replacing yesterday's abstract-only note.** Ledger counts move to **17 in-scope / 30 excluded / 12 context** (the one new entry is an exclusion that closes an open lead).
