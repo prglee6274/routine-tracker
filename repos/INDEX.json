@@ -124,12 +124,12 @@
   },
   "mattpocock/skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-08-23",
-   "days_on_list": 3,
-   "last_stars": 231611,
+   "last_seen": "2026-08-24",
+   "days_on_list": 4,
+   "last_stars": 233594,
    "category": "llm",
    "language": "Shell",
-   "graduated": false,
+   "graduated": true,
    "last_pushed_at": "2026-08-21"
   },
   "farion1231/cc-switch": {
@@ -714,11 +714,11 @@
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-08-23",
-   "days_on_list": 2,
-   "last_stars": 5434,
+   "last_seen": "2026-08-24",
+   "days_on_list": 3,
+   "last_stars": 5659,
    "category": "security",
-   "language": "Python",
+   "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-08-21"
   },
@@ -1044,10 +1044,10 @@
   },
   "openai/codex": {
    "first_seen": "2026-06-15",
-   "last_seen": "2026-08-23",
-   "last_stars": 112904,
-   "last_pushed_at": "2026-08-22",
-   "days_on_list": 1,
+   "last_seen": "2026-08-24",
+   "last_stars": 115034,
+   "last_pushed_at": "2026-08-23",
+   "days_on_list": 2,
    "category": "llm",
    "language": "Rust",
    "graduated": false
@@ -1094,13 +1094,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-06-16",
+   "last_seen": "2026-08-24",
    "days_on_list": 1,
-   "last_stars": 113,
+   "last_stars": 14904,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-06-16"
+   "last_pushed_at": "2026-08-21"
   },
   "langgenius/dify": {
    "first_seen": "2026-06-16",
@@ -3169,13 +3169,13 @@
   },
   "AprilNEA/OpenLogi": {
    "first_seen": "2026-08-22",
-   "last_seen": "2026-08-23",
-   "days_on_list": 2,
-   "last_stars": 13700,
+   "last_seen": "2026-08-24",
+   "days_on_list": 3,
+   "last_stars": 14734,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-21"
+   "last_pushed_at": "2026-08-23"
   },
   "santifer/career-ops": {
    "first_seen": "2026-08-22",
@@ -3226,6 +3226,56 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-20"
+  },
+  "Alishahryar1/free-claude-code": {
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "days_on_list": 1,
+   "last_stars": 47816,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-23"
+  },
+  "basecamp/omarchy": {
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "days_on_list": 1,
+   "last_stars": 28941,
+   "category": "tools",
+   "language": "Shell",
+   "graduated": false,
+   "last_pushed_at": "2026-08-23"
+  },
+  "openai/codex-security": {
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "days_on_list": 1,
+   "last_stars": 10104,
+   "category": "security",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-23"
+  },
+  "anthropics/claude-plugins-community": {
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "days_on_list": 1,
+   "last_stars": 848,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-21"
+  },
+  "apache/maka": {
+   "first_seen": "2026-08-24",
+   "last_seen": "2026-08-24",
+   "days_on_list": 1,
+   "last_stars": 2269,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-08-23"
   }
  },
  "last_updated": "2026-08-23",
