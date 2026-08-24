@@ -19226,6 +19226,193 @@
    "first_seen": "2026-08-24",
    "last_updated": "2026-08-24",
    "folder": "2026-08-24"
+  },
+  "2608.21278": {
+   "version": "v1",
+   "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "safety alignment",
+    "harmful content",
+    "LoRA routing",
+    "utility preservation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2608.20569": {
+   "version": "v1",
+   "title": "Open-Weight Masked Introspection: Measuring What Language Models Can Report About Their Own Computation",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "mechanistic interpretability",
+    "sparse autoencoder",
+    "activation patching",
+    "introspection"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "mechanistic_position",
+    "interp_method",
+    "probing"
+   ]
+  },
+  "2608.21209": {
+   "version": "v1",
+   "title": "Personalized Privacy Control in LLMs via Attention Head Intervention",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "PII",
+    "contextual privacy",
+    "attention head intervention",
+    "personalized privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2608.20554": {
+   "version": "v1",
+   "title": "aiXamine: Unified Black-Box Evaluation of Cross-Dimensional Trade-offs in LLM Safety, Security, and Privacy",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "red-teaming",
+    "safety alignment",
+    "privacy evaluation",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "red_teaming",
+    "jailbreak"
+   ]
+  },
+  "2608.21230": {
+   "version": "v1",
+   "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "agent safety",
+    "memory poisoning",
+    "prompt injection",
+    "provenance"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2608.21236": {
+   "version": "v1",
+   "title": "RARE: Decoupling Representation Steering from Expert Routing in Mixture-of-Experts Language Models",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "representation engineering",
+    "steering vector",
+    "mixture-of-experts",
+    "null space projection"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.20960": {
+   "version": "v1",
+   "title": "Can Scientific Claims Be Removed from Large Language Models? A Systematic Evaluation of Claim-Level Unlearning",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "unlearning",
+    "machine unlearning",
+    "knowledge removal",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2608.16970": {
+   "version": "v1",
+   "title": "Probing the Prefill: Detecting Code Vulnerabilities via Latent Activations",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "probing",
+    "latent activations",
+    "code vulnerability",
+    "linear probe"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "feature_attribution",
+    "representation"
+   ]
+  },
+  "2608.20756": {
+   "version": "v1",
+   "title": "Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "poisoning",
+    "adversarial attack",
+    "multimodal RAG",
+    "knowledge poisoning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "backdoor",
+    "adversarial"
+   ]
+  },
+  "2608.21137": {
+   "version": "v1",
+   "title": "BackDFL: A Unified Benchmark For Backdoor Attacks and Defenses In Decentralized Federated Learning",
+   "first_seen": "2026-08-25",
+   "last_updated": "2026-08-25",
+   "folder": "2026-08-25",
+   "keywords": [
+    "federated learning",
+    "backdoor",
+    "poisoning",
+    "decentralized"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "backdoor"
+   ]
   }
  },
  "_taxonomy": {
@@ -19268,5 +19455,5 @@
    ]
   }
  },
- "last_run": "2026-08-24"
+ "last_run": "2026-08-25"
 }

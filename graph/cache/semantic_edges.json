@@ -1026,5 +1026,21 @@
  "2608.17638->2607.15495": {
   "type": "extends",
   "evidence": "Gurnee et al.의 Jacobian lens / J-space 정의를 그대로 채택해 J64 readout으로 증류·확장 (\"We use this readout operationally\")."
+ },
+ "2608.16970->2608.08029": {
+  "type": "extends",
+  "evidence": "동일 저자(Khatri)의 latent-space safety probe 재현 연구를 잠재 활성 probing 계열의 직접 선행연구로 인용, 코드 취약점 탐지로 확장"
+ },
+ "2608.20569->2605.29358": {
+  "type": "background",
+  "evidence": "SAE feature를 개입 사이트로 사용하기 위한 배경 기법으로 monosemanticity 연구를 참조"
+ },
+ "2608.21230->2606.04329": {
+  "type": "extends",
+  "evidence": "메모리 포이즈닝 체계 연구를 출발점 삼아, 탐지 가능한 페이로드가 없는 평문 허위 주장 공격으로 위협모델을 확장"
+ },
+ "2608.21230->2606.24322": {
+  "type": "rebuts",
+  "evidence": "저자가 평가한 provenance 기반 방어 계열에 대해 Louck의 malleability 반론을 인용하며 자신들의 방어 결과 해석을 재검토"
  }
 }
