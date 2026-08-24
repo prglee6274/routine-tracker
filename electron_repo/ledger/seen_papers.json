@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-08-24",
-  "last_run": "2026-08-24",
+  "last_updated": "2026-08-25",
+  "last_run": "2026-08-25",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -378,6 +378,24 @@
       "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/collins",
       "pdf": "https://www.usenix.org/system/files/usenixsecurity26-collins.pdf",
       "added": "2026-08-23"
+    },
+    {
+      "title": "Plain Text, Plain Risks: Measuring HTTP Inclusion in Android WebViews at Scale",
+      "title_norm": "plain text plain risks measuring http inclusion in android webviews at scale",
+      "venue": "USENIX Security",
+      "year": 2026,
+      "reason": "WebView keyword hit, but the study is Android-only (listed under the Mobile Security session); scope rule excludes mobile-only work. No desktop/Electron embedder angle.",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "added": "2026-08-25"
+    },
+    {
+      "title": "AutoFail: Breaking Web Boundaries using Android's Autofill Framework",
+      "title_norm": "autofail breaking web boundaries using android s autofill framework",
+      "venue": "USENIX Security",
+      "year": 2026,
+      "reason": "Web-boundary breakage driven by Android's autofill framework; mobile-only, no desktop embedder or renderer/main IPC angle.",
+      "url": "https://www.usenix.org/conference/usenixsecurity26/technical-sessions",
+      "added": "2026-08-25"
     },
     {
       "title": "Experimental Security Analysis of the App Model in Business Collaboration Platforms",

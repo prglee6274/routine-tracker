@@ -1,5 +1,60 @@
 # Changelog
 
+## 2026-08-25 — Daily watch
+
+**No new in-scope papers. But this run closed the biggest open item on the board: USENIX Security '26 has now been swept END-TO-END, both cycles, from the official proceedings table of contents.** Ledger moves to **17 in-scope / 32 excluded / 12 context** (two new exclusions, both Android-only).
+
+### The fetch that worked — `sec26_contents.pdf`. Record this recipe; it beats the technical-sessions page outright.
+
+Yesterday's run left a clear instruction: *"Next run's priority #1: USENIX Sec '26 Cycle 2 — the symposium has now passed."* Executing it exposed a structural problem and then a better channel.
+
+- **There is no Cycle 2 accepted-papers page.** USENIX published `cycle1-accepted-papers` but never a `cycle2-` equivalent; Cycle 2 papers were folded straight into the program. Grepping the site nav confirms only two schedule children exist: `technical-sessions` and `cycle1-accepted-papers`. **Stop looking for a Cycle 2 page — it does not exist.**
+- **`technical-sessions` is unusable for a full sweep.** It renders as one giant page with day anchors (`#wedam`, `#thuam`, `#fripm`…), and `web_fetch` caps the render at ~122,745 chars — which lands **partway through Wednesday**. All 53 titles recovered were Wednesday-only, i.e. roughly a third of the symposium. The anchors are the *same URL*, so re-fetching `#thuam` just returns the dedup message. **Do not burn budget re-fetching this page by anchor.**
+- **The fix: the proceedings front matter.** The technical-sessions render, truncated as it is, still contains the front-matter links near the top (line 109), including **`https://www.usenix.org/sites/default/files/sec26_contents.pdf`** — the **complete proceedings ToC**, every paper across both cycles, with authors and page numbers, in 87,122 chars. Verified complete: **Kintsugi at p. 731** (a Cycle 1 paper) and content running to **p. 4287**. One fetch, whole conference.
+
+**Generalized lesson, worth applying to future venues: when a conference's HTML program is too large for `web_fetch`, look for the proceedings front-matter PDF (`*_contents.pdf`) linked from the top of that same page. It is far smaller, fully grep-able, and authoritative in a way an accepted-papers page is not.**
+
+### USENIX Sec '26 sweep result — two exclusions, nothing in scope
+
+Full-ToC grep over the complete keyword set (`electron|node\.js|npm|renderer|preload|contextbridge|context isolation|webview|chromium|desktop|prototype pollution|supply chain|cross-platform|xss|javascript|ipc|vs code|dom|browser|extension|sandbox|escape|v8|wasm|hybrid|package|dependenc`). Hits and their disposition:
+
+- **Plain Text, Plain Risks: Measuring HTTP Inclusion in Android WebViews at Scale** (Beer, Roth, Lindorfer, Squarcina — TU Wien / Bayreuth, p. 2685) → **excluded**. WebView, but sits in the *Mobile Security* session and is Android-only.
+- **AutoFail: Breaking Web Boundaries using Android's Autofill Framework** (Lamarca, Beer, Squarcina — TU Wien, p. 2601) → **excluded**. Same session, same reason.
+- *Kintsugi* (p. 731) and *Cutting the Gordian Knot* (p. 1827) — **already in `excluded[]`**, correctly not re-surfaced.
+- Everything else matching was a false positive on **"University of Electronic Science and Technology of China"** (six author affiliations), *"cross-platform"* meaning **blockchains** (*Lost in Blockchain Address Misuse*), *"supply chain"* meaning **pickle files / SOHO kernels**, and *"extension"* meaning **IPv6 extension headers**. Note for future runs: the affiliation string "Electronic Science and Technology" is this watch's single most common false positive on the keyword `electron` — grep `electron\b` rather than `electron` if noise gets costly.
+
+**The negative result here is itself a finding worth writing down: USENIX Security '26 published ~250+ papers across both cycles and contains ZERO Electron / desktop-embedder papers.** For the thesis, that is a citable statement about how thin this niche remains at the top venues — the whole in-scope corpus still rests on NDSS'23 (DOMTreeType), CCS'22 (XGuard), USENIX'24 (Inspectron), and S&P'25 (COINDEF).
+
+### *Buzz to Boom* promotion check — trigger NOT met (nineteenth consecutive), and now with a hard negative
+
+`arXiv:2607.20698` abs page re-fetched in full. Unchanged: **single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`**, **cs.CR only**, no Comments / journal-ref / non-DataCite DOI, DataCite DOI still "pending registration". Abstract byte-identical (589 apps → 23 zero-day MPVs, 22 → OS command execution, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). Authors confirmed: **Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun, Yinzhi Cao** (JHU — same group as *UoP*/S&P'24, already in the ledger). Stays in `context_non_venue[]`.
+
+**What changed today is the elimination, not the paper.** Yesterday's note called the next four weeks its highest-probability window and named **USENIX Sec '26** as one landing spot. That is now **definitively ruled out** — the full '26 proceedings ToC was read end-to-end and *Buzz to Boom* is not in it. Remaining plausible venues: **CCS '26 Second Cycle** (camera-ready 13 Sep — the live one), **NDSS '27**, **S&P '27**. Narrower window, same watch.
+
+### Other venues — all confirmed quiet
+
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it — thirteenth consecutive reproduction**, now 6.6 weeks past the 10 Jul notification. Also fetched `program.html` for the first time: **every session on all four days reads "Session Title: TBD"**, and the site's own update feed stops at "Aug. 13: Early-Registration is due on 25 August". So the silence is site-wide administrative lag, not a missing page. Dates re-confirmed: **Oct 11–14, 2026, Lancaster UK**.
+- **ACM CCS '26** — accepted-papers page again **not reachable: two searches failed to surface the `sigsac.org/ccs/CCS2026/program/accepted-papers.html` URL, so provenance was never seeded** (second consecutive day of the failure mode recorded on 08-24). Conference confirmed **15–19 Nov 2026, World Forum, The Hague**; Cycle B ran on `ccs2026b.hotcrp.com`. Camera-ready 13 Sep, so nothing is expected to be public yet — low cost. **If this recurs in September, use the 08-24 workaround: search for a distinctive paper title known to be on the page rather than for the page itself.**
+- **ESORICS '26** — CfP and site root re-confirmed (Rome, **14–18 Sep 2026**); accepted-papers page still not in provenance. Both cycles' notifications (10 Mar / 12 Jun) are long past and the list was read end-to-end on 08-21, so nothing can have moved.
+- **AsiaCCS '26** — held 1–5 Jun 2026, Bangalore; both cycles swept. **AsiaCCS '27** Cycle 1 notification **13 Nov 2026**.
+- **ACSAC '26** — notification **8 Sep 2026**. Nothing can exist yet.
+- **NDSS '27 Summer** — list still unpublished; expected Sep–Oct 2026.
+- **IEEE S&P '27** — Cycle 1 notification **5 Mar 2027**. Eliminated near-term.
+- **DSN '26** — not re-fetched; prior end-to-end read stands.
+- **DBLP** — `db/conf/uss/index.html` fetched; **`uss2026` is not yet indexed**, so DBLP is currently useless as a cross-check for USENIX '26. The proceedings ToC is the substitute.
+
+### Standing queries — five run, zero academic hits
+
+`Electron application security USENIX Security 2026`, `Electron vulnerability CCS 2026 accepted papers`, `USENIX Security 2026 Electron app IPC preload contextIsolation renderer`, `usenix.org usenixsecurity26 Node.js npm supply chain JavaScript browser extension`, and `"Electron" desktop application vulnerability discovery 2026 ACSAC DSN ESORICS`. Everything returned was **already ledgered** (DOMTreeType, Inspectron, HODOR, Silent Spring, *Buzz to Boom*) or **non-venue industry material** — notably a fresh **CVE-2026-70601, contextIsolation bypass via `Function.prototype.bind` hijack**: when an app exposes a Promise-returning function over `contextBridge`, main-world JS can overwrite `Function.prototype.bind`, capture the target function reference, and execute it in the main world. That is a **prototype-pollution-shaped break of contextBridge itself**, which is a tidy motivating example for the thesis (it sits exactly at the intersection of the ledger's prototype-pollution cluster and its Electron cluster). Industry-only, so **not ledgered** — but worth quoting in the introduction alongside CVE-2026-70599 and CVE-2026-34765 from the 08-24 run.
+
+### Open question carried forward from 08-24 — still open
+
+Whether `sources.json` should name **Tauri** explicitly. The 08-24 run flagged a Bishop Fox Tauri XSS→RCE writeup; today's USENIX result (zero Electron papers in a whole symposium) strengthens the case that the scope may be too narrow to catch the adjacent Rust-backed-webview literature as it emerges. **Recommend deciding this on the user's next interactive pass** — it is a scope change, not something a daily watch should make unilaterally.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: usenixsecurity26 home (nav discovery) → technical-sessions (truncated, but yielded the ToC link) → schedule → **sec26_contents.pdf (the payoff)** → dblp uss index (dead end) → raid2026 home → raid accepted + program → arXiv abs. **Next run's priority, in order: (1) CCS '26 Second Cycle — camera-ready 13 Sep, this is now the only venue with a live window; (2) ACSAC '26 after the 8 Sep notification; (3) RAID '26 accepted, fourteenth check. Skip USENIX '26 entirely — it is closed and fully swept.**
+
 ## 2026-08-24 — Daily watch
 
 **No new papers today.** Ledger unchanged at **17 in-scope / 30 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-24. This was the "swing outward" run the 08-23 changelog asked for, and the outward sweep came back empty — which is the expected result in late August.
