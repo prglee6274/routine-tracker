@@ -18549,10 +18549,10 @@
    ]
   },
   "2608.17445": {
-   "version": "v1",
+   "version": "v2",
    "title": "Decomposition Attacks Across Unlinkable Identities: Limits of Stateful Defenses for LLM Services",
    "first_seen": "2026-08-21",
-   "last_updated": "2026-08-21",
+   "last_updated": "2026-08-26",
    "folder": "2026-08-21",
    "keywords": [
     "decomposition attack",
@@ -19397,10 +19397,10 @@
    ]
   },
   "2608.21137": {
-   "version": "v1",
+   "version": "v2",
    "title": "BackDFL: A Unified Benchmark For Backdoor Attacks and Defenses In Decentralized Federated Learning",
    "first_seen": "2026-08-25",
-   "last_updated": "2026-08-25",
+   "last_updated": "2026-08-26",
    "folder": "2026-08-25",
    "keywords": [
     "federated learning",
@@ -19412,6 +19412,170 @@
    "subtopics": [
     "federated_privacy",
     "backdoor"
+   ]
+  },
+  "2608.22985": {
+   "version": "v1",
+   "title": "What Does Activation Steering Control? Attribution Across Answer Encodings and Output-Sensitive Subspaces",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "activation steering",
+    "representation engineering",
+    "contrastive activation addition",
+    "interpretability evaluation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.23471": {
+   "version": "v1",
+   "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "agent memory",
+    "memory injection",
+    "prompt injection",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2608.22332": {
+   "version": "v1",
+   "title": "Mechanistic Interpretability of Chain-of-Thought Reasoning via Sequential Activation Patching",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation patching",
+    "attention head",
+    "chain-of-thought"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method",
+    "mechanistic_position"
+   ]
+  },
+  "2608.23028": {
+   "version": "v1",
+   "title": "PsychJail: Exploring Psychological Jailbreaks via Multi-Turn Persuasion of LLM Policies",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "jailbreak",
+    "multi-turn attack",
+    "red-teaming",
+    "persuasion"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2608.22527": {
+   "version": "v1",
+   "title": "Stress Testing Unlearning Algorithms",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "unlearning",
+    "benchmark",
+    "data extraction",
+    "WMDP"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2608.22824": {
+   "version": "v1",
+   "title": "DIME: Query-Efficient Framework for Membership Inference on Diffusion Models",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "membership inference",
+    "diffusion model",
+    "privacy attack",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2608.22155": {
+   "version": "v1",
+   "title": "Why Does Robustness Reduce Superposition?",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "superposition",
+    "mechanistic interpretability",
+    "adversarial training",
+    "non-robust features"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2608.22248": {
+   "version": "v1",
+   "title": "Beyond Over-Refusal: Defending Indirect Prompt Injection via Latent Instruction Manifolds",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "defense mechanism",
+    "probing"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "agent_safety"
+   ]
+  },
+  "2608.23034": {
+   "version": "v1",
+   "title": "ST^2U: Stateful Test-Time Unlearning via Restricted Knowledge Boundary Control",
+   "first_seen": "2026-08-26",
+   "last_updated": "2026-08-26",
+   "folder": "2026-08-26",
+   "keywords": [
+    "unlearning",
+    "test-time intervention",
+    "activation editing",
+    "representation engineering"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "agent_privacy"
    ]
   }
  },

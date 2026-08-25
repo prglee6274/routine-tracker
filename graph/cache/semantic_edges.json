@@ -1042,5 +1042,13 @@
  "2608.21230->2606.24322": {
   "type": "rebuts",
   "evidence": "저자가 평가한 provenance 기반 방어 계열에 대해 Louck의 malleability 반론을 인용하며 자신들의 방어 결과 해석을 재검토"
+ },
+ "2608.22248->2605.05892": {
+  "type": "background",
+  "evidence": "LLM 잠재공간의 내재적 기하와 2단계 학습 패러다임에 대한 근거로 인용 — 명령/데이터 분리 가능성 주장의 배경 문헌."
+ },
+ "2608.22985->2607.25270": {
+  "type": "background",
+  "evidence": "activation steering 방향 구성/소스 선택에 관한 선행 연구를 steering 귀인 분석의 배경으로 참조."
  }
 }
