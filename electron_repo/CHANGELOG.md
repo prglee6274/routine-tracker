@@ -1,5 +1,56 @@
 # Changelog
 
+## 2026-08-26 — Daily watch
+
+**No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-26. The run executed yesterday's stated priority #1 — **CCS '26** — and got the page back after two consecutive days of failure, then swept it end-to-end. Result: clean, and the sweep produced one structural finding worth recording.
+
+### CCS '26 accepted-papers page recovered — and the fix is the 08-24 workaround, confirmed working
+
+The 08-24 and 08-25 runs both recorded the same failure: `https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html` could not be fetched because **no search surfaced the URL, so provenance was never seeded**. Today reproduced that failure once (a plain `CCS 2026 accepted papers second cycle sigsac` search returned only CFP pages, HotCRP instances, and the CCS **2025** list) and then broke it with a **quoted-fragment search**: `"CCS2026" "accepted-papers" sigsac.org program`. That returned the exact URL as its fifth result, provenance was seeded, and the fetch succeeded — **81,704 chars, 222 lines, ~193 paper rows**.
+
+**Record this as the standing recipe for sigsac.org: search the URL's own path fragments in quotes, not the human-readable page name.** Searching for *the concept* ("CCS 2026 accepted papers") returns the CFP and the previous year's list; searching for *the string* (`"CCS2026" "accepted-papers"`) returns the page itself. This is cheaper and more reliable than the 08-24 suggestion of searching for a known paper title, and it should generalize to any venue whose accepted-papers page is a static file under a predictable path.
+
+### The page is **First Cycle only** — Second Cycle has not been posted
+
+Structural check on the fetched page: the only headings are `## ACCEPTED PAPERS`, `### First Cycle`, and `## About ACM CCS`. **There is no `### Second Cycle` section.** This matters because the 08-25 run named CCS '26 Second Cycle "the only venue with a live window" and the highest-probability landing spot for *Buzz to Boom*. That window is still open, just not yet visible — Second Cycle camera-ready is **13 Sep 2026**, so the section should appear in mid-to-late September. **Do not read today's empty result as a negative on Second Cycle; it is a not-yet, not a no.**
+
+### First Cycle sweep — nothing new, and the near-misses were all already ledgered
+
+Full-ToC grep over the config keyword set plus a deliberately over-broad second pass (`browser|extension|packag|dependenc|isolat|sandbox|escape|v8|hybrid|app|web|code|dom|node`). Every relevance hit was already triaged:
+
+- **From Documentation to Zero-day Vulnerabilities** (PDFuzzer, p. 62 of the table) — already `in_scope` as `ccs2026-pdfuzzer`.
+- **TANTRUM: Breaking the Heap Sandbox in JavaScript Engines** — already `excluded`.
+- **Reproducing Web Application Vulnerabilities** — already `excluded`; its sibling **BACAgent** is covered by that same entry's by-reference note.
+- **Exploring Privacy Leakage… MacOS Application Ecosystem** and **Mini-Programs, Mega-Problems** — already `excluded`.
+- New this pass but not candidates under the config's actual keyword list: **PHPBench** (server-side PHP fuzzing), **THESEUS** (web crawling), **Mitigating Code Injection Attacks on Modern GPUs**, **PyFEX** (Python threats), **Opaque Shader** (GPU code execution). None matches a `keywords` entry — `php`, `crawling`, `gpu`, `python` are not in the config — so none is a "considered candidate" requiring an `excluded[]` row. **Deliberately not ledgered, to keep `excluded[]` a record of genuine near-misses rather than a log of everything the grep touched.**
+
+**Second consecutive top-4 venue swept end-to-end with zero Electron papers** (USENIX Sec '26 yesterday, CCS '26 First Cycle today). The thesis's citable claim from 08-25 now has a second data point behind it.
+
+### *Buzz to Boom* promotion check — trigger NOT met (twentieth consecutive)
+
+`arXiv:2607.20698` abs page re-fetched in full. **Byte-identical to yesterday**: single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, `cs.CR` only, no Comments field, no journal-ref, DataCite DOI still "pending registration". Abstract unchanged (589 apps → 23 zero-day MPVs, 22 → OS command execution, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). Authors confirmed **Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun, Yinzhi Cao**. Stays in `context_non_venue[]`. Remaining plausible venues unchanged: **CCS '26 Second Cycle** (13 Sep), **NDSS '27**, **S&P '27**.
+
+### Other venues
+
+- **RAID '26** — `accepted.html` re-fetched: **still the bare "Accepted papers" heading with nothing beneath it — fourteenth consecutive reproduction**, now 6.7 weeks past the 10 Jul notification. Site root re-confirms the update feed still stops at "Aug. 13: Early-Registration is due on 25 August" — i.e. that deadline passed yesterday with no new post. Dates unchanged: **Oct 11–14, 2026, Lancaster UK**.
+- **NDSS '27** — symposium page fetched (modified 2026-08-18). Confirmed **22–26 Mar 2027, Seoul, Republic of Korea**. The site nav exposes **Submissions / Leadership / Sponsorship only — no Accepted Papers child**, while NDSS '26 still has its full Accepted Papers / Posters / Program set. So the '27 list is definitively not up. **Caution for future runs: a web search today returned a confident claim that NDSS '27 accepted "113 papers in the summer cycle and 152 in the fall". That number is NOT on any NDSS page and appears to be a search-summary conflation with NDSS '26. It is not recorded here and should not be repeated without a primary source.**
+- **ACSAC '26** — notification **8 Sep 2026**, thirteen days out. Nothing can exist yet; not fetched.
+- **ESORICS '26** (Rome, 14–18 Sep), **AsiaCCS '26** (held 1–5 Jun, Bangalore), **DSN '26** — prior end-to-end sweeps stand, both notification cycles long past, nothing can have moved.
+- **IEEE S&P '27** — Cycle 1 notification **5 Mar 2027**. Eliminated near-term.
+- **USENIX Sec '26** — closed and fully swept from `sec26_contents.pdf` on 08-25. Skipped, per instruction.
+
+### Standing queries — four run, zero academic hits
+
+`nodeIntegration contextIsolation preload contextBridge Electron security academic paper 2026` and `XSS to RCE desktop application Electron Tauri CEF vulnerability discovery research 2026` both returned **exclusively industry material, all of it already ledgered or already noted**: SiYuan (CVE-2026-39846), DeepChat `openExternal`, dbgate `applicationIcon` — all three in `context_non_venue[]` — plus the Bishop Fox Tauri writeup and CVE-2026-70601 (`Function.prototype.bind` contextIsolation bypass) from the 08-24/08-25 runs. The only academic hit was **Electrolint (Array, 2021)**, long-since in `context_non_venue[]`. **The queries are now saturated — they have returned the same ledgered set for three consecutive runs.** Consider rotating in fresher phrasings (e.g. targeting `ipcRenderer.invoke`, `webContents`, `asar`) if this persists.
+
+### Open question carried forward — still open
+
+Whether `sources.json` should name **Tauri** explicitly. Today's search surfaced the Bishop Fox "Beyond Electron: Attacking Alternative Desktop Application Frameworks" piece again, unprompted, from a query that only named Tauri incidentally — mild evidence the adjacent Rust-backed-webview literature is real and currently invisible to this watch. **Still a scope change for the user's next interactive pass, not a unilateral daily-watch decision.**
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: CCS search (failed) → quoted-fragment CCS search (**the payoff**) → sigsac accepted-papers (193 rows, First Cycle only) → RAID root → RAID accepted (empty, 14th) → NDSS '27 root → arXiv abs → two standing queries. **Next run's priority, in order: (1) RAID '26 accepted, fifteenth check — Oct 11 is now six weeks out and the list cannot stay empty much longer; (2) ACSAC '26 from 8 Sep onward; (3) CCS '26 Second Cycle from ~13 Sep, using the quoted-fragment search recipe above. Skip USENIX '26 and CCS '26 First Cycle — both closed and fully swept.**
+
 ## 2026-08-25 — Daily watch
 
 **No new in-scope papers. But this run closed the biggest open item on the board: USENIX Security '26 has now been swept END-TO-END, both cycles, from the official proceedings table of contents.** Ledger moves to **17 in-scope / 32 excluded / 12 context** (two new exclusions, both Android-only).
