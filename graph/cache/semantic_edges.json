@@ -1050,5 +1050,25 @@
  "2608.22985->2607.25270": {
   "type": "background",
   "evidence": "activation steering 방향 구성/소스 선택에 관한 선행 연구를 steering 귀인 분석의 배경으로 참조."
+ },
+ "2608.23873->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 특징 클램핑('Golden Gate Claude')을 residual-stream 조작 선행 연구 계보로 언급"
+ },
+ "2608.23873->2607.26228": {
+  "type": "compares",
+  "evidence": "V-Steer도 base를 동결하는 방어라며 Appendix H에서 operating point를 직접 비교"
+ },
+ "2608.24007->2605.29358": {
+  "type": "rebuts",
+  "evidence": "monosemantic 특징이 개별 뉴런과 정렬될 필요 없다는 사전학습 사전 주장에 반해, 단순 MLP에서는 뉴런 수준에서 직접 발현됨을 보임"
+ },
+ "2608.24777->2605.29801": {
+  "type": "background",
+  "evidence": "에이전트 안전 정렬 프레임워크 선행 연구로 인용"
+ },
+ "2608.24777->2607.19913": {
+  "type": "baseline",
+  "evidence": "defense bias(과잉/과소 방어)를 보이는 기존 guard 계열로 지목하며 개선 대상으로 삼음"
  }
 }

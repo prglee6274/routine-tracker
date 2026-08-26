@@ -19577,6 +19577,202 @@
     "unlearning",
     "agent_privacy"
    ]
+  },
+  "2608.21500": {
+   "version": "v1",
+   "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "defensive finetuning",
+    "on-policy distillation",
+    "token-level reward"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "agent_safety"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.22876": {
+   "version": "v2",
+   "title": "The Mask Is Not the Model: Auditing Prefix Invariance in Attention, State-Space, and Hybrid Sequence Models",
+   "keywords": [
+    "prefix invariance",
+    "causality audit",
+    "state-space model",
+    "hybrid architecture",
+    "mechanistic auditing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method",
+    "representation"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23181": {
+   "version": "v2",
+   "title": "CyberFactory: Scaling Cyber Security Capabilities with Instances from the Wild",
+   "keywords": [
+    "cybersecurity agent",
+    "vulnerability patching",
+    "PoC generation",
+    "agentic training data",
+    "CVE"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "safety_eval"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.24007": {
+   "version": "v1",
+   "title": "Revenge of Monosemanticity: Specialized Neurons Improve Data Efficiency in MLPs",
+   "keywords": [
+    "monosemanticity",
+    "feature learning",
+    "neuron specialization",
+    "representation geometry",
+    "data efficiency"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position",
+    "circuits"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.24777": {
+   "version": "v1",
+   "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+   "keywords": [
+    "agent safety",
+    "guardrail",
+    "tool invocation",
+    "step-level monitoring",
+    "GRPO"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism",
+    "safety_eval"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23938": {
+   "version": "v1",
+   "title": "Generalization, memorization, and overfitting for diffusion models trained in the lazy high-dimensional regime",
+   "keywords": [
+    "memorization",
+    "training data leakage",
+    "diffusion model",
+    "benign overfitting",
+    "score matching"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23809": {
+   "version": "v1",
+   "title": "Discovering Cross-Language Reasoning Invariance in LLMs with Geometry-Invariant Sparse Autoencoders",
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "multilingual reasoning",
+    "CKA",
+    "representation alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "interp_method"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23873": {
+   "version": "v1",
+   "title": "Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors",
+   "keywords": [
+    "prompt injection",
+    "steering vector",
+    "residual stream",
+    "adapter",
+    "span identity"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23020": {
+   "version": "v1",
+   "title": "Unlearning Is Not Just Erasing: Temporal Decoupling via Generation Inequality",
+   "keywords": [
+    "machine unlearning",
+    "privacy",
+    "attention pathway",
+    "adapter",
+    "utility preservation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
+  },
+  "2608.23382": {
+   "version": "v2",
+   "title": "Spectrum-Aware Bounds on Invertibility for Privacy-Enhancing Instance Encoding",
+   "keywords": [
+    "instance encoding",
+    "reconstruction attack",
+    "invertibility bound",
+    "privacy guarantee",
+    "deterministic encoder"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "federated_privacy"
+   ],
+   "first_seen": "2026-08-27",
+   "last_updated": "2026-08-27",
+   "folder": "2026-08-27"
   }
  },
  "_taxonomy": {
@@ -19619,5 +19815,5 @@
    ]
   }
  },
- "last_run": "2026-08-25"
+ "last_run": "2026-08-27"
 }
