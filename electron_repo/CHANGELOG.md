@@ -1,5 +1,56 @@
 # Changelog
 
+## 2026-08-27 — Daily watch
+
+**No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-27. The headline of this run is that **ESORICS '26 and DSN '26 were both re-swept end-to-end from their live accepted-papers pages, in full, and both came back clean** — the first time this session's log records reading either list row-by-row rather than deferring to "prior sweeps stand."
+
+### ESORICS '26 — full list now public and fully read (Winter + Spring cycles)
+
+`https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers` fetched in full. The page has exactly two headings — **`### Winter Cycle` (24 papers)** and **`### Spring Cycle` (~96 papers)** — with numbered submission IDs, so the list is complete and not truncated. Read end-to-end against the config keyword set.
+
+**Zero Electron/desktop/WebView/CEF/Node.js/npm papers.** The only relevance hits were both already ledgered as `excluded`:
+
+- **(#106) Short Paths, Real Risks: A Large-Scale Empirical Study of Dependency Relationships in PyPI Ecosystem** — already `excluded` (PyPI, not npm).
+- **(#724) Local Models, Global Risk: Assessing Emerging Threats in Local AI APIs in Browsers** — already `excluded`.
+
+One genuinely new near-miss considered and **deliberately not ledgered**: **(#878) Mind the Gap: In-Process Isolation for Safe Rust in WebAssembly** (Song, Shin, Kwon). It is about intra-process isolation for a sandboxed runtime, which rhymes with the renderer↔main trust problem, but *wasm* / *rust* are not in `keywords`, the target is not a desktop app, and admitting it would set a precedent for logging every isolation-adjacent paper. Same reasoning as the 08-26 run applied to PHPBench/THESEUS/PyFEX. **Flagging it here rather than in `excluded[]` so a future scope revision can find it.**
+
+### DSN '26 — full accepted list read (Research + Industry + Disrupt + Doctoral + Poster)
+
+`https://dsn2026.github.io/cpaccepted.html` fetched in full — all five tracks. Clean. All three relevance hits already `excluded`: **Demystifying Progressive Web Application Permission Systems**, **VulJSFormer**, **VCAligner**. Nothing in the Industry/Disrupt/Doctoral/Poster tracks touches the Electron surface either. **DSN can now be considered closed for 2026.**
+
+### CCS '26 — still First Cycle only (second consecutive confirmation)
+
+Re-fetched via the 08-26 quoted-fragment recipe (`"CCS2026" "accepted-papers" sigsac.org program`) — **the recipe worked first try again, no failed search preceding it. Recipe confirmed reliable; treat it as standing.** Page structure re-checked: headings are still only `## ACCEPTED PAPERS`, `### First Cycle`, `## About ACM CCS` — **no `### Second Cycle`**. 189 paper rows. Keyword grep hit only *Mitigating Code Injection Attacks on Modern GPUs*, *PyFEX*, and a false positive on "University of Electronic Science and Technology" — the last is worth knowing about, since a naive `electron` grep on any Chinese-affiliation-heavy ToC will always hit **UESTC**. **Future runs: anchor the Electron grep on word boundaries or check the affiliation column before treating a hit as a candidate.** Second Cycle camera-ready is 13 Sep; unchanged.
+
+### RAID '26 — `accepted.html` still empty (fifteenth consecutive)
+
+Re-fetched. Still the bare `## Accepted papers` heading with a horizontal rule and nothing beneath it. Now **7 weeks past the 10 Jul notification and ~6.5 weeks from the 11–14 Oct symposium**. The early-registration deadline (25 Aug) has now passed with the list still unpublished. This is unusual enough to be worth a note: if it is still empty by mid-September, the list may simply never be posted separately and the **program page** (`raid2026.org/program.html`) will become the only channel. **Next run should try `program.html` in addition to `accepted.html`.**
+
+### *Buzz to Boom* promotion check — trigger NOT met (twenty-first consecutive)
+
+`arXiv:2607.20698` abs page re-fetched in full. **Byte-identical to the last two runs**: single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, `cs.CR` only, no Comments field, no journal-ref, DataCite DOI still "pending registration". Abstract unchanged (589 apps → 23 zero-day MPVs, 22 → OS command execution, 50k+ star projects, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). Authors: **Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun, Yinzhi Cao**. Stays in `context_non_venue[]`. Remaining plausible venues: **CCS '26 Second Cycle** (13 Sep), **NDSS '27**, **S&P '27**.
+
+### Other venues
+
+- **USENIX Sec '26** — Cycle 1 accepted-papers page re-fetched as a spot check (54 title rows rendered; the page paginates, which is exactly why the 08-25 `sec26_contents.pdf` route is the correct channel). Nothing new. Venue remains closed and fully swept.
+- **NDSS '27** — not re-fetched. The 08-26 run confirmed the site nav still exposes no Accepted Papers child; nothing can have changed in one day. **Carrying forward the 08-26 caution: a search summary claiming NDSS '27 accepted "113 summer / 152 fall" papers is unsourced and appears to be a conflation with NDSS '26. Do not repeat it.**
+- **ACSAC '26** — notification **8 Sep 2026**, twelve days out. Not fetched.
+- **AsiaCCS '26** — held 1–5 Jun, Bangalore; prior sweep stands.
+- **IEEE S&P '27** — Cycle 1 notification **5 Mar 2027**. Eliminated near-term.
+
+### Standing queries — three run, zero academic hits (fourth consecutive saturation)
+
+Ran the 08-26 recommendation to rotate phrasings: `ipcRenderer webContents asar Electron vulnerability discovery research paper conference` returned **only industry material** (Ringzer0 training, Doyensec/Electronegativity, deepstrike pentest guide, CVE-2022-29247 `ipcRenderer` via `nodeIntegrationInSubFrames`, the `webContents.sendToFrame` wrong-frame bug). The two older phrasings returned the same ledgered set as the previous three runs. **The rotation did not help — it changed the industry sources but produced no new academic hit.** Conclusion for future runs: **the standing-query channel is exhausted for this niche and should be treated as a cheap confirmation step, not a discovery step. Discovery is now coming almost entirely from venue ToC sweeps.** Consider dropping to one rotating query per run and reallocating the fetch budget to ToCs.
+
+### Open question carried forward — still open
+
+Whether `sources.json` should name **Tauri** (and now possibly **WebAssembly-embedder isolation**, per ESORICS #878) explicitly. Still a scope change for the user's next interactive pass, not a unilateral daily-watch decision.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: USENIX '26 Cycle 1 → DSN '26 accepted (**full, clean**) → RAID accepted (empty, 15th) → arXiv abs → CCS quoted-fragment search + fetch (First Cycle only) → ESORICS root → ESORICS accepted (**full, clean — the payoff**). **Next run's priority, in order: (1) RAID '26 — try `program.html` as well as `accepted.html`; (2) ACSAC '26 from 8 Sep onward; (3) CCS '26 Second Cycle from ~13 Sep via the quoted-fragment recipe. Skip USENIX '26, CCS '26 First Cycle, DSN '26, ESORICS '26, AsiaCCS '26 — all closed and fully swept.**
+
 ## 2026-08-26 — Daily watch
 
 **No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-26. The run executed yesterday's stated priority #1 — **CCS '26** — and got the page back after two consecutive days of failure, then swept it end-to-end. Result: clean, and the sweep produced one structural finding worth recording.
