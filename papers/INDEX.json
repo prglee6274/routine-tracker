@@ -19773,6 +19773,206 @@
    "first_seen": "2026-08-27",
    "last_updated": "2026-08-27",
    "folder": "2026-08-27"
+  },
+  "2608.23763": {
+   "version": "v1",
+   "title": "TrustShiftProbe: Characterizing, Benchmarking, and Defending Staged Trust Attacks on MCP Servers",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "MCP",
+    "agent safety",
+    "supply chain attack",
+    "tool poisoning",
+    "runtime defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2608.24037": {
+   "version": "v1",
+   "title": "Curved Inference II: Sleeper Agent Geometry - Extending Interpretability Beyond Probes",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "mechanistic interpretability",
+    "deceptive alignment",
+    "sleeper agents",
+    "representation geometry",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2608.24957": {
+   "version": "v1",
+   "title": "ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "agent privacy",
+    "PII",
+    "data minimization",
+    "MCP",
+    "information flow control"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2608.25390": {
+   "version": "v1",
+   "title": "Refusal geometry reflects refusal training: diverse refusal prefixes can raise stable rank and weaken refusal vector ablation attacks",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "refusal direction",
+    "activation steering",
+    "representation engineering",
+    "jailbreak",
+    "training dynamics"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2608.25776": {
+   "version": "v1",
+   "title": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "agent safety",
+    "skill library poisoning",
+    "self-propagating worm",
+    "backdoor",
+    "coding agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2608.20055": {
+   "version": "v1",
+   "title": "EchoCoT: Extracting Hidden Chain-of-Thought from Large Reasoning Models",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "model extraction",
+    "training data leakage",
+    "hidden CoT",
+    "prompt injection",
+    "black-box attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2608.25711": {
+   "version": "v1",
+   "title": "Reassembling Distributed Risk: Trajectory-Conditioned Action Generation for Multi-Turn Agent Safety",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "agent safety",
+    "multi-turn attack",
+    "decomposition attack",
+    "defense mechanism",
+    "tool use"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "jailbreak",
+    "defense_mechanism"
+   ]
+  },
+  "2608.25941": {
+   "version": "v1",
+   "title": "When Pruning Meets Interpretability: Preserving Sparse Autoencoder Robustness in LLMs",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "model compression",
+    "pruning",
+    "feature robustness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.23476": {
+   "version": "v1",
+   "title": "On the Threat Model of Weird Generalization and Emergent Misalignment",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "emergent misalignment",
+    "fine-tuning attack",
+    "alignment robustness",
+    "data poisoning",
+    "safety eval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval",
+    "backdoor"
+   ]
+  },
+  "2608.25727": {
+   "version": "v1",
+   "title": "Are LLM-Enhanced GNNs Privacy-Safe?",
+   "first_seen": "2026-08-28",
+   "last_updated": "2026-08-28",
+   "folder": "2026-08-28",
+   "keywords": [
+    "membership inference",
+    "link inference",
+    "differential privacy",
+    "graph neural networks",
+    "privacy-utility tradeoff"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -19815,5 +20015,5 @@
    ]
   }
  },
- "last_run": "2026-08-27"
+ "last_run": "2026-08-28"
 }
