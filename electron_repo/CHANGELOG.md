@@ -1,5 +1,53 @@
 # Changelog
 
+## 2026-08-28 — Daily watch
+
+**No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-28. The run executed yesterday's stated priority #1 (**RAID '26 via `program.html` as well as `accepted.html`**) and turned up one genuinely new item worth tracking that is **deliberately not ledgered**: an April 2026 arXiv preprint from the NodeMedic lineage.
+
+### RAID '26 — priority #1 executed; `program.html` tried and it does NOT help
+
+Yesterday's run recommended trying `program.html` in addition to `accepted.html`. **Done, and the answer is no.** `https://raid2026.org/program.html` renders a complete four-day schedule skeleton (Oct 11–14, seven slots per day) in which **every single session is literally `Session Title: TBD` / `At: TBD` / `Chair: TBD` / `Description: TBD`**. There are no paper titles anywhere on the page — the only non-TBD entries are Lunch Break, Coffee Break, and Closing Ceremony. Each day also carries a `[Download PDF]` link whose href is `#`, i.e. a dead placeholder. **Conclusion for future runs: `program.html` is a template stub, not an alternative channel. Do not spend a fetch on it again until the accepted list itself appears.**
+
+`accepted.html` re-fetched: still the bare `## Accepted papers` heading with a horizontal rule and nothing beneath it — **sixteenth consecutive empty fetch**, now 7 weeks past the 10 Jul notification and ~6.5 weeks from the symposium.
+
+**One new signal, though: the site IS being actively edited.** The nav on `program.html` and `accepted.html` now carries a **`Visit Lancaster`** item (`visit_lancaster.html`) that is absent from the nav on the `index.html` fetch in the same run. So the organisers are shipping changes; they simply have not shipped the paper list. The index "Updates" feed still ends at **Aug. 13 (early-registration reminder)** with no publication announcement. **Revised expectation: the list is being withheld rather than forgotten. Keep `accepted.html` as a cheap one-fetch check each run and stop theorising about alternate channels.**
+
+### *Buzz to Boom* promotion check — trigger NOT met (twenty-second consecutive)
+
+`arXiv:2607.20698` abs page re-fetched in full. **Byte-identical to the last three runs**: single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, `cs.CR` only, no Comments field, no journal-ref, DataCite DOI still "pending registration". Abstract unchanged (589 apps → 23 zero-day MPVs, 22 → OS command execution, 50k+ star projects, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). Authors: **Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun, Yinzhi Cao** (Johns Hopkins). Stays in `context_non_venue[]`. Remaining plausible venues: **CCS '26 Second Cycle** (13 Sep), **NDSS '27**, **S&P '27**.
+
+### NEW — tracked preprint, deliberately NOT ledgered: *LLMVD.js* (arXiv:2604.20179)
+
+**Taint-Style Vulnerability Detection and Confirmation for Node.js Packages Using LLM Agent Reasoning** — Ronghao Ni, Mihai Christodorescu, **Limin Jia**; arXiv **2604.20179**, submitted **22 Apr 2026**. Surfaced by a rotated standing query, not by a ToC sweep.
+
+Why it matters enough to record here: it is from the **same CMU group as `ndss2025-nodemedic-fine`** (Limin Jia) and it is explicitly positioned *against* the program-analysis tools already in the ledger. Reported numbers (from the search-result summary and abstract only — **NOT read from the PDF**, the abs fetch returned an empty PDF this run): on public benchmarks LLMVD.js confirms **84%** of vulnerabilities vs **<22%** for prior program-analysis tools; on **260** recently released packages, traditional tools produce validated exploits for **≤2** packages while LLMVD.js produces them for **36**, identifying **36** previously undocumented vulnerabilities. If those hold up, this is the strongest published challenge to the NodeMedic/ODGen detection line the ledger tracks.
+
+**Why it is not being ledgered:** it is (a) not at any of the 9 watched venues, (b) not Electron-specific, and (c) an unrefereed preprint. Ledgering it would break the invariant that `in_scope[]`/`excluded[]` hold venue-published work while `context_non_venue[]` holds Electron-specific or Electron-impact material. Same treatment as ESORICS #878 *Mind the Gap* (08-27) and PHPBench/THESEUS/PyFEX (08-26): **flagged here so a future run can find it, not silently dropped.**
+
+**Standing instruction for future runs: treat arXiv:2604.20179 as a SECOND promotion watch alongside 2607.20698.** If it appears at CCS '26 Second Cycle, NDSS '27, S&P '27 or USENIX '27, it is an immediate ADJACENT `in_scope` add and the full text must be read — the 84% / <22% and 36-vs-≤2 comparisons are exactly the kind of numbers a related-work section quotes, and they are currently ungrounded.
+
+### Other venues — nothing actionable, and two are date-gated
+
+- **ACSAC '26** — searched; **no accepted list exists yet**, as expected. Notification is **8 Sep 2026**, eleven days out. The search returned only the CFP/submission pages plus the ACSAC **2025** material. Confirmed rather than assumed this run.
+- **CCS '26 Second Cycle** — searched; still nothing. Camera-ready **13 Sep**. A `WebView OR CEF OR Electron ... CCS 2026 second cycle` query returned only industry blogs and the AsiaCCS '26 proceedings. **Do not re-run this query before mid-September; use the standing quoted-fragment recipe (`"CCS2026" "accepted-papers" sigsac.org program`) on the First-Cycle page instead and check for a `### Second Cycle` heading.**
+- **USENIX Sec '26, DSN '26, ESORICS '26, AsiaCCS '26, CCS '26 First Cycle** — all closed and fully swept in prior runs; skipped per the 08-27 budget note.
+- **NDSS '27, IEEE S&P '27** — eliminated near-term (S&P '27 Cycle 1 notification 5 Mar 2027). The 08-26 caution stands: **the unsourced "113 summer / 152 fall" NDSS '27 figure is a conflation with NDSS '26. Do not repeat it.**
+
+### Standing queries — fifth consecutive saturation, but the rotation finally paid a small dividend
+
+Three rotated phrasings run. Academic yield from the venue-targeted phrasings: **zero**, as on the previous four runs. The `preload contextBridge IPC USENIX NDSS` phrasing returned only industry material (SecureLayer7, deepstrike, HackTricks, safeguard.sh) plus **Electrolint** (already in `context_non_venue`) — and one useful confirmation: a third-party writeup of **CVE-2026-70601** (contextBridge context-isolation bypass via `Function.prototype.bind` hijack, patched 5 Aug 2026), which is **already fully recorded** in the `electron upstream security advisories 2026` context entry at 7.5 HIGH / CWE-693 / GHSA-h7rp-cf8h-j98x. No update needed — logging it so a future run does not mistake it for a new find.
+
+The **arXiv-targeted phrasing is what surfaced LLMVD.js**. That is the first new academic item any standing query has produced in five runs. **Revision to the 08-27 conclusion ("the standing-query channel is exhausted"): it is exhausted *for venue-targeted phrasings*, but the arXiv-targeted phrasing is still live. Recommended shape going forward: one venue-targeted query as a cheap confirmation step, plus one arXiv/preprint-targeted query as an actual discovery step.**
+
+### Open questions carried forward — still open
+
+- Whether `sources.json` should name **Tauri** (and possibly WebAssembly-embedder isolation, per ESORICS #878) explicitly. Still a scope change for the user's next interactive pass.
+- **New, related:** whether the watch should track **arXiv cs.CR preprints** as a first-class channel rather than incidentally. LLMVD.js and Buzz to Boom were both preprint-first. This is a `discovery_method` change, so also a user decision — flagging, not acting.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: RAID index → RAID `program.html` (**wasted — template stub**) → RAID `accepted.html` (empty, 16th) → arXiv 2607.20698 abs → 3 standing queries → arXiv 2604.20179 abs (**returned an empty PDF; abstract taken from search summary only**). **Next run's priority, in order: (1) ACSAC '26 from 8 Sep onward — this is now the nearest live event; (2) CCS '26 Second Cycle from ~13 Sep via the quoted-fragment recipe; (3) RAID '26 `accepted.html` as a single cheap fetch — skip `program.html`; (4) one arXiv-targeted standing query. Skip USENIX '26, CCS '26 First Cycle, DSN '26, ESORICS '26, AsiaCCS '26.**
+
 ## 2026-08-27 — Daily watch
 
 **No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-27. The headline of this run is that **ESORICS '26 and DSN '26 were both re-swept end-to-end from their live accepted-papers pages, in full, and both came back clean** — the first time this session's log records reading either list row-by-row rather than deferring to "prior sweeps stand."
