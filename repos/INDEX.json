@@ -34,9 +34,9 @@
   },
   "AgriciDaniel/claude-obsidian": {
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-27",
-   "days_on_list": 2,
-   "last_stars": 13295,
+   "last_seen": "2026-08-28",
+   "days_on_list": 3,
+   "last_stars": 13888,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -228,10 +228,10 @@
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-08-27",
-   "days_on_list": 2,
-   "last_stars": 112302,
-   "category": "tools",
+   "last_seen": "2026-08-28",
+   "days_on_list": 3,
+   "last_stars": 113853,
+   "category": "llm",
    "language": "JavaScript",
    "graduated": false,
    "last_pushed_at": "2026-08-27"
@@ -949,9 +949,9 @@
   },
   "agentgateway/agentgateway": {
    "first_seen": "2026-07-15",
-   "last_seen": "2026-08-27",
-   "days_on_list": 1,
-   "last_stars": 4556,
+   "last_seen": "2026-08-28",
+   "days_on_list": 2,
+   "last_stars": 4587,
    "category": "security",
    "language": "Rust",
    "last_pushed_at": "2026-08-27",
@@ -1247,9 +1247,9 @@
   },
   "basecamp/omarchy": {
    "first_seen": "2026-08-24",
-   "last_seen": "2026-08-27",
-   "days_on_list": 4,
-   "last_stars": 31886,
+   "last_seen": "2026-08-28",
+   "days_on_list": 5,
+   "last_stars": 32531,
    "category": "tools",
    "language": "Shell",
    "graduated": true,
@@ -1385,9 +1385,9 @@
   },
   "calesthio/OpenMontage": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-07-02",
-   "days_on_list": 4,
-   "last_stars": 27500,
+   "last_seen": "2026-08-28",
+   "days_on_list": 1,
+   "last_stars": 52189,
    "category": "llm",
    "language": "Python",
    "graduated": true,
@@ -2268,9 +2268,9 @@
   },
   "kubernetes-sigs/agent-sandbox": {
    "first_seen": "2026-07-23",
-   "last_seen": "2026-08-27",
-   "days_on_list": 2,
-   "last_stars": 3639,
+   "last_seen": "2026-08-28",
+   "days_on_list": 3,
+   "last_stars": 3658,
    "category": "security",
    "language": "Go",
    "graduated": false,
@@ -3668,9 +3668,9 @@
   },
   "volcengine/OpenViking": {
    "first_seen": "2026-06-06",
-   "last_seen": "2026-08-27",
-   "days_on_list": 2,
-   "last_stars": 33530,
+   "last_seen": "2026-08-28",
+   "days_on_list": 3,
+   "last_stars": 33846,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -3976,11 +3976,11 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-08-27",
-   "days_on_list": 1,
-   "last_stars": 17513,
-   "category": "llm",
-   "language": "HTML",
+   "last_seen": "2026-08-28",
+   "days_on_list": 2,
+   "last_stars": 22623,
+   "category": "tools",
+   "language": "JavaScript",
    "graduated": false,
    "last_pushed_at": "2026-08-27"
   },
@@ -4203,10 +4203,26 @@
    "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-08-27"
+  },
+  "JetBrains/go-modern-guidelines": {
+   "first_seen": "2026-08-28",
+   "last_seen": "2026-08-28",
+   "days_on_list": 1,
+   "last_stars": 2008,
+   "category": "tools",
+   "language": "Go"
+  },
+  "GyulyVGC/sniffnet": {
+   "first_seen": "2026-08-28",
+   "last_seen": "2026-08-28",
+   "days_on_list": 1,
+   "last_stars": 40876,
+   "category": "security",
+   "language": "Rust"
   }
  },
- "last_updated": "2026-08-27",
- "updated": "2026-08-27",
+ "last_updated": "2026-08-28",
+ "updated": "2026-08-28",
  "last_run": "2026-08-25",
  "count": 334
 }
