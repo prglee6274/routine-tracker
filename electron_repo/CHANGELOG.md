@@ -1,5 +1,90 @@
 # Changelog
 
+## 2026-08-29 — Daily watch
+
+**No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-29. But this run produced **two things prior runs did not**: (1) the **root cause of the 17-run RAID '26 "empty page" mystery**, which was a wrong diagnosis all along, and (2) **first-party grounding for the LLMVD.js numbers** that the 08-28 entry explicitly flagged as ungrounded.
+
+### RAID '26 — SOLVED: the page is not empty, it is JavaScript-rendered. Retract the "withheld" theory.
+
+Every run since mid-July has fetched `https://raid2026.org/accepted.html`, seen a bare `## Accepted papers` heading, and concluded the organisers were sitting on the list. **That conclusion was wrong, or at least unfounded.** This run fetched the website's source repo — `https://github.com/sptagelab/RAID2026` — and its README states the architecture outright:
+
+- `js/data-loader.js` — *"CSV parsing and data loading / Accepted papers rendering / Search functionality / Separate `DOMContentLoaded` listener for accepted papers page only"*
+- `data/test_accepted_papers.csv` — the backing data file, format `id,title,authors` with `;`-separated authors
+- README §"Adding/Updating Accepted Papers" instructs organisers to **edit the CSV**, and notes *"The browser will automatically load new data the next day."*
+
+So `accepted.html` is a **client-side-rendered shell**. `web_fetch` does not execute JavaScript, therefore it **can never** show paper titles no matter how many times it is retried — the 17 "empty" fetches carry **zero information** about whether the list exists. The 08-27 speculation about the list "being withheld rather than forgotten," and the 08-28 note that the site "IS being actively edited" but hasn't "shipped the paper list," are both **retracted**: we simply have not been reading the right resource.
+
+**The real channel is the CSV.** Two ways to reach it:
+
+1. `https://raid2026.org/data/test_accepted_papers.csv` (served by the conference site)
+2. `https://raw.githubusercontent.com/sptagelab/RAID2026/main/data/test_accepted_papers.csv` (raw from the source repo)
+
+**Neither could be fetched this run**, for a tooling reason worth recording precisely so the next run does not waste attempts: `web_fetch` enforces a **provenance rule** — it will only retrieve a URL that appeared as a *link* in a prior fetch result, a search result, or a user message. The CSV path appears in the GitHub README only as **inline code text**, not as a hyperlink, so it never entered the provenance set. Fetching `.../tree/main/data` and `.../commits/main` both returned **empty**, because GitHub's own file-browser and commit views are React-rendered — the same JS problem one level up. The in-app browser (which *would* render the JS) refused navigation to both `raid2026.org` and `raw.githubusercontent.com`: site approval cannot be granted in an unattended scheduled run.
+
+**Action for the next run, in priority order:**
+
+- **Ask the user to paste either CSV URL verbatim into a message once.** That single action puts it in the provenance set and unblocks the whole channel permanently. This is the cheapest fix by a wide margin and should be requested explicitly.
+- Alternatively, run the watch **interactively once** and approve `raid2026.org` in the browser pane, then read the rendered `accepted.html`.
+- **Stop counting "empty fetches" of `accepted.html` as evidence.** It is a shell. Retire the streak counter.
+- The 08-28 finding that `program.html` is a `TBD` template stub still stands and is unaffected — though note it is *also* template-loaded, so it deserves the same skepticism if it ever appears to have content.
+
+**Generalised lesson for this watch:** at least one venue in the config is now a single-page app. Before concluding "a venue has published nothing," check whether the page is client-rendered — a giveaway is a heading with nothing under it plus a `<script>`-driven `includes/` or `data/` directory. Worth applying to any future venue page that looks suspiciously bare.
+
+### LLMVD.js (arXiv:2604.20179) — numbers now grounded in the PDF, not a search summary
+
+The 08-28 entry recorded LLMVD.js's headline comparisons but flagged them as **"NOT read from the PDF"** because the abs fetch returned an empty PDF. This run the abs page failed the same way (`Content-Type: application/pdf`, no machine-readable text) but **`https://arxiv.org/pdf/2604.20179` fetched successfully**, and the abstract was read directly. All four figures **confirm** the 08-28 record, quoted from the paper's own abstract:
+
+> *"For packages from public benchmarks, LLMVD.js confirms **84%** of the vulnerabilities, compared to **less than 22%** for prior program analysis tools. … When evaluated on a set of **260** recently released packages (without vulnerability groundtruth information), traditional tools produce validated exploits for few (**≤ 2**) packages, while LLMVD.js generates validated exploits for **36** packages."*
+
+Contribution list also confirms **"36 previously undocumented vulnerabilities in recently released Node.js packages,"** all reported to maintainers. Datasets are four: two public benchmarks (**VulcaN** and one other), a private real-world dataset, a memorization-robustness transformed variant, and the 260 new packages.
+
+**Status unchanged: still deliberately NOT ledgered** — not a watched venue, not Electron-specific, unrefereed preprint. It remains a **promotion watch** alongside Buzz to Boom. **The 08-28 caveat "these numbers are currently ungrounded" can now be struck.**
+
+**Recipe worth reusing:** when an arXiv `abs` page returns an empty PDF, fetch `arxiv.org/pdf/<id>` instead — it returned 100k characters of clean text where `abs` returned nothing.
+
+### *Buzz to Boom* promotion check — trigger NOT met (twenty-third consecutive)
+
+`arXiv:2607.20698` abs page fetched in full and is **byte-identical to the last four runs**: single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, `cs.CR` only, no Comments, no journal-ref, DataCite DOI still "pending registration". Abstract unchanged (589 apps → 23 zero-day MPVs, 22 → OS command execution, 50k+ star projects, 13 acknowledgments / 11 fixes / 11 CVEs, Vercel bounty). Tool name **Proton**; authors Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun, Yinzhi Cao (Johns Hopkins). Stays in `context_non_venue[]`. Plausible venues: **CCS '26 Second Cycle**, **NDSS '27**, **S&P '27**.
+
+### ACSAC '26 — nearest live event, confirmed still pre-notification (10 days out)
+
+Searched. **No accepted list exists yet**, as expected — only CFP/submission pages plus ACSAC 2025 material. Newly confirmed logistics worth having on file:
+
+- **Notification: 8 Sep 2026** (was already known); early-reject was 13 Jul; author response 18–25 Aug (**now closed**)
+- Conference **7–11 Dec 2026, Los Angeles**
+- **Artifact registration 9 Sep, artifact submission 12 Sep** — this is the useful new signal: artifact deadlines land days after notification, so the public list typically follows shortly after
+- PC chairs: **Nick Nikiforakis** (Stony Brook) and **Konrad Rieck** (BIFOLD / TU Berlin). Nikiforakis's group works directly on web/desktop client security, which mildly raises the prior on Electron-adjacent acceptances this year.
+
+**Next run (30 Aug) is still pre-notification — one cheap search only. From 8 Sep, fetch `https://www.acsac.org/2026/program/papers/` directly** (the 2025 equivalent, `acsac.org/2025/program/papers/`, is the confirmed live URL shape).
+
+### CCS '26 — still First Cycle only (third consecutive confirmation), and the fetch got easier
+
+`https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html` fetched. Headings are exactly `## ACCEPTED PAPERS`, `### First Cycle`, `## About ACM CCS` — **no `### Second Cycle`**. A word-boundary keyword grep across the whole page for *electron / webview / node.js / npm / desktop / chromium / preload / contextBridge / cross-platform / prototype pollution* returned **zero matches**, so the current list is clean even on a re-read.
+
+**Process improvement: the 08-26 "quoted-fragment recipe" is no longer needed.** A plain `CCS 2026 second cycle accepted papers sigsac list` search returned the canonical URL as its second hit, which is enough to fetch directly. **Use the plain search; drop the quoted-fragment workaround.** Second Cycle camera-ready remains 13 Sep.
+
+### USENIX Sec '26 Cycle 1 — re-verified clean (cheap, because the page was already in hand)
+
+The opening search of this run happened to surface `https://www.usenix.org/conference/usenixsecurity26/cycle1-accepted-papers`, so it was grepped rather than re-reasoned about. Word-boundary search for *electron / webview / desktop / cross-platform*: **zero matches**. A broader keyword pass hit only one row — an npm/cross-ecosystem malicious-package paper reporting **98.07% accuracy on NPM packages** — which maps to material already in `excluded[]` (the cross-language / knowledge-mining malicious-package line). **USENIX '26 Cycle 1 confirmed closed and clean.** Symposium is 12–14 Aug 2026, Baltimore — i.e. it has already happened.
+
+### Standing queries — venue-targeted still saturated; arXiv-targeted returned nothing new this run
+
+Two rotated phrasings run. The arXiv/preprint-targeted phrasing — the one the 08-28 run identified as "still live" after it surfaced LLMVD.js — returned **only Buzz to Boom (already tracked) plus industry material**: SecureLayer7 parts 1 and 2, deepstrike, HackTricks (both the Electron desktop-apps page and the contextIsolation-RCE-via-IPC page), AppSec Brief, s1r1us's *"Mind the v8 patch gap"*, and DailyCVE on **CVE-2026-70601** — the contextBridge / `Function.prototype.bind` context-isolation bypass, **already fully recorded** in the `electron upstream security advisories 2026` context entry (7.5 HIGH / CWE-693 / GHSA-h7rp-cf8h-j98x). No update needed; logged so a future run does not mistake it for a find.
+
+**Assessment: one dividend in two runs is a fair hit rate for a discovery channel — keep the arXiv-targeted query, but expect most runs to return nothing.** The venue-targeted phrasings remain a confirmation step, not a discovery step; that judgment is now six runs old and stable.
+
+### Open questions carried forward — still open, unchanged
+
+- Whether `sources.json` should name **Tauri** (and possibly WebAssembly-embedder isolation, per ESORICS #878) explicitly. User decision.
+- Whether the watch should track **arXiv cs.CR preprints** as a first-class channel rather than incidentally. LLMVD.js and Buzz to Boom were both preprint-first. `discovery_method` change → user decision.
+- **New this run:** `sources.json` `discovery_method.tertiary` warns that DBLP ToCs may render partially, but says nothing about **client-side-rendered venue pages**. Given the RAID finding, that note should be generalised. Also a user decision, flagged not acted on.
+
+### Fetch-budget note for whoever runs this next
+
+Spend order this run: USENIX '26 Cycle 1 (search + grep, clean) → RAID index → RAID `accepted.html` (**shell confirmed**) → **RAID GitHub source repo (the payoff)** → 2 blocked CSV attempts + 2 blocked browser navigations → arXiv 2607.20698 abs (unchanged) → arXiv 2604.20179 **pdf** (**grounded**) → ACSAC search → CCS '26 accepted-papers (First Cycle only, clean) → 2 standing queries.
+
+**Next run's priority, in order: (1) if the user has supplied a RAID CSV URL, fetch it — this is the single highest-value action available; (2) ACSAC '26 — one cheap search until 8 Sep, then `acsac.org/2026/program/papers/`; (3) CCS '26 Second Cycle from ~13 Sep via plain search → direct URL; (4) one arXiv-targeted standing query. Skip: RAID `accepted.html` and `program.html` (both shells), USENIX '26, CCS '26 First Cycle, DSN '26, ESORICS '26, AsiaCCS '26 — all closed and swept.**
+
 ## 2026-08-28 — Daily watch
 
 **No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-28. The run executed yesterday's stated priority #1 (**RAID '26 via `program.html` as well as `accepted.html`**) and turned up one genuinely new item worth tracking that is **deliberately not ledgered**: an April 2026 arXiv preprint from the NodeMedic lineage.
