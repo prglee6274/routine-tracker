@@ -318,13 +318,13 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-29",
    "days_on_list": 1,
-   "last_stars": 109511,
+   "last_stars": 111936,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-20"
+   "last_pushed_at": "2026-08-28"
   },
   "HKUDS/AI-Trader": {
    "first_seen": "2026-06-09",
@@ -458,13 +458,13 @@
   },
   "K-Dense-AI/scientific-agent-skills": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-29",
    "days_on_list": 1,
-   "last_stars": 34656,
+   "last_stars": 36320,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-08-24"
   },
   "KeygraphHQ/shannon": {
    "first_seen": "2026-05-17",
@@ -2735,13 +2735,13 @@
   },
   "mvanhorn/last30days-skill": {
    "first_seen": "2026-07-28",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-08-29",
    "days_on_list": 1,
-   "last_stars": 54080,
+   "last_stars": 59892,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-07-26"
+   "last_pushed_at": "2026-08-26"
   },
   "netdata/netdata": {
    "first_seen": "2026-08-26",
@@ -3400,13 +3400,13 @@
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-21",
-   "days_on_list": 2,
-   "last_stars": 16032,
+   "last_seen": "2026-08-29",
+   "days_on_list": 1,
+   "last_stars": 17264,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-20"
+   "last_pushed_at": "2026-08-28"
   },
   "tashfeenahmed/freellmapi": {
    "first_seen": "2026-08-26",
@@ -3678,9 +3678,9 @@
   },
   "vxcontrol/pentagi": {
    "first_seen": "2026-07-09",
-   "last_seen": "2026-08-08",
+   "last_seen": "2026-08-29",
    "days_on_list": 1,
-   "last_stars": 21700,
+   "last_stars": 22122,
    "category": "security",
    "language": "Go",
    "graduated": false,
@@ -3976,13 +3976,13 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-08-28",
-   "days_on_list": 2,
-   "last_stars": 22623,
+   "last_seen": "2026-08-29",
+   "days_on_list": 3,
+   "last_stars": 26784,
    "category": "tools",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-08-28"
   },
   "ConardLi/garden-skills": {
    "first_seen": "2026-08-27",
@@ -4214,15 +4214,47 @@
   },
   "GyulyVGC/sniffnet": {
    "first_seen": "2026-08-28",
-   "last_seen": "2026-08-28",
-   "days_on_list": 1,
-   "last_stars": 40876,
+   "last_seen": "2026-08-29",
+   "days_on_list": 2,
+   "last_stars": 40923,
    "category": "security",
-   "language": "Rust"
+   "language": "Rust",
+   "last_pushed_at": "2026-08-28",
+   "graduated": false
+  },
+  "tailscale/tailcat": {
+   "first_seen": "2026-08-29",
+   "last_seen": "2026-08-29",
+   "days_on_list": 1,
+   "last_stars": 2536,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-27"
+  },
+  "NationalSecurityAgency/ghidra": {
+   "first_seen": "2026-08-29",
+   "last_seen": "2026-08-29",
+   "days_on_list": 1,
+   "last_stars": 73268,
+   "category": "security",
+   "language": "Java",
+   "graduated": false,
+   "last_pushed_at": "2026-08-28"
+  },
+  "workweave/router": {
+   "first_seen": "2026-08-29",
+   "last_seen": "2026-08-29",
+   "days_on_list": 1,
+   "last_stars": 2385,
+   "category": "llm",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-08-28"
   }
  },
- "last_updated": "2026-08-28",
- "updated": "2026-08-28",
- "last_run": "2026-08-25",
- "count": 334
+ "last_updated": "2026-08-29",
+ "updated": "2026-08-29",
+ "last_run": "2026-08-29",
+ "count": 429
 }
