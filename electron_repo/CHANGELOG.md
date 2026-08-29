@@ -1,5 +1,75 @@
 # Changelog
 
+## 2026-08-30 — Daily watch
+
+**No new venue papers — but two substantive advisory finds, both read end-to-end from primary sources, and one of them closes an explicitly-flagged open lead.** Ledger moves **17 in-scope / 32 excluded / 12 → 13 context**. All nine venues checked or accounted for; nothing new at any of them.
+
+The productive channel today was, once again, **not** the venue sweep. Both finds came from the standing `XSS to RCE cross-platform desktop app` query, which has now produced material on four separate runs. The venue-targeted phrasings produced nothing, as they have for seven consecutive runs.
+
+### FIND 1 — SiYuan CVE-2026-50551 (GHSA-56mp-4f3v-fgj2): closes an open lead, and upgrades the argument
+
+The 08-13 grounding note listed four unopened SiYuan CVE leads with the instruction *"do not quote them until checked against their own advisories."* **CVE-2026-50551 is now opened, read in full, and recorded** — it may be quoted. The other three (CVE-2026-54759, CVE-2026-54067, CVE-2026-55570) remain closed leads.
+
+Headline facts: *Stored XSS to RCE via Unsanitized Attribute View Asset Cell Content*, **Critical 9.9**, `CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H`, published 3 Jun 2026 by maintainer `88250`, affected `<= v3.6.5`, patched `v3.7.0`, CWE-79, reporter **Yunkaiwjs** (a *third* independent reporter against SiYuan). Renderer profile unchanged as ever: `nodeIntegration: true`, `contextIsolation: false` at `app/electron/main.js:307`.
+
+**Three reasons this is more than a ninth tally mark.**
+
+1. **It names the mechanism behind the recurrence.** Prior runs could only assert *"fixed at the sink, never at the profile."* This advisory says why, in the vendor's words: the fix for **CVE-2026-44588** used `escapeAriaLabel()` (double-escapes `<`) but the Attribute-View asset renderers were left on the weaker `escapeAttr()` (quotes only) — *"part of a pattern of incomplete fixes in SiYuan (see also CVE-2026-33066, CVE-2026-29183)."* The failure is **non-uniform application of a correct fix across sibling renderers sharing one data type** — which is a property a discovery tool can be built to detect.
+
+2. **New escalation primitive (vi): sanitizer/decode-path mismatch.** Sink 2 is *not* an unsanitized flow. `escapeAttr()` is applied and is correct for writing an HTML attribute. The defect is the round-trip: attribute → `getAttribute()` (which entity-**decodes**) → `decodeURIComponent` → `innerHTML`, at which point `<` and `>` are live again. **Any analysis that treats `escapeAttr` as a sanitizer marks this flow clean.** This is the corpus's first sink whose defect is a *mismatch* between sanitizer and downstream decode path rather than a *missing* sanitizer — a concrete, citable gap in sanitizer-aware static analysis.
+
+3. **First `UI:N` advisory in the corpus, and the highest score in it.** Sink 1 fires on page load; opening a synced note suffices. Everything else here is `UI:R`. Plus sync propagation to all users and persistence in `.sy` files.
+
+**Three new leads harvested from its text** — `CVE-2026-44588` / `GHSA-25rp-h46x-2hjm`, `CVE-2026-33066` / `GHSA-4663-4mpg-879v`, `CVE-2026-29183` / `GHSA-6865-qjcf-286f`. **None appears in the seven-item list inside `GHSA-6gx2-8gcr-x83f`**, so the SiYuan recurrence set is materially larger than the eight this repo had counted. The entry title now reads **"nine-plus"** and should be treated as a floor.
+
+### FIND 2 — Vikunja CVE-2026-33334 (GHSA-xh67-63q3-hf7g): a CVE for the *config alone*
+
+Fifth independent application, and the most argument-relevant advisory the watch has surfaced — **because of what it does not contain.** No source, no sink, no XSS, no payload. The vendor assigned a CVE to the `webPreferences` profile itself, arguing that *"any cross-site scripting (XSS) vulnerability in the Vikunja web frontend — present or future — automatically escalates to full remote code execution."* Published 20 Mar 2026 by `kolaente`, npm `vikunja-desktop`, affected `>= 0.21.0`, patched `2.2.0`, **CWE-94 + CWE-269**. Root cause is a seven-line constructor at `desktop/main.js:11-17` whose entire content is `webPreferences: { nodeIntegration: true }`.
+
+**Why it matters.** There is a standing objection to the Inspectron / config-auditing line: an unsafe config is a *risk multiplier*, not a bug, so config findings aren't vulnerabilities until someone also finds an XSS. **Here is a vendor, with a CNA-issued CVE rated High, publicly disagreeing.** A thesis building a config-auditing discovery tool can cite this as evidence that such a tool's raw output is itself reportable — which answers the "so what" question about Inspectron-style results directly. Family (A) accordingly now splits into **(A1) config + concrete sink** (the normal case) and **(A2) config alone** (Vikunja) — and A2 is exactly what a config auditor emits.
+
+**⚠️ The single most important line on the page, and the top follow-up for the next run:**
+
+> *"This vulnerability was found using GitHub Security Lab Taskflows"* — `github.com/GitHubSecurityLab/seclab-taskflows`
+
+**This is the first tool-attributed discovery in the entire corpus.** Every other advisory is credited to a named human. An automated/agentic pipeline is already landing this exact bug class against real repositories. **`seclab-taskflows` was NOT fetched this run and nothing is known about it.** If it is a general scanner that happens to catch Electron configs, that is one story; if it ships an **Electron-specific taskflow**, it is prior art a discovery thesis must address head-on. **Fetch it first next run.**
+
+Also updated: `cross_app_note_v4` (superseding v3), now **14+ advisories across 5 apps**, six escalation primitives, and a **five-way severity-scoring inconsistency** — 9.9 `UI:N` / 9.6 `UI:R` / 9.0 `UI:R` / 8.2 `AV:L` / bare "High" with **no vector published at all** (Vikunja). Vendor CVSS for this class is not comparable across advisories and must not be aggregated without saying so.
+
+### RAID '26 — the CSV channel is blocked, and the CSV may be worthless anyway
+
+Yesterday's priority #1 was the CSV. **Both attempts failed, and a new fact makes the channel less attractive than it looked.**
+
+- `https://raid2026.org/data/test_accepted_papers.csv` → **`URL not in provenance set`**. A search for the file did *not* place it there (it appears in the README only as inline code, never as a hyperlink).
+- The in-app browser refused navigation to `raid2026.org` again — **site approval cannot be granted in an unattended scheduled run**. Not retried.
+- **New and deflating:** the search summary describes `test_accepted_papers.csv` as *"test data for development of the accepted papers page."* The filename says the same thing. **Even if fetched, it may hold placeholder rows rather than the real list.** The 08-29 plan treated this file as the payoff; it may not be.
+
+**Revised recommendation.** Asking the user to paste a URL is still the unblock, but ask for the *right* one: request **`https://raid2026.org/accepted.html` viewed in their own browser**, or a paste of the rendered list — not the `test_` CSV. Per 08-29, stop counting empty `accepted.html` fetches as evidence; that streak is retired.
+
+### Venue sweep — all quiet, as expected for late August
+
+- **CCS '26** — accepted-papers page fetched. Headings are exactly `## ACCEPTED PAPERS` / `### First Cycle` / `## About ACM CCS`. **Still no Second Cycle** (fourth consecutive confirmation). Word-boundary grep for *electron / webview / preload / contextBridge / nodeIntegration / desktop / chromium / node.js / npm / cross-platform / prototype pollution / renderer / IPC / buzz / progression / proton*: **zero matches.** Cycle B camera-ready 13 Sep — expect the list mid-to-late September. The plain search → direct URL path worked again; the quoted-fragment workaround stays retired.
+- **ACSAC '26** — pre-notification, confirmed. One cheap search, as planned. **Notification 8 Sep**; newly recorded and useful for calibration: **minor-revision period runs 8 Sep – 8 Oct, camera-ready 22 Oct**, so a *complete* public list may not land until after 8 Oct even though the first names appear sooner. Artifact registration 9 Sep / submission 12 Sep. Conference 7–11 Dec, Los Angeles.
+- **USENIX Sec '26, RAID '26, ESORICS '26, AsiaCCS '26, DSN '26, S&P '26/'27, NDSS '27** — not re-swept; all closed, blocked, or eliminated per 08-29. NDSS '27 Summer remains decided-but-unpublished (expected Sep–Oct).
+
+### *Buzz to Boom* promotion check — trigger NOT met (twenty-fourth consecutive)
+
+`arXiv:2607.20698` abs page fetched in full, **byte-identical to the last five runs**: single `[v1] Wed, 22 Jul 2026 20:11:33 UTC (575 KB)`, `cs.CR` only, no Comments, no journal-ref, DataCite DOI still pending registration. Abstract unchanged. Stays in `context_non_venue[]`. Plausible venues: **CCS '26 Cycle B**, **NDSS '27**, **S&P '27**.
+
+### Seen and deliberately NOT ledgered
+
+**Projextor** (G DATA, Aug 2026) — *"Malware Disguised as Productivity Software / Abusing Electron."* This is malware **using** Electron as a delivery vehicle, not a vulnerability in an Electron app. Out of scope and not ledgered; recorded here only so a future run recognises it as already-triaged rather than a find.
+
+### Next run's priority, in order
+
+1. **Fetch `github.com/GitHubSecurityLab/seclab-taskflows`.** Highest-value action available by a wide margin — it is potential prior art for the thesis itself, discovered by accident today.
+2. Open the three newly-named SiYuan advisories (**CVE-2026-44588**, **CVE-2026-33066**, **CVE-2026-29183**) to extend the recurrence timeline with dated points. Cheap; all three GHSA IDs are known.
+3. **ACSAC '26 from 8 Sep** — `https://www.acsac.org/2026/program/papers/` (the 2025 equivalent is the confirmed URL shape). Before 8 Sep, skip entirely.
+4. **CCS '26 Second Cycle from ~13 Sep** — plain search → direct URL.
+5. One rotated run of the `XSS to RCE cross-platform desktop app` query. **This is now demonstrably the repo's best discovery channel** — four productive runs. Keep it; deprioritise the venue-targeted phrasings further.
+
+**Fetch-budget note.** Spend order this run: 2 searches (RAID, Buzz to Boom) → arXiv abs → RAID CSV (**blocked**) → browser nav (**refused**) → CSV search (**no link**) → 2 searches (ACSAC, CCS) → CCS accepted-papers + 2 greps → 2 standing queries → **Vikunja GHSA** → **SiYuan GHSA**. Five successful fetches; the two that mattered were both last.
+
 ## 2026-08-29 — Daily watch
 
 **No new papers today.** Ledger unchanged at **17 in-scope / 32 excluded / 12 context**; only `last_updated` / `last_run` moved to 2026-08-29. But this run produced **two things prior runs did not**: (1) the **root cause of the 17-run RAID '26 "empty page" mystery**, which was a wrong diagnosis all along, and (2) **first-party grounding for the LLMVD.js numbers** that the 08-28 entry explicitly flagged as ungrounded.
