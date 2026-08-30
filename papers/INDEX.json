@@ -20344,6 +20344,199 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2608.24569": {
+   "version": "v1",
+   "title": "When \"Must\" Becomes \"Maybe\": Constraint Weakening in LLM Agent Workflows",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "agent safety",
+    "multi-agent workflow",
+    "state preservation",
+    "handoff artifact",
+    "safety blocker"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2608.26222": {
+   "version": "v1",
+   "title": "NeuronFuzz: Safety Neuron Guided Fuzzing for LLM Safety Evaluation",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "safety neuron",
+    "white-box fuzzing",
+    "jailbreak discovery",
+    "red-teaming",
+    "activation feedback"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2608.25276": {
+   "version": "v1",
+   "title": "Groundhog Bit-Flip Attack: Seeding Infinite Generation Loops in Mixture-of-Experts LLMs through Bit Flips",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "bit-flip attack",
+    "mixture-of-experts",
+    "availability attack",
+    "denial-of-wallet",
+    "routing layer"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "alignment_robustness"
+   ]
+  },
+  "2608.26887": {
+   "version": "v1",
+   "title": "Planting a Latent Variable in Natural-Looking Text: a More Realistic Test of Belief States in LLMs and Their Link to Concept Geometry",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "belief state geometry",
+    "sparse autoencoder",
+    "concept geometry",
+    "subliminal steering",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "circuits"
+   ]
+  },
+  "2608.27265": {
+   "version": "v1",
+   "title": "SCIT: Testing Causal Cache Carriers in Latent Chain-of-Thought Models",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "activation patching",
+    "latent chain-of-thought",
+    "KV cache",
+    "causal intervention",
+    "circuit analysis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2608.26958": {
+   "version": "v1",
+   "title": "Scaling Model-Generated Distillation Data Can Make Latent Teacher Traits More Recoverable",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "subliminal learning",
+    "trait transfer",
+    "distillation",
+    "data curation",
+    "LoRA analysis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2608.27439": {
+   "version": "v1",
+   "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "automatic red-teaming",
+    "jailbreak",
+    "agent harness",
+    "skill evolution",
+    "tool attribution"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "jailbreak",
+    "agent_safety"
+   ]
+  },
+  "2608.26575": {
+   "version": "v1",
+   "title": "Benchmarking Confidential Computing Performance on NVIDIA Blackwell GPUs",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "confidential computing",
+    "TEE",
+    "Intel TDX",
+    "private inference",
+    "deployment overhead"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2608.25750": {
+   "version": "v1",
+   "title": "Toward Interpretable Privacy Guarantees in Face-Swapping Anonymization",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "anonymization",
+    "identity leakage",
+    "face swapping",
+    "interpretable privacy",
+    "identity embedding"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2608.27108": {
+   "version": "v1",
+   "title": "SecureDrive-FL: Joint Differential Privacy and Gradient-Aware Selective Homomorphic Encryption for Federated Driver Monitoring",
+   "first_seen": "2026-08-31",
+   "last_updated": "2026-08-31",
+   "folder": "2026-08-31",
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "homomorphic encryption",
+    "federated learning",
+    "gradient leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -20386,5 +20579,5 @@
    ]
   }
  },
- "last_run": "2026-08-30"
+ "last_run": "2026-08-31"
 }

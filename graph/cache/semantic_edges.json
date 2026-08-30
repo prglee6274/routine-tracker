@@ -1114,5 +1114,13 @@
  "2608.26372->2607.15495": {
   "type": "extends",
   "evidence": "선행 연구가 제안한 Jacobian lens를 목적 설계한 단일턴 프로브에 적용해, 응답 전 entitlement 민감 readout과 기만 프레이밍 하 readout 저하를 측정하는 파일럿으로 활용한다."
+ },
+ "2608.26222->2605.08513": {
+  "type": "extends",
+  "evidence": "NeuronFuzz는 인용 논문이 확립한 \"소수의 safety neuron이 정렬 동작을 좌우한다\"는 발견을 SafetyOracle의 토대로 삼아, 뉴런 활성을 연속적 안전 경보 점수로 바꿔 퍼징 피드백으로 확장한다."
+ },
+ "2608.27439->2606.11425": {
+  "type": "background",
+  "evidence": "참고문헌 목록 내 단순 나열로만 등장 — 도구 기반 반복 jailbreak 최적화 계열 선행연구를 배경으로 인용."
  }
 }
