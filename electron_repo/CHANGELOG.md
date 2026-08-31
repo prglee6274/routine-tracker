@@ -1,5 +1,63 @@
 # Changelog
 
+## 2026-09-01 — Daily watch
+
+**No new venue papers. Two new SiYuan advisories opened and read end-to-end from primary source, and together they turn the recurrence argument from a claim about *time* into a claim about *structure*.** Ledger moves **17 in-scope / 33 excluded / 14 context** (counts unchanged — both finds are new `key_advisories` inside the existing SiYuan context entry). Priority 3 from yesterday's list was executed; priorities 1 and 2 were attempted and are recorded as still open; 4 and 5 were correctly skipped as pre-notification.
+
+### FIND 1 — CVE-2026-40922 / `GHSA-8q5w-mmxf-48jg`: a *third* incomplete fix, and a second XSS chain
+
+Previously unknown to the ledger. Published **13 Apr 2026** by maintainer `88250`, **Moderate**, CWE-79, affected `< b382f50e1880`, patched **v3.6.4**. Title, verbatim: *"Incomplete fix for CVE-2026-33066."*
+
+The mechanism is what makes it valuable. -33066's fix added `luteEngine.SetSanitize(true)`. That sanitizer, in `lute/render/sanitizer.go`, has two combining defects: `<iframe>` **is explicitly commented out** of `setOfElementsToSkipContent` (the advisory's own PoC reproduces the Go set and annotates it `# NOTE: iframe is commented out in the original Go code!`), and `srcdoc` is classified as a URL attribute and tested against scheme prefixes (`javascript:`, `data:text/html`) even though *"`srcdoc` contains raw HTML content, not a URL."* So `<iframe srcdoc="<script>alert(document.domain)</script>">` survives sanitization and executes in a nested browsing context.
+
+**New escalation primitive (ix): sanitizer allowlist gap via nested browsing context** — an attribute-model *type confusion inside the sanitizer itself*. This is categorically distinct from (vi) sanitizer/decode-path mismatch and (vii) encoder alphabet mismatch: here the check is well-implemented and simply irrelevant to the value it inspects. Any analysis that treats `SetSanitize(true)` as a sound barrier marks this clean — the same trust failure as -50551's `escapeAttr`, but one level up, at the library rather than the call site.
+
+**Why this is the run's headline.** The app now has **two independent XSS incomplete-fix chains** (plus the known path-traversal one), and Chain B's failure mode differs from Chain A's. Taken together the three enumerate how sink-level remediation fails: **(i) the sanitizer is never called** (-33066); **(ii) the correct sanitizer is called at some sibling sites and not others** (-50551, -44588, -33067); **(iii) the sanitizer is called correctly everywhere and is itself inadequate** (-40922). That is a *closed taxonomy of sink-patching failure observed in one application within one year* — materially stronger than "fixes are incomplete," and the direct empirical answer to the objection that hardening sinks substitutes for auditing the profile.
+
+**Recorded, not resolved:** the advisory asserts *"arbitrary code execution on the user's machine"* yet is scored **Moderate with no CVSS vector**, while its own parent -33066 — same surface, same delivery, same Electron context — is **Critical 9.6**. That is a **seventh** severity inconsistency, and the first one *internal to a single chain*: a CVSS-keyed aggregation would rank the incomplete fix below the bug it failed to fix. Also flagged: -33066 located the defect in `renderREADME()` at `kernel/bazaar/package.go:635-645`, this one in `renderPackageREADME()` in `kernel/bazaar/readme.go`. Rename or sibling function — unresolved until the `b382f50` diff is read.
+
+### FIND 2 — CVE-2026-33067 / `GHSA-mvpm-v6q4-m2pf`: priority 3 closed, and the meta-pattern tightens to two lines
+
+Read end-to-end. **Critical 9.6**, `AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H` — the corpus's **second `UI:N`** advisory and the first to reach zero-click through a *supply-chain* channel rather than sync. Published 17 Mar 2026, reporter **0xkakash1**, affected `<= 3.5.9`, patched **v3.6.1**. Sink `app/src/config/bazaar.ts:275-277`; profile `app/electron/main.js:422-426`.
+
+The escalation primitive is **(viii) non-uniform sanitizer application — third independent instance, and the tightest yet.** Not across languages (as in -33066) or across sibling renderers (as in -50551), but across **two expressions ~2 lines apart in one HTML template**: the `title` *attribute* of the description div is escaped with `escapeAttr()`, the *text content* of that same div, carrying the same variable, is not. Advisory verbatim: *"the risk was partially recognized but incompletely mitigated."* The meta-pattern now holds at three granularities — across languages, across files, and inside a single template literal. **A checker that flags divergent sanitizer choice on one variable within one render function needs no taint analysis, no sink semantics and no Electron model, and catches this instance.**
+
+Zero-click is stated plainly: a `plugin.json` `displayName` of `Helpful Plugin<img src=x onerror="require('child_process').exec('calc.exe')">`, submitted through the normal Bazaar PR process, fires when *"any SiYuan desktop user navigates to Settings > Bazaar > Plugins"* — *"Browsing the marketplace is sufficient."* Escalations given in full: reverse shell, and API-token theft reading `~/.config/siyuan/cookie.key`. The recommended fix includes something new for this corpus: **server-side sanitization in the Bazaar index build pipeline**, with a concrete Go `sanitizePackageDisplayStrings()` — the first advisory here to propose fixing an Electron client-side XSS at the *package-index* level, i.e. to treat the marketplace as the trust boundary.
+
+### The structural finding: five advisories on one surface, recurrence across a *field space*
+
+The Bazaar marketplace alone now accounts for **five** advisories, four of them the same defect rediscovered in **different fields of the same struct**: -33066 (README), -40922 (README, incomplete fix), -33067 (`displayName` + `description`), plus two new unopened leads **CVE-2026-45375** (`name` + `version` metadata) and **CVE-2026-54070** (README event handlers).
+
+The repo's existing framing is recurrence over *time*. This is recurrence over the **field space of one data structure, at essentially one moment** — -33066 and -33067 were published the same day, by the same reporter, split from the same parent report `GHSA-v3mg-9v85-fcm7`. `displayName`, `description`, `name` and `version` are siblings in one `plugin.json`, all attacker-controlled, all reaching one render path, and they were fixed one or two at a time across five months. **The thesis-usable claim: a discovery method that enumerates every field of an externally-supplied data structure and checks each field's render path finds all four in one pass; the per-report, per-field process that actually occurred produced four advisories.** That is a measurable argument for structure-aware discovery over sink-by-sink reporting, grounded entirely in vendor records. Caveat: -45375 and -54070 are known only from GLAD search-result titles — versions, scores and sinks **unverified, do not quote**.
+
+SiYuan's count moves **twelve-plus → fourteen-plus**, still a floor.
+
+### Venue sweep — all nine accounted for, nothing new
+
+- **NDSS '27 Summer** — the expected Sep-Oct window opened today; checked by domain-restricted search over `ndss-symposium.org`. **Still no 2027 accepted-papers page**; the site returns only `/ndss2027/`, `/ndss2027/submissions/{call-for-papers,templates}` and `/ndss2027/leadership/organizing-committee/`. New fact: the **fall** cycle CFP opened **15 Aug 2026**, so the 2027 cycle is still actively soliciting while the summer list remains unpublished. The **"265 accepted (113 summer + 152 fall)" artifact recurred and is again DISCARDED** — NDSS '26 figures answering an NDSS '27 question (fourth recurrence: 08-15, 08-18, 08-22, today).
+- **CCS '26 Cycle B** — not fetched. Today is 1 Sep; minor-revision approval is 4 Sep and camera-ready 13 Sep, so a list cannot exist. A search returned only the CFP and the `ccs2026a`/`ccs2026b` HotCRP instances. Re-check from ~13 Sep at the known URL, which currently carries a `### First Cycle` heading only.
+- **ACSAC '26** — notification 8 Sep; skipped as planned.
+- **RAID '26 / ESORICS '26 / AsiaCCS '26 / DSN '26** — one combined search across all four plus the full Electron/WebView/IPC vocabulary returned only CFP pages, the already-read DSN '26 accepted-papers page, and the Electron Wikipedia article. No candidate. Prior end-to-end reads stand; RAID remains blocked on the SPA/provenance problem.
+- **USENIX Sec '26 / IEEE S&P '26 / '27** — not re-swept; closed or eliminated per 08-29 through 08-31.
+- **Buzz to Boom** — promotion trigger **NOT met, eighteenth consecutive**. Domain-restricted search across six venue domains surfaces only the two arXiv URLs, abstract byte-identical, no venue annotation anywhere.
+
+Three standing queries were also run (`Electron application security {venue} {year}`, `XSS to RCE cross-platform desktop app`, `nodeIntegration/contextIsolation/contextBridge`). Everything they returned was already triaged: CVE-2026-70601 (already in the upstream-Electron entry), DbGate CVE-2026-34725, DeepChat, OPCConnect/CVE-2025-56459 (still secondary-sourced only — per the 08-17 note, stop spending searches on it).
+
+### Channel scorecard
+
+Second consecutive run in which the venue-targeted standing queries produced **nothing**, and the second in which **advisory cross-reference walking** produced everything. Today's cost: **7 searches, 3 fetches** — and the two fetches that mattered were both reached by searching a GHSA ID harvested from an advisory already in the ledger. The ledger still holds **seven** unopened GHSA/CVE identifiers obtained the same way. This channel is now clearly the best-yielding one available and should stay first in the run order.
+
+### Next run's priority, in order
+
+1. **`GHSA-v3mg-9v85-fcm7`** — the parent both -33066 and -33067 were split from. It is now the single highest-value unopened item: it may name every sibling split at once, which would close the Bazaar cluster's floor instead of chasing CVEs one at a time.
+2. **CVE-2026-45375 and CVE-2026-54070** — the two unopened Bazaar leads. Opening either converts the five-advisory cluster from four-verified-plus-two-titles into a fully grounded claim.
+3. **CVE-2026-29183 against its own GHSA page** — still the weakest-grounded record in the map, and the ledger leans on its "XSS-only control case" argument. Carried over unexecuted from yesterday.
+4. **`GHSA-25rp-h46x-2hjm`** — the -44588 patched-version contradiction is **still open**. This run re-confirmed that GLAD says *"no solution available yet"*; the GHSA page itself was not reachable (the search surfaced the GLAD record and sibling advisories, never the GHSA URL). Try a search phrased on the advisory *title* rather than the GHSA ID.
+5. **CCS '26 Second Cycle from ~13 Sep**; **ACSAC '26 from 8 Sep**. Before those dates, skip.
+6. **NDSS '27 Summer** — now in-window; worth one cheap domain-restricted search per run.
+
+**Fetch-budget note.** Spend order: 3 standing searches → ledger greps → 2 venue/advisory searches → `GHSA-8q5w-mmxf-48jg` (full read) → grep + `GHSA-mvpm-v6q4-m2pf` (full read) → 2 domain-restricted venue searches. Seven searches, three fetches, zero failures, zero blocked.
+
 ## 2026-08-31 — Daily watch
 
 **No new venue papers, but the run closed its top-priority open question and turned the SiYuan case study into something structurally different.** Ledger moves **17 in-scope / 32 → 33 excluded / 13 → 14 context**. Three of the four items on yesterday's priority list were executed; the fourth and fifth were correctly skipped as pre-notification.
