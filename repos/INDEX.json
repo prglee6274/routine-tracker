@@ -458,13 +458,13 @@
   },
   "K-Dense-AI/scientific-agent-skills": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-08-31",
-   "days_on_list": 3,
-   "last_stars": 38947,
+   "last_seen": "2026-09-01",
+   "days_on_list": 4,
+   "last_stars": 40597,
    "category": "llm",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-08-29"
+   "graduated": true,
+   "last_pushed_at": "2026-08-31"
   },
   "KeygraphHQ/shannon": {
    "first_seen": "2026-05-17",
@@ -782,11 +782,13 @@
   },
   "TecharoHQ/anubis": {
    "first_seen": "2026-07-20",
-   "last_seen": "2026-07-20",
+   "last_seen": "2026-09-01",
    "days_on_list": 1,
-   "last_stars": 20789,
+   "last_stars": 21965,
    "category": "security",
-   "language": "Go"
+   "language": "Go",
+   "last_pushed_at": "2026-08-31",
+   "graduated": false
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
@@ -1809,9 +1811,9 @@
   },
   "every-app/open-seo": {
    "first_seen": "2026-07-21",
-   "last_seen": "2026-08-27",
-   "last_stars": 13581,
-   "last_pushed_at": "2026-08-27",
+   "last_seen": "2026-09-01",
+   "last_stars": 15656,
+   "last_pushed_at": "2026-08-24",
    "days_on_list": 1,
    "category": "tools",
    "language": "TypeScript",
@@ -3410,9 +3412,9 @@
   },
   "tashfeenahmed/freellmapi": {
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-31",
-   "days_on_list": 2,
-   "last_stars": 22639,
+   "last_seen": "2026-09-01",
+   "days_on_list": 3,
+   "last_stars": 23288,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
@@ -4224,13 +4226,13 @@
   },
   "tailscale/tailcat": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-08-31",
-   "days_on_list": 3,
-   "last_stars": 4166,
+   "last_seen": "2026-09-01",
+   "days_on_list": 4,
+   "last_stars": 4690,
    "category": "tools",
    "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-08-30"
+   "graduated": true,
+   "last_pushed_at": "2026-08-31"
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-08-29",
@@ -4284,10 +4286,10 @@
   },
   "THU-MAIC/OpenMAIC": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-08-31",
-   "days_on_list": 1,
-   "last_stars": 23639,
-   "last_pushed_at": "2026-08-29",
+   "last_seen": "2026-09-01",
+   "days_on_list": 2,
+   "last_stars": 26631,
+   "last_pushed_at": "2026-08-31",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -4344,17 +4346,47 @@
   },
   "kaifcodec/user-scanner": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-08-31",
-   "days_on_list": 1,
-   "last_stars": 3876,
-   "last_pushed_at": "2026-08-30",
+   "last_seen": "2026-09-01",
+   "days_on_list": 2,
+   "last_stars": 4121,
+   "last_pushed_at": "2026-08-31",
    "category": "security",
    "language": "Python",
    "graduated": false
+  },
+  "p-e-w/heretic": {
+   "first_seen": "2026-09-01",
+   "last_seen": "2026-09-01",
+   "days_on_list": 1,
+   "last_stars": 29547,
+   "last_pushed_at": "2026-08-17",
+   "category": "security",
+   "language": "Python",
+   "graduated": false
+  },
+  "unclecode/crawl4ai": {
+   "first_seen": "2026-09-01",
+   "last_seen": "2026-09-01",
+   "days_on_list": 1,
+   "last_stars": 80571,
+   "last_pushed_at": "2026-08-31",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "kunchenguid/no-mistakes": {
+   "first_seen": "2026-09-01",
+   "last_seen": "2026-09-01",
+   "days_on_list": 1,
+   "last_stars": 8193,
+   "last_pushed_at": "2026-08-31",
+   "category": "tools",
+   "language": "Go",
+   "graduated": false
   }
  },
- "last_updated": "2026-08-31",
- "updated": "2026-08-31",
- "last_run": "2026-08-31",
- "count": 439
+ "last_updated": "2026-09-01",
+ "updated": "2026-09-01",
+ "last_run": "2026-09-01",
+ "count": 442
 }
