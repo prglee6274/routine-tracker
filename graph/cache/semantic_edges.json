@@ -1122,5 +1122,37 @@
  "2608.27439->2606.11425": {
   "type": "background",
   "evidence": "참고문헌 목록 내 단순 나열로만 등장 — 도구 기반 반복 jailbreak 최적화 계열 선행연구를 배경으로 인용."
+ },
+ "2608.27510->2605.12671": {
+  "type": "background",
+  "evidence": "cited in related work as prior circuit/sheaf discovery approach for LLMs"
+ },
+ "2608.27510->2605.29358": {
+  "type": "background",
+  "evidence": "cited as foundational SAE work; transcoders framed as extending sparse-feature decomposition"
+ },
+ "2608.27782->2604.18697": {
+  "type": "extends",
+  "evidence": "builds on the reported separation between indistinguishability and inextractability, supplying the 'missing map' of formal relations"
+ },
+ "2608.28411->2605.26269": {
+  "type": "background",
+  "evidence": "cited when describing optimization-based prompt injection attack procedures"
+ },
+ "2608.28411->2606.10525": {
+  "type": "compares",
+  "evidence": "positioned as prior automated-attack evaluation that 'does not cover the full range of automated attacks'"
+ },
+ "2608.28411->2606.13385": {
+  "type": "compares",
+  "evidence": "contrasted in Limitations: stakeholder/web-agent scenarios vs LongPIBench's document-centric long-context tasks"
+ },
+ "2608.28411->2607.10490": {
+  "type": "compares",
+  "evidence": "contrasted as an existing indirect prompt injection benchmark with far shorter contexts"
+ },
+ "2608.28411->2607.20759": {
+  "type": "compares",
+  "evidence": "contrasted as an existing agent-focused prompt injection benchmark in the benchmark-coverage discussion"
  }
 }

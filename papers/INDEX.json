@@ -19718,7 +19718,7 @@
    "folder": "2026-08-27"
   },
   "2608.23873": {
-   "version": "v1",
+   "version": "v2",
    "title": "Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors",
    "keywords": [
     "prompt injection",
@@ -19733,8 +19733,16 @@
     "defense_mechanism"
    ],
    "first_seen": "2026-08-27",
-   "last_updated": "2026-08-27",
-   "folder": "2026-08-27"
+   "last_updated": "2026-09-01",
+   "folder": "2026-08-27",
+   "update_history": [
+    {
+     "date": "2026-09-01",
+     "from": "v1",
+     "to": "v2",
+     "folder_relisted": "2026-09-01"
+    }
+   ]
   },
   "2608.23020": {
    "version": "v1",
@@ -20537,6 +20545,172 @@
     "differential_privacy",
     "federated_privacy"
    ]
+  },
+  "2608.25697": {
+   "version": "v1",
+   "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "defense_mechanism",
+    "guardrail",
+    "sae",
+    "probing",
+    "serving_security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2608.28411": {
+   "version": "v1",
+   "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "prompt_injection",
+    "safety_eval",
+    "long_context",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2608.27800": {
+   "version": "v1",
+   "title": "ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "agent_safety",
+    "agent_privacy",
+    "data_extraction",
+    "tool_poisoning",
+    "pii_leakage"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2608.28099": {
+   "version": "v1",
+   "title": "Speculative Probing: LLM Monitoring at Speculative-Decoding Cost",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "probing",
+    "interp_method",
+    "safety_eval",
+    "guardrail",
+    "monitoring"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2608.27510": {
+   "version": "v1",
+   "title": "How Do Linear Probes Emerge? A Circuit-Tracing Framework with Concept-Targeted Attribution",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "circuits",
+    "probing",
+    "feature_attribution",
+    "mechanistic_interpretability",
+    "transcoder"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing",
+    "feature_attribution"
+   ]
+  },
+  "2608.28198": {
+   "version": "v1",
+   "title": "Performative Privacy: When Differential Privacy Maximizes Utility",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "differential_privacy",
+    "performative_learning",
+    "privacy_utility_tradeoff"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2608.28233": {
+   "version": "v1",
+   "title": "REINS: Refusal-Enhanced Inhibitory Steering with Sparse Autoencoder Features",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "sae",
+    "activation_steering",
+    "jailbreak",
+    "alignment_robustness",
+    "refusal"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering"
+   ]
+  },
+  "2608.27782": {
+   "version": "v1",
+   "title": "Memorization Is Not Extraction: Tight Differential-Privacy Bounds and Audit Blind Spots",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "differential_privacy",
+    "data_extraction",
+    "memorization",
+    "privacy_audit",
+    "f-DP"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "data_extraction"
+   ]
+  },
+  "2608.28361": {
+   "version": "v1",
+   "title": "GRACE: Gradient-guided Coreset Selection for LLM Unlearning",
+   "first_seen": "2026-09-01",
+   "last_updated": "2026-09-01",
+   "folder": "2026-09-01",
+   "keywords": [
+    "unlearning",
+    "coreset_selection",
+    "gradient_matching",
+    "data_selection"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -20579,5 +20753,5 @@
    ]
   }
  },
- "last_run": "2026-08-31"
+ "last_run": "2026-09-01"
 }
