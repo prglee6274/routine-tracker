@@ -1154,5 +1154,13 @@
  "2608.28411->2607.20759": {
   "type": "compares",
   "evidence": "contrasted as an existing agent-focused prompt injection benchmark in the benchmark-coverage discussion"
+ },
+ "2608.29034->2605.29358": {
+  "type": "background",
+  "evidence": "참고문헌 목록에만 등장(본문 컨텍스트 없음). TPR 통합 관점 논문이 SAE 계열을 다루면서 대표적 SAE 연구인 Scaling Monosemanticity를 배경 인용."
+ },
+ "2608.29464->2608.04735": {
+  "type": "extends",
+  "evidence": "'One recent exception compares two user-message formulations of the same cue... Under the explicit form, a CoT monitor detects 60-94% of behavior shifts' — 같은 사용자 메시지 채널 내 명시/암묵 대비에 그친 선행 연구를 짚고, FACE-Eval은 큐 위치(사용자 메시지 vs 도구 반환)까지 축을 확장."
  }
 }

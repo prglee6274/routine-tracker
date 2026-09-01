@@ -18919,10 +18919,10 @@
    ]
   },
   "2608.16032": {
-   "version": "v1",
+   "version": "v2",
    "title": "Proof-of-Execution Memory: Defending LLM Agents Against Forged-Reasoning Attacks by Verifying What Actually Happened",
    "first_seen": "2026-08-23",
-   "last_updated": "2026-08-23",
+   "last_updated": "2026-09-02",
    "folder": "2026-08-23",
    "keywords": [
     "agent safety",
@@ -19055,7 +19055,7 @@
    "folder": "2026-08-24"
   },
   "2608.14825": {
-   "version": "v2",
+   "version": "v3",
    "title": "Emergent Misaligned Communication in Long-Horizon Multi-Agent LLM Commerce",
    "keywords": [
     "agent safety",
@@ -19071,7 +19071,7 @@
     "safety_eval"
    ],
    "first_seen": "2026-08-24",
-   "last_updated": "2026-08-24",
+   "last_updated": "2026-09-02",
    "folder": "2026-08-24"
   },
   "2608.17360": {
@@ -19094,7 +19094,7 @@
    "folder": "2026-08-24"
   },
   "2608.17638": {
-   "version": "v1",
+   "version": "v2",
    "title": "Beyond the Trace: Coupling an Interpretable Reasoning-State Readout to Native MoE Routing",
    "keywords": [
     "mechanistic interpretability",
@@ -19110,7 +19110,7 @@
     "interp_method"
    ],
    "first_seen": "2026-08-24",
-   "last_updated": "2026-08-24",
+   "last_updated": "2026-09-02",
    "folder": "2026-08-24"
   },
   "2608.14906": {
@@ -19378,10 +19378,10 @@
    ]
   },
   "2608.20756": {
-   "version": "v1",
+   "version": "v2",
    "title": "Vis-Poison: Poisoning Visual Knowledge in Multimodal Retrieval-Augmented Generation",
    "first_seen": "2026-08-25",
-   "last_updated": "2026-08-25",
+   "last_updated": "2026-09-02",
    "folder": "2026-08-25",
    "keywords": [
     "poisoning",
@@ -20241,17 +20241,17 @@
    ]
   },
   "2608.26083": {
-   "version": "v1",
-   "title": "ICON Decomposition: Multivariate Concept-Level Explanations of Deep Representations for Model Auditing",
+   "version": "v2",
+   "title": "ICON Decomposition: Auditing Deep Neural Networks with Multivariate Variance-based Concept-level Explanations",
    "first_seen": "2026-08-30",
-   "last_updated": "2026-08-30",
+   "last_updated": "2026-09-02",
    "folder": "2026-08-30",
    "keywords": [
-    "concept-based explanation",
-    "shortcut learning",
-    "model auditing",
+    "feature_attribution",
     "probing",
-    "representation variance"
+    "interp_method",
+    "concept_explanation",
+    "model_auditing"
    ],
    "category": "interp",
    "subtopics": [
@@ -20711,6 +20711,186 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2608.30428": {
+   "version": "v1",
+   "title": "Lies We Can See: Joint Verbal and Non-Verbal Deception by VLM Agents in Embodied Social Interactions",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "deception",
+    "agent_safety",
+    "alignment_robustness",
+    "multimodal_attack",
+    "safety_eval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "deception",
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2608.29464": {
+   "version": "v1",
+   "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "cot_faithfulness",
+    "monitoring",
+    "safety_eval",
+    "probing",
+    "interp_method"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "cot_faithfulness",
+    "monitoring",
+    "safety_eval"
+   ]
+  },
+  "2608.28833": {
+   "version": "v1",
+   "title": "Evaluating the Hidden Costs of Personalization in Large Language Models",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "pii_leakage",
+    "personalization",
+    "sycophancy",
+    "safety_eval",
+    "agent_privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "personalization",
+    "sycophancy"
+   ]
+  },
+  "2608.29098": {
+   "version": "v1",
+   "title": "SafeAtlas-VL: Beyond Binary Multimodal Safety with Large-Scale Data and Guard Models",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "guardrail",
+    "defense_mechanism",
+    "multimodal_attack",
+    "safety_eval",
+    "red_teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "guardrail",
+    "defense_mechanism",
+    "multimodal_attack"
+   ]
+  },
+  "2608.30207": {
+   "version": "v1",
+   "title": "SIR: Self-improving Red-teaming for Compute Use Agents",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "prompt_injection",
+    "red_teaming",
+    "agent_safety",
+    "computer_use_agent",
+    "attack_transfer"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2608.29461": {
+   "version": "v1",
+   "title": "A Causal Model for Locating and Unlocking Sandbagging in Model Organisms",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "sandbagging",
+    "safety_eval",
+    "alignment_robustness",
+    "representation",
+    "red_teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "sandbagging",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2608.29034": {
+   "version": "v1",
+   "title": "A Unifying Perspective on Language Model Representations: From Filler-Role Structure to Mechanistic Interpretability",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "mechanistic_position",
+    "representation",
+    "sae",
+    "probing",
+    "activation_patching"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "representation",
+    "sae"
+   ]
+  },
+  "2608.29513": {
+   "version": "v1",
+   "title": "On the Plasticity Collapse in Continual Machine Unlearning",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "unlearning",
+    "continual_unlearning",
+    "memorization",
+    "privacy_risk",
+    "theory"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "continual_unlearning",
+    "memorization"
+   ]
+  },
+  "2608.29111": {
+   "version": "v1",
+   "title": "Auditing and Mitigating Privacy Leakage in Cloud-Edge Collaborative Decoding",
+   "first_seen": "2026-09-02",
+   "last_updated": "2026-09-02",
+   "folder": "2026-09-02",
+   "keywords": [
+    "privacy_leak",
+    "data_extraction",
+    "defense_mechanism",
+    "edge_cloud",
+    "pii_leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "privacy_leak",
+    "data_extraction",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -20753,5 +20933,5 @@
    ]
   }
  },
- "last_run": "2026-09-01"
+ "last_run": "2026-09-02"
 }
