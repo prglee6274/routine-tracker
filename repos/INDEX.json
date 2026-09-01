@@ -606,13 +606,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-09-02",
    "days_on_list": 1,
-   "last_stars": 14904,
+   "last_stars": 15535,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-21"
+   "last_pushed_at": "2026-08-31"
   },
   "NVIDIA/garak": {
    "first_seen": "2026-05-26",
@@ -1811,10 +1811,10 @@
   },
   "every-app/open-seo": {
    "first_seen": "2026-07-21",
-   "last_seen": "2026-09-01",
-   "last_stars": 15656,
+   "last_seen": "2026-09-02",
+   "last_stars": 16088,
    "last_pushed_at": "2026-08-24",
-   "days_on_list": 1,
+   "days_on_list": 2,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -1881,13 +1881,13 @@
   },
   "firecrawl/pdf-inspector": {
    "first_seen": "2026-08-04",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-09-02",
    "days_on_list": 1,
-   "last_stars": 13806,
+   "last_stars": 17825,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-09"
+   "last_pushed_at": "2026-09-01"
   },
   "fleetdm/fleet": {
    "first_seen": "2026-05-08",
@@ -2407,13 +2407,13 @@
   },
   "majd/ipatool": {
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-09-02",
    "days_on_list": 1,
-   "last_stars": 9910,
-   "category": "llm",
+   "last_stars": 10723,
+   "category": "tools",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": null
+   "last_pushed_at": "2026-08-30"
   },
   "makeplane/plane": {
    "first_seen": "2026-08-22",
@@ -3978,13 +3978,13 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-08-30",
-   "days_on_list": 4,
-   "last_stars": 30545,
+   "last_seen": "2026-09-02",
+   "days_on_list": 1,
+   "last_stars": 41569,
    "category": "llm",
    "language": "JavaScript",
-   "graduated": true,
-   "last_pushed_at": "2026-08-29"
+   "graduated": false,
+   "last_pushed_at": "2026-09-01"
   },
   "ConardLi/garden-skills": {
    "first_seen": "2026-08-27",
@@ -4286,10 +4286,10 @@
   },
   "THU-MAIC/OpenMAIC": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-09-01",
-   "days_on_list": 2,
-   "last_stars": 26631,
-   "last_pushed_at": "2026-08-31",
+   "last_seen": "2026-09-02",
+   "days_on_list": 3,
+   "last_stars": 29285,
+   "last_pushed_at": "2026-09-01",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -4356,9 +4356,9 @@
   },
   "p-e-w/heretic": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-01",
-   "days_on_list": 1,
-   "last_stars": 29547,
+   "last_seen": "2026-09-02",
+   "days_on_list": 2,
+   "last_stars": 29969,
    "last_pushed_at": "2026-08-17",
    "category": "security",
    "language": "Python",
@@ -4383,10 +4383,40 @@
    "category": "tools",
    "language": "Go",
    "graduated": false
+  },
+  "jingyaogong/minimind": {
+   "first_seen": "2026-09-02",
+   "last_seen": "2026-09-02",
+   "days_on_list": 1,
+   "last_stars": 56938,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-31"
+  },
+  "debpalash/VoiceStudio": {
+   "first_seen": "2026-09-02",
+   "last_seen": "2026-09-02",
+   "days_on_list": 1,
+   "last_stars": 13608,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-01"
+  },
+  "apurvsinghgautam/robin": {
+   "first_seen": "2026-09-02",
+   "last_seen": "2026-09-02",
+   "days_on_list": 1,
+   "last_stars": 6911,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-08-25"
   }
  },
- "last_updated": "2026-09-01",
- "updated": "2026-09-01",
- "last_run": "2026-09-01",
- "count": 442
+ "last_updated": "2026-09-02",
+ "updated": "2026-09-02",
+ "last_run": "2026-09-02",
+ "count": 445
 }
