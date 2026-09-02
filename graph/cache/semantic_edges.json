@@ -1162,5 +1162,33 @@
  "2608.29464->2608.04735": {
   "type": "extends",
   "evidence": "'One recent exception compares two user-message formulations of the same cue... Under the explicit form, a CoT monitor detects 60-94% of behavior shifts' — 같은 사용자 메시지 채널 내 명시/암묵 대비에 그친 선행 연구를 짚고, FACE-Eval은 큐 위치(사용자 메시지 vs 도구 반환)까지 축을 확장."
+ },
+ "2608.30441->2606.04425": {
+  "type": "background",
+  "evidence": "참고문헌에만 등장(본문 인용 문맥 없음). 장기 에이전트 대상 프롬프트 인젝션 선행 연구로 관련연구 배경 인용."
+ },
+ "2608.30441->2606.13385": {
+  "type": "background",
+  "evidence": "Ethical Considerations의 Stakeholder Analysis 절에서 이해관계자 분석 틀의 근거로 인용."
+ },
+ "2608.30441->2606.20922": {
+  "type": "background",
+  "evidence": "참고문헌 목록에만 등장. 도구 설명 오염 방어 선행 연구로 관련연구 배경 인용."
+ },
+ "2609.00519->2602.22242": {
+  "type": "background",
+  "evidence": "본문 인용 문맥 미확인. 세이프가드 평가 문헌 코딩 대상의 배경 인용으로 판단."
+ },
+ "2609.00519->2605.05058": {
+  "type": "background",
+  "evidence": "'Surveys and SoKs make safeguard techniques and benchmark configurations comparable' 및 'Those same SoKs re-evaluate attacks and defenses under matched configurations' — 선행 체계화 연구로 자기 위치를 잡는 배경 인용."
+ },
+ "2609.00519->2606.17464": {
+  "type": "background",
+  "evidence": "참고문헌 목록에만 등장. 평가 방법론 배경 인용."
+ },
+ "2609.00519->2607.27951": {
+  "type": "extends",
+  "evidence": "동일 저자진(Pingyu Wu, Weiming Zhang, Nenghai Yu)의 선행 연구. '복사 가능한 컨텍스트 기반 세이프가드는 신뢰할 만한 안전을 못 준다'는 결과를 배포 수준 잔여위험 논증으로 일반화·확장."
  }
 }

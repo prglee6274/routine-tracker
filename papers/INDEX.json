@@ -20642,10 +20642,10 @@
    ]
   },
   "2608.28198": {
-   "version": "v1",
+   "version": "v2",
    "title": "Performative Privacy: When Differential Privacy Maximizes Utility",
    "first_seen": "2026-09-01",
-   "last_updated": "2026-09-01",
+   "last_updated": "2026-09-03",
    "folder": "2026-09-01",
    "keywords": [
     "differential_privacy",
@@ -20733,10 +20733,10 @@
    ]
   },
   "2608.29464": {
-   "version": "v1",
+   "version": "v2",
    "title": "Chain-of-Thought Faithfulness of Reasoning Models Varies with Where and How Preference Cues Are Delivered",
    "first_seen": "2026-09-02",
-   "last_updated": "2026-09-02",
+   "last_updated": "2026-09-03",
    "folder": "2026-09-02",
    "keywords": [
     "cot_faithfulness",
@@ -20891,6 +20891,201 @@
     "data_extraction",
     "defense_mechanism"
    ]
+  },
+  "2609.00519": {
+   "version": "v1",
+   "title": "The Safeguard Worked. Is the LLM System Safer?",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "safeguard evaluation",
+    "red-teaming",
+    "guardrail",
+    "threat model",
+    "jailbreak"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "defense_mechanism",
+    "red_teaming"
+   ]
+  },
+  "2608.27540": {
+   "version": "v1",
+   "title": "Towards a mathematical theory of superposition",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "superposition",
+    "frame theory",
+    "compressed sensing",
+    "feature recovery",
+    "interpretability theory"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2608.28934": {
+   "version": "v1",
+   "title": "Revisiting the Provable-Auditable Privacy Gap of DP-SGD",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "privacy auditing",
+    "membership inference"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "membership_inference"
+   ]
+  },
+  "2609.00492": {
+   "version": "v1",
+   "title": "The Privacy-Hallucination Tradeoff in Differentially Private Language Models",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "differential privacy",
+    "hallucination",
+    "DP fine-tuning",
+    "factuality"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2608.30441": {
+   "version": "v1",
+   "title": "ECLIPSE: Self-Evolving Stealthy Prompt Injection Attack against Long-Horizon Agentic Systems",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "red-teaming",
+    "tool-use attack",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2608.30724": {
+   "version": "v1",
+   "title": "BAITBENCH: Measuring Agent Reward Hacking with Optional Shortcuts Planted in ML Tasks",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "reward hacking",
+    "agent safety",
+    "benchmark",
+    "alignment attacks"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2609.00760": {
+   "version": "v1",
+   "title": "A Unified Mechanistic Analysis of Knowledge- and Safety-Based Refusals",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "refusal direction",
+    "mechanistic interpretability",
+    "probing",
+    "representation engineering",
+    "safety alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "probing",
+    "activation_steering"
+   ]
+  },
+  "2608.30362": {
+   "version": "v2",
+   "title": "Will the User Ever Know? Covert Indirect Prompt Injection Attacks on Tool-Using LLM Agents",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "prompt injection",
+    "indirect prompt injection",
+    "agent safety",
+    "AgentDojo",
+    "evaluation metric"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2609.00873": {
+   "version": "v1",
+   "title": "Membership Inference in Fine-tuned Diffusion Language Models via Token-level Memorization Asymmetry",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "membership inference",
+    "memorization",
+    "PII extraction",
+    "diffusion language model"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2608.28648": {
+   "version": "v1",
+   "title": "How Language Models Choose Sides: Internal Representations of Instruction Hierarchy",
+   "first_seen": "2026-09-03",
+   "last_updated": "2026-09-03",
+   "folder": "2026-09-03",
+   "keywords": [
+    "probing",
+    "activation steering",
+    "instruction hierarchy",
+    "prompt injection",
+    "linear probe"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "activation_steering",
+    "representation"
+   ]
   }
  },
  "_taxonomy": {
@@ -20933,5 +21128,5 @@
    ]
   }
  },
- "last_run": "2026-09-02"
+ "last_run": "2026-09-03"
 }
