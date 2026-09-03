@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-09-04 — Daily watch
+
+**No new papers today.** Ledger holds at **18 in_scope / 35 excluded / 15 context_non_venue**. Zero candidates survived the scope filter, and zero survived the ledger diff — the two are the same statement this run, because nothing new was published at any of the nine venues at all. This is the expected shape one day after a four-find run: security venues publish in batches, and 09-03 consumed the batch that was on the table (ESORICS '26 Spring Cycle + the PoPETs promotion). What this run produced instead is **calendar and tooling intelligence**, recorded in `config/sources.json` so it is not rediscovered at cost.
+
+### Venue-by-venue: why each of the nine is empty, with the date it stops being empty
+
+| Venue | State on 2026-09-04 | Next event |
+|---|---|---|
+| USENIX Security | '26 proceedings live since **Aug 12** (already swept); '27 Cycle 1 not notified | '27 Cycle 1 notification |
+| IEEE S&P | '26 swept; **sp2027.ieee-security.org** is CFP-only | notification **2027-03-05** |
+| NDSS | '26 swept; the 2027 site carries **only Submissions + Leadership** — no accepted-papers page exists | Summer-cycle notification, then Seoul 2027-03-22 |
+| ACM CCS | '26 swept (notifications were **2026-07-17**); no later round posted | — |
+| **ACSAC** | **notifications dated 2026-09-08 — four days out** | **check from 2026-09-09** |
+| **RAID** | `raid2026.org/accepted.html` is **live but its list is empty**; `/program.html` is 100% "TBD" — despite notification **2026-07-10** | conference Oct 11–14, Lancaster |
+| ESORICS | '26 Winter+Spring accepted list swept 09-03 | — |
+| AsiaCCS | '26 swept; '27 Cycle 1 opened 2026-07-25 | notification **2027-03-31** |
+| DSN | '26 swept | — |
+
+**ACSAC and RAID are the two live fronts, and they are the reason this table is worth keeping.** ACSAC has a hard date: 2026-09-08. RAID is the stranger case — notification was in July, the venue built the `/accepted.html` page, and it still renders empty seven weeks later; that page is now the config's `accepted_papers` URL for RAID (it was the bare domain before, which is why the empty list had not been noticed). Both are flagged in `config/sources.json`.
+
+### The adjacent channels, checked and clean
+
+The arXiv channel returned exactly one Electron-specific preprint — **"Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing"** (arXiv 2607.20698, Proton, 589 apps, 23 zero-days) — which has been in `context_non_venue` since it appeared and is **still not venue-attributed**. It remains the single most likely near-term promotion in the ledger: if it lands at any of the nine, it becomes `in_scope` **PRIMARY** and the fourth Electron-native discovery methodology after Inspectron's black-box auditing, COINDEF's defense, and Lost-in-Translation's differential testing. Standing-query sweeps for VS Code / IDE-extension work and for XSS→RCE desktop work re-surfaced only ledger residents (UntrustIDE `in_scope`; "Developers Are Victims Too" and JavaSith `context_non_venue`). One near-miss was refused on two independent grounds and is deliberately **not** added even to `excluded`: *"An Empirical Study on Remote Code Execution in Machine Learning Model Hosting Ecosystems"* (arXiv 2601.14163) is a **TOSEM journal** paper — not one of the nine — and its RCE is Python pickle/model-loading with no desktop or Electron angle. Venue rule and scope rule agree, so it never reaches the ledger.
+
+### Two tooling constraints, now written into the config
+
+Both were hit live this run and both silently cap sweep coverage, so `discovery_method._tooling_constraints_2026_09_04` records them:
+
+1. **`web_fetch` enforces a provenance set.** It retrieves only URLs that already appeared in a user message, a prior fetch, or a WebSearch result. **A URL cannot be constructed** — not from this config's own `{YEAR}` templates, and not by appending `?page=N`. Every templated venue URL must be surfaced by a WebSearch (search the page *title*) before it can be fetched. This is a real change to how Step 2 must be executed.
+2. **The browser pane needs per-site approval, which a scheduled run cannot give.** `raid2026.org` and `dblp.org` both returned *"denied or failed."* So the **DBLP-TOC channel is unavailable in scheduled runs entirely** — it needs an interactive session. Combined with (1), this bites hardest on large programs: one fetch of USENIX '26 technical-sessions yields **~54 of ~400 titles** with no way to page forward. The substitute that does work is a **domain-restricted WebSearch** (`allowed_domains: usenix.org`) driven by the scope keywords; run against USENIX '26 it surfaced only the 2024 Inspectron paper, which is the correct negative answer.
+
+**Honest limit on today's negative result:** the USENIX '26 claim rests on the keyword-restricted search plus prior runs' sweep, not on a fresh title-by-title pass over all ~400 papers — that pass is not reachable from a scheduled run under constraints (1) and (2). If the thesis needs certainty on USENIX '26, do one interactive DBLP-TOC sweep of `dblp.org/db/conf/uss/uss2026.html`.
+
 ## 2026-09-03 — Daily watch
 
 **FOUR new papers, after three consecutive runs of nothing — and the venue channel, not the advisory channel, produced all of them.** Ledger moves **17 → 18 in_scope**, **33 → 35 excluded**, **14 → 15 context**. Two full 6-part notes written from full text. Two procedural facts corrected, one of them a standing config gap closed since the repo was created. The SiYuan advisory priorities carried over from 09-02 were **not** executed — budget went to the venue finds, which is the right trade and is recorded as such below.
