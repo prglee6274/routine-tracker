@@ -21086,6 +21086,201 @@
     "activation_steering",
     "representation"
    ]
+  },
+  "2609.01222": {
+   "version": "v2",
+   "title": "What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "prompt injection",
+    "agent security",
+    "context privilege escalation",
+    "agent harness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "adversarial"
+   ]
+  },
+  "2608.29118": {
+   "version": "v1",
+   "title": "Emergent Misalignment Is Not Magical",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "emergent misalignment",
+    "alignment",
+    "representation geometry",
+    "generalization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position",
+    "probing"
+   ]
+  },
+  "2608.29458": {
+   "version": "v1",
+   "title": "Reference-Grafting Matches Fine-Tuning at Eliciting Sandbagged Capabilities",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "sandbagging",
+    "capability elicitation",
+    "activation steering",
+    "safety evaluation",
+    "password-locked model"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness",
+    "red_teaming"
+   ]
+  },
+  "2608.29943": {
+   "version": "v1",
+   "title": "On the Recoverability of Private Information Unlearning in Large Language Models",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "machine unlearning",
+    "privacy auditing",
+    "training data leakage",
+    "decoding attack",
+    "PII"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2609.01048": {
+   "version": "v1",
+   "title": "Lagged Coupling: Internal Representations Become Readable Before They Become Causal",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "probing",
+    "activation steering",
+    "developmental interpretability",
+    "causal efficacy",
+    "Pythia"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2608.30748": {
+   "version": "v1",
+   "title": "The Fragility of Jailbreak Robustness Across Operational States",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "jailbreak",
+    "robustness evaluation",
+    "refusal direction",
+    "system prompt",
+    "operational state"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2609.02285": {
+   "version": "v1",
+   "title": "Entangled Representations Amplify Collateral Damage in Unlearning",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "unlearning",
+    "representational entanglement",
+    "interpretability",
+    "collateral damage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "representation"
+   ]
+  },
+  "2608.27504": {
+   "version": "v1",
+   "title": "Circuit Discovery Helps Detect LLM Jailbreaking: A Mechanistic Interpretability Study",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "mechanistic interpretability",
+    "circuit discovery",
+    "edge attribution patching",
+    "subnetwork probing",
+    "jailbreak"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "feature_attribution",
+    "probing"
+   ]
+  },
+  "2608.30303": {
+   "version": "v2",
+   "title": "Lazy Grounding: Attacking Search Agents with Factual Evidence",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "search agent",
+    "corpus poisoning",
+    "retrieval attack",
+    "grounding",
+    "RAG"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "adversarial",
+    "prompt_injection"
+   ]
+  },
+  "2609.01723": {
+   "version": "v1",
+   "title": "Hearing the Whispers: Black-Box Membership Inference Attacks on Finetuned TTS Models",
+   "first_seen": "2026-09-04",
+   "last_updated": "2026-09-04",
+   "folder": "2026-09-04",
+   "keywords": [
+    "membership inference",
+    "TTS",
+    "fine-tuning privacy",
+    "memorization",
+    "speaker privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -21128,5 +21323,5 @@
    ]
   }
  },
- "last_run": "2026-09-03"
+ "last_run": "2026-09-04"
 }
