@@ -1,5 +1,47 @@
 # Changelog
 
+## 2026-09-05 — Daily watch
+
+**No new papers today.** Ledger holds at **18 in_scope / 35 excluded / 15 context_non_venue** for the second consecutive run. Nothing new was published at any of the nine venues, so the candidate count and the post-diff count are both zero and are the same statement. What this run produced is one genuinely new **discovery channel** for ESORICS, plus a hard re-confirmation on the two live fronts.
+
+### THE FIND OF THE RUN — ESORICS '26 now has a second, authoritative channel: the Springer LNCS proceedings
+
+Until today ESORICS was tracked through exactly one door: the local organiser's Google Site accepted-papers page (2026 = Sapienza Roma), swept on 09-03. That page is a *pre-publication* list maintained by hand. As of today the **Springer LNCS volume pages are indexed and fetchable**, and they are the definitive record:
+
+| | ESORICS 2026 proceedings |
+|---|---|
+| Volumes | **LNCS 16968–16971**, Parts I–IV |
+| Selectivity | **130 full papers from 882 submissions** (14.7%) |
+| Part I | **Software, Network and Protocol Security** ← the Electron/desktop/web volume |
+| Part II | Security and Machine Learning; Embedded, Mobile and CPS Security |
+| Part III | Applied Crypto and MPC; Distributed Systems and Blockchain Security |
+| Part IV | Governance, Privacy and Personal Data Protection; Post-Quantum Crypto |
+| Chapter-level TOC | **not yet live — softcover and eBook both dated "Due: 28 October 2026"** |
+
+Two things follow for the thesis. First, the ledger's ESORICS '26 in_scope paper — *"Why Not Fix It Once and for All? An Empirical Study of Multiple Patches for Vulnerability Fixes in Open-Source Software"* — sits in **Part I**, and once the TOC is live that yields the citable LNCS volume, page range and chapter DOI, which the organiser's Google Site never provides and which a thesis bibliography needs. Second, a title-and-author-level cross-check of the whole 130-paper program becomes possible on **2026-10-28**; the ~125 titles swept on 09-03 came from a hand-maintained page, and hand-maintained pages drop and mis-title entries. **A re-sweep of ESORICS '26 on/after 2026-10-28 is now a standing item**, recorded in `config/sources.json`.
+
+The mechanics are also recorded, because they cost budget to work out: `web_fetch` cannot take a constructed `link.springer.com` URL (the provenance rule from 09-04 still binds), so the volume must be surfaced by searching *"Computer Security ESORICS 2026 Springer proceedings"* first; and the TOC paginates via `?page=N`, which is likewise unconstructible — follow the numbered page links **returned inside** the fetched page instead. Verified live today: fetching an ESORICS **2025** workshop volume returned a full 39-paper TOC with authors and page ranges through exactly that route, which is the proof the channel works and will work for 2026 in seven weeks.
+
+### The two live fronts, re-checked
+
+**RAID 2026 — still empty, and that is now an eight-week anomaly.** A direct fetch of `raid2026.org/accepted.html` returns the heading `## Accepted papers` followed by nothing at all. Notification was **2026-07-10**; the conference is **Oct 11–14, Lancaster** — roughly five weeks out. The page fetches cleanly once a WebSearch has surfaced the URL, so the emptiness is the venue's and not a tooling artifact; `/program.html` is still 100% "TBD". RAID stays the likeliest of the nine to post a first-ever batch before ACSAC's December cycle.
+
+**ACSAC 2026 — three days out.** Notifications are dated **2026-09-08**; `acsac.org/2026/` carries only submissions and CFP pages today. Camera-ready 2026-10-22, conference Dec 7–11, Los Angeles. **Check `acsac.org/2026/program/` from 2026-09-09.** This remains the nearest scheduled first-publication event across all nine venues.
+
+### Everything else, and why it is empty on a date rather than by guess
+
+USENIX Security '26 proceedings have been live since Aug 12 and are swept; '27 Cycle 1 has no notification date published, only an embargo deadline of **2027-02-11** and a symposium date of **2027-08-11**. IEEE S&P '26 is swept; **'27 Cycle 1 notification is 2027-03-05**, Montreal, May 17–19 2027. NDSS '26 is swept; the '27 summer cycle **closed to submissions 2026-05-06** with no accepted list posted, Seoul 2027-03-22–26. CCS '26 was notified 2026-07-17 and is swept, no later round. AsiaCCS '27 Cycle 1 notification is **2027-03-31**. DSN '26 is swept. ESORICS '26 runs **two cycles only** (Winter + Spring) — confirmed again today, so there is no third cycle to wait on; the only ESORICS event left is the 10-28 proceedings drop above.
+
+### Adjacent channels: both clean
+
+**arXiv.** *"Buzz to Boom: Detecting Message Progression Vulnerabilities in Electron Applications via Segmented Directed Fuzzing"* (arXiv 2607.20698) was re-checked at the abstract page directly, not via search snippet: still **v1 only**, submitted 22 Jul 2026, **no journal-ref and no venue comment**. Authors are Jianjia Yu, Zhengyu Liu, Ziyang Li, Yu Sun and Yinzhi Cao (JHU). It stays in `context_non_venue` and remains the single most likely near-term promotion in the ledger — Proton, 589 real-world Electron apps, 23 zero-day MPVs, 22 reaching OS command execution, 11 CVEs. If it lands at any of the nine it becomes `in_scope` **PRIMARY** and the fourth Electron-native discovery methodology in the corpus.
+
+**Electron upstream advisories.** The Electron keyword sweep surfaced **CVE-2026-70601** (context-isolation bypass via `Function.prototype.bind` hijack, reachable in any app that exposes Promise-returning functions over `contextBridge`) and **CVE-2026-34765** (`nodeIntegration: true` / `sandbox: false` on child windows, CWE-668, named-window lookup not enforcing browsing-context-group boundaries). Both fall inside the two coordinated 2026 batches already carried in `context_non_venue` — verified by checking the recorded CVE ranges rather than by eyeballing the title — so **neither is new**. No advisory work was needed this run.
+
+### Honest limits on today's negative result
+
+Unchanged from 09-04 and worth restating rather than quietly inheriting: the USENIX '26 "nothing new" claim rests on keyword-restricted search plus earlier runs' sweep, **not** on a fresh title-by-title pass over all ~400 papers, which is not reachable from a scheduled run under the two 09-04 tooling constraints (web_fetch provenance; browser pane needs per-site approval, so the DBLP-TOC channel is unavailable here). If the thesis needs certainty on USENIX '26, do one interactive DBLP-TOC sweep of `dblp.org/db/conf/uss/uss2026.html`. Today's ESORICS finding is a reminder that the same caution applies to hand-maintained accepted-papers pages generally — which is exactly why the 10-28 Springer cross-check is now on the calendar.
+
 ## 2026-09-04 — Daily watch
 
 **No new papers today.** Ledger holds at **18 in_scope / 35 excluded / 15 context_non_venue**. Zero candidates survived the scope filter, and zero survived the ledger diff — the two are the same statement this run, because nothing new was published at any of the nine venues at all. This is the expected shape one day after a four-find run: security venues publish in batches, and 09-03 consumed the batch that was on the table (ESORICS '26 Spring Cycle + the PoPETs promotion). What this run produced instead is **calendar and tooling intelligence**, recorded in `config/sources.json` so it is not rediscovered at cost.
