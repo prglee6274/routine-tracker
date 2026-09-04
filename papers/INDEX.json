@@ -21281,6 +21281,199 @@
     "membership_inference",
     "data_extraction"
    ]
+  },
+  "2609.03887": {
+   "version": "v1",
+   "title": "Beyond Shallow Alignment: How Post-Training Methods Determine Refusal Circuits And Steering Robustness",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "refusal circuits",
+    "activation steering",
+    "post-training",
+    "mechanistic interpretability",
+    "safety alignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "activation_steering",
+    "alignment_robustness"
+   ]
+  },
+  "2609.03884": {
+   "version": "v1",
+   "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "agent safety",
+    "supply chain attack",
+    "lifecycle hooks",
+    "privilege escalation",
+    "agent harness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "backdoor"
+   ]
+  },
+  "2609.04194": {
+   "version": "v1",
+   "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "chain-of-thought faithfulness",
+    "LLM judge",
+    "process reward model",
+    "interpretability",
+    "step attribution"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2609.03662": {
+   "version": "v1",
+   "title": "Extracting Forgotten Prompts from Targeted Unlearned Models",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "machine unlearning",
+    "data extraction",
+    "privacy leakage",
+    "black-box attack",
+    "refusal alignment"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2609.04022": {
+   "version": "v1",
+   "title": "Representational alignment yields generalizable safety in language models",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "safety alignment",
+    "adversarial robustness",
+    "representation engineering",
+    "moral categorization",
+    "prototype theory"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "defense_mechanism"
+   ]
+  },
+  "2609.01663": {
+   "version": "v1",
+   "title": "Context Inference Attacks Without Jailbreaks",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "context leakage",
+    "membership inference",
+    "agent privacy",
+    "black-box attack",
+    "sensitive data"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "membership_inference",
+    "pii_leakage"
+   ]
+  },
+  "2609.02967": {
+   "version": "v1",
+   "title": "Privacy-Preserving Topology-Guided Safety for LLM-Based Multi-Agent Systems via Federated Graph Learning",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "federated learning privacy",
+    "multi-agent safety",
+    "graph learning",
+    "agent guardrail",
+    "non-IID"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "agent_privacy"
+   ]
+  },
+  "2609.03781": {
+   "version": "v1",
+   "title": "IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "jailbreak",
+    "multilingual safety",
+    "persuasion attack",
+    "safety benchmark",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval",
+    "red_teaming"
+   ]
+  },
+  "2609.03687": {
+   "version": "v1",
+   "title": "A Circuit for Plural Reference: How LLMs Represent and Retrieve Singular and Plural Entities",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "circuit analysis",
+    "mechanistic interpretability",
+    "attention heads",
+    "causal intervention",
+    "coreference"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "representation"
+   ]
+  },
+  "2609.03844": {
+   "version": "v1",
+   "title": "Flip, Don't Shuffle: Watermarking LLMs at the Speed of Inference",
+   "first_seen": "2026-09-05",
+   "last_updated": "2026-09-05",
+   "folder": "2026-09-05",
+   "keywords": [
+    "watermarking",
+    "content provenance",
+    "detection guarantee",
+    "inference efficiency",
+    "KGW"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -21323,5 +21516,5 @@
    ]
   }
  },
- "last_run": "2026-09-04"
+ "last_run": "2026-09-05"
 }
