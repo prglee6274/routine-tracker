@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-05",
-  "last_run": "2026-09-05",
+  "last_updated": "2026-09-06",
+  "last_run": "2026-09-06",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -363,7 +363,18 @@
       "regrounded": "2026-08-23",
       "grounding": "FULL-TEXT as of 2026-08-23. arXiv:2608.06641v2 (18 Aug 2026) PDF fetched successfully (103,792 chars / 1,616 lines) and read end-to-end: abstract, S1-S10, Tables 1-4, Listings 1-5, Figure 1 caption. v2 is the CAMERA-READY and carries the ACM DOI 10.1145/3830454.3832609 and ISBN 979-8-4007-2871-6/2026/11 in the copyright block - this supersedes yesterday's 'ACM DOI not yet assigned'. Provenance recipe that worked: WebSearch the paper TITLE -> fetch arxiv.org/abs/... (which places the /pdf/ URL in the provenance set) -> fetch arxiv.org/pdf/... . A direct /pdf/ fetch as the first call is rejected ('URL not in provenance set'). STILL UNREAD/UNREADABLE: Figure 2 (six coverage curves; only axis ranges survive PDF-to-text flattening - no curve value may be quoted); Table 1 rows for IDs 10-14 and 26-28 are ELIDED as '...' in the extracted text, so eight vulnerabilities' per-ID type/impact/status are unavailable; the reference list was read only far enough to resolve the key citations.",
       "why_it_matters": "Structurally the same target class as Electron - a native desktop application that embeds a JavaScript engine and exposes a large DOCUMENTED privileged host API to attacker-supplied script - and it turns the vendor's own API manual into both the grammar AND the inter-call constraint system that drives discovery. FULL-TEXT-GROUNDED numbers: targets Adobe Acrobat Reader v24.005.20421, Foxit PDF Reader v2024.4.0.27683, PDF-XChange Editor v10.5.2.395; DynamoRIO basic-block coverage, 5 independent 24h runs per tool per target; 2-week vulnerability campaign, crashes caught by werfault.exe, manually triaged; VM = 4 cores/8GB/Windows 8.1, crashes re-verified on Win10 22H2 + Win11 24H2. Coverage: up to 48% over Cooper (the source of the abstract's headline), 37% over TypeOracle, 19% over TypeOracle+Cooper, 17% over TypeOracle+Favocado, 15% over Favocado, 16-49% over Claude-3.7-Sonnet. Vulnerabilities: 57 crashing inputs (23 Adobe / 24 Foxit / 10 PDF-XChange) dedup by normalized call-stack signature to 31 unique zero-days; 11 potentially ACE; 26 of 31 fixed; 10 CVEs assigned; $2,450 bounty on TWO vulnerabilities (not on 26). THE KEY NUMBER FOR THIS THESIS: Table 1 aggregated row shows candidate-relationships-only finds 12 vulnerabilities while strong symbolic relationships find 28 and PDFuzzer-full 31 - i.e. co-occurrence is not enough, parameter-value constraints and ordering are what surface the bugs. Relationship distribution (Table 2, n=1,019): value-constraint 887 (87.0%), producer-consumer 69 (6.8%), implicit 63 (6.2%) - a producer-consumer-only model, the assumption behind most prior API fuzzers, misses ~93%. Instantiation success (Table 3, 71,586 invocations over 1,000 PDFs): 91.5% overall, value-constraint 95.1%, producer-consumer 81.5%, IMPLICIT ONLY 64.0%. Scale: 666 API functions / 886 parameters (435 documented fns + 507 params; 231 undocumented fns + 379 params); brute-force pair analysis would be 221,445 pairs x ~30s = >1,845 hours, hence the two-stage RAG design. LLM accuracy: spec inference 94% (82/87 params), grammar generation 97% APIs / 98% params, relationship inference 93% (56/60). Cost: $60.77 (GPT-4o) end-to-end vs $76.14-$174.83 for naive LLM; throughput ~3/s strong-relationship test cases, up to 20/s regular. LLM choice is near-irrelevant (<1% coverage difference on Adobe). The word 'Electron' NEVER appears in the full text (grep-confirmed, along with 'browser', 'Chromium', 'Node.js', 'desktop'); the Electron mapping is this watch's analysis. GAPS IT LEAVES OPEN for a discovery thesis: (1) single-process engine memory safety only - no cross-process propagation (Electron renderer->main IPC); (2) closed-source commercial targets force black-box fuzzing with DynamoRIO, whereas Electron app source usually sits readable inside the asar, leaving room for static+symbolic hybrid extraction; (3) a single fixed input source (the document file) - no multi-source problem of the kind Buzz to Boom's taxonomy describes; (4) the evaluation deliberately holds the fuzzing LOOP constant (TypeOracle's wrapper, no coverage-guided feedback) so it compares generators only and says nothing about feedback-driven fuzzers; (5) S8's 'generalization beyond PDF' is a FEASIBILITY STUDY ONLY - 2,925 Word VBA APIs / 3,768 parameters extracted from 5,920 pages of docs and CFGs built, but NO fuzzing run and no results. Best single hook for the thesis: implicit (state-mediated) relationships are the type this paper instantiates WORST (64.0%), and they are precisely the DOMINANT form of Electron IPC channel dependency (login -> session handle -> file access).",
-      "cves_visible_in_table1": ["CVE-2025-43575 (Adobe, OOB write, ACE)", "CVE-2026-3777 (Foxit, UAF, ACE - the running-example popUpMenuEx/search.query bug)", "CVE-2025-55308 (Foxit)", "CVE-2025-55314 (Foxit)", "CVE-2025-55312 (Foxit)", "CVE-2025-55307 (Foxit)", "CVE-2026-3778 (Foxit)", "CVE-2025-55313 (Foxit)", "CVE-2026-3776 (Foxit)", "CVE-2025-6661 (PDF-XChange, memory corruption, ACE)"],
+      "cves_visible_in_table1": [
+        "CVE-2025-43575 (Adobe, OOB write, ACE)",
+        "CVE-2026-3777 (Foxit, UAF, ACE - the running-example popUpMenuEx/search.query bug)",
+        "CVE-2025-55308 (Foxit)",
+        "CVE-2025-55314 (Foxit)",
+        "CVE-2025-55312 (Foxit)",
+        "CVE-2025-55307 (Foxit)",
+        "CVE-2026-3778 (Foxit)",
+        "CVE-2025-55313 (Foxit)",
+        "CVE-2026-3776 (Foxit)",
+        "CVE-2025-6661 (PDF-XChange, memory corruption, ACE)"
+      ],
       "known_oddity": "Table 4 Dimension 3 on Foxit: PC-Only (397,916 bbks) scores BELOW None (406,448), i.e. producer-consumer-only modelling appears to underperform no relationship modelling at all. The paper does not comment. Do not build an argument on the Dim-3 sub-rows without re-reading them in the published ACM version.",
       "followup": "DONE 2026-08-23: full text read, note rewritten. Remaining: confirm final ACM DL pagination after CCS 2026 (The Hague, 15-19 Nov 2026); if the elided Table 1 rows (IDs 10-14, 26-28) matter, read them from the ACM version or the TeX source (arxiv.org/src/2608.06641)."
     },
@@ -390,6 +401,32 @@
       "added": "2026-09-03",
       "grounding": "full-text (arXiv HTML preprint v1). Read in full: S3 Data Collection, S4 incl. Table 1 and S4.3, S5 Contributing Factors, S6 incl. Tables 2-4, S7 incl. Tables 5-7, S8 Related Work, S9 Discussion/Conclusion. NOT read line-by-line: S1 Introduction body, S4.1-S4.2 worked examples, Fig. 10 plotted values. Springer LNCS camera-ready does not exist yet (ESORICS is 14-18 Sep 2026), so all numbers are preprint numbers and author affiliations are unconfirmed.",
       "why_it_matters": "The first systematic empirical study of MULTI-PATCH vulnerability fixes, and therefore the first venue-published quantification of the exact phenomenon this repo has documented qualitatively across two SiYuan XSS incomplete-fix chains. Key grounded numbers: 25,113 NVD CVEs with OSS security patches; 1,646 multi-patch (avg 2.55 patches/CVE); taxonomy A1=830 cross-branch/project, A2=30 in-branch multi-location, B1=16 workaround+fix, B2=128 fix+docs, C1=641 INCOMPLETE FIXES, C2=119 bug-introducing fixes; 127 CVE records mix vulnerability-INTRODUCING and vulnerability-FIXING commits under the same 'patch' label. CWE-79 XSS is the #1 CWE among multi-patch fixes at 519 CVEs; CWE-94 Code Injection enters the top 10 at #10, up 6 ranks vs single-patch. JavaScript is over-represented in multi-patch fixes (11.68% vs 9.53% single-patch, rank 3 in both); TypeScript 4.29% vs 3.56%. 31.7% of multi-patch fixes take more than a day end to end; for C1 specifically 336 <1d / 145 1-30d / 33 30-360d / 4 >360d. THE HEADLINE NEGATIVE RESULT: six vulnerability-detection models (CodeBERT, UniXcoder, PDBERT, LineVul, VulBERTa, Devign, ReVeal - LLMs deliberately excluded to avoid pre-training leakage) ALL score accuracy and F1 below 50% on incomplete-fix detection, which the authors call worse than random guessing; TPR drops 7.17-28.38 points vs single-patch data (CodeBERT 38.54->10.16, LineVul F1 75.36->5.46). Failure diagnosis: models assign the SAME label to pre-fix, intermediate and post-fix versions of a function. Clone detectors fail too: FIRE TPR 90.00->52.46, ReDebug 37.56->16.75, with FPR falling as well, i.e. they MISS rather than over-predict. Three uses for the thesis: (1) motivation - it forecloses the objection that the SiYuan incomplete-fix chains are just one badly-maintained project; (2) gap - the authors' own negative results open the detection gap that a sibling-sink-enumeration discovery method targets; (3) measurement-validity - their commit-ID de-duplication (URL count != patch count) and their finding that 5.8% of multi-patch records contain security-irrelevant patches is the same class of problem as this repo's 2026-09-02 correction that GHSA record counts are not discovery counts. CAUTION: the word 'Electron' never appears; JavaScript share is language-level only, with no Electron/npm breakdown. Cite as ADJACENT, never as Electron work."
+    },
+    {
+      "id": "usenixsec2023-bilingual-problems",
+      "title": "Bilingual Problems: Studying the Security Risks Incurred by Native Extensions in Scripting Languages",
+      "title_norm": "bilingual problems studying the security risks incurred by native extensions in scripting languages",
+      "authors": [
+        "Cristian-Alexandru Staicu (CISPA)",
+        "Sazzadur Rahaman (University of Arizona)",
+        "Ágnes Kiss (CISPA)",
+        "Michael Backes (CISPA)"
+      ],
+      "venue": "USENIX Security 2023",
+      "venue_short": "USENIX Sec",
+      "year": 2023,
+      "scope": "ADJACENT",
+      "doi": "",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/staicu",
+      "pdf": "https://www.usenix.org/system/files/sec23fall-prepub-262_staicu.pdf",
+      "preprint": "https://arxiv.org/abs/2111.11169",
+      "artifact": "https://www.staicu.org/native-extension-risks",
+      "note_file": "papers/usenixsec2023-bilingual-problems.md",
+      "added": "2026-09-06",
+      "grounding": "FULL TEXT. Read end-to-end from the open-access USENIX prepub PDF (sec23fall-prepub-262_staicu.pdf): abstract, §1 intro, §2 threat model, §3 misuse taxonomy M1-M17 + Table 1, §5.1 large-scale study, §5.2 zero-days + Tables 2-3 header, §5.3 application study + Table 4. All numbers in the note are quoted from that text. NOT read: the full 33-row Table 3 body, and proceedings page numbers (absent from the prepub PDF).",
+      "why_in_scope": "Node.js-runtime attack surface, explicitly inside the config's INCLUDE rule ('npm / supply-chain as it affects Electron or the Node.js runtime', 'attack surface'). Native .node addons are loaded directly into the Electron main process, so this is the one paper in the corpus that measures the JS<->C/C++ boundary rather than the JS layer alone. Sits alongside Mininode (RAID'20) and HODOR (CCS'23) as Node.js attack-surface work, but is a DISCOVERY paper, not a defense.",
+      "headline_numbers": "6,432 npm packages analysed (from 7,605 downloaded, 1,173 discarded as C/C++-free); 730 of 1,669 flows reaching a type-conversion API had no type check; 111 of 300 cross-language flows unsanitised; 33 packages with confirmed zero-day hard crashes / uninitialised-memory reads; 38 flagged packages exploited, 22 clear false positives (6% FP rate); tool validation 84% recall (21/25) and 95% precision; 7 CVEs assigned, 6 high severity; application study over 1,993 dependent repos -> 7 alerts, 6 true positives in 6 remotely-crashable open-source applications.",
+      "discovered_via": "Domain-restricted WebSearch ('Electron desktop application vulnerability detection', allowed_domains usenix.org/ndss-symposium.org/ieee-security.org/sigsac.org/acsac.org/dl.acm.org). BACKFILL CATCH, not a new drop — see keyword_blind_spot_2026-09-06 in config/sources.json."
     }
   ],
   "excluded": [
@@ -699,6 +736,15 @@
       "year": 2026,
       "reason": "Server-side web-application vulnerability reproduction. Pure web with no desktop/Electron angle - same rationale as the already-excluded webFuzz. (Its sibling on the same CCS list, 'BACAgent: LLM-Powered Detection of Broken-Access-Control Vulnerabilities in Web Applications', is excluded for the identical reason and is not separately ledgered.)",
       "url": "https://www.sigsac.org/ccs/CCS2026/program/accepted-papers.html"
+    },
+    {
+      "title": "Medusa Attack: Exploring Security Hazards of In-App QR Code Scanning",
+      "title_norm": "medusa attack exploring security hazards of in app qr code scanning",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Mobile-only — in-app QR scanning in Android/iOS apps invoking Remotely Accessible Handlers (115/337 of scanned apps vulnerable); no desktop, Electron, CEF or embedded-WebView-on-desktop angle. Matches the config EXCLUDE category 'mobile-only studies'.",
+      "added": "2026-09-06",
+      "surfaced_by": "Same domain-restricted usenix.org sweep that produced the Bilingual Problems catch."
     }
   ],
   "context_non_venue": [
@@ -1045,7 +1091,9 @@
           "severity": "Critical 9.9 — the HIGHEST score anywhere in this repo's advisory corpus",
           "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
           "cvss_note": "UI:N (no user interaction). Every other advisory in the corpus is UI:R. Sink 1 fires on page load, so merely opening a synced note is sufficient — this is why it outscores the 9.6 deep-link advisory.",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "published": "2026-06-03",
           "publisher": "88250 (SiYuan maintainer)",
           "reporter": "Yunkaiwjs — a THIRD independent reporter against this app, distinct from ngocnn97 and @hypnguyen1209",
@@ -1074,7 +1122,11 @@
           "severity": "9.6 CRITICAL",
           "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
           "cvss_note": "PR:N — no privileges required, unlike CVE-2026-50551 (PR:L) and CVE-2026-33066 (PR:L). Same 9.6 total as -33066 but reached by a different route.",
-          "cwe": ["CWE-116", "CWE-1188", "CWE-79"],
+          "cwe": [
+            "CWE-116",
+            "CWE-1188",
+            "CWE-79"
+          ],
           "cwe_note": "FIRST advisory in this corpus to carry CWE-1188 'Initialization of a Resource with an Insecure Default' ALONGSIDE the XSS CWE. That is the webPreferences profile itself being assigned a weakness class inside an advisory that also has a concrete sink — i.e. the (A1) config+sink case getting the CWE that Vikunja's (A2) config-alone case earned on its own. Useful for arguing the two are the same finding at different levels of completeness.",
           "glad_record_dates": "GitLab Advisory Database record dated May 8, 2026, updated May 15, 2026. These are GLAD record dates, NOT the GHSA publication date — the GHSA page itself was not opened.",
           "privilege_config_verbatim": "app/electron/main.js:407-411 — nodeIntegration: true, contextIsolation: false, webSecurity: false",
@@ -1097,7 +1149,9 @@
           "title_verbatim": "Stored XSS to RCE via Unsanitized Bazaar README Rendering",
           "severity": "Critical 9.6",
           "cvss_vector": "CVSS 9.6 (AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H)",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "published": "2026-03-17",
           "publisher": "88250 (SiYuan maintainer)",
           "reporter": "0xkakash1 — a FOURTH independent reporter against this app, distinct from ngocnn97, @hypnguyen1209 and Yunkaiwjs",
@@ -1126,7 +1180,9 @@
           "title_verbatim": "Unauthenticated reflected SVG XSS in `/api/icon/getDynamicIcon` (`type=8`) enables arbitrary JavaScript execution",
           "severity": "Critical 9.3",
           "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "patched": "3.5.9",
           "mechanism_summary": "GET /api/icon/getDynamicIcon with type=8 embeds attacker-controlled content into the SVG output without escaping. The endpoint is UNAUTHENTICATED and returns image/svg+xml, so a crafted URL injects executable SVG/HTML event handlers and runs JavaScript in the SiYuan web origin; from there it can drive authenticated API actions and exfiltrate data when a logged-in user opens the link.",
           "WHY_THIS_ONE_IS_DIFFERENT": "IT DOES NOT CLAIM RCE. Same application, same CWE-79, same year, and yet the advisory stops at JavaScript execution plus authenticated API abuse — the escalation to child_process is never asserted, and the vector carries A:N (no availability impact) rather than the A:H that every XSS->RCE advisory in this corpus carries. THIS IS THE MOST USEFUL THING IN THE ENTRY: it is a within-application control case showing that the vendor DOES distinguish XSS-only from XSS->RCE when scoring, which means the 9.9/9.6/9.0 RCE scores elsewhere are not simply this vendor inflating every XSS. It also sharpens the severity-comparability warning — a corpus-wide aggregation of 'SiYuan XSS CVSS' would silently mix an XSS-only 9.3 with RCE 9.6s.",
@@ -1143,7 +1199,9 @@
           "title_verbatim": "Stored XSS to RCE via Unsanitized Bazaar Package Metadata",
           "severity": "Critical 9.6",
           "cvss_vector": "CVSS 9.6 (AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H)",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "published": "2026-03-17",
           "publisher": "88250 (SiYuan maintainer)",
           "reporter": "0xkakash1 — same reporter as CVE-2026-33066, published the same day; the two are the one-click/zero-click pair against one marketplace",
@@ -1168,7 +1226,9 @@
           "added": "2026-09-01",
           "title_verbatim": "Incomplete fix for CVE-2026-33066: XSS in github.com/siyuan-note/siyuan",
           "severity": "Moderate / Medium (no CVSS vector published on the advisory page)",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "published": "2026-04-13",
           "publisher": "88250 (SiYuan maintainer)",
           "affected": "< commit b382f50e1880ed996364509de5a10a72d7409428",
@@ -1190,7 +1250,9 @@
           "added": "2026-09-02",
           "title_verbatim": "Remote Code Execution via Malicious Bazaar Package \\u2014 Marketplace XSS",
           "severity": "Critical (badge). Impact section states 'Severity: CRITICAL (CVSS 9.6)'. NO CVSS VECTOR STRING is published on the page \\u2014 do not attribute one.",
-          "cwe": ["CWE-79"],
+          "cwe": [
+            "CWE-79"
+          ],
           "published": "2026-03-14",
           "publisher": "88250 (SiYuan maintainer)",
           "reporter": "0xkakash1 (sole entry in Credits)",
@@ -1464,6 +1526,45 @@
       "updated": "2026-08-31",
       "grounding_2026-08-31": "Caveat (4) of the grounding note below is now CLOSED and the answer is favourable: github.com/GitHubSecurityLab/seclab-taskflows WAS fetched this run and has its own context_non_venue entry. It is a GENERAL-PURPOSE agentic code-auditing framework, NOT Electron-specific — no Electron, nodeIntegration, contextIsolation, preload or contextBridge vocabulary appears in the README or in the triage taskflow, and its classify_application_local.yaml twice instructs the agent to EXCLUDE misconfiguration-dependent findings. Caveats (1), (2), (3) and (5) below remain open and unchecked.",
       "grounding": "PRIMARY SOURCE, full read. https://github.com/go-vikunja/vikunja/security/advisories/GHSA-xh67-63q3-hf7g was fetched and read end-to-end this run: summary, root cause with the verbatim BrowserWindow code block and file/line reference, the absent-hardening list, the five-step attack scenario, impact statement, recommended fix, credits, severity, CVE ID, both CWEs, npm package, affected/patched ranges, publisher and publication date are all verbatim from that page. Repo star/fork counts are as rendered at fetch time. NOT VERIFIED: (1) the lead surfaced from the standing 'XSS to RCE cross-platform desktop app' query; nothing from the search summary is relied on — every fact above comes from the GHSA page. (2) The go-vikunja/vikunja repository source was NOT opened: the desktop/main.js:11-17 code block is quoted from the advisory, not confirmed against the repo, and it was NOT checked whether 2.2.0 actually applied the recommended settings or only some of them. (3) NO CVSS VECTOR EXISTS to verify — the page renders the word 'High' with no score block, unlike the SiYuan/Notesnook/DeepChat/DbGate pages. Do not impute a vector. (4) GitHub Security Lab Taskflows was NOT investigated this run — the repository github.com/GitHubSecurityLab/seclab-taskflows was not fetched, so nothing is known about what the tool does, whether it is Electron-specific, or how many other advisories it has produced. THIS IS THE TOP-PRIORITY FOLLOW-UP: if it is a general agentic scanner that happens to catch Electron configs, that is one story; if it ships an Electron-specific taskflow, it is prior art a discovery thesis must address directly. (5) It was not checked whether Vikunja's frontend has any actual XSS, i.e. whether the escalation was ever demonstrated end-to-end — the advisory does not claim it was."
+    },
+    {
+      "title": "Taint-Style Vulnerability Detection and Confirmation for Node.js Packages Using LLM Agent Reasoning (LLMVD.js)",
+      "title_norm": "taint style vulnerability detection and confirmation for node js packages using llm agent reasoning",
+      "authors": [
+        "Ronghao Ni",
+        "Mihai Christodorescu",
+        "Limin Jia"
+      ],
+      "venue": "arXiv (preprint)",
+      "arxiv": "2604.20179",
+      "url": "https://arxiv.org/abs/2604.20179",
+      "year": 2026,
+      "date": "2026-04-22",
+      "scope_topical": "ADJACENT (Node.js-runtime taint-style vulnerability DISCOVERY) — but a preprint, not one of the nine venues",
+      "why": "Directly benchmarks an LLM-agent pipeline against NodeMedic-FINE (NDSS'25, already in_scope), FAST and Explode.js on exactly the task three in_scope papers attack with program analysis. Grounded from the fetched PDF text: LLMVD.js is a multi-stage ReAct-style agent that scans code, proposes vulnerabilities, generates PoC exploits and validates them via lightweight execution oracles; it confirms 84% of public-benchmark vulnerabilities with valid exploits; on a set of 260 recently released npm packages the program-analysis baselines produce validated exploits for at most 2 packages while LLMVD.js produces them for 36; 36 previously undocumented vulnerabilities were reported to maintainers. Evaluated on three datasets (public benchmarks, transformed benchmark variants for memorization-robustness checks, a private real-world set without CVEs/public exploits, plus the recent-package set).",
+      "relevance_to_thesis": "Sets the current bar for 'LLM agent vs. program analysis' on the Node.js side. If the thesis proposes an Electron-specific discovery method, this is the methodology baseline reviewers will ask about — and its explicit limitation (packages, not packaged desktop apps; no cross-process/IPC reasoning) is the same gap Proton/Buzz-to-Boom targets.",
+      "promotion_watch": "Watch for venue attribution. No journal-ref or venue comment observed as of this run.",
+      "grounding": "PARTIAL. Read from the fetched arXiv PDF text via targeted grep (abstract, contributions list, §related-tools comparison incl. Table 1 header). The arXiv /abs/ page returned an empty response via web_fetch this run; full paper NOT read end-to-end.",
+      "added": "2026-09-06"
+    },
+    {
+      "title": "PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages",
+      "title_norm": "pocgen generating proof of concept exploits for vulnerabilities in npm packages",
+      "authors": [
+        "Deniz Simsek",
+        "Aryaz Eghbali",
+        "Michael Pradel"
+      ],
+      "venue": "FSE 2026 (Proc. ACM Softw. Eng. 3, FSE, Article FSE171, July 2026) — software-engineering venue, NOT one of the nine security venues",
+      "arxiv": "2506.04962",
+      "url": "https://arxiv.org/abs/2506.04962",
+      "doi": "10.1145/3808178",
+      "year": 2026,
+      "scope_topical": "ADJACENT (npm PoC-exploit synthesis) — refused from in_scope/excluded on the VENUE rule only, exactly like the TOSEM refusal recorded on 2026-09-04",
+      "why": "The FSE-side counterpart to Bullseye (NDSS'26, in_scope) and NodeMedic-FINE (NDSS'25, in_scope): LLM + static analysis to autonomously generate and validate PoC exploits for npm vulnerabilities. Kept here because a thesis on vulnerability DISCOVERY will be expected to know the strongest PoC-synthesis baseline regardless of which community published it.",
+      "reported_numbers": "Exploits generated for 395/560 vulnerabilities (71%), reported as 38 absolute percentage points above the prior state of the art; 76/126 (60.3%) on recent real-world vulnerabilities; five generated exploits added to GitHub Security Advisories records.",
+      "grounding": "WEAK — SEARCH-SUMMARY ONLY. The arXiv /abs/ page returned an empty response and the ACM DOI (10.1145/3808178) returned an empty body via web_fetch (paywall/JS). The numbers above come from a WebSearch result summary and have NOT been verified against the paper text. RE-GROUND BEFORE CITING: fetch https://arxiv.org/pdf/2506.04962.",
+      "added": "2026-09-06"
     }
   ]
 }

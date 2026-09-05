@@ -1,5 +1,57 @@
 # Changelog
 
+## 2026-09-06 — Daily watch
+
+**One new `in_scope` paper — and it is a three-year-old backfill miss, not a new drop. That is the story of this run.** Ledger moves **18 → 19 in_scope**, **35 → 36 excluded**, **15 → 17 context_non_venue**. Nothing new was published at any of the nine venues (third consecutive run of that). What changed is *how the watch searches*, because this run proved the keyword set has a hole big enough to hide a USENIX Security paper in.
+
+### THE FIND — and the methodological failure it exposes
+
+**"Bilingual Problems: Studying the Security Risks Incurred by Native Extensions in Scripting Languages"** — Staicu, Rahaman, Kiss, Backes (CISPA + U. Arizona), **USENIX Security '23**. Full 6-part note written from the complete open-access PDF: [`papers/usenixsec2023-bilingual-problems.md`](papers/usenixsec2023-bilingual-problems.md). Scope tag **ADJACENT**.
+
+The paper measures the JavaScript↔C/C++ boundary that npm native addons open, at ecosystem scale: **6,432 npm packages** analysed via cross-language static analysis (Joern-based, stitching the two functions closest to the language boundary); **730 of 1,669** flows reaching a type-conversion API had **no type check at all**; **111 of 300** cross-language flows unsanitised; **33 packages** with confirmed zero-day hard crashes or uninitialised-memory reads; **7 CVEs, 6 rated high severity** (`sqlite3` at 452k weekly downloads, `libxmljs`, `pg-native`, `@discordjs/opus`, `bignum`, `ced`, `fast-string-search`); and a taint analysis over **1,993 dependent repositories** confirming **6 open-source applications remotely crashable by a pure web attacker**. Tool validation: **84% recall (21/25), 95% precision**, 6% false-positive rate in the wild.
+
+Why it matters to this thesis: every Electron-native paper in the ledger — Inspectron (black-box config auditing), the NDSS'23 DOM-tree-type work, Proton/*Buzz to Boom* (IPC message fuzzing) — **reasons over JavaScript alone**. A packaged Electron app routinely ships `.node` binaries that load straight into the privileged main process, re-importing C/C++ memory unsafety below every layer those tools inspect. The paper names Electron.js only once, in its introduction, and analyses **zero** Electron apps — which is precisely why it reads as an *open gap* rather than a competitor. Three specific holes it leaves: it targets **npm libraries and server-side web apps, not packaged desktop apps**; its oracle is **hard crash only**, so DoS and memory disclosure but never escalation to RCE; and its threat model explicitly **forbids `Object.prototype` modification**, so prototype-pollution × native-extension *combinations* are untouched. All three are recorded in §5 of the note.
+
+**Now the uncomfortable part.** This paper is from 2023. The config's `backfill_from_year` is **2020**. It has been in scope for the entire life of this repo and **survived six runs undetected** — because its title contains none of the watch's keywords: no "electron", no "node.js", no "npm", no "supply chain". It surfaced today only because a **domain-restricted topical WebSearch** (`allowed_domains` = the venue hosts) ranks by subject matter rather than title vocabulary.
+
+Two fixes are now written into `config/sources.json`:
+
+1. **`keywords.native_boundary_added_2026_09_06`** — a whole missing axis: *native extension, native addon, node-gyp, N-API, nan, node-addon-api, cross-language, language boundary, FFI, binding layer, memory safety*.
+2. **`required_channels.domain_restricted_topical_sweep`** — the domain-restricted sweep is promoted from optional to **mandatory every run**, with five plain-language queries to rotate through. It is the only channel in this watch capable of finding a correctly-scoped paper that shares no vocabulary with the config.
+
+Honest inference: if one such miss existed, others probably do. Assume the 2020–2025 backfill is **incomplete**, and let the rotating topical sweep chip at it run by run.
+
+### The two live fronts
+
+**RAID 2026 — first movement in three runs, but still no titles.** `accepted.html` renders the `## Accepted papers` heading followed by nothing, now **eight weeks and three days** after the 2026-07-10 notification, with the conference ~5 weeks out. But `/program.html` has moved off bare "TBD": it now carries a full day-by-day **skeleton** — Oct 11 arrival day, then Oct 12/13/14 each with seven one-hour session slots, lunch and coffee breaks, a 16:30 closing ceremony, daily 08:00–17:00 registration, per-day "Download PDF" placeholders. Every Title/At/Chair/Description field is still literally "TBD", so nothing is recoverable — but the scaffolding now exists to be filled. **The program page may well be populated before the accepted list is; check both.**
+
+**ACSAC 2026 — two days out.** Notifications dated **2026-09-08**. An `acsac.org`-restricted search returns only submissions/CFP/registration/venue/workshops/committees pages for 2026 and no program page, while the 2025 equivalent (`/2025/program/papers/`) *is* indexed — so the absence is real, not a search artifact. Also logged: a **tooling trap hit live** — `www.acsac.org/2026/program/papers/` cannot be fetched directly because it fails the web_fetch provenance rule and no search result has surfaced it yet; drive this venue with a domain-restricted search first, never a constructed URL. And a scheduling subtlety worth remembering: ACSAC's three outcomes (Accept / **Minor Revision** / Reject) mean the list can publish *incomplete* and grow through the 2026-10-08 revision window, so **re-sweep after 10-08 even if a list appears earlier**.
+
+### A better door for NDSS
+
+`https://www.ndss-symposium.org/news/` turns out to be a single dated, reverse-chronological feed that announces the exact moment each accepted-papers list publishes — and it fetches cleanly in one call and is **year-agnostic**, so unlike every templated URL in the config it never needs re-discovery. Reading the publication dates off it also corrects an assumption: NDSS'25 posted a **summer-cycle list on 2024-10-02** and the full list on 2025-02-20, but NDSS'26 posted **only once, on 2026-02-13** — the early summer-cycle drop was discontinued between editions. So for NDSS'27 (Seoul, 22–26 Mar 2027; summer cycle closed 2026-05-06, Fall CFP opened 2026-08-15) the list lands either **~early Oct 2026** or **~Feb 2027**. **Check the news feed weekly from 2026-10-01** — second-nearest first-publication event after ACSAC. Recorded in the NDSS venue entry.
+
+### Everything else
+
+USENIX Security '27 Cycle 1 closed to submissions 2026-08-25 with no notification date published (embargo 2027-02-11, symposium 2027-08-11) — no list. IEEE S&P '27: submissions due 2026-11-10, **notification 2027-03-05**, Montreal. AsiaCCS '27 Cycle 1 notification 2027-03-31. DSN '27 (Berlin) is CFP-only. CCS '26 and ESORICS '26 remain swept; the ESORICS Springer chapter-level TOC is still dated **2026-10-28** and stays on the calendar.
+
+### Adjacent channels
+
+**arXiv 2607.20698, *Buzz to Boom* (Proton)** — re-checked at the abstract page directly. Still **v1 only**, submitted 22 Jul 2026, **no journal-ref, no venue comment**. Stays `context_non_venue` and remains the ledger's most likely near-term promotion.
+
+**Two preprint/near-miss additions to `context_non_venue`:**
+
+- ***Taint-Style Vulnerability Detection and Confirmation for Node.js Packages Using LLM Agent Reasoning* (LLMVD.js)** — Ni, Christodorescu, Jia; arXiv 2604.20179, 22 Apr 2026. A ReAct-style agent pipeline benchmarked **directly against NodeMedic-FINE (NDSS'25, `in_scope`)**, FAST and Explode.js: confirms **84%** of public-benchmark vulnerabilities with valid exploits; on **260** recently released npm packages the program-analysis baselines validate **≤2** while LLMVD.js validates **36**. This is the "LLM agent vs. program analysis" bar reviewers will ask about. Grounding marked **PARTIAL** — read via targeted grep on the fetched PDF, not end-to-end; the `/abs/` page returned empty.
+- ***PoCGen*** — Simsek, Eghbali, Pradel. Refused from `in_scope`/`excluded` on the **venue rule only** (FSE 2026 / *Proc. ACM Softw. Eng.*, not one of the nine) — the same disposition as the TOSEM refusal on 09-04, except this one is topically strong enough to keep as context: it is the FSE-side counterpart to Bullseye and NodeMedic-FINE. Grounding marked **WEAK — SEARCH-SUMMARY ONLY**: both the arXiv `/abs/` page and the ACM DOI returned empty bodies, so its reported figures (395/560, 76/126) are **unverified and flagged RE-GROUND BEFORE CITING**.
+
+**One exclusion:** *Medusa Attack: Exploring Security Hazards of In-App QR Code Scanning* (USENIX Sec '23) — surfaced by the same sweep that found Bilingual Problems; mobile-only, no desktop angle, so it goes to `excluded` where it will never be re-surfaced.
+
+**Electron upstream advisories:** the keyword sweep re-surfaced CVE-2026-70601 (contextIsolation bypass via `Function.prototype.bind` hijack) and the Notesnook pair including CVE-2026-42090 — **all three verified as already inside recorded ledger entries**, checked against the stored CVE ranges rather than by eyeballing titles. No advisory work needed.
+
+### Honest limits on this run
+
+The USENIX '26 caveat inherited from 09-04 stands unchanged: the "nothing new" claim there rests on keyword-restricted search plus earlier sweeps, **not** a title-by-title pass over ~400 papers, which is unreachable from a scheduled run (web_fetch provenance; browser pane needs per-site approval). Today adds a sharper version of the same warning: **that caveat now has a demonstrated failure case at a different venue-year.** Keyword-restricted search over a venue you have already "swept" can and did miss an in-scope paper. One interactive DBLP-TOC pass over `dblp.org/db/conf/uss/uss2023.html` through `uss2026.html` would be the honest way to close it.
+
 ## 2026-09-05 — Daily watch
 
 **No new papers today.** Ledger holds at **18 in_scope / 35 excluded / 15 context_non_venue** for the second consecutive run. Nothing new was published at any of the nine venues, so the candidate count and the post-diff count are both zero and are the same statement. What this run produced is one genuinely new **discovery channel** for ESORICS, plus a hard re-confirmation on the two live fronts.

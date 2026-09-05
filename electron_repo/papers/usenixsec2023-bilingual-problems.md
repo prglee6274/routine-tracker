@@ -1,0 +1,83 @@
+# Bilingual Problems: Studying the Security Risks Incurred by Native Extensions in Scripting Languages
+
+**Authors:** Cristian-Alexandru Staicu (CISPA Helmholtz Center for Information Security), Sazzadur Rahaman (University of Arizona), Ágnes Kiss (CISPA), Michael Backes (CISPA)
+**Venue / Year:** 32nd USENIX Security Symposium (USENIX Security '23), Fall cycle — 2023
+**Links:** [USENIX presentation page](https://www.usenix.org/conference/usenixsecurity23/presentation/staicu) · [Open-access PDF (prepub)](https://www.usenix.org/system/files/sec23fall-prepub-262_staicu.pdf) · [arXiv:2111.11169](https://arxiv.org/abs/2111.11169) · artifact/supplementary at https://www.staicu.org/native-extension-risks
+**Scope tag:** ADJACENT
+
+**Relation to a thesis on discovering Electron-app vulnerabilities (one line):** Electron's threat surface is not only the DOM→IPC→Node path the ledger already covers — every `.node` binary an Electron app pulls in through npm re-imports C/C++ memory unsafety *inside* the main process, and this is the only paper in the corpus that measures that boundary at ecosystem scale.
+
+> **한 줄 요약 (KO):** npm 네이티브 확장(C/C++ 애드온)의 API 오용을 언어 간(cross-language) 정적 분석으로 6,432개 패키지에서 측정해, 33개 패키지에서 0-day 하드 크래시/메모리 노출을 실증하고 CVE 7건을 받은 연구. Electron 앱도 결국 Node.js 런타임 위에서 같은 애드온을 로드하므로, 논문이 겨냥하는 "언어 경계"는 본 논문 주제의 공격면 목록에 빠져 있던 축이다.
+
+**Grounding note:** written from the full open-access USENIX PDF (read end-to-end for the abstract, intro, threat model, §3 misuse taxonomy, §5.1 large-scale study, §5.2 zero-days, §5.3 application study). Every number below is quoted from that text. Page numbers in the USENIX proceedings were not visible in the fetched text and are therefore not asserted here.
+
+## 1. Problem, Gap & Hypothesis
+
+Scripting languages (JavaScript/Node.js, Python, Ruby) are marketed on *crash safety and memory safety by design*. Native extensions — custom C/C++ compiled at install time by `npm`/`pip`/`gem` and loaded on demand into the interpreter's own process — silently revoke that guarantee. The paper's stated gap is precise: prior supply-chain and ecosystem work "only considers security risks present in the scripting code, thus, ignoring the important cross-language interactions in these ecosystems." Prior work on the *binding layer* (Brown et al.; Node.js bindings) covers code written by runtime engineers; native extensions can be written by anyone, and a bug in one propagates to every dependent.
+
+The hypothesis is two-part. (a) The design of the native-extension API itself determines how easy misuse is — and the three languages differ sharply. (b) Misuse is not merely theoretical: it is prevalent in real npm packages and reachable *remotely* by a web attacker who only controls HTTP input.
+
+> **(KO)** 갭 설정이 깔끔하다 — 기존 npm/공급망 연구는 전부 "JS 코드 안"만 봤고, JS↔C/C++ **경계**는 아무도 대규모로 안 봤다는 것. 본 논문의 Electron 연구도 지금까지 렌더러↔메인(IPC) 경계에만 집중해 왔으므로, "경계를 하나 더 세는" 이 논증 구조 자체가 참고할 만하다.
+
+## 2. Methodology
+
+Three stages.
+
+**(i) Comparative API study (§3).** The authors hand-write deliberately vulnerable extensions in each language and probe the API's corner cases under a *strong attacker model*, producing a **17-item misuse taxonomy (M1–M17)** grouped as Errors (M1–M2), Arguments (M3–M6), Returns (M7–M8), Memory (M9–M10), High-level (M11–M12), Low-level (M13–M17). Runtimes tested: Node.js 15.4.0, Python 3.8.5, Ruby 2.7.0p0; for Node.js **both** Nan and N-API are evaluated separately because both are prevalent in the wild.
+
+**(ii) Cross-language static analysis.** Intra-procedural data-flow analysis on the C/C++ side (built on **Joern**'s `.dot` graphs) to find flows from extension arguments to type-conversion sinks with no type check, plus a lightweight **cross-language graph** built by stitching together *the two functions closest to the language boundary* — deliberately simple rather than a whole-program cross-language IR.
+
+**(iii) Application-level reachability (`FlowJS`).** Demand-driven taint analysis from HTTP request data to the vulnerable package API, under a *weak (web) attacker model*. `FlowJS` analyses one JavaScript file at a time, so repositories are first merged with Google Closure Compiler.
+
+Two attacker models are kept explicitly separate, and the paper is careful that even its "strong" model is *weaker* than prior binding-layer work: only JSON-serialisable arguments, **no attacker-defined functions and no modification of `Object.prototype`**. Supply-chain abuse (deliberately malicious extensions) is declared out of scope — developers are assumed honest but fallible.
+
+> **(KO)** 방법론이 "무겁지 않게" 설계된 점이 배울 부분. 언어 간 전체 IR을 만들지 않고 **경계 양쪽 함수 두 개만 이어붙이는** 근사로 충분한 정밀도를 얻었다(95% precision, 84% recall). 또 강한 공격자 모델에서 `Object.prototype` 변조를 **금지**한 것이 눈에 띈다 — 즉 prototype pollution 계열(ledger의 Silent Spring/GHunter/UOP)과 의도적으로 겹치지 않게 선을 그은 것.
+
+## 3. Experiments / Evaluation Setup — targets, dataset sizes, configs, what was measured
+
+- **Corpus construction:** packages were pre-filtered by their dependence on `prebuild-install`, `node-addon-api`, `nan` rather than downloading all ~1.5M npm packages. **7,605** packages downloaded; **1,173** discarded as containing no C/C++ code; **6,432 npm packages** analysed (latest version at time of study).
+- **Hardware:** a server with **64 AMD EPYC 7H12 cores, 2 TB RAM, Debian 11**. Graph extraction finished in <10 s for **75%** (native) and **93%** (JavaScript) of packages; timeouts for **69** packages on the C/C++ side and **34** on the JavaScript side (<0.5%).
+- **Tool validation:** a controlled benchmark of **25 hand-collected real-world C++ functions**, all containing a flow to the target API → flow detected in **21 (84% recall)**; one false positive across verified flows (**95% precision**). Microbenchmarks released as supplementary material.
+- **Exploitation oracle:** *hard crash*, chosen because it is manually verifiable (the paper notes this mirrors standard fuzzing practice). Three sink APIs: `*.ToLocalChecked()`, casts to Buffer, casts to Function. Installation was attempted across **five Node.js versions** (15.4.0, 14.15.0, 12.22.1, 8.17.0, 0.12.18) because many packages would not build.
+- **Application study:** the **seven** most-downloaded (>1,000 downloads) remotely-exploitable packages — `sqlite3`, `libxml`, `bignum`, `time`, `pg-native`, `@discordjs/opus`, `bigint-buffer` — with at most **300** dependent GitHub repositories each, **1,993 Node.js repositories** in total. Closure successfully merged **1,141 of 1,993**; the rest were analysed file-by-file.
+
+> **(KO)** 평가 설계에서 가장 정직한 부분: "설치가 안 돼서 검증 못 한" 패키지를 `unable to verify`라는 별도 범주로 남겨 두고, 그래서 false-positive 판정 상당수가 **수동 코드 리뷰 기반**임을 스스로 밝힌다. 본 논문에서 Electron 앱 대규모 실험을 설계할 때도 "설치/빌드 실패"를 결과 표에 명시적 범주로 넣어야 한다는 실무 교훈.
+
+## 4. Results / Key Findings — concrete numbers
+
+- **API design matters, and Node.js is the worst offender.** None of the three languages prevents *all* misuse, but "the Node.js API is by far the most permissive." Concretely: Python and Ruby *abort the call* on wrong argument type (M3), wrong argument count (M4), embedded `\0` (M5) and numeric overflow (M6); Node.js allows all four. Of the two Node.js APIs, N-API at least returns a non-empty status code on type mismatch — **Nan does not detect the mismatch at all**.
+- **Type-conversion prevalence:** 77% of packages cast to object, number or string; only **16.3%** cast to function (i.e. at most ~1 in 3 packages do asynchronous cross-language work).
+- **Missing checks are common:** **2,802** packages contain type conversions, **1,669** have a flow reaching the conversion API; of those, **939 type-check in the native code and 730 do not**.
+- **Cross-language analysis:** **6,401** cross-language flows analysed, **300** reaching a sink — **144** sanitised in C/C++, **45** in JavaScript, **22** in both, **111 unsanitised**.
+- **Zero-days:** **38** flagged packages successfully exploited by the automated pipeline; **33 npm packages** confirmed with a previously unknown hard crash / uninitialised-memory read / memory leak exploitable through the package's public API. **22** clear false positives → a **6% false-positive rate**, consistent with the controlled experiment. In all 33, the root issue was careless type conversion (M3, M4); three additionally exhibited M2/M9.
+- **Disclosure:** **seven CVEs** assigned — `bignum` (CVE-2022-25324), `ced` (CVE-2021-39131), `libxmljs` (CVE-2022-21144), `sqlite3` (CVE-2022-21227), `pg-native` (CVE-2022-25852), `@discordjs/opus` (CVE-2022-25345), `fast-string-search` (CVE-2022-22138). **Six rated high severity, one medium.** All CVE-assigned high-profile packages were fixed. `utf-8-validate` (917,251 weekly downloads) was dismissed by its maintainer as not remotely triggerable; two reports were still pending. Reach matters: `sqlite3` had **452,737** weekly downloads at the time of writing.
+- **Remote reachability:** FlowJS raised **7 alerts across 1,993 repositories** — 4 in `sqlite3` dependents, 2 in `libxml` dependents, 1 in `pg-native` dependents; zero for `bignum`, `time`, `@discordjs/opus`, `bigint-buffer`. **6 of 7 were true positives, in six distinct open-source applications**, remotely crashable by a pure web attacker. The single false positive was a path-sensitivity miss (a type check guarded the sink). A separate run found **27** cases where `libxml` parses content read from local files.
+- **A memorable primitive:** in `fast-string-search`, passing a number instead of a string yields a huge string length; because the compiler reuses memory between API calls, a previously-passed string leaks out — the paper's worked example leaks a prior argument containing `"My password is Foo123#"`.
+
+> **(KO)** 숫자 중 본 논문에 가장 쓸모 있는 것: **730 / 1,669** (경계를 넘는 흐름 중 타입 체크가 없는 비율 ≈ 44%)와 **111 / 300** 미검증 cross-language 흐름. 즉 "안전하다고 광고된 런타임 안에서, 개발자가 자발적으로 체크하도록 맡긴 API는 절반 가까이 체크되지 않는다"는 정량적 근거. Electron의 `contextBridge`/IPC도 정확히 같은 "개발자 자율 검증" 설계라서, 이 수치는 유비(analogy) 논증에 그대로 쓸 수 있다.
+
+## 5. How to cite in Related Work
+
+Draft English sentences, ready to adapt:
+
+> Beyond the JavaScript layer itself, the Node.js runtime that Electron embeds is also reachable through native extensions — C/C++ addons compiled at install time and loaded directly into the interpreter's process. Staicu et al. showed that the Node.js native-extension API is markedly more permissive than its Python and Ruby counterparts, allowing wrong argument types, wrong argument counts, embedded null terminators and numeric overflow to cross the language boundary unchecked [Bilingual Problems, USENIX Security '23]. Applying cross-language static analysis to 6,432 npm packages, they found that 730 of 1,669 flows reaching a type-conversion API were never type-checked, exploited 33 packages with proof-of-concept crashes and uninitialised-memory reads, and were assigned seven CVEs, six of them high severity. A follow-up taint analysis over 1,993 dependent repositories confirmed six applications remotely crashable by a web attacker.
+
+For a *discovery* framing, the sharper sentence is:
+
+> Existing analyses of Electron applications reason over JavaScript alone; yet a packaged Electron app routinely ships native addons whose misuse re-introduces memory-unsafety directly into the privileged main process, an attack surface no Electron-specific tool to date models.
+
+> **(KO) 본 논문(취약점 *발견* 논문) 대비 위치:**
+> - **동기(motivation)로 쓰는 게 가장 강력하다.** Ledger의 Electron 3대 발견 도구(Inspectron = 블랙박스 설정 감사, DOM-tree type = DOM 콘텐츠, Proton/Buzz-to-Boom = IPC 메시지 퍼징)는 **전부 JS 레이어만** 본다. 이 논문은 "그 아래에 C/C++ 레이어가 하나 더 있고, npm을 통해 무자각적으로 딸려 들어온다"는 것을 실증한다 → 본 논문이 **아직 아무도 안 본 축**을 주장할 근거.
+> - **방법론 참고:** 언어 경계를 "두 함수만 이어붙여" 근사한 cross-language 그래프. Electron에서 이에 대응하는 것은 **preload↔renderer 경계** 또는 **JS↔`.node` 경계**이며, 같은 저비용 근사가 통할 가능성이 크다.
+> - **남긴 빈틈(gap):** ① 대상이 **npm 라이브러리와 서버사이드 웹앱**이지, **패키징된 데스크톱 앱**이 아니다 — Electron 앱의 실제 애드온 사용률·도달성은 이 논문이 측정하지 않았다. ② 오라클이 **하드 크래시**뿐이라 DoS/메모리 노출까지만 다루고, Electron 맥락에서 진짜 중요한 **RCE로의 상승**은 다루지 않는다. ③ 위협 모델에서 `Object.prototype` 변조를 배제했으므로 prototype pollution × native extension의 **조합** 공격은 명시적 미탐색 영역이다. 이 세 개가 본 논문이 파고들 틈.
+> - **대비(contrast)용은 아님** — 방어 기법(COINDEF/HODOR/NodeShield)과 달리 이 논문은 발견 논문이므로, 경쟁자가 아니라 **인접 발견 사례**로 배치하는 게 맞다.
+
+## 6. Caveats / what I could not confirm from the text
+
+- **This is a 2023 backfill catch, not a new publication.** The config sets `backfill_from_year: 2020`; this USENIX Security '23 paper was simply never surfaced by earlier runs' queries because its title contains none of the config's keywords ("bilingual", "native extensions", "scripting languages"). It was found this run only as a side effect of a domain-restricted Electron sweep. **Treat this as evidence that the standing-query keyword set has a blind spot**, not as a new drop.
+- **Electron is named only in passing.** The word "Electron.js" appears in the introduction as an example of JavaScript's expansion into desktop applications; the paper does **not** analyse a single Electron application. Every Electron-specific claim above is my inference from the mechanism (Electron embeds Node.js and loads the same addons), not the paper's claim. Do not cite it as an Electron result.
+- **Page range and DOI unconfirmed.** The fetched prepub PDF (`sec23fall-prepub-262`) carries no proceedings page numbers; cite by USENIX URL until the final-version pagination is checked.
+- **Table 1's severity column** is the authors' own estimate ("We estimate the severity based on the impact a given misuse might have..."), not a CVSS-derived figure.
+- **Two disclosure outcomes were still open** at publication time ("still pending responses for the other two"); the paper does not say which packages, and I did not verify their current status.
+- **Table 3** (the full list of all 33 crashing packages, with versions, reach and endpoint) begins at the end of the fetched text; I read its header and the ten highlighted packages in Table 2 but did not transcribe all 33 rows. If the thesis needs the complete list, re-open the PDF at Table 3.
+- I did **not** independently verify any of the seven CVE records against NVD this run.
