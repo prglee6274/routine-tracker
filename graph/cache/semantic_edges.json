@@ -1218,5 +1218,33 @@
  "2609.03887->2605.08513": {
   "type": "extends",
   "evidence": "'단일 뉴런만으로 안전 가드를 우회할 수 있다'는 결과를 출발점 삼아, 사후학습 방법이 안전 메커니즘의 과집중을 완화할 수 있는지를 연구 질문으로 확장한다."
+ },
+ "2609.00605->2605.18253": {
+  "type": "background",
+  "evidence": "Cited among prior unlearning work for a different modality (masked diffusion LMs); no in-text comparison found."
+ },
+ "2609.01944->2608.27782": {
+  "type": "background",
+  "evidence": "Reference-list citation situating the paper among recent tight DP bound/audit results; no in-text engagement."
+ },
+ "2609.02786->2605.29801": {
+  "type": "extends",
+  "evidence": "SafeEvolve's title page is banded 'AgentDoG Team — Shanghai AI Laboratory' and shares senior author Dongrui Liu; it continues the AgentDoG agent-safety harness line."
+ },
+ "2609.02786->2606.02530": {
+  "type": "background",
+  "evidence": "SafeSteer appears only in the reference list as related safety-alignment work; no in-text comparison or baseline use found."
+ },
+ "2609.02786->2607.26115": {
+  "type": "background",
+  "evidence": "Appears only in the reference list (automated red-teaming); no in-text context."
+ },
+ "2609.03026->2606.27510": {
+  "type": "background",
+  "evidence": "Cited as a known measurement pitfall motivating the benchmark: 'Interactions between mediators can hide or inflate patching effects [11].'"
+ },
+ "2609.03026->2608.19338": {
+  "type": "extends",
+  "evidence": "Same author; explicitly positioned as the next stage: 'Mechanistic tomography treats measurements as a way to recover a mechanism or effect map [1]; ObserverBench starts with such an estimate and asks whether it supports a declared intervention or controller.'"
  }
 }

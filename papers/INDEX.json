@@ -21474,6 +21474,197 @@
    "subtopics": [
     "defense_mechanism"
    ]
+  },
+  "2609.02564": {
+   "version": "v1",
+   "title": "A Finger on the Scale: Covert Policy Steering through Agentic Skills",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "agent safety",
+    "supply chain attack",
+    "agentic skills",
+    "covert policy steering",
+    "behavioral auditing"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.04075": {
+   "version": "v1",
+   "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "agent evaluation",
+    "vulnerability patching",
+    "benchmark contamination",
+    "memorization",
+    "AIxCC"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "agent_safety"
+   ]
+  },
+  "2609.02893": {
+   "version": "v1",
+   "title": "Probe Generalization as Subspace Selection for OOD Deception Detection",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "probing",
+    "deception detection",
+    "OOD generalization",
+    "principal components",
+    "subspace selection"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2609.00498": {
+   "version": "v1",
+   "title": "Validity-Aware Jailbreak Evaluation for Large Language Models",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "jailbreak",
+    "safety evaluation",
+    "LLM-as-a-judge",
+    "false positive",
+    "retrieval-grounded verification"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2609.00051": {
+   "version": "v1",
+   "title": "From Detection to Refusal: Safer LLMs via Circuit-Guided Weight Scaling",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "safety circuit",
+    "mechanistic interpretability",
+    "attention heads",
+    "safety neurons",
+    "weight scaling"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2609.00605": {
+   "version": "v1",
+   "title": "Confess What You Know: Forget-Set Misalignment with Model Knowledge in LLM Unlearning",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "machine unlearning",
+    "forget set",
+    "data-blind unlearning",
+    "privacy leakage",
+    "gradient analysis"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2609.03026": {
+   "version": "v1",
+   "title": "ObserverBench: Testing Mechanistic Estimates for Intervention and Control",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "mechanistic interpretability",
+    "benchmark",
+    "safety monitoring",
+    "closed-loop control",
+    "SAE evaluation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "sae",
+    "mechanistic_position"
+   ]
+  },
+  "2609.02207": {
+   "version": "v1",
+   "title": "LeakageBench: Document-Level Leakage Risk for Redacting Personally Identifiable Information in Document Images",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "PII redaction",
+    "document images",
+    "GDPR",
+    "OCR",
+    "vision-language models"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2609.02786": {
+   "version": "v1",
+   "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "agent safety",
+    "safety alignment",
+    "harness",
+    "self-evolving",
+    "SFT-RL"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness",
+    "defense_mechanism"
+   ]
+  },
+  "2609.01944": {
+   "version": "v1",
+   "title": "Privacy Amplification Without Independence: How Far Negative Dependence Carries the Guarantees of Poisson Subsampling",
+   "first_seen": "2026-09-06",
+   "last_updated": "2026-09-06",
+   "folder": "2026-09-06",
+   "keywords": [
+    "differential privacy",
+    "privacy amplification",
+    "subsampling",
+    "Renyi DP",
+    "privacy accounting"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -21516,5 +21707,5 @@
    ]
   }
  },
- "last_run": "2026-09-05"
+ "last_run": "2026-09-06"
 }
