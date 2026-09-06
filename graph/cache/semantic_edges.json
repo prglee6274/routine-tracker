@@ -1246,5 +1246,25 @@
  "2609.03026->2608.19338": {
   "type": "extends",
   "evidence": "Same author; explicitly positioned as the next stage: 'Mechanistic tomography treats measurements as a way to recover a mechanism or effect map [1]; ObserverBench starts with such an estimate and asks whether it supports a declared intervention or controller.'"
+ },
+ "2608.27496->2606.15057": {
+  "type": "background",
+  "evidence": "ROPE의 문제 설정(에이전트 자율성 증가로 사용자 질의만으로는 도구 호출/파라미터를 신뢰성 있게 선별할 수 없다)이 AutoDojo가 보인 방어의 표면성·user-underspecification 한계를 전제로 깔린다."
+ },
+ "2608.30403->2602.12418": {
+  "type": "extends",
+  "evidence": "'SAE로 추론 시점 jailbreak 완화(Assogba et al., 2026) ... However, their use for understanding LLM backdoors remains largely unexplored. Our work fills this gap' — SAE-for-safety 계열을 백도어 도메인으로 확장."
+ },
+ "2609.02172->2606.05609": {
+  "type": "baseline",
+  "evidence": "'Subsequent work improves GCG through stronger objectives, templates, initialization, candidate construction, and insertion locations' 목록에 포함되며, BOSS는 GCG 계열 기법 위에 얹어 ASR을 비교 측정한다."
+ },
+ "2609.02880->2607.06320": {
+  "type": "extends",
+  "evidence": "'Kalinin and Pagh [KP26] explored the randomness complexity ... of variants of the Gaussian and Laplace mechanism ... Still, the over[all randomness remains]' — 동일한 randomness-efficient DP 계열의 한계를 지적하며 개선."
+ },
+ "2609.03629->2605.29358": {
+  "type": "background",
+  "evidence": "'SAEs have recently shown notable success in interpreting large-scale transformer-based language models, with subsequent work scaling to frontier models [32]' — SAE 계보를 소개하는 배경 인용."
  }
 }

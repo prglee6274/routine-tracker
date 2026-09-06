@@ -21665,6 +21665,200 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2608.30403": {
+   "version": "v1",
+   "title": "Why Are LLM Backdoor Defenses Fragmented? A Feature-Level Explanation with Sparse Autoencoders",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "sparse autoencoder",
+    "backdoor",
+    "mechanistic interpretability",
+    "feature attribution",
+    "defense mechanism"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "circuits",
+    "feature_attribution"
+   ]
+  },
+  "2608.27496": {
+   "version": "v1",
+   "title": "ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "information flow control",
+    "defense mechanism",
+    "provable guarantee"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.04166": {
+   "version": "v1",
+   "title": "From Deceptive Outputs to Deceptive Mechanisms: A Causal Framework for Language-Model Deception Research",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "deception",
+    "alignment",
+    "causal intervention",
+    "safety eval",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness",
+    "agent_safety"
+   ]
+  },
+  "2609.03629": {
+   "version": "v1",
+   "title": "EraseSAE: Surgical Concept Erasure in Text-to-Video Diffusion Models via Sparse Autoencoders",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "sparse autoencoder",
+    "concept erasure",
+    "monosemanticity",
+    "feature attribution",
+    "diffusion safety"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "feature_attribution",
+    "interp_method"
+   ]
+  },
+  "2609.01878": {
+   "version": "v1",
+   "title": "GAPS: Dimension-Level Gates for Conditional Activation Steering",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "activation steering",
+    "representation engineering",
+    "probing",
+    "toxicity mitigation",
+    "concept removal"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "probing"
+   ]
+  },
+  "2608.30686": {
+   "version": "v1",
+   "title": "Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "agent safety",
+    "poisoning",
+    "coding agent",
+    "benchmark",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2609.02880": {
+   "version": "v1",
+   "title": "Overcoming the Randomness-Utility Trade-off in Answering Differentially Private Linear Queries",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "differential privacy",
+    "linear queries",
+    "randomness efficiency",
+    "K-norm mechanism"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2609.01273": {
+   "version": "v1",
+   "title": "Position: Privacy Is a Claim, Not a Property of Synthetic Data",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "synthetic data",
+    "privacy",
+    "threat model",
+    "position paper",
+    "inference risk"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
+  },
+  "2609.03464": {
+   "version": "v1",
+   "title": "Mind the Gap: Robustness Risks in PII Detection Systems",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "pii",
+    "distribution shift",
+    "robustness",
+    "data protection",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2609.02172": {
+   "version": "v1",
+   "title": "Breadth Beats Depth: Improving GCG-Based Jailbreak Optimization with Breadth-Oriented Suffix Search",
+   "first_seen": "2026-09-07",
+   "last_updated": "2026-09-07",
+   "folder": "2026-09-07",
+   "keywords": [
+    "jailbreak",
+    "adversarial suffix",
+    "GCG",
+    "transferability",
+    "red teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "adversarial",
+    "red_teaming"
+   ]
   }
  },
  "_taxonomy": {
@@ -21707,5 +21901,5 @@
    ]
   }
  },
- "last_run": "2026-09-06"
+ "last_run": "2026-09-07"
 }
