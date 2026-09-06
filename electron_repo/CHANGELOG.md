@@ -1,5 +1,55 @@
 # Changelog
 
+## 2026-09-07 — Daily watch
+
+**Two new `in_scope` papers, both 2023 backfill misses, and the second one was found by reading the first one's bibliography.** Ledger moves **19 → 21 in_scope**, **36 → 39 excluded**, context_non_venue holds at **17**. Nothing new was published at any of the nine venues (fourth consecutive run). Yesterday's run established that the keyword set had a hole; today's run establishes that the hole has a *shape*, and that misses come in clusters.
+
+### THE FINDS
+
+**1. "NatiSand: Native Code Sandboxing for JavaScript Runtimes"** — Abbadini, Facchinetti, Oldani, Rossi, Paraboschi (Università degli studi di Bergamo), **RAID '23**. Note: [`papers/raid2023-natisand.md`](papers/raid2023-natisand.md). Scope **ADJACENT**. Full 6-part note from the author-hosted CC-BY PDF.
+
+Its §1 states the fact an Electron threat model has to be built on: a JS runtime's permission system — Deno's default-deny flags, Node's later equivalent — is a **JS-only reference monitor**. The instant an application calls `command`/`Deno.run` or `dlopen`/FFI, that code runs "with the same privileges of the user executing the entire JS application," outside the monitor entirely. NatiSand pushes confinement down to per-native-component granularity with **Landlock** (filesystem), **eBPF** on LSM hooks (network, and the `bind`/`connect`/`open`/`openat` cases Seccomp can't decide without TOCTOU risk), and **Seccomp** with argument-flag inspection (IPC). Numbers: **32 high-severity CVE exploits blocked** (25 ACE / 4 AFO / 3 LFI, across ImageMagick, FFmpeg, OpenCV, SQLite, Ghostscript, OpenSSL, TensorFlow and more) with **no functionality loss and no changes to the application or its dependencies**; affected modules total **2.6M downloads/week**. Overhead beats every comparator — Benchmark I worst case `b2sum` **2.88×** vs Minijail 7.19× / Sandbox2 9.37×, best case `wget` **1.13×**; Benchmark III libraries **1.51×–9.61×** vs Wasm 1.70×–13.34×.
+
+**2. "BinWrap: Hybrid Protection against Native Node.js Add-ons"** — Christou (FORTH-ICS), Ntousakis, Lahtinen (Aarno Labs), Ioannidis (TU Crete), Kemerlis, Vasilakis (Brown), **AsiaCCS '23**, **Distinguished Paper Award**. Note: [`papers/asiaccs2023-binwrap.md`](papers/asiaccs2023-binwrap.md). Scope **ADJACENT**. Full 6-part note from the author-hosted CC-BY PDF.
+
+This one is the closer fit of the two. It protects **both sides** of a native add-on at once — `BinWrap_L` interposes on the JS wrapper's bindings, `BinWrap_B` wraps the DSO — enforced by **Intel MPK/PKU** (memory view) plus **seccomp-BPF** (syscall set) on a dedicated untrusted thread, with permissions inferred automatically by program analysis over both sides. And it carries the measurement this repo did not have: a full npm replication of **1,508,366 libraries** finds **63,381 (4.2%)** depending on a NAN- or Node-API native module, with **97,161 packages** sitting downstream of one. Evaluation funnel 5,073 → 4,201 → 3,508 → 400 → **20 add-ons**; **4/4 CVE exploits blocked** (`node-sass`/libsass UAF and `picha`/libtiff overflow by MPK/PKU; `node-libcurl` ROP chain and `png-img`/libpng callback overwrite by seccomp denying `execve`); Node.js APIs need the same **62 syscalls** across all 20 add-ons and **>~2/3 are blockable**; overhead **0.71%–10.40%** macro, though micro-benchmarks put the domain-transition handshake at **240× with futex, 80× with inline-ASM spinning**.
+
+Both papers mention **Electron exactly zero times**, which is what makes them useful: they are the defense-side bookends to *Bilingual Problems* (USENIX Sec '23, discovery-side), and all three leave packaged desktop apps entirely unmeasured. Both notes record the specific gaps — NatiSand's threat model **explicitly excludes attacks on JavaScript code**, so the Electron chain (renderer XSS → contextIsolation/preload bypass → main process → native code) starts outside its assumptions; and both are **platform-bound** (NatiSand Linux-only via Landlock/eBPF/Seccomp, BinWrap requiring Intel MPK/PKU), which is a concrete, citable answer to "why don't existing native-boundary defenses attach to Windows/macOS Electron builds?"
+
+### THE METHOD LESSON — misses come in clusters, so mine the bibliography
+
+NatiSand came from the **required domain-restricted topical sweep** added to the config yesterday (query: *"JavaScript runtime native code boundary vulnerabilities"*). BinWrap came from **NatiSand's reference [14]**. Cage4Deno and an eBPF/Wasm poster came from references [2] and [1]. That is one search producing four first-time triages at target venues.
+
+The generalisation, now written into `config/sources.json` as a second required channel (`required_channels.related_work_mining`): **a paper this watch missed is written by, and cites, people this watch also missed.** For every paper newly added to `in_scope`, read its related-work section and check each citation against the nine venues and the scope rules — recording exclusions too, so the same references aren't re-chased. Three author groups are now flagged as known-productive in this exact niche: **UniBG SecLab**, **Brown (Kemerlis/Vasilakis) + FORTH-ICS**, and **CISPA (Staicu)**.
+
+### A NEW BLIND SPOT, NAMED: AsiaCCS
+
+Recorded as `_asiaccs_blind_spot_2026_09_07`. AsiaCCS is the **weakest-covered of the nine venues** — its config entry has an **empty `accepted_papers` URL and empty `notes`**, so it has only ever been reached by keyword search. That is how a **Distinguished Paper** about native Node.js add-ons survived six runs. Two AsiaCCS '23 papers were triaged for the first time today, and neither was found through an AsiaCCS channel. Action item for an interactive session: a title-by-title DBLP pass over `asiaccs2020`–`asiaccs2026` and discovery of a per-year accepted-papers URL, the way ESORICS was fixed on 09-03. **DSN's `accepted_papers` field is also empty** and carries the same risk with less evidence.
+
+### Three exclusions
+
+- **Cage4Deno: A Fine-Grained Sandbox for Deno Subprocesses** (AsiaCCS '23, same Bergamo group) — Deno-only, subprocess-only filesystem sandbox; doesn't touch the FFI/addon boundary, IPC, contextIsolation or preload, and is superseded for this thesis by NatiSand. Abstract only.
+- **POSTER: Leveraging eBPF to enhance sandboxing of WebAssembly runtimes** (AsiaCCS '23) — a poster, and Wasm rather than a JS runtime.
+- **Extending a Hand to Attackers: Browser Privilege Escalation Attacks via Extensions** (USENIX Sec '23) — 59 vulnerabilities in 40 browser extensions enabling UXSS and credential theft; browser-only, no desktop or local-privilege angle. Consistent with the existing DoubleX and KeyChaser exclusions, and distinct from UntrustIDE (`in_scope`), which is about VS Code — an Electron app — not a browser.
+
+### The live fronts, all unchanged
+
+**ACSAC 2026** — notifications are **tomorrow, 2026-09-08**. An `acsac.org`-restricted search still returns only 2026 submissions/CFP/artifacts/workshops pages plus the indexed `/2025/program/papers/`. Expect nothing on the 08 itself; start expecting a list from **09-09**, and re-sweep after the 10-08 minor-revision window closes.
+
+**RAID 2026** — both pages re-fetched and **byte-for-byte unchanged** from yesterday: `accepted.html` is still a heading followed by nothing, `program.html` still has all 21 session slots at "TBD". Now **eight weeks and four days** past the 07-10 notification, conference ~4.5 weeks out.
+
+**NDSS** — news feed's most recent entry is still **18 August 2026**. No NDSS'27 accepted-papers announcement. Weekly checks from 10-01 stand.
+
+**ESORICS '26** Springer chapter-level TOC still dated **2026-10-28**. USENIX, CCS, S&P, DSN, AsiaCCS: no new lists.
+
+### Two provenance traps re-hit (both now in the config)
+
+`https://www.ndss-symposium.org/news/` is **not** fetchable straight from the config despite being written there — it needs a `ndss-symposium.org`-restricted WebSearch first. Conversely, `raid2026.org/accepted.html` *is* fetchable once any earlier search this session has surfaced it, and `program.html` then comes free from the nav links inside the fetched page.
+
+### Honest limits on this run
+
+The standing USENIX '26 caveat is unchanged and today makes it worse, not better: **two more venue-years just turned out to contain in-scope papers that keyword-restricted search had already "swept" past.** The count is now three demonstrated keyword-search failures (USENIX Sec '23 ×1, AsiaCCS '23 ×1, RAID '23 ×1), all in the same 2023 slice, all on the JS↔native axis. Assume the 2020–2025 backfill is still incomplete. Cage4Deno's disposition rests on its **abstract only**; if the thesis later needs a Deno-subprocess comparison, re-ground it before citing.
+
 ## 2026-09-06 — Daily watch
 
 **One new `in_scope` paper — and it is a three-year-old backfill miss, not a new drop. That is the story of this run.** Ledger moves **18 → 19 in_scope**, **35 → 36 excluded**, **15 → 17 context_non_venue**. Nothing new was published at any of the nine venues (third consecutive run of that). What changed is *how the watch searches*, because this run proved the keyword set has a hole big enough to hide a USENIX Security paper in.

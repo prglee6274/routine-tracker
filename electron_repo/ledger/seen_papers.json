@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-06",
-  "last_run": "2026-09-06",
+  "last_updated": "2026-09-07",
+  "last_run": "2026-09-07",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -427,6 +427,62 @@
       "why_in_scope": "Node.js-runtime attack surface, explicitly inside the config's INCLUDE rule ('npm / supply-chain as it affects Electron or the Node.js runtime', 'attack surface'). Native .node addons are loaded directly into the Electron main process, so this is the one paper in the corpus that measures the JS<->C/C++ boundary rather than the JS layer alone. Sits alongside Mininode (RAID'20) and HODOR (CCS'23) as Node.js attack-surface work, but is a DISCOVERY paper, not a defense.",
       "headline_numbers": "6,432 npm packages analysed (from 7,605 downloaded, 1,173 discarded as C/C++-free); 730 of 1,669 flows reaching a type-conversion API had no type check; 111 of 300 cross-language flows unsanitised; 33 packages with confirmed zero-day hard crashes / uninitialised-memory reads; 38 flagged packages exploited, 22 clear false positives (6% FP rate); tool validation 84% recall (21/25) and 95% precision; 7 CVEs assigned, 6 high severity; application study over 1,993 dependent repos -> 7 alerts, 6 true positives in 6 remotely-crashable open-source applications.",
       "discovered_via": "Domain-restricted WebSearch ('Electron desktop application vulnerability detection', allowed_domains usenix.org/ndss-symposium.org/ieee-security.org/sigsac.org/acsac.org/dl.acm.org). BACKFILL CATCH, not a new drop — see keyword_blind_spot_2026-09-06 in config/sources.json."
+    },
+    {
+      "id": "raid2023-natisand",
+      "title": "NatiSand: Native Code Sandboxing for JavaScript Runtimes",
+      "title_norm": "natisand native code sandboxing for javascript runtimes",
+      "authors": [
+        "Marco Abbadini (Università degli studi di Bergamo)",
+        "Dario Facchinetti (Università degli studi di Bergamo)",
+        "Gianluca Oldani (Università degli studi di Bergamo)",
+        "Matthew Rossi (Università degli studi di Bergamo)",
+        "Stefano Paraboschi (Università degli studi di Bergamo)"
+      ],
+      "venue": "RAID 2023",
+      "venue_short": "RAID",
+      "year": 2023,
+      "scope": "ADJACENT",
+      "doi": "10.1145/3607199.3607233",
+      "url": "https://dl.acm.org/doi/10.1145/3607199.3607233",
+      "pdf": "https://cs.unibg.it/seclab-papers/2023/RAID/natisand.pdf",
+      "artifact": "https://github.com/unibg-seclab/natisand",
+      "note_file": "papers/raid2023-natisand.md",
+      "added": "2026-09-07",
+      "grounding": "FULL TEXT. Read from the author-hosted CC-BY PDF (cs.unibg.it/seclab-papers/2023/RAID/natisand.pdf): abstract, §1 intro, §2 background (Landlock/eBPF/Seccomp), §3 security motivation + §3.1 threat model, §4 design objectives + architecture, §5 IPC policy detail, §6 nativeCall API, §7 experiments incl. Table 3 (32 CVEs, all rows), Table 4 (17 utilities, all rows), Table 5 (8 library ops, all rows), §8 related work, §9 conclusions + availability. NOT read as numbers: Figures 4 and 5 (latency/throughput plots for Benchmarks II and IV) — only the authors' stated '5 to 10 ms less latency' summary is available.",
+      "why_in_scope": "Config INCLUDE rule ('npm / supply-chain as it affects Electron or the Node.js runtime') plus the keywords.native_boundary_added_2026_09_06 axis (FFI, binding layer, native addon, memory safety). States the general fact an Electron threat model depends on: a JS runtime's permission system is a JS-only reference monitor, so any binary or shared library the runtime executes runs with the full privileges of the user running the whole application. Electron's main process is a Node.js runtime that loads .node addons directly. Sits alongside Mininode (RAID'20), HODOR (CCS'23), NodeShield (CCS'25) as Node.js-runtime attack-surface DEFENSE work.",
+      "headline_numbers": "32 high-severity CVE exploits blocked with no functionality loss and no application/dependency changes (25 ACE, 4 AFO, 3 LFI; ImageMagick, GraphicsMagick, OpenCV, FFmpeg, libjpeg-turbo, libsndfile, Ghostscript, SQLite, Git, ExifTool, TensorFlow, Sockeye, Lightning, Unzip, GNU Tar, UnRAR, POCO, Pip, OpenSSL, GNSockets); affected modules total 2.6M downloads/week on npm + deno.land/x. Benchmark I (17 Linux utilities, slowdown vs plain Deno): NatiSand 2.88x worst (b2sum) to 1.13x best (wget), vs Minijail 7.19x-1.18x and Sandbox2 9.37x-1.24x. Benchmark II: ~5-10 ms lower latency per microservice than Minijail/Sandbox2. Benchmark III (8 native-library ops): NatiSand 1.51x-9.61x vs Wasm 1.70x-13.34x; worst case libpng verify (NatiSand 9.61x, Wasm 13.34x). Platform: Ubuntu 22.04, Ryzen 3900X, 64GB RAM; implemented in Deno.",
+      "gap_left_open": "(1) Threat model explicitly excludes attacks on JavaScript code, so the Electron chain (renderer XSS -> contextIsolation/preload bypass -> main process -> native code) starts outside its assumptions. (2) Linux-only by construction (Landlock/eBPF/Seccomp); no portability path discussed for Windows/macOS, Electron's primary targets. (3) Confinement, not discovery — says nothing about where native components occur in shipped desktop apps or how they are reached. (4) Zero mentions of Electron in the full text.",
+      "surfaced_by": "Required domain-restricted topical sweep (allowed_domains = venue hosts), query 'JavaScript runtime native code boundary vulnerabilities' — the rotation slot added to config on 2026-09-06 after the Bilingual Problems miss."
+    },
+    {
+      "id": "asiaccs2023-binwrap",
+      "title": "BinWrap: Hybrid Protection against Native Node.js Add-ons",
+      "title_norm": "binwrap hybrid protection against native node js add ons",
+      "authors": [
+        "George Christou (FORTH-ICS)",
+        "Grigoris Ntousakis (Brown University / TU Crete)",
+        "Eric Lahtinen (Aarno Labs)",
+        "Sotiris Ioannidis (TU Crete / FORTH-ICS)",
+        "Vasileios P. Kemerlis (Brown University)",
+        "Nikos Vasilakis (Brown University)"
+      ],
+      "venue": "AsiaCCS 2023",
+      "venue_short": "AsiaCCS",
+      "year": 2023,
+      "scope": "ADJACENT",
+      "award": "ACM AsiaCCS 2023 Distinguished Paper Award",
+      "doi": "10.1145/3579856.3590330",
+      "url": "https://dl.acm.org/doi/10.1145/3579856.3590330",
+      "pdf": "https://cs.brown.edu/people/vpk/papers/binwrap.asiaccs23.pdf",
+      "pdf_mirror": "http://nikos.vasilak.is/p/binwrap:asiaccs:2023.pdf",
+      "note_file": "papers/asiaccs2023-binwrap.md",
+      "added": "2026-09-07",
+      "grounding": "FULL TEXT. Read from the author-hosted CC-BY PDF (cs.brown.edu/people/vpk/papers/binwrap.asiaccs23.pdf): abstract, §1 intro, §2 background (Node.js/V8/NAN), §5 ecosystem study RQ1-RQ3 with all reported figures, §6 design (MPK/PKU + seccomp-BPF, thread separation), §7 implementation/platform, §8 evaluation EQ1-EQ3 incl. all four CVE case studies and Table 1 (all 20 add-ons + 2 applications), §10 conclusion. NOT read as numbers: Figures 5, 6, 7 (syscall-set sizes and per-package overhead are plotted, not tabulated) — only the stated ranges are available.",
+      "why_in_scope": "Config INCLUDE rule ('npm / supply-chain as it affects Electron or the Node.js runtime') plus the keywords.native_boundary_added_2026_09_06 axis (native addon, N-API, nan, node-addon-api, cross-language, memory safety). Directly targets the .node native add-ons that a packaged Electron app loads into its privileged main process, and supplies the best public quantification of that boundary's size in the npm ecosystem.",
+      "headline_numbers": "Ecosystem study over a full npm replication of 1,508,366 libraries: 63,381 (4.2%) depend on a NAN- or NAPI-based native module (45,708 NAN, 23,239 NAPI, 5,548 both); 76.7% have exactly one native dependency, only 99 libraries have ten. Reach: 8,148 NAN modules with dependents (avg 7.2, max 8,457 = node-sass) covering 58,778 packages; 5,762 NAPI modules with dependents (avg 6.6, max 2,322) covering 38,383 — 97,161 dependent packages in total. Evaluation funnel: 5,073 packages with a native dependency -> 4,201 installable -> 3,508 de-duplicated -> 400 with runnable tests -> 20 add-ons (+2 whole applications: Video Thumb Grid, Manta Minnow). Security: 4/4 CVE exploits blocked — CVE-2018-11499 (node-sass/libsass UAF, blocked by MPK/PKU), CVE-2018-18577 (libtiff via picha, MPK/PKU), CVE-2019-3822 (libcurl via node-libcurl ROP chain, blocked by seccomp denying execve), CVE-2020-28248 (png-img/libpng callback overwrite, seccomp). Syscalls: Node.js APIs need the same 62 across all 20 add-ons; 2-35 inherited per add-on; >~2/3 blockable except zeroMQ (114, network sockets). Overhead: 0.71%-10.40% macro; micro domain-transition cost 240x with futex, 80x with inline-ASM spinning. Platform: Node.js v8.9.4, Linux v5.4, 32GB RAM, no kernel modifications.",
+      "gap_left_open": "(1) Zero mentions of Electron; analyses npm packages and Node.js server applications, never a packaged desktop app. (2) Attack entry point is untrusted server-side input, not the Electron chain renderer XSS -> preload/IPC -> main process -> native addon. (3) Requires Intel MPK/PKU hardware and Linux — a concrete reason existing native-boundary defenses do not attach to Windows/macOS Electron builds. (4) Security evaluation rests on 4 memory-corruption CVEs in the DSO; says nothing about logic flaws in the JS wrapper. (5) Node.js v8.9.4 (2017-era) — modern-Node applicability untested.",
+      "surfaced_by": "Reference [14] in the NatiSand (RAID'23) related-work section, chased to its venue. Confirms the standing practice of mining the related-work sections of newly-found in_scope papers for further venue hits."
     }
   ],
   "excluded": [
@@ -745,6 +801,33 @@
       "reason": "Mobile-only — in-app QR scanning in Android/iOS apps invoking Remotely Accessible Handlers (115/337 of scanned apps vulnerable); no desktop, Electron, CEF or embedded-WebView-on-desktop angle. Matches the config EXCLUDE category 'mobile-only studies'.",
       "added": "2026-09-06",
       "surfaced_by": "Same domain-restricted usenix.org sweep that produced the Bilingual Problems catch."
+    },
+    {
+      "title": "Cage4Deno: A Fine-Grained Sandbox for Deno Subprocesses",
+      "title_norm": "cage4deno a fine grained sandbox for deno subprocesses",
+      "venue": "AsiaCCS 2023",
+      "year": 2023,
+      "reason": "Deno-only, subprocess-only (exec) filesystem sandbox using Landlock + eBPF. Deno is not a runtime Electron uses, and the paper does not touch the FFI/native-addon boundary, the renderer<->main IPC boundary, contextIsolation, or preload. Superseded for this thesis's purposes by the same Bergamo group's NatiSand (RAID '23, in_scope), which generalises to Node.js/Deno/Bun and covers shared libraries loaded into the runtime process — the case that actually maps onto Electron's .node addons. Read: abstract only.",
+      "added": "2026-09-07",
+      "surfaced_by": "Reference [2] in the NatiSand related-work section."
+    },
+    {
+      "title": "POSTER: Leveraging eBPF to enhance sandboxing of WebAssembly runtimes",
+      "title_norm": "poster leveraging ebpf to enhance sandboxing of webassembly runtimes",
+      "venue": "AsiaCCS 2023",
+      "year": 2023,
+      "reason": "A poster (not a full paper), and targets WebAssembly runtimes rather than a JavaScript runtime, native addon, or desktop-app mechanism. No Electron/Node.js angle.",
+      "added": "2026-09-07",
+      "surfaced_by": "Reference [1] in the NatiSand related-work section; also surfaced by the Cage4Deno search."
+    },
+    {
+      "title": "Extending a Hand to Attackers: Browser Privilege Escalation Attacks via Extensions",
+      "title_norm": "extending a hand to attackers browser privilege escalation attacks via extensions",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Browser-only. Studies the Chrome/Firefox/Safari extension architecture's privilege separation between content script and background page, finding 59 vulnerabilities in 40 extensions enabling UXSS and credential/cryptocurrency theft. No desktop application, no Electron/CEF, no escalation into local OS privileges. Consistent with the existing exclusions of DoubleX (CCS'21) and KeyChaser (S&P'26); distinct from UntrustIDE (NDSS'24, in_scope), which concerns VS Code — an Electron app — rather than a browser.",
+      "added": "2026-09-07",
+      "surfaced_by": "Required domain-restricted topical sweep, query 'desktop application privilege escalation web technologies'."
     }
   ],
   "context_non_venue": [
