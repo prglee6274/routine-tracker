@@ -1811,10 +1811,10 @@
   },
   "every-app/open-seo": {
    "first_seen": "2026-07-21",
-   "last_seen": "2026-09-02",
-   "last_stars": 16088,
-   "last_pushed_at": "2026-08-24",
-   "days_on_list": 2,
+   "last_seen": "2026-09-07",
+   "last_stars": 17452,
+   "last_pushed_at": "2026-09-03",
+   "days_on_list": 3,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -3133,13 +3133,13 @@
   },
   "rtk-ai/rtk": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-08-08",
+   "last_seen": "2026-09-07",
    "days_on_list": 1,
-   "last_stars": 75178,
+   "last_stars": 79076,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-06"
+   "last_pushed_at": "2026-09-04"
   },
   "rust-lang/rust": {
    "first_seen": "2026-08-26",
@@ -4226,13 +4226,13 @@
   },
   "tailscale/tailcat": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-01",
-   "days_on_list": 4,
-   "last_stars": 4690,
+   "last_seen": "2026-09-07",
+   "days_on_list": 5,
+   "last_stars": 6507,
    "category": "tools",
    "language": "Go",
    "graduated": true,
-   "last_pushed_at": "2026-08-31"
+   "last_pushed_at": "2026-09-05"
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-08-29",
@@ -4286,20 +4286,20 @@
   },
   "THU-MAIC/OpenMAIC": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-09-02",
-   "days_on_list": 3,
-   "last_stars": 29285,
-   "last_pushed_at": "2026-09-01",
+   "last_seen": "2026-09-07",
+   "days_on_list": 4,
+   "last_stars": 32347,
+   "last_pushed_at": "2026-09-06",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
   },
   "Lakr233/vphone-cli": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-09-07",
    "days_on_list": 1,
-   "last_stars": 9517,
-   "last_pushed_at": "2026-08-29",
+   "last_stars": 10917,
+   "last_pushed_at": "2026-08-31",
    "category": "security",
    "language": "Swift",
    "graduated": false
@@ -4396,9 +4396,9 @@
   },
   "debpalash/VoiceStudio": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-06",
-   "days_on_list": 1,
-   "last_stars": 18819,
+   "last_seen": "2026-09-07",
+   "days_on_list": 2,
+   "last_stars": 19691,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -4424,9 +4424,9 @@
   },
   "arcboxlabs/arcbox": {
    "first_seen": "2026-09-03",
-   "last_seen": "2026-09-04",
-   "days_on_list": 2,
-   "last_stars": 2887,
+   "last_seen": "2026-09-07",
+   "days_on_list": 3,
+   "last_stars": 3358,
    "category": "security",
    "language": "Rust",
    "last_pushed_at": "2026-08-28",
@@ -4462,13 +4462,13 @@
   },
   "magnitudedev/magnitude": {
    "first_seen": "2026-09-04",
-   "last_seen": "2026-09-04",
-   "days_on_list": 1,
-   "last_stars": 1871,
+   "last_seen": "2026-09-07",
+   "days_on_list": 2,
+   "last_stars": 3593,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-02"
+   "last_pushed_at": "2026-09-06"
   },
   "blader/humanizer": {
    "first_seen": "2026-09-04",
@@ -4579,10 +4579,28 @@
    "category": "security",
    "language": "Go",
    "graduated": false
+  },
+  "experientiallabs/experiential": {
+   "first_seen": "2026-09-07",
+   "last_seen": "2026-09-07",
+   "days_on_list": 1,
+   "last_stars": 1838,
+   "category": "llm",
+   "language": "Python",
+   "last_pushed_at": "2026-09-06"
+  },
+  "AdventDevInc/kudu": {
+   "first_seen": "2026-09-07",
+   "last_seen": "2026-09-07",
+   "days_on_list": 1,
+   "last_stars": 2920,
+   "category": "security",
+   "language": "TypeScript",
+   "last_pushed_at": "2026-09-05"
   }
  },
  "last_updated": "2026-09-06",
  "updated": "2026-09-06",
- "last_run": "2026-09-05",
+ "last_run": "2026-09-07",
  "count": 456
 }
