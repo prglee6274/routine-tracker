@@ -19,22 +19,137 @@
     ]
   },
   "keywords": {
-    "primary": ["electron", "electronjs", "nodeintegration", "context isolation", "contextbridge", "preload script", "renderer process", "main process", "ipc", "cross-platform app", "desktop application", "webview", "chromium embedded", "cef", "hybrid app"],
-    "escalation": ["xss to rce", "xrce", "remote code execution", "code injection", "prototype pollution", "dom clobbering", "dom-based"],
-    "runtime_supply_chain": ["node.js", "npm", "supply chain", "dependency", "attack surface"],
-    "native_boundary_added_2026_09_06": ["native extension", "native addon", "node-gyp", "n-api", "nan", "node-addon-api", "cross-language", "language boundary", "foreign function interface", "ffi", "binding layer", "memory safety"]
+    "primary": [
+      "electron",
+      "electronjs",
+      "nodeintegration",
+      "context isolation",
+      "contextbridge",
+      "preload script",
+      "renderer process",
+      "main process",
+      "ipc",
+      "cross-platform app",
+      "desktop application",
+      "webview",
+      "chromium embedded",
+      "cef",
+      "hybrid app"
+    ],
+    "escalation": [
+      "xss to rce",
+      "xrce",
+      "remote code execution",
+      "code injection",
+      "prototype pollution",
+      "dom clobbering",
+      "dom-based"
+    ],
+    "runtime_supply_chain": [
+      "node.js",
+      "npm",
+      "supply chain",
+      "dependency",
+      "attack surface"
+    ],
+    "native_boundary_added_2026_09_06": [
+      "native extension",
+      "native addon",
+      "node-gyp",
+      "n-api",
+      "nan",
+      "node-addon-api",
+      "cross-language",
+      "language boundary",
+      "foreign function interface",
+      "ffi",
+      "binding layer",
+      "memory safety"
+    ]
   },
   "_keyword_blind_spot_2026_09_06": "A USENIX Security '23 paper squarely inside the INCLUDE rule — 'Bilingual Problems: Studying the Security Risks Incurred by Native Extensions in Scripting Languages' (Staicu et al., CISPA) — survived SIX runs of this watch undetected, because its title contains NONE of the keywords above: not 'electron', not 'node.js', not 'npm', not 'supply chain'. It was caught only as a side effect of a domain-restricted WebSearch ('Electron desktop application vulnerability detection', allowed_domains usenix.org + the other venue hosts), which surfaces papers by TOPICAL relevance rather than by title keyword. TWO CONSEQUENCES, both now standing practice: (1) the keywords.native_boundary_added_2026_09_06 list above covers the JS<->C/C++ boundary, which the original keyword set omitted entirely; (2) THE DOMAIN-RESTRICTED TOPICAL SWEEP IS NOW A REQUIRED CHANNEL, not an optional one — run it every time, because it is the only channel in this watch that can find a correctly-scoped paper whose title shares no vocabulary with the config. Assume other backfill misses of the same shape remain in 2020-2025; rotate the domain-restricted sweep across different scope phrasings on successive runs.",
   "venues": [
-    { "name": "USENIX Security Symposium", "short": "USENIX Sec", "tier": "top-4", "dblp_key": "uss", "dblp_toc": "https://dblp.org/db/conf/uss/uss{YEAR}.html", "accepted_papers": "https://www.usenix.org/conference/usenixsecurity{YY}/technical-sessions", "notes": "Some years split into summer/fall/winter cycles." },
-    { "name": "IEEE Symposium on Security and Privacy", "short": "IEEE S&P", "tier": "top-4", "dblp_key": "sp", "dblp_toc": "https://dblp.org/db/conf/sp/sp{YEAR}.html", "accepted_papers": "https://www.ieee-security.org/TC/SP{YEAR}/accepted-papers.html", "notes": "Official accepted-papers page renders fully and is grep-friendly." },
-    { "name": "Network and Distributed System Security Symposium", "short": "NDSS", "tier": "top-4", "dblp_key": "ndss", "dblp_toc": "https://dblp.org/db/conf/ndss/ndss{YEAR}.html", "accepted_papers": "https://www.ndss-symposium.org/ndss{YEAR}/accepted-papers/", "notes": "Often multiple submission cycles per year. NEW CHANNEL, found 2026-09-06: https://www.ndss-symposium.org/news/ is a single dated, reverse-chronological feed that ANNOUNCES the moment each accepted-papers list publishes, and it fetches cleanly in one web_fetch (it is also year-agnostic, so unlike the templated URLs above it needs no re-discovery). Use it instead of polling the per-year accepted-papers URL. Historical publication dates read off that feed: NDSS'23 list 2023-01-25; NDSS'25 SUMMER-CYCLE list 2024-10-02 and full list 2025-02-20; NDSS'26 list 2026-02-13 with NO separate autumn summer-cycle announcement — i.e. NDSS dropped the early summer-cycle post between the 2025 and 2026 editions. NDSS'27 (Seoul, 22-26 Mar 2027): summer cycle closed to submissions 2026-05-06 and the Fall-cycle CFP opened 2026-08-15. So the '27 list lands EITHER ~early Oct 2026 (if the 2025 practice returns) OR ~Feb 2027 (if the 2026 practice holds). CHECK THE NEWS FEED WEEKLY FROM 2026-10-01 — this is the second-nearest first-publication event after ACSAC. 2026-09-07 re-check: the feed's most recent entry is still 18 August 2026 (NDSS'27 Fall-cycle CFP opened 15 Aug); nothing newer, no NDSS'27 accepted-papers announcement. PROVENANCE NOTE, cost a wasted call this run: https://www.ndss-symposium.org/news/ is NOT automatically fetchable even though it is written in this config — run a ndss-symposium.org-restricted WebSearch (e.g. 'NDSS Symposium news accepted papers announcement') FIRST to put it in the provenance set, then fetch." },
-    { "name": "ACM Conference on Computer and Communications Security", "short": "ACM CCS", "tier": "top-4", "dblp_key": "ccs", "dblp_toc": "https://dblp.org/db/conf/ccs/ccs{YEAR}.html", "accepted_papers": "https://www.sigsac.org/ccs/CCS{YEAR}/accepted-papers.html", "notes": "ACM PDFs are paywalled; use author pages / preprints for full text." },
-    { "name": "Annual Computer Security Applications Conference", "short": "ACSAC", "tier": "1.5", "dblp_key": "acsac", "dblp_toc": "https://dblp.org/db/conf/acsac/acsac{YEAR}.html", "accepted_papers": "https://www.acsac.org/{YEAR}/program/", "notes": "2026-09-06: ACSAC 2026 acceptance NOTIFICATIONS are dated 2026-09-08 — TWO DAYS OUT and still the nearest scheduled first-publication event across all nine venues (minor-revision window 2026-09-08 to 10-08, camera-ready 2026-10-22, conference Dec 7-11 2026, Los Angeles; PC chairs Nick Nikiforakis / Konrad Rieck; artifacts registration 2026-09-09, submission 2026-09-12). Confirmed again this run that nothing is posted: an acsac.org-restricted search returns only submissions/CFP/registration/venue/workshops/committees pages for 2026, and NO 2026 program page is indexed (the 2025 equivalent, www.acsac.org/2025/program/papers/, IS indexed — so the absence is real, not a search artifact). TOOLING TRAP, hit live this run: www.acsac.org/2026/program/papers/ CANNOT be fetched directly because it fails the web_fetch provenance rule and no search result has yet surfaced it. Once ACSAC publishes, the URL will start appearing in search results and only then becomes fetchable — so drive this venue with an acsac.org-restricted WebSearch first, never a constructed URL. Check from 2026-09-09 onward; note ACSAC's three outcomes (Accept / Minor Revision / Reject) mean the list may be published incomplete and grow through the 10-08 revision window, so RE-SWEEP after 2026-10-08 even if a list appears earlier. 2026-09-07 re-check: acsac.org-restricted search STILL returns only 2026 submissions/CFP/artifacts/workshops pages plus the indexed /2025/program/papers/ — nothing published, as expected with notifications one day out. NEXT RUN (2026-09-08) IS THE NOTIFICATION DATE ITSELF; expect nothing that same day and start expecting a list from 09-09." },
-    { "name": "Research in Attacks, Intrusions and Defenses", "short": "RAID", "tier": "1.5", "dblp_key": "raid", "dblp_toc": "https://dblp.org/db/conf/raid/raid{YEAR}.html", "accepted_papers": "https://raid{YEAR}.org/accepted.html", "notes": "RAID 2020 proceedings were hosted by USENIX. 2026-09-06 (re-confirmed, 3rd consecutive run): raid2026.org/accepted.html renders an 'Accepted papers' heading followed by NOTHING — the section is empty EIGHT WEEKS AND THREE DAYS after notification (2026-07-10), with the conference now ~5 weeks out (Oct 11-14, Lancaster UK). The page fetches fine via web_fetch once a WebSearch has surfaced the URL (search 'RAID 2026 accepted papers list Lancaster'), so the emptiness is the venue's, not a tooling artifact. NEW THIS RUN — /program.html has moved off bare 'TBD': it now renders a full day-by-day SKELETON (Oct 11 arrival day; Oct 12/13/14 each with seven 1-hour session slots plus lunch and coffee breaks, a 16:30 closing ceremony on the 14th, registration 08:00-17:00 daily, and per-day 'Download PDF' placeholders). Every session Title/At/Chair/Description field is still literally 'TBD', so NO paper titles are recoverable yet — but the scaffolding now exists to be filled, which is the first movement on this venue in three runs. Keep checking BOTH pages every run; the program skeleton may well be populated before the accepted list is. 2026-09-07 (4th consecutive run): BOTH pages re-fetched and BYTE-FOR-BYTE UNCHANGED from 09-06 — accepted.html is still an 'Accepted papers' heading followed by nothing, program.html still has every one of the 21 session slots at 'TBD'. Now EIGHT WEEKS AND FOUR DAYS past the 2026-07-10 notification with the conference ~4.5 weeks out. Provenance note: raid2026.org/accepted.html is reachable by web_fetch WITHOUT a preceding search once the URL has appeared in an earlier search result this session; program.html then comes free from the nav links inside it." },
-    { "name": "European Symposium on Research in Computer Security", "short": "ESORICS", "tier": "1.5", "dblp_key": "esorics", "dblp_toc": "https://dblp.org/db/conf/esorics/esorics{YEAR}-1.html", "accepted_papers": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers", "notes": "Proceedings split into multiple volumes: esorics{YEAR}-1, -2, -3, -4. Springer LNCS. 2026-09-03: an accepted-papers page DOES exist and is fully fetchable in one web_fetch — Winter Cycle + Spring Cycle, ~125 titles with authors. The URL is per-year and lives on the local organiser's Google Site (2026 = Sapienza Roma), so it must be re-discovered each year: search '<YEAR> ESORICS accepted papers' or fetch the conference homepage and follow Program > Accepted Papers. Stop treating ESORICS as a search-only venue. SECOND CHANNEL, found 2026-09-05: the Springer LNCS proceedings pages are now indexed and are the AUTHORITATIVE final title+author list, superior to the organiser's page for cross-checking. ESORICS 2026 = LNCS 16968-16971, Parts I-IV, ISBNs 978-3-032-38701-1 (Part III) and siblings; 130 full papers accepted from 882 submissions (14.7%). Topical split: Part I 'Software, Network and Protocol Security' (THE volume where an Electron / desktop / web-security paper lands — the ledger's ESORICS'26 in_scope entry belongs here), Part II 'Security and Machine Learning; Embedded, Mobile and CPS Security', Part III 'Applied Crypto and MPC; Distributed Systems and Blockchain Security', Part IV 'Governance, Privacy and Personal Data Protection; Post-Quantum Crypto'. IMPORTANT TIMING: as of 2026-09-05 the Springer volume pages exist but carry NO chapter-level table of contents — softcover and eBook are both dated 'Due: 28 October 2026'. So the definitive per-paper list becomes fetchable on/after 2026-10-28. Reach it by searching 'Computer Security ESORICS 2026 Springer proceedings' (web_fetch cannot take a constructed link.springer.com URL) and read the 'Table of contents' section; it paginates via ?page=N, which is ALSO blocked by the provenance rule, so follow the numbered page links returned inside the fetched page instead." },
-    { "name": "ACM Asia Conference on Computer and Communications Security", "short": "AsiaCCS", "tier": "1.5", "dblp_key": "asiaccs", "dblp_toc": "https://dblp.org/db/conf/asiaccs/asiaccs{YEAR}.html", "accepted_papers": "", "notes": "" },
-    { "name": "IEEE/IFIP Intl. Conference on Dependable Systems and Networks", "short": "DSN", "tier": "1.5", "dblp_key": "dsn", "dblp_toc": "https://dblp.org/db/conf/dsn/dsn{YEAR}.html", "accepted_papers": "", "notes": "" }
+    {
+      "name": "USENIX Security Symposium",
+      "short": "USENIX Sec",
+      "tier": "top-4",
+      "dblp_key": "uss",
+      "dblp_toc": "https://dblp.org/db/conf/uss/uss{YEAR}.html",
+      "accepted_papers": "https://www.usenix.org/conference/usenixsecurity{YY}/technical-sessions",
+      "notes": "Some years split into summer/fall/winter cycles."
+    },
+    {
+      "name": "IEEE Symposium on Security and Privacy",
+      "short": "IEEE S&P",
+      "tier": "top-4",
+      "dblp_key": "sp",
+      "dblp_toc": "https://dblp.org/db/conf/sp/sp{YEAR}.html",
+      "accepted_papers": "https://www.ieee-security.org/TC/SP{YEAR}/accepted-papers.html",
+      "notes": "Official accepted-papers page renders fully and is grep-friendly."
+    },
+    {
+      "name": "Network and Distributed System Security Symposium",
+      "short": "NDSS",
+      "tier": "top-4",
+      "dblp_key": "ndss",
+      "dblp_toc": "https://dblp.org/db/conf/ndss/ndss{YEAR}.html",
+      "accepted_papers": "https://www.ndss-symposium.org/ndss{YEAR}/accepted-papers/",
+      "notes": "Often multiple submission cycles per year. NEW CHANNEL, found 2026-09-06: https://www.ndss-symposium.org/news/ is a single dated, reverse-chronological feed that ANNOUNCES the moment each accepted-papers list publishes, and it fetches cleanly in one web_fetch (it is also year-agnostic, so unlike the templated URLs above it needs no re-discovery). Use it instead of polling the per-year accepted-papers URL. Historical publication dates read off that feed: NDSS'23 list 2023-01-25; NDSS'25 SUMMER-CYCLE list 2024-10-02 and full list 2025-02-20; NDSS'26 list 2026-02-13 with NO separate autumn summer-cycle announcement — i.e. NDSS dropped the early summer-cycle post between the 2025 and 2026 editions. NDSS'27 (Seoul, 22-26 Mar 2027): summer cycle closed to submissions 2026-05-06 and the Fall-cycle CFP opened 2026-08-15. So the '27 list lands EITHER ~early Oct 2026 (if the 2025 practice returns) OR ~Feb 2027 (if the 2026 practice holds). CHECK THE NEWS FEED WEEKLY FROM 2026-10-01 — this is the second-nearest first-publication event after ACSAC. 2026-09-07 re-check: the feed's most recent entry is still 18 August 2026 (NDSS'27 Fall-cycle CFP opened 15 Aug); nothing newer, no NDSS'27 accepted-papers announcement. PROVENANCE NOTE, cost a wasted call this run: https://www.ndss-symposium.org/news/ is NOT automatically fetchable even though it is written in this config — run a ndss-symposium.org-restricted WebSearch (e.g. 'NDSS Symposium news accepted papers announcement') FIRST to put it in the provenance set, then fetch. 2026-09-08 re-check: news feed's most recent entry is STILL 18 August 2026 (NDSS'27 Fall-cycle CFP). No NDSS'27 accepted-papers announcement. The provenance trap held again — the ndss-symposium.org-restricted WebSearch first, then the fetch, worked cleanly. Weekly checks from 2026-10-01 stand."
+    },
+    {
+      "name": "ACM Conference on Computer and Communications Security",
+      "short": "ACM CCS",
+      "tier": "top-4",
+      "dblp_key": "ccs",
+      "dblp_toc": "https://dblp.org/db/conf/ccs/ccs{YEAR}.html",
+      "accepted_papers": "https://www.sigsac.org/ccs/CCS{YEAR}/accepted-papers.html",
+      "notes": "ACM PDFs are paywalled; use author pages / preprints for full text."
+    },
+    {
+      "name": "Annual Computer Security Applications Conference",
+      "short": "ACSAC",
+      "tier": "1.5",
+      "dblp_key": "acsac",
+      "dblp_toc": "https://dblp.org/db/conf/acsac/acsac{YEAR}.html",
+      "accepted_papers": "https://www.acsac.org/{YEAR}/program/",
+      "notes": "2026-09-06: ACSAC 2026 acceptance NOTIFICATIONS are dated 2026-09-08 — TWO DAYS OUT and still the nearest scheduled first-publication event across all nine venues (minor-revision window 2026-09-08 to 10-08, camera-ready 2026-10-22, conference Dec 7-11 2026, Los Angeles; PC chairs Nick Nikiforakis / Konrad Rieck; artifacts registration 2026-09-09, submission 2026-09-12). Confirmed again this run that nothing is posted: an acsac.org-restricted search returns only submissions/CFP/registration/venue/workshops/committees pages for 2026, and NO 2026 program page is indexed (the 2025 equivalent, www.acsac.org/2025/program/papers/, IS indexed — so the absence is real, not a search artifact). TOOLING TRAP, hit live this run: www.acsac.org/2026/program/papers/ CANNOT be fetched directly because it fails the web_fetch provenance rule and no search result has yet surfaced it. Once ACSAC publishes, the URL will start appearing in search results and only then becomes fetchable — so drive this venue with an acsac.org-restricted WebSearch first, never a constructed URL. Check from 2026-09-09 onward; note ACSAC's three outcomes (Accept / Minor Revision / Reject) mean the list may be published incomplete and grow through the 10-08 revision window, so RE-SWEEP after 2026-10-08 even if a list appears earlier. 2026-09-07 re-check: acsac.org-restricted search STILL returns only 2026 submissions/CFP/artifacts/workshops pages plus the indexed /2025/program/papers/ — nothing published, as expected with notifications one day out. NEXT RUN (2026-09-08) IS THE NOTIFICATION DATE ITSELF; expect nothing that same day and start expecting a list from 09-09. 2026-09-08 (NOTIFICATION DATE ITSELF): an acsac.org-restricted search returns exactly what the previous two runs saw — 2026 submissions/CFP/artifacts/committees/workshops pages plus the indexed /2025/program/papers/ — and NO 2026 program page. Search-result text re-confirms the schedule verbatim: notification 8 September, artifacts registration 9 September, artifacts submission 12 September, conference 7-11 December 2026 Los Angeles, chairs Nikiforakis / Rieck, three outcomes Accept / Minor Revision / Reject. Nothing published on the day itself, exactly as predicted. START EXPECTING A LIST 2026-09-09 AND CHECK EVERY RUN; re-sweep again after the 2026-10-08 minor-revision window closes, since the list can publish incomplete and grow."
+    },
+    {
+      "name": "Research in Attacks, Intrusions and Defenses",
+      "short": "RAID",
+      "tier": "1.5",
+      "dblp_key": "raid",
+      "dblp_toc": "https://dblp.org/db/conf/raid/raid{YEAR}.html",
+      "accepted_papers": "https://raid{YEAR}.org/accepted.html",
+      "notes": "RAID 2020 proceedings were hosted by USENIX. 2026-09-06 (re-confirmed, 3rd consecutive run): raid2026.org/accepted.html renders an 'Accepted papers' heading followed by NOTHING — the section is empty EIGHT WEEKS AND THREE DAYS after notification (2026-07-10), with the conference now ~5 weeks out (Oct 11-14, Lancaster UK). The page fetches fine via web_fetch once a WebSearch has surfaced the URL (search 'RAID 2026 accepted papers list Lancaster'), so the emptiness is the venue's, not a tooling artifact. NEW THIS RUN — /program.html has moved off bare 'TBD': it now renders a full day-by-day SKELETON (Oct 11 arrival day; Oct 12/13/14 each with seven 1-hour session slots plus lunch and coffee breaks, a 16:30 closing ceremony on the 14th, registration 08:00-17:00 daily, and per-day 'Download PDF' placeholders). Every session Title/At/Chair/Description field is still literally 'TBD', so NO paper titles are recoverable yet — but the scaffolding now exists to be filled, which is the first movement on this venue in three runs. Keep checking BOTH pages every run; the program skeleton may well be populated before the accepted list is. 2026-09-07 (4th consecutive run): BOTH pages re-fetched and BYTE-FOR-BYTE UNCHANGED from 09-06 — accepted.html is still an 'Accepted papers' heading followed by nothing, program.html still has every one of the 21 session slots at 'TBD'. Now EIGHT WEEKS AND FOUR DAYS past the 2026-07-10 notification with the conference ~4.5 weeks out. Provenance note: raid2026.org/accepted.html is reachable by web_fetch WITHOUT a preceding search once the URL has appeared in an earlier search result this session; program.html then comes free from the nav links inside it. 2026-09-08 (5th consecutive run): accepted.html and program.html BOTH re-fetched and BYTE-FOR-BYTE UNCHANGED for the third run running — accepted.html is an 'Accepted papers' heading followed by nothing, program.html has all 21 session slots plus every Title/At/Chair/Note/Description field at literal 'TBD'. Now EIGHT WEEKS AND FIVE DAYS past the 2026-07-10 notification, conference ~4.5 weeks out. Provenance confirmed again: a WebSearch for 'RAID 2026 accepted papers list Lancaster' surfaces accepted.html, after which program.html is fetchable from the nav links inside it."
+    },
+    {
+      "name": "European Symposium on Research in Computer Security",
+      "short": "ESORICS",
+      "tier": "1.5",
+      "dblp_key": "esorics",
+      "dblp_toc": "https://dblp.org/db/conf/esorics/esorics{YEAR}-1.html",
+      "accepted_papers": "https://sites.google.com/di.uniroma1.it/esorics2026/program/accepted-papers",
+      "notes": "Proceedings split into multiple volumes: esorics{YEAR}-1, -2, -3, -4. Springer LNCS. 2026-09-03: an accepted-papers page DOES exist and is fully fetchable in one web_fetch — Winter Cycle + Spring Cycle, ~125 titles with authors. The URL is per-year and lives on the local organiser's Google Site (2026 = Sapienza Roma), so it must be re-discovered each year: search '<YEAR> ESORICS accepted papers' or fetch the conference homepage and follow Program > Accepted Papers. Stop treating ESORICS as a search-only venue. SECOND CHANNEL, found 2026-09-05: the Springer LNCS proceedings pages are now indexed and are the AUTHORITATIVE final title+author list, superior to the organiser's page for cross-checking. ESORICS 2026 = LNCS 16968-16971, Parts I-IV, ISBNs 978-3-032-38701-1 (Part III) and siblings; 130 full papers accepted from 882 submissions (14.7%). Topical split: Part I 'Software, Network and Protocol Security' (THE volume where an Electron / desktop / web-security paper lands — the ledger's ESORICS'26 in_scope entry belongs here), Part II 'Security and Machine Learning; Embedded, Mobile and CPS Security', Part III 'Applied Crypto and MPC; Distributed Systems and Blockchain Security', Part IV 'Governance, Privacy and Personal Data Protection; Post-Quantum Crypto'. IMPORTANT TIMING: as of 2026-09-05 the Springer volume pages exist but carry NO chapter-level table of contents — softcover and eBook are both dated 'Due: 28 October 2026'. So the definitive per-paper list becomes fetchable on/after 2026-10-28. Reach it by searching 'Computer Security ESORICS 2026 Springer proceedings' (web_fetch cannot take a constructed link.springer.com URL) and read the 'Table of contents' section; it paginates via ?page=N, which is ALSO blocked by the provenance rule, so follow the numbered page links returned inside the fetched page instead."
+    },
+    {
+      "name": "ACM Asia Conference on Computer and Communications Security",
+      "short": "AsiaCCS",
+      "tier": "1.5",
+      "dblp_key": "asiaccs",
+      "dblp_toc": "https://dblp.org/db/conf/asiaccs/asiaccs{YEAR}.html",
+      "accepted_papers": "",
+      "notes": ""
+    },
+    {
+      "name": "IEEE/IFIP Intl. Conference on Dependable Systems and Networks",
+      "short": "DSN",
+      "tier": "1.5",
+      "dblp_key": "dsn",
+      "dblp_toc": "https://dblp.org/db/conf/dsn/dsn{YEAR}.html",
+      "accepted_papers": "",
+      "notes": ""
+    }
   ],
   "discovery_method": {
     "primary": "WebSearch with the standing queries below (most reliable for this niche).",
@@ -60,32 +175,73 @@
   "required_channels": {
     "domain_restricted_topical_sweep": {
       "added": "2026-09-06",
-      "why": "The only channel that finds correctly-scoped papers whose titles share no vocabulary with the keyword list — see _keyword_blind_spot_2026_09_06. Produced the Bilingual Problems (USENIX Sec '23) catch on its first use, and NatiSand (RAID '23) + the 'Extending a Hand to Attackers' exclusion on its second (2026-09-07).",
+      "why": "The only channel that finds correctly-scoped papers whose titles share no vocabulary with the keyword list — see _keyword_blind_spot_2026_09_06. Produced the Bilingual Problems (USENIX Sec '23) catch on its first use, and NatiSand (RAID '23) + the 'Extending a Hand to Attackers' exclusion on its second (2026-09-07). THIRD USE, 2026-09-08: produced 'Too Much of a Good Thing: (In-)Security of Mandatory Security Software for Financial Services in South Korea' (USENIX Sec '25) — a top-4 paper, in the backfill window, invisible to every keyword channel because its title contains none of the config vocabulary. That is now THREE consecutive runs in which this channel, and only this channel, produced a correctly-scoped backfill miss. TWO LESSONS ON QUERY WORDING: (a) 'inter-process communication privilege boundary application' returned almost nothing but US patents — abstract OS-systems phrasing pulls the patent corpus, not security venues, so keep the wording APPLICATION-SHAPED ('desktop application', 'web content', 'renderer', 'add-on') rather than OS-primitive-shaped ('IPC', 'privilege boundary'). (b) The two productive queries this run both named a CONCRETE ARCHITECTURE ('untrusted web content renderer', 'local HTTP server desktop agent'). Prefer architecture nouns over mechanism nouns. The rotation list has been extended to ten queries and 'not_yet_used' emptied; treat the list as a ring buffer and consult 'queries_used_so_far' to pick the least-recently-used two or three each run.",
       "how": "WebSearch with a plain-language scope query and allowed_domains set to the venue hosts.",
-      "allowed_domains": ["usenix.org", "ndss-symposium.org", "ieee-security.org", "sigsac.org", "acsac.org", "dl.acm.org"],
+      "allowed_domains": [
+        "usenix.org",
+        "ndss-symposium.org",
+        "ieee-security.org",
+        "sigsac.org",
+        "acsac.org",
+        "dl.acm.org"
+      ],
       "rotate_these_queries_across_runs": [
         "Electron desktop application vulnerability detection",
         "desktop application privilege escalation web technologies",
         "JavaScript runtime native code boundary vulnerabilities",
         "packaged desktop app static analysis security audit",
-        "inter-process communication privilege boundary application"
+        "inter-process communication privilege boundary application",
+        "sandbox escape desktop application untrusted web content renderer",
+        "local HTTP server desktop agent web page privileged API security study",
+        "web content granted local system privileges desktop software",
+        "hybrid desktop application attack surface measurement",
+        "foreign function interface security analysis managed runtime"
       ],
       "queries_used_so_far": {
-        "2026-09-06": ["Electron desktop application vulnerability detection"],
-        "2026-09-07": ["desktop application privilege escalation web technologies", "JavaScript runtime native code boundary vulnerabilities", "packaged desktop app static analysis security audit"]
+        "2026-09-06": [
+          "Electron desktop application vulnerability detection"
+        ],
+        "2026-09-07": [
+          "desktop application privilege escalation web technologies",
+          "JavaScript runtime native code boundary vulnerabilities",
+          "packaged desktop app static analysis security audit"
+        ],
+        "2026-09-08": [
+          "inter-process communication privilege boundary application",
+          "sandbox escape desktop application untrusted web content renderer",
+          "local HTTP server desktop agent web page privileged API security study"
+        ]
       },
-      "not_yet_used": ["inter-process communication privilege boundary application"]
+      "not_yet_used": []
     },
     "related_work_mining": {
       "added": "2026-09-07",
-      "why": "PROVEN ON ITS FIRST USE. The domain-restricted sweep found NatiSand (RAID '23); reading NatiSand's §8 Related Work then yielded BinWrap (AsiaCCS '23, DISTINGUISHED PAPER, squarely in scope, never seen by six prior runs) as reference [14], plus Cage4Deno and an eBPF/Wasm poster (both AsiaCCS '23) as [2] and [1]. Backfill misses cluster: a paper the watch missed is written by and cites people the watch also missed, so one catch is a thread that pulls several more. Author-page mining is the same idea and is cheap — the Bergamo (unibg seclab) and Brown (Kemerlis/Vasilakis) groups are now known-productive in this exact niche.",
+      "why": "PROVEN ON ITS FIRST USE. The domain-restricted sweep found NatiSand (RAID '23); reading NatiSand's §8 Related Work then yielded BinWrap (AsiaCCS '23, DISTINGUISHED PAPER, squarely in scope, never seen by six prior runs) as reference [14], plus Cage4Deno and an eBPF/Wasm poster (both AsiaCCS '23) as [2] and [1]. Backfill misses cluster: a paper the watch missed is written by and cites people the watch also missed, so one catch is a thread that pulls several more. Author-page mining is the same idea and is cheap — the Bergamo (unibg seclab) and Brown (Kemerlis/Vasilakis) groups are now known-productive in this exact niche. PROVEN AGAIN 2026-09-08, on the paper found by the previous run's mining. BinWrap's bibliography yielded TWO first-time in_scope triages — Mir (CCS '21, reference [72]) and Cross-Language Attacks (NDSS '22, reference [41]) — plus two exclusions recorded so they are never re-chased (sysfilter, RAID '20, ref [18]; NodeSentry, ACSAC '14, ref [17], topically in scope but out on the backfill_from_year=2020 rule). The chain is now four links long: domain-restricted sweep -> NatiSand (RAID '23) -> BinWrap (AsiaCCS '23) -> Mir (CCS '21) + Cross-Language Attacks (NDSS '22). MINE EVERY NEWLY ADDED PAPER'S BIBLIOGRAPHY, INCLUDING PAPERS THAT WERE THEMSELVES FOUND BY MINING.",
       "how": "For EVERY paper newly added to in_scope, fetch its related-work / references section and check each cited work against (a) the nine venues and (b) the scope rules. Record the disposition of every cited venue paper checked, including exclusions, so the same references are not re-chased next run.",
       "known_productive_author_groups": [
         "Università degli studi di Bergamo — SecLab (Abbadini, Facchinetti, Oldani, Rossi, Paraboschi): NatiSand RAID'23, Cage4Deno AsiaCCS'23",
         "Brown University (Kemerlis, Vasilakis, Ntousakis) + FORTH-ICS (Christou, Ioannidis) + TU Crete: BinWrap AsiaCCS'23",
-        "CISPA (Staicu, Backes): Bilingual Problems USENIX Sec'23"
-      ]
+        "CISPA (Staicu, Backes): Bilingual Problems USENIX Sec'23",
+        "MIT CSAIL / CISPA / UPenn / TU Crete / Aarno Labs / U. Stuttgart (Vasilakis, Staicu, Ntousakis, Kallas, Karel, DeHon, Pradel): Mir CCS'21 — note the overlap with the BinWrap author set (Ntousakis, Vasilakis, Karel/Lahtinen at Aarno Labs) and with CISPA (Staicu, Bilingual Problems). This is ONE extended collaboration network producing a large share of the JS-runtime-confinement literature; a pass over the publication pages of Vasilakis (nikos.vasilak.is/publications) and Staicu is the highest-yield author-page mining target in this niche.",
+        "MIT Lincoln Laboratory (Mergendahl, Burow, Okhravi): Cross-Language Attacks NDSS'22 — the theory side of the safe/unsafe language boundary."
+      ],
+      "bibliographies_mined": {
+        "raid2023-natisand": {
+          "mined": "2026-09-07",
+          "yield": "BinWrap (AsiaCCS'23, in_scope); Cage4Deno + eBPF/Wasm poster (AsiaCCS'23, excluded)"
+        },
+        "asiaccs2023-binwrap": {
+          "mined": "2026-09-08",
+          "yield": "Mir (CCS'21, in_scope); Cross-Language Attacks (NDSS'22, in_scope); sysfilter (RAID'20, excluded); NodeSentry (ACSAC'14, excluded on year rule). Remaining venue references checked and dismissed on topic: the MPK/PKU and memory-isolation systems line (PKU Pitfalls USENIX'20, Jenny USENIX'22, Donky USENIX'20, ERIM USENIX'19, xMP S&P'20, PKRU-Safe EuroSys'22) plus the classical code-reuse and defence citations — generic memory isolation, no JS/web/desktop angle. DO NOT RE-CHASE."
+        },
+        "_pending": [
+          "usenixsec2025-ksa (Section 8 read: cites UntrustIDE NDSS'24 = already in_scope, and 'Extending a Hand to Attackers' USENIX'23 = already excluded; Koishybayev GitHub CI, Min et al. antivirus LPE, Yim/Liang keyboard security and Chatzoglou/Haffejee AV bypass all judged out of scope from the citing text, venues unverified)",
+          "ccs2021-mir",
+          "ndss2022-cross-language-attacks"
+        ]
+      }
     }
   },
-  "_asiaccs_blind_spot_2026_09_07": "AsiaCCS is the WEAKEST-COVERED of the nine venues in this watch and the 2026-09-07 run proved it. Its config entry has an EMPTY accepted_papers URL and EMPTY notes, so it has only ever been reached by keyword search — and keyword search missed BinWrap (AsiaCCS '23, Distinguished Paper, native Node.js add-ons) for six runs even though 'native addon' and 'node.js' were both findable. Two AsiaCCS '23 papers were triaged for the first time today via NatiSand's reference list, not via any AsiaCCS channel. ACTION FOR AN INTERACTIVE SESSION: do a title-by-title pass over dblp.org/db/conf/asiaccs/asiaccs2020.html through asiaccs2026.html, and find/record a per-year accepted-papers URL pattern the way ESORICS was fixed on 2026-09-03. The same warning applies with less force to DSN, whose accepted_papers field is also empty."
+  "_asiaccs_blind_spot_2026_09_07": "AsiaCCS is the WEAKEST-COVERED of the nine venues in this watch and the 2026-09-07 run proved it. Its config entry has an EMPTY accepted_papers URL and EMPTY notes, so it has only ever been reached by keyword search — and keyword search missed BinWrap (AsiaCCS '23, Distinguished Paper, native Node.js add-ons) for six runs even though 'native addon' and 'node.js' were both findable. Two AsiaCCS '23 papers were triaged for the first time today via NatiSand's reference list, not via any AsiaCCS channel. ACTION FOR AN INTERACTIVE SESSION: do a title-by-title pass over dblp.org/db/conf/asiaccs/asiaccs2020.html through asiaccs2026.html, and find/record a per-year accepted-papers URL pattern the way ESORICS was fixed on 2026-09-03. The same warning applies with less force to DSN, whose accepted_papers field is also empty. UPDATE 2026-09-08: the AsiaCCS gap keeps paying out INDIRECTLY — BinWrap's own bibliography, not any AsiaCCS channel, is what produced today's two in_scope additions. The action item is unchanged and now more urgent: in an interactive session, do a title-by-title DBLP pass over asiaccs2020-asiaccs2026 and record a per-year accepted-papers URL pattern. DSN's accepted_papers field is still empty and carries the same risk.",
+  "_backfill_status_2026_09_08": "FOUR CONSECUTIVE RUNS HAVE EACH PRODUCED AT LEAST ONE PRE-2026 BACKFILL MISS AT A TARGET VENUE: Bilingual Problems (USENIX Sec'23) on 09-06; NatiSand (RAID'23) + BinWrap (AsiaCCS'23) on 09-07; Mir (CCS'21) + Cross-Language Attacks (NDSS'22) + the KSA study (USENIX Sec'25) on 09-08. Six misses in three days, spanning 2021, 2022, 2023 and 2025, at five of the nine venues. The clear inference: the 2020-2025 backfill is NOT approximately complete, and keyword-restricted search over a venue-year this watch has already 'swept' is not evidence of absence. Two structural causes are now documented — titles that share no vocabulary with the config (fixed only by the domain-restricted topical sweep), and clustering by citation network (fixed only by related-work mining). PRACTICAL CONSEQUENCE FOR FUTURE RUNS: do not report 'no new papers' as though the corpus were closed. The honest framing is 'nothing NEWLY PUBLISHED at the nine venues, plus N backfill recoveries'. Expect the backfill stream to continue until the two required channels stop yielding; when they do produce nothing for several consecutive runs, that is the first real evidence the backfill is converging. The single highest-value interactive-session task remains a title-by-title DBLP TOC pass over all nine venues for 2020-2026."
 }

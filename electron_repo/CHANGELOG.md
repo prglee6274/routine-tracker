@@ -1,5 +1,79 @@
 # Changelog
 
+## 2026-09-08 — Daily watch
+
+**Three new `in_scope` papers, all backfill misses, spanning 2021, 2022 and 2025 — and two of the three came out of a bibliography this watch only gained access to yesterday.** Ledger moves **21 → 24 in_scope**, **39 → 43 excluded**, context_non_venue holds at **17**. Nothing was newly published at any of the nine venues (fifth consecutive run). ACSAC's notification date was today and, as predicted, nothing appeared on the day itself.
+
+### THE FINDS
+
+**1. "Too Much of a Good Thing: (In-)Security of Mandatory Security Software for Financial Services in South Korea"** — Yun, Jeong, Lee, S. Kim, H. Kim, I. Yun, Y. Kim (Theori Inc. + KAIST + Korea University + Sungkyunkwan), **USENIX Security '25**. Note: [`papers/usenixsec2025-ksa.md`](papers/usenixsec2025-ksa.md). Scope **ADJACENT**. Full 6-part note from the complete open-access prepublication PDF.
+
+This is **the inverse of Electron**, and that is exactly why it matters. Electron puts a browser inside a privileged desktop process; Korea Security Applications (KSA) 2.0 puts a privileged desktop process behind a `localhost` HTTP/WebSocket API that any web page can call. Same collapsed boundary, opposite direction — and it produces the same failure catalogue. The authors state the design intent without euphemism: KSA "**needs to violate the browser's security model and bypass the browser's sandbox**" in order to function at all.
+
+Numbers: **7 mandatory products** (anonymised as PRODUCT A–G at a government agency's request) covering **all 17 top-tier Korean banks**; **19 vulnerabilities**. An **RCE in PRODUCT B** chained from `SetLogoPath` (files **≤256 bytes bypass digital-signature validation**, land in a fixed location, and are not deleted) into `DecFileData` (decrypts to an **unvalidated output path**) — reachable from a malicious web page with **no browser vulnerability whatsoever**. Anti-keylogging products **D and E** convertible into **system-wide keyloggers** by forcing symmetric encryption or disabling encryption outright; vendors *acknowledged the design flaw and declined to remove it* because deployed services depend on it. **Every** KSA installs its own root CA; **5 of 7 leave it behind on uninstall**; PRODUCT E's root-CA **private key was recovered from the installer binary** and used to sign a certificate for `google.com`, valid forever on any machine that ever installed it. Plus **5 memory-corruption bugs** via AFLnet/AFL++.
+
+And the measurement half, which is what this repo has been missing: a demographically-matched survey of **400** users — **97.35%** had installed KSA, **59.25%** did not know what it does, **not one participant** identified the anomaly-detection/fingerprinting capability most banks mandate — and a desktop analysis of **48** machines via HoaxEliminator finding a mean of **9.06 KSA programs per PC** (max 24), with **27 of 48** running builds from 2022 or earlier and the oldest install dating to **2019-02-15**.
+
+The threat-model table (§3) is the most directly reusable artefact: **T1 remote attacker / T2 malicious website / T3 MitM / T4 origin spoofer**, derived mechanically from three access-control factors (bind address, protocol, `Origin` verification). T4 is justified with a statistic worth stealing outright — **196 renderer exploits versus 5 sandbox escapes in 2022** — which is a citable answer to "why assume the renderer is already compromised?" And §3.3 makes the sharpest point in the paper: KSA is **weaker than a browser extension**, because an extension's origin check is enforced by the browser inside its sandbox, while KSA's rests on an HTTP header a compromised renderer controls.
+
+**2. "Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction" (Mir)** — Vasilakis, Staicu, Ntousakis, Kallas, Karel, DeHon, Pradel, **CCS '21**. Note: [`papers/ccs2021-mir.md`](papers/ccs2021-mir.md). Scope **ADJACENT**. Full 6-part note from the author-hosted PDF.
+
+**This one was a hole in the middle of a line the ledger already tracked.** Mininode (RAID '20), HODOR (CCS '23) and NodeShield (CCS '25) were all `in_scope`; the CCS '21 paper connecting them was not. Mir attaches a first-order **RWX+I permission set to every free-variable access path** at each library boundary, infers it by static analysis plus a short import-time dynamic phase, and enforces it at runtime: **61/63 real exploits mitigated**, privilege reduced **143.48× on average** (range 3.5×–706×), **1.93%** runtime overhead, **99.09%** of field accesses preserved.
+
+Two results earn their place in the thesis. First, the **ablation**: static analysis alone drops compatibility from **99.09% to 70.59%** — hard evidence that pure static analysis cannot survive the npm ecosystem's runtime metaprogramming. Second, the **head-to-head with Mininode**: all **63/63** PoC attacks still succeed against Mininode-debloated libraries, because removing dead code is not the same as removing privilege. That is a ledger paper being refuted by another ledger paper, with both citations available.
+
+But the sentence that matters most is in §3's **non-threats**: Mir "does not consider native libraries written in lower-level languages, such as C/C++, or libraries available in binary form" — because they can neither be analysed at source level nor contained by a runtime monitor **that depends on memory safety**. That is the door an Electron app's `.node` add-ons walk straight through, stated by the defenders themselves.
+
+**3. "Cross-Language Attacks"** — Mergendahl, Burow, Okhravi (MIT Lincoln Laboratory), **NDSS '22**. Note: [`papers/ndss2022-cross-language-attacks.md`](papers/ndss2022-cross-language-attacks.md). Scope **ADJACENT**. Full 6-part note from the open-access NDSS PDF.
+
+The theory the entire JS↔native line in this ledger rests on but never states. Language safety checks (Rust, Go) and unsafe-language mitigations (CFI, shadow stacks) **break different stages of an exploit**; compose them and each side assumes an invariant the other does not uphold, so an attacker who alternates between languages completes a control-flow hijack **without violating either language's checks**. Crucially the authors take the *hard* case — the unsafe side has mitigation applied, the safe side contains **no `unsafe` code of its own** — so the vulnerability is the boundary itself, not a stray `unsafe` block. Their modelling device, the **Language Transfer node** to which every node of both constituent threat models must conservatively connect, ports directly onto Electron's three transfer points: IPC channels, the preload `contextBridge`, and N-API calls.
+
+The Firefox measurement gives the argument teeth: **227,896 of 3,548,068 call sites (6.42%) are language transfer points**; and although Rust supplies only **9.23%** of call sites, **54.81% of Rust's own call sites are indirect**, contributing **64.04%** of the entire binary's indirect calls. Adding the safe language *increased* the population of the exact control-flow targets a hijack wants — because Rust, being memory-safe, deploys no shadow stack, so C/C++ can corrupt the return address of a previously-called Rust function and nothing ever checks it.
+
+### THE METHOD RESULT — the citation chain is now four links long
+
+Yesterday's lesson was "mine the bibliography of every newly added paper." Today tested whether that applies to papers *found by mining*. It does:
+
+> domain-restricted sweep → **NatiSand** (RAID '23) → **BinWrap** (AsiaCCS '23) → **Mir** (CCS '21) + **Cross-Language Attacks** (NDSS '22)
+
+Two in_scope additions and two recorded exclusions from a single bibliography. `config/sources.json` now carries a **`bibliographies_mined`** map recording, per paper, what its reference list yielded and — just as important — which references were **checked and dismissed**, so the MPK/PKU memory-isolation cluster (PKU Pitfalls, Jenny, Donky, ERIM, xMP, PKRU-Safe) is never re-chased. A `_pending` list names the three bibliographies now owed.
+
+Also recorded: **Vasilakis / Staicu / Ntousakis / Karel** recur across Mir, BinWrap and Bilingual Problems. This is **one extended collaboration network** producing much of the JS-runtime-confinement literature, which makes an author-page pass over `nikos.vasilak.is/publications` the highest-yield single action available to an interactive session.
+
+### THE OTHER METHOD RESULT — how to word a topical sweep
+
+The required domain-restricted sweep produced the KSA paper — **third consecutive run in which this channel, and only this channel, recovered a correctly-scoped backfill miss**. But one of the three queries run today was close to useless, and the contrast is instructive:
+
+- **"inter-process communication privilege boundary application"** → almost entirely **US patents**. Abstract OS-primitive phrasing pulls the patent corpus.
+- **"sandbox escape desktop application untrusted web content renderer"** → the KSA paper.
+- **"local HTTP server desktop agent web page privileged API security study"** → confirmed the KSA architecture from a second angle.
+
+Rule now written into the config: **name a concrete architecture, not a mechanism.** "desktop application", "web content", "renderer", "add-on" — not "IPC", "privilege boundary". The rotation list is extended to ten queries and `not_yet_used` is emptied; treat it as a ring buffer and pick the least-recently-used entries from `queries_used_so_far`.
+
+### Four exclusions
+
+- **Isolated and Exhausted: Attacking Operating Systems via Site Isolation in the Browser** (USENIX Sec '23) — OS resource exhaustion (fork bomb, UDP socket exhaustion) enabled by Chrome/Firefox Site Isolation. Browser architecture, outcome is DoS not local-privilege escalation, no embedded/desktop target. Consistent with the *Same-Site Weakness* exclusion; distinct from *Site Isolation is Dead* (in_scope). Abstract-grounded.
+- **sysfilter: Automated System Call Filtering for Commodity Software** (RAID '20) — generic C/C++ binary syscall filtering, no JS runtime or web content.
+- **NodeSentry: Least-privilege Library Integration for Server-Side JavaScript** (ACSAC '14) — **topically in scope, excluded on the year rule only** (`backfill_from_year` = 2020). It is the direct ancestor of Mir and of the whole Mininode→HODOR→NodeShield line; flagged in the ledger as the first paper to reach for if the thesis ever needs the pre-2020 lineage.
+- **Network-Level Prompt and Trait Leakage in Local Research Agents** (USENIX Sec '26) — LLM-agent traffic privacy, no desktop-app vulnerability angle.
+
+### The live fronts
+
+**ACSAC 2026 — today WAS the notification date, and nothing was published, exactly as predicted.** An `acsac.org`-restricted search returns the same set as the last two runs: 2026 submissions/CFP/artifacts/committees/workshops, plus the indexed `/2025/program/papers/`, and no 2026 program page. The schedule was re-confirmed verbatim from search text (artifacts registration 09-09, submission 09-12, conference Dec 7–11 in Los Angeles, chairs Nikiforakis / Rieck). **Start expecting a list from tomorrow, 2026-09-09, and check every run** — then re-sweep again after the **2026-10-08** minor-revision window, since ACSAC's three-outcome process means the list can publish incomplete and grow.
+
+**RAID 2026 — third run running with byte-for-byte identical pages.** `accepted.html` is still a heading followed by nothing; `program.html` still has all 21 session slots and every Title/At/Chair/Note/Description field at literal "TBD". **Eight weeks and five days** past the 2026-07-10 notification, conference ~4.5 weeks out.
+
+**NDSS** — news feed's newest entry is still **18 August 2026**. No NDSS'27 list. The provenance trap held again: `ndss-symposium.org`-restricted search first, *then* fetch. Weekly checks from 10-01 stand.
+
+**ESORICS '26** Springer chapter-level TOC still dated **2026-10-28**. USENIX, CCS, S&P, DSN, AsiaCCS: no new lists.
+
+### Honest limits on this run
+
+Recorded in the config as `_backfill_status_2026_09_08`, because it is now the dominant fact about this watch: **four consecutive runs have each produced at least one pre-2026 backfill miss at a target venue — six misses in three days, spanning 2021, 2022, 2023 and 2025, at five of the nine venues.** The backfill is not approximately complete, and keyword-restricted search over an already-"swept" venue-year is not evidence of absence. Future runs should stop reporting "no new papers" as if the corpus were closed; the honest framing is **"nothing newly published at the nine venues, plus N backfill recoveries."** When the two required channels go several runs without yielding, *that* will be the first real evidence of convergence.
+
+Specific grounding limits today: the KSA note is written from the **cycle-1 prepublication PDF**, and its Tables 1 and 4 render as unlabelled mark grids — so the **per-product threat-model mapping** and the **per-vulnerability patched/mitigated status are not recoverable** and must not be cited from the note. Mir's Appendix B/C per-library results and Cross-Language Attacks' variant-vs-mechanism table are likewise unread or unrecoverable; both notes say so in §6. The three exclusions sourced from BinWrap's bibliography rest on the **citing text and title**, not the full papers.
+
+
 ## 2026-09-07 — Daily watch
 
 **Two new `in_scope` papers, both 2023 backfill misses, and the second one was found by reading the first one's bibliography.** Ledger moves **19 → 21 in_scope**, **36 → 39 excluded**, context_non_venue holds at **17**. Nothing new was published at any of the nine venues (fourth consecutive run). Yesterday's run established that the keyword set had a hole; today's run establishes that the hole has a *shape*, and that misses come in clusters.

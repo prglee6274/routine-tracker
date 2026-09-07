@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-07",
-  "last_run": "2026-09-07",
+  "last_updated": "2026-09-08",
+  "last_run": "2026-09-08",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -483,6 +483,89 @@
       "headline_numbers": "Ecosystem study over a full npm replication of 1,508,366 libraries: 63,381 (4.2%) depend on a NAN- or NAPI-based native module (45,708 NAN, 23,239 NAPI, 5,548 both); 76.7% have exactly one native dependency, only 99 libraries have ten. Reach: 8,148 NAN modules with dependents (avg 7.2, max 8,457 = node-sass) covering 58,778 packages; 5,762 NAPI modules with dependents (avg 6.6, max 2,322) covering 38,383 — 97,161 dependent packages in total. Evaluation funnel: 5,073 packages with a native dependency -> 4,201 installable -> 3,508 de-duplicated -> 400 with runnable tests -> 20 add-ons (+2 whole applications: Video Thumb Grid, Manta Minnow). Security: 4/4 CVE exploits blocked — CVE-2018-11499 (node-sass/libsass UAF, blocked by MPK/PKU), CVE-2018-18577 (libtiff via picha, MPK/PKU), CVE-2019-3822 (libcurl via node-libcurl ROP chain, blocked by seccomp denying execve), CVE-2020-28248 (png-img/libpng callback overwrite, seccomp). Syscalls: Node.js APIs need the same 62 across all 20 add-ons; 2-35 inherited per add-on; >~2/3 blockable except zeroMQ (114, network sockets). Overhead: 0.71%-10.40% macro; micro domain-transition cost 240x with futex, 80x with inline-ASM spinning. Platform: Node.js v8.9.4, Linux v5.4, 32GB RAM, no kernel modifications.",
       "gap_left_open": "(1) Zero mentions of Electron; analyses npm packages and Node.js server applications, never a packaged desktop app. (2) Attack entry point is untrusted server-side input, not the Electron chain renderer XSS -> preload/IPC -> main process -> native addon. (3) Requires Intel MPK/PKU hardware and Linux — a concrete reason existing native-boundary defenses do not attach to Windows/macOS Electron builds. (4) Security evaluation rests on 4 memory-corruption CVEs in the DSO; says nothing about logic flaws in the JS wrapper. (5) Node.js v8.9.4 (2017-era) — modern-Node applicability untested.",
       "surfaced_by": "Reference [14] in the NatiSand (RAID'23) related-work section, chased to its venue. Confirms the standing practice of mining the related-work sections of newly-found in_scope papers for further venue hits."
+    },
+    {
+      "id": "usenixsec2025-ksa",
+      "title": "Too Much of a Good Thing: (In-)Security of Mandatory Security Software for Financial Services in South Korea",
+      "title_norm": "too much of a good thing in security of mandatory security software for financial services in south korea",
+      "authors": [
+        "Taisic Yun (Theori Inc. / KAIST)",
+        "Suhwan Jeong (KAIST)",
+        "Yonghwa Lee (Theori Inc.)",
+        "Seungjoo Kim (Korea University)",
+        "Hyoungshick Kim (Sungkyunkwan University)",
+        "Insu Yun (KAIST)",
+        "Yongdae Kim (KAIST)"
+      ],
+      "venue": "USENIX Security 2025",
+      "venue_short": "USENIX Sec",
+      "year": 2025,
+      "scope": "ADJACENT",
+      "doi": "",
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/yun",
+      "pdf": "https://www.usenix.org/system/files/usenixsecurity25-yun.pdf",
+      "pdf_mirror": "https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-286-yun_0.pdf",
+      "note_file": "papers/usenixsec2025-ksa.md",
+      "added": "2026-09-08",
+      "grounding": "FULL TEXT of the USENIX cycle-1 PREPUBLICATION PDF (sec25cycle1-prepub-286-yun_0.pdf), read end-to-end through Section 8 Related Work and Section 9 Conclusion. NOT read: Appendices A-D (historical background, extra survey responses, HoaxEliminator sample output, additional issues). Tables 1 and 4 render as unlabelled mark grids in the extracted text, so the per-product threat-model mapping (which of T1-T4 applies to which PRODUCT) and the per-vulnerability Patched/Mitigated status are NOT reliably recoverable from this note. Word 'Electron' does not occur in the paper.",
+      "why_in_scope": "Config INCLUDE rules 'hybrid web/desktop apps' and 'DOM-based / XSS->RCE escalation into local privileges in desktop apps'. KSA 2.0 is the inverse architecture of Electron — a privileged native desktop process exposed to arbitrary web pages through a localhost HTTP/WebSocket API — and produces the same failure catalogue (origin/trust confusion, chained-API RCE, security-control bypass), which is the strongest available evidence that the vulnerability class is architectural rather than Electron-specific.",
+      "headline_numbers": "7 mandatory KSA products (PRODUCT A-G, anonymised at a Korean government agency's request) covering all 17 top-tier Korean banks; 19 vulnerabilities. Four threat models derived from bind address / protocol / Origin verification: T1 remote attacker, T2 malicious website, T3 MitM via SSL stripping, T4 origin spoofer (justified by 196 renderer exploits vs 5 sandbox escapes in 2022). RCE in PRODUCT B by chaining SetLogoPath (files <=256 bytes bypass digital-signature validation, written to a fixed location, not deleted) with DecFileData (unvalidated output path). Anti-keylogging in PRODUCT D/E convertible into a system-wide keylogger by forcing symmetric encryption or disabling encryption. 5 memory-corruption bugs on Linux via AFLnet/AFL++ (PRODUCT F: 1 buffer overflow; PRODUCT G: 2 buffer overflows, 1 null deref, 1 segfault). Every KSA installs its own root CA; 5 of 7 do not remove it on uninstall; PRODUCT E's root-CA private key recovered from the installer binary and used to sign a certificate for google.com. Survey n=400 (demographically matched, chi-square gender 0.64 df=1 p>0.99, age 2.31 df=4 p>0.99): 97.35% of banking users had installed KSA, 59.25% did not understand its functions, only 14.75% knew it runs continuously, 0 participants identified the anomaly-detection/fingerprinting capability, 20.75% had never uninstalled, authors conclude 86.5% remain exposed after attempted removal. Desktop analysis n=48 via HoaxEliminator: mean 9.06 KSA programs installed per machine (SD 6.96, max 24), mean 4.1 of the studied products (SD 2.92), 27 of 48 running versions from 2022 or earlier, oldest install 2019-02-15. PRODUCT E shipped by 9 institutions at 9 different versions spanning 2019-02-20 to 2023-08-22.",
+      "gap_left_open": "(1) Electron, Chromium, CEF and WebView are never mentioned; the target is a native local server OUTSIDE the browser, not an embedded browser inside a desktop app. (2) KSA at least has an explicit (if weak) boundary — the HTTP Origin header; Electron's preload/contextBridge has no equivalent, and its exposed surface is hand-written IPC channels. (3) Discovery method is manual reverse engineering of 7 products plus protocol fuzzing — no automated or scalable discovery technique is proposed, which is exactly the space a discovery thesis occupies. (4) Memory-corruption bugs were found on Linux builds; applicability to the Windows builds nearly all Korean users run is not stated. (5) Products are anonymised, so findings cannot be tied to named vendors or independently re-verified.",
+      "surfaced_by": "Required domain-restricted topical sweep, query 'sandbox escape desktop application untrusted web content renderer' (allowed_domains = the six venue hosts). Second consecutive backfill miss found by this channel and by no other: the title contains none of the config keywords."
+    },
+    {
+      "id": "ccs2021-mir",
+      "title": "Preventing Dynamic Library Compromise on Node.js via RWX-Based Privilege Reduction",
+      "title_norm": "preventing dynamic library compromise on node js via rwx based privilege reduction",
+      "authors": [
+        "Nikos Vasilakis (MIT CSAIL)",
+        "Cristian-Alexandru Staicu (CISPA)",
+        "Grigoris Ntousakis (TU Crete)",
+        "Konstantinos Kallas (University of Pennsylvania)",
+        "Ben Karel (Aarno Labs)",
+        "Andre DeHon (University of Pennsylvania)",
+        "Michael Pradel (University of Stuttgart)"
+      ],
+      "venue": "ACM CCS 2021",
+      "venue_short": "ACM CCS",
+      "year": 2021,
+      "scope": "ADJACENT",
+      "doi": "10.1145/3460120.3484535",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3460120.3484535",
+      "pdf": "https://www.seas.upenn.edu/~andre/pdf/mir_ccs2021.pdf",
+      "pdf_mirror": "https://publications.cispa.saarland/3478/",
+      "artifact": "https://github.com/andromeda/mir",
+      "note_file": "papers/ccs2021-mir.md",
+      "added": "2026-09-08",
+      "grounding": "FULL open-access author-hosted PDF (mir_ccs2021.pdf, UPenn). Read directly: abstract, Section 1 introduction, Section 3 threat model incl. the non-threats paragraph, Section 4 permission model and DSL, Sections 8.1-8.5 evaluation (Q1-Q5). Read only in part: Sections 5-7 (inference algorithm, quantification, runtime enforcement). NOT read: Tables 3, 7, 8 (Appendix B per-library attack results) and Appendix C (full privilege-reduction results for all 81 libraries). Fig. 5's funnel renders as bare numbers, so intermediate counts are not attributable to specific categories.",
+      "why_in_scope": "Config INCLUDE rule 'npm / supply-chain as it affects Electron or the Node.js runtime'. The canonical statement of the ambient-authority problem that an Electron main process inherits wholesale — every imported library holds all built-in APIs, globals, process.env, the module cache and require — and the missing middle link between Mininode (RAID'20) and HODOR (CCS'23) / NodeShield (CCS'25), all already in_scope.",
+      "headline_numbers": "Applied to over 1,000 npm libraries. SECURITY (Q1): attack set built from all Snyk npm vulnerabilities filtered to arbitrary code execution / RCE / sandbox escape = 132 candidates, minus 23 for other platforms or languages and 33 misclassified, yielding 63 working PoC attacks; Mir mitigates 61/63. The two failures are a package applying its own complex runtime wrapping, and typed-function manipulating the Function prototype chain. PRIVILEGE REDUCTION (Q2, 81 libraries = 31 usable Q1 libraries + 50 with extensive test suites): average 143.48x, range 3.5x-706x; permissions per library 2-658 (avg 42.2), split 1-341 R (avg 22.1), 0-29 W (avg 3.3), 0-209 X (avg 12.5), 0-87 I (avg 4.1); after Mir only 1 of 81 libraries retains security-critical system-wide permissions and only 5 retain security-concerning library-specific ones. COMPATIBILITY (Q3): 3,400 of 3,431 unique field-access locations (99.09%); 226,497 of 226,553 repeated accesses (99.98%); 73 of 81 packages fully compatible (90.12%); 2,541 of 2,557 test cases (99.37%). ABLATION: static analysis alone drops locations to 2,422 (70.59%) and packages to 58 (71.60%), and average inferred permissions from 155.9 to 42.3 — the import-time dynamic phase is what makes it usable (example: fs-promise computes fs wrappers by traversal). PERFORMANCE (Q4): 2.1s static analysis per library; 1.93% (approx 3.3ms) runtime enforcement overhead; accessed fields are hot, avg 795 accesses each. DEBLOATING COMPARISON (Q5): Mininode v.f604d9e takes 0.82-4.013s with no runtime overhead but fails on 7/88 libraries (5 entry-point, 1 dynamic-import, 1 OOM) and ALL 63/63 PoC attacks still succeed. Implementation: analysis mostly in Java, runtime in ~2.8 KLoC JavaScript on top of Lya.",
+      "gap_left_open": "(1) THE DECISIVE ONE — Section 3 'Non-threats' states Mir 'does not consider native libraries written in lower-level languages, such as C/C++, or libraries available in binary form', because they cannot be analysed by source-level static analysis AND can bypass a runtime protection that depends on memory safety. That single sentence is the door an Electron app's .node add-ons walk through, and it is the natural lead-in to Cross-Language Attacks (NDSS'22), Bilingual Problems (USENIX Sec'23), BinWrap (AsiaCCS'23) and NatiSand (RAID'23). (2) Also excluded: input-sanitization / command-injection attacks on APIs the library already uses; availability, DoS and side channels. (3) All evaluation is server-side Node.js/npm — no packaged desktop app, no renderer process, no IPC channel. (4) Attack entry point is 'inputs passed to a library', not remote web content. (5) 2021-era Node; exact version not stated in the sections read.",
+      "surfaced_by": "Related-work mining (required channel) of BinWrap (AsiaCCS'23, added 2026-09-07): reference [72] in BinWrap's bibliography, chased to its venue. Second consecutive run in which mining a newly-added paper's references produced a first-time triage at a target venue."
+    },
+    {
+      "id": "ndss2022-cross-language-attacks",
+      "title": "Cross-Language Attacks",
+      "title_norm": "cross language attacks",
+      "authors": [
+        "Samuel Mergendahl (MIT Lincoln Laboratory)",
+        "Nathan Burow (MIT Lincoln Laboratory)",
+        "Hamed Okhravi (MIT Lincoln Laboratory)"
+      ],
+      "venue": "NDSS 2022",
+      "venue_short": "NDSS",
+      "year": 2022,
+      "scope": "ADJACENT",
+      "doi": "10.14722/ndss.2022.24078",
+      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-259/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2022-78-paper.pdf",
+      "note_file": "papers/ndss2022-cross-language-attacks.md",
+      "added": "2026-09-08",
+      "grounding": "FULL open-access NDSS PDF (2022-78-paper.pdf). Read directly: abstract, Section I introduction, the threat-model composition and Language Transfer node construction, the CLA taxonomy (Rust bounds-check bypass, lifetime bypass, double free via FFI, return-address corruption, intended FFI interactions, concurrency), and the Firefox quantification tables. Read only in part: Sections V-VII, incl. the generalisation discussion to Go and other language combinations. NOT read: Appendix A (Go code samples). The attack-variant vs defeated-mechanism table renders as rows of quotation marks and is NOT reliably recoverable; the 'Dynamic calls' metric row was cut off and has no numbers.",
+      "why_in_scope": "Config keywords.native_boundary_added_2026_09_06 axis ('cross-language', 'language boundary', 'foreign function interface', 'ffi', 'memory safety'). Supplies the general mechanism — that a safe language's checks and an unsafe language's mitigations break DIFFERENT exploit stages and make mutually incompatible assumptions at the boundary — on which the whole JS<->C/C++ line in this ledger (Bilingual Problems, BinWrap, NatiSand) implicitly rests but which none of them states.",
+      "headline_numbers": "Firefox binary-level static analysis. Functions: Rust 487,763 (26.68% of binary), C/C++ 1,340,347 (73.32%), total 1,828,110. Call sites: Rust 327,653 (9.23%), C/C++ 3,220,415 (90.77%), total 3,548,068. Language transfer points: 227,896 = 6.42% of all call sites, of which Rust 12,118 (3.70% of Rust call sites, 5.32% of all transfer points) and C/C++ 215,778 (6.70%, 94.68%). Indirect calls: 280,441 = 7.90% of call sites, of which Rust 179,598 — 54.81% of Rust's own call sites and 64.04% of the binary's indirect calls — versus C/C++ 100,843 (3.13%, 35.96%). Scope restriction that makes the result non-trivial: the unsafe side HAS mitigation applied (e.g. CFI) and the safe side contains NO unsafe code of its own, so the vulnerability is the boundary itself rather than a stray 'unsafe' block. Rust deploys no shadow stack (being memory-safe), so C/C++ can corrupt the return address of a previously-called Rust function and it is never checked. Go's GC costs approximately 25% CPU utilization depending on workload. Named real deployments motivating the work: Firefox (Servo CSS style calculation, Dogear, MP4 metadata parser, neqo QUIC), Tor, Windows, Fuchsia, Linux flavours (Rust); Docker, Kubernetes, CockroachDB, BoltDB (Go).",
+      "gap_left_open": "(1) The safe languages studied are Rust and Go — the JavaScript/V8 <-> C/C++ boundary is NOT analysed, and it differs in kind: no ownership checks, no compile-time bounds checks, instead a GC and V8 heap structure, with transfer points of a different shape (N-API type conversions, handle scopes, callbacks). (2) Measured on ONE browser binary; zero packaged Electron apps. (3) The Firefox analysis counts structural preconditions statically — it does not demonstrate an exploitable bug in Firefox and must not be cited as if it did. (4) 2022 measurement; Firefox's Rust share has certainly moved since. Porting CLA to Electron's .node boundary — counting transfer points and constructing an actual chain — is an open, directly claimable contribution.",
+      "surfaced_by": "Related-work mining (required channel) of BinWrap (AsiaCCS'23): reference [41] in BinWrap's bibliography, chased to its venue."
     }
   ],
   "excluded": [
@@ -828,6 +911,42 @@
       "reason": "Browser-only. Studies the Chrome/Firefox/Safari extension architecture's privilege separation between content script and background page, finding 59 vulnerabilities in 40 extensions enabling UXSS and credential/cryptocurrency theft. No desktop application, no Electron/CEF, no escalation into local OS privileges. Consistent with the existing exclusions of DoubleX (CCS'21) and KeyChaser (S&P'26); distinct from UntrustIDE (NDSS'24, in_scope), which concerns VS Code — an Electron app — rather than a browser.",
       "added": "2026-09-07",
       "surfaced_by": "Required domain-restricted topical sweep, query 'desktop application privilege escalation web technologies'."
+    },
+    {
+      "title": "Isolated and Exhausted: Attacking Operating Systems via Site Isolation in the Browser",
+      "title_norm": "isolated and exhausted attacking operating systems via site isolation in the browser",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Browser architecture, not a desktop or embedded-browser application. Gierlings, Brinkmann and Schwenk (RUB) study OS resource exhaustion enabled by Chrome/Firefox Site Isolation in the web attacker model — a fork bomb from first-level resources, and blocking all UDP sockets in an OS via second-level resources behind the browser sandbox. The outcome is denial of service against OS resources, not escalation into local privileges inside a desktop application, and no Electron/CEF/WebView target is analysed. Falls under the config EXCLUDE rule 'generic Chromium browser bugs unrelated to embedded/desktop apps' and is consistent with the existing exclusion of 'State of Browser Process-Isolation: The Same-Site Weakness' (S&P'26); distinct from 'Site Isolation is Dead' (S&P'26, in_scope), which concerns agentic browsers and extensions. Disposition rests on the abstract plus the USENIX presentation page, not the full PDF.",
+      "added": "2026-09-08",
+      "surfaced_by": "Required domain-restricted topical sweep, query 'sandbox escape desktop application untrusted web content renderer'."
+    },
+    {
+      "title": "sysfilter: Automated System Call Filtering for Commodity Software",
+      "title_norm": "sysfilter automated system call filtering for commodity software",
+      "venue": "RAID 2020",
+      "year": 2020,
+      "reason": "Generic binary-level syscall filtering for commodity C/C++ software. No JavaScript runtime, no web content, no desktop-application or Electron angle; the JS/native boundary that makes BinWrap and NatiSand relevant is absent. Within the backfill window and at a target venue, so recorded here so it is never re-surfaced. Disposition rests on the citation as it appears in BinWrap's bibliography (reference [18]) plus the title, not the full paper.",
+      "added": "2026-09-08",
+      "surfaced_by": "Related-work mining of BinWrap (AsiaCCS'23), reference [18]."
+    },
+    {
+      "title": "NodeSentry: Least-privilege Library Integration for Server-Side JavaScript",
+      "title_norm": "nodesentry least privilege library integration for server side javascript",
+      "venue": "ACSAC 2014",
+      "year": 2014,
+      "reason": "TOPICALLY IN SCOPE but excluded on the YEAR RULE only: 2014, and config backfill_from_year is 2020. De Groef, Massacci and Piessens' least-privilege integration of server-side JavaScript libraries is the direct ancestor of Mir (CCS'21, now in_scope) and of the Mininode/HODOR/NodeShield line. If the thesis ever needs the pre-2020 lineage of Node.js library confinement, this is the paper to reach for first — but it stays out of in_scope so the ledger's year boundary remains meaningful. Disposition rests on the citation in BinWrap's bibliography (reference [17]), not the full paper.",
+      "added": "2026-09-08",
+      "surfaced_by": "Related-work mining of BinWrap (AsiaCCS'23), reference [17]."
+    },
+    {
+      "title": "Network-Level Prompt and Trait Leakage in Local Research Agents",
+      "title_norm": "network level prompt and trait leakage in local research agents",
+      "venue": "USENIX Security 2026",
+      "year": 2026,
+      "reason": "LLM-agent privacy, not desktop application vulnerability discovery. Concerns what a network observer can infer from a locally-run research agent's traffic; no Electron/CEF/WebView target, no renderer-to-main privilege boundary, no XSS-to-RCE escalation. Recorded so the title is not re-chased. Disposition rests on the prepublication PDF's title and the search-result summary, not the full paper.",
+      "added": "2026-09-08",
+      "surfaced_by": "Required domain-restricted topical sweep, query 'local HTTP server desktop agent web page privileged API security study'."
     }
   ],
   "context_non_venue": [
