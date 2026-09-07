@@ -21419,10 +21419,10 @@
    ]
   },
   "2609.03781": {
-   "version": "v1",
+   "version": "v2",
    "title": "IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks",
    "first_seen": "2026-09-05",
-   "last_updated": "2026-09-05",
+   "last_updated": "2026-09-08",
    "folder": "2026-09-05",
    "keywords": [
     "jailbreak",
@@ -21859,6 +21859,201 @@
     "adversarial",
     "red_teaming"
    ]
+  },
+  "2609.04714": {
+   "version": "v1",
+   "title": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "safety alignment",
+    "false refusal",
+    "safety tuning",
+    "over-refusal",
+    "alignment robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2609.04533": {
+   "version": "v1",
+   "title": "Repeat-After-Me: Black-Box Adaptive Visual Prompt Injection",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "prompt injection",
+    "multimodal attack",
+    "VLM",
+    "agent safety",
+    "PII leakage"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "multimodal_attack",
+    "agent_safety"
+   ]
+  },
+  "2609.04463": {
+   "version": "v1",
+   "title": "Shared circuits predict whether LLMs generalize across formats in arithmetic reasoning",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "circuit analysis",
+    "attribution patching",
+    "mechanistic interpretability",
+    "generalization",
+    "multilingual"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2609.05329": {
+   "version": "v1",
+   "title": "Machine Unlearning as Private Retroactive Algorithms",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "machine unlearning",
+    "differential privacy",
+    "continual observation",
+    "retroactive algorithms",
+    "privacy theory"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "differential_privacy"
+   ]
+  },
+  "2609.04721": {
+   "version": "v1",
+   "title": "Locating and Steering Refusal Beyond Attention",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "refusal direction",
+    "activation steering",
+    "representation engineering",
+    "state-space model",
+    "jailbreak defense"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "circuits"
+   ]
+  },
+  "2609.04875": {
+   "version": "v1",
+   "title": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "machine unlearning",
+    "agent privacy",
+    "KV cache",
+    "provenance",
+    "data deletion"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "agent_privacy"
+   ]
+  },
+  "2609.04495": {
+   "version": "v1",
+   "title": "Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "indirect prompt injection",
+    "agent safety",
+    "red-teaming",
+    "test-time compute",
+    "attack surface"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2609.04808": {
+   "version": "v1",
+   "title": "Recurrence Is Not Enough: Causally Validating Multilingual SAE Translation Features in Gemma 2 and 3",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "sparse autoencoder",
+    "causal validation",
+    "feature steering",
+    "multilingual",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "interp_method"
+   ]
+  },
+  "2609.04482": {
+   "version": "v1",
+   "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "safety alignment",
+    "over-refusal",
+    "self-distillation",
+    "narrow-boundary safety",
+    "safety evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2609.04382": {
+   "version": "v1",
+   "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+   "first_seen": "2026-09-08",
+   "last_updated": "2026-09-08",
+   "folder": "2026-09-08",
+   "keywords": [
+    "split learning",
+    "training data leakage",
+    "gradient leakage",
+    "privacy audit",
+    "differential privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction",
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -21901,5 +22096,5 @@
    ]
   }
  },
- "last_run": "2026-09-07"
+ "last_run": "2026-09-08"
 }

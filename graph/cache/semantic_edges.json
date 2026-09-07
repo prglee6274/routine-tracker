@@ -1266,5 +1266,41 @@
  "2609.03629->2605.29358": {
   "type": "background",
   "evidence": "'SAEs have recently shown notable success in interpreting large-scale transformer-based language models, with subsequent work scaling to frontier models [32]' — SAE 계보를 소개하는 배경 인용."
+ },
+ "2609.04382->2606.14210": {
+  "type": "background",
+  "evidence": "선행 split-LLM 양방향 데이터 유출 연구로, 본 사례연구가 감사하는 위협 모델의 배경을 제공"
+ },
+ "2609.04382->2606.16801": {
+  "type": "compares",
+  "evidence": "13편 감사 코퍼스 안에서 MIXGUARD의 '방어 대 공격' 비교 방식과 본 논문의 사전등록 감사 방식을 대조"
+ },
+ "2609.04495->2606.10525": {
+  "type": "extends",
+  "evidence": "도메인 전문지식으로 공격 공간을 수작업 구성하던 선행 자동 인젝션 평가를, 탐색 하네스를 갖춘 공격자 에이전트로 확장"
+ },
+ "2609.04495->2606.15057": {
+  "type": "background",
+  "evidence": "적응형 공격이 표면적 방어를 무력화한다는 인접 선행 연구로 문제의식을 공유"
+ },
+ "2609.04495->2608.06477": {
+  "type": "background",
+  "evidence": "컴퓨터 사용 에이전트 대상 다단계 간접 인젝션 벤치마크로 참고문헌에서만 인용"
+ },
+ "2609.04808->2601.03047": {
+  "type": "background",
+  "evidence": "SAE 특징이 토큰 아티팩트를 반영할 수 있다는 비판을 인용해 다국어 인과 검증의 필요성을 동기화"
+ },
+ "2609.04808->2605.29358": {
+  "type": "background",
+  "evidence": "SAE가 뉴런보다 해석 가능한 단위를 준다는 대표 선행 연구로 관련 연구에서 인용"
+ },
+ "2609.05329->2605.01129": {
+  "type": "extends",
+  "evidence": "언러닝의 재학습 모방 요건이 연속 릴리스 관찰 적대자 앞에서 프라이버시 의미를 갖지 못한다는 결과를 전제로 삼아 private retroactive 정의로 확장"
+ },
+ "2609.05329->2607.00876": {
+  "type": "extends",
+  "evidence": "연속 관찰 DP의 이진 트리 메커니즘 결과를 선형 통계 retroactivity 구성의 기술적 토대로 사용"
  }
 }
