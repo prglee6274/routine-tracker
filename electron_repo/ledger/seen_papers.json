@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-08",
-  "last_run": "2026-09-08",
+  "last_updated": "2026-09-09",
+  "last_run": "2026-09-09",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -566,6 +566,22 @@
       "headline_numbers": "Firefox binary-level static analysis. Functions: Rust 487,763 (26.68% of binary), C/C++ 1,340,347 (73.32%), total 1,828,110. Call sites: Rust 327,653 (9.23%), C/C++ 3,220,415 (90.77%), total 3,548,068. Language transfer points: 227,896 = 6.42% of all call sites, of which Rust 12,118 (3.70% of Rust call sites, 5.32% of all transfer points) and C/C++ 215,778 (6.70%, 94.68%). Indirect calls: 280,441 = 7.90% of call sites, of which Rust 179,598 — 54.81% of Rust's own call sites and 64.04% of the binary's indirect calls — versus C/C++ 100,843 (3.13%, 35.96%). Scope restriction that makes the result non-trivial: the unsafe side HAS mitigation applied (e.g. CFI) and the safe side contains NO unsafe code of its own, so the vulnerability is the boundary itself rather than a stray 'unsafe' block. Rust deploys no shadow stack (being memory-safe), so C/C++ can corrupt the return address of a previously-called Rust function and it is never checked. Go's GC costs approximately 25% CPU utilization depending on workload. Named real deployments motivating the work: Firefox (Servo CSS style calculation, Dogear, MP4 metadata parser, neqo QUIC), Tor, Windows, Fuchsia, Linux flavours (Rust); Docker, Kubernetes, CockroachDB, BoltDB (Go).",
       "gap_left_open": "(1) The safe languages studied are Rust and Go — the JavaScript/V8 <-> C/C++ boundary is NOT analysed, and it differs in kind: no ownership checks, no compile-time bounds checks, instead a GC and V8 heap structure, with transfer points of a different shape (N-API type conversions, handle scopes, callbacks). (2) Measured on ONE browser binary; zero packaged Electron apps. (3) The Firefox analysis counts structural preconditions statically — it does not demonstrate an exploitable bug in Firefox and must not be cited as if it did. (4) 2022 measurement; Firefox's Rust share has certainly moved since. Porting CLA to Electron's .node boundary — counting transfer points and constructing an actual chain — is an open, directly claimable contribution.",
       "surfaced_by": "Related-work mining (required channel) of BinWrap (AsiaCCS'23): reference [41] in BinWrap's bibliography, chased to its venue."
+    },
+    {
+      "id": "ccs2021-harp",
+      "title": "Supply-Chain Vulnerability Elimination via Active Learning and Regeneration",
+      "title_norm": "supply chain vulnerability elimination via active learning and regeneration",
+      "authors": "Nikos Vasilakis, Achilles Benetopoulos, Shivam Handa, Alizee Schoen, Jiasi Shen, Martin C. Rinard",
+      "venue": "ACM CCS 2021",
+      "year": 2021,
+      "scope": "ADJACENT",
+      "doi": "10.1145/3460120.3484736",
+      "url": "https://dl.acm.org/doi/10.1145/3460120.3484736",
+      "pdf": "http://nikos.vasilak.is/p/harp:ccs:2021.pdf",
+      "note_file": "papers/ccs2021-harp.md",
+      "added": "2026-09-09",
+      "grounding": "Full author-hosted PDF read (abstract, S1, S3 threat model, S4 ALR, S7 evaluation incl. Table 1). Extended-version Python results and Appendix B per-library C/C++ table NOT consulted; two apparent typos in the paper flagged in the note (25 vs 28 libraries; 28/30 reported as 99.3%).",
+      "found_via": "related-work mining -> author-page mining (nikos.vasilak.is/publications), reached from Mir CCS'21 reference [76]"
     }
   ],
   "excluded": [
@@ -947,6 +963,34 @@
       "reason": "LLM-agent privacy, not desktop application vulnerability discovery. Concerns what a network observer can infer from a locally-run research agent's traffic; no Electron/CEF/WebView target, no renderer-to-main privilege boundary, no XSS-to-RCE escalation. Recorded so the title is not re-chased. Disposition rests on the prepublication PDF's title and the search-result summary, not the full paper.",
       "added": "2026-09-08",
       "surfaced_by": "Required domain-restricted topical sweep, query 'local HTTP server desktop agent web page privileged API security study'."
+    },
+    {
+      "title": "Towards Practical Application-level Support for Privilege Separation",
+      "title_norm": "towards practical application level support for privilege separation",
+      "venue": "ACSAC 2022",
+      "year": 2022,
+      "reason": "Pitchfork: compile-time/run-time toolchain that splits C programs into separate-process compartments. Target venue and inside the backfill window, but purely C/native privilege separation with no JavaScript runtime, npm, WebView or desktop-app angle. Reached via author-page mining of Vasilakis; do not re-chase."
+    },
+    {
+      "title": "Keeping Safe Rust Safe with Galeed",
+      "title_norm": "keeping safe rust safe with galeed",
+      "venue": "ACSAC 2021",
+      "year": 2021,
+      "reason": "Rust<->C++ intra-process isolation, the defence companion to Cross-Language Attacks (NDSS'22, in_scope). Same safe/unsafe language-boundary theme but no scripting runtime, no npm/N-API, no desktop app: one step further out than the theory paper we kept. Cited as [91] in Cross-Language Attacks; do not re-chase."
+    },
+    {
+      "title": "Retrofitting Fine Grain Isolation in the Firefox Renderer",
+      "title_norm": "retrofitting fine grain isolation in the firefox renderer",
+      "venue": "USENIX Security 2020",
+      "year": 2020,
+      "reason": "RLBox. Sandboxes third-party C/C++ libraries inside a browser renderer. Excluded for consistency with the other browser-internal isolation papers already in this list (Site Isolation is Dead was kept only for its agentic-extension angle; Isolated and Exhausted, State of Browser Process-Isolation were excluded): the boundary is a browser's own C dependencies, not a JavaScript runtime's native add-on surface, which is what NatiSand/BinWrap/Bilingual Problems cover. Cited as [77] in Cross-Language Attacks; do not re-chase."
+    },
+    {
+      "title": "Browser Permission Mechanisms Demystified",
+      "title_norm": "browser permission mechanisms demystified",
+      "venue": "NDSS 2023",
+      "year": 2023,
+      "reason": "Generic browser permission-prompt semantics across Chromium/Firefox/WebKit. Falls squarely under the EXCLUDE rule 'generic Chromium browser bugs unrelated to embedded/desktop apps'. Surfaced by the 2026-09-09 domain-restricted topical sweep; do not re-chase."
     }
   ],
   "context_non_venue": [
@@ -1767,6 +1811,26 @@
       "reported_numbers": "Exploits generated for 395/560 vulnerabilities (71%), reported as 38 absolute percentage points above the prior state of the art; 76/126 (60.3%) on recent real-world vulnerabilities; five generated exploits added to GitHub Security Advisories records.",
       "grounding": "WEAK — SEARCH-SUMMARY ONLY. The arXiv /abs/ page returned an empty response and the ACM DOI (10.1145/3808178) returned an empty body via web_fetch (paywall/JS). The numbers above come from a WebSearch result summary and have NOT been verified against the paper text. RE-GROUND BEFORE CITING: fetch https://arxiv.org/pdf/2506.04962.",
       "added": "2026-09-06"
+    },
+    {
+      "title": "SecBench.js: An Executable Security Benchmark Suite for Server-Side JavaScript",
+      "title_norm": "secbench js an executable security benchmark suite for server side javascript",
+      "authors": "Masudul Hasan Masud Bhuiyan, Adithya Srinivas Parthasarathy, Nikos Vasilakis, Michael Pradel, Cristian-Alexandru Staicu",
+      "venue": "ICSE 2023 (45th IEEE/ACM Intl. Conf. on Software Engineering) - software-engineering venue, NOT one of the nine security venues",
+      "year": 2023,
+      "url": "https://nikos.vasilak.is/p/secbench:icse:2023.pdf",
+      "why": "Executable benchmark suite of real server-side JavaScript vulnerabilities with working exploits. Directly usable as an EVALUATION BASELINE for a vulnerability-discovery thesis, and it links the CISPA (Staicu/Pradel) and Brown/MIT (Vasilakis) groups that produced Bilingual Problems, Mir, BinWrap and Harp. Recorded as context because ICSE is outside the nine-venue frame.",
+      "added": "2026-09-09"
+    },
+    {
+      "title": "Lexo: Eliminating Stealthy Supply-Chain Attacks via LLM-Assisted Program Regeneration",
+      "title_norm": "lexo eliminating stealthy supply chain attacks via llm assisted program regeneration",
+      "authors": "Evangelos Lamprou, Julian Dai, Grigoris Ntousakis, Martin C. Rinard, Nikos Vasilakis",
+      "venue": "arXiv preprint arXiv:2510.14522",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2510.14522",
+      "why": "The direct LLM-era successor to Harp (CCS'21): same regeneration-not-confinement strategy, but the DSL restriction is replaced by LLM-assisted synthesis, which in principle lifts Harp's 'string-processing libraries only' ceiling. Preprint, no target-venue publication found as of 2026-09-09 - RE-CHECK at the nine venues in later runs, it is a plausible future CCS/USENIX submission.",
+      "added": "2026-09-09"
     }
   ]
 }

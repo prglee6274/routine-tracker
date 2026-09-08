@@ -1,5 +1,42 @@
 # Changelog
 
+## 2026-09-09 — Daily watch
+
+**One new `in_scope` paper — Harp (CCS '21) — plus four venue-paper exclusions, and the first NULL result from the domain-restricted topical sweep in four runs.** Ledger moves **24 → 25 in_scope**, **43 → 47 excluded**, **17 → 19 context_non_venue**. Nothing was newly published at any of the nine venues (sixth consecutive run). ACSAC's list did **not** appear on notification+1.
+
+### THE FIND
+
+**"Supply-Chain Vulnerability Elimination via Active Learning and Regeneration" (Harp)** — Vasilakis, Benetopoulos, Handa, Schoen, Shen, Rinard (MIT CSAIL + UCSC), **ACM CCS '21**. Note: [`papers/ccs2021-harp.md`](papers/ccs2021-harp.md). Scope **ADJACENT**. Full 6-part note from the author-hosted PDF.
+
+This is the **third strategy** in a space the ledger had been treating as binary. Detection flags malicious code; confinement (Mir, BinWrap, NatiSand, HODOR, NodeShield) restricts it at runtime — but both still *execute the attacker's code*. Harp **deletes and re-synthesises** it: probe the library black-box, infer its client-observable behaviour as a program in a DSL that has no file-system, network, or global-state constructs, and emit a replacement in which the malicious behaviour is not blocked but **inexpressible**.
+
+Numbers: three real incidents neutralised — `event-stream`/`flatmap-stream` (1.4 s), `left-pad` (3.6 s), `string-compare` (0.7 s) — each at a **332× privilege reduction**, with the regenerated `string-compare` **byte-identical for the benign and the malicious version**. Across **17 npm string libraries** (102M weekly downloads, 4.3K direct dependents, >100K transitive applications) plus **11 deliberately misclassified** ones: **14/17 regenerated inside a minute**, average **204.83 s**, worst case `camel-case` at 50.9 min; average runtime overhead **+2.3%** (range −1.6% to +6.4%); **14/17 pass 100%** of developer *and* top-10-client test suites; the §6 refinements are worth **≥179.27×**, a floor set by 7/17 libraries hitting a 12-hour timeout without them. And **5 native C/C++ libraries regenerated into JavaScript at ≤1% overhead**.
+
+The Electron hook is explicit in the setup, not inferred: Harp expects native add-ons to be **wrapped by Node's NaN or N-API** — the same JS↔C++ boundary BinWrap, NatiSand and Bilingual Problems attack. The gap it leaves is the useful one for a discovery thesis: Harp **excludes libraries that mutate built-in prototypes such as `String.prototype`**, which is precisely the surface the prototype-pollution line in this ledger (Silent Spring, GHunter, Bullseye, UOP) lives on. Two apparent typos in the paper are flagged in §6 of the note (25 vs 28 libraries; 28/30 printed as 99.3%) — do not cite either figure without re-checking.
+
+### THE METHOD RESULT — author pages beat reference lists
+
+The chain now reads:
+
+> domain-restricted sweep → **NatiSand** (RAID '23) → **BinWrap** (AsiaCCS '23) → **Mir** (CCS '21) → **Harp** (CCS '21)
+
+But the honest account is that Mir's reference [76] *pointed* at Harp while the **author publications page** delivered it — `nikos.vasilak.is/publications` lists the whole group's output with direct PDFs in one fetch, and in that single fetch also produced two context items (**SecBench.js**, ICSE '23, an executable server-side-JS vulnerability benchmark usable as an evaluation baseline; **Lexo**, arXiv 2025, the LLM-era successor to Harp) and one exclusion (**Pitchfork**, ACSAC '22). New standing practice, recorded in the config: when a newly added paper has a distinctive author group, **open the author page before chasing the bibliography**. Next targets named in the config: **Cristian-Alexandru Staicu** (CISPA) and **Vasileios P. Kemerlis** (Brown).
+
+The counter-lesson came from the other pending bibliography. **Cross-Language Attacks (NDSS '22) yielded zero** — its 100+ references are almost entirely Rust/TEE/CFI systems work. Two target-venue papers were checked and excluded there (**Galeed**, ACSAC '21; **RLBox**, USENIX Sec '20), and the whole CFI/shadow-stack/DOP/BOP and SGX clusters are now recorded as dismissed so they are never re-chased. So: **mine PRIMARY-tagged papers before ADJACENT-tagged ones** — a paper admitted for its *theory* can have a bibliography pointing entirely away from the thesis scope.
+
+### THE NULL RESULT — and why it is not convergence
+
+The required domain-restricted sweep fired its **last three unused queries** and returned nothing. But those three were the weakest in the buffer: `hybrid desktop application attack surface measurement` and `foreign function interface security analysis managed runtime` returned **US patents and PL-theory papers**, exactly as `inter-process communication privilege boundary application` did on 09-07. The rule is now firm and written into the config: **metric and mechanism nouns pull the patent corpus; architecture nouns pull security venues.** The rotation buffer is **empty and flagged `refill_needed`**, with five architecture-shaped replacements suggested (custom URL scheme handlers, auto-updaters, deep links, markdown renderers, chat link previews). One null run on the three worst queries is not evidence the backfill has converged — convergence would be **both** channels silent for several consecutive runs.
+
+### VENUE STATUS
+
+- **ACSAC 2026** — notification was yesterday; today was the first day a list was plausible. Still nothing: an acsac.org-restricted search returns only 2026 submissions/artifacts/committees/registration/workshops pages plus the indexed `/2025/program/papers/`. Check every run; re-sweep after the **2026-10-08** minor-revision close regardless, since the list can publish incomplete and grow.
+- **RAID 2026** — 6th consecutive run, 4th consecutive byte-for-byte-identical fetch. `accepted.html` is still a heading followed by nothing; `program.html` still has all 21 session slots at literal `TBD`. Eight weeks and six days past notification, conference ~4.3 weeks out. Realistic expectation now: RAID '26 titles surface via DBLP/Springer **after** the conference, not via the venue site before it.
+- **NDSS** — news feed unchanged, latest entry still 18 August 2026 (NDSS '27 Fall CFP). Weekly checks from 2026-10-01 stand. Datum worth keeping: the feed records **NDSS '26 accepted 265 papers (113 summer + 152 fall)** — the denominator for judging how exhaustively this watch has swept that year.
+- **USENIX Sec, IEEE S&P, CCS, ESORICS, AsiaCCS, DSN** — swept via standing queries, nothing new beyond what is already triaged. ESORICS '26 Springer chapter-level TOC still due **2026-10-28**.
+
+---
+
 ## 2026-09-08 — Daily watch
 
 **Three new `in_scope` papers, all backfill misses, spanning 2021, 2022 and 2025 — and two of the three came out of a bibliography this watch only gained access to yesterday.** Ledger moves **21 → 24 in_scope**, **39 → 43 excluded**, context_non_venue holds at **17**. Nothing was newly published at any of the nine venues (fifth consecutive run). ACSAC's notification date was today and, as predicted, nothing appeared on the day itself.
