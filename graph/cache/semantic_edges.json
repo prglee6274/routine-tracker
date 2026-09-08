@@ -1302,5 +1302,13 @@
  "2609.05329->2607.00876": {
   "type": "extends",
   "evidence": "연속 관찰 DP의 이진 트리 메커니즘 결과를 선형 통계 retroactivity 구성의 기술적 토대로 사용"
+ },
+ "2608.30041->2605.31042": {
+  "type": "background",
+  "evidence": "SkillGuard cites it while framing the agentic prompt-injection/persistent-control threat; not among its evaluated baselines (Spotlighting, CaMeL, AttriGuard)."
+ },
+ "2608.30041->2607.14493": {
+  "type": "background",
+  "evidence": "Cited in the threat-setting discussion of untrusted external content contaminating LLM context; no comparison or reuse."
  }
 }
