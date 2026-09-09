@@ -1,5 +1,55 @@
 # Changelog
 
+## 2026-09-10 — Daily watch
+
+**Two new `in_scope` papers, both at top-4 venues, both from a SINGLE author page — plus five venue-paper exclusions and one context item.** Ledger moves **25 → 27 in_scope**, **47 → 52 excluded**, **19 → 20 context_non_venue**. Nothing was newly published at any of the nine venues (seventh consecutive run). ACSAC's list did **not** appear on notification+2.
+
+### THE FINDS
+
+**1. "SandDriller: A Fully-Automated Approach for Testing Language-Based JavaScript Sandboxes"** — AlHamdan & Staicu (CISPA), **USENIX Security '23**. Note: [`papers/usenixsec2023-sanddriller.md`](papers/usenixsec2023-sanddriller.md). Scope **ADJACENT**. Full 6-part note from the author-hosted PDF.
+
+This is the **first discovery-side (not defence-side) automated technique for isolation escapes** in the ledger. Its abstraction is the **foreign reference** — a reference reachable from guest code whose prototype chain terminates in the host. SANDDRILLER interposes oracle checks on the three vectors real exploits actually use (function **return values**, thrown **exceptions**, **callback arguments**), walks each reference's transitive closure, and on a hit *confirms* by synthesising a working escape — so it has **no false positives by construction**.
+
+Numbers: **46,606 benign seed programs** (41,034 Test262 + 5,572 V8 unit tests, ≤5 variants each) × **6 sandboxes** × **3 Node.js versions** (14.15 / 15.12 / 16.12), **17.27 hours**, **>3 billion oracle checks** → **115,085 security violations**, **48 hard crashes**, **five of six sandboxes broken**, grouped into **13 distinct problems** / **8 unique zero-day breakouts**, **8 advisories** (most *critical*), **8 fixed**, one sandbox **deprecated** in response. Advisories include CVE-2021-23449 and CVE-2021-23555 (vm2), CVE-2021-23594 / -23543 (realms-shim), CVE-2021-21413 (isolated-vm — the authors believe the first published vuln report for a *runtime-based* JS sandbox), CVE-2022-23923 (jailed), CVE-2021-23771 (notevil).
+
+Three findings that transfer directly to Electron: **`ses` was the only unbroken sandbox and paid for it in usability** (highest runtime-error and timeout counts, because it freezes the intrinsics) — the isolation/compatibility trade-off, measured; **AdSafe broke because a dependency changed quietly** (recent JSLint stopped performing the static transformations AdSafe's invariant assumed) — configuration-based defence rots silently, which is exactly the risk profile of `webPreferences`; and **a bug in Node.js's own `vm` module** propagated to every sandbox built on it, where an apparently superfluous `new Error().stack` flips a `try`/`catch` from 1 to **498** iterations.
+
+Why it matters here: Electron's `contextIsolation` **is** a language-based isolation boundary of this exact kind, and the ledger's own Electron CVE entry already contains two bugs of precisely the shape SANDDRILLER's oracle targets — **CVE-2026-70610** (contextBridge object copy honours prototype setters) and **CVE-2026-70601** (context-isolation bypass via `Function.prototype.bind` hijack). The gap left open is the thesis-sized one: the evaluation covers **npm sandbox libraries**, single-process language isolation only, and *deliberately excludes* sandboxes that require a policy (SandTrap, Mir) — while an Electron app's security **is** its per-app policy, i.e. what the preload chooses to expose.
+
+**2. "Welcome to Jurassic Park: A Comprehensive Study of Security Risks in Deno and its Ecosystem"** — AlHamdan & Staicu (CISPA), **NDSS '25**. Note: [`papers/ndss2025-jurassic-park.md`](papers/ndss2025-jurassic-park.md). Scope **ADJACENT**. Full 6-part note from the author-hosted PDF.
+
+An **audit of a runtime's permission model** — same genre as this thesis, not a defence to contrast against. Three failure classes, each with a PoC: (a) **static `import` is exempt from permission checks entirely**, enabling a self-rewriting metamorphic payload that exfiltrates a password file over the network *although network permission was never granted*; (b) **shadow permissions** — `--allow-write` is effectively a full bypass (rewrite `.bashrc`, overwrite `firefox.exe`), and `--allow-read` silently subsumes `--allow-env` and `--allow-sys` via `/proc/self/environ` and `/proc/meminfo`; (c) **fine-grained enforcement fails at the name→resource binding** — a symlink committed inside the one folder the user permitted (`cache/root-folder → /`) converts directory-scoped access into whole-filesystem access, and by (b) into command execution.
+
+Ecosystem measurement over **5,400 deno.land packages** across **20 delivery domains**: **39 packages still fetched over plain HTTP**; **2 domains permanently unavailable, one for sale cheaply since Feb 2023**, hosting 3 packages reaching 12 more transitively (**the Deno team bought the domain** in response); median **220 dead links** breaking **380 packages directly and 462 transitively**, worst day **283 URLs → 1,332 packages**; and **21 permanently broken URLs pointing at Deno's own `std`**. The number to steal for Electron: the **declared-vs-required permission gap** — **409** packages document filesystem read, **1,491** actually need it (transitively **491** vs **2,743**). Outcome: **CVE-2024-21487** (HIGH, symlinks) and **CVE-2024-21486** (MODERATE, static imports), and Deno 2.0 restricting unprivileged static imports.
+
+**A deliberate departure from precedent, recorded in the ledger so it stays consistent:** Cage4Deno (AsiaCCS '23) is *excluded* as a Deno-only, subprocess-only **defence**. This paper is admitted because it is the opposite genre — an **attack/audit of the permission model itself** — and it lands on boundaries the thesis targets (prototype pollution only half-mitigated, ReDoS, `--allow-ffi`, and above all the shadow-permission concept, which is the analysis one wants to run on `webPreferences`).
+
+### THE METHOD RESULT — the split signal is now unmistakable
+
+Both finds came from **one fetch** of `staicu.org/publications`. Neither title contains a single config keyword — not "electron", not "node.js", not "npm", not "sandbox escape" — the same blind spot that hid Bilingual Problems for six runs.
+
+> **Author-page mining: in_scope papers on five consecutive runs. Domain-restricted topical sweep: nothing for two consecutive runs.**
+
+The contrast within today's run is the useful part. **Staicu** (CISPA) → two in_scope at two top-4 venues. **Kemerlis** (Brown) → **zero** in_scope out of ~48 conference papers, plus five exclusions recorded (IvySyn USENIX '23, QUACK NDSS '24, PickleBall CCS '25, SysXCHG CCS '23, µSCOPE RAID '21). Kemerlis co-authored BinWrap, but his output is OS-kernel/memory-safety/CFI work — BinWrap is the outlier, not the pattern. **New rule, written into the config: mine the author whose own research statement matches the thesis topic, not the co-author whose lab merely intersected it once.** Next targets, in order: **Abdullah AlHamdan** (first author of both of today's finds), Musard Balliu / Mohammad M. Ahmadpanah (KTH), Soheil Khodayari & Giancarlo Pellegrino (CISPA), Michael Pradel (Stuttgart), Deian Stefan (UCSD).
+
+Also recorded as context: **CHARON** (EuroS&P '25, Scholtes/Khodayari/Staicu/Pellegrino) — polyglot analysis for vulnerabilities in scripting-language native extensions, i.e. the **detection-side successor to Bilingual Problems**. EuroS&P is not one of the nine venues, and the authors' page still says "paper link will come soon", so nothing beyond title/authors/venue is grounded. Re-check for a PDF.
+
+### THE SECOND NULL SWEEP — and a sharper wording rule
+
+The required domain-restricted sweep fired **five** queries (the config's own suggested refills plus two more) and returned nothing new. The diagnosis is the same one, third time: `custom URL scheme handler desktop application attack` returned **US patents**; `markdown renderer desktop note-taking application injection` returned no topical cluster at all; `auto-update mechanism desktop client integrity study` returned exactly one target-venue paper and it was **already excluded** (When Updates Backfire, USENIX '26); `deep link handling…` returned only mobile/Android work. But `preload script contextBridge renderer main process desktop app study` returned **Inspectron** — already in_scope — which is a **positive control**: the channel does surface the right cluster when one exists, so today's nulls are informative, not a tooling failure.
+
+**Sharpened rule:** a query is architecture-shaped only if the component it names is one a **developer would write in their app's source** (preload script, auto-updater, link preview, drag-and-drop handler) — not one an **OS or spec** would name (URL scheme, IPC, FFI, deep link). The buffer is refilled with eight queries in that style. Two null runs is the **first weak evidence of convergence for this channel only** — the backfill itself has not converged, since the other channel produced two top-4 papers today.
+
+### VENUE STATUS
+
+- **ACSAC 2026** — **notification+2, fifth consecutive run with nothing.** An acsac.org-restricted search still returns only 2026 submissions/artifacts/committees/registration/workshops pages plus the indexed `/2025/program/papers/`. Schedule re-confirmed verbatim (camera-ready 22 Oct, conference 7–11 Dec, Los Angeles). Check every run; re-sweep after the **2026-10-08** minor-revision close regardless.
+- **RAID 2026** — 7th consecutive run, **5th consecutive byte-for-byte-identical fetch**. `accepted.html` is a heading followed by nothing; `program.html` has all 21 slots at literal `TBD`. **Nine weeks** past notification, conference ~4.2 weeks out. Recommend dropping to a weekly check until mid-October to save budget; titles will realistically surface via DBLP/Springer after the conference.
+- **NDSS** — news feed unchanged, latest entry still 18 August 2026 (NDSS '27 Fall CFP). Provenance trap held for the fourth run. Weekly checks from 2026-10-01 stand.
+- **USENIX Sec, IEEE S&P, CCS, ESORICS, AsiaCCS, DSN** — swept via standing queries; nothing new beyond what is already triaged. ESORICS '26 Springer chapter-level TOC still due **2026-10-28**.
+- **Electron upstream** — one new datum folded into the existing advisories context entry: **CVE-2026-70605**, an SSRF in `net.fetch()` / `net.request()` following redirects to `file://` and other local resources, which would be a **fourth trust boundary** (remote server → main process via Electron's own networking API). **Grounded only in a search-result summary** — flagged in the ledger as not to be cited until the primary advisory is read.
+
+---
+
 ## 2026-09-09 — Daily watch
 
 **One new `in_scope` paper — Harp (CCS '21) — plus four venue-paper exclusions, and the first NULL result from the domain-restricted topical sweep in four runs.** Ledger moves **24 → 25 in_scope**, **43 → 47 excluded**, **17 → 19 context_non_venue**. Nothing was newly published at any of the nine venues (sixth consecutive run). ACSAC's list did **not** appear on notification+1.
