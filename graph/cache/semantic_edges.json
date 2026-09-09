@@ -1310,5 +1310,41 @@
  "2608.30041->2607.14493": {
   "type": "background",
   "evidence": "Cited in the threat-setting discussion of untrusted external content contaminating LLM context; no comparison or reuse."
+ },
+ "2609.05976->2606.03291": {
+  "type": "extends",
+  "evidence": "확장한 선행 다국어 언러닝 전이 연구; 전이 측정만으로는 과소/과대 전파를 구분 못한다는 한계에서 CLLPU 벤치마크를 도출"
+ },
+ "2609.06934->2605.29358": {
+  "type": "background",
+  "evidence": "참고문헌 목록 내 SAE 계보 인용, 본문 방법과 직접 연결되지 않음"
+ },
+ "2609.07162->2607.02514": {
+  "type": "background",
+  "evidence": "다중 트레이스 모니터링이 분산 공격 회피를 93%→47%로 줄인다는 실증 사례를 배경 근거로 인용"
+ },
+ "2609.07746->2605.29358": {
+  "type": "extends",
+  "evidence": "SAE로 활성을 희소 피처 방향으로 분해하는 방법론을 백도어 트리거 국소화에 직접 적용"
+ },
+ "2609.08236->2607.13083": {
+  "type": "background",
+  "evidence": "안전 심판을 고정 오라클로 보는 가정에 의문을 제기해온 최근 연구 목록의 일부로 인용"
+ },
+ "2609.09113->2605.01555": {
+  "type": "extends",
+  "evidence": "에이전트 기반 자동 해석가능성/피처 발견 라인을 SAE 연구 자율수행 벤치마크로 확장"
+ },
+ "2609.09113->2605.29358": {
+  "type": "background",
+  "evidence": "SAE를 기계적 해석가능성의 기초 패러다임으로 소개하는 묶음 인용"
+ },
+ "2609.09113->2605.31183": {
+  "type": "background",
+  "evidence": "SAE 스티어링 성능 논쟁을 인과적 스티어링 평가축의 배경으로 인용"
+ },
+ "2609.09113->2606.24026": {
+  "type": "compares",
+  "evidence": "에이전트의 기계적 해석가능성 수행 능력을 다룬 가장 근접한 선행 벤치마크로 대비 배치"
  }
 }
