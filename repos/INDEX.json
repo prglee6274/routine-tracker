@@ -529,13 +529,12 @@
   },
   "ayghri/i-have-adhd": {
    "first_seen": "2026-08-05",
-   "last_seen": "2026-09-10",
-   "days_on_list": 1,
-   "last_stars": 33987,
+   "last_seen": "2026-09-11",
+   "days_on_list": 2,
+   "last_stars": 37717,
    "category": "llm",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-09-08"
+   "last_pushed_at": "2026-09-10"
   },
   "backbay-labs/clawdstrike": {
    "first_seen": "2026-06-11",
@@ -2293,13 +2292,12 @@
   },
   "kubernetes-sigs/agent-sandbox": {
    "first_seen": "2026-07-23",
-   "last_seen": "2026-08-28",
-   "days_on_list": 3,
-   "last_stars": 3658,
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 3804,
    "category": "security",
    "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-09-10"
   },
   "kunchenguid/no-mistakes": {
    "first_seen": "2026-09-01",
@@ -4077,13 +4075,12 @@
   },
   "superplanehq/superplane": {
    "first_seen": "2026-09-09",
-   "last_seen": "2026-09-09",
-   "last_stars": 6305,
-   "last_pushed_at": "2026-09-08",
-   "days_on_list": 1,
+   "last_seen": "2026-09-11",
+   "last_stars": 7013,
+   "last_pushed_at": "2026-09-10",
+   "days_on_list": 2,
    "category": "tools",
-   "language": "Go",
-   "graduated": false
+   "language": "Go"
   },
   "superradcompany/microsandbox": {
    "first_seen": "2026-08-12",
@@ -4117,13 +4114,12 @@
   },
   "t8y2/dbx": {
    "first_seen": "2026-08-01",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-09-11",
    "days_on_list": 1,
-   "last_stars": 17264,
+   "last_stars": 18894,
    "category": "tools",
    "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-08-28"
+   "last_pushed_at": "2026-09-10"
   },
   "tailscale/tailcat": {
    "first_seen": "2026-08-29",
@@ -4769,10 +4765,64 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-18"
+  },
+  "vastsa/PI-Desktop": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 2207,
+   "category": "llm",
+   "language": "TypeScript",
+   "last_pushed_at": "2026-09-10"
+  },
+  "alphaXiv/OpenResearch": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 966,
+   "category": "llm",
+   "language": "Rust",
+   "last_pushed_at": "2026-09-10"
+  },
+  "vercel-labs/skills": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 31042,
+   "category": "llm",
+   "language": "TypeScript",
+   "last_pushed_at": "2026-09-08"
+  },
+  "feigeCode/navop": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 1284,
+   "category": "tools",
+   "language": "Rust",
+   "last_pushed_at": "2026-09-09"
+  },
+  "projectdiscovery/katana": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 17451,
+   "category": "security",
+   "language": "Go",
+   "last_pushed_at": "2026-09-09"
+  },
+  "R-s0n/ars0n-framework-v2": {
+   "first_seen": "2026-09-11",
+   "last_seen": "2026-09-11",
+   "days_on_list": 1,
+   "last_stars": 799,
+   "category": "security",
+   "language": "Go",
+   "last_pushed_at": "2026-09-07"
   }
  },
- "last_updated": "2026-09-09",
- "updated": "2026-09-09",
- "last_run": "2026-09-09",
+ "last_updated": "2026-09-11",
+ "updated": "2026-09-11",
+ "last_run": "2026-09-11",
  "count": 477
 }
