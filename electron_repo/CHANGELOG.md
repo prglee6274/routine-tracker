@@ -1,5 +1,52 @@
 # Changelog
 
+## 2026-09-11 — Daily watch
+
+**One new `in_scope` paper — plus twelve venue-paper exclusions and one context item, nearly all from author-page mining.** Ledger moves **27 → 28 in_scope**, **52 → 64 excluded**, **20 → 21 context_non_venue**. Nothing was newly published at any of the nine venues (eighth consecutive run). ACSAC's list did **not** appear on notification+3.
+
+### THE FIND
+
+**"SandTrap: Securing JavaScript-driven Trigger-Action Platforms"** — Ahmadpanah, Hedin, Balliu, Olsson & Sabelfeld (Chalmers / Mälardalen / KTH), **USENIX Security '21**, pp. 2899–2916. Note: [`papers/usenixsec2021-sandtrap.md`](papers/usenixsec2021-sandtrap.md). Scope **ADJACENT**. Full 6-part note written from the complete USENIX open-access PDF.
+
+**Why it matters to this thesis.** SandTrap is the strongest available evidence that **the Node.js `vm` module is not a security boundary, and that `vm2` was not either**. The authors escaped IFTTT's filter-code sandbox through *three successive vendor patches*: (v1) `eval` + `require`'s module cache to reach `/var/runtime/RAPIDClient.js` and poison `rapid.prototype.nextInvocation`; (v2) after `eval`/`Function`/`require` were locked down, reintroduce `require` with a bare `declare var require : any` and build a function via `(() => {}).constructor.call(...)`, exfiltrating through the app's *own* email action rather than the network; (v3) after IFTTT adopted `vm2`, poison the `tz` method on a `moment` prototype — on an object **created outside the sandbox and passed in** — to rewrite the trigger time seen by *other users'* apps.
+
+That third escape is the thesis-relevant one: **the escape vector was the object that had to cross the membrane**. Electron's `contextBridge` is the same membrane pattern applied to renderer↔main, so this is the cleanest citation for "context isolation is a mechanism, not a guarantee."
+
+**Grounded numbers** (all from the conference PDF): IFTTT Lambda instances stay alive **up to 30 minutes** serving arbitrary users, making one poisoning a 30-minute cross-tenant wiretap. Node-RED ecosystem measurement — **2,122 packages / 5,316 nodes** scraped; security labelling of **408 node definitions** from the top 100 packages finds **70.40%** of flows admit privacy violations and **76.46%** integrity violations; **≥228** published flows and **≥153** packages touch the shared global/flow context. SandTrap's cost: **4.10 ms** average over 25 IFTTT apps (max 6.35 ms), **4.87 ms** over 10 Zapier cases (no run > 12 ms), **< 3 ms** steady-state on Node-RED (no run > 100 ms). Final policy sizes average **185 / 260 / 2,650 LoC** for IFTTT / Zapier / Node-RED. Bounties received from both IFTTT and Zapier.
+
+**Caveats recorded in the note:** the paper defers Tables 4–6 and the detailed Node-RED study to a *full version* that was **not** fetched; the 70.40%/76.46% figures are attack-surface potential under a source/sink labelling, **not** confirmed exploits; and the 35%/98% IFTTT figures are quoted from Bastys et al., not measured here.
+
+### CHANNEL RESULTS — the split signal is now unambiguous
+
+- **Author-page mining: 6 productive runs in a row.** Three pages opened. `smahmadpanah.github.io/publications` (author target #2 from yesterday's list) → **SandTrap**, on the first fetch. `cispa.de/en/people/c01abal` (AlHamdan, target #1) → **exhausted**: exactly two papers, both already captured via Staicu's page. `cseweb.ucsd.edu/~dstefan` (Deian Stefan, target #5) → **zero in_scope** across a very large list, but ten target-venue exclusions banked.
+- **Domain-restricted topical sweep: NULL for the third consecutive run.** Only two queries fired, per yesterday's budget decision. Both failed in an instructive way and produced a **new wording rule**: an architecture-shaped query also needs a **desktop-disambiguating term**, because mobile has more papers on nearly every component name — "notification and clipboard bridge…" returned an all-Android result set despite naming developer-facing components correctly.
+
+### THE STEFAN NEGATIVE RESULT — worth reading
+
+Deian Stefan is the author of **"Finding and Preventing Bugs in JavaScript Bindings"**, arguably the single most topically apt paper in the entire literature for this thesis — the JS↔C++ binding layer of Node.js and Chrome, 81 proof-of-concept exploits. It is **IEEE S&P 2017**, so it is out on the `backfill_from_year=2020` rule and has been recorded as an exclusion with a note that it **deserves a manual citation anyway**: it is the direct ancestor of both *Best of Both Worlds* (S&P '26) and *Bilingual Problems* (USENIX '23), which are already `in_scope`.
+
+Everything else on his page post-2020 is WebAssembly/SFI, constant-time cryptography, speculative execution and verification. This is the **second confirmation** of the author-selection rule established on 09-10 (after Kemerlis): *mine the author whose current research statement matches the thesis topic, not the famous co-author whose lab intersected it once* — even when that co-author wrote the perfect paper, because the perfect paper may be outside the year window.
+
+### A THIRD STRUCTURAL CAUSE OF BACKFILL MISSES
+
+Two were already documented: **titles that share no vocabulary with the config**, and **clustering by citation network**. Today adds **sub-literature framing**. SandTrap is filed under "trigger-action platforms / IoT"; *Welcome to Jurassic Park* is filed under "Deno". Neither reads as a desktop-application paper at a glance, yet both study exactly the mechanism this thesis studies. The practical consequence for author selection: ask what **mechanism** a group works on (JS membranes, prototype pollution, native bindings), not what **application domain** they name in their titles.
+
+### VENUE STATUS
+
+- **ACSAC 2026** — notification+3, sixth consecutive empty check. Schedule re-confirmed. Newly noticed: artifact evaluation runs to **23 October**, which suggests the list may not publish until at or after camera-ready (22 Oct) rather than shortly after notification. Keep checking; re-sweep after the 10-08 revision close regardless.
+- **NDSS** — news feed clean-fetched (provenance trap held for the fifth run); most recent entry still **18 August 2026**. No NDSS '27 list. Weekly checks from 10-01 stand.
+- **RAID 2026** — `accepted.html` byte-identical for the sixth run running, nine weeks and one day past notification, conference ~4 weeks out. **Now dropped to a weekly check** (next: 2026-09-17) per yesterday's own suggestion; expect titles via DBLP/Springer *after* the conference.
+- USENIX Sec / S&P / CCS / ESORICS / AsiaCCS / DSN 2026 — all already swept in earlier runs; no new publication events.
+
+### NEXT AUTHOR TARGETS
+
+1. **Musard Balliu** (`people.kth.se/~musard`) — co-author of **both** SandTrap and Silent Spring, i.e. the JS-sandboxing × prototype-pollution intersection. The best-positioned unmined page in the network.
+2. **Michael Pradel** (Stuttgart software-lab) — Staicu's and Mir's co-author, very high volume.
+3. **Khodayari / Pellegrino** (CISPA) — client-side web security at the nine venues, plus CHARON.
+4. **Andrei Sabelfeld** (Chalmers) — the group hub above Ahmadpanah.
+
+---
+
 ## 2026-09-10 — Daily watch
 
 **Two new `in_scope` papers, both at top-4 venues, both from a SINGLE author page — plus five venue-paper exclusions and one context item.** Ledger moves **25 → 27 in_scope**, **47 → 52 excluded**, **19 → 20 context_non_venue**. Nothing was newly published at any of the nine venues (seventh consecutive run). ACSAC's list did **not** appear on notification+2.
