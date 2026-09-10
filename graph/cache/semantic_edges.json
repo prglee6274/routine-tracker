@@ -1346,5 +1346,13 @@
  "2609.09113->2606.24026": {
   "type": "compares",
   "evidence": "에이전트의 기계적 해석가능성 수행 능력을 다룬 가장 근접한 선행 벤치마크로 대비 배치"
+ },
+ "2609.09604->2604.13776": {
+  "type": "background",
+  "evidence": "참고문헌 목록에서만 언급 — 동일 저자군(Nemecek/Ayday)의 선행 워터마킹 평가 연구를 배경 문헌으로 인용."
+ },
+ "2609.10299->2606.07007": {
+  "type": "background",
+  "evidence": "관련 연구 절에서 'Most recently, Zhang et al. give a set-theoretic and geometric account of concept learning in SAEs'로 SAE 개념 학습의 기하학적 설명을 배경으로 소개."
  }
 }
