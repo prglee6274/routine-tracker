@@ -1354,5 +1354,45 @@
  "2609.10299->2606.07007": {
   "type": "background",
   "evidence": "관련 연구 절에서 'Most recently, Zhang et al. give a set-theoretic and geometric account of concept learning in SAEs'로 SAE 개념 학습의 기하학적 설명을 배경으로 소개."
+ },
+ "2609.05903->2604.13630": {
+  "type": "extends",
+  "evidence": "generalizes fixed expert-designed agent safety harnesses into a per-model/per-domain optimized harness"
+ },
+ "2609.08322->2605.23036": {
+  "type": "extends",
+  "evidence": "builds on multilingual SAE + principled layer selection to compare probing vs attribution layer peaks"
+ },
+ "2609.09659->2604.15063": {
+  "type": "baseline",
+  "evidence": "prior single-round gradient inversion attack whose recovery bounds this work exceeds"
+ },
+ "2609.10739->2605.27958": {
+  "type": "background",
+  "evidence": "cited among prior results showing deception/truth probes degrade off-domain, motivating the aliasing account"
+ },
+ "2609.11490->2605.24420": {
+  "type": "background",
+  "evidence": "prior finding that batch normalization amplifies memorization and privacy risk"
+ },
+ "2609.11490->2606.03808": {
+  "type": "background",
+  "evidence": "unlearning method cited in the surveyed release landscape"
+ },
+ "2609.11490->2607.05898": {
+  "type": "extends",
+  "evidence": "extends prior unlearning-audit methodology to 263 released batch-normalized checkpoints"
+ },
+ "2609.11490->2608.11408": {
+  "type": "background",
+  "evidence": "related work on forecasting recovery in LLM unlearning evaluation"
+ },
+ "2609.11490->2609.08901": {
+  "type": "extends",
+  "evidence": "scales the BatchNorm-artifact diagnosis in unlearning evaluation into a large released-checkpoint audit"
+ },
+ "2609.11799->2605.15172": {
+  "type": "baseline",
+  "evidence": "stealthy backdoor that breaks trigger-form assumptions of prior inference-time detectors"
  }
 }

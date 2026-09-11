@@ -22607,6 +22607,201 @@
     "federated_privacy",
     "data_extraction"
    ]
+  },
+  "2609.05903": {
+   "version": "v1",
+   "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "agent safety",
+    "prompt injection",
+    "defense mechanism",
+    "safety harness",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2609.11799": {
+   "version": "v1",
+   "title": "SpecGuard: Inference-Time Backdoor Detection For Free",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "backdoor",
+    "trigger detection",
+    "inference-time defense",
+    "speculative decoding",
+    "supply chain"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2609.10854": {
+   "version": "v1",
+   "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "prompt injection",
+    "MCP",
+    "agent safety",
+    "vulnerability analysis",
+    "tool metadata"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.09420": {
+   "version": "v1",
+   "title": "DuplexJail: Safety Alignment Breaks Under Spoken Interruption in Full-Duplex Models",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "jailbreak",
+    "multimodal attack",
+    "speech LLM",
+    "safety alignment",
+    "full-duplex"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack",
+    "alignment_robustness"
+   ]
+  },
+  "2609.06612": {
+   "version": "v1",
+   "title": "MechAudit-40: White-Box Auditing across 40 LLM Attack Mechanisms",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "probing",
+    "representation",
+    "white-box auditing",
+    "attack detection",
+    "generalization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2609.10739": {
+   "version": "v1",
+   "title": "The Truth Was Never Gone: Perfect Aliasing in Compliant-Context Truth Probes",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "probing",
+    "truthfulness",
+    "deception detection",
+    "identifiability",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2609.08322": {
+   "version": "v1",
+   "title": "Tracing Stereotypes from Representation to Output in Multilingual LLMs",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "sparse autoencoder",
+    "attribution patching",
+    "linear probing",
+    "feature ablation",
+    "multilingual"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing",
+    "feature_attribution"
+   ]
+  },
+  "2609.09659": {
+   "version": "v1",
+   "title": "Cascading Gradient Inversion via LT-Code Inspired Peeling in Federated Learning",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "federated learning privacy",
+    "gradient inversion",
+    "data extraction",
+    "training data leakage",
+    "coding theory"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "data_extraction"
+   ]
+  },
+  "2609.10627": {
+   "version": "v1",
+   "title": "SoK: Privacy Attacks on Machine Learning via Explainable AI",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "membership inference",
+    "model extraction",
+    "model inversion",
+    "explainability",
+    "attribute inference"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2609.11490": {
+   "version": "v1",
+   "title": "Published Unlearning Numbers Move Per Checkpoint, and Not Because the Removed Data Survives",
+   "first_seen": "2026-09-12",
+   "last_updated": "2026-09-12",
+   "folder": "2026-09-12",
+   "keywords": [
+    "unlearning",
+    "audit",
+    "reproducibility",
+    "batch normalization",
+    "privacy evaluation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -22649,5 +22844,5 @@
    ]
   }
  },
- "last_run": "2026-09-11"
+ "last_run": "2026-09-12"
 }
