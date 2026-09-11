@@ -1,5 +1,45 @@
 # Changelog
 
+## 2026-09-12 — Daily watch
+
+**TWO new `in_scope` papers, both PRIMARY, both at NDSS, both from the channel that had been null for three runs — plus ten venue-paper exclusions and two context items.** Ledger moves **28 → 30 in_scope**, **64 → 74 excluded**, **21 → 23 context_non_venue**. Nothing newly published at any of the nine venues (ninth consecutive run). ACSAC's list did **not** appear on notification+4.
+
+### THE FINDS — a two-paper lineage on the binding layer
+
+**1. "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases"** — Dinh, Cho, Martin, Oest, Zeng, Kapravelos, Ahn, Bao, Wang, Doupé & Shoshitaishvili (ASU / NC State / PayPal / Samsung), **NDSS '21**. Note: [`papers/ndss2021-favocado.md`](papers/ndss2021-favocado.md). Scope **PRIMARY**.
+
+**2. "COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation"** — Xu, Wang, Hu & Su (ISCAS / QI-ANXIN / Penn State), **NDSS '22**. Note: [`papers/ndss2022-cooper.md`](papers/ndss2022-cooper.md). Scope **PRIMARY**.
+
+**Why they matter, together.** These are the **origin and the first rebuttal** of the "binding layer is the neglected attack surface" line that this thesis sits in. Favocado established the claim: when a desktop application embeds a JavaScript engine, the C/C++ binding code that exposes host capability to scripts is systematically under-tested relative to the engine core — and *general-purpose JS fuzzers cannot reach it at all*. COOPER then showed Favocado's own method is one-dimensional and structurally incomplete: the binding layer takes input from **two** channels — the script *and* the host's native document/state — so script-only mutation misses every bug that depends on the initial state.
+
+That two-dimensional framing is the single most transferable idea of the run. In Electron terms: initial state = the loaded web content, `webPreferences`, session/cookies and window structure; dynamic operations = the IPC messages and `contextBridge` calls the renderer issues. **Any Electron auditing tool that inspects only configuration, or fuzzes only IPC payloads, is one-dimensional in exactly COOPER's sense** — and COOPER supplies the number that makes that a measured claim rather than an assertion.
+
+**Grounded numbers.** Favocado: **61** previously unknown bugs / **33** exploitable / **13** CVEs across Adobe Acrobat, Foxit, Chromium and WebKit (39 in Acrobat in 2 weeks, 18 exploitable, 11 CVEs; 3 in Foxit in 3 days; 6 Chromium DOM + 2 Mojo; 3 in WebKit in 4 days, all exploitable). The killer baseline figure: **only 28.24%** of CodeAlchemist's 100K test cases executed without a runtime error and **none** crashed — the state-of-the-art semantics-aware JS fuzzer is effectively blind to binding code. Against Domato, restricted to the two objects where Domato was strongest: **6 bugs vs 1**. COOPER: **134** bugs (60 Acrobat + 56 Foxit + 18 Word), **59** fixed, **33** CVEs, **$22K** bounty; ablation over matched one-week runs — **18/14** unique bugs (full) vs **12/9** (unguided) vs **8/5** (script-only) vs **4/3** (object-only) vs **6/6** (Domato), i.e. **1.5×/1.8×** over script-only and **3.5×/3.7×** over object-only.
+
+**The emblematic PoC** (COOPER, CVE-2021-21028, Acrobat UAF): a two-page PDF whose annotation objects carry **empty names** (`/NM ()`), plus three lines of JavaScript. Unreachable by script mutation alone, because the empty name in the *native* object is what sets up the vulnerable state.
+
+**The gap they leave open — and it is the thesis's gap.** Both papers assume the **document is the attacker** and the host application is a single trust domain to be kept memory-safe. Electron inverts this: the script *is* the content the app renders, the binding layer (`contextBridge`, preload, native add-ons) *is* the intended privilege boundary, and a **logic-level bypass** of that boundary is as damaging as a memory-safety bug in it. Neither paper considers that setting. Second gap: both assume a **specification** exists (IDL files; the PDF/OOXML formats). Electron apps have neither, so recovering the API surface and the "native input" dimension is itself a research problem.
+
+### CHANNEL RESULTS — the topical sweep breaks a three-run null streak
+
+- **Domain-restricted topical sweep: PRODUCTIVE for the first time since 09-08.** Two queries fired from the refilled buffer. `embedded browser engine host application binding surface study` surfaced Favocado in its synthesized result text; the ndss-symposium.org-restricted confirmation search for Favocado then returned **COOPER for free** in its link list. `packaged application bundle integrity signature verification desktop client` was null (code-signing / Sigstore / in-toto corpus). **The 09-11 "desktop-disambiguating term" rule held**: the productive query named an *architecture* ("embedded browser engine", "host application") that no Android paper satisfies; the null one named a *property* ("integrity", "signature verification").
+- **Author-page mining: first null run in seven.** Two pages opened, **zero** `in_scope`. `people.kth.se/~musard/research` (Balliu, target #1) → everything post-2020 at a watched venue was already in the ledger; two new exclusions (SerialDetector NDSS'21, InSpectre CCS'20) and one context item (Dasty, WWW'24). `publications.cispa.saarland` (Khodayari, target #3) → **zero in_scope, six target-venue exclusions** — his entire output is pure client-side web security.
+- **New venue channel discovered:** `sigsac.org/ccs/CCS2026/program/accepted-papers.html` is **live and fetchable** (187 titles). See below.
+
+### NEW CHANNEL — the CCS '26 accepted-papers page is up
+
+A generic `ACM CCS 2026 accepted papers list` search put the SIGSAC URL into the provenance set, after which it fetched cleanly. The full 187-title list was swept. Six titles were already dispositioned in the ledger (From Documentation to Zero-day = `in_scope`; TANTRUM, Mini-Programs, Reproducing Web App Vulns, MacOS Ecosystem, Overloading Ad Blockers = excluded), which confirms earlier runs had reached CCS '26 content by other routes. **One new title** — *From Fix to Flaw: Understanding and Revealing Incomplete Patches for Link Following Vulnerabilities* — was excluded (filesystem/OS privilege class, no JS/web/Electron angle), **but on the title alone**: two searches for its abstract returned only Patch-Tuesday news. Flagged for reconsideration if it turns out to study installers/auto-updaters.
+
+### PROMOTION CHECKPOINT RESOLVED — Proton is not at CCS '26
+
+*Buzz to Boom / Proton* (arXiv 2607.20698) is the single most thesis-central out-of-venue item in the repo and had four promotion checkpoints pending. **CCS '26 is now checked and negative**: grepping the 187-title list for `buzz|boom|proton|electron|message progression|segmented` returns one unrelated hit ("Beyond the Buzzword…"). Remaining checkpoints: USENIX Sec '26 Cycle 2, NDSS '27, S&P '27.
+
+### WHAT THIS SAYS ABOUT THE BACKFILL
+
+**Eight consecutive runs, twelve backfill recoveries.** Today's two are the first *pair* from a single thread, and the first recoveries of the run to come from the topical sweep rather than author-page mining. The two required channels have now **traded places**: mining went null for the first time in seven runs on the same day the sweep produced two PRIMARY papers at a top-4 venue. Neither channel has converged; the honest reading is that they fail **independently**, which is exactly the argument for keeping both.
+
+A **fourth structural cause of backfill misses** is now visible, distinct from the three already documented: **the thesis-relevant paper may be the one everyone cites and nobody re-titles.** Favocado is cited *by name* inside COOPER's introduction, inside Bilingual Problems, and — as Table III in the note shows — is the acknowledged ancestor of two papers already `in_scope` (*Best of Both Worlds* S&P '26, *From Documentation to Zero-day* CCS '26). It sat one hop from the ledger for eight runs. **Whenever a paper is admitted, grep its introduction for the tool names it positions itself against, not just its bibliography.**
+
 ## 2026-09-11 — Daily watch
 
 **One new `in_scope` paper — plus twelve venue-paper exclusions and one context item, nearly all from author-page mining.** Ledger moves **27 → 28 in_scope**, **52 → 64 excluded**, **20 → 21 context_non_venue**. Nothing was newly published at any of the nine venues (eighth consecutive run). ACSAC's list did **not** appear on notification+3.

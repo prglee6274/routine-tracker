@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-11",
-  "last_run": "2026-09-11",
+  "last_updated": "2026-09-12",
+  "last_run": "2026-09-12",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -632,6 +632,38 @@
       "added": "2026-09-11",
       "grounding": "Full USENIX open-access conference PDF read (pp. 2899-2916). All numbers taken from that text. The paper's 'full version [2]' (Tables 4/5/6 and the detailed Node-RED empirical study) was NOT fetched; per-case overhead tables are cited only via the conference version's summary sentences. Noted in the note's Section 6.",
       "found_via": "author-page mining -> smahmadpanah.github.io/publications (Ahmadpanah/Balliu, the KTH-Chalmers target named in _backfill_status_2026_09_10 as author target #2)"
+    },
+    {
+      "id": "ndss2021-favocado",
+      "title": "Favocado: Fuzzing the Binding Code of JavaScript Engines Using Semantically Correct Test Cases",
+      "authors": "Sung Ta Dinh, Haehyun Cho, Kyle Martin, Adam Oest, Kyle Zeng, Alexandros Kapravelos, Gail-Joon Ahn, Tiffany Bao, Ruoyu Wang, Adam Doupe, Yan Shoshitaishvili",
+      "venue": "NDSS 2021",
+      "year": 2021,
+      "scope": "PRIMARY",
+      "doi": "10.14722/ndss.2021.24224",
+      "url": "https://www.ndss-symposium.org/ndss-paper/favocado-fuzzing-the-binding-code-of-javascript-engines-using-semantically-correct-test-cases/",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/ndss2021_6A-2_24224_paper.pdf",
+      "note_file": "papers/ndss2021-favocado.md",
+      "added": "2026-09-12",
+      "grounding": "Full NDSS open-access PDF fetched and read SELECTIVELY: Sections I-III in full, Section V (evaluation) plus Tables I-III rows and Sections V-F/G/H and VI-VII by targeted grep; Section IV (design internals) only through grepped fragments. All numbers (61 bugs / 33 exploitable / 13 CVEs; 39 Acrobat in 2 weeks with 18 exploitable and 11 CVEs; 3 Foxit in 3 days; 6 Chromium DOM; 2 Chromium Mojo; 3 WebKit in 4 days; CodeAlchemist 28.24% execution rate; Domato 1 bug vs Favocado 6, Domato 65.36% execution rate; ~10% Favocado runtime-error rate; 20% deliberate-error setting; >1,000 Chromium DOM binding objects; 8,647 CodeAlchemist seeds; 8 VMs at 2 cores/4GB) are quoted from that text. Chromium campaign durations NOT recovered - caveated in the note.",
+      "found_via": "domain-restricted topical sweep (required channel) -> query 'embedded browser engine host application binding surface study' (allowed_domains = the six venue hosts). Favocado surfaced in the synthesized result text as the prior work on binding-layer bug detection; venue and details then confirmed via an ndss-symposium.org-restricted WebSearch and the open-access PDF. FIRST NON-NULL RESULT FOR THIS CHANNEL IN FOUR RUNS.",
+      "title_norm": "favocado fuzzing the binding code of javascript engines using semantically correct test cases"
+    },
+    {
+      "id": "ndss2022-cooper",
+      "title": "COOPER: Testing the Binding Code of Scripting Languages with Cooperative Mutation",
+      "authors": "Peng Xu, Yanhao Wang, Hong Hu, Purui Su",
+      "venue": "NDSS 2022",
+      "year": 2022,
+      "scope": "PRIMARY",
+      "doi": "10.14722/ndss.2022.24353",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2022-353-paper.pdf",
+      "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2022-353-paper.pdf",
+      "note_file": "papers/ndss2022-cooper.md",
+      "added": "2026-09-12",
+      "grounding": "Full NDSS open-access PDF fetched and read SELECTIVELY: Section I in full, Sections V-VI (evaluation, bug tables, ablation, case studies) by targeted grep plus two focused reads; Sections II-IV (design of clustering / relation inference / mutation) only through grepped fragments. All numbers (134 bugs total = 60 Acrobat + 56 Foxit + 18 Word; 59 fixed, 33 CVEs, $22K bounty for 17 bugs, $18K Acrobat / $4K Foxit; 90 script APIs in 11 object classes; ablation full 18/14 vs random 12/9 vs object 4/3 vs script 8/5 vs Domato 6/6, giving 50%/55.6% guidance gain, 3.5x/3.7x over object-only and 1.5x/1.8x over script-only; one week = 168 h per configuration; object class 449 with 335,482 objects; PDF Page object 30 entries) are quoted from that text. Coverage percentages did NOT survive PDF-to-text and are NOT cited - caveated in the note.",
+      "found_via": "Same domain-restricted topical sweep result set as Favocado - the ndss-symposium.org-restricted confirmation search for Favocado returned ndss2022-353-paper.pdf ('Testing the Binding Code of Scripting Languages with...') in its link list. A second, free catch on the same thread.",
+      "title_norm": "cooper testing the binding code of scripting languages with cooperative mutation"
     }
   ],
   "excluded": [
@@ -1170,6 +1202,76 @@
       "year": 2021,
       "reason": "Target venue, hardware constant-time verification. Out of scope on topic. Found on the Deian Stefan publications page 2026-09-11.",
       "title_norm": "solver aided constant time hardware verification"
+    },
+    {
+      "title": "SerialDetector: Principled and Practical Exploration of Object Injection Vulnerabilities for the Web",
+      "venue": "NDSS 2021",
+      "year": 2021,
+      "reason": "Target venue, in the backfill window, and the direct methodological ancestor of Silent Spring (same authors, same 'principled exploration of injection sinks' framing) - but the subject is .NET/ASP.NET server-side object-injection (insecure deserialization) in web applications. No Node.js runtime, no desktop/Electron angle, so it falls under the EXCLUDE rule for pure web-application vulnerability classes. Found on the Musard Balliu (KTH) publications page 2026-09-12. Worth a MANUAL methodological citation if the thesis discusses sink-driven vulnerability exploration.",
+      "title_norm": "serialdetector principled and practical exploration of object injection vulnerabilities for the web"
+    },
+    {
+      "title": "InSpectre: Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis",
+      "venue": "ACM CCS 2020",
+      "year": 2020,
+      "reason": "Target venue, in the backfill window, but microarchitectural (Spectre-class) formal analysis. No JS runtime, web-content or desktop-application angle. Found on the Musard Balliu (KTH) publications page 2026-09-12. Note the name collision with 'Inspectron' (USENIX Sec '24), which IS in_scope - do not confuse them.",
+      "title_norm": "inspectre breaking and fixing microarchitectural vulnerabilities by formal analysis"
+    },
+    {
+      "title": "Fuzzilli: Fuzzing for JavaScript JIT Compiler Vulnerabilities",
+      "venue": "NDSS 2023",
+      "year": 2023,
+      "reason": "Target venue, JavaScript-engine-internal: it fuzzes the JIT compiler, not the binding/embedder boundary. Excluded on the same basis as TANTRUM (CCS'26, heap sandbox in JS engines) - engine-core memory safety is a generic Chromium/JS-engine concern rather than a desktop-app privilege-boundary concern. Surfaced 2026-09-12 alongside Favocado in the ndss-symposium.org search; recorded so the Favocado/COOPER thread is not re-chased into JIT fuzzing.",
+      "title_norm": "fuzzilli fuzzing for javascript jit compiler vulnerabilities"
+    },
+    {
+      "title": "The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web",
+      "venue": "IEEE S&P 2024",
+      "year": 2024,
+      "reason": "Target venue, but pure client-side web security (request hijacking on websites) with no desktop/Electron angle. Found on the Soheil Khodayari (CISPA) publications page 2026-09-12.",
+      "title_norm": "the great request robbery an empirical study of client side request hijacking vulnerabilities on the web"
+    },
+    {
+      "title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
+      "venue": "IEEE S&P 2023",
+      "year": 2023,
+      "reason": "Target venue. 'dom clobbering' IS in the config keyword list, but the paper measures the technique's prevalence and defenses across ordinary websites, with no desktop/Electron/local-privilege angle - the same shape as the already-excluded DOM-XSS and single-page-application detection papers. EXCLUDED on the 'pure web-app, no desktop angle' rule, but flagged here as a TECHNIQUE reference worth a manual citation if the thesis needs a canonical source for DOM clobbering as an escalation primitive. Found on the Khodayari (CISPA) page 2026-09-12.",
+      "title_norm": "it s dom clobbering time attack techniques prevalence and defenses"
+    },
+    {
+      "title": "The State of the SameSite: Studying the Usage, Effectiveness, and Adequacy of SameSite Cookies",
+      "venue": "IEEE S&P 2022",
+      "year": 2022,
+      "reason": "Target venue, pure web cookie/CSRF-defense measurement. No desktop or JS-runtime angle. Found on the Khodayari (CISPA) page 2026-09-12.",
+      "title_norm": "the state of the samesite studying the usage effectiveness and adequacy of samesite cookies"
+    },
+    {
+      "title": "Where We Stand (or Fall): An Analysis of CSRF Defenses in Web Frameworks",
+      "venue": "RAID 2021",
+      "year": 2021,
+      "reason": "Target venue, in the backfill window, but pure server-side/web-framework CSRF defense analysis. No desktop or JS-runtime angle. Found on the Khodayari (CISPA) page 2026-09-12.",
+      "title_norm": "where we stand or fall an analysis of csrf defenses in web frameworks"
+    },
+    {
+      "title": "JAW: Studying Client-side CSRF with Hybrid Property Graphs and Declarative Traversals",
+      "venue": "USENIX Security 2021",
+      "year": 2021,
+      "reason": "Target venue, in the backfill window. The hybrid property graph + declarative traversal METHOD is adjacent to the ODGEN line already in_scope, but the subject is client-side CSRF on websites, with no desktop/Electron/local-privilege angle. Found on the Khodayari (CISPA) page 2026-09-12. Worth a manual methodological citation only.",
+      "title_norm": "jaw studying client side csrf with hybrid property graphs and declarative traversals"
+    },
+    {
+      "title": "Cross-Origin State Inference (COSI) Attacks: Leaking Web Site States through XS-Leaks",
+      "venue": "NDSS 2020",
+      "year": 2020,
+      "reason": "Target venue, in the backfill window, but pure web XS-leaks / cross-origin state inference. No desktop or JS-runtime angle. Found on the Khodayari (CISPA) page 2026-09-12.",
+      "title_norm": "cross origin state inference cosi attacks leaking web site states through xs leaks"
+    },
+    {
+      "title": "From Fix to Flaw: Understanding and Revealing Incomplete Patches for Link Following Vulnerabilities",
+      "venue": "ACM CCS 2026",
+      "year": 2026,
+      "reason": "Target venue, newly seen on the CCS'26 accepted-papers list 2026-09-12. Subject is link-following (symbolic-link / junction) local privilege escalation in desktop software and the completeness of its patches - a filesystem/OS privilege class with no JavaScript, web-content, npm or Electron angle. Excluded on the same basis as 'When Updates Backfire' (desktop update mechanisms) and 'Download More RAM' (Windows OS defences). NOTE: no abstract could be retrieved - two searches returned only Patch-Tuesday news, no paper page - so this disposition rests on the TITLE ALONE. If the paper turns out to study link-following in application installers/auto-updaters of specific cross-platform apps, RECONSIDER.",
+      "title_norm": "from fix to flaw understanding and revealing incomplete patches for link following vulnerabilities"
     }
   ],
   "context_non_venue": [
@@ -2039,6 +2141,26 @@
       "why_context": "Honorable mention for best paper, OSDI'26. Disaggregates and sandboxes SpiderMonkey, the JavaScript engine, INSIDE its host browser - i.e. the host-application/JS-engine boundary that Electron re-creates between Chromium's renderer and the Node.js main process. Not admissible to in_scope because OSDI is not one of the nine venues, but it is the most current statement of 'the JS engine is not a trust boundary until you make it one' and is a strong forward-looking citation for a thesis chapter on why Electron's process model needs the same treatment. Full text NOT read this run - recorded from the author page listing only.",
       "added": "2026-09-11",
       "found_via": "author-page mining -> cseweb.ucsd.edu/~dstefan"
+    },
+    {
+      "title": "Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis (Dasty)",
+      "authors": "Mikhail Shcherbakov, Paul Moosbrugger, Musard Balliu",
+      "venue": "The Web Conference (WWW) 2024 - NOT one of the nine watched venues",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2311.03919",
+      "why_context": "The dynamic-taint-analysis companion to Silent Spring (USENIX'23) and GHunter (USENIX'24), both already in_scope, from the same KTH group. Dasty finds prototype-pollution GADGETS in Node.js libraries by dynamic taint analysis; it is the middle link between Silent Spring (the attack) and GHunter (universal gadgets in the runtime itself). Not admissible because WWW is not a watched venue, but it should be cited alongside the other two in any prototype-pollution paragraph. Full text NOT read - recorded from the author page listing only. Code: github.com/KTH-LangSec/Dasty.",
+      "added": "2026-09-12",
+      "found_via": "author-page mining -> people.kth.se/~musard/research (Balliu, author target #1 from _backfill_status_2026_09_11)"
+    },
+    {
+      "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
+      "authors": "not recorded",
+      "venue": "UNVERIFIED - seen only as an arXiv PDF link (arXiv:2603.18789) in a search result list; venue NOT confirmed",
+      "year": 2026,
+      "url": "https://arxiv.org/pdf/2603.18789",
+      "why_context": "Same 'fuzz the boundary, not the engine' framing as Favocado and COOPER, one layer over (JS<->Wasm rather than JS<->C++). Recorded ONLY as a lead: neither the abstract nor the venue was checked this run, and nothing about it should be cited until verified. CHECK ITS VENUE NEXT RUN - if it landed at one of the nine, it is an in_scope candidate.",
+      "added": "2026-09-12",
+      "found_via": "domain-restricted topical sweep result list (ndss-symposium.org-restricted confirmation search for Favocado)"
     }
   ]
 }

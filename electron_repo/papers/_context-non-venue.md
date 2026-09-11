@@ -43,6 +43,28 @@ These are not from USENIX / S&P / NDSS / CCS / ACSAC / RAID / ESORICS / AsiaCCS 
 - **How to cite (draft, adapt after venue confirmation):** "Most prior academic work on Electron security targets unsafe framework configurations or malicious DOM content [DOM-tree type; Inspectron; COINDEF]. Yu et al. argue this misses *Message Progression Vulnerabilities* — bugs that only manifest through multi-step, cross-process message passing — and present Proton, a segmented directed fuzzer that discovered 23 zero-day MPVs (22 RCE, 11 CVEs) across 589 real Electron apps." **(KO)** 내 논문(취약점 발견) 관점에서는 가장 가까운 경쟁/보완 연구이므로 related work의 핵심 비교 대상. 이들이 남긴 gap(예: 정적 LLM 분석의 정확도, segment boundary 식별의 일반화, 비-command-injection sink로의 확장 등)을 내 기여의 차별점으로 삼을 여지가 큼. **단, arXiv 프리프린트이므로 게재 확정 전까지는 "preprint"로 표기.**
 - **Caveats:** venue unconfirmed (arXiv-only as of this writing); the numbers above are grounded in the arXiv abstract (verbatim) and the intro/contributions of the full-text HTML, which were grepped rather than read end-to-end — re-verify exact figures and the evaluated security configuration against the PDF before citing.
 
+## Unveiling the Invisible: Detection and Evaluation of Prototype Pollution Gadgets with Dynamic Taint Analysis (Dasty)
+- **Authors:** Mikhail Shcherbakov, Paul Moosbrugger, Musard Balliu (KTH LangSec).
+- **Venue / type:** **The Web Conference (WWW) 2024** — a strong venue, but **not** one of the nine watched.
+- **Links:** https://arxiv.org/abs/2311.03919 · code https://github.com/KTH-LangSec/Dasty
+- **Why it matters:** the missing middle link of the KTH prototype-pollution trilogy. *Silent Spring* (USENIX '23, `in_scope`) established that prototype pollution reaches RCE in Node.js; *GHunter* (USENIX '24, `in_scope`) found universal gadgets in the **runtime**; Dasty sits between them, finding gadgets in **third-party libraries** by dynamic taint analysis. Cite all three together in any prototype-pollution paragraph.
+- **Caveats:** full text **not** read — recorded from the author page listing only. No numbers should be cited until the paper is read.
+
+## Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary
+- **Venue / type:** **UNVERIFIED.** Seen only as an arXiv PDF link (arXiv:2603.18789) inside a search-result list; neither the abstract nor the venue was checked.
+- **Link:** https://arxiv.org/pdf/2603.18789
+- **Why it matters:** same "fuzz the *boundary*, not the engine" framing as Favocado (NDSS '21) and COOPER (NDSS '22), one layer over — JS↔Wasm instead of JS↔C++.
+- **⚠ ACTION NEXT RUN:** **check its venue.** If it landed at one of the nine, it is an `in_scope` candidate. Nothing about it should be cited until verified.
+
 ---
 
-_If any of these is later accepted at a watched venue, move it into `papers/` as a full note and add an `in_scope` ledger entry._ **Buzz to Boom / Proton is the top promotion candidate — check the CCS '26, USENIX Sec '26 Cycle 2, NDSS '27, and S&P '27 accepted lists.**
+_If any of these is later accepted at a watched venue, move it into `papers/` as a full note and add an `in_scope` ledger entry._
+
+**Buzz to Boom / Proton — promotion checkpoints:**
+
+| List | Checked | Result |
+|---|---|---|
+| **CCS '26** | **2026-09-12** | ❌ **NOT accepted.** The full 187-title accepted-papers list was fetched from `sigsac.org/ccs/CCS2026/program/accepted-papers.html` and grepped for `buzz\|boom\|proton\|electron\|message progression\|segmented` — the only hit is *"Beyond the Buzzword: How do Professionals Understand and Translate Zero Trust?"*, unrelated. |
+| USENIX Sec '26 Cycle 2 | — | not yet checked |
+| NDSS '27 | — | list not published (news feed still at 18 Aug 2026) |
+| S&P '27 | — | not yet checked |
