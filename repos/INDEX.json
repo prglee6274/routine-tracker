@@ -529,9 +529,9 @@
   },
   "ayghri/i-have-adhd": {
    "first_seen": "2026-08-05",
-   "last_seen": "2026-09-11",
-   "days_on_list": 2,
-   "last_stars": 37717,
+   "last_seen": "2026-09-12",
+   "days_on_list": 3,
+   "last_stars": 41192,
    "category": "llm",
    "language": "Python",
    "last_pushed_at": "2026-09-10"
@@ -797,13 +797,12 @@
   },
   "cathrynlavery/diagram-design": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-09-12",
    "days_on_list": 1,
-   "last_stars": 36381,
+   "last_stars": 38397,
    "category": "tools",
    "language": "HTML",
-   "graduated": false,
-   "last_pushed_at": "2026-09-08"
+   "last_pushed_at": "2026-09-10"
   },
   "certimate-go/certimate": {
    "first_seen": "2026-07-31",
@@ -1240,12 +1239,11 @@
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-09-12",
    "days_on_list": 1,
-   "last_stars": 133238,
+   "last_stars": 135699,
    "category": "llm",
    "language": "JavaScript",
-   "graduated": false,
    "last_pushed_at": "2026-09-07"
   },
   "different-ai/openwork": {
@@ -1676,13 +1674,12 @@
   },
   "github/spec-kit": {
    "first_seen": "2026-05-10",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-09-12",
    "days_on_list": 1,
-   "last_stars": 131659,
+   "last_stars": 135684,
    "category": "tools",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-09-11"
   },
   "Gitlawb/openclaude": {
    "first_seen": "2026-09-03",
@@ -1914,13 +1911,12 @@
   },
   "heygen-com/hyperframes": {
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-09",
-   "last_stars": 47595,
-   "last_pushed_at": "2026-09-08",
-   "days_on_list": 2,
+   "last_seen": "2026-09-12",
+   "last_stars": 48987,
+   "last_pushed_at": "2026-09-11",
+   "days_on_list": 1,
    "category": "tools",
-   "language": "TypeScript",
-   "graduated": false
+   "language": "TypeScript"
   },
   "HKUDS/AI-Trader": {
    "first_seen": "2026-06-09",
@@ -3127,13 +3123,12 @@
   },
   "NVIDIA/garak": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-06-25",
-   "days_on_list": 4,
-   "last_stars": 6900,
+   "last_seen": "2026-09-12",
+   "days_on_list": 1,
+   "last_stars": 9205,
    "category": "security",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-22"
+   "last_pushed_at": "2026-09-09"
   },
   "NVIDIA/Megatron-LM": {
    "first_seen": "2026-08-26",
@@ -4084,13 +4079,12 @@
   },
   "superradcompany/microsandbox": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-09-12",
    "days_on_list": 1,
-   "last_stars": 7638,
+   "last_stars": 8196,
    "category": "security",
    "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-08-18"
+   "last_pushed_at": "2026-09-10"
   },
   "swoole/typephp": {
    "first_seen": "2026-08-30",
@@ -4819,10 +4813,37 @@
    "category": "security",
    "language": "Go",
    "last_pushed_at": "2026-09-07"
+  },
+  "bilawalsidhu/gods-eye-view": {
+   "first_seen": "2026-09-12",
+   "last_seen": "2026-09-12",
+   "days_on_list": 1,
+   "last_stars": 26630,
+   "category": "security",
+   "language": "JavaScript",
+   "last_pushed_at": "2026-09-11"
+  },
+  "coreyhaines31/marketingskills": {
+   "first_seen": "2026-09-12",
+   "last_seen": "2026-09-12",
+   "days_on_list": 1,
+   "last_stars": 49596,
+   "category": "llm",
+   "language": "JavaScript",
+   "last_pushed_at": "2026-09-05"
+  },
+  "jordan-gibbs/hyperresearch": {
+   "first_seen": "2026-09-12",
+   "last_seen": "2026-09-12",
+   "days_on_list": 1,
+   "last_stars": 2469,
+   "category": "llm",
+   "language": "Python",
+   "last_pushed_at": "2026-09-11"
   }
  },
- "last_updated": "2026-09-11",
- "updated": "2026-09-11",
- "last_run": "2026-09-11",
- "count": 477
+ "last_updated": "2026-09-12",
+ "updated": "2026-09-12",
+ "last_run": "2026-09-12",
+ "count": 490
 }
