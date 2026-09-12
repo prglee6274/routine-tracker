@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-12",
-  "last_run": "2026-09-12",
+  "last_updated": "2026-09-13",
+  "last_run": "2026-09-13",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -664,6 +664,22 @@
       "grounding": "Full NDSS open-access PDF fetched and read SELECTIVELY: Section I in full, Sections V-VI (evaluation, bug tables, ablation, case studies) by targeted grep plus two focused reads; Sections II-IV (design of clustering / relation inference / mutation) only through grepped fragments. All numbers (134 bugs total = 60 Acrobat + 56 Foxit + 18 Word; 59 fixed, 33 CVEs, $22K bounty for 17 bugs, $18K Acrobat / $4K Foxit; 90 script APIs in 11 object classes; ablation full 18/14 vs random 12/9 vs object 4/3 vs script 8/5 vs Domato 6/6, giving 50%/55.6% guidance gain, 3.5x/3.7x over object-only and 1.5x/1.8x over script-only; one week = 168 h per configuration; object class 449 with 335,482 objects; PDF Page object 30 entries) are quoted from that text. Coverage percentages did NOT survive PDF-to-text and are NOT cited - caveated in the note.",
       "found_via": "Same domain-restricted topical sweep result set as Favocado - the ndss-symposium.org-restricted confirmation search for Favocado returned ndss2022-353-paper.pdf ('Testing the Binding Code of Scripting Languages with...') in its link list. A second, free catch on the same thread.",
       "title_norm": "cooper testing the binding code of scripting languages with cooperative mutation"
+    },
+    {
+      "id": "usenixsec2021-hidden-properties",
+      "title": "Abusing Hidden Properties to Attack the Node.js Ecosystem",
+      "authors": "Feng Xiao, Jianwei Huang, Yichang Xiong, Guangliang Yang, Hong Hu, Guofei Gu, Wenke Lee",
+      "venue": "USENIX Security 2021",
+      "year": 2021,
+      "scope": "ADJACENT",
+      "doi": "",
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/xiao",
+      "pdf": "https://www.usenix.org/system/files/sec21fall-xiao.pdf",
+      "note_file": "papers/usenixsec2021-hidden-properties.md",
+      "added": "2026-09-13",
+      "grounding": "Full USENIX open-access PDF (sec21fall-xiao.pdf, 1533 lines of extracted text) fetched and read: SS1-SS4 (intro, HPA definition, attack vectors, LYNX design) in full, SS5 (evaluation, Tables 3/4/5, coverage, performance) in full, SS6-SS8 (discussion, limitations, related work, conclusion) in full. Appendix A.1-A.3 and Table 7 NOT read. Every number in the note is quoted from that text: 102 programs = 91 modules + 11 web; 3175 property carriers -> 451 candidates; 69% (70/102) contain hidden properties; per-category #PC/#HP/#DA 323/78/0, 999/122/0, 584/156/24, 1269/95/0; exploit table 2/2/1, 7/4/2, 5/4/0, 1/1/1; 11 of 15 confirmed exploitable; 15 zero-days, 10 CVEs, 8 Critical/High, 10 vendors confirmed, 7 patched; 13 module bugs impacting 20402 dependents; C/I/A split 4/10/1; download+dependent counts per Table 5 (kind-of 196,448,574; mongoDB driver 6,165,075; mongoose 2,740,341/9,211; clone-deep 1,822,028 dependent projects); coverage 10-80% modules, 21% web; <10s per API in 90% of cases, >200s for <=10 large cases, ~50s per hidden property; Ubuntu 18.04 / i5-9600K / 32GB. Table 5's HP-numbering is internally inconsistent in the extracted text and this is caveated in the note.",
+      "found_via": "Author-page mining, target #1 from the 2026-09-12 next-targets list: Hong Hu (Penn State), COOPER's corresponding author. His CV PDF (huhong789.github.io/cv/cv.pdf, last updated 2026-09-09) lists the entire 44-item publication record in one fetch; this is item [17]. Invisible to eight prior keyword runs because the title contains NONE of the config keywords - not 'electron', not 'node' as a keyword token the search matched, not 'vulnerability', not 'IPC'. Fifth instance of the Bilingual Problems failure mode.",
+      "title_norm": "abusing hidden properties to attack the node js ecosystem"
     }
   ],
   "excluded": [
@@ -1272,6 +1288,55 @@
       "year": 2026,
       "reason": "Target venue, newly seen on the CCS'26 accepted-papers list 2026-09-12. Subject is link-following (symbolic-link / junction) local privilege escalation in desktop software and the completeness of its patches - a filesystem/OS privilege class with no JavaScript, web-content, npm or Electron angle. Excluded on the same basis as 'When Updates Backfire' (desktop update mechanisms) and 'Download More RAM' (Windows OS defences). NOTE: no abstract could be retrieved - two searches returned only Patch-Tuesday news, no paper page - so this disposition rests on the TITLE ALONE. If the paper turns out to study link-following in application installers/auto-updaters of specific cross-platform apps, RECONSIDER.",
       "title_norm": "from fix to flaw understanding and revealing incomplete patches for link following vulnerabilities"
+    },
+    {
+      "title": "One Engine to Fuzz 'em All: Generic Language Processor Testing with Semantic Validation",
+      "venue": "IEEE S&P 2021",
+      "year": 2021,
+      "reason": "Target venue, first seen 2026-09-13 via Hong Hu's CV (item [19], POLYGLOT). Generic fuzzing of LANGUAGE PROCESSORS (interpreters/compilers across many languages) using a common intermediate representation plus semantic validation. Engine-core testing with no binding layer, no host application, no JS<->native boundary and no desktop angle - excluded on exactly the same basis as Fuzzilli (NDSS'23). CONTRAST DELIBERATELY with Favocado/COOPER, which are in_scope precisely because they target the binding code BETWEEN the engine and the host application rather than the engine itself.",
+      "title_norm": "one engine to fuzz em all generic language processor testing with semantic validation"
+    },
+    {
+      "title": "WINNIE: Fuzzing Windows Applications with Harness Synthesis and Fast Cloning",
+      "venue": "NDSS 2021",
+      "year": 2021,
+      "reason": "Target venue, first seen 2026-09-13 via Hong Hu's CV (item [20]). Binary-level fuzzing of closed-source Win32 desktop applications via automatic harness synthesis and a fast fork-equivalent on Windows. 'Desktop application' here means native compiled software, NOT hybrid web/desktop - no JavaScript, no web content, no renderer, no packaging framework. Boundary case recorded explicitly so the word 'desktop' in the title does not re-surface it.",
+      "title_norm": "winnie fuzzing windows applications with harness synthesis and fast cloning"
+    },
+    {
+      "title": "SACK: Systematic Generation of Function Substitution Attacks Against Control-Flow Integrity",
+      "venue": "NDSS 2026",
+      "year": 2026,
+      "reason": "Target venue, current year, first seen 2026-09-13 via Hong Hu's CV (item [3]). Control-flow-integrity attack generation on native binaries. No JS, web, npm or desktop-app angle.",
+      "title_norm": "sack systematic generation of function substitution attacks against control flow integrity"
+    },
+    {
+      "title": "ContractGuard: Auditing Semantic Contracts of MCP Tools for Security Violations",
+      "venue": "ACM CCS 2026",
+      "year": 2026,
+      "reason": "Target venue, current year, first seen 2026-09-13 via Hong Hu's CV (item [1]); it was on the 187-title CCS'26 list swept 2026-09-12 but was not recorded then. Audits whether an MCP (Model Context Protocol) tool's natural-language description matches its actual behaviour - LLM-agent tooling security. No Electron, no renderer/main boundary, no JS runtime confinement. RECONSIDER ONLY IF the thesis scope is later widened to agentic desktop clients: many MCP servers are launched as local child processes by Electron-based AI desktop apps, which would make the tool-description-vs-behaviour gap a local privilege question. Not in scope as the config stands.",
+      "title_norm": "contractguard auditing semantic contracts of mcp tools for security violations"
+    },
+    {
+      "title": "RoB: Ransomware over Modern Web Browsers",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Target venue, first seen 2026-09-13 as a side result of the topical-sweep query 'renderer process granted local file system access desktop application study' (usenixsecurity23-oz.pdf). Oz et al. build a browser-based ransomware strain on top of the File System Access (FSA) API. Genuinely a web-content-gets-local-filesystem-privilege paper, which is why it surfaced - but the privilege is granted by the BROWSER's own user-consent permission model, not by a desktop app's packaging or an IPC bridge, and there is no Electron, preload, contextIsolation or renderer/main angle. Excluded under 'generic browser bugs unrelated to embedded/desktop apps'. Worth ONE manual citation as evidence that the FSA permission dialogue is a weak boundary, if the thesis discusses Electron apps that enable web-platform filesystem APIs.",
+      "title_norm": "rob ransomware over modern web browsers"
+    },
+    {
+      "title": "The \"Web/Local\" Boundary Is Fuzzy - A Security Study of Chrome's Process-based Sandboxing",
+      "venue": "ACM CCS 2016",
+      "year": 2016,
+      "reason": "Target venue but PRE-2020, out on the backfill_from_year=2020 rule. Seen 2026-09-13 via Hong Hu's CV (item [28]) and independently surfaced by the same topical-sweep query. TOPICALLY THIS IS THE CLOSEST ANCESTOR OF THE WHOLE THESIS QUESTION - it is literally about the fuzziness of the web/local privilege boundary in a Chromium renderer, and shows that compromising a renderer lets an attacker bypass web/local isolation for files belonging to already-authenticated cloud services. WORTH A MANUAL CITATION even though the watch cannot admit it. Companion to 'Privilege Separation in HTML5 Applications' (USENIX'12) already recorded under Mir's bibliography.",
+      "title_norm": "the web local boundary is fuzzy a security study of chrome s process based sandboxing"
+    },
+    {
+      "title": "A Quantitative Evaluation of Privilege Separation in Web Browser Designs",
+      "venue": "ESORICS 2013",
+      "year": 2013,
+      "reason": "Target venue but PRE-2020, out on the year rule. Seen 2026-09-13 via Hong Hu's CV (item [34]). Measures how much privilege separation actually buys in browser architectures - methodologically relevant to quantifying Electron's process split, so worth a MANUAL citation, but not admissible.",
+      "title_norm": "a quantitative evaluation of privilege separation in web browser designs"
     }
   ],
   "context_non_venue": [
@@ -2154,13 +2219,24 @@
     },
     {
       "title": "Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary",
-      "authors": "not recorded",
-      "venue": "UNVERIFIED - seen only as an arXiv PDF link (arXiv:2603.18789) in a search result list; venue NOT confirmed",
+      "authors": "Lingming Zhang, Binbin Zhao, Puzhuo Liu, Qinge Xie, Peng Di, Jianhai Chen, Shouling Ji",
+      "venue": "arXiv preprint (cs.CR), March 2026 - VENUE CHECKED 2026-09-13 and still NOT at one of the nine watched venues; no conference version indexed",
       "year": 2026,
       "url": "https://arxiv.org/pdf/2603.18789",
-      "why_context": "Same 'fuzz the boundary, not the engine' framing as Favocado and COOPER, one layer over (JS<->Wasm rather than JS<->C++). Recorded ONLY as a lead: neither the abstract nor the venue was checked this run, and nothing about it should be cited until verified. CHECK ITS VENUE NEXT RUN - if it landed at one of the nine, it is an in_scope candidate.",
+      "why_context": "Same 'fuzz the boundary, not the engine' framing as Favocado and COOPER, one layer over (JS<->Wasm rather than JS<->C++). VENUE RESOLVED 2026-09-13 per the 2026-09-12 action item: a targeted search returns only the arXiv listing (cs.CR, March 2026) and a ResearchGate mirror - NO conference publication. Abstract as given: greybox fuzzer for the JS-Wasm interaction boundary, type-aware generation maintaining a dual-type representation per variable, UCB-1 mutator/generator scheduling; reports higher coverage than SOTA fuzzers and TWO new bugs in current JS engines, one high severity. Two new bugs is a thin result next to Favocado (61) and COOPER (134), so this is a lead of modest value. RE-CHECK ITS VENUE around NDSS'27 / S&P'27 list publication; do not cite until published.",
       "added": "2026-09-12",
-      "found_via": "domain-restricted topical sweep result list (ndss-symposium.org-restricted confirmation search for Favocado)"
+      "found_via": "domain-restricted topical sweep result list (ndss-symposium.org-restricted confirmation search for Favocado)",
+      "checked": "2026-09-13"
+    },
+    {
+      "title": "SoK: Taxonomizing the Low-Level Attack Surface of Modern Web Browsers",
+      "authors": "not recorded (arXiv:2606.16646, posted 15 June 2026)",
+      "venue": "arXiv preprint - venue NOT confirmed, not one of the nine watched venues as of 2026-09-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.16646",
+      "why_context": "Derives an architecture-grounded Input x Component x Privilege taxonomy of browser architectures and maps 2,233 memory-corruption reports disclosed 2016-2025 onto it, concluding that testing concentrates on well-explored components while bug-dense high-impact surfaces stay under-tested. Subject matter (browser memory corruption) is OUT of scope, but the TAXONOMY AXES are directly reusable for an Electron attack-surface chapter: Input x Component x Privilege is exactly the decomposition an Electron thesis needs (IPC message / preload / custom protocol x renderer / preload / main x web-origin / node-privileged). Cite for method, not for findings. The PDF returns no machine-readable text via web_fetch; the abstract page (arxiv.org/abs/2606.16646) and the HTML version (arxiv.org/html/2606.16646) were NOT read this run - read the HTML version if the taxonomy is actually used.",
+      "added": "2026-09-13",
+      "found_via": "search result list while identifying Hong Hu's publication page"
     }
   ]
 }
