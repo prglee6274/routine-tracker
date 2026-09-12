@@ -22802,6 +22802,199 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2609.11757": {
+   "version": "v1",
+   "title": "Signing the Transaction but Not the Decision: Whisper Attacks and a Binding Defense for AP2",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "agent safety",
+    "prompt injection",
+    "agentic commerce",
+    "protocol security",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2609.11859": {
+   "version": "v1",
+   "title": "From Parameters to Answers: How LLMs Retrieve and Use Their Internal Knowledge",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "mechanistic interpretability",
+    "activation patching",
+    "probing",
+    "knowledge retrieval",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing",
+    "representation"
+   ]
+  },
+  "2609.07051": {
+   "version": "v1",
+   "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "backdoor",
+    "agent safety",
+    "world model",
+    "supply chain",
+    "activation steering"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2609.10992": {
+   "version": "v1",
+   "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "pii",
+    "sanitization",
+    "privacy-utility tradeoff",
+    "local protection",
+    "agent privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2609.09902": {
+   "version": "v1",
+   "title": "Contrastive Projection: Reading Transformer Internals by Differencing Logit Lenses",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "mechanistic interpretability",
+    "logit lens",
+    "activation patching",
+    "circuits",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2609.10892": {
+   "version": "v1",
+   "title": "DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "prompt injection",
+    "agent safety",
+    "defense mechanism",
+    "detection",
+    "trajectory analysis"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.11335": {
+   "version": "v1",
+   "title": "On the Impact of Anonymization on the Performance of Large Language Models",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "pii",
+    "anonymization",
+    "privacy-utility tradeoff",
+    "pseudonymization",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2609.10658": {
+   "version": "v1",
+   "title": "GEOSTEER: Geodesic Optimization for Activation Steering in Large Language Models",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "activation steering",
+    "representation engineering",
+    "norm-preserving",
+    "riemannian optimization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2609.10611": {
+   "version": "v1",
+   "title": "Black-Box Membership Inference via Word-Level Probability Estimation",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "membership inference",
+    "privacy auditing",
+    "black-box attack",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
+  },
+  "2609.10594": {
+   "version": "v1",
+   "title": "An Empirical Measurement of Jailbreaking Evaluators",
+   "first_seen": "2026-09-13",
+   "last_updated": "2026-09-13",
+   "folder": "2026-09-13",
+   "keywords": [
+    "jailbreak",
+    "safety_eval",
+    "red-teaming",
+    "llm-as-judge",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval",
+    "red_teaming"
+   ]
   }
  },
  "_taxonomy": {
@@ -22844,5 +23037,5 @@
    ]
   }
  },
- "last_run": "2026-09-12"
+ "last_run": "2026-09-13"
 }

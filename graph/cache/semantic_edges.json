@@ -1394,5 +1394,37 @@
  "2609.11799->2605.15172": {
   "type": "baseline",
   "evidence": "stealthy backdoor that breaks trigger-form assumptions of prior inference-time detectors"
+ },
+ "2609.07051->2606.18697": {
+  "type": "extends",
+  "evidence": "world-model 조작 공격 계보를 데이터 포이즈닝에서 물리 트리거 기반 imagination-steering 백도어로 확장"
+ },
+ "2609.09902->2605.29358": {
+  "type": "compares",
+  "evidence": "SAE로 중첩 표현을 monosemantic 특징으로 분해하는 노선과 대비 — 'We do not', 대신 baseline 차분(triangulation)으로 읽음"
+ },
+ "2609.10892->2606.22864": {
+  "type": "background",
+  "evidence": "prompt-injection 은닉상태 프로브 평가 프로토콜을 참고문헌으로 인용"
+ },
+ "2609.10892->2608.24777": {
+  "type": "background",
+  "evidence": "step-level 가드레일 선행연구를 참고문헌으로 인용"
+ },
+ "2609.11757->2605.03378": {
+  "type": "background",
+  "evidence": "에이전트 대상 context-aware prompt injection 방어 선행연구를 배경으로 인용"
+ },
+ "2609.11757->2606.24322": {
+  "type": "extends",
+  "evidence": "origin-bound authority + machine-checked invariant 방식을 장기기억 보호에서 AP2 결제 프로토콜 계층으로 확장"
+ },
+ "2609.11757->2607.05120": {
+  "type": "extends",
+  "evidence": "주입된 '명령' 중심 위협모델을 '사실 주장'으로 확장 — 명령 불신 학습으로는 막히지 않음을 논증"
+ },
+ "2609.11757->2607.21824": {
+  "type": "extends",
+  "evidence": "agentic commerce 프로토콜 공격 분류/벤치마크 노선을 AP2 특화 공격·A-VIP 방어·WhisperBench로 확장"
  }
 }
