@@ -1,5 +1,53 @@
 # Changelog
 
+## 2026-09-14 — Daily watch
+
+**THREE new `in_scope` papers — the joint-best run of the watch — plus thirteen venue-paper exclusions.** Ledger moves **31 → 34 in_scope**, **81 → 94 excluded**, context unchanged at 24. Nothing newly published at any of the nine venues (eleventh consecutive run). All three finds came from one thread: **Feng Xiao's page → Wenke Lee's *lab* page**.
+
+### THE FINDS
+
+**1. "Slimium: Debloating the Chromium Browser with Feature Subsetting"** — Qian, Koo, Oh, Taesoo Kim & Wenke Lee (Georgia Tech), **ACM CCS 2020**, pp. 461–476. Note: [`papers/ccs2020-slimium.md`](papers/ccs2020-slimium.md). Scope **ADJACENT**. Full text read from an author-hosted PDF.
+
+The Chromium-side counterpart to Mininode and HODOR, which cover the Node half of the Electron runtime. Raises the debloating unit from functions to **164 human-meaningful features** (142,968 functions, 6,527 source files), maps features to object files with a **relation-vector** heuristic, and cuts the binary to a profile. Across **40 websites in 10 categories** it removes **23.85 MB (53.1% of feature code, 21.7% of all Chromium)** and neutralises **94 CVEs (61.4%)**; a single build supporting all 40 still removes **38.8%**. Its justification for abandoning function-level debloating is the number worth stealing: **86.7% of all 483K call-graph nodes are transitively connected**, so dependency-based removal frees nothing and dynamic tracing removes too much.
+
+**Why it is in this ledger at all** — and why eleven runs were right to skip it on every keyword signal: **§6.4.1 measures two real Electron applications.** Slack ships **109.4 MB** and BlueJeans **111.6 MB** (both stated by the paper to be Electron: embedded Chromium + Node.js); Zoom, Chromium-based, ships 99.6 MB. Slimium's debloated build for the same category needs **91.4 MB** — *"up to 18.1% code reduction"* with every needed function preserved. That is the single best quantification in the whole ledger of how much dead engine code an Electron app carries as attack surface. (The note flags that 18.1% matches the BlueJeans arithmetic, i.e. it is the best case, not the mean.)
+
+**2. "DeView: Confining Progressive Web Applications by Debloating Web APIs"** — Oh, Sangho Lee, Qian, Koo & Wenke Lee, **ACSAC 2022**. Note: [`papers/acsac2022-deview.md`](papers/acsac2022-deview.md). Scope **ADJACENT**. Full text read from the open Microsoft Research PDF.
+
+Slimium's successor from the same lab, and **the closest existing methodological template for per-Electron-app attack-surface reduction**. Moves the unit from *website* to *installed application*: **record-and-replay profiling over the developer's own test cases** determines which web APIs an app needs, then an **LLVM pass over Chromium's WebIDL-derived entry points** removes the rest. On **114 real PWAs** it strips **91.8% of web APIs** (75.5–98.5%) and blocks **76.3% of 478** web-API-relevant Chromium CVEs (filtered from 1,035 release-note CVEs via crbug tickets).
+
+Its measurements establish that per-app debloating is *necessary*, not merely nicer: pairwise API-usage similarity across PWAs has a **mean Jaccard index of 0.36**, **~50% of PWAs depend on ≥20 APIs used by ≤1% of their peers**, and popularity-based removal strategies that work for ordinary websites therefore fail. §1 names **Electron** explicitly as the sibling architecture and §7 benchmarks storage cost against *"Electron apps (~120 MB)"* — yet **not one Electron application is evaluated**. Two gaps follow, and they are the thesis's opening: Electron's real surface (`contextBridge` exports, `ipcRenderer` channels, custom protocol handlers) **has no WebIDL declaration** and so no entry point for DeView's pass to remove; and the authors concede DeView is *least* effective against **RCE and memory-corruption** CVEs, because those exploit JS language primitives and browser infrastructure rather than web APIs — precisely the class of outcome an Electron renderer compromise produces.
+
+**3. "Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation"** — Feng Xiao, Zhongfu Su, Guangliang Yang & Wenke Lee, **IEEE S&P 2024**, pp. 296–311. Note: [`papers/sp2024-jasmine.md`](papers/sp2024-jasmine.md). Scope **ADJACENT**. ⚠️ **Abstract only — full text NOT reached** (IEEE paywall, no preprint, no author-hosted copy; the note carries a prominent warning and **no experimental number**).
+
+Same first author as XRCE (CCS'22, the ledger's PRIMARY Electron paper) and Hidden Properties. Attacks the *substrate* rather than a vulnerability class: applied to **>10K real-world JavaScript programs**, it reports that complex operations and semantics are prevalent and **heavily impede GitHub's CodeQL and IBM's WALA**. Its thesis use is as a **tooling-limitation argument** — that off-the-shelf JS static analysers silently degrade on real code is the obstacle any large-scale hunt over bundled Electron renderer code must engage with, and it is now an S&P result rather than an anecdote. Needs an institutional re-fetch before any figure is cited.
+
+### CHANNEL RESULTS — the channels traded places for the third run running
+
+- **Author/lab-page mining: PRODUCTIVE, all three finds.** Feng Xiao (target #1) → Jasmine + 3 exclusions; **Wenke Lee's lab page** → Slimium, DeView + 3 exclusions; Guangliang Yang (target #2) → **negative**, 6 exclusions.
+- **Domain-restricted topical sweep: two nulls, of the two *different* kinds.** `message passing between privileged host process and untrusted page script` → **cluster-exhausted** (Inspectron, Extending a Hand to Attackers, Site Isolation, Chrome Extension Architecture — all already dispositioned): a clean positive control. `single sign on flow inside embedded webview desktop client` → **wrong-corpus** (entirely Android/iOS autofill + WebView + SSO surveys). Getting both kinds in one run is the cleanest demonstration yet that the 09-13 taxonomy is real and that they call for opposite responses.
+- **Venues.** No new accepted-paper lists. NDSS'27 still in submission phase; S&P'27 and USENIX Sec '27 are CFP-only; ACSAC and RAID skipped by schedule (next 09-19 and 09-17); CCS'26 swept 09-12; ESORICS Springer TOC due 2026-10-28.
+
+### METHOD — one new mining rule, one new failure mode, one new venue channel
+
+**1. The lab-page rule.** Every prior author-page mine targeted an *individual*. Wenke Lee's **lab** page produced two `in_scope` papers that share **zero authors** with the person who led me there — Slimium and DeView are Qian/Koo/Oh/Kim, a different sub-group of the same lab. A large lab hits the thesis from several independent directions at once.
+
+> **New rule.** After mining a productive individual, mine their **lab or advisor's page**. This does *not* contradict the 09-12 "mine ACROSS networks, not UP to the hub" lesson: that was about a *collaborator* (Balliu) already read through his co-authors. An institution is not a collaborator — it covers people the collaborators never worked with.
+
+**2. A sixth structural cause of backfill misses: the relevant measurement is buried in a case study of a paper about something else.** Slimium is a browser paper by title, abstract and CCS session ("Browser Security"), and every keyword signal correctly said *skip* for eleven runs. The Electron measurement lives in §6.4.1. No title-, abstract- or keyword-level channel can reach that.
+
+> **Countermeasure.** Grep every newly admitted paper's **body** for `Electron`, `Slack`, `Discord`, `VS Code`, `desktop application` even when the paper is about something else. A case study naming a real Electron app is a strong admission signal regardless of the paper's subject.
+
+**3. "WebView" is the most treacherous term in the config.** Guangliang Yang was target #2 *precisely because* his corpus is WebView and hybrid apps, which sit literally inside the INCLUDE list. Every one of those papers is **Android** WebView, which the config excludes as mobile-only. Fourth confirmation that keyword adjacency is not scope adjacency — and the same trap sank topical-sweep query 2. **Blacklist `webview`, `deep link`, `clipboard`, `notification`, `autofill` as query heads**; the Android corpus absorbs them no matter what you pair them with. Prefer engine/packaging vocabulary with no mobile equivalent.
+
+**4. ACSAC is partially observable *now*, via author pages.** `kevinkoo001.github.io/publications` lists an **ACSAC 2026** paper marked *"(To appear)"* — six days after the 8 September notification, while acsac.org still has no 2026 program page. **acsac.org is the last place an acceptance appears, not the first.** Added as a standing query; applies to any venue whose list is not yet out.
+
+### NEXT
+
+Author target #1 is **Chenxiong Qian (University of Hong Kong)** — first author of Slimium, co-author of DeView; the browser/web-API debloating line is *his*, he has run it independently since 2022, and the ledger has only these two entries from that sub-literature. Then Sangho Lee (MSR), ASU SEFCOM, Kapravelos. DeView's **§8 Related Work** is the top pending bibliography (it surveys a debloating literature this ledger barely touches; chase **Snyder et al.**, the tool both papers argue against by name, and check its venue).
+
+---
+
 ## 2026-09-13 — Daily watch
 
 **ONE new `in_scope` paper — and it is the cleanest gap statement this watch has yet recovered — plus seven venue-paper exclusions, one new context item, and one pending item finally resolved.** Ledger moves **30 → 31 in_scope**, **74 → 81 excluded**, **23 → 24 context_non_venue**. Nothing newly published at any of the nine venues (tenth consecutive run).

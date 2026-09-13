@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-13",
-  "last_run": "2026-09-13",
+  "last_updated": "2026-09-14",
+  "last_run": "2026-09-14",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -680,6 +680,57 @@
       "grounding": "Full USENIX open-access PDF (sec21fall-xiao.pdf, 1533 lines of extracted text) fetched and read: SS1-SS4 (intro, HPA definition, attack vectors, LYNX design) in full, SS5 (evaluation, Tables 3/4/5, coverage, performance) in full, SS6-SS8 (discussion, limitations, related work, conclusion) in full. Appendix A.1-A.3 and Table 7 NOT read. Every number in the note is quoted from that text: 102 programs = 91 modules + 11 web; 3175 property carriers -> 451 candidates; 69% (70/102) contain hidden properties; per-category #PC/#HP/#DA 323/78/0, 999/122/0, 584/156/24, 1269/95/0; exploit table 2/2/1, 7/4/2, 5/4/0, 1/1/1; 11 of 15 confirmed exploitable; 15 zero-days, 10 CVEs, 8 Critical/High, 10 vendors confirmed, 7 patched; 13 module bugs impacting 20402 dependents; C/I/A split 4/10/1; download+dependent counts per Table 5 (kind-of 196,448,574; mongoDB driver 6,165,075; mongoose 2,740,341/9,211; clone-deep 1,822,028 dependent projects); coverage 10-80% modules, 21% web; <10s per API in 90% of cases, >200s for <=10 large cases, ~50s per hidden property; Ubuntu 18.04 / i5-9600K / 32GB. Table 5's HP-numbering is internally inconsistent in the extracted text and this is caveated in the note.",
       "found_via": "Author-page mining, target #1 from the 2026-09-12 next-targets list: Hong Hu (Penn State), COOPER's corresponding author. His CV PDF (huhong789.github.io/cv/cv.pdf, last updated 2026-09-09) lists the entire 44-item publication record in one fetch; this is item [17]. Invisible to eight prior keyword runs because the title contains NONE of the config keywords - not 'electron', not 'node' as a keyword token the search matched, not 'vulnerability', not 'IPC'. Fifth instance of the Bilingual Problems failure mode.",
       "title_norm": "abusing hidden properties to attack the node js ecosystem"
+    },
+    {
+      "id": "ccs2020-slimium",
+      "title": "Slimium: Debloating the Chromium Browser with Feature Subsetting",
+      "authors": "Chenxiong Qian, Hyungjoon Koo, ChangSeok Oh, Taesoo Kim, Wenke Lee",
+      "venue": "ACM CCS 2020",
+      "year": 2020,
+      "scope": "ADJACENT",
+      "doi": "10.1145/3372297.3417866",
+      "url": "https://dl.acm.org/doi/10.1145/3372297.3417866",
+      "pdf": "https://kevinkoo001.github.io/assets/pdf/ccs20-slimium.pdf",
+      "note_file": "papers/ccs2020-slimium.md",
+      "added": "2026-09-14",
+      "grounding": "Author-hosted open PDF (kevinkoo001.github.io/assets/pdf/ccs20-slimium.pdf, 1987 lines of extracted text) fetched. READ IN FULL: abstract, S1 Introduction, S4.2 (feature-code mapping / relation vectors), S6 Evaluation S6.1-S6.4.1 including the Electron case study, and the feature-table summary row. NOT READ: S2-S3, S4.1, S4.3, S5, S6.4.2-S6.5, S7 Discussion, S8 Related Work. Every number in the note is quoted from that text: Chromium release code chunk ~110MB, larger than the Linux kernel; ~40% of source from third-party software; static call graph 483K nodes with 86.7% connected directly or indirectly; 164 defined features / 142,968 functions / 41,097 objects / 153 CVEs (summary row; the row's final two columns 25 and 15 were NOT attributed because the headers were not located); 6,527 source code files; webpage profiling needs 172 continuous visits on average; hyperparameters (rc, rs, T) = (0.7, 0.7, 0.3); 40 popular websites across 10 categories; removes 23.85MB (53.1%) of feature code on average, 21.7% of the whole of Chromium, neutralising 94 CVEs (61.4%); Remote Working category only 41.4% removal due to WebRTC; an all-40-site variant still removes 38.8% (~17.4MB); security-feature code coverage SOP 8.3% / CSP 39.1% / SRI 34.0% / CORS 79.0% (CORS min-max 60.5%-85.8%); Snyder et al. baseline blocks 15 of 74 Web API standards avoiding 52% of CVEs with 94.7% usability. THE ELECTRON MEASUREMENT (S6.4.1) is quoted verbatim: Slack 109.4MB and BlueJeans 111.6MB, both stated by the paper to be built with Electron (embedded Chromium + Node.js); Zoom 99.6MB; Slimium's debloated Remote Working variant 91.4MB, 'up to 18.1% code reduction'; Webex ruled out as JVM-based. The note caveats that 18.1% matches the BlueJeans arithmetic (111.6 -> 91.4) and is therefore the best case, not the mean.",
+      "found_via": "Author-page mining, second hop. Feng Xiao's page (target #1 from the 2026-09-13 list) -> Wenke Lee's lab publications page (wenke.gtisc.gatech.edu/publications.html, surfaced while checking Zheng Yang) -> item 34. Invisible to eleven prior runs because the title contains NONE of the config keywords - not 'electron', not 'desktop', not 'node.js' - and because its subject reads as a BROWSER paper. It is in fact the only paper in the ledger that directly MEASURES shipped Electron applications. Reached its PDF via Hyungjoon Koo's publications page, which hosts open copies of the whole SecAI Lab output.",
+      "why_in_scope": "ADJACENT. The Chromium-side counterpart to Mininode (RAID'20) and HODOR (CCS'23), which cover the Node.js half of the Electron runtime; admitted on the same basis. The config's EXCLUDE rule 'generic Chromium browser bugs unrelated to embedded/desktop apps' does not bite: this is not a bug study, and S6.4.1 explicitly measures Slack and BlueJeans as Electron applications and benchmarks a debloated engine against them.",
+      "title_norm": "slimium debloating the chromium browser with feature subsetting"
+    },
+    {
+      "id": "acsac2022-deview",
+      "title": "DeView: Confining Progressive Web Applications by Debloating Web APIs",
+      "authors": "ChangSeok Oh, Sangho Lee, Chenxiong Qian, Hyungjoon Koo, Wenke Lee",
+      "venue": "ACSAC 2022",
+      "year": 2022,
+      "scope": "ADJACENT",
+      "doi": "10.1145/3564625.3567987",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3564625.3567987",
+      "pdf": "https://www.microsoft.com/en-us/research/wp-content/uploads/2022/09/deview-acsac22.pdf",
+      "note_file": "papers/acsac2022-deview.md",
+      "added": "2026-09-14",
+      "grounding": "Microsoft Research open PDF (deview-acsac22.pdf, 1362 lines of extracted text) fetched. READ: abstract, S1 Introduction, S3.1 Preliminaries, S3.2 Challenges (partial), S5 Implementation headline, S6.1-S6.5 Evaluation, and the storage-overhead paragraph of S7. NOT READ: S2 Background, S3.3 threat model, S4 design, S8 Related Work, and BOTH APPENDIX TABLES (Table 5 per-PWA results, Table 6 the 478-CVE list). Numbers quoted from the text: 114 real-world PWAs from Alexa Top 100 US plus other listings; 8,249 web APIs collected from chromestatus featurepopularity.json + csspopularity.json; the 114 PWAs exercise 3,296 distinct web APIs; ~90% of PWAs use 15% or below of all available web APIs and under 40% of the 3,296; ~50% of PWAs use >=20 APIs at <=1% popularity and >=60 at <=10%; Snyder-class usage SVG 63.16% / WebAudio 17.54% / WebGL 15.79% / WebRTC 8.77%; Jaccard index 0.36 mean, 0.06 min, 0.82 max; 1,035 CVEs from five years of Chrome release notes (Jan 2017-Apr 2022) filtered via crbug.com to 478 web-API-relevant CVEs in 11 types, composed of 420 JavaScript / 48 HTML / 10 CSS; removes 91.84% of web APIs on average (75.54%-98.53%), HTML 79.95% (47.39%-94.31%), CSS 68.41% (8.47%-91.86%), JS 94.03% (81.12%-91.62% AS PRINTED); blocks 76.33% of exploits on average (48.33%-93.31%); user-side load latency max 0.29s; Fedora 32 kernel 5.8.10. TWO INTERNAL INCONSISTENCIES ARE FLAGGED IN THE NOTE, NOT SILENTLY FIXED: (1) the JS range 81.12%-91.62% excludes its own stated mean of 94.03%; (2) Table 5's caption reports 79.75% / 68.25% / 90.24% / 94.04% for HTML / CSS / JS Object / JS, differing from S6.2's prose and adding a 'JS Object' category the prose lacks. Unresolved because the appendix was not read.",
+      "found_via": "Author-page mining, second hop: Feng Xiao -> Wenke Lee's lab publications page, item 17. Same eleven-run blind spot as Slimium: the title says 'Progressive Web Applications', a sub-literature framing that reads as web rather than desktop (the third structural cause of backfill misses documented on 2026-09-11). Its introduction nonetheless names Electron directly.",
+      "why_in_scope": "ADJACENT, and the closest existing methodological template for per-Electron-app attack-surface reduction. S1 names Electron explicitly as the sibling architecture ('a standalone framework (e.g., Electron)... maintains its copies by design') and S7 benchmarks DeView's storage cost against 'Electron apps (~120 MB)', yet the paper evaluates zero Electron applications. Distinguish from the EXCLUDED 'Demystifying Progressive Web Application Permission Systems' (DSN'26): that studies the web PERMISSION MODEL, this reduces the ENGINE'S API ATTACK SURFACE, the same category as Mininode/HODOR/Slimium.",
+      "title_norm": "deview confining progressive web applications by debloating web apis"
+    },
+    {
+      "id": "sp2024-jasmine",
+      "title": "Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation",
+      "authors": "Feng Xiao, Zhongfu Su, Guangliang Yang, Wenke Lee",
+      "venue": "IEEE S&P 2024",
+      "year": 2024,
+      "scope": "ADJACENT",
+      "doi": "10.1109/SP54263.2024.00183",
+      "url": "https://ieeexplore.ieee.org/document/10646682/",
+      "pdf": "",
+      "note_file": "papers/sp2024-jasmine.md",
+      "added": "2026-09-14",
+      "grounding": "ABSTRACT ONLY - FULL TEXT NOT REACHED, and the note carries a prominent warning block saying so. IEEE Xplore (document/10646682) returned an EMPTY body; IEEE CSDL returned a JavaScript-rendered empty shell; dl.acm equivalents do not apply (IEEE venue); NO arXiv preprint exists; the first author's own publications page links the title back to itself with no PDF; four targeted searches (semanticscholar-, researchgate-, gatech-, fudan-restricted, plus a github artifact search under xiaofen9) found no open copy. GROUNDED FACTS ONLY: title, four authors and affiliations (Xiao + Lee = Georgia Tech, Su = Wuhan University, Yang = Fudan), IEEE S&P 2024, pp. 296-311, DOI 10.1109/SP54263.2024.00183, published 19 May 2024 - all cross-confirmed on the first author's page, Wenke Lee's lab page and IEEE. FROM THE ABSTRACT: proposes 'computation-based semantic explanation' (CSE) to combat complex semantics in JavaScript security analysis; prototype named Jasmine; applied to MORE THAN 10K real-world JavaScript programs; finds complex operations and semantics prevalent in practice and heavily impeding state-of-the-art static techniques, naming GitHub's CodeQL and IBM's WALA. NO quantitative result, NO dataset composition, NO precision/recall, NO bug or CVE count is available - the note's sections 3 and 4 say so explicitly and instruct that any percentage must come from the paper itself.",
+      "found_via": "Author-page mining, target #1 from the 2026-09-13 next-targets list: Feng Xiao (fxiao.me/publications), first author of Hidden Properties (USENIX'21) and of the ledger's PRIMARY Electron paper XRCE (CCS'22). Confirmed independently on Guangliang Yang's page (item 2) and Wenke Lee's lab page (item 1). Invisible to eleven prior runs: the title contains none of the config keywords.",
+      "why_in_scope": "ADJACENT on the same basis as ODGEN (USENIX'22) - a JavaScript vulnerability-DISCOVERY capability paper rather than a desktop-app paper - reinforced by author continuity with ccs2022-xrce-xguard. Its thesis value is as a TOOLING-LIMITATION argument: that CodeQL and WALA measurably degrade on real JavaScript is the obstacle any large-scale static hunt over bundled Electron renderer code must engage with. NEEDS A RE-FETCH through an institutional IEEE subscription before any figure is cited.",
+      "title_norm": "jasmine scale up javascript static security analysis with computation based semantic explanation"
     }
   ],
   "excluded": [
@@ -1337,6 +1388,97 @@
       "year": 2013,
       "reason": "Target venue but PRE-2020, out on the year rule. Seen 2026-09-13 via Hong Hu's CV (item [34]). Measures how much privilege separation actually buys in browser architectures - methodologically relevant to quantifying Electron's process split, so worth a MANUAL citation, but not admissible.",
       "title_norm": "a quantitative evaluation of privilege separation in web browser designs"
+    },
+    {
+      "title": "WEBRR: A Forensic System for Replaying and Investigating Web-Based Attacks in The Modern Web",
+      "venue": "USENIX Security 2024",
+      "year": 2024,
+      "reason": "Target venue and in window. Seen 2026-09-14 on Feng Xiao's and Wenke Lee's publications pages. A record-and-replay forensic system for reconstructing web-based attacks in a browser; the subject is post-hoc INVESTIGATION of web attacks, not vulnerability discovery, and there is no desktop/Electron, renderer-IPC, preload or local-privilege angle. Note the methodological echo of DeView's record-and-replay profiling (same lab), which is why it was considered rather than dismissed on title.",
+      "title_norm": "webrr a forensic system for replaying and investigating web based attacks in the modern web"
+    },
+    {
+      "title": "FaceObfuscator: Defending Deep Learning-based Privacy Attacks with Gradient Descent-Resistant Features in Face Recognition",
+      "venue": "USENIX Security 2024",
+      "year": 2024,
+      "reason": "Target venue, in window, but face-recognition privacy / ML defence. No JavaScript, web-content, npm or desktop angle whatsoever. Recorded only so Feng Xiao's page is never re-triaged.",
+      "title_norm": "faceobfuscator defending deep learning based privacy attacks with gradient descent resistant features in face recognition"
+    },
+    {
+      "title": "Unexpected Data Dependency Creation and Chaining: A New Attack to SDN",
+      "venue": "IEEE S&P 2020",
+      "year": 2020,
+      "reason": "Target venue, in window, but software-defined networking control-plane attacks. Feng Xiao's pre-JavaScript line of work. No JS/web/desktop angle.",
+      "title_norm": "unexpected data dependency creation and chaining a new attack to sdn"
+    },
+    {
+      "title": "NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic",
+      "venue": "ACM CCS 2023",
+      "year": 2023,
+      "reason": "Target venue, in window. Seen 2026-09-14 on Guangliang Yang's page. Input-structure-aware fuzzing of native programs; no JavaScript runtime, web content, npm or desktop-app angle. Adjacent only to the generic fuzzing literature already dismissed in bulk from Hong Hu's CV.",
+      "title_norm": "nestfuzz enhancing fuzzing with comprehensive understanding of input processing logic"
+    },
+    {
+      "title": "Notice the Imposter! A Study on User Tag Spoofing Attack in Mobile Apps",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Target venue, in window, but MOBILE-ONLY - out on the config's explicit exclude rule. Guangliang Yang's page.",
+      "title_norm": "notice the imposter a study on user tag spoofing attack in mobile apps"
+    },
+    {
+      "title": "Collect Responsibly But Deliver Arbitrarily? A Study on Cross-User Privacy Leakage in Mobile Apps",
+      "venue": "ACM CCS 2022",
+      "year": 2022,
+      "reason": "Target venue, in window, but mobile-app privacy leakage. MOBILE-ONLY exclude rule. Guangliang Yang's page.",
+      "title_norm": "collect responsibly but deliver arbitrarily a study on cross user privacy leakage in mobile apps"
+    },
+    {
+      "title": "The Service Worker Hiding in Your Browser: The Next Web Attack Target?",
+      "venue": "RAID 2021",
+      "year": 2021,
+      "reason": "Target venue, in window. Chinprutthiwong, Vardhan, Yang, Gu. Studies the attack surface of Service Workers inside a BROWSER (persistence, interception of fetches, push abuse). Genuinely a web-platform mechanism that also exists inside an Electron renderer, but the paper's threat model, victim and impact are all browser-and-web: no local privilege, no main process, no packaged desktop app. Falls under 'pure web XSS/web-platform with no desktop angle'. BORDERLINE - promote only if the thesis develops a section on persistence primitives inside an Electron renderer, where a Service Worker surviving a reload is a materially different proposition from one surviving in a browser tab.",
+      "title_norm": "the service worker hiding in your browser the next web attack target"
+    },
+    {
+      "title": "Security Study of Service Worker Cross-Site Scripting",
+      "venue": "ACSAC 2020",
+      "year": 2020,
+      "reason": "Target venue, in window. Chinprutthiwong, Vardhan, Yang, Gu - the ACSAC'20 predecessor of the RAID'21 Service Worker paper. Studies XSS that reaches and persists in a Service Worker (SW-XSS). Same disposition and same borderline caveat as its successor: a real persistence primitive, but studied purely as browser/web security with no desktop, IPC or local-privilege escalation.",
+      "title_norm": "security study of service worker cross site scripting"
+    },
+    {
+      "title": "Iframes/Popups Are Dangerous in Mobile WebView: Studying and Mitigating Differential Context Vulnerabilities",
+      "venue": "USENIX Security 2019",
+      "year": 2019,
+      "reason": "Target venue but PRE-2020 (out on the backfill_from_year rule) AND mobile-only. Guangliang Yang's best-known WebView work. Recorded so it is never re-surfaced; its 'differential context' framing - the same page object having different privilege depending on how it was opened - is conceptually apt for Electron BrowserWindow/webContents and is worth a MANUAL citation even though the watch cannot admit it.",
+      "title_norm": "iframes popups are dangerous in mobile webview studying and mitigating differential context vulnerabilities"
+    },
+    {
+      "title": "TRIDENT: Towards Detecting and Mitigating Web-based Social Engineering Attacks",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "reason": "Target venue, in window. Zheng Yang, Allen, Landen, Perdisci, Lee. Detection of web-based social-engineering (malvertising, notification/scam funnels). No desktop, Electron, Node.js or local-privilege angle. Recorded so Zheng Yang's line is not re-chased.",
+      "title_norm": "trident towards detecting and mitigating web based social engineering attacks"
+    },
+    {
+      "title": "Towards Measuring Supply Chain Attacks on Package Managers for Interpreted Languages",
+      "venue": "NDSS 2021",
+      "year": 2021,
+      "reason": "Target venue, in window, and it DOES cover npm. Excluded on the SAME rationale already applied to 'Original Sin of npm' (AsiaCCS'26), 'From Noise to Signal' (NDSS'26) and 'Cross-Language Detection of Malicious Packages' (ACSAC'23): generic cross-ecosystem (npm/PyPI/RubyGems) malicious-package measurement and detection, not Electron- or Node.js-RUNTIME-vulnerability-discovery specific. Duan et al.'s MalOSS. BORDERLINE - promote if the thesis grows a broad supply-chain section, in which case this is the canonical measurement paper of the three.",
+      "title_norm": "towards measuring supply chain attacks on package managers for interpreted languages"
+    },
+    {
+      "title": "Mnemosyne: An Effective and Efficient Postmortem Watering Hole Attack Investigation System",
+      "venue": "ACM CCS 2020",
+      "year": 2020,
+      "reason": "Target venue, in window. Browser-based postmortem forensic reconstruction of watering-hole attacks. Same line as WEBRR (USENIX'24, also excluded): investigation, not discovery; browser, not desktop app.",
+      "title_norm": "mnemosyne an effective and efficient postmortem watering hole attack investigation system"
+    },
+    {
+      "title": "Localizing Vulnerabilities under Function Inlining Toward Precise Binary Patching",
+      "venue": "ACSAC 2026",
+      "year": 2026,
+      "reason": "FIRST ACSAC'26 PAPER EVER SEEN BY THIS WATCH, and seen on an AUTHOR PAGE (kevinkoo001.github.io/publications, marked 'To appear') a full week before acsac.org has published any list. Jeon, Zhang, Koo (SKKU SecAI Lab). Subject is binary-level vulnerability localisation under compiler function inlining, for precise patching - native binary analysis with no JavaScript, web, npm or desktop-app angle, so excluded on topic. Recorded chiefly for the CHANNEL LESSON attached to it in the ACSAC config notes.",
+      "title_norm": "localizing vulnerabilities under function inlining toward precise binary patching"
     }
   ],
   "context_non_venue": [
