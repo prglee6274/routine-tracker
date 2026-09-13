@@ -203,12 +203,12 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-08-05",
-   "days_on_list": 3,
-   "last_stars": 18743,
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 23216,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-08-04",
+   "last_pushed_at": "2026-09-12",
    "graduated": false
   },
   "alibaba/OpenSandbox": {
@@ -460,13 +460,13 @@
   },
   "asgeirtj/system_prompts_leaks": {
    "first_seen": "2026-07-07",
-   "last_seen": "2026-07-10",
-   "days_on_list": 4,
-   "last_stars": 54994,
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 65901,
    "category": "security",
    "language": "JavaScript",
-   "graduated": true,
-   "last_pushed_at": ""
+   "graduated": false,
+   "last_pushed_at": "2026-09-13"
   },
   "ast-grep/ast-grep": {
    "first_seen": "2026-05-22",
@@ -2726,10 +2726,10 @@
   },
   "microsoft/markitdown": {
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-13",
-   "last_stars": 183159,
-   "last_pushed_at": "2026-09-11",
-   "days_on_list": 1,
+   "last_seen": "2026-09-14",
+   "last_stars": 183530,
+   "last_pushed_at": "2026-09-12",
+   "days_on_list": 2,
    "category": "tools",
    "language": "Python",
    "graduated": false
@@ -4348,13 +4348,13 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-09-13",
-   "days_on_list": 1,
-   "last_stars": 59478,
+   "last_seen": "2026-09-14",
+   "days_on_list": 2,
+   "last_stars": 60562,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-12"
+   "last_pushed_at": "2026-09-13"
   },
   "tulir/whatsmeow": {
    "first_seen": "2026-08-26",
@@ -4818,12 +4818,12 @@
   },
   "bilawalsidhu/gods-eye-view": {
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-13",
-   "days_on_list": 2,
-   "last_stars": 29353,
+   "last_seen": "2026-09-14",
+   "days_on_list": 3,
+   "last_stars": 31520,
    "category": "security",
    "language": "JavaScript",
-   "last_pushed_at": "2026-09-12",
+   "last_pushed_at": "2026-09-13",
    "graduated": false
   },
   "coreyhaines31/marketingskills": {
@@ -4846,13 +4846,13 @@
   },
   "p1neappleXpress/OpenFlux": {
    "first_seen": "2026-09-13",
-   "last_seen": "2026-09-13",
-   "days_on_list": 1,
-   "last_stars": 1362,
+   "last_seen": "2026-09-14",
+   "days_on_list": 2,
+   "last_stars": 1509,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-09-12"
+   "last_pushed_at": "2026-09-13"
   },
   "earthtojake/text-to-cad": {
    "first_seen": "2026-09-13",
@@ -4893,10 +4893,50 @@
    "language": "Python",
    "graduated": false,
    "last_pushed_at": "2026-08-29"
+  },
+  "JustVugg/colibri": {
+   "first_seen": "2026-09-14",
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 29434,
+   "category": "llm",
+   "language": "C",
+   "graduated": false,
+   "last_pushed_at": "2026-09-13"
+  },
+  "multimodal-art-projection/YuE": {
+   "first_seen": "2026-09-14",
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 7651,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-11"
+  },
+  "thesysdev/openui": {
+   "first_seen": "2026-09-14",
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 8932,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-11"
+  },
+  "git-ai-project/git-ai": {
+   "first_seen": "2026-09-14",
+   "last_seen": "2026-09-14",
+   "days_on_list": 1,
+   "last_stars": 2683,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-09-09"
   }
  },
- "last_updated": "2026-09-13",
- "updated": "2026-09-13",
- "last_run": "2026-09-13",
- "count": 495
+ "last_updated": "2026-09-14",
+ "updated": "2026-09-14",
+ "last_run": "2026-09-14",
+ "count": 499
 }
