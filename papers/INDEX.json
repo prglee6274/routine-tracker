@@ -22995,6 +22995,207 @@
     "safety_eval",
     "red_teaming"
    ]
+  },
+  "2609.11082": {
+   "version": "v1",
+   "title": "ToxicRAG: Compromising Retrieval-Augmented Generation Systems via Single-Shot Knowledge Poisoning Attacks",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "prompt injection",
+    "knowledge poisoning",
+    "RAG security",
+    "misinformation",
+    "adversarial retrieval"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "adversarial",
+    "defense_mechanism"
+   ]
+  },
+  "2609.10613": {
+   "version": "v1",
+   "title": "Understanding In-Context Multimodal Jailbreaks via Posterior Reweighting",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "jailbreak",
+    "in-context learning",
+    "multimodal attack",
+    "safety alignment",
+    "inference-time defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack",
+    "defense_mechanism",
+    "alignment_robustness"
+   ]
+  },
+  "2609.11780": {
+   "version": "v1",
+   "title": "Predicting Privacy Leakage from Weight Spectral Density",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "membership inference",
+    "privacy auditing",
+    "weight spectral density",
+    "heavy-tailed self-regularisation",
+    "generalisation gap"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "privacy_audit"
+   ]
+  },
+  "2609.10608": {
+   "version": "v1",
+   "title": "Adaptive Diffusion Freezing: Privacy-preserving Diffusion Models Against Membership Inference Attacks",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "membership inference",
+    "diffusion models",
+    "privacy-preserving training",
+    "memorization",
+    "privacy-utility trade-off"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
+  },
+  "2609.09404": {
+   "version": "v1",
+   "title": "An Experimental Evaluation of Multimodal Prompt Injection Attacks on Agentic AI Frameworks",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "prompt injection",
+    "multimodal attack",
+    "agent safety",
+    "benchmark",
+    "tool-calling agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "multimodal_attack",
+    "safety_eval"
+   ]
+  },
+  "2609.07037": {
+   "version": "v1",
+   "title": "Disentangling Steering Vectors",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "activation steering",
+    "steering vector",
+    "sparse autoencoder",
+    "disentanglement",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "sae",
+    "representation"
+   ]
+  },
+  "2609.06862": {
+   "version": "v1",
+   "title": "Feature Superposition in Neural Networks: From Theory to Practice",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "superposition",
+    "polysemanticity",
+    "sparse autoencoder",
+    "linear representation hypothesis",
+    "survey"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2609.05794": {
+   "version": "v1",
+   "title": "Bait-and-Recover: Poisoning Internal Refusal Signals to Defend LLMs against White-Box Editing Jailbreaks",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "jailbreak",
+    "representation engineering",
+    "refusal direction",
+    "weight-level defense",
+    "open-weight models"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "alignment_robustness",
+    "representation"
+   ]
+  },
+  "2609.06749": {
+   "version": "v1",
+   "title": "A Novel Semantic Manifold Alignment Attack against Embedding-to-Embedding Obfuscation in Privacy-Preserving LLMs",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "embedding inversion",
+    "privacy-preserving inference",
+    "PII leakage",
+    "manifold alignment",
+    "LLM privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction",
+    "privacy_inference"
+   ]
+  },
+  "2609.04661": {
+   "version": "v1",
+   "title": "Interpretability for Turing Machines",
+   "first_seen": "2026-09-14",
+   "last_updated": "2026-09-14",
+   "folder": "2026-09-14",
+   "keywords": [
+    "susceptibilities",
+    "algorithmic structure",
+    "Turing machines",
+    "loss landscape",
+    "developmental interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "circuits",
+    "mechanistic_position"
+   ]
   }
  },
  "_taxonomy": {
@@ -23037,5 +23238,5 @@
    ]
   }
  },
- "last_run": "2026-09-13"
+ "last_run": "2026-09-14"
 }
