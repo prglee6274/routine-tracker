@@ -203,12 +203,12 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-09-14",
-   "days_on_list": 1,
-   "last_stars": 23216,
+   "last_seen": "2026-09-15",
+   "days_on_list": 2,
+   "last_stars": 25324,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-09-12",
+   "last_pushed_at": "2026-09-14",
    "graduated": false
   },
   "alibaba/OpenSandbox": {
@@ -460,9 +460,9 @@
   },
   "asgeirtj/system_prompts_leaks": {
    "first_seen": "2026-07-07",
-   "last_seen": "2026-09-14",
-   "days_on_list": 1,
-   "last_stars": 65901,
+   "last_seen": "2026-09-15",
+   "days_on_list": 2,
+   "last_stars": 66665,
    "category": "security",
    "language": "JavaScript",
    "graduated": false,
@@ -1151,13 +1151,13 @@
   },
   "debpalash/VoiceStudio": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-07",
-   "days_on_list": 2,
-   "last_stars": 19691,
+   "last_seen": "2026-09-15",
+   "days_on_list": 1,
+   "last_stars": 28851,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-05"
+   "last_pushed_at": "2026-09-14"
   },
   "decolua/9router": {
    "first_seen": "2026-05-13",
@@ -2726,10 +2726,10 @@
   },
   "microsoft/markitdown": {
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-14",
-   "last_stars": 183530,
-   "last_pushed_at": "2026-09-12",
-   "days_on_list": 2,
+   "last_seen": "2026-09-15",
+   "last_stars": 183947,
+   "last_pushed_at": "2026-09-14",
+   "days_on_list": 3,
    "category": "tools",
    "language": "Python",
    "graduated": false
@@ -3410,13 +3410,13 @@
   },
   "pacifio/atlas": {
    "first_seen": "2026-08-15",
-   "last_seen": "2026-09-03",
+   "last_seen": "2026-09-15",
    "days_on_list": 1,
-   "last_stars": 2789,
+   "last_stars": 4398,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-14"
+   "last_pushed_at": "2026-09-13"
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
@@ -4348,13 +4348,13 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-09-14",
-   "days_on_list": 2,
-   "last_stars": 60562,
+   "last_seen": "2026-09-15",
+   "days_on_list": 3,
+   "last_stars": 62008,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-13"
+   "last_pushed_at": "2026-09-14"
   },
   "tulir/whatsmeow": {
    "first_seen": "2026-08-26",
@@ -4773,12 +4773,13 @@
   },
   "alphaXiv/OpenResearch": {
    "first_seen": "2026-09-11",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-09-15",
    "days_on_list": 1,
-   "last_stars": 966,
+   "last_stars": 2419,
    "category": "llm",
    "language": "Rust",
-   "last_pushed_at": "2026-09-10"
+   "last_pushed_at": "2026-09-14",
+   "graduated": false
   },
   "vercel-labs/skills": {
    "first_seen": "2026-09-11",
@@ -4818,13 +4819,13 @@
   },
   "bilawalsidhu/gods-eye-view": {
    "first_seen": "2026-09-12",
-   "last_seen": "2026-09-14",
-   "days_on_list": 3,
-   "last_stars": 31520,
+   "last_seen": "2026-09-15",
+   "days_on_list": 4,
+   "last_stars": 33338,
    "category": "security",
    "language": "JavaScript",
-   "last_pushed_at": "2026-09-13",
-   "graduated": false
+   "last_pushed_at": "2026-09-14",
+   "graduated": true
   },
   "coreyhaines31/marketingskills": {
    "first_seen": "2026-09-12",
@@ -4896,9 +4897,9 @@
   },
   "JustVugg/colibri": {
    "first_seen": "2026-09-14",
-   "last_seen": "2026-09-14",
-   "days_on_list": 1,
-   "last_stars": 29434,
+   "last_seen": "2026-09-15",
+   "days_on_list": 2,
+   "last_stars": 31720,
    "category": "llm",
    "language": "C",
    "graduated": false,
@@ -4933,10 +4934,20 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-09-09"
+  },
+  "reconurge/flowsint": {
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15",
+   "days_on_list": 1,
+   "last_stars": 8267,
+   "category": "security",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-06"
   }
  },
- "last_updated": "2026-09-14",
- "updated": "2026-09-14",
+ "last_updated": "2026-09-15",
+ "updated": "2026-09-15",
  "last_run": "2026-09-14",
  "count": 499
 }
