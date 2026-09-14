@@ -22863,10 +22863,10 @@
    ]
   },
   "2609.10992": {
-   "version": "v1",
+   "version": "v2",
    "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
    "first_seen": "2026-09-13",
-   "last_updated": "2026-09-13",
+   "last_updated": "2026-09-15",
    "folder": "2026-09-13",
    "keywords": [
     "pii",
@@ -23196,6 +23196,188 @@
     "circuits",
     "mechanistic_position"
    ]
+  },
+  "2609.08418": {
+   "version": "v1",
+   "title": "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "cyber agent",
+    "offensive security",
+    "post-training",
+    "agent safety",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2609.12413": {
+   "version": "v1",
+   "title": "SoK: Rethinking Jailbreaking in the Era of Agentic AI: Attacks, Defenses, and Practical Consideration",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "jailbreak",
+    "agent safety",
+    "prompt injection",
+    "safety eval",
+    "defense mechanism"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval",
+    "defense_mechanism"
+   ]
+  },
+  "2609.12808": {
+   "version": "v1",
+   "title": "K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "unlearning",
+    "agent privacy",
+    "data extraction",
+    "safety eval",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "agent_privacy",
+    "data_extraction"
+   ]
+  },
+  "2609.10142": {
+   "version": "v1",
+   "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "activation steering",
+    "persona vector",
+    "mechanistic interpretability",
+    "alignment robustness",
+    "harmful fine-tuning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2609.12591": {
+   "version": "v1",
+   "title": "Where Decoder Cosine Similarity Fails for SAE Feature Flow Discovery",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE",
+    "feature flow",
+    "circuits",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2609.12367": {
+   "version": "v1",
+   "title": "Membership Inference via Pairwise Likelihood Ratios",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "membership inference",
+    "privacy auditing",
+    "likelihood ratio",
+    "differential privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
+  },
+  "2609.11952": {
+   "version": "v1",
+   "title": "ChemMat-AgentSafetyBench: Evaluating Long-Horizon Attacks and Defenses in Chemistry and Materials Agents",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "agent safety",
+    "safety eval",
+    "memory poisoning",
+    "tool misuse",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "red_teaming",
+    "backdoor"
+   ]
+  },
+  "2609.10993": {
+   "version": "v1",
+   "title": "Distribution-aware Language Neuron Identification in Multilingual Large Language Models",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "neuron analysis",
+    "probing",
+    "multilingual",
+    "mechanistic interpretability",
+    "causal intervention"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2609.06027": {
+   "version": "v1",
+   "title": "Evaluating Deep-Search Agents under Hierarchical Web Evidence Poisoning",
+   "first_seen": "2026-09-15",
+   "last_updated": "2026-09-15",
+   "folder": "2026-09-15",
+   "keywords": [
+    "web poisoning",
+    "agent safety",
+    "retrieval poisoning",
+    "safety eval",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval",
+    "backdoor"
+   ]
   }
  },
  "_taxonomy": {
@@ -23238,5 +23420,5 @@
    ]
   }
  },
- "last_run": "2026-09-14"
+ "last_run": "2026-09-15"
 }

@@ -1458,5 +1458,29 @@
  "2609.07037->2605.29358": {
   "type": "background",
   "evidence": "서론에서 SAE가 LLM 활성에서 해석 가능한 특징을 추출해온 선행 성과로 인용"
+ },
+ "2609.06027->2607.20891": {
+  "type": "background",
+  "evidence": "intro motivation that deep-research agent behavior depends on retrieved web content integrity"
+ },
+ "2609.11952->2606.18936": {
+  "type": "compares",
+  "evidence": "prior AI4Science safety benchmark contrasted as testing hazardous-knowledge Q&A rather than tool-using agent endpoints"
+ },
+ "2609.12413->2605.05058": {
+  "type": "compares",
+  "evidence": "prior jailbreak SoK and its Security Cube contrasted against this agentic-era systematization"
+ },
+ "2609.12413->2605.24497": {
+  "type": "background",
+  "evidence": "catalogued in the attack taxonomy as a reasoning-layer CoT jailbreak"
+ },
+ "2609.12413->2606.04329": {
+  "type": "background",
+  "evidence": "cited in the context/state defense taxonomy on untrusted input and persistent memory"
+ },
+ "2609.12413->2606.12703": {
+  "type": "compares",
+  "evidence": "SMSR certified memory-poisoning defense described then critiqued for its threat-model limitations"
  }
 }
