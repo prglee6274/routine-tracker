@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-14",
-  "last_run": "2026-09-14",
+  "last_updated": "2026-09-15",
+  "last_run": "2026-09-15",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -1479,6 +1479,171 @@
       "year": 2026,
       "reason": "FIRST ACSAC'26 PAPER EVER SEEN BY THIS WATCH, and seen on an AUTHOR PAGE (kevinkoo001.github.io/publications, marked 'To appear') a full week before acsac.org has published any list. Jeon, Zhang, Koo (SKKU SecAI Lab). Subject is binary-level vulnerability localisation under compiler function inlining, for precise patching - native binary analysis with no JavaScript, web, npm or desktop-app angle, so excluded on topic. Recorded chiefly for the CHANNEL LESSON attached to it in the ACSAC config notes.",
       "title_norm": "localizing vulnerabilities under function inlining toward precise binary patching"
+    },
+    {
+      "title": "FIDES: End-to-end Compartments for Mixed-language Systems",
+      "venue": "AsiaCCS 2026",
+      "year": 2026,
+      "added": "2026-09-15",
+      "authors_first": "Sai Venkata Krishnan (IIT Madras), Arjun Menon (InCore Semiconductors), Chester Rebeiro, KC Sivaramakrishnan (IIT Madras / Tarides)",
+      "url": "https://asiaccs2026.cse.iitkgp.ac.in/cycle-2-papers/",
+      "pdf": "https://kcsrk.info/papers/fides_asiaccs_2026.pdf",
+      "fulltext_status": "FULL TEXT READ (15-page author-hosted PDF). Disposition rests on the paper itself, not on an abstract.",
+      "flag": "BORDERLINE",
+      "surfaced_by": "First-ever full sweep of the AsiaCCS 2026 accepted-papers list (Cycle 2), after the AsiaCCS channel was fixed this run.",
+      "reason": "Hardware-assisted intra-process compartmentalisation for mixed OCaml-C applications: function-level code compartments plus hardware fat pointers, implemented on a MODIFIED Shakti RISC-V processor and evaluated on baremetal MirageOS unikernels (an electronic voting machine, 68K LoC, and an HTTPS server, 500K LoC). EXCLUDED, and the controlling precedent is the ledger's own standing bulk dismissal of 'the MPK/PKU and memory-isolation systems line' recorded under BinWrap's bibliography (Donky USENIX'20, PKRU-Safe EuroSys'22, ERIM, Jenny, xMP) together with the individual exclusions of Galeed (ACSAC'21) and Pitchfork (ACSAC'22). FIDES's own Table 4 places it squarely in that line - it benchmarks itself against Secage, Glamdring, GOTEE, Donky, Enclosures, PKRU-Safe, Galeed, CHERI-JNI, ACES, MINION and CHERIoT - so admitting it while excluding Galeed and PKRU-Safe would be inconsistent. The safe language is OCaml; there is no JavaScript engine, no Node.js, no npm and no desktop application anywhere in the paper, and the mechanism REQUIRES CUSTOM SILICON, so it can never be applied to an Electron app on commodity x86/ARM. Distinguish from 'Cross-Language Attacks' (NDSS'22), which IS in_scope ADJACENT: that paper is an attack TAXONOMY for the safe/unsafe boundary as a class, whereas this is one more hardware compartment mechanism. WORTH A MANUAL CITATION NONETHELESS, which is why this entry is long: section 3.2.2 gives the cleanest published illustration of a native component subverting a managed-language closure. C code calls caml_named_value to fetch two OCaml callbacks and overwrites the code pointer inside the 'sum' closure with that of the 'leak' closure; the write is WITHIN THE BOUNDS of the sum closure, so spatial memory safety does not stop it, and every later call to sum - including from OCaml - runs leak. That is structurally identical to what a malicious or buggy Node.js native addon can do to a JS function object across N-API, which is exactly the primitive a thesis on Electron native-addon risk needs a citable example of. PROMOTE TO in_scope ONLY IF the thesis adds a native-addon confinement chapter surveying compartmentalisation mechanisms irrespective of runtime.",
+      "grounding": "Numbers read from the PDF: 6.1% LUT and 6.0% register area increase on a Xilinx Artix-7 AC701 FPGA with operating frequency unaffected, versus CHERIoT's >100% area increase; 1.9% average execution-time overhead for code compartments across the Computer Language Benchmarks Game suite; 36% average overhead for fat-pointer-hardened C; a 5.4x microbenchmark slowdown when a higher-order function is placed in a non-fluid separate compartment, which fluid compartments reduce to baseline; EVM case study 1.04x overhead at 6 fluid compartments rising to 1.19x without fluid compartments, with average compartment code size falling from 132KB to 47KB at 23 compartments; HTTPS server throughput 57 requests baseline vs 46 / 49 / 52 for the three compartmentalisation strategies (19.3% down to 8.8% loss); policy annotation cost 70 LoC for the 68K-LoC EVM and 250 LoC for the 500K-LoC web server; compiler changes 50+149+20 LoC in OCaml and 155+37 LoC in LLVM plus a 500-LoC fat-pointer pass.",
+      "bibliography_checked": "YES, section 7 read in full. NIL new in_scope. Every watched-venue citation is already dispositioned or already bulk-dismissed under the memory-isolation line (Galeed ACSAC'21 excluded; Donky USENIX'20 and PKRU-Safe EuroSys'22 bulk-dismissed via BinWrap). The rest - CHERIoT, CHERI-JNI, ACES, MINION, Secage, Glamdring, GOTEE, CETIS, Enclosures, CCured, Delta Pointers, Low-Fat, SoftboundCETS, Checked-C, MarkUs, Dieharder - are non-venue or pre-2020. DO NOT RE-CHASE.",
+      "title_norm": "fides end to end compartments for mixed language systems"
+    },
+    {
+      "title": "Mind the Web: The Security of Web Use Agents",
+      "venue": "AsiaCCS 2026",
+      "year": 2026,
+      "added": "2026-09-15",
+      "authors_first": "Avishag Shapira, Parth Atulbhai Gandhi, Idan Habler, Asaf Shabtai (Ben-Gurion University)",
+      "url": "https://arxiv.org/abs/2506.07153",
+      "flag": "BORDERLINE",
+      "surfaced_by": "AsiaCCS 2026 Cycle 2 accepted-papers sweep.",
+      "fulltext_status": "Abstract read from the arXiv listing; full PDF NOT read.",
+      "reason": "Prompt-injection attacks on LLM web-use agents (OpenAI Operator, Browser Use, Do Browser, OpenOperator). The core contribution is a 'task-aligned injection' technique exploiting limitations in LLM contextual reasoning, i.e. the vulnerability lives in the MODEL's handling of page content, not in an application privilege boundary. Consistent with the existing exclusion of 'Network-Level Prompt and Trait Leakage in Local Research Agents' (USENIX Sec'26). Distinguish from 'Site Isolation is Dead' (S&P'26, in_scope ADJACENT), admitted because its subject is the IPC trust relationship between a renderer and a privileged application process - an architectural boundary an app author configures - rather than model behaviour. BORDERLINE because the reported payload set does include local file exfiltration and password leakage driven by attacker-controlled web content, i.e. web content escalating to local privilege, with claimed 80-100% success rates. Revisit if the thesis adds a chapter on agentic desktop clients, several of which ship as Electron apps.",
+      "title_norm": "mind the web the security of web use agents"
+    },
+    {
+      "title": "CRX-ray: Large-Scale Detection of API Key Leakage in Browser Extensions",
+      "venue": "AsiaCCS 2026",
+      "year": 2026,
+      "added": "2026-09-15",
+      "url": "https://asiaccs2026.cse.iitkgp.ac.in/cycle-1-papers/",
+      "surfaced_by": "AsiaCCS 2026 Cycle 1 accepted-papers sweep.",
+      "reason": "Secret-scanning of browser extensions at scale. Same shape and same disposition as 'KeyChaser: Unveiling API Keys in Browser Extensions' (S&P'26, already excluded): a credential-hygiene measurement of browser extensions, with no desktop application, no Electron/CEF target and no renderer-to-main privilege boundary.",
+      "title_norm": "crx ray large scale detection of api key leakage in browser extensions"
+    },
+    {
+      "title": "Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection",
+      "venue": "ACM CCS 2025",
+      "year": 2025,
+      "added": "2026-09-15",
+      "authors_first": "Nils Bars, Lukas Bernhard, Moritz Schloegel, Thorsten Holz (CISPA)",
+      "url": "https://doi.org/10.1145/3719027.3765027",
+      "pdf": "https://arxiv.org/pdf/2509.07757",
+      "flag": "BORDERLINE",
+      "fulltext_status": "The ACM page returned EMPTY via web_fetch (paywall/JS). Disposition rests on the abstract as reported by search plus the dblp record; the arXiv PDF (2509.07757) was located but NOT read, and no numbers are recorded from it.",
+      "surfaced_by": "Domain-restricted search on dl.acm.org while probing the AsiaCCS blind spot.",
+      "reason": "SbxBrk: controlled fault injection to test software-based fault isolation, with Google's V8 HEAP SANDBOX as the subject. Excluded on exactly the basis already recorded for TANTRUM (CCS'26) and Fuzzilli (NDSS'23): the heap sandbox is a memory-safety mitigation INTERNAL to the JavaScript engine, and the paper's own threat model presupposes an attacker who already has full control over sandboxed memory. That is engine-internals exploitation, which the config excludes as 'generic Chromium browser bugs unrelated to embedded/desktop apps'. NOTE FOR THE THESIS, which is why this is flagged BORDERLINE: the abstract explicitly frames the V8 heap sandbox as protecting 'countless applications built on Node.js and Electron', so it is a citable source for the claim that Electron apps inherit the engine's SFI boundary without configuring it. This is the CCS'25 predecessor of TANTRUM (CCS'26); promote both together or neither, and only if the thesis adds a renderer-memory-corruption escalation chapter.",
+      "title_norm": "empirical security analysis of software based fault isolation through controlled fault injection"
+    },
+    {
+      "title": "Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities",
+      "venue": "USENIX Security 2023",
+      "year": 2023,
+      "added": "2026-09-15",
+      "url": "https://www.usenix.org/system/files/sec23winter-prepub-167-guler.pdf",
+      "surfaced_by": "Domain-restricted topical sweep, query 'input object merged into internal application state remote attacker'.",
+      "reason": "Snapshot-based grey-box fuzzing of PHP web applications for server-side bug classes. Pure server-side web application security with no desktop, Electron, Node.js runtime or local-privilege angle. Recorded so the title is not re-chased by a future sweep using object/state-injection wording.",
+      "title_norm": "atropos effective fuzzing of web applications for server side vulnerabilities"
+    },
+    {
+      "title": "FUGIO: Automatic Exploit Generation for PHP Object Injection Vulnerabilities",
+      "venue": "USENIX Security 2022",
+      "year": 2022,
+      "added": "2026-09-15",
+      "url": "https://wsp-lab.github.io/papers/park-fugio-sec22.pdf",
+      "surfaced_by": "KAIST WSP Lab (Sooel Son) publications page, mined 2026-09-15.",
+      "reason": "Automatic exploit generation for PHP object injection. Same disposition and same reasoning as SerialDetector (NDSS'21, .NET object injection, already excluded): the object-injection family is the server-side analogue of prototype pollution, but there is no Node.js runtime and no desktop/Electron angle. Worth a MANUAL methodological citation if the thesis discusses automatic exploit synthesis, alongside NodeMedic-FINE and Bullseye which ARE in_scope.",
+      "title_norm": "fugio automatic exploit generation for php object injection vulnerabilities"
+    },
+    {
+      "title": "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer",
+      "venue": "USENIX Security 2020",
+      "year": 2020,
+      "added": "2026-09-15",
+      "url": "https://wsp-lab.github.io/papers/lee-montage-sec20.pdf",
+      "surfaced_by": "KAIST WSP Lab (Sooel Son) publications page, mined 2026-09-15.",
+      "reason": "JavaScript ENGINE-CORE fuzzing (language-model-guided test generation for JS engine bugs). Excluded on the same basis as Fuzzilli (NDSS'23) and TANTRUM (CCS'26): engine-core memory safety rather than the binding/embedder boundary. Note it is named in Favocado's section II-D as prior JS-engine fuzzing work, so it sits one hop from the in_scope binding-layer cluster - recorded here precisely so that hop is not re-walked.",
+      "title_norm": "montage a neural network language model guided javascript engine fuzzer"
+    },
+    {
+      "title": "DiffCSP: Finding Browser Bugs in Content Security Policy Enforcement through Differential Testing",
+      "venue": "NDSS 2023",
+      "year": 2023,
+      "added": "2026-09-15",
+      "url": "https://wsp-lab.github.io/papers/wi-diffcsp-ndss23.pdf",
+      "surfaced_by": "KAIST WSP Lab (Sooel Son) publications page, mined 2026-09-15.",
+      "reason": "Differential testing of CSP enforcement across general-purpose browsers. Generic browser-engine conformance bugs, falling under the config's 'generic Chromium browser bugs unrelated to embedded/desktop apps' exclusion. Borderline only in that CSP is one of the hardening measures Electron's own security checklist recommends; if the thesis argues that Electron apps deploy CSP incorrectly, cite this for browser-side CSP enforcement being unreliable in the first place.",
+      "title_norm": "diffcsp finding browser bugs in content security policy enforcement through differential testing"
+    },
+    {
+      "title": "TrustyMon: Practical Detection of DOM-based Cross-Site Scripting Attacks Using Trusted Types",
+      "venue": "AsiaCCS 2025",
+      "year": 2025,
+      "added": "2026-09-15",
+      "url": "https://wsp-lab.github.io/papers/park-trustymon-asiaccs25.pdf",
+      "flag": "BORDERLINE",
+      "surfaced_by": "KAIST WSP Lab (Sooel Son) publications page, mined 2026-09-15.",
+      "reason": "DOM-based XSS detection on websites using the Trusted Types API. Falls under 'pure web-app XSS with no desktop/Electron angle'. BORDERLINE and worth a manual citation: Trusted Types is precisely the defence that the in_scope NDSS'23 Electron paper ('A Security Study about Electron Applications and a Programming Methodology to Tame DOM Functions') proposes taming DOM sinks with, so this is the web-side counterpart of that methodology and a natural 'defence to contrast' in related work.",
+      "title_norm": "trustymon practical detection of dom based cross site scripting attacks using trusted types"
+    },
+    {
+      "title": "AdCube: WebVR Ad Fraud and Practical Confinement of Third-Party Ads",
+      "venue": "USENIX Security 2021",
+      "year": 2021,
+      "added": "2026-09-15",
+      "url": "https://wsp-lab.github.io/papers/lee-adcube-sec21.pdf",
+      "surfaced_by": "KAIST WSP Lab (Sooel Son) publications page, mined 2026-09-15.",
+      "reason": "Confinement of third-party advertisement content inside a WebVR host page. Architecturally adjacent (untrusted third-party script confined by a host) but the host is a web page in a browser, with no desktop application, no Node.js and no local-privilege escalation. Recorded so that 'confinement of untrusted content in a host' wording does not re-surface it.",
+      "title_norm": "adcube webvr ad fraud and practical confinement of third party ads"
+    },
+    {
+      "title": "Most Websites Don't Need to Vibrate: A Cost-Benefit Approach to Improving Browser Security",
+      "venue": "ACM CCS 2017",
+      "year": 2017,
+      "added": "2026-09-15",
+      "authors_first": "Peter Snyder, Cynthia Taylor, Chris Kanich",
+      "surfaced_by": "DeView (ACSAC'22) reference [108], chased 2026-09-15 as the #1 pending bibliography item.",
+      "reason": "Target venue but PRE-2020, out on the backfill_from_year=2020 rule. Recorded because it was the specific reference the config predicted might sit at a watched venue, and because it is the tool that BOTH Slimium and DeView argue against by name - the canonical cost-benefit measurement of web-API surface, blocking risky features via JavaScript Proxy objects in a browser extension. DeView's section 8 rebuts it on two grounds worth reusing: Proxy-based blocking cannot stop static-markup (HTML/CSS) attacks, and the API entry points and implementations remain resident in memory so the block is bypassable. Worth a MANUAL citation in any attack-surface-reduction argument about how much engine surface an Electron app actually needs.",
+      "title_norm": "most websites don t need to vibrate a cost benefit approach to improving browser security"
+    },
+    {
+      "title": "Pride and Prejudice in Progressive Web Apps: Abusing Native App-like Features in Web Applications",
+      "venue": "ACM CCS 2018",
+      "year": 2018,
+      "added": "2026-09-15",
+      "authors_first": "Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, Sooel Son (KAIST)",
+      "url": "https://wsp-lab.github.io/papers/son-ppp-ccs18.pdf",
+      "surfaced_by": "DeView (ACSAC'22) reference [69], and independently on the KAIST WSP Lab page the same run.",
+      "reason": "Target venue but PRE-2020, out on the year rule. Topically among the closest ancestors of this thesis that the watch cannot admit: the first systematic study of security and privacy risks unique to PWAs, weaponising native-app-like features (push notifications, cache, service workers) - the same 'web content granted app-like local capability' shape as Electron, one framework generation earlier. Worth a MANUAL citation.",
+      "title_norm": "pride and prejudice in progressive web apps abusing native app like features in web applications"
+    },
+    {
+      "title": "Debloating Software through Piece-Wise Compilation and Loading",
+      "venue": "USENIX Security 2018",
+      "year": 2018,
+      "added": "2026-09-15",
+      "authors_first": "Anh Quach, Aravind Prakash, Lok Yan",
+      "surfaced_by": "DeView (ACSAC'22) reference [99].",
+      "reason": "PieceWise. Target venue but PRE-2020, out on the year rule. The library-debloating ancestor that both Slimium and DeView position against. Recorded so the debloating sub-literature chase stops here.",
+      "title_norm": "debloating software through piece wise compilation and loading"
+    },
+    {
+      "title": "Automatic Library Fuzzing through API Relation Evolvement",
+      "venue": "NDSS 2025",
+      "year": 2025,
+      "added": "2026-09-15",
+      "url": "https://i.cs.hku.hk/~cqian/",
+      "surfaced_by": "Chenxiong Qian (HKU) publications page, mined 2026-09-15.",
+      "reason": "Generic C/C++ library fuzzing via API relation inference. No JavaScript, Node.js, web or desktop-application angle. Recorded because a keyword sweep for 'library' / 'API' / 'fuzzing' would otherwise re-surface it from the same page.",
+      "title_norm": "automatic library fuzzing through api relation evolvement"
+    },
+    {
+      "title": "Specializing Language Models for Textual Fuzzing via Reinforcement Learning",
+      "venue": "IEEE S&P 2026",
+      "year": 2026,
+      "added": "2026-09-15",
+      "url": "https://arxiv.org/abs/2509.20384",
+      "surfaced_by": "Chenxiong Qian (HKU) publications page, mined 2026-09-15.",
+      "reason": "R1-Fuzz: an RL-trained LLM for fuzzing structured-text inputs (compilers, interpreters, DB engines). LLM-for-fuzzing methodology with no Electron, Node.js or desktop-privilege angle. Distinguish from the in_scope 'From Documentation to Zero-day' (CCS'26), which is LLM-driven fuzzing of JavaScript engines EMBEDDED IN PDF READERS, i.e. an embedder binding surface.",
+      "title_norm": "specializing language models for textual fuzzing via reinforcement learning"
     }
   ],
   "context_non_venue": [
@@ -2379,6 +2544,15 @@
       "why_context": "Derives an architecture-grounded Input x Component x Privilege taxonomy of browser architectures and maps 2,233 memory-corruption reports disclosed 2016-2025 onto it, concluding that testing concentrates on well-explored components while bug-dense high-impact surfaces stay under-tested. Subject matter (browser memory corruption) is OUT of scope, but the TAXONOMY AXES are directly reusable for an Electron attack-surface chapter: Input x Component x Privilege is exactly the decomposition an Electron thesis needs (IPC message / preload / custom protocol x renderer / preload / main x web-origin / node-privileged). Cite for method, not for findings. The PDF returns no machine-readable text via web_fetch; the abstract page (arxiv.org/abs/2606.16646) and the HTML version (arxiv.org/html/2606.16646) were NOT read this run - read the HTML version if the taxonomy is actually used.",
       "added": "2026-09-13",
       "found_via": "search result list while identifying Hong Hu's publication page"
+    },
+    {
+      "title": "Fuzzing JavaScript Engines by Fusing JavaScript and WebAssembly",
+      "venue": "ICSE 2026 (48th IEEE/ACM Intl. Conf. on Software Engineering) - a software-engineering venue, NOT one of the nine watched security venues",
+      "year": 2026,
+      "added": "2026-09-15",
+      "authors": "Jiayi Lin, Changhua Luo, Mingxue Zhang, Lanteng Lin, Penghui Li, Chenxiong Qian (HKU System Security Lab)",
+      "url": "https://i.cs.hku.hk/~cqian/",
+      "note": "Found on Chenxiong Qian's publications page 2026-09-15. RELEVANT TO AN OPEN LEDGER QUESTION: the context entry 'Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary' (arXiv, March 2026) was recorded on 2026-09-13 with its venue unresolved. This ICSE'26 paper addresses the same research topic - the JS<->Wasm boundary in JS engines - from a group that also publishes JS-engine fuzzing work. THEY MAY OR MAY NOT BE THE SAME PAPER: the titles differ and no author overlap was verified, so this is recorded as a SEPARATE entry and the identification is explicitly UNCONFIRMED. Either way the venue is ICSE, which is not one of the nine, so neither is admissible. A future interactive run can settle it by comparing the arXiv author list against the ICSE one."
     }
   ]
 }

@@ -1,5 +1,59 @@
 # Changelog
 
+## 2026-09-15 — Daily watch
+
+**No new papers today.** Zero `in_scope` additions — the first such run since 2026-09-05 — because **both required channels went null on the same run for the first time**. Ledger moves **34 → 34 in_scope**, **94 → 109 excluded**, **24 → 25 context**. Nothing newly published at any of the nine venues (twelfth consecutive run).
+
+**The run's result came from somewhere else entirely: the AsiaCCS blind spot is fixed.** Flagged as urgent since 2026-09-07 and deferred eight times to "an interactive session with a DBLP pass", it took three ordinary calls.
+
+### THE VENUE FIX — AsiaCCS is no longer search-only
+
+AsiaCCS **does** publish a full accepted-papers list; nobody had looked for it. Like ESORICS, it lives on the **local organiser's own WordPress site**, split by submission cycle:
+
+- `https://asiaccs2026.cse.iitkgp.ac.in/cycle-1-papers/` — ~78 titles with authors and affiliations
+- `https://asiaccs2026.cse.iitkgp.ac.in/cycle-2-papers/` — ~47 titles
+
+Both released 2026-04-26; program 2026-05-08; conference Bangalore, 1–5 June 2026. Each page fits in **one** `web_fetch` with no truncation.
+
+**The route, which must be followed in order** (the URLs cannot be constructed — they fail the provenance rule): plain WebSearch `AsiaCCS <YEAR> accepted papers list program` → fetch any indexed page (`/main-conference/` works) and read the **nav menu**, which carries the cycle URLs → fetch each cycle page.
+
+**AsiaCCS 2026 is now swept title-by-title, all ~125 titles.** Result: zero `in_scope`; one title already in the ledger (*Original Sin of npm*); three newly triaged and excluded — **FIDES** (Cycle 2, borderline, full text read), **Mind the Web** (Cycle 2, borderline), **CRX-ray** (Cycle 1). Do not re-sweep 2026.
+
+### THE CLOSEST CALL — FIDES (AsiaCCS 2026), excluded
+
+*"FIDES: End-to-end Compartments for Mixed-language Systems"* (Sai Venkata Krishnan, Menon, Rebeiro, Sivaramakrishnan — IIT Madras). Full 15-page text read. Hardware-assisted function-level compartments for mixed **OCaml–C** applications on a **modified Shakti RISC-V** processor, evaluated on baremetal MirageOS unikernels.
+
+**Excluded**, and the controlling precedent is this ledger's own standing bulk dismissal of the MPK/PKU memory-isolation line (Donky, PKRU-Safe, ERIM, Jenny, xMP) plus the individual exclusions of Galeed (ACSAC'21) and Pitchfork (ACSAC'22). FIDES's **own Table 4** benchmarks itself against exactly those systems — admitting it while excluding Galeed would be incoherent. There is no JS engine, no Node.js, no desktop app anywhere in it, and the mechanism **requires custom silicon**, so it can never apply to an Electron app. (Distinguish *Cross-Language Attacks*, NDSS'22, which **is** `in_scope` ADJACENT: that is an attack *taxonomy* for the safe/unsafe boundary as a class, not one more compartment mechanism.)
+
+**But cite §3.2.2 manually.** It is the cleanest published illustration of a native component subverting a managed-language closure: C code calls `caml_named_value` for two OCaml callbacks and overwrites the code pointer *inside* the `sum` closure with `leak`'s. The write is **within the bounds** of the closure, so spatial memory safety does not stop it, and every later call to `sum` — *including from OCaml* — runs `leak`. That is structurally what a Node native addon can do to a JS function object across N-API.
+
+### CHANNEL RESULTS — both required channels null, same run
+
+- **Topical sweep: two nulls, one of each kind** (the 09-13 taxonomy held for the third run running). `packaged web application shipping its own browser engine` → **wrong-corpus** (US patents on packaged web apps + an Android embedded-JS-engine MSR paper). `input object merged into internal application state remote attacker` → **cluster-exhausted** (SerialDetector, Silent Spring, XRCE — all dispositioned); a clean positive control that banked one new exclusion, *Atropos* (USENIX Sec'23).
+- **Author/lab mining: three pages, all negative.** Chenxiong Qian (HKU), Haehyun Cho (Soongsil), KAIST WSP Lab.
+- **Pending bibliography closed.** DeView §8 read in full → NIL `in_scope`, and it **resolves the open Snyder et al. question**: CCS **2017**, pre-2020, out on the year rule. Every other watched-venue reference in it is pre-2020 too (*Pride and Prejudice in PWAs* CCS'18, PieceWise USENIX'18). The debloating thread is therefore **exhausted, not merely quiet** — Slimium's §8 is closed unmined as a consequence.
+- **Venues.** ACSAC and RAID skipped by schedule (next 09-19, 09-17); NDSS news feed unchanged for seven runs, next per schedule 10-01; CCS'26 swept 09-12; ESORICS Springer TOC due 2026-10-28. The new ACSAC author-page channel was exercised and came back empty.
+
+### METHOD — one new standing rule, two corrections
+
+**1. When both required channels go null on the same run, do not conclude the corpus is closed — check whether a venue is structurally unreachable.** Two of the nine (AsiaCCS, DSN) were reachable *only* by keyword search, which is precisely the channel documented since 09-06 as unable to find correctly-scoped papers whose titles share no vocabulary with the config. A venue in that state is a silent, standing source of misses: it never produces a failure, it just produces nothing. ESORICS was fixed this way on 09-03, AsiaCCS today.
+
+> **DSN is now the only venue left in that state.** Try the identical three-step organiser-site route on it *before* assuming it needs anything special.
+
+**2. Correction to the 09-14 entry.** It predicted Chenxiong Qian "has continued the debloating line independently since 2022". He has not — Slimium and RAZOR are his Georgia Tech PhD work and the line stopped at graduation; his HKU output is fuzzing, AI4Sec, anti-cheat and kernel systems.
+
+> **Amended author-selection rule.** A multi-paper side-line justifies mining an author **only if the line is still running**. Check the *date* of the most recent paper in the line, not just the count. Hong Hu passed (current grant); Qian fails.
+
+**3. A lab-page null can be reassuring rather than disappointing.** The KAIST WSP Lab hits this thesis from four independent directions (JS-engine fuzzing, DOM-XSS, PWA abuse, agentic browsers) and **every** in-scope instance was already in the ledger, caught by the ordinary venue channel. That is evidence about *coverage*, not about the lab-page rule, which stands.
+
+### HIGHEST-VALUE RECURRING TASK — changed for the first time in eleven runs
+
+No longer "a title-by-title DBLP TOC pass in an interactive session" — **that framing was itself the obstacle.** It is now: **one AsiaCCS year per run, 2020–2025, via the organiser-site route**, starting with **2023** (already proven dense: BinWrap, Cage4Deno), plus the same route tried once against DSN.
+
+### Also banked
+
+Fifteen exclusions in total (several with real citation value: Snyder CCS'17, *Pride and Prejudice in PWAs* CCS'18, TrustyMon AsiaCCS'25, FUGIO USENIX'22, Montage USENIX'20, SbxBrk CCS'25) and one context item — *"Fuzzing JavaScript Engines by Fusing JavaScript and WebAssembly"* (ICSE'26, Qian's group), possibly but **not confirmably** the conference version of the pending *Weaver* arXiv item; either way ICSE is not one of the nine.
+
 ## 2026-09-14 — Daily watch
 
 **THREE new `in_scope` papers — the joint-best run of the watch — plus thirteen venue-paper exclusions.** Ledger moves **31 → 34 in_scope**, **81 → 94 excluded**, context unchanged at 24. Nothing newly published at any of the nine venues (eleventh consecutive run). All three finds came from one thread: **Feng Xiao's page → Wenke Lee's *lab* page**.
