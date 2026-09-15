@@ -1,5 +1,38 @@
 # Changelog
 
+## 2026-09-16 — Daily watch
+
+**No new papers today.** Zero `in_scope` additions for a second consecutive run. Ledger moves **34 → 34 in_scope**, **109 → 125 excluded**, **25 → 25 context**. Nothing newly published at any of the nine venues (thirteenth consecutive run).
+
+**Headline: the DSN blind spot is fixed — all nine venues now have a working list-based channel.** DSN was the last venue with an empty `accepted_papers` field and no channel of its own, flagged as the remaining structural gap on 2026-09-15. It took **two calls**. DSN publishes a complete accepted-papers page on a per-year GitHub Pages site — `https://dsn2026.github.io/cpaccepted.html` — covering **five tracks in one fetch** (Research ~66, Industry ~25, Disrupt ~8, Doctoral Forum ~8, Poster ~18). A single plain WebSearch surfaced the URL directly, with no nav-page hop, making DSN the *cheapest* of the three organiser-site venues (ESORICS and AsiaCCS both need the hop).
+
+DSN 2026 was then swept title-by-title across all five tracks. Result: **zero in scope.** Three titles were already in the ledger (Demystifying PWA Permission Systems, VulJSFormer, VCAligner — all previously caught by keyword search) and three were newly triaged out:
+
+- **A First Look at the Security Issues in the Model Context Protocol Ecosystem** (DSN'26) — *abstract read*, not title-only. Registry-level vetting failures let hijacked MCP servers reach hosts; attacker-controlled **tool metadata** then steers LLM reasoning. The vulnerability class is metadata poisoning of an LLM planner, not a renderer↔main IPC or `contextIsolation` flaw, and the supply chain audited is the MCP tool registry rather than the Node.js runtime. Same disposition as ContractGuard (CCS'26). *Flagged for the future:* MCP hosts are in practice often Electron apps and MCP servers often npm packages run under Node — a paper attacking **that** substrate would be in scope.
+- **Aegis: Preventing Cross-Domain Resource Abuse in MCP** (DSN'26, Industry) — same reasoning.
+- **LLM-Empowered Discovery of Windows APIs Exploitable for Persistent Storage in Fileless Attacks** (DSN'26) — native-Windows malware tradecraft; desktop, but no web content or embedder boundary.
+
+**Second result: AsiaCCS 2023 swept title-by-title** — the first year of the 2020–2025 backfill that 09-15 named the highest-value recurring task. All 74 accepted papers (32 R1 + 42 R2) across 18 sessions. Zero new `in_scope`, four new exclusions, and **positive controls on all three AsiaCCS'23 papers the ledger already held** (BinWrap in scope; Cage4Deno and the eBPF/Wasm poster excluded) — i.e. the 09-08 related-work chain had already extracted everything in scope from that year, and the list sweep confirms it. New exclusions:
+
+- **Eliminating Vulnerabilities by Disabling Unwanted Functionality in Binary Programs** — binary-level debloating. The debloating line *is* adjacent (Mininode, Slimium, DeView are all in scope), but no JS runtime or web content anywhere.
+- **ThreadLock: Native Principal Isolation Through Memory Protection Keys** — one shelf from BinWrap/NatiSand, but the "principal" is a thread, not a language; no JS↔native binding boundary.
+- **A Honey postMessage, but a Heart of Gall** — pure Service Worker / Web Push; `postMessage` pattern-matches the IPC keywords but there is no host process or local privilege.
+- **Securing Container-based Clouds with Syscall-aware Scheduling** — same disposition as sysfilter and SysXCHG.
+
+**New tooling lesson, recorded on the venue:** the AsiaCCS 2023 Round-1 page (`asiaccs2023.org/accepted-papers/`) **fetches empty** — web_fetch returns only the WordPress footer. The fix, and it generalises: **go to the conference Handbook / program PDF.** `Handbook.pdf` carried the complete 18-session program with all 74 titles and authors, and it appeared in the same search result set as the accepted-papers pages. *Whenever an organiser's accepted-papers page comes back empty, look for the handbook before giving up on the year.*
+
+**Third result: a coverage-confirming null on Alexandros Kapravelos** (NC State / WSPR, author target #1). Zero new `in_scope` out of 47 publications — but **three of his papers are already in scope** (Mininode RAID'20, Favocado NDSS'21, UntrustIDE NDSS'24) and a fourth already excluded, so this is evidence about ledger coverage, not about the channel. Nine target-venue exclusions banked (COSSETER S&P'26, Same Script Different Behavior CCS'25, FV8 USENIX'24, ARGUS USENIX'23, GitHub CI Workflows USENIX'22, You've Changed CCS'20, Filter List Evasion S&P'21, Fingerprinting in Style USENIX'21, CrawlPhish S&P'21). The author-selection rule holds a **fourth** time (after Kemerlis, Stefan, Khodayari, Qian): check whether the *relevant line is still running*. Kapravelos's post-2020 centre of gravity has moved to software supply chain (GitHub Actions ×3, reproducible packaging, fake stars; he is now Head of Research at Socket) and web privacy. Mininode and UntrustIDE are outliers on that trajectory.
+
+> **The one real lead from that page: IGIBEK KOISHYBAYEV.** First author of Mininode *and* co-author of UntrustIDE — the single person standing exactly on this thesis's Node.js × Electron intersection. His own publications page has never been opened. Author target #1 for the next run.
+
+**Fourth: the topical sweep went null for a fifth consecutive run**, both queries wrong-corpus. `"test suite replayed to profile which engine features an installed app actually uses"` landed in the Android GUI-testing corpus; `"file drag and drop handler untrusted content native application"` landed in Native Client / VMware / Android-overlay work. New blacklist entries: **`drag and drop`**, and the whole **software-engineering methodology register** (`test suite`, `replay`, `installed app`, `benchmark`) — it pulls ICSE/ASE/ISSTA off `dl.acm.org` even with `allowed_domains` set.
+
+**What this run means for method.** The 09-15 standing rule — *when both required channels go null, check whether a venue is structurally unreachable* — has now paid on two consecutive runs and is proven. It is also **spent**: there are no structurally unreachable venues left. The next structural question is different, and it is the new bottleneck: every venue channel is open **for the current year**, but **six of nine venues have never had a title-by-title pass over 2020–2025**. The watch has been finding backfill misses one at a time through author pages and bibliographies precisely because the years were never swept wholesale. That work is now purely mechanical.
+
+**Highest-value recurring task, revised:** one venue-year per run from the 2020–2025 backfill via the organiser-site route, alternating AsiaCCS and DSN (next: **AsiaCCS 2022**, then **DSN 2025**), paired with one author page (next: **Koishybayev**) and one topical-sweep query as tripwires.
+
+Venues checked: USENIX Security, IEEE S&P, NDSS, CCS, ACSAC, RAID, ESORICS, AsiaCCS, DSN. Calendar unchanged — RAID weekly check due 09-17, ACSAC weekly due 09-19 then every run from 10-20, NDSS news feed weekly from 10-01, ESORICS Springer per-paper TOC from 10-28, CCS'26 swept.
+
 ## 2026-09-15 — Daily watch
 
 **No new papers today.** Zero `in_scope` additions — the first such run since 2026-09-05 — because **both required channels went null on the same run for the first time**. Ledger moves **34 → 34 in_scope**, **94 → 109 excluded**, **24 → 25 context**. Nothing newly published at any of the nine venues (twelfth consecutive run).
