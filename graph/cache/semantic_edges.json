@@ -1482,5 +1482,29 @@
  "2609.12413->2606.12703": {
   "type": "compares",
   "evidence": "SMSR certified memory-poisoning defense described then critiqued for its threat-model limitations"
+ },
+ "2609.14003->2606.18996": {
+  "type": "background",
+  "evidence": "참고문헌 목록에서 에이전트 대상 능동적 프라이버시 추출 벤치마크로만 인용됨 — 직접 비교/평가 신호 없음"
+ },
+ "2609.15134->2605.29801": {
+  "type": "background",
+  "evidence": "에이전트 안전 정렬 프레임워크 선행 연구로 참고문헌 [38]에 열거 — 실험 비교 문맥 아님"
+ },
+ "2609.15134->2607.01793": {
+  "type": "extends",
+  "evidence": "저자진(Y. Feng, R. Lin, M. Wen 등)이 동일한 자기 선행 연구로, HazardAuditor의 실행 기반 안전성 평가 인프라가 직접 확장하는 대상"
+ },
+ "2609.15134->2607.13081": {
+  "type": "baseline",
+  "evidence": "Llama Guard 계열과 나란히 인용된 기존 guardrail 모델로, HazardAuditor가 '최강 선행 guard 대비 16.5%p 개선'을 주장하는 비교군에 속함"
+ },
+ "2609.15134->2608.10669": {
+  "type": "background",
+  "evidence": "실행형 red-teaming 벤치마크/플랫폼 선행 사례로 참고문헌에 열거"
+ },
+ "2609.15533->2605.29358": {
+  "type": "rebuts",
+  "evidence": "서론에서 '뉴런이 Golden Gate Bridge에 반응한다'는 식의 해석이 모델 자체가 아닌 IRN에서 읽힌 것이라며 그 주장의 인식론적 지위를 문제 삼음 — 본문 전체가 해당 해석의 faithfulness를 반증"
  }
 }
