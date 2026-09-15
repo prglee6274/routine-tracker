@@ -113,13 +113,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-16",
    "days_on_list": 1,
-   "last_stars": 252603,
+   "last_stars": 259118,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-03"
+   "last_pushed_at": "2026-09-12"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -203,12 +203,12 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-09-15",
-   "days_on_list": 2,
-   "last_stars": 25324,
+   "last_seen": "2026-09-16",
+   "days_on_list": 3,
+   "last_stars": 28094,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-09-14",
+   "last_pushed_at": "2026-09-15",
    "graduated": false
   },
   "alibaba/OpenSandbox": {
@@ -1151,9 +1151,9 @@
   },
   "debpalash/VoiceStudio": {
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-15",
-   "days_on_list": 1,
-   "last_stars": 28851,
+   "last_seen": "2026-09-16",
+   "days_on_list": 2,
+   "last_stars": 30683,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -2616,13 +2616,13 @@
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-09-16",
    "days_on_list": 1,
-   "last_stars": 6655,
-   "category": "security",
+   "last_stars": 7760,
+   "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-09-15"
   },
   "megadose/holehe": {
    "first_seen": "2026-07-21",
@@ -2994,13 +2994,13 @@
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-08-30",
-   "days_on_list": 2,
-   "last_stars": 73604,
+   "last_seen": "2026-09-16",
+   "days_on_list": 1,
+   "last_stars": 76569,
    "category": "security",
    "language": "Java",
    "graduated": false,
-   "last_pushed_at": "2026-08-28"
+   "last_pushed_at": "2026-09-15"
   },
   "nats-io/nats-server": {
    "first_seen": "2026-08-27",
@@ -3420,13 +3420,13 @@
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-09-16",
    "days_on_list": 1,
-   "last_stars": 75564,
+   "last_stars": 81981,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-09-15"
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
@@ -4238,13 +4238,13 @@
   },
   "TencentCloud/CubeSandbox": {
    "first_seen": "2026-07-09",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-09-16",
    "days_on_list": 1,
-   "last_stars": 11274,
+   "last_stars": 12506,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-08-20"
+   "last_pushed_at": "2026-09-15"
   },
   "TencentCloud/TencentDB-Agent-Memory": {
    "first_seen": "2026-07-09",
@@ -4887,9 +4887,9 @@
   },
   "SnailSploit/Claude-Red": {
    "first_seen": "2026-09-13",
-   "last_seen": "2026-09-13",
+   "last_seen": "2026-09-16",
    "days_on_list": 1,
-   "last_stars": 3513,
+   "last_stars": 5300,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -4897,13 +4897,13 @@
   },
   "JustVugg/colibri": {
    "first_seen": "2026-09-14",
-   "last_seen": "2026-09-15",
-   "days_on_list": 2,
-   "last_stars": 31720,
+   "last_seen": "2026-09-16",
+   "days_on_list": 3,
+   "last_stars": 33521,
    "category": "llm",
    "language": "C",
    "graduated": false,
-   "last_pushed_at": "2026-09-13"
+   "last_pushed_at": "2026-09-15"
   },
   "multimodal-art-projection/YuE": {
    "first_seen": "2026-09-14",
@@ -4944,10 +4944,20 @@
    "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-09-06"
+  },
+  "Homebrew/BrewUI": {
+   "first_seen": "2026-09-16",
+   "last_seen": "2026-09-16",
+   "days_on_list": 1,
+   "last_stars": 1249,
+   "category": "tools",
+   "language": "Swift",
+   "graduated": false,
+   "last_pushed_at": "2026-09-15"
   }
  },
- "last_updated": "2026-09-15",
- "updated": "2026-09-15",
- "last_run": "2026-09-14",
- "count": 499
+ "last_updated": "2026-09-16",
+ "updated": "2026-09-16",
+ "last_run": "2026-09-16",
+ "count": 501
 }

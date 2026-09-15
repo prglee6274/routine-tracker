@@ -30,3 +30,8 @@ _scratch/
 # local scratch / backups (mount is unlink-restricted)
 *.bak.*
 *.stale.*
+*.done
+*.done.*
+*.tmp.*
+INDEX.json.new*
+INDEX.json.tmp*
