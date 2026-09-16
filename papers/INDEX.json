@@ -22922,10 +22922,10 @@
    ]
   },
   "2609.11335": {
-   "version": "v1",
+   "version": "v2",
    "title": "On the Impact of Anonymization on the Performance of Large Language Models",
    "first_seen": "2026-09-13",
-   "last_updated": "2026-09-13",
+   "last_updated": "2026-09-17",
    "folder": "2026-09-13",
    "keywords": [
     "pii",
@@ -23574,6 +23574,177 @@
     "membership_inference",
     "data_extraction"
    ]
+  },
+  "2609.16204": {
+   "version": "v1",
+   "title": "Decoy Direction Optimization: A Post-Hoc Defense Against LLM Abliteration",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "abliteration",
+    "refusal direction",
+    "weight editing",
+    "refusal feature ablation",
+    "open-weight safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "activation_steering"
+   ]
+  },
+  "2609.17320": {
+   "version": "v1",
+   "title": "Emergence World: Adversarial Stress-Testing of Long-Horizon Multi-Agent Systems",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "multi-agent",
+    "long-horizon",
+    "indirect prompt injection",
+    "memory leakage",
+    "stress testing"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming",
+    "prompt_injection"
+   ]
+  },
+  "2609.15975": {
+   "version": "v1",
+   "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "residual stream",
+    "directional decomposition",
+    "attention value",
+    "model compression",
+    "pretraining dynamics"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "circuits"
+   ]
+  },
+  "2609.16229": {
+   "version": "v1",
+   "title": "Test-Time Unlearning via Sparse Autoencoder",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "sparse autoencoder",
+    "test-time unlearning",
+    "WMDP",
+    "TOFU",
+    "inference-time intervention"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "agent_privacy"
+   ]
+  },
+  "2609.16915": {
+   "version": "v1",
+   "title": "ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "fully homomorphic encryption",
+    "CKKS",
+    "TFHE",
+    "private inference",
+    "LLM decoding"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
+  },
+  "2609.16818": {
+   "version": "v1",
+   "title": "InceptionRAG: Stealthy Poisoning Attack Against Retrieval-Augmented Generation",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "RAG poisoning",
+    "multi-hop reasoning",
+    "stealthy attack",
+    "black-box optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "backdoor"
+   ]
+  },
+  "2609.15545": {
+   "version": "v2",
+   "title": "The Token Before the Value Is the Key: How Hybrid Architectures Organize Induction Circuits",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "induction head",
+    "hybrid architecture",
+    "state space model",
+    "causal intervention",
+    "recall"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing"
+   ]
+  },
+  "2609.16984": {
+   "version": "v1",
+   "title": "Nameless Tokenization: A Lossless Tokenizer-Level Defense Against Control-Token Forgery in Open-Weight LLMs",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "chat template",
+    "control token forgery",
+    "tokenizer",
+    "open-weight LLM",
+    "turn boundary"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2609.14754": {
+   "version": "v1",
+   "title": "Calibrating Interpretability Instruments Before Trusting Their Verdicts",
+   "first_seen": "2026-09-17",
+   "last_updated": "2026-09-17",
+   "folder": "2026-09-17",
+   "keywords": [
+    "causal interpretability",
+    "activation patching",
+    "ablation",
+    "measurement validity",
+    "refusal"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "mechanistic_position"
+   ]
   }
  },
  "_taxonomy": {
@@ -23616,5 +23787,5 @@
    ]
   }
  },
- "last_run": "2026-09-16"
+ "last_run": "2026-09-17"
 }

@@ -1506,5 +1506,17 @@
  "2609.15533->2605.29358": {
   "type": "rebuts",
   "evidence": "서론에서 '뉴런이 Golden Gate Bridge에 반응한다'는 식의 해석이 모델 자체가 아닌 IRN에서 읽힌 것이라며 그 주장의 인식론적 지위를 문제 삼음 — 본문 전체가 해당 해석의 faithfulness를 반증"
+ },
+ "2609.14754->2609.14759": {
+  "type": "extends",
+  "evidence": "14754는 저자 본인의 인과 해석 연구 프로그램(refusal/도덕 표현)에서 나온 계측 실패 사례를 문서화한 companion note로, 14759의 결과를 전제하고 그 측정 절차를 보정·확장한다."
+ },
+ "2609.16229->2605.29358": {
+  "type": "background",
+  "evidence": "ARIA의 forget-상태 검출기가 SAE latent 위에 세워져 있어, SAE로 해석 가능한 feature를 추출한다는 기반 방법론 참조로 인용된다."
+ },
+ "2609.17320->2606.20408": {
+  "type": "compares",
+  "evidence": "Melting Pot/CoffeeBench/Prompt Infection/AgentDojo/NRT-Bench 대비 'EW Study 2 (ours)'를 Persistence·Self-gov.·Adversarial·System-level metric 축으로 나란히 놓는 비교 표에서 인용된다."
  }
 }
