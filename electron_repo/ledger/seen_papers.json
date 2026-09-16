@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "last_updated": "2026-09-16",
- "last_run": "2026-09-16",
+ "last_updated": "2026-09-17",
+ "last_run": "2026-09-17",
  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
  "in_scope": [
   {
@@ -731,6 +731,57 @@
    "found_via": "Author-page mining, target #1 from the 2026-09-13 next-targets list: Feng Xiao (fxiao.me/publications), first author of Hidden Properties (USENIX'21) and of the ledger's PRIMARY Electron paper XRCE (CCS'22). Confirmed independently on Guangliang Yang's page (item 2) and Wenke Lee's lab page (item 1). Invisible to eleven prior runs: the title contains none of the config keywords.",
    "why_in_scope": "ADJACENT on the same basis as ODGEN (USENIX'22) - a JavaScript vulnerability-DISCOVERY capability paper rather than a desktop-app paper - reinforced by author continuity with ccs2022-xrce-xguard. Its thesis value is as a TOOLING-LIMITATION argument: that CodeQL and WALA measurably degrade on real JavaScript is the obstacle any large-scale static hunt over bundled Electron renderer code must engage with. NEEDS A RE-FETCH through an institutional IEEE subscription before any figure is cited.",
    "title_norm": "jasmine scale up javascript static security analysis with computation based semantic explanation"
+  },
+  {
+   "id": "asiaccs2022-latch",
+   "title": "Wolf at the Door: Preventing Install-Time Attacks in npm with Latch",
+   "authors": "Elizabeth Wyss, Alexander Wittman, Drew Davidson, Lorenzo De Carli",
+   "venue": "AsiaCCS 2022",
+   "year": 2022,
+   "scope": "ADJACENT",
+   "doi": "10.1145/3488932.3523262",
+   "url": "https://dl.acm.org/doi/abs/10.1145/3488932.3523262",
+   "pdf": "https://ldklab.github.io/assets/papers/asiaccs22-latch.pdf",
+   "note_file": "papers/asiaccs2022-latch.md",
+   "added": "2026-09-17",
+   "grounding": "FULL TEXT READ from the author-hosted PDF (CC-BY 4.0, ldklab.github.io), Sections 1-9 including Table 1 and the RQ summary in Section 6. All figures in the note are from that text: 1,493,231 latest + 15,136,563 old npm package versions; 36,438 distinct packages declaring install scripts; 102 malicious packages (Duan et al. dataset) and 22 potentially-undesirable packages; developer policy 1.5% violation rate / 100% malicious caught / 82% undesirable / 1.6% install interruptions; maintainer policy 0.013% / 99% / 14% / 0.3%; 90% of manifests inferred in <1 min, 99% enforced in <1 s; AppArmor live enforcement denies 100% of manifest-denied scripts and allows 93.8% of manifest-allowed ones, <1% average overhead with an 88% worst case; 364 startup-file modifications (bashrc 281, bash_profile 80, profile 14); 3,235 create-and-execute packages; the opsie package (reboot-on-install) reported and removed from npm.",
+   "found_via": "AsiaCCS 2022 title-by-title backfill sweep (organiser site asiaccs2022.conferenceservice.jp/accepted-papers/all/), 2nd round. ALSO resolves a standing pending item: usenixsec2023-sanddriller's bibliography note flagged 'Wyss et al. on syscall filtering of install-time npm hooks, venue not stated' - this is that paper.",
+   "why_in_scope": "npm / supply-chain as it affects the Node.js runtime, an explicit INCLUDE clause. Electron apps are assembled by npm install and therefore inherit the install-time hook surface of their entire transitive dependency closure before any application code runs; native-addon compilation during an Electron build goes through the same hook mechanism. Complementary to, and non-overlapping with, the renderer/preload/IPC surface the thesis targets - which is exactly what makes it useful for scoping the thesis's contribution.",
+   "title_norm": "wolf at the door preventing install time attacks in npm with latch"
+  },
+  {
+   "id": "asiaccs2022-ssbrowsers",
+   "title": "Server-Side Browsers: Exploring the Web's Hidden Attack Surface",
+   "authors": "Marius Musch, Robin Kirchner, Max Boll, Martin Johns",
+   "venue": "AsiaCCS 2022",
+   "year": 2022,
+   "scope": "ADJACENT",
+   "doi": "10.1145/3488932.3517414",
+   "url": "https://dl.acm.org/doi/10.1145/3488932.3517414",
+   "pdf": "https://loxo.ias.cs.tu-bs.de/papers/2022_AsiaCCS_SSBrowsers.pdf",
+   "note_file": "papers/asiaccs2022-ssbrowsers.md",
+   "added": "2026-09-17",
+   "grounding": "FULL TEXT READ from the TU Braunschweig author-hosted PDF, Sections 1-8 including Tables 1-7. All figures in the note are from that text: Tranco top 100k (list of 2021-03-02), crawl 2021-03-03 to 03-11 on Chromium 89.0.4389.72 with 60 parallel crawlers, ~79% of sites reached, ~2.6M pages on ~79k sites, 22.2M forms found / ~2.5M submitted, 18M modified GETs over ~5.6M URLs; 168,055 incoming requests -> 11,367 unique on 4,850 domains (~6%), 17.4% of unique requests JS-enabled; after bot filtering 532 unique requests on 254 domains (433/192 on the plain 3-minute rule, 99/62 via extended windows); trigger split forms 167 / header 58 / param 34; 157 distinct HTTP UAs, 13 outright UA mismatches + 124 platform mismatches = 137 liars, 201 of 250 fingerprint-mismatching requests claimed to be OLDER than they were; 405/532 requests (76%) and 168/254 domains vulnerable to public PoCs; Chrome 84 = 150 req / 68 domains, Chrome 88 = 100/83, Chrome 85 = 95/39, Chrome 86 = 84/44, Edge 85 = 12/10; CVE-2020-6559 / 6575 / 16015 cited as the PoC-bearing CVEs; 590-feature fingerprint list compiled from Chrome 89 alpha.",
+   "found_via": "AsiaCCS 2022 title-by-title backfill sweep (organiser site asiaccs2022.conferenceservice.jp/accepted-papers/all/), 2nd round. Invisible to every keyword channel for fourteen runs - the title contains none of the config vocabulary.",
+   "why_in_scope": "ADJACENT on ARCHITECTURE, not on platform. It is the first large-scale empirical study of host applications that embed a pinned browser engine and feed it attacker-controlled web content, and it quantifies the bundled-engine patch gap - the same structural problem as an Electron app shipping a pinned Chromium, argued from the Puppeteer docs' own 'indivisible entity with Chromium' statement. The 590-feature black-box version fingerprint is directly transferable to auditing Electron apps that hide or misreport their engine version. CAVEAT recorded in the note: this is a server-side measurement and must never be cited as evidence about desktop apps.",
+   "title_norm": "server side browsers exploring the web s hidden attack surface"
+  },
+  {
+   "id": "asiaccs2022-vulnjsfunc",
+   "title": "On Measuring Vulnerable JavaScript Functions in the Wild",
+   "authors": "Maryna Kluban, Mohammad Mannan, Amr Youssef",
+   "venue": "AsiaCCS 2022",
+   "year": 2022,
+   "scope": "ADJACENT",
+   "doi": "10.1145/3488932.3497769",
+   "url": "https://dl.acm.org/doi/10.1145/3488932.3497769",
+   "pdf": "https://users.encs.concordia.ca/~mmannan/publications/JS-vulnerability-aisaccs2022.pdf",
+   "note_file": "papers/asiaccs2022-vulnjsfunc.md",
+   "added": "2026-09-17",
+   "grounding": "PARTIAL-FULL TEXT. Read from the Concordia author-hosted PDF: abstract, Section 1, Sections 5.1-5.4 and the opening of Section 6, including Tables 3 and 4. Sections 2-4 (related work, corpus construction, manual verification protocol) and Section 7 (limitations) were read in OUTLINE ONLY and the note says so. Grounded figures: corpus of 1,360 verified vulnerable JS functions from Snyk + VulnCode-DB; real-world corpus 9,205,624 functions = 3,000 npm packages (413,774 fns) + 557 Chrome extensions (2,659,649) + 1,893 websites (5,739,271), websites drawn from the Cisco Umbrella top 20,000 of which 18,107 yielded no JS; Semgrep run on only 795,912 functions (171,109 npm / 325,978 ext / 298,825 web); 18,362 prototype-pollution and 1,720 ReDoS pattern matches -> 9,858 and 669 unique; Simhash 1,320 -> 965 unique; SHA-1 131 (all subsumed by Simhash); 11,148 unique vulnerable functions total, 10,527 of them prototype pollution or ReDoS; precision 92% / 97% / 98% from 100+100+90 manual samples, ~94.5% average; 15 confirmed-exploitable findings in 10 projects (SailsJS had both classes), none previously publicly reported. The 73.3% figure is quoted BY the paper from Zapata et al.",
+   "found_via": "AsiaCCS 2022 title-by-title backfill sweep (organiser site asiaccs2022.conferenceservice.jp/accepted-papers/all/), 1st round.",
+   "why_in_scope": "ADJACENT on the same basis as Jasmine (S&P'24) and ODGEN (USENIX'22) - a JavaScript vulnerability-DISCOVERY capability paper - with an npm corpus and a prototype-pollution focus, both already core sub-literatures of this ledger. Its specific thesis value is the GRANULARITY ARGUMENT: package-level CVE matching over an Electron app's bundled dependency closure is imprecise in a measurable direction, so function-level triage needs justifying and this paper justifies it. The gap it leaves - reachability of a flagged function was automated for nothing and hand-checked for only 15 cases - is precisely what Electron's structured renderer -> preload -> IPC -> main path could make automatable.",
+   "title_norm": "on measuring vulnerable javascript functions in the wild"
   }
  ],
  "excluded": [
@@ -1804,6 +1855,66 @@
    "reason": "Client-side cloaking in phishing pages. Web abuse measurement; no desktop, Electron or Node angle. Consistent with the TRIDENT (USENIX'23) exclusion.",
    "added": "2026-09-16",
    "title_norm": "crawlphish large scale analysis of client side cloaking techniques in phishing"
+  },
+  {
+   "title": "PacJam: Securing Dependencies Continuously via Package-Oriented Debloating",
+   "venue": "AsiaCCS 2022",
+   "year": 2022,
+   "url": "https://machiry.github.io/files/pacjam.pdf",
+   "surfaced_by": "AsiaCCS 2022 title-by-title backfill sweep, 2nd round.",
+   "reason": "OS-DISTRIBUTION package debloating, not npm. Evaluated on 10 Linux applications of 575K-39M SLOC each, measured by CVE removal (46%) and ROP-gadget removal (69%) with 66% of packages debloated per application. C/binary distro packages; no JavaScript, npm, Node.js or desktop-web angle. Distinguished from the three debloating papers already in_scope (Mininode = npm, Slimium = Chromium, DeView = PWA web APIs), all of which have a JS/web runtime. Ecosystem confirmed from the published evaluation summary, not from the full PDF.",
+   "added": "2026-09-17",
+   "title_norm": "pacjam securing dependencies continuously via package oriented debloating"
+  },
+  {
+   "title": "The Convergence of Source Code and Binary Vulnerability Discovery - A Case Study",
+   "venue": "AsiaCCS 2022",
+   "year": 2022,
+   "url": "https://dl.acm.org/doi/proceedings/10.1145/3488932",
+   "surfaced_by": "AsiaCCS 2022 title-by-title backfill sweep, 1st round.",
+   "reason": "Source-vs-binary vulnerability discovery for native C/C++ software (Mantovani, Compagna, Shoshitaishvili, Balzarotti). A vulnerability-discovery methodology paper, but with no JavaScript, web-content, npm or desktop-application angle - the same basis on which the binary/memory-safety line from Kemerlis's and Stefan's pages was excluded. Recorded so the phrase 'vulnerability discovery' in the title does not re-surface it.",
+   "added": "2026-09-17",
+   "title_norm": "the convergence of source code and binary vulnerability discovery a case study"
+  },
+  {
+   "title": "Detecting and Exploiting DOM Clobbering Gadgets via Dynamic Analysis",
+   "venue": "USENIX Security 2025",
+   "year": 2025,
+   "url": "https://www.usenix.org/system/files/usenixsecurity25-liu-zhengyu.pdf",
+   "surfaced_by": "Domain-restricted topical sweep, query 'javascript engine embedded in document reader script access to host api' (2026-09-17).",
+   "reason": "Pure client-side web security: DOM clobbering gadget discovery in web pages. Consistent with the existing exclusion of It's (DOM) Clobbering Time (S&P'23) and the whole Khodayari client-side line. No desktop, Electron, Node.js or local-privilege angle. NOTE: exact title/subtitle inferred from the USENIX PDF filename and the search result and NOT verified against the paper itself - if it re-surfaces under a slightly different subtitle, that is why.",
+   "added": "2026-09-17",
+   "title_norm": "detecting and exploiting dom clobbering gadgets via dynamic analysis"
+  },
+  {
+   "title": "Deceptive Previews: A Study of the Link Preview Trustworthiness in Social Platforms",
+   "venue": "NDSS 2020",
+   "year": 2020,
+   "url": "https://www.ndss-symposium.org/ndss2020/",
+   "surfaced_by": "Reference [79] of Server-Side Browsers (AsiaCCS'22), chased 2026-09-17.",
+   "reason": "Link-preview manipulation on social platforms is a SOCIAL-ENGINEERING / trust-signal study - benign-looking previews for malicious links. The SSB paper itself states that Stivala and Pellegrino did NOT study the security of the underlying preview implementation. No code execution, no engine compromise, no desktop angle. Recorded because 'chat client link preview' is a recurring phrasing in this watch's topical-sweep rotation and would otherwise keep re-surfacing. Title/venue identified from the citation, not read.",
+   "added": "2026-09-17",
+   "title_norm": "deceptive previews a study of the link preview trustworthiness in social platforms"
+  },
+  {
+   "title": "Uses and Abuses of Server-Side Requests",
+   "venue": "RAID 2016",
+   "year": 2016,
+   "url": "https://dl.acm.org/",
+   "surfaced_by": "Reference [69] of Server-Side Browsers (AsiaCCS'22), chased 2026-09-17.",
+   "reason": "Out on the backfill_from_year=2020 rule. Topically the direct ancestor of the SSB work (Pellegrino et al.'s Guenther scanner probes back ends for SSRF); per the SSB paper its attacker model for exploiting the requester itself covers only DoS via decompression/memory exhaustion, not engine compromise. Worth a manual citation in a thesis related-work section even though this watch cannot admit it.",
+   "added": "2026-09-17",
+   "title_norm": "uses and abuses of server side requests"
+  },
+  {
+   "title": "Analysing the Use of Outdated JavaScript Libraries on the Web",
+   "venue": "NDSS 2017",
+   "year": 2017,
+   "url": "https://www.ndss-symposium.org/wp-content/uploads/2017/09/ndss2017_02B-1_Lauinger_paper.pdf",
+   "surfaced_by": "Domain-restricted topical sweep (2026-09-17); also the canonical ancestor of the patch-gap argument in Server-Side Browsers.",
+   "reason": "Out on the backfill_from_year=2020 rule. Lauinger et al. is the canonical measurement of outdated bundled JavaScript dependencies on the web and the direct intellectual ancestor of the bundled-engine patch-gap argument that makes the SSB paper - and by extension the Electron patch-gap argument - work. Recorded so it is never re-chased as new, but flagged as a MANUAL-CITATION candidate for the thesis's motivation chapter.",
+   "added": "2026-09-17",
+   "title_norm": "analysing the use of outdated javascript libraries on the web"
   }
  ],
  "context_non_venue": [
