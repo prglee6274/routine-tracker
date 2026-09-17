@@ -1518,5 +1518,25 @@
  "2609.17320->2606.20408": {
   "type": "compares",
   "evidence": "Melting Pot/CoffeeBench/Prompt Infection/AgentDojo/NRT-Bench 대비 'EW Study 2 (ours)'를 Persistence·Self-gov.·Adversarial·System-level metric 축으로 나란히 놓는 비교 표에서 인용된다."
+ },
+ "2609.18440->2605.29358": {
+  "type": "background",
+  "evidence": "CLT 방법론의 계보를 설명하며 인용: 'CLTs are the cross-layer descendant of sparse-autoencoder dictionary learning (Templeton et al., 2024)' — 방법론적 배경."
+ },
+ "2609.19101->2606.06223": {
+  "type": "extends",
+  "evidence": "'recent work finds internal activation monitoring can monitor emergent reward hacking' — 내부 활성 기반 리워드 해킹 모니터링 노선을 프론티어 오픈 모델·표준 평가로 확장한다."
+ },
+ "2609.19101->2606.08960": {
+  "type": "background",
+  "evidence": "도입부에서 리워드 해킹/벤치마크 exploit 선행 연구 목록의 일부로 인용 — 문제 동기 배경."
+ },
+ "2609.19101->2606.12360": {
+  "type": "background",
+  "evidence": "인용 문맥이 본문 서술 없이 참고문헌 수준으로만 잡힘 — 해석 가능성 기반 후속학습 분석의 일반 배경으로 처리."
+ },
+ "2609.19101->2606.24251": {
+  "type": "background",
+  "evidence": "'Relying on model activations to monitor undesirable behavior has been applied for a wide range of tangentially related topics. Zhou et al. (2026) train linear probes...' — 저자가 명시적으로 tangentially related 로 묶은 배경 인용."
  }
 }

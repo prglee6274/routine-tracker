@@ -23745,6 +23745,205 @@
     "interp_method",
     "mechanistic_position"
    ]
+  },
+  "2609.19101": {
+   "version": "v1",
+   "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "reward hacking",
+    "internal representations",
+    "difference-of-means probe",
+    "monitoring",
+    "chain-of-thought"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "activation steering",
+    "safety monitoring"
+   ]
+  },
+  "2609.17817": {
+   "version": "v1",
+   "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "benchmark poisoning",
+    "self-modifying agents",
+    "coding agents",
+    "supply chain",
+    "trusting trust"
+   ],
+   "category": "security",
+   "subtopics": [
+    "data poisoning",
+    "agent safety",
+    "backdoor"
+   ]
+  },
+  "2609.18612": {
+   "version": "v1",
+   "title": "Weakening Neurons: An Input-Output Functionality in Transformers with Outsize Influence",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "neurons",
+    "GLU",
+    "residual stream",
+    "weight geometry",
+    "input-output functionality"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "neuron analysis",
+    "mechanistic interpretability"
+   ]
+  },
+  "2609.18440": {
+   "version": "v1",
+   "title": "Planning or Improvisation? Stress-Testing the Poetry Planning Site on Open Models and Open Cross-Layer Transcoders",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "cross-layer transcoder",
+    "activation patching",
+    "planning",
+    "reproducibility",
+    "feature steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuit analysis",
+    "activation patching",
+    "sparse autoencoder"
+   ]
+  },
+  "2609.13499": {
+   "version": "v1",
+   "title": "Canaries in the Bank: Auditing User-Level Privacy in Private Evolution",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "differential privacy",
+    "privacy auditing",
+    "private evolution",
+    "synthetic data",
+    "canary"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential privacy",
+    "privacy auditing",
+    "federated learning privacy"
+   ]
+  },
+  "2609.18526": {
+   "version": "v1",
+   "title": "The Illusion of Local Privacy: Confidentiality Boundary Failures in Consumer LLM Serving Systems",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "local LLM",
+    "prompt confidentiality",
+    "memory residue",
+    "serving systems",
+    "fuzzing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "training data leakage",
+    "PII",
+    "system privacy"
+   ]
+  },
+  "2609.15013": {
+   "version": "v1",
+   "title": "Overflip: Repetition-Induced Label Flips in Guardrail Models",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "guardrail",
+    "label flip",
+    "repetition attack",
+    "attention dispersion",
+    "jailbreak"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "guardrail evasion",
+    "adversarial attacks"
+   ]
+  },
+  "2609.16305": {
+   "version": "v1",
+   "title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "agent safety",
+    "refusal calibration",
+    "long-horizon",
+    "benchmark",
+    "over-refusal"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent safety",
+    "red-teaming",
+    "benchmark"
+   ]
+  },
+  "2609.19140": {
+   "version": "v1",
+   "title": "AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "task contamination",
+    "AI security agents",
+    "CTF",
+    "decoy",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt injection",
+    "agent safety",
+    "red-teaming"
+   ]
+  },
+  "2609.18864": {
+   "version": "v1",
+   "title": "ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions",
+   "first_seen": "2026-09-18",
+   "last_updated": "2026-09-18",
+   "folder": "2026-09-18",
+   "keywords": [
+    "LLM agents",
+    "privacy exposure",
+    "authorization",
+    "evaluation proxy",
+    "PII"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "PII",
+    "agent privacy",
+    "privacy auditing"
+   ]
   }
  },
  "_taxonomy": {
@@ -23787,5 +23986,8 @@
    ]
   }
  },
- "last_run": "2026-09-17"
+ "last_run": "2026-09-17",
+ "_meta": {
+  "last_run": "2026-09-18"
+ }
 }
