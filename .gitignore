@@ -35,3 +35,10 @@ _scratch/
 *.tmp.*
 INDEX.json.new*
 INDEX.json.tmp*
+
+# scratch quarantine dir (git locks, probes, dupes moved aside; mount can't unlink)
+aside/
+.probe*
+_probe*
+*.lock
+*.lock.*
