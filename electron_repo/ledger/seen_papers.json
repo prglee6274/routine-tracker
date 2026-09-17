@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "last_updated": "2026-09-17",
- "last_run": "2026-09-17",
+ "last_updated": "2026-09-18",
+ "last_run": "2026-09-18",
  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
  "in_scope": [
   {
@@ -782,6 +782,29 @@
    "found_via": "AsiaCCS 2022 title-by-title backfill sweep (organiser site asiaccs2022.conferenceservice.jp/accepted-papers/all/), 1st round.",
    "why_in_scope": "ADJACENT on the same basis as Jasmine (S&P'24) and ODGEN (USENIX'22) - a JavaScript vulnerability-DISCOVERY capability paper - with an npm corpus and a prototype-pollution focus, both already core sub-literatures of this ledger. Its specific thesis value is the GRANULARITY ARGUMENT: package-level CVE matching over an Electron app's bundled dependency closure is imprecise in a measurable direction, so function-level triage needs justifying and this paper justifies it. The gap it leaves - reachability of a flagged function was automated for nothing and hand-checked for only 15 cases - is precisely what Electron's structured renderer -> preload -> IPC -> main path could make automatable.",
    "title_norm": "on measuring vulnerable javascript functions in the wild"
+  },
+  {
+   "id": "ndss2026-si-bypass-fuzzing",
+   "title": "Are your Sites Truly Isolated? Automatically Detecting Logic Bugs in Site Isolation Implementations",
+   "title_norm": "are your sites truly isolated automatically detecting logic bugs in site isolation implementations",
+   "authors": [
+    "Jan Drescher",
+    "David Klein",
+    "Martin Johns"
+   ],
+   "venue": "NDSS",
+   "year": 2026,
+   "scope": "ADJACENT",
+   "doi": "10.14722/ndss.2026.240902",
+   "url": "https://www.ndss-symposium.org/ndss-paper/are-your-sites-truly-isolated-automatically-detecting-logic-bugs-in-site-isolation-implementations/",
+   "pdf": "https://www.ndss-symposium.org/wp-content/uploads/2026-f902-paper.pdf",
+   "artifact": "https://github.com/si-bypass-fuzzing",
+   "note_file": "papers/ndss2026-si-bypass-fuzzing.md",
+   "added": "2026-09-18",
+   "found_via": "author/lab-page mining of the TU Braunschweig Institute for Application Security publications page (Musch/Johns, author target #1 from next_targets_2026_09_17)",
+   "grounding": "full-text PDF (NDSS open access). Read in full: abstract, S1 Introduction, S2-A Background, S3 Vulnerability Analysis and Classification (all three classes + three case studies), opening of S4 Fuzzer Design, S6 Evaluation A-E in full, opening of S7 Discussion, S8 Related Work, opening of S9. NOT read line-by-line: bulk of S4 (generator design), all of S5 Fuzzer Implementation, rest of S7, appendix Table V (full 39-bug list). No coverage percentage is quoted because Fig. 7 gives them only as a plot.",
+   "why_it_matters": "The first automated discovery method targeting the renderer->privileged-process IPC boundary under an explicit COMPROMISED-RENDERER threat model - the post-XSS state of an Electron renderer. Grounded numbers: 1,328 bug reports examined by hand -> 39 genuine Site Isolation bypasses in Chrome+Firefox, classified into missing checks (most common), bypassed checks (4 reports) and origin confusion; the decisive empirical observation is that nearly all vendor-accepted PoCs need only that the renderer circumvent renderer-side checks and SPOOF ORIGIN-RELATED PARAMETERS IN OUTGOING IPC MESSAGES, which is what makes IPC-message mutation a sufficient model of compromise. Method: patch the browser's IPC-bindings generator to add hooks, mutate outgoing messages (IPCFuzzer JS API), generate inputs from the browser's own Web IDL, and detect bugs with two process-level oracles - a leak sanitizer (magic string seeded in victim-site storages, flagged when it reaches the attacker process) and a process sanitizer (cross-site process reuse). Semantic validity 89.5% Chrome / 85.3% Firefox. Time-to-trigger on three known Chrome bugs: CVE-2019-5856 <1 min, CVE-2018-18345 ~14 min, CVE-2022-1637 (origin confusion) 11.4 h - a three-order-of-magnitude spread driven by precondition complexity, not search space. Oracles: 3/5 sampled PoCs caught by the leak sanitizer, 1/5 by the process sanitizer, overall false-negative rate 12.5% and ZERO false positives by construction (the generator knows each document's ground-truth site). Month-long campaign (2 weeks each on Chromium 127.0.6497.0 and Firefox 121.0, AMD EPYC 7702P 128 cores / 500 GB, 50 parallel Docker instances) found FOUR bugs: Window.name not reset cross-site (Chrome, S4, #384781865); visited-URL broadcast for :visited styling (Firefox, S3, #1938107); missing CORB (Firefox, S3, #1532642); and history origin confusion via renderer-side-only check on history.replaceState (Firefox, S2, CVE-2024-9392, $8,000 bounty) whose PoC is four lines of JS. 8.7% (Chrome) / 13.1% (Firefox) of iterations ended with the browser process killing the renderer for misbehaviour. USE AS BOTH MOTIVATION AND CONTRAST: motivation because it legitimises automated attack of the post-compromise IPC surface; contrast because a browser process re-validates every renderer claim BY DESIGN (process lock, site tracking) and finding bugs in that logic is the contribution, whereas an Electron main process exposes application-defined ipcMain handlers with no process lock, no site notion and frequently no origin check - so the transferable gap is precisely (a) what plays the role of the ground-truth invariant that gave this paper 0% FPR, and (b) what plays the role of Web IDL when the IPC surface is per-app string channels. CAUTION: the word 'Electron' does not appear and every target is Chrome or Firefox; cite as ADJACENT browser methodology, never as Electron evidence.",
+   "scope_consistency_note": "Admitted while 'Isolated and Exhausted' (USENIX Sec'23) and 'State of Browser Process-Isolation: The Same-Site Weakness' (S&P'26) remain EXCLUDED. The distinction: those two are measurements/attacks about browser SI; this one contributes a reusable DISCOVERY TECHNIQUE at the renderer<->privileged-process IPC boundary, the same ground on which Favocado and COOPER were admitted for the engine-binding boundary. Apply this distinction to any further SI paper."
   }
  ],
  "excluded": [
@@ -1915,6 +1938,231 @@
    "reason": "Out on the backfill_from_year=2020 rule. Lauinger et al. is the canonical measurement of outdated bundled JavaScript dependencies on the web and the direct intellectual ancestor of the bundled-engine patch-gap argument that makes the SSB paper - and by extension the Electron patch-gap argument - work. Recorded so it is never re-chased as new, but flagged as a MANUAL-CITATION candidate for the thesis's motivation chapter.",
    "added": "2026-09-17",
    "title_norm": "analysing the use of outdated javascript libraries on the web"
+  },
+  {
+   "title": "Uncovering Bigger Truths: Deobfuscating PHP with Phoebe",
+   "title_norm": "uncovering bigger truths deobfuscating php with phoebe",
+   "venue": "ACSAC",
+   "year": 2025,
+   "reason": "PHP deobfuscation; server-side language tooling, no JS runtime, desktop or IPC angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "The Power to Never Be Wrong: Evasions and Anachronistic Attacks Against Web Archives",
+   "title_norm": "the power to never be wrong evasions and anachronistic attacks against web archives",
+   "venue": "ACM CCS",
+   "year": 2025,
+   "reason": "Web-archive evasion and integrity; pure web measurement, no desktop/Electron angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "In the DOM We Trust: Exploring the Hidden Dangers of Reading from the DOM on the Web",
+   "title_norm": "in the dom we trust exploring the hidden dangers of reading from the dom on the web",
+   "venue": "ACM CCS",
+   "year": 2025,
+   "reason": "Pure client-side web security - sites reading and trusting attacker-influenceable DOM state. Same disposition as 'It's DOM Clobbering Time' (S&P'23) and 'Detecting and Exploiting DOM Clobbering Gadgets' (USENIX'25): real citation value as the canonical DOM-as-untrusted-source study, but no desktop, Node.js or local-privilege angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Confusing Value with Enumeration: Studying the Use of CVEs in Academia",
+   "title_norm": "confusing value with enumeration studying the use of cves in academia",
+   "venue": "USENIX Security",
+   "year": 2025,
+   "reason": "Meta-research on how security papers (mis)use CVEs. Distinguished Paper, and methodologically worth reading before any CVE-counting claim in the thesis, but not a vulnerability-discovery or Electron paper.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "HyTrack: Resurrectable and Persistent Tracking Across Android Apps and the Web",
+   "title_norm": "hytrack resurrectable and persistent tracking across android apps and the web",
+   "venue": "USENIX Security",
+   "year": 2025,
+   "reason": "Android<->web tracking; mobile-only, EXCLUDE category.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "“Sorry for bugging you so much.” Exploring Developers' Behavior Towards Privacy-Compliant Implementation",
+   "title_norm": "sorry for bugging you so much exploring developers behavior towards privacy compliant implementation",
+   "venue": "IEEE S&P",
+   "year": 2025,
+   "reason": "Developer-study / privacy compliance; no vulnerability-discovery or desktop angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "The Importance of Being Earnest: Shedding Light on Johnny's (False) Sense of Privacy",
+   "title_norm": "the importance of being earnest shedding light on johnny s false sense of privacy",
+   "venue": "IEEE S&P",
+   "year": 2025,
+   "reason": "User-perception privacy study; out of scope.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Dancer in the Dark: Synthesizing and Evaluating Polyglots for Blind Cross-Site Scripting",
+   "title_norm": "dancer in the dark synthesizing and evaluating polyglots for blind cross site scripting",
+   "venue": "USENIX Security",
+   "year": 2024,
+   "reason": "Blind XSS polyglot synthesis; pure web XSS with no desktop/local-privilege escalation. Distinguished Paper, and the polyglot-generation method is transferable to seeding XSS in an Electron renderer, but the paper itself is web-only.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "SSRF vs Developers: A Study of SSRF-Defenses in PHP Applications",
+   "title_norm": "ssrf vs developers a study of ssrf defenses in php applications",
+   "venue": "USENIX Security",
+   "year": 2024,
+   "reason": "PHP SSRF defences; server-side web, no desktop angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Parse Me, Baby, One More Time: Bypassing HTML Sanitizer via Parsing Differentials",
+   "title_norm": "parse me baby one more time bypassing html sanitizer via parsing differentials",
+   "venue": "IEEE S&P",
+   "year": 2024,
+   "reason": "HTML sanitizer bypass via parser differentials. Directly relevant as the PRECONDITION of an Electron XSS->RCE chain (the SiYuan/Notesnook advisories are sanitizer/HTML-sink failures) and worth a manual citation, but the paper is pure web with no desktop, IPC or nodeIntegration angle - same disposition as the DOM-clobbering line.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "General Data Protection Runtime: Enforcing Transparent GDPR Compliance for Existing Applications",
+   "title_norm": "general data protection runtime enforcing transparent gdpr compliance for existing applications",
+   "venue": "ACM CCS",
+   "year": 2023,
+   "reason": "GDPR compliance enforcement via taint tracking; privacy compliance, not vulnerability discovery.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Poster: The Risk of Insufficient Isolation of Database Transactions in Web Applications",
+   "title_norm": "poster the risk of insufficient isolation of database transactions in web applications",
+   "venue": "ACM CCS",
+   "year": 2023,
+   "reason": "Poster; DB transaction isolation in web apps, no desktop/Electron angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Network Responses to Russia's Invasion of Ukraine in 2022: A Cautionary Tale for Internet Freedom",
+   "title_norm": "network responses to russia s invasion of ukraine in 2022 a cautionary tale for internet freedom",
+   "venue": "USENIX Security",
+   "year": 2023,
+   "reason": "Censorship/network measurement; entirely out of scope.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "The OK is Not Enough: Large Scale Study of Consent Dialogs in Smartphone Applications",
+   "title_norm": "the ok is not enough large scale study of consent dialogs in smartphone applications",
+   "venue": "USENIX Security",
+   "year": 2023,
+   "reason": "Mobile consent dialogs; mobile-only, EXCLUDE category.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Accept All Exploits: Exploring the Security Impact of Cookie Banners",
+   "title_norm": "accept all exploits exploring the security impact of cookie banners",
+   "venue": "ACSAC",
+   "year": 2022,
+   "reason": "Cookie-banner security impact; pure web measurement.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "U Can't Debug This: Detecting JavaScript Anti-Debugging Techniques in the Wild",
+   "title_norm": "u can t debug this detecting javascript anti debugging techniques in the wild",
+   "venue": "USENIX Security",
+   "year": 2021,
+   "reason": "Detection of web JS anti-debugging (sites resisting analysis). Instrumented-browser methodology is mildly relevant to dynamic analysis of packaged apps, but the subject is web pages, not desktop hosts.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Who's Hosting the Block Party? Studying Third-Party Blockage of CSP and SRI",
+   "title_norm": "who s hosting the block party studying third party blockage of csp and sri",
+   "venue": "NDSS",
+   "year": 2021,
+   "reason": "CSP/SRI deployment measurement on the web; no desktop angle.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning",
+   "title_norm": "adversarial preprocessing understanding and preventing image scaling attacks in machine learning",
+   "venue": "USENIX Security",
+   "year": 2020,
+   "reason": "ML image-scaling attacks; entirely out of scope.",
+   "found_via": "author/lab page: TU Braunschweig IAS",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "An Analysis of Malicious Packages in Open-Source Software in the Wild",
+   "title_norm": "an analysis of malicious packages in open source software in the wild",
+   "venue": "DSN",
+   "year": 2025,
+   "reason": "Generic malicious-package measurement across OSS registries, no Electron/Node-runtime-specific analysis. Same disposition as 'Cutting the Gordian Knot' (USENIX'26), 'On the Feasibility of Cross-Language Detection of Malicious Packages in npm and PyPI' (ACSAC'23) and 'Original Sin of npm' (AsiaCCS'26).",
+   "found_via": "DSN 2025 accepted-papers sweep, Research Track",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Automatically Generating Rules of Malicious Software Packages via Large Language Model",
+   "title_norm": "automatically generating rules of malicious software packages via large language model",
+   "venue": "DSN",
+   "year": 2025,
+   "reason": "LLM-generated detection rules for malicious packages; same generic supply-chain category as the entry above, same authors' group.",
+   "found_via": "DSN 2025 accepted-papers sweep, Research Track",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "What Lies Beneath: An Empirical Study of Silent Vulnerability Fixes in Open-Source Software",
+   "title_norm": "what lies beneath an empirical study of silent vulnerability fixes in open source software",
+   "venue": "DSN",
+   "year": 2025,
+   "reason": "Prevalence study of silent (undisclosed) vulnerability fixes - 3,515 vulnerabilities analysed, ~50% exposed for over 30 days. BORDERLINE against the in_scope ESORICS'26 multi-patch study, and the distinction is deliberate: the ESORICS paper was admitted because it breaks its data down by language (JavaScript over-represented), ranks CWE-79 XSS first among multi-patch fixes, and produces a negative result on incomplete-fix DETECTION that maps onto this repo's SiYuan incomplete-fix chains. This paper reports prevalence and exposure windows only, with no language or ecosystem breakdown surfaced and no detection experiment. Cite only if a patch-lag chapter needs a second prevalence source.",
+   "found_via": "DSN 2025 accepted-papers sweep, Research Track",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Less is More: Boosting Coverage of Web Crawling through Adversarial Multi-Armed Bandit",
+   "title_norm": "less is more boosting coverage of web crawling through adversarial multi armed bandit",
+   "venue": "DSN",
+   "year": 2025,
+   "reason": "Crawler-coverage optimisation for web security testing (Cazzaro/Calzavara/Stafeev/Pellegrino). Methodologically adjacent to black-box auditing of packaged apps (the Inspectron problem of reaching app states), but the target is web sites and there is no desktop, IPC or local-privilege component.",
+   "found_via": "DSN 2025 accepted-papers sweep, Research Track",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Detecting Code Vulnerabilities using LLMs",
+   "title_norm": "detecting code vulnerabilities using llms",
+   "venue": "DSN",
+   "year": 2025,
+   "reason": "Generic LLM-based vulnerability detection; no JS/Node/Electron specificity.",
+   "found_via": "DSN 2025 accepted-papers sweep, Research Track",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "FuzzOrigin: Detecting UXSS vulnerabilities in Browsers through Origin Fuzzing",
+   "title_norm": "fuzzorigin detecting uxss vulnerabilities in browsers through origin fuzzing",
+   "venue": "USENIX Security",
+   "year": 2022,
+   "reason": "The direct predecessor and the baseline that the newly admitted NDSS'26 SI-bypass fuzzer compares against. Detects Universal XSS via an origin sanitizer plus chained-navigation generation, found 4 UXSS bugs (1 Chrome, 3 Firefox). EXCLUDED because it assumes only a WEB attacker - no renderer compromise, no privileged-process IPC surface, no desktop/local-privilege angle - and because its generator is a hand-written grammar over a limited API set. Worth citing as the point of departure that the Web IDL + IPC-mutation design improves on.",
+   "found_via": "named in the NDSS'26 SI-bypass paper's S6-C and S8 as the comparison fuzzer",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "The Skeleton Keys: A Large Scale Analysis of Credential Leakage in Mini-apps",
+   "title_norm": "the skeleton keys a large scale analysis of credential leakage in mini apps",
+   "venue": "NDSS",
+   "year": 2025,
+   "reason": "Credential leakage in WeChat-style mini-apps; mini-program/mobile ecosystem, same disposition as 'Mini-Programs, Mega-Problems' (CCS'26).",
+   "found_via": "domain-restricted topical sweep 2026-09-18",
+   "added": "2026-09-18"
   }
  ],
  "context_non_venue": [
@@ -2824,6 +3072,24 @@
    "authors": "Jiayi Lin, Changhua Luo, Mingxue Zhang, Lanteng Lin, Penghui Li, Chenxiong Qian (HKU System Security Lab)",
    "url": "https://i.cs.hku.hk/~cqian/",
    "note": "Found on Chenxiong Qian's publications page 2026-09-15. RELEVANT TO AN OPEN LEDGER QUESTION: the context entry 'Weaver: Fuzzing JavaScript Engines at the JavaScript-WebAssembly Boundary' (arXiv, March 2026) was recorded on 2026-09-13 with its venue unresolved. This ICSE'26 paper addresses the same research topic - the JS<->Wasm boundary in JS engines - from a group that also publishes JS-engine fuzzing work. THEY MAY OR MAY NOT BE THE SAME PAPER: the titles differ and no author overlap was verified, so this is recorded as a SEPARATE entry and the identification is explicitly UNCONFIRMED. Either way the venue is ICSE, which is not one of the nine, so neither is admissible. A future interactive run can settle it by comparing the arXiv author list against the ICSE one."
+  },
+  {
+   "title": "Wemby's Web: Hunting for Memory Corruption in WebAssembly",
+   "title_norm": "wemby s web hunting for memory corruption in webassembly",
+   "venue": "ISSTA 2025 (34th ACM SIGSOFT Intl. Symposium on Software Testing and Analysis) - a software-engineering venue, NOT one of the nine watched security venues",
+   "year": 2025,
+   "note": "Draissi, Cloosters, Klein, Rodler, Musch, Johns, Davi. Memory corruption in WebAssembly modules running inside a JS host. Adjacent to the Wasm side of the engine-boundary literature (compare the context item 'Weaver' and the ICSE'26 JS+Wasm fuzzing paper). Recorded so the ISSTA venue is not re-checked.",
+   "found_via": "author/lab page: TU Braunschweig IAS, 2026-09-18",
+   "added": "2026-09-18"
+  },
+  {
+   "title": "Talking About My Generation: Targeted DOM-based XSS Exploit Generation using Dynamic Data Flow Analysis",
+   "title_norm": "talking about my generation targeted dom based xss exploit generation using dynamic data flow analysis",
+   "venue": "EuroSec 2021 (14th European Workshop on Systems Security) - workshop, NOT one of the nine watched venues",
+   "year": 2021,
+   "note": "Bensalim, Klein, Barber, Johns. Automated DOM-XSS EXPLOIT GENERATION from dynamic data-flow analysis - i.e. exactly the 'from taint flow to working PoC' step an Electron XSS->RCE discovery pipeline needs. Workshop venue so it cannot be admitted, but it is the closest methodological ancestor of the exploit-synthesis half of the thesis and should be cited manually.",
+   "found_via": "author/lab page: TU Braunschweig IAS, 2026-09-18",
+   "added": "2026-09-18"
   }
  ]
 }
