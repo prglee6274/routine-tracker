@@ -114,13 +114,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-09-18",
    "days_on_list": 1,
-   "last_stars": 259118,
+   "last_stars": 260966,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-12"
+   "last_pushed_at": "2026-09-17"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -204,12 +204,12 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-09-17",
-   "days_on_list": 4,
-   "last_stars": 31343,
+   "last_seen": "2026-09-18",
+   "days_on_list": 5,
+   "last_stars": 34352,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-09-16",
+   "last_pushed_at": "2026-09-17",
    "graduated": true
   },
   "alibaba/OpenSandbox": {
@@ -956,9 +956,9 @@
   },
   "cloudflare/security-audit-skill": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-09-17",
-   "days_on_list": 1,
-   "last_stars": 6594,
+   "last_seen": "2026-09-18",
+   "days_on_list": 2,
+   "last_stars": 10129,
    "category": "security",
    "language": "JavaScript",
    "graduated": false,
@@ -2995,13 +2995,13 @@
   },
   "NationalSecurityAgency/ghidra": {
    "first_seen": "2026-08-29",
-   "last_seen": "2026-09-17",
-   "days_on_list": 2,
-   "last_stars": 77615,
+   "last_seen": "2026-09-18",
+   "days_on_list": 3,
+   "last_stars": 78379,
    "category": "security",
    "language": "Java",
    "graduated": false,
-   "last_pushed_at": "2026-09-15"
+   "last_pushed_at": "2026-09-17"
   },
   "nats-io/nats-server": {
    "first_seen": "2026-08-27",
@@ -4230,12 +4230,13 @@
   },
   "Tencent/WeKnora": {
    "first_seen": "2026-07-15",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-09-18",
    "days_on_list": 1,
-   "last_stars": 20606,
+   "last_stars": 26094,
    "category": "llm",
    "language": "Go",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-09-17"
   },
   "TencentCloud/CubeSandbox": {
    "first_seen": "2026-07-09",
@@ -4995,10 +4996,60 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-09-16"
+  },
+  "Tencent/BrowserSkill": {
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "days_on_list": 1,
+   "last_stars": 3980,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-16"
+  },
+  "anthropics/knowledge-work-plugins": {
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "days_on_list": 1,
+   "last_stars": 24500,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-17"
+  },
+  "coder/coder": {
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "days_on_list": 1,
+   "last_stars": 14750,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-09-17"
+  },
+  "vercel/eve": {
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "days_on_list": 1,
+   "last_stars": 5230,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-17"
+  },
+  "fosrl/pangolin": {
+   "first_seen": "2026-09-18",
+   "last_seen": "2026-09-18",
+   "days_on_list": 1,
+   "last_stars": 22792,
+   "category": "security",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-16"
   }
  },
- "last_updated": "2026-09-17",
- "updated": "2026-09-17",
- "last_run": "2026-09-17",
- "count": 505
+ "last_updated": "2026-09-18",
+ "updated": "2026-09-18",
+ "last_run": "2026-09-18",
+ "count": 510
 }
