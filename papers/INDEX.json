@@ -23944,6 +23944,201 @@
     "agent privacy",
     "privacy auditing"
    ]
+  },
+  "2609.19587": {
+   "version": "v1",
+   "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "red-teaming",
+    "blocking monitor",
+    "coding agent",
+    "misaligned agent",
+    "weight exfiltration"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.18080": {
+   "version": "v1",
+   "title": "Decodability is Not Causality: Dissociating Probe Readouts from Behavioral Drivers via SAE Decomposition",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "sparse autoencoder",
+    "linear probe",
+    "causal intervention",
+    "decodability",
+    "truthfulness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing",
+    "feature_attribution"
+   ]
+  },
+  "2609.20614": {
+   "version": "v1",
+   "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "inference engine",
+    "sandbox escape",
+    "fingerprinting",
+    "vLLM",
+    "model-driven exploitation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "adversarial",
+    "safety_eval"
+   ]
+  },
+  "2609.20129": {
+   "version": "v1",
+   "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "linear representation hypothesis",
+    "anomaly detection",
+    "local sparsity",
+    "unsupervised safety",
+    "activations"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "interp_method",
+    "probing"
+   ]
+  },
+  "2609.18605": {
+   "version": "v1",
+   "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "compliance",
+    "pressure testing",
+    "enterprise agents",
+    "rule following",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2609.20532": {
+   "version": "v1",
+   "title": "Towards TEE-Certified DP: Verifiable Differentially Private Training on Legacy GPUs",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "differential privacy",
+    "TEE",
+    "verifiable training",
+    "GPU",
+    "DP-SGD certification"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2609.15994": {
+   "version": "v1",
+   "title": "Latent Undertow: How Ordinary Typos Break Probes",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "probe robustness",
+    "typos",
+    "prompt injection probe",
+    "hidden states",
+    "distribution shift"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2609.16890": {
+   "version": "v1",
+   "title": "Cascade: Hierarchical Recoverability Control for Large Language Model Unlearning",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "LLM unlearning",
+    "recoverability",
+    "representation compression",
+    "routing",
+    "knowledge removal"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ]
+  },
+  "2609.14987": {
+   "version": "v1",
+   "title": "ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "indirect prompt injection",
+    "LLM agents",
+    "action auditing",
+    "tool invocation",
+    "pre-execution defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.17650": {
+   "version": "v1",
+   "title": "Tight Lower Bounds for Differentially Private Continual Counting",
+   "first_seen": "2026-09-19",
+   "last_updated": "2026-09-19",
+   "folder": "2026-09-19",
+   "keywords": [
+    "differential privacy",
+    "continual counting",
+    "binary tree mechanism",
+    "lower bounds",
+    "streaming"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -23986,7 +24181,7 @@
    ]
   }
  },
- "last_run": "2026-09-17",
+ "last_run": "2026-09-19",
  "_meta": {
   "last_run": "2026-09-18"
  }

@@ -1538,5 +1538,33 @@
  "2609.19101->2606.24251": {
   "type": "background",
   "evidence": "'Relying on model activations to monitor undesirable behavior has been applied for a wide range of tangentially related topics. Zhou et al. (2026) train linear probes...' — 저자가 명시적으로 tangentially related 로 묶은 배경 인용."
+ },
+ "2609.14987->2606.04329": {
+  "type": "background",
+  "evidence": "IPI 위협 지형을 정리하는 related-work 문단에서 메모리 포이즈닝을 시스템 수준 IPI 공격의 한 갈래로 열거"
+ },
+ "2609.17650->2607.00876": {
+  "type": "extends",
+  "evidence": "continual counting 하한 계보(Dwork Ω(log n) → Bairaktari-Larsen Ω(log^{3/2} n))를 이어받아 pure/approximate DP 모두에서 tight 한 Ω(log^2 n)/Ω(log^3 n) 로 강화"
+ },
+ "2609.18080->2606.02907": {
+  "type": "compares",
+  "evidence": "고정확 probe 가 task-format 교란을 이용할 수 있다는 결과와 대비해, 자신들은 행동적으로 인과적인 probe 방향에서 출발해 더 세밀한 질문을 던진다고 위치시킴"
+ },
+ "2609.19587->2607.02514": {
+  "type": "extends",
+  "evidence": "공유 코드베이스의 순차 세션/PR 에 공격을 분산해 모니터를 우회한다는 결과를 프로덕션 blocking monitor 대상 multi-context 공격으로 확장"
+ },
+ "2609.19587->2607.07368": {
+  "type": "extends",
+  "evidence": "per-instance 모니터를 무력화하는 분산 공격 개념을 Auto Mode/Guardian 같은 실제 배포 모니터의 red-teaming 으로 확장"
+ },
+ "2609.20129->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 가 개념 공간을 overcomplete dictionary 로 복원하고 입력당 소수 feature 만 활성된다는 기반 전제로 인용"
+ },
+ "2609.20532->2605.21378": {
+  "type": "background",
+  "evidence": "Apple DP 프레임워크가 DP 비활성 상태로 설정된 사례를 DP 실행 검증 필요성의 동기로 인용"
  }
 }
