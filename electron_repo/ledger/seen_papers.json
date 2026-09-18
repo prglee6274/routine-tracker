@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "last_updated": "2026-09-18",
- "last_run": "2026-09-18",
+ "last_updated": "2026-09-19",
+ "last_run": "2026-09-19",
  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
  "in_scope": [
   {
@@ -805,6 +805,57 @@
    "grounding": "full-text PDF (NDSS open access). Read in full: abstract, S1 Introduction, S2-A Background, S3 Vulnerability Analysis and Classification (all three classes + three case studies), opening of S4 Fuzzer Design, S6 Evaluation A-E in full, opening of S7 Discussion, S8 Related Work, opening of S9. NOT read line-by-line: bulk of S4 (generator design), all of S5 Fuzzer Implementation, rest of S7, appendix Table V (full 39-bug list). No coverage percentage is quoted because Fig. 7 gives them only as a plot.",
    "why_it_matters": "The first automated discovery method targeting the renderer->privileged-process IPC boundary under an explicit COMPROMISED-RENDERER threat model - the post-XSS state of an Electron renderer. Grounded numbers: 1,328 bug reports examined by hand -> 39 genuine Site Isolation bypasses in Chrome+Firefox, classified into missing checks (most common), bypassed checks (4 reports) and origin confusion; the decisive empirical observation is that nearly all vendor-accepted PoCs need only that the renderer circumvent renderer-side checks and SPOOF ORIGIN-RELATED PARAMETERS IN OUTGOING IPC MESSAGES, which is what makes IPC-message mutation a sufficient model of compromise. Method: patch the browser's IPC-bindings generator to add hooks, mutate outgoing messages (IPCFuzzer JS API), generate inputs from the browser's own Web IDL, and detect bugs with two process-level oracles - a leak sanitizer (magic string seeded in victim-site storages, flagged when it reaches the attacker process) and a process sanitizer (cross-site process reuse). Semantic validity 89.5% Chrome / 85.3% Firefox. Time-to-trigger on three known Chrome bugs: CVE-2019-5856 <1 min, CVE-2018-18345 ~14 min, CVE-2022-1637 (origin confusion) 11.4 h - a three-order-of-magnitude spread driven by precondition complexity, not search space. Oracles: 3/5 sampled PoCs caught by the leak sanitizer, 1/5 by the process sanitizer, overall false-negative rate 12.5% and ZERO false positives by construction (the generator knows each document's ground-truth site). Month-long campaign (2 weeks each on Chromium 127.0.6497.0 and Firefox 121.0, AMD EPYC 7702P 128 cores / 500 GB, 50 parallel Docker instances) found FOUR bugs: Window.name not reset cross-site (Chrome, S4, #384781865); visited-URL broadcast for :visited styling (Firefox, S3, #1938107); missing CORB (Firefox, S3, #1532642); and history origin confusion via renderer-side-only check on history.replaceState (Firefox, S2, CVE-2024-9392, $8,000 bounty) whose PoC is four lines of JS. 8.7% (Chrome) / 13.1% (Firefox) of iterations ended with the browser process killing the renderer for misbehaviour. USE AS BOTH MOTIVATION AND CONTRAST: motivation because it legitimises automated attack of the post-compromise IPC surface; contrast because a browser process re-validates every renderer claim BY DESIGN (process lock, site tracking) and finding bugs in that logic is the contribution, whereas an Electron main process exposes application-defined ipcMain handlers with no process lock, no site notion and frequently no origin check - so the transferable gap is precisely (a) what plays the role of the ground-truth invariant that gave this paper 0% FPR, and (b) what plays the role of Web IDL when the IPC surface is per-app string channels. CAUTION: the word 'Electron' does not appear and every target is Chrome or Firefox; cite as ADJACENT browser methodology, never as Electron evidence.",
    "scope_consistency_note": "Admitted while 'Isolated and Exhausted' (USENIX Sec'23) and 'State of Browser Process-Isolation: The Same-Site Weakness' (S&P'26) remain EXCLUDED. The distinction: those two are measurements/attacks about browser SI; this one contributes a reusable DISCOVERY TECHNIQUE at the renderer<->privileged-process IPC boundary, the same ground on which Favocado and COOPER were admitted for the engine-binding boundary. Apply this distinction to any further SI paper."
+  },
+  {
+   "id": "asiaccs2025-reflecta",
+   "title": "REFLECTA: Reflection-based Scalable and Semantic Scripting Language Fuzzing",
+   "authors": [
+    "Chibin Zhang",
+    "Gwangmu Lee",
+    "Qiang Liu",
+    "Mathias Payer"
+   ],
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "scope": "ADJACENT",
+   "doi": "10.1145/3708821.3710818",
+   "url": "https://dl.acm.org/doi/10.1145/3708821.3710818",
+   "pdf": "https://hexhive.epfl.ch/publications/files/25AsiaCCS.pdf",
+   "artifact": "https://github.com/HexHive/Reflecta",
+   "note_file": "papers/asiaccs2025-reflecta.md",
+   "added": "2026-09-19",
+   "found_via": "AsiaCCS 2025 (Hanoi) title-by-title venue-year sweep, Cycle 1 accepted-papers page",
+   "grounding": "full text, author-hosted PDF (hexhive.epfl.ch). Read closely: abstract, S1, Table 1, S6 Evaluation (setup + Table 3 + S6.2/Table 4 + S6.3 opening + S6.4/Table 6/Fig.9), S7, S8, S9. NOT read line-by-line: S2, S3, S4.1-4.3 internals, S5 Implementation, Appendices A-G. No raw edge counts quoted because Fig.6 gives coverage only as plots.",
+   "why_it_matters": "The strongest existing demonstration that a fuzzer can recover a scripting engine's callable API surface AT RUNTIME FROM ZERO SPECIFICATION, using reflection alone - the capability an Electron auditor needs because the bridge API (contextBridge objects, ipcMain string channels) is per-application and specified nowhere. Grounded numbers: 6 engines / 4 languages (CRuby, MRuby, CPython, MicroPython, PHP, V8). Specification budget 83-91 LoC grammar and ZERO symbols per language, against Nautilus 8,719 rules + 8,655 symbols for PHP alone and Fuzzilli 881 + 1,181 LoC for JavaScript. Semantic correctness average 62.3% vs Nautilus 35.7% and PolyGlot 20.2% (per-target: Ruby 61.0%, MRuby 62.5%, CPython 53.1%, MicroPython 62.1%, PHP 70.8%, V8 64.2%); Fuzzilli reaches 67.7% on V8 but only with 1,181 LoC of hand-written type annotation. Aggregate 1.74x correctness over Nautilus, 3.35x over PolyGlot; 1.63x / 2.21x edge coverage. 25 unique previously-unknown bugs, all developer-confirmed, 16 fixed: 8 MRuby, 14 MicroPython, 3 PHP (10 null-deref, 5 global-buf, 3 heap-buf, 3 heap-UAF, 2 segfault, 1 stack-overflow). Config: 16-core Xeon 5218 / 64 GB, one core per instance, 24 h x 8 repetitions with 95% CIs; 3-month bug campaign but every bug found within 24 h. THE DECISIVE NEGATIVE RESULT: ZERO new bugs in V8, because REFLECTA deliberately generates no control flow and so never makes code hot enough to reach the JIT pipeline - 'Reflecta primarily finds bugs in standard libraries'. Case study Fig.9 is a 4-line MRuby stack overflow that Nautilus and PolyGlot missed ONLY because filter_map and args= were absent from the hand-written grammar and the seed corpus, i.e. under-specification of the surface, not weak search, hid the bug. CITE AS MOTIVATION AND METHODOLOGICAL ANCESTOR, and for the asymmetry it leaves open: contextBridge-injected objects ARE reflectable from a renderer, but the set of ipcRenderer.invoke channel strings is NOT, because they are string keys.",
+   "scope_consistency_note": "Admitted while Fuzzilli (NDSS'23), Montage (USENIX'20) and 'Fuzzing JavaScript Engines with a Graph-based IR' (CCS'24) stay EXCLUDED. The line: those fuzz ENGINE INTERNALS / the JIT pipeline, where no host application sits on the other side of the surface; REFLECTA fuzzes the EXPOSED API SURFACE and says so itself (no control flow, no V8 JIT bugs, bugs in standard libraries). Same ground on which Favocado and COOPER were admitted. Apply this test to the next engine-fuzzing paper.",
+   "caveats": "The words Electron, Node.js, desktop and embedder never appear; V8 is fuzzed standalone, not as an embedded engine with host-injected objects. Ruby is built WITHOUT ASan (ASan build crashes), so CRuby bug sensitivity is not comparable. The PyRTFuzz comparison is explicitly best-effort on Python 3.9 after a Python 3.12 failure. SoFi could not be compared at all - not open source.",
+   "title_norm": "reflecta reflection based scalable and semantic scripting language fuzzing"
+  },
+  {
+   "id": "ccs2021-sofi",
+   "title": "SoFi: Reflection-Augmented Fuzzing for JavaScript Engines",
+   "authors": [
+    "Xiaoyu He",
+    "Xiaofei Xie",
+    "Yuekang Li",
+    "Jianwen Sun",
+    "et al. (full list unverified)"
+   ],
+   "venue": "ACM CCS",
+   "year": 2021,
+   "scope": "ADJACENT",
+   "doi": "10.1145/3460120.3484823",
+   "url": "https://dl.acm.org/doi/10.1145/3460120.3484823",
+   "pdf": "PAYWALLED - ACM DL only; SMU InK mirror ink.library.smu.edu.sg/.../3460120.3484823.pdf returns an EMPTY body",
+   "note_file": "papers/ccs2021-sofi.md",
+   "added": "2026-09-19",
+   "found_via": "related-work mining of REFLECTA (AsiaCCS'25): SoFi is a column in its Table 1 and is named in S6.1 as the baseline that could not be compared. This is the 2026-09-12 sub-rule (grep a newly admitted paper's prose for TOOL NAMES it argues against) paying out.",
+   "grounding": "WEAK - ABSTRACT + SECONDARY SOURCES ONLY. Full text NOT read: ACM paywalled and the SMU institutional copy fetched empty. Every methodological statement comes from the published abstract; the two factual claims about its results come from (a) REFLECTA AsiaCCS'25 Table 1 / S6.1 and (b) SoK: Prudent Evaluation Practices for Fuzzing, IEEE S&P 2024, as summarised in search results rather than read from its PDF. NO NUMBER from SoFi's own evaluation is recorded anywhere, because none was readable.",
+   "why_it_matters": "The origin of reflection-based discovery of an object's UNSEEN attributes and methods as a fuzzing primitive for JavaScript, and the direct ancestor of REFLECTA. Its gap statement is the citable part: semantic-aware JS fuzzers of the day relied on manual rules that are 'labor-intensive, incomplete and engine-specific', and such fuzzers STRUCTURALLY CANNOT call a method absent from the seed corpus or the pre-defined rules. That is the exact condition of an Electron app's application-defined privileged surface. Method (from the abstract): fine-grained analysis to identify available variables and infer their types for mutation; automatic REPAIR of syntactically/semantically invalid test cases instead of discarding them; reflection-based analysis to surface unseen attributes and methods; claimed engine-general with no manual configuration.",
+   "citation_warning": "CITE THE TECHNIQUE, NOT THE RESULTS. SoK: Prudent Evaluation Practices for Fuzzing (Schloegel et al., IEEE S&P 2024) reports that ALL SEVEN vulnerabilities SoFi claimed in V8, SpiderMonkey and JavaScriptCore were INVALID and rejected by the engine developers, six of the seven before the submission deadline. SoFi was also never open-sourced, so no independent comparison exists (REFLECTA S6.1). Read the S&P'24 SoK directly before repeating this.",
+   "scope_consistency_note": "Same admission ground as Favocado, COOPER and REFLECTA: a discovery technique for an UNSPECIFIED API surface. Fuzzilli / Montage / graph-based-IR JS fuzzing stay excluded as engine-internals work.",
+   "todo": "Obtain the PDF (university ACM subscription or an author copy) and rewrite sections 3 and 4 of papers/ccs2021-sofi.md with real numbers. Confirm the full author list. Determine whether SoFi's reflection runs inside the target engine or is reconstructed externally - decisive for transplanting the technique to an Electron renderer.",
+   "title_norm": "sofi reflection augmented fuzzing for javascript engines"
   }
  ],
  "excluded": [
@@ -2163,6 +2214,87 @@
    "reason": "Credential leakage in WeChat-style mini-apps; mini-program/mobile ecosystem, same disposition as 'Mini-Programs, Mega-Problems' (CCS'26).",
    "found_via": "domain-restricted topical sweep 2026-09-18",
    "added": "2026-09-18"
+  },
+  {
+   "title": "SoK: A Literature and Engineering Review of Regular Expression Denial of Service (ReDoS)",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "Staicu/Davis systematisation of a DENIAL-OF-SERVICE vulnerability class in regex engines across languages. JS/Node is one setting among many, but there is no desktop, Electron, embedder or local-privilege angle and no escalation path - ReDoS costs availability, not privilege. Same disposition as the pre-2020 Staicu et al. ReDoS (USENIX Sec'18) already recorded under Hidden Properties' bibliography. Still worth a MANUAL citation if the thesis ever needs the state of regex-engine defences in Node.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (Cycle 2)",
+   "added": "2026-09-19",
+   "title_norm": "sok a literature and engineering review of regular expression denial of service redos"
+  },
+  {
+   "title": "Eradicating the Unseen: Detecting, Exploiting, and Remediating a Path Traversal Vulnerability across GitHub",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "Large-scale measurement of one copy-pasted path-traversal (CWE-22) code pattern across open-source GitHub projects - 1,756 vulnerable projects found, 14% remediated after disclosure, plus an LLM-contamination analysis. Code-reuse measurement with no Electron/Node-runtime/desktop-privilege angle; the pipeline is generic pattern matching, not a discovery technique for a host-exposed API surface.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (Cycle 2)",
+   "added": "2026-09-19",
+   "title_norm": "eradicating the unseen detecting exploiting and remediating a path traversal vulnerability across github"
+  },
+  {
+   "title": "ProwseBox: A Framework for the Analysis of the Web at Scale",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "Web-measurement crawling infrastructure (CISPA). Tooling for studying the web at scale; no desktop host, no packaged app, no privileged local API. Same disposition as the other pure web-measurement platforms already excluded.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (Cycle 1)",
+   "added": "2026-09-19",
+   "title_norm": "prowsebox a framework for the analysis of the web at scale"
+  },
+  {
+   "title": "Monocle: Transient Execution Proof Memory Views for Runtime Compiled Code",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "Microarchitectural defence - transient-execution-proof memory views for JIT-compiled code in sandboxed environments. Touches runtime-compiled code but the threat model is speculative execution, not script-to-host privilege escalation. Same disposition as InSpectre (CCS'20), Swivel (USENIX'21) and the SoK on Spectre defences.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (Cycle 1)",
+   "added": "2026-09-19",
+   "title_norm": "monocle transient execution proof memory views for runtime compiled code"
+  },
+  {
+   "title": "Transparent Temporally-Specialized System Call Filters",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "POSTER, Bergamo SecLab (Rossi, Beretta, Facchinetti, Paraboschi - the NatiSand/Cage4Deno group). Generic OS-level syscall filtering specialised by execution phase; no JS runtime, npm or desktop-app angle. Same disposition as sysfilter (RAID'20) and SysXCHG (CCS'23). NOTE the group's line is still running, which matters for author selection.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (posters page)",
+   "added": "2026-09-19",
+   "title_norm": "transparent temporally specialized system call filters"
+  },
+  {
+   "title": "Policy-driven security-aware scheduling in Kubernetes",
+   "venue": "AsiaCCS",
+   "year": 2025,
+   "reason": "POSTER, Bergamo SecLab. Container-orchestration scheduling policy; cloud infrastructure, no script runtime or desktop host.",
+   "found_via": "AsiaCCS 2025 venue-year sweep (posters page)",
+   "added": "2026-09-19",
+   "title_norm": "policy driven security aware scheduling in kubernetes"
+  },
+  {
+   "title": "PyRTFuzz: Detecting Bugs in Python Runtimes via Two-Level Collaborative Fuzzing",
+   "venue": "ACM CCS",
+   "year": 2023,
+   "reason": "Two-level collaborative fuzzing of the CPython runtime and its standard libraries (61 new exploitable bugs across three CPython versions). Methodologically the direct sibling of REFLECTA's API-surface fuzzing, but PYTHON-ONLY: no JavaScript, no embedder, no host-injected surface, no desktop application. The JS/Electron-relevant version of this idea is covered by REFLECTA (in_scope) and SoFi (in_scope). Cite manually only if the thesis needs the runtime-library-fuzzing lineage beyond JS.",
+   "found_via": "related-work mining of REFLECTA (AsiaCCS'25), named in Table 1 and S6.1",
+   "added": "2026-09-19",
+   "title_norm": "pyrtfuzz detecting bugs in python runtimes via two level collaborative fuzzing"
+  },
+  {
+   "title": "Fuzzing JavaScript Engines with a Graph-based IR",
+   "venue": "ACM CCS",
+   "year": 2024,
+   "reason": "JS-engine fuzzing over a graph-based intermediate representation - engine internals and the JIT pipeline. Same disposition as Fuzzilli (NDSS'23) and Montage (USENIX'20): no host application on the other side of the surface, therefore no Electron-transferable boundary. This is the exclusion side of the line that admits REFLECTA, SoFi, Favocado and COOPER.",
+   "found_via": "related-work mining around REFLECTA / SoFi, 2026-09-19",
+   "added": "2026-09-19",
+   "title_norm": "fuzzing javascript engines with a graph based ir"
+  },
+  {
+   "title": "SoK: Prudent Evaluation Practices for Fuzzing",
+   "venue": "IEEE S&P",
+   "year": 2024,
+   "reason": "Systematisation of fuzzing EVALUATION practice - 150 fuzzing papers from top venues 2018-2023, statistical tests, systematic errors. No JS, npm, web-content or desktop angle, so out of scope as a subject. BUT KEEP IT VISIBLE: it is the source of the finding that all seven vulnerabilities claimed by SoFi (CCS'21, now in_scope) in V8/SpiderMonkey/JavaScriptCore were rejected as invalid by the engine developers, and it is the right citation for justifying a reproducible-oracle-over-bug-count evaluation design in the thesis. Schloegel, Bars, Schiller, Bernhard, Scharnowski, Crump, Ale-Ebrahim, Bissantz, Muench, Holz.",
+   "found_via": "secondary-source check while triaging SoFi, 2026-09-19",
+   "added": "2026-09-19",
+   "title_norm": "sok prudent evaluation practices for fuzzing"
   }
  ],
  "context_non_venue": [
@@ -3090,6 +3222,15 @@
    "note": "Bensalim, Klein, Barber, Johns. Automated DOM-XSS EXPLOIT GENERATION from dynamic data-flow analysis - i.e. exactly the 'from taint flow to working PoC' step an Electron XSS->RCE discovery pipeline needs. Workshop venue so it cannot be admitted, but it is the closest methodological ancestor of the exploit-synthesis half of the thesis and should be cited manually.",
    "found_via": "author/lab page: TU Braunschweig IAS, 2026-09-18",
    "added": "2026-09-18"
+  },
+  {
+   "title": "OverrideFuzz: Semantic-Aware Grammar Fuzzing for Script-Runtime Vulnerabilities",
+   "venue": "arXiv preprint 2605.12563 - non-venue",
+   "year": 2026,
+   "note": "Surfaced alongside REFLECTA in the same search. Same sub-literature (semantic-aware grammar fuzzing aimed at script RUNTIMES rather than engine JITs). Unread; recorded only so the title is not re-triaged. Check whether it lands at a watched venue in 2026-2027.",
+   "found_via": "search result while retrieving REFLECTA, 2026-09-19",
+   "added": "2026-09-19",
+   "title_norm": "overridefuzz semantic aware grammar fuzzing for script runtime vulnerabilities"
   }
  ]
 }
