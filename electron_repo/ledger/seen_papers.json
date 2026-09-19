@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "last_updated": "2026-09-19",
- "last_run": "2026-09-19",
+ "last_updated": "2026-09-20",
+ "last_run": "2026-09-20",
  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
  "in_scope": [
   {
@@ -856,6 +856,53 @@
    "scope_consistency_note": "Same admission ground as Favocado, COOPER and REFLECTA: a discovery technique for an UNSPECIFIED API surface. Fuzzilli / Montage / graph-based-IR JS fuzzing stay excluded as engine-internals work.",
    "todo": "Obtain the PDF (university ACM subscription or an author copy) and rewrite sections 3 and 4 of papers/ccs2021-sofi.md with real numbers. Confirm the full author list. Determine whether SoFi's reflection runs inside the target engine or is reconstructed externally - decisive for transplanting the technique to an Electron renderer.",
    "title_norm": "sofi reflection augmented fuzzing for javascript engines"
+  },
+  {
+   "id": "asiaccs2024-rootfree",
+   "title": "RootFree Attacks: Exploiting Mobile Platform's Super Apps From Desktop",
+   "authors": [
+    "Chao Wang (The Ohio State University)",
+    "Yue Zhang (Drexel University)",
+    "Zhiqiang Lin (The Ohio State University)"
+   ],
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "scope": "PRIMARY",
+   "doi": "10.1145/3634737.3645001",
+   "url": "https://doi.org/10.1145/3634737.3645001",
+   "pdf": "https://chaowang.dev/publications/asiaccs24.pdf",
+   "note_file": "papers/asiaccs2024-rootfree.md",
+   "added": "2026-09-20",
+   "found_via": "AsiaCCS 2024 (Singapore, SUTD) title-by-title venue-year sweep - the designated venue-year backfill slot. Listed on /round-1-papers/ under its submission title 'SuperShift Attacks: Exploiting Mobile Super Apps From Desktop Platforms' and in the full program (Session 10, Web Security) under its final title.",
+   "grounding": "STRONG - full 13-page author-hosted PDF read. Every number in the note (172/223/230 MB binaries, 985 APIs, 2,955 theoretical tests, ~2,000 LoC in 5 languages, 10 case-study miniapps in Table 4, 3 disclosure reports, 1.2B users, 4.3M miniapps, getNativePathByJsPath at 0xABE042, PBKDF2 salt 'saltiest') is taken from the paper text.",
+   "why_it_matters": "The closest published analogue of the Electron threat model outside Electron. A desktop host (WeChat/WeCom on Windows) embeds a browser engine (XWeb) and a V8-based JSCore, runs untrusted third-party web content (miniapps), and - because Windows supplies none of the process/file isolation Android and iOS do - must implement the sandbox itself in user space. Both self-implemented protections fail: package encryption keys off the public appID, and the file-system sandbox validates paths BEFORE collapsing '../', so '..././..././..././..././x' escapes. A malicious miniapp delivered by a single chat-message click overwrites WeChatXFile in the host's own install directory and calls wx.openDocument for INSTANT code execution with NO administrator rights and no warning. All three attack classes are Windows-only (Table 2: Android x, iOS x, Windows check).",
+   "gap_it_leaves": "Entirely manual reverse engineering (JEB + IDA Pro + Frida, ~2,000 LoC of hand-written PoC), ONE application (WeChat/WeCom), ten hand-picked miniapps, and the authors explicitly put the rendering and logic engines out of scope and delegate API differences to their own APIDiff. So the demonstration exists but the automated, multi-application DISCOVERY technique does not - which is precisely this thesis's slot.",
+   "caveat": "The paper never says 'Electron'. XWeb is Tencent's own Chromium-derived renderer. The architectural equivalence to Electron is the reader's argument, not the authors'; state it explicitly rather than implying they made it. Also: no prevalence measurement of any kind, and the A1 key-derivation finding is the authors' own inference ('very likely').",
+   "title_norm": "rootfree attacks exploiting mobile platform s super apps from desktop"
+  },
+  {
+   "id": "usenixsec2023-apidiff",
+   "title": "One Size Does Not Fit All: Uncovering and Exploiting Cross Platform Discrepant APIs in WeChat",
+   "authors": [
+    "Chao Wang (The Ohio State University)",
+    "Yue Zhang (The Ohio State University)",
+    "Zhiqiang Lin (The Ohio State University)"
+   ],
+   "venue": "USENIX Security",
+   "year": 2023,
+   "scope": "ADJACENT",
+   "doi": "",
+   "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wang-chao",
+   "pdf": "https://chaowang.dev/publications/sec23a.pdf",
+   "artifact": "https://github.com/OSUSecLab/APIDiff",
+   "note_file": "papers/usenixsec2023-apidiff.md",
+   "added": "2026-09-20",
+   "found_via": "Related-work mining of RootFree (AsiaCCS'24) IN THE SAME RUN - RootFree S3.2 carves API differences out of its own scope with 'this has been studied by APIDiff [34]' and S7 names it again. The 2026-09-19 standing step (mine a fresh catch for the tools it argues against, same run, never next run) paying out for the third time after Favocado and SoFi.",
+   "grounding": "GOOD BUT PARTIAL - read from the author-hosted PDF: abstract, S1, the APIDIFF architecture overview, S4.2 Code Executor, S4.3 Discrepancies Analyzer, S5.1 setup, S5.2 results. NOT read: S2-S3 background/taxonomy, most of S4.1 parameter seeding, S6 attack case studies end to end. Every number recorded comes from text actually read; add no further numbers without re-reading.",
+   "why_it_matters": "An automated, SPECIFICATION-FREE discovery technique for the privileged API surface a hybrid host exposes to the web content it runs, using the host's own platform builds as oracles for one another. 1,031 APIs executed on 6 devices (2x Windows-11, 2x Android-13, 2x iOS-16) via the reverse-engineered WeChat debug protocol's internal evaluate function, because WeChat disables dynamic code execution in miniapps. Oracle is nothing but error codes and return values. RESULT AND THE NUMBER TO CITE: 109 existence, 17 permission and 22 output discrepancies - and the permission discrepancies are almost entirely the DESKTOP build's fault (16 of 17 vs Android, 17 of 17 vs iOS, versus exactly ONE divergence between the two mobile builds). wx.record captures the microphone on Windows with no user consent.",
+   "gap_it_leaves": "The enumeration problem is half-solved for them: WeChat's 1,031 APIs are a fixed, vendor-documented set. An Electron app's bridge surface is invented per application and documented nowhere, so enumeration is the hard part rather than the given. And the oracle is cross-platform divergence, so a single-build desktop app has nothing to diff against - the same 'no ground-truth invariant, no machine-readable spec' gap the NDSS'26 site-isolation entry (added 09-18) states from the browser side.",
+   "engineering_trick_worth_stealing": "To detect missing permission checks without parsing or clicking permission dialogs (a miniapp aborts after a 5-minute wait), run each API TWICE - once with all permissions granted, once with all denied - and read the requirement off the logged error message.",
+   "title_norm": "one size does not fit all uncovering and exploiting cross platform discrepant apis in wechat"
   }
  ],
  "excluded": [
@@ -2295,6 +2342,177 @@
    "found_via": "secondary-source check while triaging SoFi, 2026-09-19",
    "added": "2026-09-19",
    "title_norm": "sok prudent evaluation practices for fuzzing"
+  },
+  {
+   "title": "What is in the Chrome Web Store",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Measurement of the Chrome Web Store extension ecosystem (Hsu, Tran, Fass - Stanford/CISPA). BROWSER extensions, not a desktop host: no embedded-engine, preload/IPC or local-privilege angle. Distinguish carefully from UntrustIDE (NDSS'24, in_scope), which is in scope because VS Code extensions run inside an ELECTRON host with local privileges.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "what is in the chrome web store"
+  },
+  {
+   "title": "FakeX: A Framework for Detecting Fake Reviews of Browser Extensions",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Fake-review detection in extension stores (Olsson, Eriksson, Picazo-Sanchez, Andersson, Sabelfeld - Chalmers). Marketplace-integrity study; no security boundary, no desktop host. Noted only because the Sabelfeld group is a known-productive author group for this watch (SandTrap).",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "fakex a framework for detecting fake reviews of browser extensions"
+  },
+  {
+   "title": "Cross-Language Differential Testing of JSON Parsers",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "BORDERLINE, recorded with its reasoning. Moller/Weissberg/Pirch/Eisenhofer/Rieck (TU Berlin). Matches the config's native_boundary keyword 'cross-language', but the term here means parser implementations ACROSS programming languages, not a JS<->C/C++ binding boundary inside one runtime - so it is out on scope, like 'Parse Me Baby One More Time' (S&P'24, excluded). KEEP VISIBLE: its method (same input, many implementations, diff the outcomes) is structurally identical to APIDiff's, so it belongs in a differential-testing related-work paragraph if the thesis develops one.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "cross language differential testing of json parsers"
+  },
+  {
+   "title": "What All the PHUZZ Is About: A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Coverage-guided fuzzing of PHP web applications (Neef, Kleissner, Seifert - TU Berlin). Server-side web, no desktop host or JS runtime angle.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "what all the phuzz is about a coverage guided fuzzer for finding vulnerabilities in php web applications"
+  },
+  {
+   "title": "VFCFinder: Pairing Security Advisories and Patches",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Matching security advisories to their vulnerability-fixing commits (Dunlap, Lin, Enck, Reaves - NC State). Supply-chain/advisory hygiene; no Electron, Node runtime or desktop angle. Adjacent only to the in_scope ESORICS'26 multi-patch study, which is in scope for a different reason (multiple patches per vulnerability as a discovery signal).",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "vfcfinder pairing security advisories and patches"
+  },
+  {
+   "title": "Charting the Path to SBOM Adoption: A Business Stakeholder-Centric Approach",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Qualitative stakeholder study of SBOM adoption. Non-technical; contrast with NodeShield (CCS'25, in_scope), which enforces security-enhanced SBOMs at Node.js runtime.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "charting the path to sbom adoption a business stakeholder centric approach"
+  },
+  {
+   "title": "Who's Breaking the Rules? Studying Conformance to the HTTP Specifications and its Security Impact",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "HTTP specification conformance across servers/proxies (Rautenstrauch, Stock - CISPA). Protocol-level web security, no desktop host.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "who s breaking the rules studying conformance to the http specifications and its security impact"
+  },
+  {
+   "title": "Towards Understanding and Improving Security-Relevant Web Application Logging",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Server-side logging practice for web applications (Sahin, Daniele - SAP). No desktop, Electron or runtime angle.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "towards understanding and improving security relevant web application logging"
+  },
+  {
+   "title": "From User Insights to Actionable Metrics: A User-Focused Evaluation of Privacy-Preserving Browser Extensions",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Usable-privacy evaluation of browser extensions (Roongta, Greenstadt - NYU). Browser, usability, no privilege boundary.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "from user insights to actionable metrics a user focused evaluation of privacy preserving browser extensions"
+  },
+  {
+   "title": "External Attack-Surface of Modern Organizations",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "Organisation-level internet-facing asset discovery (Gelernter, Schulmann, Waidner). Pure keyword false positive on 'attack surface' - the config's sense is an application's exposed API surface, not an org's internet footprint. Recorded so the term does not resurface it.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "external attack surface of modern organizations"
+  },
+  {
+   "title": "Generic and Automated Drive-by GPU Cache Attacks from the Browser",
+   "venue": "ACM AsiaCCS",
+   "year": 2024,
+   "reason": "WebGPU-based microarchitectural side channel from a web page (Giner, Czerny, Gruber, Rauscher, Kogler, De Almeida Braga, Gruss - TU Graz). Side channel, not a privilege boundary; no desktop-host or Node angle.",
+   "found_via": "AsiaCCS 2024 venue-year sweep",
+   "added": "2026-09-20",
+   "title_norm": "generic and automated drive by gpu cache attacks from the browser"
+  },
+  {
+   "title": "Beyond Typosquatting: An In-depth Look at Package Confusion",
+   "venue": "USENIX Security",
+   "year": 2023,
+   "reason": "npm/registry naming-confusion taxonomy and measurement (Neupane, Holmes, Wyss, Davidson, De Carli). Generic package-registry supply chain with no Electron or Node-runtime mechanism - same standing rationale as the other malicious-package exclusions (MalOSS NDSS'21, the DSN'25 pair).",
+   "found_via": "author-page mine, De Carli / Wyss / Davidson (target #1 carried from 09-17)",
+   "added": "2026-09-20",
+   "title_norm": "beyond typosquatting an in depth look at package confusion"
+  },
+  {
+   "title": "Evaluating LLM-Based Detection of Malicious Package Updates in npm",
+   "venue": "RAID",
+   "year": 2025,
+   "reason": "LLM-based classification of malicious npm package updates (Wyss, Tassio, De Carli, Davidson). Detection of malicious packages as artefacts; no runtime, desktop or Electron mechanism. Same rationale as 'An Analysis of Malicious Packages in Open-Source Software in the Wild' and 'Automatically Generating Rules of Malicious Software Packages via LLM' (both DSN'25, excluded).",
+   "found_via": "author-page mine, De Carli / Wyss / Davidson",
+   "added": "2026-09-20",
+   "title_norm": "evaluating llm based detection of malicious package updates in npm"
+  },
+  {
+   "title": "REVDECODE: Enhancing Binary Function Matching with Context-Aware Graph Representations and Relevance Decoding",
+   "venue": "USENIX Security",
+   "year": 2025,
+   "reason": "Binary function matching (Ren, Che, Gilman, De Carli, Walls). Binary analysis, no JS/web/desktop angle.",
+   "found_via": "author-page mine, De Carli / Wyss / Davidson",
+   "added": "2026-09-20",
+   "title_norm": "revdecode enhancing binary function matching with context aware graph representations and relevance decoding"
+  },
+  {
+   "title": "Minerva: A File-Based Ransomware Detector",
+   "venue": "ACM AsiaCCS",
+   "year": 2025,
+   "reason": "Ransomware detection from file-access behaviour (Hitaj, Pagnotta, De Gaspari, De Carli, Mancini). Out of scope on topic. Recorded now because the AsiaCCS'25 sweep on 09-19 dismissed it without minuting it.",
+   "found_via": "author-page mine, De Carli / Wyss / Davidson",
+   "added": "2026-09-20",
+   "title_norm": "minerva a file based ransomware detector"
+  },
+  {
+   "title": "Uncovering and Exploiting Hidden APIs in Mobile Super Apps",
+   "venue": "ACM CCS",
+   "year": 2023,
+   "reason": "Undocumented host APIs reachable by miniapps (Chao Wang, Yue Zhang, Zhiqiang Lin - venue/year confirmed from the first author's own publications page). Conceptually very close to the thesis - an application-defined privileged API surface that is not documented and must be discovered - but the study and its exploitation are MOBILE super apps; the desktop counterpart by the same authors is RootFree (AsiaCCS'24, now in_scope). BORDERLINE: revisit if the thesis develops an undocumented-surface-enumeration chapter, where it is the right prior work to contrast against.",
+   "found_via": "related-work mine of RootFree (AsiaCCS'24), S7",
+   "added": "2026-09-20",
+   "title_norm": "uncovering and exploiting hidden apis in mobile super apps"
+  },
+  {
+   "title": "Cross Miniapp Request Forgery: Root Causes, Attacks, and Vulnerability Detection",
+   "venue": "ACM CCS",
+   "year": 2022,
+   "reason": "CSRF analogue across miniapps within a mobile super app (Yue Zhang et al.; cited as CMRF in RootFree S7). Mobile app-in-app, excluded on the mobile-only rule. VENUE/YEAR from the citing text and standard bibliography, NOT independently verified this run.",
+   "found_via": "related-work mine of RootFree (AsiaCCS'24), S7",
+   "added": "2026-09-20",
+   "title_norm": "cross miniapp request forgery root causes attacks and vulnerability detection"
+  },
+  {
+   "title": "Demystifying Resource Management Risks in Emerging Mobile App-in-App Ecosystems",
+   "venue": "ACM CCS",
+   "year": 2020,
+   "reason": "Lu et al. - the founding paper of the app-in-app security sub-literature, cited first in RootFree S7. Mobile app-in-app resource management; excluded on the mobile-only rule, but it is the canonical citation if the thesis needs one sentence on where app-in-app security began. VENUE/YEAR from the citing text and standard bibliography, NOT independently verified this run.",
+   "found_via": "related-work mine of RootFree (AsiaCCS'24), S7",
+   "added": "2026-09-20",
+   "title_norm": "demystifying resource management risks in emerging mobile app in app ecosystems"
+  },
+  {
+   "title": "Assessing the Impact of Interface Vulnerabilities in Compartmentalized Software",
+   "venue": "NDSS",
+   "year": 2023,
+   "reason": "BORDERLINE, recorded with its reasoning. ConfFuzz - fuzzing the INTERFACE between compartments under a compromised-compartment threat model (Lefeuvre et al.). Methodologically this is the same admission ground as the NDSS'26 site-isolation paper: a discovery technique aimed at a privilege boundary rather than at code. It is excluded because its subject is C/C++ library compartmentalization, which the config settled as out of scope when BinWrap's MPK/PKU bibliography was dismissed on 09-08. KEEP VISIBLE as the closest methodological ancestor for 'fuzz the boundary, not the program' if the thesis fuzzes renderer->main IPC. VENUE/YEAR from standard bibliography, NOT verified from the PDF this run.",
+   "found_via": "domain-restricted topical sweep / standing-query check, 2026-09-20",
+   "added": "2026-09-20",
+   "title_norm": "assessing the impact of interface vulnerabilities in compartmentalized software"
   }
  ],
  "context_non_venue": [
@@ -3231,6 +3449,33 @@
    "found_via": "search result while retrieving REFLECTA, 2026-09-19",
    "added": "2026-09-19",
    "title_norm": "overridefuzz semantic aware grammar fuzzing for script runtime vulnerabilities"
+  },
+  {
+   "title": "What the Fork? Finding Hidden Code Clones in npm",
+   "venue": "IEEE/ACM ICSE 2022 - non-venue",
+   "year": 2022,
+   "note": "Wyss, De Carli, Davidson. Hidden code clones introduced by npm shrinkwrap/bundling. Relevant to any claim about what an installed dependency tree actually contains, which matters for an Electron app's shipped bundle, but ICSE is not a watched venue. Recorded so the title is not re-triaged.",
+   "found_via": "2026-09-20 run (AsiaCCS 2024 sweep / De Carli lab-page mine)",
+   "added": "2026-09-20",
+   "title_norm": "what the fork finding hidden code clones in npm"
+  },
+  {
+   "title": "TaintMini: Detecting Flow of Sensitive Data in Mini-Programs with Static Taint Analysis",
+   "venue": "IEEE/ACM ICSE 2023 - non-venue",
+   "year": 2023,
+   "note": "Chao Wang, Ronny Ko, Yue Zhang, Yuqing Yang, Zhiqiang Lin. Static taint analysis over miniapp JavaScript with a data-flow graph. Same author line as RootFree and APIDiff; the static counterpart to their dynamic differential work. Non-venue, but the right citation if the thesis contrasts static taint tracking over bundled app JS with dynamic differential execution.",
+   "found_via": "2026-09-20 run (AsiaCCS 2024 sweep / De Carli lab-page mine)",
+   "added": "2026-09-20",
+   "title_norm": "taintmini detecting flow of sensitive data in mini programs with static taint analysis"
+  },
+  {
+   "title": "Stepping out of Bounds: Security Impact of Allowing Packages on npm to Declare External Dependencies",
+   "venue": "ACM SCORED (CCS workshop) 2025 - non-venue",
+   "year": 2025,
+   "note": "Tassio, Wyss, Salazar-Morales, De Carli, Davidson. npm packages declaring dependencies hosted outside the registry - a supply-chain surface that bypasses registry-level defences entirely. Workshop, so non-venue, but directly about the Node.js dependency channel an Electron app inherits.",
+   "found_via": "2026-09-20 run (AsiaCCS 2024 sweep / De Carli lab-page mine)",
+   "added": "2026-09-20",
+   "title_norm": "stepping out of bounds security impact of allowing packages on npm to declare external dependencies"
   }
  ]
 }
