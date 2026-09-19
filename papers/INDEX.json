@@ -24139,6 +24139,199 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2609.18346": {
+   "version": "v1",
+   "title": "Faithful yet Collusive: Why Chain-of-Thought Monitoring Cannot Detect Collusion in LLM Pricing Agents under Oligopolistic Competition",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "chain-of-thought faithfulness",
+    "CoT monitoring",
+    "algorithmic collusion",
+    "pricing agents",
+    "causal graph divergence"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "alignment_robustness"
+   ]
+  },
+  "2609.14079": {
+   "version": "v1",
+   "title": "SkillSecurer: Detecting and Patching Prompt-Injection Vulnerabilities in AI Agent Skills",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "prompt injection",
+    "agent skills",
+    "red/blue agent",
+    "vulnerability patching",
+    "agentic security"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.18217": {
+   "version": "v1",
+   "title": "Measuring and Exploiting Implicit Trust in LLM Tool-Calling Pipelines",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "MCP",
+    "tool calling",
+    "cross-channel fragmentation",
+    "credential exfiltration",
+    "implicit trust"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.16540": {
+   "version": "v1",
+   "title": "On the Importance of Gating: Memorization vs. In-Context Learning in State Space Models",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "memorization",
+    "in-context learning",
+    "state space models",
+    "gating",
+    "training dynamics"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
+  },
+  "2609.19124": {
+   "version": "v1",
+   "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "mechanistic interpretability",
+    "multi-agent",
+    "collective belief",
+    "social circuit attribution",
+    "causal intervention"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2609.16967": {
+   "version": "v1",
+   "title": "Target-Language Generation in Multilingual Models: Activation Steering and Optimal Control",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "activation steering",
+    "difference-in-means",
+    "optimal control",
+    "multilingual",
+    "language adherence"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2609.18860": {
+   "version": "v1",
+   "title": "Decodable but Misrouted: Sparse Features Uncover a Readout Gap in Vision-Language Models for Harmful Meme Detection",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "sparse autoencoder",
+    "probing",
+    "readout gap",
+    "causal intervention",
+    "vision-language model"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing",
+    "feature_attribution"
+   ]
+  },
+  "2609.19456": {
+   "version": "v1",
+   "title": "Beyond Private Training: The New Landscape of AI Privacy",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "deletion audit",
+    "vector index",
+    "traversal safety",
+    "RAG",
+    "right to be forgotten"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2609.14060": {
+   "version": "v1",
+   "title": "AGENTQ: Quantization-Conditioned Backdoor Attacks on LLM Agents",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "backdoor",
+    "quantization-conditioned attack",
+    "LLM agent",
+    "LoRA injection",
+    "tool call payload"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2609.16095": {
+   "version": "v1",
+   "title": "RAG-CT: Mitigating Privacy Risks on Retrieval-Augmented Generation Systems via Scanning Prompt Distribution",
+   "first_seen": "2026-09-20",
+   "last_updated": "2026-09-20",
+   "folder": "2026-09-20",
+   "keywords": [
+    "PII leakage",
+    "RAG",
+    "prompt distribution",
+    "entropy/margin detection",
+    "privacy defense"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -24181,8 +24374,8 @@
    ]
   }
  },
- "last_run": "2026-09-19",
+ "last_run": "2026-09-20",
  "_meta": {
-  "last_run": "2026-09-18"
+  "last_run": "2026-09-20"
  }
 }
