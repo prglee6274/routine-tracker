@@ -1566,5 +1566,21 @@
  "2609.20532->2605.21378": {
   "type": "background",
   "evidence": "Apple DP 프레임워크가 DP 비활성 상태로 설정된 사례를 DP 실행 검증 필요성의 동기로 인용"
+ },
+ "2609.14079->2606.23416": {
+  "type": "baseline",
+  "evidence": "prior in-the-wild malicious-skill detector cited up front; SkillSecurer positions itself as outperforming existing scanners and going beyond skill-level flagging"
+ },
+ "2609.14079->2606.07131": {
+  "type": "background",
+  "evidence": "runtime-verified malicious-skill benchmark cited while framing the finding-classification/provenance methodology"
+ },
+ "2609.14079->2606.07943": {
+  "type": "background",
+  "evidence": "skill-injection attack cited as part of the threat landscape the red agent's nine injection types draw on"
+ },
+ "2609.18860->2607.15495": {
+  "type": "extends",
+  "evidence": "global-workspace routing framing of verbalizable representations is the antecedent this paper extends into a diagnosed representation-vs-readout gap in VLMs"
  }
 }
