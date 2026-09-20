@@ -54,9 +54,9 @@
   },
   "addyosmani/agent-skills": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-09-20",
-   "days_on_list": 1,
-   "last_stars": 96902,
+   "last_seen": "2026-09-21",
+   "days_on_list": 2,
+   "last_stars": 97587,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
@@ -3156,13 +3156,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-09-08",
+   "last_seen": "2026-09-21",
    "days_on_list": 1,
-   "last_stars": 16534,
+   "last_stars": 17908,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-07"
+   "last_pushed_at": "2026-09-18"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -5002,13 +5002,13 @@
   },
   "Tencent/BrowserSkill": {
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-20",
-   "days_on_list": 3,
-   "last_stars": 5699,
-   "category": "tools",
+   "last_seen": "2026-09-21",
+   "days_on_list": 4,
+   "last_stars": 6016,
+   "category": "llm",
    "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-09-18"
+   "graduated": true,
+   "last_pushed_at": "2026-09-20"
   },
   "anthropics/knowledge-work-plugins": {
    "first_seen": "2026-09-18",
@@ -5022,13 +5022,13 @@
   },
   "coder/coder": {
    "first_seen": "2026-09-18",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-09-21",
    "days_on_list": 1,
-   "last_stars": 14750,
-   "category": "tools",
+   "last_stars": 15965,
+   "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-09-17"
+   "last_pushed_at": "2026-09-20"
   },
   "vercel/eve": {
    "first_seen": "2026-09-18",
@@ -5136,10 +5136,70 @@
    "language": "Go",
    "graduated": false,
    "last_pushed_at": "2026-09-18"
+  },
+  "docling-project/docling": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 67407,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-18"
+  },
+  "krillinai/OpenCreator": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 11929,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-20"
+  },
+  "yynxxxxx/Codex-X": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 3551,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-09-18"
+  },
+  "diffusionstudio/editor": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 2976,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-09-20"
+  },
+  "eval-exec/neomacs": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 1410,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-09-20"
+  },
+  "openai/tunnel-client": {
+   "first_seen": "2026-09-21",
+   "last_seen": "2026-09-21",
+   "days_on_list": 1,
+   "last_stars": 447,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-09-20"
   }
  },
- "last_updated": "2026-09-20",
- "updated": "2026-09-20",
- "last_run": "2026-09-20",
- "count": 519
+ "last_updated": "2026-09-21",
+ "updated": "2026-09-21",
+ "last_run": "2026-09-21",
+ "count": 525
 }
