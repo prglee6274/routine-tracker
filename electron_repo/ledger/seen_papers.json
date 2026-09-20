@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "last_updated": "2026-09-20",
- "last_run": "2026-09-20",
+ "last_updated": "2026-09-21",
+ "last_run": "2026-09-21",
  "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
  "in_scope": [
   {
@@ -903,6 +903,93 @@
    "gap_it_leaves": "The enumeration problem is half-solved for them: WeChat's 1,031 APIs are a fixed, vendor-documented set. An Electron app's bridge surface is invented per application and documented nowhere, so enumeration is the hard part rather than the given. And the oracle is cross-platform divergence, so a single-build desktop app has nothing to diff against - the same 'no ground-truth invariant, no machine-readable spec' gap the NDSS'26 site-isolation entry (added 09-18) states from the browser side.",
    "engineering_trick_worth_stealing": "To detect missing permission checks without parsing or clicking permission dialogs (a miniapp aborts after a 5-minute wait), run each API TWICE - once with all permissions granted, once with all denied - and read the requirement off the logged error message.",
    "title_norm": "one size does not fit all uncovering and exploiting cross platform discrepant apis in wechat"
+  },
+  {
+   "id": "usenixsec2023-polyfuzz",
+   "title": "PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems",
+   "authors": [
+    "Wen Li (Washington State University)",
+    "Jinyang Ruan (Washington State University)",
+    "Guangbei Yi (Washington State University)",
+    "Long Cheng (Clemson University)",
+    "Xiapu Luo (The Hong Kong Polytechnic University)",
+    "Haipeng Cai (Washington State University)"
+   ],
+   "venue": "USENIX Security 2023",
+   "venue_short": "USENIX Sec",
+   "year": 2023,
+   "cycle": "Summer",
+   "pages": "1379-1396",
+   "scope": "ADJACENT",
+   "doi": "",
+   "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/li-wen",
+   "pdf": "https://www.usenix.org/system/files/usenixsecurity23-li-wen.pdf",
+   "appendix": "https://www.usenix.org/system/files/usenixsecurity23-appendix-li-wen.pdf",
+   "note_file": "papers/usenixsec2023-polyfuzz.md",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep, Summer-cycle condensed accepted-papers session page",
+   "grounding": "FULL TEXT, open-access USENIX PDF (usenixsecurity23-li-wen.pdf). Read closely: abstract, S1 Introduction, S5.1 setup/metrics, S5.2 opening, S5.4-S5.5 ablation conclusion + Table 10 in full, S8 Related Work. NOT read line-by-line: S2 motivating example, S3-S4 design internals, S6-S7, Appendix. Per-subject rows of Tables 3-9 NOT transcribed; only the aggregate deltas stated in the abstract/S1 are quoted. Individual CVE IDs not obtained (paper defers them to NewVulnerabilities.pdf in the artifact).",
+   "why_it_matters": "First holistic multi-language greybox fuzzer (unified cross-language coverage feedback + regression-based seed generation). Implemented for C/Python/Java ONLY - and in S8 the authors explicitly demote Favocado to 'a single-language fuzzer, rather than fuzzing JavaScript code interfaced with C/C++' and state they are 'not aware of prior work explicitly addressing holistic fuzzing of multilingual code'. That sentence is a ready-made gap statement for a thesis on the JS<->native boundary in Electron.",
+   "key_numbers": "15 multilingual subjects (10 Python-C + 5 Java-C) + 15 OSS-Fuzz single-language benchmarks (5 each C/Python/Java); 5 repetitions x 24 h; +25.3% blocks and +1 bug vs Jazzer, +52.3% and +10 bugs vs Atheris; single-language +11.0%/+20.1%/+10.1% vs Jazzer/Atheris/Honggfuzz and +7.6% block / +11.4% path vs AFL++; 14 new vulnerabilities (12 multilingual + 2 single-language), 5 CVEs; PolyFuzz-NSA stalled after 12 h.",
+   "title_norm": "polyfuzz holistic greybox fuzzing of multi language systems"
+  },
+  {
+   "id": "usenixsec2023-ivysyn",
+   "title": "IvySyn: Automated Vulnerability Discovery in Deep Learning Frameworks",
+   "authors": [
+    "Neophytos Christou (Brown University)",
+    "Di Jin (Brown University)",
+    "Vaggelis Atlidakis (Brown University)",
+    "Baishakhi Ray (Columbia University)",
+    "Vasileios P. Kemerlis (Brown University)"
+   ],
+   "venue": "USENIX Security 2023",
+   "venue_short": "USENIX Sec",
+   "year": 2023,
+   "cycle": "Fall",
+   "pages": "2383-2400",
+   "scope": "ADJACENT",
+   "doi": "",
+   "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/christou",
+   "pdf": "https://www.usenix.org/system/files/usenixsecurity23-christou.pdf",
+   "appendix": "https://www.usenix.org/system/files/usenixsecurity23-appendix-christou.pdf",
+   "artifact": "USENIX AE: Available + Functional + Reproduced",
+   "note_file": "papers/usenixsec2023-ivysyn.md",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep, Fall-cycle condensed accepted-papers session page",
+   "grounding": "FULL TEXT, open-access USENIX PDF (usenixsecurity23-christou.pdf). Read closely: abstract, S1, S2 opening (kernels/bindings/high-level APIs), S5 limitations + generalisation claim, S6 implementation, S7.2-S7.3 incl. Tables 1-3 and the DocTer comparison. NOT read line-by-line: S3-S4 design internals, S7.1 setup prose, S8-S9, Appendix. CVE identifiers not extracted; the mapping from 135 synthesised PoVs to 61 fixed vulnerabilities is not made explicit in the sections read.",
+   "why_it_matters": "Supplies the REACHABILITY method this thesis needs: fuzz native C/C++ from below with type-aware mutation, then automatically synthesise a high-level (Python) snippet - a 'Proof of Vulnerability' - that reaches the same fault through the public API. The authors state the synthesis only assumes high<->low API mappings, 'present in any codebase that involves interfacing (safe) managed code with (memory-unsafe) native code', and that they 'anticipate our approach to generalize to other, non-DL codebases'. Node.js/Electron native add-ons are such a codebase - but N-API receives opaque napi_value arguments and recovers types at run time, so IvySyn's free static type information is absent. That is a concrete, defensible thesis gap.",
+   "key_numbers": "1,159 kernels fuzzed (TF 412 / PT 747); crashes in 184; 135 PoVs synthesised (73%) in <3 s each (TF 86/103 = 83%, PT 49/81 = 60%); 61 previously-unknown vulnerabilities fixed, 39 CVEs. Table 1 (5 iterations, 308 TF / 283 PT kernels): IvySyn 80/25, Atheris++ 64/18, Atheris+ 47/9, union 87/30. Median 71 crashes <10 h (TF) and 23 crashes <18 h (PT) vs Atheris medians 5/8 and 3/3; Atheris++ ~85 h vs IvySyn ~9 h (TF), ~81 h vs ~16 h (PT). vs DocTer: TF median 15 (union 19) vs 12 (union 16), 186 vs 197 min; PT median 11 (union 14) vs 7 (union 9), 560 vs 738 min.",
+   "caveat": "The paper is internally inconsistent on the PyTorch kernel count: Table 1's caption says 283, S7.2 prose says 287 and 387. Crash counts are consistent. Cite 283 (caption) and flag.",
+   "author_network": "Vasileios P. Kemerlis (Brown) also co-authored BinWrap (AsiaCCS'23, already in_scope). The Brown/FORTH cluster works both sides of the Node.js native add-on boundary - defence (BinWrap) and discovery (IvySyn). Priority author-page target.",
+   "title_norm": "ivysyn automated vulnerability discovery in deep learning frameworks"
+  },
+  {
+   "id": "usenixsec2023-gleefuzz",
+   "title": "GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation",
+   "authors": [
+    "Hui Peng",
+    "Zhihao Yao",
+    "Ardalan Amiri Sani",
+    "Dave (Jing) Tian",
+    "Mathias Payer"
+   ],
+   "venue": "USENIX Security 2023",
+   "venue_short": "USENIX Sec",
+   "year": 2023,
+   "cycle": "Summer",
+   "scope": "ADJACENT",
+   "doi": "",
+   "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/peng",
+   "pdf": "https://www.usenix.org/system/files/usenixsecurity23-peng.pdf",
+   "note_file": "papers/usenixsec2023-gleefuzz.md",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Summer cycle); RESCUED FROM A TITLE-BASED EXCLUSION by the required domain-restricted topical sweep, whose result summary quoted the paper's own Electron sentence.",
+   "grounding": "FULL TEXT, open-access USENIX PDF (usenixsecurity23-peng.pdf). Read closely: abstract, S1, S2.1 (WebGL stack + reach beyond browsers, Electron named twice), process architecture (renderer -> IPC -> GPU process, ANGLE), S7 opening, S7.1, S7.2, S7.4 incl. Table 1 and Table 2 figures. NOT read line-by-line: S3-S6 design/implementation, S7.3 body, S8+. Table 3 and Table 4 (per-vulnerability breakdown) NOT read; no CVE IDs extracted. Author affiliations taken from the USENIX listing, not re-verified against the PDF header.",
+   "why_it_matters": "Two things. (1) SCOPE EVIDENCE: the paper itself states WebGL 'exposes remote and unsandboxed access to the underlying graphics stack ... in the host OS' and that it is enabled BY DEFAULT in Electron and Cordova - i.e. an Electron app inherits a standard, always-on JS API that reaches native GPU drivers, which widens the usual nodeIntegration/IPC-only account of Electron's attack surface. (2) METHOD: the target admits NO code coverage at all (concurrent processes, closed-source vendor blobs, kernel drivers), so the fuzzer substitutes the browser's own developer-facing error messages as the feedback signal - the right instinct for auditing prebuilt, uninstrumentable Electron bundles.",
+   "key_numbers": "998 error messages in WebGL v1 (706 type 1 + 292 type 2) and 2,934 in v2, from 12.3 MB of LLVM bitcode; ICFG+VFG build 20.4 s, analysis 40.7 s (v1) / 120.1 s (v2); 5 runs x 12 h vs the GLeeFuzz-R random baseline gave 202x the browser crashes (and 217x wall time spent relaunching), with ~2% of time in input generation for both; >2 months intermittent fuzzing over 5 OSes x 3 browsers x Intel/NVIDIA/AMD/Adreno/Mali/PowerVR/Apple GPUs reduced 1,000+ crashes to 7 previously unknown vulnerabilities (Chrome 4, Safari 2, Firefox 1), 2 of them in the shared GPU process; base rate cited: only 87 CVEs across all WebGL implementations since 2011.",
+   "caveat": "Electron is NAMED but never EVALUATED - all experiments target Chrome/Firefox/Safari. Do not claim these 7 vulnerabilities are exploitable in an Electron app. ADJACENT, not PRIMARY, for that reason.",
+   "title_norm": "gleefuzz fuzzing webgl through error message guided mutation"
   }
  ],
  "excluded": [
@@ -2513,6 +2600,51 @@
    "found_via": "domain-restricted topical sweep / standing-query check, 2026-09-20",
    "added": "2026-09-20",
    "title_norm": "assessing the impact of interface vulnerabilities in compartmentalized software"
+  },
+  {
+   "title": "FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler",
+   "venue": "USENIX Security 2023",
+   "year": 2023,
+   "reason": "JavaScript ENGINE INTERNALS / JIT compiler pipeline - the OUT side of the 2026-09-19 discriminator (exposed API surface IN, engine internals and JIT OUT). No host application sits on the other side of the surface it tests.",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Summer cycle)",
+   "title_norm": "fuzzjit oracle enhanced fuzzing for javascript engine jit compiler"
+  },
+  {
+   "title": "Egg Hunt in Tesla Infotainment: A First Look at Reverse Engineering of Qt Binaries",
+   "venue": "USENIX Security 2023",
+   "year": 2023,
+   "reason": "Reverse engineering of Qt/C++ binaries in an automotive infotainment system. A native desktop-GUI toolkit, not a web-content-hosting hybrid app; no JavaScript<->native boundary and no untrusted web content in the threat model.",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Summer cycle)",
+   "title_norm": "egg hunt in tesla infotainment a first look at reverse engineering of qt binaries"
+  },
+  {
+   "title": "Remote Code Execution from SSTI in the Sandbox: Automatically Detecting and Exploiting Template Escape Bugs",
+   "venue": "USENIX Security 2023",
+   "year": 2023,
+   "reason": "Server-side template injection. GROUNDED IN THE ABSTRACT: TEFuzz is applied to SEVEN POPULAR PHP TEMPLATE ENGINES and the threat model is server-side RCE in web applications. Language-based sandbox escape in the abstract sense (cf. SandDriller, in_scope) but the ecosystem is PHP on a web server - no desktop host, no renderer, no native binding layer.",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Fall cycle); abstract fetched rather than judged on title",
+   "title_norm": "remote code execution from ssti in the sandbox automatically detecting and exploiting template escape bugs"
+  },
+  {
+   "title": "Minimalist: Semi-automated Debloating of PHP Web Applications through Static Analysis",
+   "venue": "USENIX Security 2023",
+   "year": 2023,
+   "reason": "Debloating family (cf. Mininode, Slimium, DeView - all in_scope) but the subject is server-side PHP web applications. No desktop runtime, no renderer, no Node.js/Chromium surface.",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Fall cycle)",
+   "title_norm": "minimalist semi automated debloating of php web applications through static analysis"
+  },
+  {
+   "title": "Trojan Source: Invisible Vulnerabilities",
+   "venue": "USENIX Security 2023",
+   "year": 2023,
+   "reason": "Unicode bidirectional-override trickery in source code, affecting code review across all languages. Not a desktop-application or JS<->native boundary issue.",
+   "added": "2026-09-21",
+   "found_via": "USENIX Security '23 venue-year sweep (Fall cycle)",
+   "title_norm": "trojan source invisible vulnerabilities"
   }
  ],
  "context_non_venue": [
