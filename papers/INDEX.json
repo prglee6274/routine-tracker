@@ -24332,6 +24332,194 @@
     "pii_leakage",
     "defense_mechanism"
    ]
+  },
+  "2609.20412": {
+   "version": "v1",
+   "title": "Stress-testing Alignment Midtraining",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "alignment midtraining",
+    "generalisation",
+    "post-training",
+    "emergent misalignment",
+    "scale"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2609.13478": {
+   "version": "v1",
+   "title": "BadEngram: Backdoor Attack on Gated Memory Components in LLMs",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "backdoor",
+    "gated parametric memory",
+    "Engram",
+    "per-layer embedding",
+    "supply chain"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ]
+  },
+  "2609.17804": {
+   "version": "v1",
+   "title": "A Four-Stage Decomposition of Word-Problem Solving and Mechanistic Fragility in LLM Math Reasoning",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "mechanistic interpretability",
+    "attention heads",
+    "causal validation",
+    "math reasoning",
+    "distractor"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing"
+   ]
+  },
+  "2609.16681": {
+   "version": "v1",
+   "title": "MarkSec: Capability-Aware Evaluation of Adversarial Attacks Against LLM Watermarks",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "LLM watermark",
+    "scrubbing",
+    "spoofing",
+    "stealing attack",
+    "evaluation framework"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "safety_eval"
+   ]
+  },
+  "2609.14745": {
+   "version": "v1",
+   "title": "PIMENTO: A Privacy Framework for Querying Text",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "differential privacy",
+    "contextual integrity",
+    "text-to-SQL",
+    "unstructured text",
+    "privacy policy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2609.16436": {
+   "version": "v1",
+   "title": "Interpreting and Steering LLM Agents for Social Simulations",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "sparse autoencoder",
+    "feature steering",
+    "probe steering",
+    "LLM agents",
+    "social simulation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "probing"
+   ]
+  },
+  "2609.15781": {
+   "version": "v1",
+   "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "backdoor",
+    "world model",
+    "latent dynamics",
+    "supply chain",
+    "downstream control"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ]
+  },
+  "2609.15039": {
+   "version": "v1",
+   "title": "SpliTEE: Improving LLM Inference on Trusted Hardware with Differentially Private GPU Outsourcing",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "differential privacy",
+    "TEE",
+    "split inference",
+    "GPU outsourcing",
+    "prompt privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2609.17550": {
+   "version": "v1",
+   "title": "No Usable Linear \"Capitulation Direction\" in Two Small LLMs: A Validation Protocol for Activation-Steering Claims, and a Cross-Family Behavioral Study of Sycophancy Under Pushback",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "activation steering",
+    "validation protocol",
+    "sycophancy",
+    "negative result",
+    "linear direction"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "probing"
+   ]
+  },
+  "2609.12571": {
+   "version": "v1",
+   "title": "PIA-Bench: Towards Automated Privacy Impact Assessment with Large Language Models",
+   "first_seen": "2026-09-21",
+   "last_updated": "2026-09-21",
+   "folder": "2026-09-21",
+   "keywords": [
+    "privacy impact assessment",
+    "benchmark",
+    "LLM evaluation",
+    "privacy risk",
+    "governance"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
   }
  },
  "_taxonomy": {

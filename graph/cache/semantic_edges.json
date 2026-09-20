@@ -1582,5 +1582,25 @@
  "2609.18860->2607.15495": {
   "type": "extends",
   "evidence": "global-workspace routing framing of verbalizable representations is the antecedent this paper extends into a diagnosed representation-vs-readout gap in VLMs"
+ },
+ "2609.13478->2608.23471": {
+  "type": "background",
+  "evidence": "관련 공격 문헌 나열(참고문헌 단위) — InjecMEM은 에이전트 메모리 시스템 주입 공격으로, BadEngram의 gated parametric memory 공격면과 인접한 선행 사례로만 언급됨."
+ },
+ "2609.14745->2606.04067": {
+  "type": "background",
+  "evidence": "프라이버시의 '맥락적' 차원을 동기화하는 문단에서 CI 기반 선행 접근으로 인용 — PIMENTO의 CI-aware Text-to-SQL 설계 배경."
+ },
+ "2609.15781->2606.18697": {
+  "type": "extends",
+  "evidence": "선행 world-model 데이터 포이즈닝의 poison objective를 고정한 채 트리거 계열(patch/semantic/additive/body-color)만 교체해 배포시 가시성이 트리거 속성임을 보임 — 직계 선행 공격을 체크포인트 공급망 백도어로 확장."
+ },
+ "2609.16436->2605.29358": {
+  "type": "background",
+  "evidence": "SAE가 프론티어 모델로 확장되어 feature 발견·circuit 분석에 쓰인 기초 사례로 Claude 3 Sonnet 연구를 인용 — 방법론적 배경."
+ },
+ "2609.17550->2605.21006": {
+  "type": "background",
+  "evidence": "sycophancy를 difference-in-means/persona vector로 조향한 선행 연구들을 정리하는 related-work 문단에서 언급 — 본 논문이 검증하려는 activation-steering 주장 계열의 배경."
  }
 }
