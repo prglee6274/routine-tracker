@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-23 — Daily watch
+
+**One new `excluded` entry, no new in-scope papers — a gap-day catch-up run (no run recorded 2026-09-22) focused on filling in the current publication cycle rather than backfill.** Ledger moves **45 → 45 in_scope** (unchanged), **189 → 190 excluded**, context unchanged at **31**.
+
+- **LatticeBox: A Hardware-Software Co-Designed Framework for Scalable and Low-Latency Compartmentalization** (NDSS 2026) — excluded. Generic hardware-software compartmentalization/isolation-domain framework; no desktop-application, Electron, renderer↔main IPC, or JS↔native boundary angle. Same rationale as the previously-excluded ConfFuzz (NDSS'23).
+
+**Coverage this run:** USENIX Security '26 Cycle 1 Accepted Papers (new page, 44 titles) swept in full — nothing in scope. NDSS 2026 accepted-papers list swept A through P (187 of 265 titles; web_fetch truncates at the same point on every attempt, and DBLP's NDSS'26 TOC is robots-disallowed, so Q–Z is carried forward to the next run) — all candidate titles were either already ledgered from prior topical sweeps or newly excluded (LatticeBox, above). IEEE S&P 2026's accepted-papers pages (both the legacy `ieee-security.org/TC/SP2026` URL and the current `sp2026.ieee-security.org` one) were rate-limited (HTTP 429) on every attempt this run; targeted keyword searches restricted to the venue found nothing new, but a full-page sweep is still outstanding. ACSAC 2026 and RAID 2026 remain unpublished (re-confirmed; ACSAC's `/2026/program/` page is now robots-disallowed rather than merely empty). CCS'26, AsiaCCS'26, ESORICS'26 and DSN'26 were not re-swept (no signal of new cycles since their prior full sweeps). The domain-restricted topical-sweep tripwire query ("screen sharing and media capture permission desktop application study") returned its eighth consecutive null, entirely off-venue HCI/screen-sharing-tool results.
+
 ## 2026-09-21 — Daily watch
 
 **Three new `in_scope` papers, all USENIX Security 2023 — and the run's real product is a tooling fix that unblocks the densest venue in the watch.** Ledger moves **42 → 45 in_scope**, **184 → 189 excluded**, context unchanged at **31**. Nothing newly *published* at any of the nine venues (eighteenth consecutive run); all three additions are backfill.
