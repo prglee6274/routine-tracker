@@ -1602,5 +1602,13 @@
  "2609.17550->2605.21006": {
   "type": "background",
   "evidence": "sycophancy를 difference-in-means/persona vector로 조향한 선행 연구들을 정리하는 related-work 문단에서 언급 — 본 논문이 검증하려는 activation-steering 주장 계열의 배경."
+ },
+ "2609.23892->2606.15796": {
+  "type": "background",
+  "evidence": "CLT/attribution-graph 기반 회로 분석이 여러 도메인에 쓰인다는 배경 나열 중 하나로 인용 (직접 비교/확장 아님)"
+ },
+ "2609.23892->2608.02632": {
+  "type": "compares",
+  "evidence": "attribution graph 노드를 자동 라벨링하는 대안 접근(LLM이 auto-interp 설명을 supernode로 묶음)을 관련 연구로 대비"
  }
 }

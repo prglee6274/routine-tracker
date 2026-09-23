@@ -24520,6 +24520,189 @@
     "pii_leakage",
     "agent_privacy"
    ]
+  },
+  "2609.23980": {
+   "version": "v1",
+   "title": "MobileCybench: Evaluating Agent Vulnerability Discovery via Executable Probes",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "agent vulnerability discovery",
+    "executable probes",
+    "mobile security",
+    "cybersecurity benchmark",
+    "coding agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2609.23892": {
+   "version": "v1",
+   "title": "Circuit-Diff: Factual Edit-based Intervention Method for Localizing Knowledge in Attribution Graphs",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "mechanistic interpretability",
+    "attribution graphs",
+    "cross-layer transcoders",
+    "circuit tracing",
+    "factual editing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "feature_attribution"
+   ]
+  },
+  "2609.22510": {
+   "version": "v1",
+   "title": "Defusing Explosive Prompts: Understanding and Preventing Trigger-Based Prompt Injections in LLM Agents",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "indirect prompt injection",
+    "trigger-based backdoor",
+    "LLM agents",
+    "tool execution",
+    "detection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.21686": {
+   "version": "v1",
+   "title": "CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "LLM agent privacy",
+    "channel-aware evaluation",
+    "recoverable leakage",
+    "memory/retrieval/tool pipelines"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2609.22200": {
+   "version": "v1",
+   "title": "PII-TRACE: A Benchmark for Context-Aware PII Detection in Multi-Turn LLM Conversations",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "PII detection",
+    "multi-turn conversations",
+    "benchmark",
+    "cross-turn tracing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2609.24826": {
+   "version": "v1",
+   "title": "OPBackdoor: Opportunistic Backdoors via Alibi-Aligned Reasoning",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "LLM backdoor",
+    "opportunistic trigger",
+    "alibi-aligned reasoning",
+    "chain-of-thought",
+    "contrastive monitoring"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ]
+  },
+  "2609.24379": {
+   "version": "v1",
+   "title": "Topographic Training Concentrates Causal Circuits Without Improving Neuron Monosemanticity",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "mechanistic interpretability",
+    "topographic loss",
+    "sparse autoencoders",
+    "monosemanticity",
+    "activation patching"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "mechanistic_position"
+   ]
+  },
+  "2609.22949": {
+   "version": "v1",
+   "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "multi-agent systems",
+    "prompt injection",
+    "threat model",
+    "inter-agent communication",
+    "defense architecture"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.20945": {
+   "version": "v1",
+   "title": "$\\mu^2$-Bench: A Multilingual Machine Unlearning Benchmark",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "multilingual unlearning",
+    "machine unlearning",
+    "benchmark",
+    "cross-lingual knowledge propagation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2609.26112": {
+   "version": "v1",
+   "title": "Certified Mechanistic Interpretability: Lifting Single-Input Findings to Bounded Neighbourhoods",
+   "first_seen": "2026-09-24",
+   "last_updated": "2026-09-24",
+   "folder": "2026-09-24",
+   "keywords": [
+    "mechanistic interpretability",
+    "certification",
+    "zonotope propagation",
+    "attention robustness",
+    "formal guarantees"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position"
+   ]
   }
  },
  "_taxonomy": {
@@ -24562,7 +24745,7 @@
    ]
   }
  },
- "last_run": "2026-09-20",
+ "last_run": "2026-09-24",
  "_meta": {
   "last_run": "2026-09-20"
  }
