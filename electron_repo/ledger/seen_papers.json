@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-23",
-  "last_run": "2026-09-23",
+  "last_updated": "2026-09-24",
+  "last_run": "2026-09-24",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2654,6 +2654,79 @@
       "added": "2026-09-23",
       "found_via": "NDSS 2026 accepted-papers list sweep (A-P, letters A through P covered this run; Q-Z not yet reachable via web_fetch, which truncates the page around 'Pruning the Tree' every time - continue from there next run, or via DBLP once its robots.txt allows it, or targeted domain-restricted searches for Q-Z-initial titles)",
       "title_norm": "latticebox a hardware software co designed framework for scalable and low latency compartmentalization"
+    },
+    {
+      "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
+      "venue": "NDSS 2025",
+      "year": 2025,
+      "authors_first": "Liam Wachter",
+      "reason": "Differential JIT fuzzer for V8 (Chrome) only; found 8 new V8 bugs via VRP. Paper text has no mention of Electron, Node.js, or embedded/desktop JS runtimes - purely a browser JS-engine fuzzing study. Same rationale as prior generic-browser-engine exclusions.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/dumpling-fine-grained-differential-javascript-engine-fuzzing/",
+      "added": "2026-09-24",
+      "found_via": "Domain-restricted search for NDSS 2026 Q-Z-range titles (sandbox/site-isolation/V8 terms); surfaced a 2025 paper not previously in the ledger despite being on-topic-adjacent, checked and excluded rather than left unlogged.",
+      "title_norm": "dumpling fine grained differential javascript engine fuzzing"
+    },
+    {
+      "title": "When AI Meets the Web: Prompt Injection Risks in Third-Party AI Chatbot Plugins",
+      "venue": "IEEE S&P 2026",
+      "year": 2026,
+      "authors_first": "Yigitcan Kaya",
+      "reason": "Large-scale study of 17 third-party AI chatbot plugins embedded in websites (WordPress + generic JS widgets); prompt-injection/conversation-forgery attacks. Entirely browser/website-based - no desktop application, Electron, or IPC angle.",
+      "url": "https://arxiv.org/abs/2511.05797",
+      "added": "2026-09-24",
+      "found_via": "IEEE S&P 2026 'to appear' standing query, cross-referenced against a CMU CyLab S&P'26 roundup that named the same paper as covering 'third-party chatbot plugins'.",
+      "title_norm": "when ai meets the web prompt injection risks in third party ai chatbot plugins"
+    },
+    {
+      "title": "CAMP: Compiler and Allocator-based Heap Memory Protection",
+      "venue": "USENIX Security 2024",
+      "year": 2024,
+      "authors_first": "Zhenpeng Lin",
+      "reason": "Compiler+allocator heap-corruption sanitizer for native C/C++ programs. No JavaScript, Electron, Node.js, or managed/native boundary content - generic systems-security memory safety work.",
+      "url": "https://www.usenix.org/system/files/usenixsecurity24-lin-zhenpeng.pdf",
+      "added": "2026-09-24",
+      "found_via": "Domain-restricted topical sweep, query 'native library loaded by an interpreter overwrites a function object in the managed heap' (drawing down the not_yet_used queue).",
+      "title_norm": "camp compiler and allocator based heap memory protection"
+    },
+    {
+      "title": "Can I Take Your Subdomain? Exploring Related-Domain Attacks in the Modern Web",
+      "venue": "USENIX Security 2021",
+      "year": 2021,
+      "authors_first": "Marco Squarcina",
+      "reason": "Related-domain/subdomain-takeover web attacker model (cookies, PSL, DNS). Pure web/same-site security with no desktop-application or Electron angle.",
+      "url": "https://www.usenix.org/system/files/sec21-squarcina.pdf",
+      "added": "2026-09-24",
+      "found_via": "Domain-restricted topical sweep, query 'security engineer assigns third party packages to isolation domains without touching their source' (drawing down the not_yet_used queue).",
+      "title_norm": "can i take your subdomain exploring related domain attacks in the modern web"
+    },
+    {
+      "title": "Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites",
+      "venue": "NDSS 2022",
+      "year": 2022,
+      "authors_first": "Zifeng Kang",
+      "reason": "Large-scale client-side (in-browser) prototype-pollution measurement across 1M websites. Explicitly contrasted with Node.js-side prototype pollution in its own abstract and stays on the client/website side throughout - no Electron or desktop-app angle, unlike Silent Spring/GHunter/Bullseye which target the Node.js/npm side.",
+      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-207/",
+      "added": "2026-09-24",
+      "found_via": "Domain-restricted search for NDSS prototype-pollution titles while probing NDSS 2026 Q-Z coverage; surfaced this older (2022) paper, missing from the ledger, checked and excluded.",
+      "title_norm": "probe the proto measuring client side prototype pollution vulnerabilities of one million real world websites"
+    },
+    {
+      "title": "Supply Chain Insecurity: Exposing Vulnerabilities in iOS Dependency Management Systems",
+      "venue": "RAID 2026",
+      "year": 2026,
+      "reason": "iOS/CocoaPods-style dependency-management ecosystem study. Mobile-only per scope exclusion; not npm/Node.js, no Electron angle.",
+      "added": "2026-09-24",
+      "found_via": "RAID 2026 program.html (Session 6B: Software Supply Chain Security) - the weekly RAID check found program.html now populated with session/paper titles even though accepted.html is still an empty stub; see venue notes.",
+      "title_norm": "supply chain insecurity exposing vulnerabilities in ios dependency management systems"
+    },
+    {
+      "title": "Adversarial Python Package Generation via Piggybacking with Large Language Models",
+      "venue": "RAID 2026",
+      "year": 2026,
+      "reason": "Targets the Python/PyPI package ecosystem (LLM-generated adversarial packages), not npm or the Node.js runtime that powers Electron.",
+      "added": "2026-09-24",
+      "found_via": "RAID 2026 program.html (Session 6B: Software Supply Chain Security), same source as the iOS dependency-management exclusion above.",
+      "title_norm": "adversarial python package generation via piggybacking with large language models"
     }
   ],
   "context_non_venue": [
