@@ -24703,6 +24703,185 @@
    "subtopics": [
     "mechanistic_position"
    ]
+  },
+  "2609.24967": {
+   "version": "v1",
+   "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "agent collusion",
+    "long-horizon interaction",
+    "multi-agent safety",
+    "emergent misalignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2609.21484": {
+   "version": "v1",
+   "title": "HE-Guardrail: A Homomorphic Guardrail Against Jailbreak Attacks for Encrypted Large Language Model Inference",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "homomorphic encryption",
+    "jailbreak defense",
+    "encrypted LLM inference",
+    "guardrail"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism"
+   ]
+  },
+  "2609.27336": {
+   "version": "v1",
+   "title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "adaptive red teaming",
+    "automated red teaming",
+    "LLM safety evaluation",
+    "agentic testing"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2609.28197": {
+   "version": "v1",
+   "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "agent safety benchmark",
+    "proactive intervention",
+    "multi-turn safety",
+    "trajectory risk"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2609.25014": {
+   "version": "v1",
+   "title": "Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "PII leakage",
+    "quantization",
+    "small language models",
+    "deployment privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2609.27355": {
+   "version": "v1",
+   "title": "Quantization-Robust Unlearning through the Lens of Retain-Forget Loss Landscapes Interaction",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "machine unlearning",
+    "quantization robustness",
+    "loss landscape",
+    "LLM compliance"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2609.24440": {
+   "version": "v1",
+   "title": "Comparing Latent Concept Formation in State Space Models and Transformers via Sparse Autoencoders",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "sparse autoencoder",
+    "state space models",
+    "Mamba",
+    "universality hypothesis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2609.25021": {
+   "version": "v1",
+   "title": "\"As a Language Model...\": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "activation steering",
+    "self-referential voice",
+    "chat template",
+    "introspection confound"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "interp_method"
+   ]
+  },
+  "2609.27158": {
+   "version": "v1",
+   "title": "The Linear Representation Hypothesis Needs a Group Action",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "linear representation hypothesis",
+    "group action",
+    "representation equivalence",
+    "interpretability theory"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2609.20561": {
+   "version": "v1",
+   "title": "Empirical Analysis of Randomness Quality in Differential Privacy Mechanisms",
+   "first_seen": "2026-09-25",
+   "last_updated": "2026-09-25",
+   "folder": "2026-09-25",
+   "keywords": [
+    "differential privacy",
+    "entropy quality",
+    "random number generators",
+    "privacy loss"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -24745,7 +24924,7 @@
    ]
   }
  },
- "last_run": "2026-09-24",
+ "last_run": "2026-09-25",
  "_meta": {
   "last_run": "2026-09-20"
  }

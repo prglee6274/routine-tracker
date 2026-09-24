@@ -1610,5 +1610,13 @@
  "2609.23892->2608.02632": {
   "type": "compares",
   "evidence": "attribution graph 노드를 자동 라벨링하는 대안 접근(LLM이 auto-interp 설명을 supernode로 묶음)을 관련 연구로 대비"
+ },
+ "2609.27158->2605.29358": {
+  "type": "background",
+  "evidence": "Cites Scaling Monosemanticity as prior interpretability-practice context while discussing direction-calibration conventions (e.g. Wollschläger et al.), not as a method it directly extends or compares against."
+ },
+ "2609.27336->2606.09701": {
+  "type": "background",
+  "evidence": "Related-work survey sentence: CART situates itself among several connected adaptive/GRPO-based red-teaming approaches including this one, without a direct extends/compares claim."
  }
 }
