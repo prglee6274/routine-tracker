@@ -1618,5 +1618,25 @@
  "2609.27336->2606.09701": {
   "type": "background",
   "evidence": "Related-work survey sentence: CART situates itself among several connected adaptive/GRPO-based red-teaming approaches including this one, without a direct extends/compares claim."
+ },
+ "2609.28274->2607.07368": {
+  "type": "background",
+  "evidence": "Cited alongside other emerging-evidence references on hard-to-control multi-agent coordination; not directly extended or compared."
+ },
+ "2609.29045->2607.25857": {
+  "type": "background",
+  "evidence": "Listed in a footnote reference enumeration alongside other safety-adjacent models; general background citation."
+ },
+ "2609.29045->2608.05783": {
+  "type": "baseline",
+  "evidence": "GROM is a gradient-free one-shot machine unlearning method cited among the editing/unlearning techniques Toketive evaluates against."
+ },
+ "2609.29362->2605.29358": {
+  "type": "background",
+  "evidence": "Cited as foundational work establishing SAEs as interpretability tools, motivating the paper's use of SAEs rather than being directly extended."
+ },
+ "2609.30266->2609.30217": {
+  "type": "compares",
+  "evidence": "Companion paper from the same author group (same day, overlapping authors) studying a related but distinct agent-oversight-evasion phenomenon."
  }
 }

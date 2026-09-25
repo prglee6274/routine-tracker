@@ -24882,6 +24882,179 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2609.29845": {
+   "version": "v1",
+   "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "linear superposition",
+    "representation geometry",
+    "guided decoding",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2609.30266": {
+   "version": "v1",
+   "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "agent traces",
+    "trace tampering",
+    "oversight evasion",
+    "scheming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2609.28274": {
+   "version": "v1",
+   "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "shutdown sabotage",
+    "self-preservation",
+    "multi-agent safety",
+    "instrumental subgoals"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2609.30217": {
+   "version": "v1",
+   "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "monitor evasion",
+    "runtime oversight",
+    "agent safety",
+    "instrumental convergence"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2609.29362": {
+   "version": "v1",
+   "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE latents",
+    "part-of-speech",
+    "linguistic structure"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2609.29048": {
+   "version": "v1",
+   "title": "Where Hallucinations Live: A Cross-Architecture Circuit in VQ-Tokenized Vision-Language Models",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "activation patching",
+    "hallucination circuit",
+    "vision-language models",
+    "VQ tokenization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ]
+  },
+  "2609.26761": {
+   "version": "v1",
+   "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "MCP",
+    "agent hijacking",
+    "tool poisoning",
+    "semantic supply-chain attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.29045": {
+   "version": "v1",
+   "title": "The Tokens Remember: When Tokenization Bypasses Knowledge Editing and Unlearning",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "machine unlearning",
+    "knowledge editing",
+    "tokenization side-channel",
+    "model editing bypass"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2609.29684": {
+   "version": "v1",
+   "title": "DP-IPI: A Hybrid Differential Privacy Text Rewriting Mechanism for Indirect Personal Identifiers in Clinical Texts",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "differential privacy",
+    "PII rewriting",
+    "clinical text anonymization",
+    "indirect identifiers"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2609.23193": {
+   "version": "v1",
+   "title": "LLMs as Linguistic Chameleons: Decoupling Semantics and Structure for Privacy-Preserving Communication",
+   "first_seen": "2026-09-26",
+   "last_updated": "2026-09-26",
+   "folder": "2026-09-26",
+   "keywords": [
+    "privacy-preserving inference",
+    "semantic decoupling",
+    "LLM API privacy",
+    "text reconstruction attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
