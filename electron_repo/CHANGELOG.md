@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-25 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.** Venues checked: USENIX Security (Cycle 2 pagination sweep still pending, not done today), IEEE S&P 2026 (accepted-papers page 429'd for the 3rd consecutive run — effectively blocked for scheduled runs right now), NDSS 2026 (Q-Z remains unswept by full list, confirmed dead end on the raw fetch; targeted searches found nothing new), CCS 2026 / AsiaCCS 2026 / ESORICS 2026 / DSN 2026 / RAID 2026 / ACSAC 2026 (no re-sweep due today per each venue's own schedule).
+
+Work this run went to the two required standing channels instead of venue-page sweeps:
+
+- **Related-work / author-page mining backlog** (overdue since 09-17): Mohammad Mannan / Amr Youssef (Concordia) mined in full — zero new, their one topically-close paper (Bullseye, NDSS'26) was already in_scope via the ordinary venue channel. Zhiqiang Lin's OSU lab page turned out to be stale (redirects to a page listing only 2018–2019 work) — left open, try `zhiqlin.github.io` directly next time. Yue Zhang (Drexel) mined in full — zero new; his current line is IoT/mobile/firmware, not the desktop-hybrid-app angle from his earlier co-authored work. The backlog queue is now empty and needs a fresh target next run.
+- **Domain-restricted topical sweep**: all 4 queued queries fired, all null. Two were clean "cluster exhausted" or "wrong corpus" (webview → Android/mobile corpus; prototype-chain-trick → fully dispositioned neighborhood). Two both resurfaced the already-excluded USENIX Sec '26 paper "When Updates Backfire" (desktop software update-mechanism MITM study) — its existing exclusion reason was independently re-verified against the full text and stands correctly grounded. The query queue is now empty and needs refilling.
+
+Both required-channel queues being simultaneously empty is itself the finding worth flagging for the next run: a fresh author target and 3–4 new topical-sweep queries need to be picked before those channels can produce anything further.
+
 ## 2026-09-24 — Daily watch
 
 **Seven new `excluded` entries, no new in-scope papers — a checks-and-cleanup run: every due venue check ran, but the day's real finding is that RAID 2026's `program.html` has silently gone from all-TBD to a fully populated session/paper list while `accepted.html` stays empty.** Ledger moves **45 → 45 in_scope** (unchanged), **190 → 197 excluded**, context unchanged at **31**.
