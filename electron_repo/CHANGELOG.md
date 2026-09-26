@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-26 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.** ACSAC weekly check (due today) performed — still no 2026 program/accepted-papers page, ninth consecutive null observation; next check 2026-10-20. RAID (next due 2026-10-01), CCS/AsiaCCS/ESORICS/DSN 2026 (already fully swept) correctly skipped.
+
+- **Domain-restricted topical sweep**: queue refilled and all 6 queries fired (custom protocol handlers, system tray menus, clipboard monitors, notification bridges, CDP/remote-debugging-port exposure, deep-link handlers). Five were clean nulls (wrong corpus or no venue paper at all). One near-miss: *"Chrowned by an Extension: Abusing the Chrome DevTools Protocol through the Debugger API"* — confirmed IEEE **EuroS&P 2023** (not one of the 9 watched venues) and about malicious browser extensions abusing CDP against Chromium generally, not an Electron app's own exposed debug port — excluded from the ledger on venue grounds, not added. Queue refilled with 3 fresh queries for next run.
+- **Related-work author-page mining**: `zhiqlin.github.io/publication.html` (his personal page, not the stale OSU lab page left open on 09-25) mined in full — zero new in_scope; his current line is web-agent architecture and firmware/baseband reverse engineering, not the desktop-hybrid-app angle. This closes out the entire Mannan/Youssef + Zhiqiang Lin + Yue Zhang author cluster as exhausted. No fresh author target is queued yet — next run should try mining `ndss2026-bullseye.md`'s own citations or the asiaccs2020/2021 title-by-title backfill.
+- **IEEE S&P 2026**: retried once — still HTTP 429, 4th consecutive run. Tried a new lead (IEEE CSDL table-of-contents page) as an alternate host; it fetched but returned no paper list, worth one more attempt with a more specific sub-path before writing off.
+- **USENIX Sec '26 Cycle 2** pagination sweep still not done (targeted searches instead, nothing new); **NDSS'26 Q-Z** not re-attempted (channel exhausted per 09-25, no new vocabulary today).
+
 ## 2026-09-25 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.** Venues checked: USENIX Security (Cycle 2 pagination sweep still pending, not done today), IEEE S&P 2026 (accepted-papers page 429'd for the 3rd consecutive run — effectively blocked for scheduled runs right now), NDSS 2026 (Q-Z remains unswept by full list, confirmed dead end on the raw fetch; targeted searches found nothing new), CCS 2026 / AsiaCCS 2026 / ESORICS 2026 / DSN 2026 / RAID 2026 / ACSAC 2026 (no re-sweep due today per each venue's own schedule).
