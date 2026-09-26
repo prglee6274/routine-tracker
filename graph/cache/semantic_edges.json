@@ -1638,5 +1638,9 @@
  "2609.30266->2609.30217": {
   "type": "compares",
   "evidence": "Companion paper from the same author group (same day, overlapping authors) studying a related but distinct agent-oversight-evasion phenomenon."
+ },
+ "2609.26637->2608.20055": {
+  "type": "compares",
+  "evidence": "Both papers extract hidden/native chain-of-thought from closed or reasoning models via different elicitation techniques; cited as related prior work solving the same extraction problem."
  }
 }

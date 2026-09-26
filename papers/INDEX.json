@@ -25055,6 +25055,185 @@
    "subtopics": [
     "pii_leakage"
    ]
+  },
+  "2609.27542": {
+   "version": "v1",
+   "title": "Control-Token Injection Suppresses Chain-of-Thought and Defeats Reasoning-Based Oversight in Tool-Using Agents",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ],
+   "keywords": [
+    "control-token injection",
+    "oversight evasion",
+    "tool-use agents",
+    "chain-of-thought suppression"
+   ]
+  },
+  "2609.28614": {
+   "version": "v1",
+   "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ],
+   "keywords": [
+    "reward hacking",
+    "autonomous research agents",
+    "oversight evasion",
+    "LLM review panel"
+   ]
+  },
+  "2609.28900": {
+   "version": "v1",
+   "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism"
+   ],
+   "keywords": [
+    "steganography",
+    "multi-agent collusion",
+    "covert communication",
+    "agent auditing"
+   ]
+  },
+  "2609.26184": {
+   "version": "v1",
+   "title": "Silent Sabotage: Internal State Triggered Backdoor Attacks on LLM-Powered Robotic Systems",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ],
+   "keywords": [
+    "backdoor attack",
+    "LLM robotics",
+    "internal-state trigger",
+    "sabotage"
+   ]
+  },
+  "2609.29781": {
+   "version": "v1",
+   "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "mechanistic_position"
+   ],
+   "keywords": [
+    "hallucination neurons",
+    "sparse probing",
+    "diagnostic protocol",
+    "mechanistic interpretability"
+   ]
+  },
+  "2609.29551": {
+   "version": "v1",
+   "title": "HiPACE: Hierarchical Phase-Boundary Analysis and Controlled Evaluation of Feature Absorption in Sparse Autoencoders",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ],
+   "keywords": [
+    "sparse autoencoder",
+    "feature absorption",
+    "phase boundary",
+    "WordNet hierarchy"
+   ]
+  },
+  "2609.26637": {
+   "version": "v1",
+   "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "representation"
+   ],
+   "keywords": [
+    "hidden chain-of-thought",
+    "reasoning extraction",
+    "frontier models",
+    "behavioral interpretability"
+   ]
+  },
+  "2609.30094": {
+   "version": "v1",
+   "title": "PrivDrift: Auditing User-Secret Leakage Under Topic Drift in Active LLM Conversations",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ],
+   "keywords": [
+    "conversational privacy",
+    "topic drift",
+    "secret leakage",
+    "LLM auditing"
+   ]
+  },
+  "2609.21340": {
+   "version": "v1",
+   "title": "Conformal Privacy Auditing: Calibrated Re-identification Attacks with Statistical Guarantees",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "pii_leakage"
+   ],
+   "keywords": [
+    "re-identification attack",
+    "conformal prediction",
+    "privacy auditing",
+    "statistical guarantee"
+   ]
+  },
+  "2609.27399": {
+   "version": "v1",
+   "title": "Forget who you Forgot: Speaker Unlearning to Prevent Re-Identification in Zero-Shot Text-to-Speech",
+   "first_seen": "2026-09-27",
+   "last_updated": "2026-09-27",
+   "folder": "2026-09-27",
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "pii_leakage"
+   ],
+   "keywords": [
+    "speaker unlearning",
+    "voice re-identification",
+    "zero-shot TTS",
+    "activation steering"
+   ]
   }
  },
  "_taxonomy": {
@@ -25097,7 +25276,7 @@
    ]
   }
  },
- "last_run": "2026-09-25",
+ "last_run": "2026-09-27",
  "_meta": {
   "last_run": "2026-09-20"
  }
