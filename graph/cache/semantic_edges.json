@@ -1642,5 +1642,9 @@
  "2609.26637->2608.20055": {
   "type": "compares",
   "evidence": "Both papers extract hidden/native chain-of-thought from closed or reasoning models via different elicitation techniques; cited as related prior work solving the same extraction problem."
+ },
+ "2609.22224->2606.16920": {
+  "type": "background",
+  "evidence": "From Trait Vectors to Circuits cites Demystifying Variance in Circuit Discovery of LLMs as prior circuit-discovery methodology context (thin extracted context, header-only match)."
  }
 }

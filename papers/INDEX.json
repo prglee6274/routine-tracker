@@ -25234,6 +25234,182 @@
     "zero-shot TTS",
     "activation steering"
    ]
+  },
+  "2609.28613": {
+   "version": "v1",
+   "title": "Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "prompt injection",
+    "schema-defined output",
+    "adaptive attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.29287": {
+   "version": "v1",
+   "title": "AEGIS: Audio Endogenous Guarding via Internal Signals Against Large Audio-Language Model Jailbreaks",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "jailbreak",
+    "defense mechanism",
+    "audio-language model"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "multimodal_attack"
+   ]
+  },
+  "2609.26555": {
+   "version": "v1",
+   "title": "Rouxii: Exploiting Honeypots with Deception-Aware AI Pentesters",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "red teaming",
+    "agent safety",
+    "honeypot",
+    "counter-deception"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2609.21941": {
+   "version": "v1",
+   "title": "End-to-End Hard-Label Cryptanalytic Model Extraction Using Efficient Sign Recovery",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "model extraction",
+    "model stealing",
+    "hard-label attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "model_extraction"
+   ]
+  },
+  "2609.24821": {
+   "version": "v1",
+   "title": "The Answer-Basin Representation Hypothesis: We Are Not Probing or Steering Concepts",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "probing",
+    "activation steering",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "mechanistic_position",
+    "interp_method"
+   ]
+  },
+  "2609.22224": {
+   "version": "v1",
+   "title": "From Trait Vectors to Circuits: Tracing Refusal and Sycophancy Through Language Models",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "circuits",
+    "activation steering",
+    "refusal",
+    "sycophancy"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "activation_steering",
+    "interp_method"
+   ]
+  },
+  "2609.28682": {
+   "version": "v1",
+   "title": "Thinking Leakage: A Causal Audit of NoThink Post-Training in Hybrid Reasoning Models",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "causal mediation",
+    "activation steering",
+    "reasoning model"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "feature_attribution",
+    "interp_method"
+   ]
+  },
+  "2609.28537": {
+   "version": "v1",
+   "title": "Privacy Leakage Through AI-mediated Analysis of Smartphone Data",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "PII leakage",
+    "LLM inference",
+    "smartphone privacy",
+    "adtech"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2609.22188": {
+   "version": "v1",
+   "title": "Fairness Beyond Anonymization? Demographic Leakage in German LLM-Generated Resumes",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "PII leakage",
+    "fairness",
+    "LLM hiring pipeline"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2609.26508": {
+   "version": "v1",
+   "title": "Gap-Free Streaming PCA Beyond Rank-One Updates: Near-Optimal Rates and Applications to Differential Privacy",
+   "first_seen": "2026-09-28",
+   "last_updated": "2026-09-28",
+   "folder": "2026-09-28",
+   "keywords": [
+    "differential privacy",
+    "streaming PCA"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -25276,7 +25452,7 @@
    ]
   }
  },
- "last_run": "2026-09-27",
+ "last_run": "2026-09-28",
  "_meta": {
   "last_run": "2026-09-20"
  }
