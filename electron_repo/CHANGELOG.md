@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-09-27 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked: USENIX Security '26 Cycle 1 (accepted-papers page swept for scope keywords, only
+hit was the already-excluded PyPI knowledge-mining paper), IEEE S&P 2026 / NDSS 2026 / CCS 2026
+(each already fully swept in prior runs; general + targeted searches today found nothing beyond
+titles already in the ledger, notably Bullseye at NDSS and Mini-Programs-Mega-Problems at CCS, both
+already dispositioned), AsiaCCS 2026 Cycle 1 (73 titles reviewed; the two topically-closest --
+Original Sin of npm, CRX-ray -- are both already excluded), DSN 2026 (accepted list reviewed; every
+plausible hit -- Demystifying PWA Permissions, LLM-Empowered Windows API Discovery, VulJSFormer,
+VCAligner, A First Look at MCP, Aegis -- already excluded), ACSAC 2026 / ESORICS 2026 (both still at
+call-for-papers stage, no accepted list yet; off-schedule spot-check only, next real ACSAC check
+2026-10-20 stands). RAID 2026 next scheduled check remains 2026-10-01 (program.html); an off-schedule
+peek at accepted.html found it changed from an empty heading to an access-code gate -- still no
+titles recoverable, logged in the venue notes.
+
+- **Domain-restricted topical sweep** (required channel): fired all 3 queued queries (screen-recording
+  permission bridge, plugin marketplace unsigned code, local update server arbitrary commands) --
+  ALL NULL. Results were dominated by the pre-2020 Felt permission-redelegation lineage and two
+  papers already in the ledger (*Browser Permission Mechanisms Demystified*, *When Updates Backfire*).
+  Queue refilled with 3 fresh architecture-shaped, desktop-disambiguating queries for next run.
+- **Related-work / author-page mining** (required channel): attempted the queued AsiaCCS 2021
+  title-by-title backfill. Still blocked -- organiser site decommissioned, DBLP TOC returns empty,
+  and the ACM DL proceedings page now 403s to web_fetch (previously untested for this exact URL).
+  No open route found. Recommend trying 2020 next, or mining ndss2026-bullseye's own citations
+  (untried, no blocked channel) if 2020 is equally blocked.
+
 ## 2026-09-26 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.** ACSAC weekly check (due today) performed — still no 2026 program/accepted-papers page, ninth consecutive null observation; next check 2026-10-20. RAID (next due 2026-10-01), CCS/AsiaCCS/ESORICS/DSN 2026 (already fully swept) correctly skipped.
