@@ -957,13 +957,13 @@
     },
     "cloudflare/security-audit-skill": {
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-28",
-      "days_on_list": 2,
-      "last_stars": 22278,
+      "last_seen": "2026-09-29",
+      "days_on_list": 3,
+      "last_stars": 22665,
       "category": "security",
       "language": "JavaScript",
       "graduated": false,
-      "last_pushed_at": "2026-09-15"
+      "last_pushed_at": "2026-09-14"
     },
     "CodebuffAI/freebuff": {
       "first_seen": "2026-08-16",
@@ -3435,13 +3435,13 @@
     },
     "paperclipai/paperclip": {
       "first_seen": "2026-08-12",
-      "last_seen": "2026-09-28",
-      "days_on_list": 2,
-      "last_stars": 89346,
+      "last_seen": "2026-09-29",
+      "days_on_list": 3,
+      "last_stars": 92380,
       "category": "tools",
       "language": "TypeScript",
       "graduated": false,
-      "last_pushed_at": "2026-09-27"
+      "last_pushed_at": "2026-09-28"
     },
     "pbakaus/impeccable": {
       "first_seen": "2026-07-28",
@@ -3810,13 +3810,13 @@
     },
     "samugit83/redamon": {
       "first_seen": "2026-06-09",
-      "last_seen": "2026-07-04",
+      "last_seen": "2026-09-29",
       "days_on_list": 1,
-      "last_stars": 2000,
+      "last_stars": 2743,
       "category": "security",
       "language": "Python",
       "graduated": false,
-      "last_pushed_at": ""
+      "last_pushed_at": "2026-09-27"
     },
     "santifer/career-ops": {
       "first_seen": "2026-08-22",
@@ -5246,13 +5246,13 @@
     },
     "dream-num/univer": {
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-28",
-      "days_on_list": 3,
-      "last_stars": 20060,
-      "last_pushed_at": "2026-09-27",
+      "last_seen": "2026-09-29",
+      "days_on_list": 4,
+      "last_stars": 21125,
+      "last_pushed_at": "2026-09-28",
       "category": "llm",
       "language": "TypeScript",
-      "graduated": false
+      "graduated": true
     },
     "LibreChat-AI/LibreChat": {
       "first_seen": "2026-09-25",
@@ -5286,10 +5286,10 @@
     },
     "vectorize-io/hindsight": {
       "first_seen": "2026-09-26",
-      "last_seen": "2026-09-28",
-      "last_stars": 36898,
-      "last_pushed_at": "2026-09-26",
-      "days_on_list": 2,
+      "last_seen": "2026-09-29",
+      "last_stars": 40718,
+      "last_pushed_at": "2026-09-28",
+      "days_on_list": 3,
       "category": "llm",
       "language": "Python",
       "graduated": false
@@ -5302,6 +5302,56 @@
       "days_on_list": 2,
       "category": "llm",
       "language": "Python",
+      "graduated": false
+    },
+    "mvschwarz/openrig": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "days_on_list": 1,
+      "last_stars": 1575,
+      "last_pushed_at": "2026-09-28",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "mobile-next/mobile-mcp": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "days_on_list": 1,
+      "last_stars": 8212,
+      "last_pushed_at": "2026-09-23",
+      "category": "llm",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "ffuf/ffuf": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "days_on_list": 1,
+      "last_stars": 16759,
+      "last_pushed_at": "2026-09-26",
+      "category": "security",
+      "language": "Go",
+      "graduated": false
+    },
+    "vercel-labs/scriptc": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "days_on_list": 1,
+      "last_stars": 5597,
+      "last_pushed_at": "2026-09-28",
+      "category": "tools",
+      "language": "TypeScript",
+      "graduated": false
+    },
+    "grafana/k6": {
+      "first_seen": "2026-09-29",
+      "last_seen": "2026-09-29",
+      "days_on_list": 1,
+      "last_stars": 31691,
+      "last_pushed_at": "2026-09-28",
+      "category": "tools",
+      "language": "Go",
       "graduated": false
     }
   },
