@@ -25410,6 +25410,173 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2609.31318": {
+   "version": "v1",
+   "title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "red-teaming",
+    "AI agents",
+    "vulnerability discovery"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2609.31121": {
+   "version": "v1",
+   "title": "Monitor Jailbreaking: Evading Chain-of-Thought Monitoring Without Encoded Reasoning",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "CoT monitoring",
+    "monitor jailbreaking",
+    "reinforcement learning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming"
+   ]
+  },
+  "2609.30383": {
+   "version": "v1",
+   "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "skill cascading attack",
+    "multi-agent red-teaming",
+    "agent skills"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2609.27996": {
+   "version": "v1",
+   "title": "Your Model Is Leaking: Covert Information Transfer through LLM Residual Streams",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "covert channel",
+    "residual stream",
+    "information leakage",
+    "LLM runtime"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism"
+   ]
+  },
+  "2609.25518": {
+   "version": "v1",
+   "title": "Matryoshka attribution: Learning to attribute language model outputs to representations and weights",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "attribution",
+    "circuit discovery",
+    "mask learning",
+    "MIB"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution"
+   ]
+  },
+  "2609.31122": {
+   "version": "v1",
+   "title": "LocUS: Head Selection and Subspace Projection for Targeted Activation Steering",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "activation steering",
+    "unembedding subspace",
+    "attention heads",
+    "toxicity mitigation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering"
+   ]
+  },
+  "2609.30954": {
+   "version": "v1",
+   "title": "FTB Graph: Determining and Validating First-token Broadcasters and Language-Identity Head Circuits in Multilingual Language Models",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "edge attribution patching",
+    "activation patching",
+    "multilingual",
+    "language identity heads"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ]
+  },
+  "2609.30909": {
+   "version": "v1",
+   "title": "Machine Unlearning for Large Language Models: Foundations, Advances, and Agentic Extensions",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "machine unlearning",
+    "survey",
+    "agentic memory",
+    "evaluation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2609.31494": {
+   "version": "v1",
+   "title": "Toward verifiably private learning from federated data",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "federated learning",
+    "TEE",
+    "differential privacy",
+    "verifiable privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2609.31056": {
+   "version": "v1",
+   "title": "Neuralyzing the Trace: Selective Representation-Level Unlearning with Contrastive Sparse Autoencoders",
+   "first_seen": "2026-09-29",
+   "last_updated": "2026-09-29",
+   "folder": "2026-09-29",
+   "keywords": [
+    "unlearning",
+    "sparse autoencoder",
+    "GDPR",
+    "contrastive SAE"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -25452,7 +25619,7 @@
    ]
   }
  },
- "last_run": "2026-09-28",
+ "last_run": "2026-09-29",
  "_meta": {
   "last_run": "2026-09-20"
  }

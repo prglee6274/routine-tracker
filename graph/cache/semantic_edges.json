@@ -1646,5 +1646,21 @@
  "2609.22224->2606.16920": {
   "type": "background",
   "evidence": "From Trait Vectors to Circuits cites Demystifying Variance in Circuit Discovery of LLMs as prior circuit-discovery methodology context (thin extracted context, header-only match)."
+ },
+ "2609.30909->2505.24379": {
+  "type": "background",
+  "evidence": "Survey cites it among unlearning evaluation/attack literature."
+ },
+ "2609.30909->2605.01735": {
+  "type": "background",
+  "evidence": "Surveyed as a geometric unlearning method."
+ },
+ "2609.30909->2606.10062": {
+  "type": "background",
+  "evidence": "Cited for post-deployment agent memory as an unlearning target."
+ },
+ "2609.30909->2606.18473": {
+  "type": "background",
+  "evidence": "Cited among unlearning auditing works."
  }
 }
