@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-28 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): USENIX Sec / S&P / NDSS / CCS general + Electron-vocabulary searches (only hit: *Buzz to Boom*, arXiv 2607.20698, already tracked as a non-venue preprint), domain-restricted IPC/privilege topical sweep (null), RAID 2026 accepted.html (still access-code gated, no titles; formal check due 2026-10-01), ACSAC 2026 (no program page yet; next check 2026-10-20), ESORICS 2026 native-addon/Electron/VS Code query (null). AsiaCCS/DSN not re-swept (no lists changed).
+
 ## 2026-09-27 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
