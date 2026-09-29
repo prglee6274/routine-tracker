@@ -1662,5 +1662,37 @@
  "2609.30909->2606.18473": {
   "type": "background",
   "evidence": "Cited among unlearning auditing works."
+ },
+ "2609.33136->2510.05582": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
+ },
+ "2609.33136->2511.14045": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
+ },
+ "2609.33628->2608.05108": {
+  "type": "background",
+  "evidence": "Same-group prior work on automatic prompt-injection red teaming; reference-list only."
+ },
+ "2609.33628->2608.21500": {
+  "type": "compares",
+  "evidence": "Evaluated against SecOPD as a state-of-the-art defense against adaptive prompt injection."
+ },
+ "2609.33985->2606.17110": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
+ },
+ "2609.34771->2605.05892": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
+ },
+ "2609.34771->2605.18549": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
+ },
+ "2609.34771->2608.24988": {
+  "type": "background",
+  "evidence": "Cited in related work / reference list only."
  }
 }
