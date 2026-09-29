@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-29 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): all 9 via general Electron/desktop/Node.js searches plus a domain-restricted (usenix/ndss/ieee-security/acm/arxiv) IPC/contextIsolation topical sweep. Only hits were already-tracked papers (Inspectron, NDSS'23 Electron study, CCS'22 RCE, NodeMedic-FINE, Buzz to Boom, hidden-properties, BinWrap). ACSAC 2026 still no public program found.
+
 ## 2026-09-28 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
