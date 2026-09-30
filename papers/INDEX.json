@@ -25761,6 +25761,191 @@
    "subtopics": [
     "membership_inference"
    ]
+  },
+  "2609.37737": {
+   "version": "v1",
+   "title": "Where Do LLMs Decide to Break the Rules? Mechanistic Localization of Prompt Injection Compliance",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "prompt injection",
+    "activation patching",
+    "mechanistic localization",
+    "linear subspace"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2609.35932": {
+   "version": "v1",
+   "title": "Same Bytes, Different Authority: Reserved-Token Representations in Chat-Template Prompt Injection",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "prompt injection",
+    "chat template",
+    "reserved tokens",
+    "InjecAgent",
+    "AgentDojo"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2609.35870": {
+   "version": "v1",
+   "title": "Says Block, Still Acts: Why LLM Safety Judgments Fail to Govern Action in LLM Agents",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "agent safety",
+    "judgment-action gap",
+    "causal intervention",
+    "steering subspace"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2609.37468": {
+   "version": "v1",
+   "title": "Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "backdoor",
+    "agentic RAG",
+    "malicious retriever",
+    "backdoor purification",
+    "concealment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2609.35822": {
+   "version": "v1",
+   "title": "Tracing mechanisms of sycophantic agreement in language models",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "sycophancy",
+    "causal mediation",
+    "attention heads",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2609.35210": {
+   "version": "v1",
+   "title": "Understanding On-Policy Distillation: A Mechanistic Interpretability Perspective via Sparse Crosscoders",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "sparse crosscoder",
+    "on-policy distillation",
+    "sparse autoencoder",
+    "feature dictionary",
+    "swap readout"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2609.37857": {
+   "version": "v1",
+   "title": "Active Budget Can Kill Sensitivity: Diagnosing and Repairing TopK Sparse Autoencoder Reliability",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "sparse autoencoder",
+    "TopK SAE",
+    "feature sensitivity",
+    "rare features",
+    "pairwise rank stabilization"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2609.37344": {
+   "version": "v1",
+   "title": "A Sharp Transition in Data Reconstruction under Differential Privacy",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "differential privacy",
+    "data reconstruction",
+    "zCDP",
+    "information-theoretic lower bound",
+    "effective dimension"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "data_extraction"
+   ]
+  },
+  "2609.36612": {
+   "version": "v1",
+   "title": "Do LLMs Really Forget? Hidden-State Leakage in Model Unlearning and How to Fix it",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "LLM unlearning",
+    "hidden-state leakage",
+    "probe decoder",
+    "TOFU",
+    "MUSE",
+    "WMDP"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2609.36331": {
+   "version": "v1",
+   "title": "Calibrating One-Round Membership Inference with Neighbors",
+   "first_seen": "2026-10-01",
+   "last_updated": "2026-10-01",
+   "folder": "2026-10-01",
+   "keywords": [
+    "membership inference",
+    "one-round MI",
+    "reference-free calibration",
+    "neighbors",
+    "LiRA"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -25803,7 +25988,7 @@
    ]
   }
  },
- "last_run": "2026-09-30",
+ "last_run": "2026-10-01",
  "_meta": {
   "last_run": "2026-09-20"
  }
