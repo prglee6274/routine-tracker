@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-30 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): general Electron-security search (only hit: *Buzz to Boom*, arXiv 2607.20698, already tracked; rest were CVE pages), domain-restricted (usenix/ndss/ieee-security/acm/arxiv/acsac) IPC/contextIsolation topical sweep (only already-tracked: Inspectron, NDSS'23 Electron study, CCS'22 RCE), native-addon/cross-language sweep (only Bilingual Problems, tracked), ACSAC/RAID/ESORICS 2026 query (null). RAID 2026 accepted.html could not be fetched (robots/timeout) — formal check still due 2026-10-01.
+
 ## 2026-09-29 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
