@@ -1450,13 +1450,13 @@
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 139115,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 139361,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-01"
   },
   "fingerprintjs/fingerprintjs": {
    "first_seen": "2026-07-18",
@@ -3158,9 +3158,9 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 18770,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 18930,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -5374,29 +5374,29 @@
   },
   "ifixai-ai/iFixAi": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 17266,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 18305,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-01"
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 74173,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 74233,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-01"
   },
   "feder-cr/dots": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 1928,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 2182,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -5404,13 +5404,13 @@
   },
   "dzhng/jevgrep": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 1887,
+   "last_seen": "2026-10-02",
+   "days_on_list": 2,
+   "last_stars": 1984,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-29"
+   "last_pushed_at": "2026-10-01"
   },
   "tobi/disktree": {
    "first_seen": "2026-10-01",
@@ -5421,10 +5421,50 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-09-27"
+  },
+  "hashgraph-online/hol-guard": {
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "days_on_list": 1,
+   "last_stars": 689,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-01"
+  },
+  "MCPJam/inspector": {
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "days_on_list": 1,
+   "last_stars": 2232,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-01"
+  },
+  "Louis-CFM/coucou": {
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "days_on_list": 1,
+   "last_stars": 2339,
+   "category": "tools",
+   "language": "Swift",
+   "graduated": false,
+   "last_pushed_at": "2026-10-01"
+  },
+  "firelex/jeff": {
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "days_on_list": 1,
+   "last_stars": 1258,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-01"
   }
  },
- "last_updated": "2026-10-01",
+ "last_updated": "2026-10-02",
  "updated": "2026-10-01",
- "last_run": "2026-10-01",
- "count": 547
+ "last_run": "2026-10-02",
+ "count": 551
 }
