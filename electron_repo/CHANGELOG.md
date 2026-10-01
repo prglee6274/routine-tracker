@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): general Electron/nodeIntegration/contextIsolation/IPC search (only CVE pages), XSS-to-RCE/hybrid desktop search (only *Buzz to Boom*, arXiv 2607.20698, already tracked), ACSAC 2026 Electron/npm/Node.js query (null; no program page yet, next check 2026-10-20). RAID 2026 formal check (due today): raid2026.org/accepted.html still shows the heading with NO titles (fetched via web_fetch; search did not surface new lists).
+
 ## 2026-09-30 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
