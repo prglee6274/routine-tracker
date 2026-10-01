@@ -1702,5 +1702,17 @@
  "2609.37857->2605.29358": {
   "type": "background",
   "evidence": "Cited as SAE background for interpreting latent features at scale."
+ },
+ "2609.33903->2605.30848": {
+  "type": "background",
+  "evidence": "reference-list entry only; related work on LLM anonymization vs re-identification"
+ },
+ "2609.34970->2605.12850": {
+  "type": "background",
+  "evidence": "reference-list entry only; prior emergent-misalignment work"
+ },
+ "2609.39263->2605.29358": {
+  "type": "background",
+  "evidence": "cited as SAE feature dictionary prior work in related-work paragraph"
  }
 }
