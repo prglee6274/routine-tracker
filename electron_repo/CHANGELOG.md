@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-02 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): domain-restricted (usenix/ndss/ieee-security/acm/arxiv/acsac/raid) Electron topical sweep (only already-tracked: Buzz to Boom, NDSS'23 study, Inspectron), general nodeIntegration/contextIsolation/IPC search (only CVE/blog pages), RAID 2026 accepted.html (still no titles listed; access-code gated).
+
 ## 2026-10-01 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
