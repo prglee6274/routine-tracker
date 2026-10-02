@@ -1450,13 +1450,13 @@
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-10-02",
-   "days_on_list": 2,
-   "last_stars": 139361,
+   "last_seen": "2026-10-03",
+   "days_on_list": 3,
+   "last_stars": 139551,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-02"
   },
   "fingerprintjs/fingerprintjs": {
    "first_seen": "2026-07-18",
@@ -3158,13 +3158,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-02",
-   "days_on_list": 2,
-   "last_stars": 18930,
+   "last_seen": "2026-10-03",
+   "days_on_list": 3,
+   "last_stars": 19076,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-02"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -3424,13 +3424,14 @@
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-03",
    "days_on_list": 1,
-   "last_stars": 81981,
+   "last_stars": 88367,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-15"
+   "last_pushed_at": "2026-09-15",
+   "revived_on": "2026-10-03"
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
@@ -3444,13 +3445,14 @@
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-07-28",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-10-03",
    "days_on_list": 1,
-   "last_stars": 55082,
+   "last_stars": 74177,
    "category": "tools",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-04"
+   "last_pushed_at": "2026-10-02",
+   "revived_on": "2026-10-03"
   },
   "permissionlesstech/bitchat": {
    "first_seen": "2026-07-27",
@@ -5213,14 +5215,14 @@
   },
   "google/ax": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-09-26",
+   "last_seen": "2026-10-03",
    "days_on_list": 1,
-   "last_stars": 11352,
+   "last_stars": 12877,
    "category": "llm",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-09-25T16:54:07Z",
-   "revived_on": "2026-09-26"
+   "last_pushed_at": "2026-09-27",
+   "revived_on": "2026-10-03"
   },
   "maximhq/bifrost": {
    "first_seen": "2026-09-24",
@@ -5374,13 +5376,13 @@
   },
   "ifixai-ai/iFixAi": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-02",
-   "days_on_list": 2,
-   "last_stars": 18305,
+   "last_seen": "2026-10-03",
+   "days_on_list": 3,
+   "last_stars": 19084,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-02"
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
@@ -5444,13 +5446,13 @@
   },
   "Louis-CFM/coucou": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-02",
-   "days_on_list": 1,
-   "last_stars": 2339,
+   "last_seen": "2026-10-03",
+   "days_on_list": 2,
+   "last_stars": 2889,
    "category": "tools",
    "language": "Swift",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-02"
   },
   "firelex/jeff": {
    "first_seen": "2026-10-02",
@@ -5459,6 +5461,36 @@
    "last_stars": 1258,
    "category": "llm",
    "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-01"
+  },
+  "0sec-labs/0": {
+   "first_seen": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "days_on_list": 1,
+   "last_stars": 483,
+   "category": "security",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-02"
+  },
+  "rehan-remade/universal-modder": {
+   "first_seen": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "days_on_list": 1,
+   "last_stars": 1971,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-30"
+  },
+  "CopilotKit/OpenDots": {
+   "first_seen": "2026-10-03",
+   "last_seen": "2026-10-03",
+   "days_on_list": 1,
+   "last_stars": 1293,
+   "category": "llm",
+   "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-10-01"
   }
