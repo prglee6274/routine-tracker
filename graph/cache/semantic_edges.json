@@ -1714,5 +1714,41 @@
  "2609.39263->2605.29358": {
   "type": "background",
   "evidence": "cited as SAE feature dictionary prior work in related-work paragraph"
+ },
+ "2609.36138->2605.06890": {
+  "type": "background",
+  "evidence": "관련 연구로 인용(참고문헌 목록)"
+ },
+ "2609.36138->2605.07990": {
+  "type": "compares",
+  "evidence": "도구 호출을 hidden state에서 읽는 가장 가까운 선행연구로 대비(결과 위치가 아닌 과제 성능으로 평가한다는 차이)"
+ },
+ "2609.36138->2606.08044": {
+  "type": "background",
+  "evidence": "행동 평가와 표현 수준 효과의 괴리를 뒷받침하는 근거로 인용"
+ },
+ "2609.36388->2605.05892": {
+  "type": "extends",
+  "evidence": "동일 저자의 flow 기반 활성화 스티어링(FLAS)을 페르소나 용량 제어로 확장"
+ },
+ "2609.36388->2605.30076": {
+  "type": "background",
+  "evidence": "flow matching 기반 스티어링 관련 연구로 인용"
+ },
+ "2610.00348->2607.15495": {
+  "type": "background",
+  "evidence": "참고문헌 목록에서 표현 관련 배경으로 인용"
+ },
+ "2610.00839->2606.05725": {
+  "type": "background",
+  "evidence": "LLM API 트래픽 모델 추출 탐지기 관련 연구로 인용(동일 저자군)"
+ },
+ "2610.01365->2605.06232": {
+  "type": "background",
+  "evidence": "LLM 에이전트 프라이버시 위험 관련 연구로 인용"
+ },
+ "2610.01367->2605.04572": {
+  "type": "background",
+  "evidence": "파인튜닝 중 샘플 단위 안전 저하 정량화 관련 연구로 인용"
  }
 }
