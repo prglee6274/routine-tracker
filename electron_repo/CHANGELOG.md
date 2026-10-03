@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-03 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): general Electron nodeIntegration/contextIsolation search (only CVE pages), ACSAC 2026 query (null; no program page, next check 2026-10-20), arXiv/IPC/preload search (only *Buzz to Boom* and USENIX'24 Ali, already tracked), S&P/NDSS/CCS 2026 Electron search (only NDSS'23 Electron study, tracked + CVE pages).
+
 ## 2026-10-02 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
