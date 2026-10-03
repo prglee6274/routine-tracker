@@ -26300,6 +26300,196 @@
     "membership_inference",
     "data_extraction"
    ]
+  },
+  "2609.36570": {
+   "version": "v1",
+   "title": "CounterSteer: Suppressing Indirect Prompt Injection with Activation Steering",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "indirect prompt injection",
+    "activation steering",
+    "residual stream",
+    "AgentDojo",
+    "inference-time defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2609.35576": {
+   "version": "v1",
+   "title": "Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "agent memory",
+    "self-propagating attack",
+    "artifact-mediated propagation",
+    "multi-agent",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2610.00430": {
+   "version": "v1",
+   "title": "Memetic Trojans: Social Contagions as Carriers of Adversarial Payloads in Agent Networks",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "memetic trojan",
+    "agent worm",
+    "social contagion",
+    "Moltbook",
+    "agent networks"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2609.33039": {
+   "version": "v1",
+   "title": "Agent Safety From Within: Detecting Harmful Trajectories from LLM Internal States",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "agent safety",
+    "guard model",
+    "linear probe",
+    "internal states",
+    "unsafe tool use"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "probing"
+   ]
+  },
+  "2609.35117": {
+   "version": "v1",
+   "title": "Tool Mediation Alters Refusal Mechanisms in Large Language Models",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "refusal mechanism",
+    "tool use",
+    "representation geometry",
+    "neuron-level analysis",
+    "harmfulness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2609.32964": {
+   "version": "v2",
+   "title": "The Commit-Abstain Circuit: Why Language Models Hallucinate Instead of Abstaining",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "circuit analysis",
+    "causal gating",
+    "hallucination",
+    "abstention",
+    "attention heads"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2609.37914": {
+   "version": "v1",
+   "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "emergent misalignment",
+    "training data attribution",
+    "persona",
+    "data filtering",
+    "EleutherAI"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution",
+    "representation"
+   ]
+  },
+  "2609.31877": {
+   "version": "v1",
+   "title": "A Large-Scale Benchmark and Risk Assessment of Traffic Analysis Attacks on Cloud LLM Services",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "traffic analysis",
+    "side channel",
+    "encrypted traffic",
+    "LLM serving",
+    "multi-agent"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "data_extraction"
+   ]
+  },
+  "2610.00382": {
+   "version": "v1",
+   "title": "On the Relationship between Model Quantization and Model Inversion Attacks",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "model inversion",
+    "quantization",
+    "mutual information",
+    "privacy-aware PTQ",
+    "training data reconstruction"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "differential_privacy"
+   ]
+  },
+  "2609.32915": {
+   "version": "v1",
+   "title": "AgentTell: Behavioural Side-Channel Leakage in Browser-Use Agents",
+   "first_seen": "2026-10-04",
+   "last_updated": "2026-10-04",
+   "folder": "2026-10-04",
+   "keywords": [
+    "agent privacy",
+    "behavioural side channel",
+    "browser-use agent",
+    "secret leakage",
+    "benchmark"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
@@ -26342,7 +26532,7 @@
    ]
   }
  },
- "last_run": "2026-10-03",
+ "last_run": "2026-10-04",
  "_meta": {
   "last_run": "2026-09-20"
  }
