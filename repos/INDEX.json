@@ -441,13 +441,13 @@
   },
   "Armur-Ai/Pentest-Swarm-AI": {
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-10-04",
    "days_on_list": 1,
-   "last_stars": 2363,
+   "last_stars": 2719,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-08-25"
+   "last_pushed_at": "2026-10-01"
   },
   "asciimoo/hister": {
    "first_seen": "2026-08-25",
@@ -1243,12 +1243,12 @@
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-09-13",
-   "days_on_list": 2,
-   "last_stars": 136489,
+   "last_seen": "2026-10-04",
+   "days_on_list": 1,
+   "last_stars": 153050,
    "category": "llm",
    "language": "JavaScript",
-   "last_pushed_at": "2026-09-07",
+   "last_pushed_at": "2026-10-03",
    "graduated": false
   },
   "different-ai/openwork": {
@@ -2620,13 +2620,13 @@
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-04",
    "days_on_list": 1,
-   "last_stars": 7760,
+   "last_stars": 8726,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-09-15"
+   "last_pushed_at": "2026-10-03"
   },
   "megadose/holehe": {
    "first_seen": "2026-07-21",
@@ -3424,9 +3424,9 @@
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-10-03",
-   "days_on_list": 1,
-   "last_stars": 88367,
+   "last_seen": "2026-10-04",
+   "days_on_list": 2,
+   "last_stars": 89640,
    "category": "llm",
    "language": "Python",
    "graduated": false,
@@ -3445,13 +3445,13 @@
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-07-28",
-   "last_seen": "2026-10-03",
-   "days_on_list": 1,
-   "last_stars": 74177,
+   "last_seen": "2026-10-04",
+   "days_on_list": 2,
+   "last_stars": 75067,
    "category": "tools",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-02",
+   "last_pushed_at": "2026-10-03",
    "revived_on": "2026-10-03"
   },
   "permissionlesstech/bitchat": {
@@ -3721,13 +3721,13 @@
   },
   "rtk-ai/rtk": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-10-04",
    "days_on_list": 1,
-   "last_stars": 79076,
+   "last_stars": 82299,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-09-04"
+   "last_pushed_at": "2026-10-03"
   },
   "rust-lang/rust": {
    "first_seen": "2026-08-26",
@@ -4437,10 +4437,10 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-09-26",
-   "days_on_list": 3,
-   "last_stars": 64810,
-   "last_pushed_at": "2026-09-25T07:15:13Z",
+   "last_seen": "2026-10-04",
+   "days_on_list": 1,
+   "last_stars": 66318,
+   "last_pushed_at": "2026-10-02",
    "category": "security",
    "language": "Python",
    "graduated": false
@@ -5286,10 +5286,10 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-09-29",
-   "last_stars": 40718,
-   "last_pushed_at": "2026-09-28",
-   "days_on_list": 3,
+   "last_seen": "2026-10-04",
+   "last_stars": 45011,
+   "last_pushed_at": "2026-10-02",
+   "days_on_list": 1,
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -5493,6 +5493,26 @@
    "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-10-01"
+  },
+  "mvt-project/mvt": {
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "days_on_list": 1,
+   "last_stars": 15180,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-09-30"
+  },
+  "Effect-TS/effect": {
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "days_on_list": 1,
+   "last_stars": 16762,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-03"
   }
  },
  "last_updated": "2026-10-02",
