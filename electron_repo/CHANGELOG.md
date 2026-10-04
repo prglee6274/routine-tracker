@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-04 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
+Venues checked (search-based): domain-restricted (usenix/ndss/ieee-security/acm/arxiv/acsac/raid) Electron topical sweep (only tracked: Buzz to Boom, Inspectron, NDSS'23, Bilingual Problems), ACSAC/ESORICS/RAID 2026 Electron query (CVE pages + UIC thesis only), hybrid/CEF/WebView sweep (nothing in scope), npm/Node.js runtime sweep (one USENIX'26 hit, Pasquini, not Node/Electron-related by title).
+
 ## 2026-10-03 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
