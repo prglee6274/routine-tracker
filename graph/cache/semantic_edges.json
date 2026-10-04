@@ -1818,5 +1818,97 @@
  "2609.36570->2608.27496": {
   "type": "background",
   "evidence": "reference-list-only citation; no in-text context"
+ },
+ "2609.34442->2607.15495": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34442->2609.27355": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2605.10067": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2606.15057": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2606.15441": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2607.26115": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2608.19982": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34463->2608.21500": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34686->2603.08234": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34686->2606.22673": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.35108->2607.15495": {
+  "type": "extends",
+  "evidence": "adopts the four criteria (accuracy, grounding, internality, metacognitive representation) of the cited work"
+ },
+ "2609.35937->2606.00152": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.35937->2606.20023": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.35937->2606.21710": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.35937->2608.24957": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.39352->2606.07943": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.39352->2606.15242": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.39352->2608.03509": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.39352->2608.09732": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.39352->2608.16246": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.40286->2606.03291": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.40286->2609.05976": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
+ },
+ "2609.40286->2609.20945": {
+  "type": "background",
+  "evidence": "reference-list / related-work mention only"
  }
 }

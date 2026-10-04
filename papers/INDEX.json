@@ -26490,6 +26490,200 @@
     "agent_privacy",
     "pii_leakage"
    ]
+  },
+  "2609.34463": {
+   "version": "v1",
+   "title": "CoDeL: Co-Evolutionary Defense against Indirect Prompt Injection in LLM-based Agents",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "indirect prompt injection",
+    "co-evolution",
+    "GDPO",
+    "LoRA",
+    "agent defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "agent_safety"
+   ]
+  },
+  "2609.39352": {
+   "version": "v1",
+   "title": "Hiding in Plain Sight: Decoupling Pretext from Actuation for Skill Poisoning in LLM Agents",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "skill poisoning",
+    "supply chain attack",
+    "LLM agent",
+    "pretext",
+    "actuation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety",
+    "adversarial"
+   ]
+  },
+  "2609.38262": {
+   "version": "v1",
+   "title": "When Does Randomized Oversight Align AI Agents That Can Conceal?",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "oversight",
+    "randomized audit",
+    "concealment",
+    "agent alignment",
+    "game theory"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2609.34686": {
+   "version": "v1",
+   "title": "Jailbreak Context Lingers: Divergent Safety Routing and Its Cross-Task Predictability in Tool Agents",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "jailbreak",
+    "tool agent",
+    "activation patching",
+    "safety feedback",
+    "late-commit"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2609.35108": {
+   "version": "v1",
+   "title": "A mechanistic study of language model introspection",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "introspection",
+    "attention heads",
+    "concept vector injection",
+    "gate heads",
+    "router heads"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "activation_steering",
+    "mechanistic_position"
+   ]
+  },
+  "2609.34344": {
+   "version": "v1",
+   "title": "Learning to Steer, Steering to See: Unveiling the Geometry of RLVR in Large Language Models via Trainable Vectors",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "RLVR",
+    "vector steering",
+    "activation manifold",
+    "effective manifold capacity",
+    "representation geometry"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2609.35367": {
+   "version": "v1",
+   "title": "From Input to Output: A Flexible Agent for Dual-End Interpretation of Sparse Autoencoder Features",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "sparse autoencoder",
+    "feature interpretation",
+    "agent",
+    "GemmaScope",
+    "functional interpretation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2609.34442": {
+   "version": "v1",
+   "title": "Making LLMs Truly Forget: Deep Unlearning by Searching, Selecting, and Severing Knowledge Paths",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "deep unlearning",
+    "multi-hop reasoning",
+    "knowledge graph",
+    "graph minimum cut",
+    "LLM unlearning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2609.35937": {
+   "version": "v1",
+   "title": "PrivacySkills: How Privacy Guidance Shapes Source Selection in LLM Agents",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "agent privacy",
+    "privacy guidance",
+    "source selection",
+    "skills",
+    "confidential sources"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2609.40286": {
+   "version": "v1",
+   "title": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+   "first_seen": "2026-10-05",
+   "last_updated": "2026-10-05",
+   "folder": "2026-10-05",
+   "keywords": [
+    "multilingual unlearning",
+    "cross-lingual",
+    "benchmark",
+    "language budget",
+    "COVER"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
