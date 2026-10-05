@@ -114,13 +114,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-10-01",
-   "days_on_list": 1,
-   "last_stars": 270103,
+   "last_seen": "2026-10-06",
+   "days_on_list": 2,
+   "last_stars": 273504,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-05"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -1243,12 +1243,12 @@
   },
   "DietrichGebert/ponytail": {
    "first_seen": "2026-06-30",
-   "last_seen": "2026-10-04",
-   "days_on_list": 1,
-   "last_stars": 153050,
+   "last_seen": "2026-10-06",
+   "days_on_list": 2,
+   "last_stars": 155856,
    "category": "llm",
    "language": "JavaScript",
-   "last_pushed_at": "2026-10-03",
+   "last_pushed_at": "2026-10-05",
    "graduated": false
   },
   "different-ai/openwork": {
@@ -1856,13 +1856,13 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-10-06",
    "days_on_list": 1,
-   "last_stars": 116900,
+   "last_stars": 124022,
    "category": "tools",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-08-28",
+   "last_pushed_at": "2026-10-05",
    "revived_on": "2026-09-19"
   },
   "GyulyVGC/sniffnet": {
@@ -2470,13 +2470,13 @@
   },
   "luckyPipewrench/pipelock": {
    "first_seen": "2026-06-05",
-   "last_seen": "2026-07-04",
-   "days_on_list": 3,
-   "last_stars": 577,
+   "last_seen": "2026-10-06",
+   "days_on_list": 1,
+   "last_stars": 921,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-06-23"
+   "last_pushed_at": "2026-10-05"
   },
   "lyogavin/airllm": {
    "first_seen": "2026-07-19",
@@ -4437,10 +4437,10 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-04",
-   "days_on_list": 1,
-   "last_stars": 66318,
-   "last_pushed_at": "2026-10-02",
+   "last_seen": "2026-10-06",
+   "days_on_list": 2,
+   "last_stars": 66643,
+   "last_pushed_at": "2026-10-05",
    "category": "security",
    "language": "Python",
    "graduated": false
@@ -5286,10 +5286,10 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-04",
-   "last_stars": 45011,
-   "last_pushed_at": "2026-10-02",
-   "days_on_list": 1,
+   "last_seen": "2026-10-06",
+   "last_stars": 45859,
+   "last_pushed_at": "2026-10-05",
+   "days_on_list": 2,
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -5476,13 +5476,13 @@
   },
   "rehan-remade/universal-modder": {
    "first_seen": "2026-10-03",
-   "last_seen": "2026-10-03",
-   "days_on_list": 1,
-   "last_stars": 1971,
+   "last_seen": "2026-10-06",
+   "days_on_list": 2,
+   "last_stars": 3741,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-30"
+   "last_pushed_at": "2026-10-05"
   },
   "CopilotKit/OpenDots": {
    "first_seen": "2026-10-03",
@@ -5553,6 +5553,36 @@
    "category": "llm",
    "language": "Python",
    "graduated": false
+  },
+  "toby-bridges/api-relay-audit": {
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "days_on_list": 1,
+   "last_stars": 868,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-03"
+  },
+  "omlahore/RemoveMacAI": {
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "days_on_list": 1,
+   "last_stars": 1697,
+   "category": "tools",
+   "language": "Swift",
+   "graduated": false,
+   "last_pushed_at": "2026-10-05"
+  },
+  "Jwuthri/Tracely-ai": {
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "days_on_list": 1,
+   "last_stars": 1487,
+   "category": "tools",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-05"
   }
  },
  "last_updated": "2026-10-05",
