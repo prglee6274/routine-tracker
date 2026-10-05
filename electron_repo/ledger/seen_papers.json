@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-04",
-  "last_run": "2026-10-04",
+  "last_updated": "2026-10-05",
+  "last_run": "2026-10-05",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2727,6 +2727,13 @@
       "added": "2026-09-24",
       "found_via": "RAID 2026 program.html (Session 6B: Software Supply Chain Security), same source as the iOS dependency-management exclusion above.",
       "title_norm": "adversarial python package generation via piggybacking with large language models"
+    },
+    {
+      "title": "Lemix: Enabling Testing of Embedded Applications as Linux Applications",
+      "title_norm": "lemix enabling testing of embedded applications as linux applications",
+      "venue": "USENIX Security",
+      "year": 2025,
+      "reason": "Embedded/firmware application testing as Linux apps; no Electron/desktop-web angle."
     }
   ],
   "context_non_venue": [

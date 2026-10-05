@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-05 — Daily watch
+
+**No new in-scope papers today.** Ledger: **45 in_scope, 198 excluded (+1), 31 context_non_venue.**
+Added exclusion: Lemix (USENIX Sec'25, embedded-app testing; no Electron/desktop-web angle). Searches: general Electron venue query, nodeIntegration/IPC query (only tracked Buzz to Boom + CVE pages), domain-restricted Electron sweep (only tracked Inspectron/NDSS'23 + Lemix, eyeballvul non-venue), CEF/WebView/hybrid ESORICS/RAID/ACSAC/DSN query (Android hybrid only; nothing in scope). ACSAC 2026 next check 2026-10-20.
+
 ## 2026-10-04 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 197 excluded, 31 context_non_venue.**
