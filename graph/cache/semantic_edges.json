@@ -1910,5 +1910,29 @@
  "2609.40286->2609.20945": {
   "type": "background",
   "evidence": "reference-list / related-work mention only"
+ },
+ "2609.34056->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
+ },
+ "2609.34348->2605.29358": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
+ },
+ "2609.36254->2603.17368": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
+ },
+ "2609.38289->2606.00152": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
+ },
+ "2609.38289->2606.28061": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
+ },
+ "2610.02302->2605.01034": {
+  "type": "background",
+  "evidence": "reference-list/related-work mention only"
  }
 }
