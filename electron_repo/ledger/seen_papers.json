@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-05",
-  "last_run": "2026-10-05",
+  "last_updated": "2026-10-06",
+  "last_run": "2026-10-06",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2734,6 +2734,20 @@
       "venue": "USENIX Security",
       "year": 2025,
       "reason": "Embedded/firmware application testing as Linux apps; no Electron/desktop-web angle."
+    },
+    {
+      "title": "Insecure Ingredients? Exploring Dependency Update Patterns of Bundled JavaScript Packages on the Web",
+      "title_norm": "insecure ingredients exploring dependency update patterns of bundled javascript packages on the web",
+      "venue": "arXiv",
+      "year": 2025,
+      "reason": "Web-bundled JS dependency study; no Electron/Node runtime angle; non-venue arXiv"
+    },
+    {
+      "title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation",
+      "title_norm": "state aware fuzzing of javascript engines with llm guided instrumentation",
+      "venue": "arXiv",
+      "year": 2026,
+      "reason": "Generic JS-engine fuzzing; not Electron/desktop-specific; non-venue arXiv"
     }
   ],
   "context_non_venue": [

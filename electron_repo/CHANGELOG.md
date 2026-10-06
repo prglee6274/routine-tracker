@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-06 — Daily watch
+
+**No new in-scope papers today.** Ledger: **45 in_scope, 200 excluded (+2), 31 context_non_venue.**
+Added exclusions: Insecure Ingredients (arXiv, web-bundled JS deps), State-Aware Fuzzing of JS Engines (arXiv, generic engine fuzzing). Searches: domain-restricted Electron sweep (only tracked NDSS'23, USENIX'24 Ali), nodeIntegration/IPC (only Buzz to Boom + CVE pages), ACSAC 2026 query (null; next check 2026-10-20), CEF/WebView/hybrid (nothing), npm/native-addon sweep (tracked BinWrap/NodeShield/Original Sin only).
+
 ## 2026-10-05 — Daily watch
 
 **No new in-scope papers today.** Ledger: **45 in_scope, 198 excluded (+1), 31 context_non_venue.**
