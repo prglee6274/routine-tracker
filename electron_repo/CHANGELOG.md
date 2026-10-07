@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-07 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron security query (CVE pages only), IPC/venue query (only tracked Buzz to Boom, Inspectron/USENIX'24), ACSAC 2026 query (null; next check 2026-10-20), XSS-to-RCE desktop query (CVE/HackTricks only).
+
 ## 2026-10-06 — Daily watch
 
 **No new in-scope papers today.** Ledger: **45 in_scope, 200 excluded (+2), 31 context_non_venue.**
