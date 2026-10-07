@@ -1856,13 +1856,13 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-06",
-   "days_on_list": 1,
-   "last_stars": 124022,
+   "last_seen": "2026-10-08",
+   "days_on_list": 2,
+   "last_stars": 124617,
    "category": "tools",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-05",
+   "last_pushed_at": "2026-10-07",
    "revived_on": "2026-09-19"
   },
   "GyulyVGC/sniffnet": {
@@ -3089,10 +3089,10 @@
   },
   "NousResearch/hermes-agent": {
    "first_seen": "2026-05-11",
-   "last_seen": "2026-10-07",
-   "days_on_list": 2,
-   "last_stars": 251648,
-   "last_pushed_at": "2026-10-06",
+   "last_seen": "2026-10-08",
+   "days_on_list": 3,
+   "last_stars": 251894,
+   "last_pushed_at": "2026-10-07",
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -4437,10 +4437,10 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-06",
-   "days_on_list": 2,
-   "last_stars": 66643,
-   "last_pushed_at": "2026-10-05",
+   "last_seen": "2026-10-08",
+   "days_on_list": 3,
+   "last_stars": 67059,
+   "last_pushed_at": "2026-10-07",
    "category": "security",
    "language": "Python",
    "graduated": false
@@ -4585,13 +4585,13 @@
   },
   "vllm-project/vllm": {
    "first_seen": "2026-06-19",
-   "last_seen": "2026-06-19",
+   "last_seen": "2026-10-08",
    "days_on_list": 1,
-   "last_stars": 57514,
+   "last_stars": 93336,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-06-19"
+   "last_pushed_at": "2026-10-07"
   },
   "volcengine/OpenViking": {
    "first_seen": "2026-06-06",
@@ -5386,13 +5386,13 @@
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-02",
-   "days_on_list": 2,
-   "last_stars": 74233,
-   "category": "llm",
+   "last_seen": "2026-10-08",
+   "days_on_list": 3,
+   "last_stars": 74578,
+   "category": "tools",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-07"
   },
   "feder-cr/dots": {
    "first_seen": "2026-10-01",
@@ -5426,13 +5426,13 @@
   },
   "hashgraph-online/hol-guard": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-02",
-   "days_on_list": 1,
-   "last_stars": 689,
+   "last_seen": "2026-10-08",
+   "days_on_list": 2,
+   "last_stars": 807,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-07"
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
@@ -5596,9 +5596,9 @@
   },
   "StayLameBro/backburner": {
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
-   "days_on_list": 1,
-   "last_stars": 749,
+   "last_seen": "2026-10-08",
+   "days_on_list": 2,
+   "last_stars": 837,
    "last_pushed_at": "2026-10-06",
    "category": "llm",
    "language": "Python",
@@ -5622,6 +5622,36 @@
    "last_pushed_at": "2026-10-06",
    "category": "llm",
    "language": "JavaScript",
+   "graduated": false
+  },
+  "SponsioLabs/Sponsio": {
+   "first_seen": "2026-10-08",
+   "days_on_list": 1,
+   "last_seen": "2026-10-08",
+   "last_stars": 441,
+   "last_pushed_at": "2026-10-05",
+   "category": "security",
+   "language": "Python",
+   "graduated": false
+  },
+  "n8n-io/n8n": {
+   "first_seen": "2026-10-08",
+   "days_on_list": 1,
+   "last_seen": "2026-10-08",
+   "last_stars": 206818,
+   "last_pushed_at": "2026-10-07",
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false
+  },
+  "ollama/ollama": {
+   "first_seen": "2026-10-08",
+   "days_on_list": 1,
+   "last_seen": "2026-10-08",
+   "last_stars": 182480,
+   "last_pushed_at": "2026-10-07",
+   "category": "llm",
+   "language": "Go",
    "graduated": false
   }
  },
