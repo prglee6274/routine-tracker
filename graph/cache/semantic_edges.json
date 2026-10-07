@@ -1994,5 +1994,45 @@
  "2610.05894->2608.07430": {
   "type": "background",
   "evidence": "Cited only in reference list (no substantive in-text context)."
+ },
+ "2610.05541->2602.12418": {
+  "type": "background",
+  "evidence": "related work on SAE features/steering for jailbreak mitigation"
+ },
+ "2610.06049->2510.02917": {
+  "type": "background",
+  "evidence": "cited reference on SAE-based code correctness interp"
+ },
+ "2610.06049->2605.03907": {
+  "type": "background",
+  "evidence": "related work on activation steering mimicking prompting"
+ },
+ "2610.06049->2605.30189": {
+  "type": "background",
+  "evidence": "cited reference on LoRA adapter backdoors"
+ },
+ "2610.06576->2606.00152": {
+  "type": "background",
+  "evidence": "cited as agent safety risk example"
+ },
+ "2610.07677->2607.12354": {
+  "type": "extends",
+  "evidence": "builds on privacy-vs-adversarially-non-robust-features claim, generalizing the tradeoff"
+ },
+ "2610.08773->2605.15030": {
+  "type": "baseline",
+  "evidence": "related web agent prompt injection defense (WARD) cited in references"
+ },
+ "2610.08773->2606.15441": {
+  "type": "background",
+  "evidence": "adaptive prompt injection defense cited in references"
+ },
+ "2610.08773->2607.26115": {
+  "type": "background",
+  "evidence": "self-play red teaming cited in references"
+ },
+ "2610.08773->2608.11878": {
+  "type": "background",
+  "evidence": "cited in references"
  }
 }

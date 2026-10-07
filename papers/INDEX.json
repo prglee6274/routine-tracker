@@ -27053,6 +27053,196 @@
    "subtopics": [
     "agent_privacy"
    ]
+  },
+  "2610.08773": {
+   "version": "v1",
+   "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "web agent",
+    "prompt injection",
+    "adversarial training",
+    "world model",
+    "co-evolution"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2610.07510": {
+   "version": "v1",
+   "title": "Understanding and Enhancing Backdoor Persistency in LLM Agent Post-Training",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "backdoor persistency",
+    "supply chain",
+    "SWE agent",
+    "SFT",
+    "RL post-training"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2610.07125": {
+   "version": "v1",
+   "title": "Jailbreaking Open-Weight LLMs via Random Embedding Perturbations",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "jailbreak",
+    "embedding perturbation",
+    "open-weight LLM",
+    "JailbreakBench",
+    "PEV"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "adversarial"
+   ]
+  },
+  "2610.06401": {
+   "version": "v1",
+   "title": "RAISED: Self-Distillation for Robustness to Prompt Injection in LLM Agents",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "indirect prompt injection",
+    "self-distillation",
+    "tool-using agent",
+    "utility preservation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2610.06049": {
+   "version": "v1",
+   "title": "Backdooring Sparse Autoencoders",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE backdoor",
+    "supply-chain attack",
+    "decoder-only",
+    "code generation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2610.05541": {
+   "version": "v1",
+   "title": "Don't Judge an LLM Only by Its Activations: Discovering Suppressed Safety Features via Counterfactual Activation Potential",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "transcoder features",
+    "suppressed features",
+    "refusal",
+    "counterfactual activation",
+    "safety-critical features"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "circuits",
+    "feature_attribution"
+   ]
+  },
+  "2610.06576": {
+   "version": "v1",
+   "title": "Before Agent Tells The Lie: Has Deception Already Been Represented?",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "deception",
+    "agent hidden states",
+    "probing",
+    "activation steering",
+    "monitoring"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "activation_steering"
+   ]
+  },
+  "2610.06093": {
+   "version": "v1",
+   "title": "Cross-Lingual Transferability of Training Data Extraction Attacks to Recover Memorized PII",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "training data extraction",
+    "PII",
+    "cross-lingual",
+    "multilingual LLM",
+    "memorization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2610.04426": {
+   "version": "v1",
+   "title": "UnAct: Gradient-Free Unlearning via Targeted Activation Intervention",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "machine unlearning",
+    "gradient-free",
+    "activation intervention",
+    "class unlearning",
+    "few forget samples"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2610.07677": {
+   "version": "v1",
+   "title": "Adaptive Model Inversion Attacks Generalize a Privacy-Robustness Tradeoff",
+   "first_seen": "2026-10-08",
+   "last_updated": "2026-10-08",
+   "folder": "2026-10-08",
+   "keywords": [
+    "model inversion attack",
+    "reconstruction leakage",
+    "adversarial robustness",
+    "privacy evaluation",
+    "FaceScrub"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -27095,7 +27285,7 @@
    ]
   }
  },
- "last_run": "2026-10-07",
+ "last_run": "2026-10-08",
  "_meta": {
   "last_run": "2026-09-20"
  }
