@@ -27243,6 +27243,191 @@
     "membership_inference",
     "data_extraction"
    ]
+  },
+  "2610.09240": {
+   "version": "v1",
+   "title": "Adversarial Images Hijack Web Agents from Visual Grounding to Browser Execution",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "web agents",
+    "adversarial images",
+    "red-teaming",
+    "vision-language models"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "multimodal_attack",
+    "agent_safety"
+   ]
+  },
+  "2610.05282": {
+   "version": "v1",
+   "title": "Red-TTT: Test-Time Training for Automated Jailbreaking Large Language Models",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "jailbreak",
+    "automated red-teaming",
+    "test-time training",
+    "policy gradient"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2610.07723": {
+   "version": "v1",
+   "title": "The Model Plants the Trigger: Answer-Side Backdoor Attacks in Multi-Turn Large Language Models",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "backdoor",
+    "multi-turn LLM",
+    "answer-side trigger",
+    "safety alignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "alignment_robustness"
+   ]
+  },
+  "2610.09027": {
+   "version": "v1",
+   "title": "Visual Memory Attacks Can Persist Through The KV Cache",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "visual memory injection",
+    "KV cache",
+    "adversarial image",
+    "persistent attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "multimodal_attack",
+    "backdoor",
+    "adversarial"
+   ]
+  },
+  "2610.07270": {
+   "version": "v1",
+   "title": "Does the Model Use the Feature? Separating Steering from Mechanism in LLMs",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "feature steering",
+    "causal intervention",
+    "activation patching",
+    "mechanism"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "feature_attribution",
+    "interp_method"
+   ]
+  },
+  "2610.10276": {
+   "version": "v1",
+   "title": "PatchBench: Measuring Collateral Damage in Activation Patching",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "activation patching",
+    "jailbreak repair",
+    "benchmark",
+    "collateral damage"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "safety_eval"
+   ]
+  },
+  "2610.07389": {
+   "version": "v1",
+   "title": "Inference and learning in sparse autoencoders as natural gradient flow",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "sparse autoencoder",
+    "sparse coding",
+    "natural gradient",
+    "superposition",
+    "dictionary learning"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2610.09651": {
+   "version": "v1",
+   "title": "Closed-Form Noise Calibration Against Membership Inference for Random-Allocation DP-SGD",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "DP-SGD",
+    "membership inference",
+    "noise calibration",
+    "random allocation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "membership_inference"
+   ]
+  },
+  "2610.02418": {
+   "version": "v1",
+   "title": "Mitigating Private Data Leakage in LLMs with Whiteout",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "PII",
+    "training data leakage",
+    "memorization",
+    "unlearning alternative",
+    "obfuscation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2610.10519": {
+   "version": "v1",
+   "title": "Why Forget-Only Unlearning Needs Memorization",
+   "first_seen": "2026-10-09",
+   "last_updated": "2026-10-09",
+   "folder": "2026-10-09",
+   "keywords": [
+    "machine unlearning",
+    "forget-only",
+    "lower bound",
+    "memorization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -27285,7 +27470,7 @@
    ]
   }
  },
- "last_run": "2026-10-08",
+ "last_run": "2026-10-09",
  "_meta": {
   "last_run": "2026-09-20"
  }
