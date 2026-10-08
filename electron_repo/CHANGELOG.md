@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-08 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: domain-restricted Electron sweep (only tracked NDSS'23, USENIX'24 Ali, Lemix already excluded; CTRAPS/eyeballvul/CVE-repro are off-scope non-venue), nodeIntegration/IPC (blogs/CVE pages only), native-extension/N-API sweep (only tracked Bilingual Problems), ACSAC 2026 query (null; next check 2026-10-20), CEF/hybrid ESORICS/RAID/AsiaCCS/DSN (CVE pages only).
+
 ## 2026-10-07 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron security query (CVE pages only), IPC/venue query (only tracked Buzz to Boom, Inspectron/USENIX'24), ACSAC 2026 query (null; next check 2026-10-20), XSS-to-RCE desktop query (CVE/HackTricks only).
