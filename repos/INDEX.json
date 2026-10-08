@@ -1856,9 +1856,9 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-08",
-   "days_on_list": 2,
-   "last_stars": 124617,
+   "last_seen": "2026-10-09",
+   "days_on_list": 3,
+   "last_stars": 124703,
    "category": "tools",
    "language": "Python",
    "graduated": false,
@@ -2194,13 +2194,13 @@
   },
   "JuliusBrussee/caveman": {
    "first_seen": "2026-08-20",
-   "last_seen": "2026-10-07",
-   "days_on_list": 1,
-   "last_stars": 110185,
+   "last_seen": "2026-10-09",
+   "days_on_list": 2,
+   "last_stars": 110556,
    "category": "tools",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-06"
+   "last_pushed_at": "2026-10-08"
   },
   "jundot/omlx": {
    "first_seen": "2026-08-19",
@@ -2470,13 +2470,13 @@
   },
   "luckyPipewrench/pipelock": {
    "first_seen": "2026-06-05",
-   "last_seen": "2026-10-06",
-   "days_on_list": 1,
+   "last_seen": "2026-10-09",
+   "days_on_list": 2,
    "last_stars": 921,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-05"
+   "last_pushed_at": "2026-10-08"
   },
   "lyogavin/airllm": {
    "first_seen": "2026-07-19",
@@ -4216,13 +4216,13 @@
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-10-07",
-   "days_on_list": 2,
-   "last_stars": 6764,
+   "last_seen": "2026-10-09",
+   "days_on_list": 3,
+   "last_stars": 6790,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-06"
+   "last_pushed_at": "2026-10-08"
   },
   "Tencent/teamai-cli": {
    "first_seen": "2026-09-09",
@@ -5205,13 +5205,13 @@
   },
   "thedotmack/claude-mem": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-10-09",
    "days_on_list": 1,
-   "last_stars": 94548,
+   "last_stars": 98309,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-22T17:46:57Z"
+   "last_pushed_at": "2026-10-08"
   },
   "google/ax": {
    "first_seen": "2026-09-24",
@@ -5436,13 +5436,13 @@
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-09",
    "days_on_list": 1,
-   "last_stars": 2232,
+   "last_stars": 2246,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-01"
+   "last_pushed_at": "2026-10-08"
   },
   "Louis-CFM/coucou": {
    "first_seen": "2026-10-02",
@@ -5653,6 +5653,46 @@
    "category": "llm",
    "language": "Go",
    "graduated": false
+  },
+  "asamassekou10/ship-safe": {
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "days_on_list": 1,
+   "last_stars": 854,
+   "category": "security",
+   "language": "JavaScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-08"
+  },
+  "pingdotgg/ts-rust": {
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "days_on_list": 1,
+   "last_stars": 664,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-08"
+  },
+  "vectordotdev/vector": {
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "days_on_list": 1,
+   "last_stars": 22680,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-08"
+  },
+  "Kiln-AI/Kiln": {
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "days_on_list": 1,
+   "last_stars": 5179,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-08"
   }
  },
  "last_updated": "2026-10-07",
