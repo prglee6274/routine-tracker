@@ -27428,6 +27428,185 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2610.12445": {
+   "version": "v1",
+   "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "probing",
+    "deception detection",
+    "white-box monitoring",
+    "SHADE-Arena"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "agent_safety"
+   ]
+  },
+  "2610.10657": {
+   "version": "v1",
+   "title": "Beyond Owls: Subliminal Learning Can Transfer Learned Capabilities and Backdoors",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "subliminal learning",
+    "backdoor",
+    "distillation",
+    "misalignment"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "alignment_robustness"
+   ]
+  },
+  "2610.10742": {
+   "version": "v1",
+   "title": "BRANCH: Bypassing Multi-Scanner AI Guardrails",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "guardrail bypass",
+    "prompt injection",
+    "jailbreak",
+    "tree search"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "prompt_injection",
+    "adversarial"
+   ]
+  },
+  "2610.10616": {
+   "version": "v1",
+   "title": "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "membership inference",
+    "mixture-of-experts",
+    "router telemetry",
+    "fine-tuning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2610.09600": {
+   "version": "v1",
+   "title": "SafeEvo: Deciphering the Safety Alignment Mechanism and Evolution in Language Models",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "circuit analysis",
+    "refusal circuit",
+    "safety alignment",
+    "alignment tax"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "alignment_robustness"
+   ]
+  },
+  "2610.07967": {
+   "version": "v1",
+   "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "deception",
+    "LLM agent",
+    "benchmark",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2610.12085": {
+   "version": "v1",
+   "title": "Is Memorization Context-Sensitive? Prefix-Based Extraction Beyond Isolated Prefixes",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "training data extraction",
+    "memorization",
+    "RAG",
+    "prefix extraction"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
+  },
+  "2610.10655": {
+   "version": "v1",
+   "title": "Nullify: Null-Space Activation Steering for Training-Free LLM Unlearning",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "unlearning",
+    "activation steering",
+    "null-space",
+    "privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "activation_steering"
+   ]
+  },
+  "2610.07009": {
+   "version": "v1",
+   "title": "Which Image Property Carries the Jailbreak? A Controlled Dissection of Image-to-Text Jailbreaks",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "multimodal jailbreak",
+    "VLM",
+    "attribution",
+    "StrongREJECT"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack"
+   ]
+  },
+  "2610.10865": {
+   "version": "v1",
+   "title": "Disentangling Linguistic and Paralinguistic Information with Routed Sparse Autoencoders",
+   "first_seen": "2026-10-10",
+   "last_updated": "2026-10-10",
+   "folder": "2026-10-10",
+   "keywords": [
+    "sparse autoencoder",
+    "speech encoder",
+    "disentanglement",
+    "speaker identity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation"
+   ]
   }
  },
  "_taxonomy": {
@@ -27470,7 +27649,7 @@
    ]
   }
  },
- "last_run": "2026-10-09",
+ "last_run": "2026-10-10",
  "_meta": {
   "last_run": "2026-09-20"
  }

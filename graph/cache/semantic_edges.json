@@ -2070,5 +2070,33 @@
  "2610.09027->2607.19957": {
   "type": "background",
   "evidence": "cited as related KV-cache reuse threat"
+ },
+ "2610.09600->2602.11180": {
+  "type": "background",
+  "evidence": "정렬 mechanistic interpretability 서베이로 인용"
+ },
+ "2610.09600->2603.23268": {
+  "type": "extends",
+  "evidence": "같은 저자군의 SafeSeek 안전 회로 귀인을 정렬 진화 추적으로 확장"
+ },
+ "2610.10616->2601.18110": {
+  "type": "background",
+  "evidence": "어텐션 기반 MIA 관련 연구로 인용"
+ },
+ "2610.10657->2606.00995": {
+  "type": "background",
+  "evidence": "subliminal learning 선행 연구로 인용"
+ },
+ "2610.10742->2605.23196": {
+  "type": "background",
+  "evidence": "가드레일 우회 관련 연구로 인용"
+ },
+ "2610.10742->2607.02121": {
+  "type": "background",
+  "evidence": "가드레일 활성화 판별 관련 연구로 인용"
+ },
+ "2610.12445->2609.19101": {
+  "type": "background",
+  "evidence": "내부 표현 기반 reward hacking 모니터링 선행 연구로 인용"
  }
 }
