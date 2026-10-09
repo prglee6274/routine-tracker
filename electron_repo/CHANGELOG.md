@@ -1,3 +1,6 @@
+## 2026-10-09
+No new papers. Standing queries run across venues; only candidate (Buzz to Boom, arXiv 2607.20698) already in ledger.
+
 # Changelog
 
 ## 2026-10-08 — Daily watch
