@@ -1,3 +1,7 @@
+## 2026-10-10 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron venue query, nodeIntegration/IPC/arXiv query (only tracked Buzz to Boom + CVE pages), ACSAC 2026 query (null; next check 2026-10-20), ESORICS/RAID/DSN Electron query (only tracked NDSS'23, USENIX'24 Inspectron, UIC thesis).
+
 ## 2026-10-09
 No new papers. Standing queries run across venues; only candidate (Buzz to Boom, arXiv 2607.20698) already in ledger.
 
