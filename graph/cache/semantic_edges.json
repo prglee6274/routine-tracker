@@ -2098,5 +2098,49 @@
  "2610.12445->2609.19101": {
   "type": "background",
   "evidence": "내부 표현 기반 reward hacking 모니터링 선행 연구로 인용"
+ },
+ "2610.04316->2607.15495": {
+  "type": "extends",
+  "evidence": "Builds on the J-space/global-workspace analysis, bridging it to latent safety geometry."
+ },
+ "2610.04316->2609.16204": {
+  "type": "background",
+  "evidence": "Related-work mention of defenses against abliteration."
+ },
+ "2610.05295->2603.12277": {
+  "type": "background",
+  "evidence": "Reference-list citation only."
+ },
+ "2610.06454->2606.00152": {
+  "type": "compares",
+  "evidence": "Cited as complementary trajectory-level privacy audit."
+ },
+ "2610.06454->2606.23217": {
+  "type": "background",
+  "evidence": "Listed among prior privacy benchmarks."
+ },
+ "2610.07212->2511.14045": {
+  "type": "background",
+  "evidence": "Reference-list citation on RLVR membership auditing."
+ },
+ "2610.07212->2608.06526": {
+  "type": "background",
+  "evidence": "Reference-list citation only."
+ },
+ "2610.07722->2605.03907": {
+  "type": "baseline",
+  "evidence": "Steering method evaluated within the benchmark suite."
+ },
+ "2610.07722->2605.05892": {
+  "type": "background",
+  "evidence": "Reference-list citation only."
+ },
+ "2610.07722->2605.30076": {
+  "type": "background",
+  "evidence": "Reference-list citation only."
+ },
+ "2610.07722->2606.15092": {
+  "type": "background",
+  "evidence": "Reference-list citation only."
  }
 }
