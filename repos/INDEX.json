@@ -3158,10 +3158,10 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-12",
    "days_on_list": 1,
-   "last_stars": 19771,
-   "last_pushed_at": "2026-10-09",
+   "last_stars": 19932,
+   "last_pushed_at": "2026-10-10",
    "category": "security",
    "language": "Python",
    "graduated": false
@@ -5666,13 +5666,13 @@
   },
   "pingdotgg/ts-rust": {
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
-   "days_on_list": 3,
-   "last_stars": 948,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-12",
+   "days_on_list": 4,
+   "last_stars": 1042,
+   "last_pushed_at": "2026-10-11",
    "category": "tools",
    "language": "Rust",
-   "graduated": false
+   "graduated": true
   },
   "vectordotdev/vector": {
    "first_seen": "2026-10-09",
@@ -5696,9 +5696,9 @@
   },
   "mhtsec/ARTEX": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-11",
-   "days_on_list": 2,
-   "last_stars": 2885,
+   "last_seen": "2026-10-12",
+   "days_on_list": 3,
+   "last_stars": 3124,
    "last_pushed_at": "2026-10-10",
    "category": "security",
    "language": "Go",
@@ -5716,19 +5716,19 @@
   },
   "noahdunnagan/fsearch": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-11",
-   "days_on_list": 2,
-   "last_stars": 1541,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-12",
+   "days_on_list": 3,
+   "last_stars": 1841,
+   "last_pushed_at": "2026-10-11",
    "category": "tools",
    "language": "Rust",
    "graduated": false
   },
   "zhongerxin/iPhone-use": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-11",
-   "days_on_list": 2,
-   "last_stars": 2527,
+   "last_seen": "2026-10-12",
+   "days_on_list": 3,
+   "last_stars": 2989,
    "last_pushed_at": "2026-10-10",
    "category": "llm",
    "language": "Python",
@@ -5766,10 +5766,10 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-11",
-   "days_on_list": 1,
-   "last_stars": 68026,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-12",
+   "days_on_list": 2,
+   "last_stars": 97237,
+   "last_pushed_at": "2026-10-11",
    "category": "security",
    "language": "TypeScript",
    "graduated": false
@@ -5813,6 +5813,46 @@
    "category": "security",
    "language": "Python",
    "graduated": false
+  },
+  "edonadei/caliper": {
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "days_on_list": 1,
+   "last_stars": 211,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-11"
+  },
+  "overmind-core/overmind": {
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "days_on_list": 1,
+   "last_stars": 618,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-11"
+  },
+  "ARahim3/DigUp": {
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "days_on_list": 1,
+   "last_stars": 788,
+   "category": "tools",
+   "language": "Swift",
+   "graduated": false,
+   "last_pushed_at": "2026-10-10"
+  },
+  "LilMGenius/paperthin": {
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "days_on_list": 1,
+   "last_stars": 1134,
+   "category": "llm",
+   "language": "JavaScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-10"
   }
  },
  "last_updated": "2026-10-11",
