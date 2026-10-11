@@ -27796,6 +27796,176 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2610.02827": {
+   "version": "v1",
+   "title": "MLCommons Jailbreak Benchmark v1.0",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "jailbreak benchmark",
+    "MLCommons",
+    "Resilience Gap",
+    "AILuminate"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval"
+   ]
+  },
+  "2610.05266": {
+   "version": "v1",
+   "title": "Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "indirect prompt injection",
+    "proactive agent",
+    "Target Control",
+    "Private Binding"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2610.09264": {
+   "version": "v1",
+   "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "package hallucination",
+    "rule file",
+    "coding agent",
+    "PackHallu"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2610.05089": {
+   "version": "v1",
+   "title": "Cooldown Landmines: Cross-Tenant Interference Attacks on LLM Gateways",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "LLM gateway",
+    "cross-tenant",
+    "cooldown",
+    "LiteLLM"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2610.04575": {
+   "version": "v1",
+   "title": "From Probe Scores to Alarm Policies: Operational Validity of Activation Monitors for Language-Model Agents",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "activation probe",
+    "agent monitor",
+    "Operational Validity Contract",
+    "AgentDojo"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing"
+   ]
+  },
+  "2610.04907": {
+   "version": "v1",
+   "title": "Why Subliminal Learning Needs So Much Data: A Noisy Inverse View through Steering Vector Recovery",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "subliminal learning",
+    "steering vector",
+    "distillation",
+    "Fisher matrix"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering"
+   ]
+  },
+  "2610.04905": {
+   "version": "v1",
+   "title": "ScopeSAE: Model-Scope Feature Discovery with Interpretable Layer Selection",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "sparse autoencoder",
+    "ScopeSAE",
+    "gradient attribution",
+    "layer selection"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2610.05586": {
+   "version": "v1",
+   "title": "AgentDoxx: Agentic Re-identification of Anonymized Text with Web Search",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "re-identification",
+    "anonymized text",
+    "web search agent",
+    "AgentDoxx"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2610.09981": {
+   "version": "v1",
+   "title": "Sensitive-Topic Leakage Through LLM Routing Metadata: Measurement and Mitigation",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "LLM router",
+    "routing metadata",
+    "sensitive topic leakage",
+    "side channel"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2610.08871": {
+   "version": "v1",
+   "title": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
+   "first_seen": "2026-10-12",
+   "last_updated": "2026-10-12",
+   "folder": "2026-10-12",
+   "keywords": [
+    "credential leakage",
+    "phishing",
+    "LLM agent",
+    "CredLeak-Bench"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -27838,7 +28008,7 @@
    ]
   }
  },
- "last_run": "2026-10-11",
+ "last_run": "2026-10-12",
  "_meta": {
   "last_run": "2026-09-20"
  }
