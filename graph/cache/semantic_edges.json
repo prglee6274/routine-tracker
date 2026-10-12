@@ -2214,5 +2214,53 @@
  "2610.09981->2609.31877": {
   "type": "background",
   "evidence": "reference-list/related-work mention"
+ },
+ "2610.07774->2605.29708": {
+  "type": "background",
+  "evidence": "MoE 안전 전문가 관련 선행연구로 참고문헌에 언급"
+ },
+ "2610.12292->2609.28613": {
+  "type": "compares",
+  "evidence": "기존 typed decision 공격 문헌으로 인용, 오류 방향 분리 여부를 대비"
+ },
+ "2610.13227->2606.07131": {
+  "type": "background",
+  "evidence": "관련 연구 인용"
+ },
+ "2610.13227->2606.15242": {
+  "type": "background",
+  "evidence": "관련 연구 인용"
+ },
+ "2610.13227->2606.18198": {
+  "type": "background",
+  "evidence": "관련 연구 인용"
+ },
+ "2610.13227->2607.20121": {
+  "type": "background",
+  "evidence": "참고문헌에만 등장"
+ },
+ "2610.13227->2608.03509": {
+  "type": "background",
+  "evidence": "스킬 백도어 관련 연구"
+ },
+ "2610.13227->2608.05563": {
+  "type": "background",
+  "evidence": "경험 기반 진화로 악영향이 전파되는 관련 연구"
+ },
+ "2610.13227->2608.09732": {
+  "type": "compares",
+  "evidence": "스킬 스캐너 회피 구성 공격과 비교되는 관련 연구"
+ },
+ "2610.13227->2608.16246": {
+  "type": "background",
+  "evidence": "스킬 체인 공격 관련 연구"
+ },
+ "2610.13227->2608.19901": {
+  "type": "background",
+  "evidence": "악성 스킬 탐지 벤치마크 관련 연구"
+ },
+ "2610.13623->2605.03228": {
+  "type": "background",
+  "evidence": "장기 호라이즌 위협 방어 관련 연구"
  }
 }
