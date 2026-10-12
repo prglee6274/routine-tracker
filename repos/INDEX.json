@@ -2194,13 +2194,13 @@
   },
   "JuliusBrussee/caveman": {
    "first_seen": "2026-08-20",
-   "last_seen": "2026-10-09",
-   "days_on_list": 2,
-   "last_stars": 110556,
+   "last_seen": "2026-10-13",
+   "days_on_list": 1,
+   "last_stars": 111208,
    "category": "tools",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-08"
+   "last_pushed_at": "2026-10-12"
   },
   "jundot/omlx": {
    "first_seen": "2026-08-19",
@@ -3158,13 +3158,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-12",
-   "days_on_list": 1,
-   "last_stars": 19932,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-13",
+   "days_on_list": 2,
+   "last_stars": 20048,
    "category": "security",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -4437,13 +4437,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-08",
-   "days_on_list": 3,
-   "last_stars": 67059,
-   "last_pushed_at": "2026-10-07",
+   "last_seen": "2026-10-13",
+   "days_on_list": 1,
+   "last_stars": 68149,
    "category": "security",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5205,13 +5205,13 @@
   },
   "thedotmack/claude-mem": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-13",
    "days_on_list": 1,
-   "last_stars": 98309,
+   "last_stars": 100034,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-08"
+   "last_pushed_at": "2026-10-12"
   },
   "google/ax": {
    "first_seen": "2026-09-24",
@@ -5286,13 +5286,13 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-06",
-   "last_stars": 45859,
-   "last_pushed_at": "2026-10-05",
-   "days_on_list": 2,
+   "last_seen": "2026-10-13",
+   "days_on_list": 1,
+   "last_stars": 48779,
    "category": "llm",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
   },
   "NVIDIA/Model-Optimizer": {
    "first_seen": "2026-09-26",
@@ -5696,13 +5696,13 @@
   },
   "mhtsec/ARTEX": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-12",
-   "days_on_list": 3,
-   "last_stars": 3124,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-13",
+   "days_on_list": 4,
+   "last_stars": 3544,
    "category": "security",
    "language": "Go",
-   "graduated": false
+   "graduated": true,
+   "last_pushed_at": "2026-10-10"
   },
   "samvallad33/vestige": {
    "first_seen": "2026-10-10",
@@ -5716,13 +5716,13 @@
   },
   "noahdunnagan/fsearch": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-12",
-   "days_on_list": 3,
-   "last_stars": 1841,
-   "last_pushed_at": "2026-10-11",
+   "last_seen": "2026-10-13",
+   "days_on_list": 4,
+   "last_stars": 1952,
    "category": "tools",
    "language": "Rust",
-   "graduated": false
+   "graduated": true,
+   "last_pushed_at": "2026-10-12"
   },
   "zhongerxin/iPhone-use": {
    "first_seen": "2026-10-10",
@@ -5766,13 +5766,13 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-12",
-   "days_on_list": 2,
-   "last_stars": 97237,
-   "last_pushed_at": "2026-10-11",
-   "category": "security",
+   "last_seen": "2026-10-13",
+   "days_on_list": 3,
+   "last_stars": 147252,
+   "category": "llm",
    "language": "TypeScript",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
   },
   "heymrun/heym": {
    "first_seen": "2026-10-11",
@@ -5836,13 +5836,13 @@
   },
   "ARahim3/DigUp": {
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-12",
-   "days_on_list": 1,
-   "last_stars": 788,
+   "last_seen": "2026-10-13",
+   "days_on_list": 2,
+   "last_stars": 1784,
    "category": "tools",
    "language": "Swift",
    "graduated": false,
-   "last_pushed_at": "2026-10-10"
+   "last_pushed_at": "2026-10-12"
   },
   "LilMGenius/paperthin": {
    "first_seen": "2026-10-12",
@@ -5853,6 +5853,16 @@
    "language": "JavaScript",
    "graduated": false,
    "last_pushed_at": "2026-10-10"
+  },
+  "langfuse/langfuse": {
+   "first_seen": "2026-10-13",
+   "last_seen": "2026-10-13",
+   "days_on_list": 1,
+   "last_stars": 35704,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
   }
  },
  "last_updated": "2026-10-11",
