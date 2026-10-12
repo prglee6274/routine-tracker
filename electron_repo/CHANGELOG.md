@@ -1,3 +1,7 @@
+## 2026-10-12 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron venue query (only tracked NDSS'23, USENIX'24 Inspectron + CVE pages), nodeIntegration/contextIsolation (CVE pages only), ACSAC 2026 'to appear' (null; next check 2026-10-20), XSS-to-RCE/IPC ESORICS/RAID/DSN (blogs/CVE only).
+
 ## 2026-10-11 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron/nodeIntegration/IPC (CVE pages only), XSS-to-RCE/contextIsolation (CVE/blog only), ACSAC 2026 'to appear' (null; next check 2026-10-20), ESORICS/DSN/RAID Electron (only tracked USENIX'24 Inspectron).
