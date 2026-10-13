@@ -3158,13 +3158,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-13",
-   "days_on_list": 2,
-   "last_stars": 20048,
+   "last_seen": "2026-10-14",
+   "days_on_list": 3,
+   "last_stars": 20125,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "last_pushed_at": "2026-10-13"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -4216,13 +4216,13 @@
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-10-09",
-   "days_on_list": 3,
-   "last_stars": 6790,
+   "last_seen": "2026-10-14",
+   "days_on_list": 4,
+   "last_stars": 6855,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-08"
+   "graduated": true,
+   "last_pushed_at": "2026-10-13"
   },
   "Tencent/teamai-cli": {
    "first_seen": "2026-09-09",
@@ -5286,13 +5286,13 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-13",
-   "days_on_list": 1,
-   "last_stars": 48779,
+   "last_seen": "2026-10-14",
+   "days_on_list": 2,
+   "last_stars": 49179,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "last_pushed_at": "2026-10-13"
   },
   "NVIDIA/Model-Optimizer": {
    "first_seen": "2026-09-26",
@@ -5766,13 +5766,13 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-13",
-   "days_on_list": 3,
-   "last_stars": 147252,
+   "last_seen": "2026-10-14",
+   "days_on_list": 4,
+   "last_stars": 200975,
    "category": "llm",
    "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "graduated": true,
+   "last_pushed_at": "2026-10-13"
   },
   "heymrun/heym": {
    "first_seen": "2026-10-11",
@@ -5786,10 +5786,10 @@
   },
   "HelixDB/helix-foundry": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-11",
-   "days_on_list": 1,
-   "last_stars": 895,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-14",
+   "days_on_list": 2,
+   "last_stars": 1390,
+   "last_pushed_at": "2026-10-13",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -5836,9 +5836,9 @@
   },
   "ARahim3/DigUp": {
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-13",
-   "days_on_list": 2,
-   "last_stars": 1784,
+   "last_seen": "2026-10-14",
+   "days_on_list": 3,
+   "last_stars": 2255,
    "category": "tools",
    "language": "Swift",
    "graduated": false,
@@ -5863,6 +5863,46 @@
    "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-10-12"
+  },
+  "storytold/wordcraft": {
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "days_on_list": 1,
+   "last_stars": 10791,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-12"
+  },
+  "wheresryan22/anatomy": {
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "days_on_list": 1,
+   "last_stars": 7948,
+   "category": "llm",
+   "language": "JavaScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-13"
+  },
+  "gojue/ecapture": {
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "days_on_list": 1,
+   "last_stars": 15500,
+   "category": "tools",
+   "language": "C",
+   "graduated": false,
+   "last_pushed_at": "2026-10-11"
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "days_on_list": 1,
+   "last_stars": 1451,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-13"
   }
  },
  "last_updated": "2026-10-11",
