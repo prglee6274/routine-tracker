@@ -28148,6 +28148,203 @@
       "subtopics": [
         "unlearning"
       ]
+    },
+    "2610.05637": {
+      "version": "v1",
+      "title": "Visual Grounding Safety in Vision-Language Models",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "visual grounding",
+        "VLM safety",
+        "refusal direction",
+        "fine-tuning defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "multimodal_attack",
+        "safety_eval",
+        "alignment_robustness"
+      ]
+    },
+    "2610.05163": {
+      "version": "v1",
+      "title": "Blocking at the Boundary: Auditing Long-Horizon Agents against Staged Prompt Injection",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "staged prompt injection",
+        "agent auditing",
+        "Claude Code",
+        "Codex",
+        "attribution"
+      ],
+      "category": "security",
+      "subtopics": [
+        "prompt_injection",
+        "agent_safety",
+        "defense_mechanism"
+      ]
+    },
+    "2610.07654": {
+      "version": "v1",
+      "title": "Does On-Policy Distillation for Safety Pose Backdoor Risks?",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "on-policy distillation",
+        "backdoor",
+        "poisoning",
+        "top-k KL",
+        "Lazy Defense"
+      ],
+      "category": "security",
+      "subtopics": [
+        "backdoor",
+        "alignment_robustness",
+        "defense_mechanism"
+      ]
+    },
+    "2610.04470": {
+      "version": "v1",
+      "title": "Reactivating Alignment: Defending LLMs from Jailbreaks via Intention-Aware Input-Output Matching",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "jailbreak defense",
+        "SENTINEL",
+        "refusal direction",
+        "over-refusal",
+        "HarmBench"
+      ],
+      "category": "security",
+      "subtopics": [
+        "jailbreak",
+        "defense_mechanism",
+        "adversarial"
+      ]
+    },
+    "2610.04283": {
+      "version": "v1",
+      "title": "First-Order Steering: Translating Weight Adaptation into Activation Steering",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "activation steering",
+        "model merging",
+        "steering vector composition",
+        "HeRD-Merging"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering",
+        "representation",
+        "interp_method"
+      ]
+    },
+    "2610.07514": {
+      "version": "v1",
+      "title": "From Local Evidence to Safety Verdicts: Causal Tracing in Vision-Language Models",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "causal tracing",
+        "activation patching",
+        "VLM safety",
+        "SSU-Bench",
+        "linear readout"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_patching",
+        "probing",
+        "circuits",
+        "multimodal_attack"
+      ]
+    },
+    "2610.09000": {
+      "version": "v1",
+      "title": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "safety-critical parameters",
+        "parameter localization",
+        "fault analysis",
+        "on-device SLM",
+        "GCG"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "interp_method",
+        "representation",
+        "alignment_robustness"
+      ]
+    },
+    "2610.05601": {
+      "version": "v1",
+      "title": "Your Unlearning Gives You Away: Identifying Erased Concepts in Diffusion Models",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "machine unlearning",
+        "diffusion models",
+        "erased concept identification",
+        "Tracer",
+        "spectral analysis"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "data_extraction",
+        "adversarial"
+      ]
+    },
+    "2610.13132": {
+      "version": "v1",
+      "title": "DP-MIND: Differentially private memory-guided Long context Inference",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "differential privacy",
+        "long-context inference",
+        "LLM-as-a-Service",
+        "reinforcement learning",
+        "local denoising"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "differential_privacy",
+        "pii_leakage"
+      ]
+    },
+    "2610.10358": {
+      "version": "v1",
+      "title": "Open-MMUnlearning: Unifying Methods and Evaluation for MLLM Unlearning",
+      "first_seen": "2026-10-14",
+      "last_updated": "2026-10-14",
+      "folder": "2026-10-14",
+      "keywords": [
+        "MLLM unlearning",
+        "benchmark framework",
+        "membership inference",
+        "metric meta-evaluation",
+        "copyright"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "unlearning",
+        "membership_inference"
+      ]
     }
   },
   "_taxonomy": {
@@ -28190,7 +28387,7 @@
       ]
     }
   },
-  "last_run": "2026-10-12",
+  "last_run": "2026-10-14",
   "_meta": {
     "last_run": "2026-09-20"
   }
