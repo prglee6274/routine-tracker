@@ -2318,5 +2318,45 @@
  "2610.13132->2606.05004": {
   "type": "background",
   "evidence": "Related-work / reference-list citation only."
+ },
+ "2610.15244->2604.16548": {
+  "type": "background",
+  "evidence": "메모리 보안 서베이를 관련 연구로 인용"
+ },
+ "2610.15244->2605.28201": {
+  "type": "background",
+  "evidence": "에이전트 sleeper 공격을 관련 연구로 인용"
+ },
+ "2610.15244->2606.10742": {
+  "type": "background",
+  "evidence": "웹 에이전트 멀티모달 메모리 포이즈닝을 관련 연구로 인용"
+ },
+ "2610.15244->2607.15657": {
+  "type": "background",
+  "evidence": "멀티모달 에이전트 장기 메모리 시각 공격을 관련 연구로 인용"
+ },
+ "2610.15850->2510.02917": {
+  "type": "background",
+  "evidence": "scope 논의에서 코드 정확성 SAE 해석 연구 언급"
+ },
+ "2610.15850->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 소개에서 Templeton et al. 인용"
+ },
+ "2610.15850->2607.08349": {
+  "type": "background",
+  "evidence": "적응적 개입 샘플링 추론 확장 방향으로 언급"
+ },
+ "2610.15850->2609.18080": {
+  "type": "compares",
+  "evidence": "활성/출력 증거 불일치를 보인 선행 연구로 비교 인용"
+ },
+ "2610.17457->2609.22200": {
+  "type": "background",
+  "evidence": "동일 그룹의 PII-TRACE 벤치마크를 관련 연구로 인용"
+ },
+ "2610.17898->2605.29358": {
+  "type": "background",
+  "evidence": "SAE가 프론티어 모델로 확장된 예로 인용"
  }
 }
