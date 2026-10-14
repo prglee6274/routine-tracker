@@ -1470,13 +1470,13 @@
   },
   "firecrawl/firecrawl": {
    "first_seen": "2026-07-07",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-10-15",
    "days_on_list": 1,
-   "last_stars": 164898,
-   "category": "tools",
+   "last_stars": 191527,
+   "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-10"
+   "last_pushed_at": "2026-10-14"
   },
   "firecrawl/pdf-inspector": {
    "first_seen": "2026-08-04",
@@ -2470,13 +2470,13 @@
   },
   "luckyPipewrench/pipelock": {
    "first_seen": "2026-06-05",
-   "last_seen": "2026-10-09",
-   "days_on_list": 2,
-   "last_stars": 921,
+   "last_seen": "2026-10-15",
+   "days_on_list": 1,
+   "last_stars": 929,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-08"
+   "last_pushed_at": "2026-10-14"
   },
   "lyogavin/airllm": {
    "first_seen": "2026-07-19",
@@ -3089,10 +3089,10 @@
   },
   "NousResearch/hermes-agent": {
    "first_seen": "2026-05-11",
-   "last_seen": "2026-10-08",
-   "days_on_list": 3,
-   "last_stars": 251894,
-   "last_pushed_at": "2026-10-07",
+   "last_seen": "2026-10-15",
+   "days_on_list": 1,
+   "last_stars": 253741,
+   "last_pushed_at": "2026-10-14",
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -4437,13 +4437,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "days_on_list": 1,
-   "last_stars": 68149,
+   "last_stars": 68565,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "last_pushed_at": "2026-10-14"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5286,13 +5286,13 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-14",
-   "days_on_list": 2,
-   "last_stars": 49179,
+   "last_seen": "2026-10-15",
+   "days_on_list": 3,
+   "last_stars": 49640,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-13"
+   "last_pushed_at": "2026-10-14"
   },
   "NVIDIA/Model-Optimizer": {
    "first_seen": "2026-09-26",
@@ -5436,11 +5436,11 @@
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-10",
-   "days_on_list": 2,
-   "last_stars": 2247,
-   "last_pushed_at": "2026-10-09",
-   "category": "llm",
+   "last_seen": "2026-10-15",
+   "days_on_list": 1,
+   "last_stars": 2260,
+   "last_pushed_at": "2026-10-14",
+   "category": "tools",
    "language": "TypeScript",
    "graduated": false
   },
@@ -5886,23 +5886,43 @@
   },
   "gojue/ecapture": {
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-14",
-   "days_on_list": 1,
-   "last_stars": 15500,
+   "last_seen": "2026-10-15",
+   "days_on_list": 2,
+   "last_stars": 15501,
    "category": "tools",
    "language": "C",
    "graduated": false,
-   "last_pushed_at": "2026-10-11"
+   "last_pushed_at": "2026-10-14"
   },
   "onehumanbeing/esp32-iphone-agent": {
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-14",
-   "days_on_list": 1,
-   "last_stars": 1451,
+   "last_seen": "2026-10-15",
+   "days_on_list": 2,
+   "last_stars": 2055,
    "category": "llm",
    "language": "Python",
    "graduated": false,
    "last_pushed_at": "2026-10-13"
+  },
+  "anthropics/oss-scanner": {
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "days_on_list": 1,
+   "last_stars": 1003,
+   "category": "security",
+   "language": "Dockerfile",
+   "graduated": false,
+   "last_pushed_at": "2026-10-14"
+  },
+  "t4t5/omdrop-owl": {
+   "first_seen": "2026-10-15",
+   "last_seen": "2026-10-15",
+   "days_on_list": 1,
+   "last_stars": 2663,
+   "category": "tools",
+   "language": "Shell",
+   "graduated": false,
+   "last_pushed_at": "2026-10-14"
   }
  },
  "last_updated": "2026-10-11",
