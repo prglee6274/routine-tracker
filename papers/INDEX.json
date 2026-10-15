@@ -28530,6 +28530,177 @@
         "unlearning",
         "agent_privacy"
       ]
+    },
+    "2610.19422": {
+      "version": "v1",
+      "title": "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "agent safety",
+        "co-evolution",
+        "attacker-defender RL",
+        "tool-use attacks"
+      ],
+      "category": "security",
+      "subtopics": [
+        "agent_safety"
+      ]
+    },
+    "2610.19525": {
+      "version": "v1",
+      "title": "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "reward hacking",
+        "RLVR",
+        "instruction following",
+        "CALIF"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
+    },
+    "2610.15218": {
+      "version": "v1",
+      "title": "Running Fewer Loops Removes Refusal Behaviour in Recurrent-Depth Language Models",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "recurrent-depth LM",
+        "refusal",
+        "early exit",
+        "linear probe"
+      ],
+      "category": "security",
+      "subtopics": [
+        "safety_eval"
+      ]
+    },
+    "2610.09004": {
+      "version": "v1",
+      "title": "Removing Information Content Does Not Certify Tamper Resistance in Open-Weight Models",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "tamper resistance",
+        "open-weight",
+        "fine-tuning attack",
+        "mutual information"
+      ],
+      "category": "security",
+      "subtopics": [
+        "alignment_robustness"
+      ]
+    },
+    "2610.16084": {
+      "version": "v1",
+      "title": "The Sharp Directions Are Against You: Curvature Analysis of Activation Steering",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "activation steering",
+        "CAA",
+        "steering Hessian",
+        "curvature"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "activation_steering"
+      ]
+    },
+    "2610.19636": {
+      "version": "v1",
+      "title": "Sparse Autoencoders Are a Shared Coordinate System for Symbolic Matching",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "sparse autoencoder",
+        "SAE-IDF",
+        "symbolic matching",
+        "neuro-symbolic"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "sae"
+      ]
+    },
+    "2610.18408": {
+      "version": "v1",
+      "title": "Prompt-Injection Probes Learn the Conversation, Not Just the Injection",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "linear probe",
+        "indirect prompt injection",
+        "matched negatives",
+        "agent monitor"
+      ],
+      "category": "interp",
+      "subtopics": [
+        "probing"
+      ]
+    },
+    "2610.14071": {
+      "version": "v1",
+      "title": "Loose Lips: Understanding Privacy Leakage in Agentic Dialogue",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "contextual integrity",
+        "agentic dialogue",
+        "privacy leakage",
+        "CIMemories Dialogue"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "agent_privacy"
+      ]
+    },
+    "2610.16039": {
+      "version": "v1",
+      "title": "When Agents Talk, Secrets Travel: Topology-Driven Leakage and Recipient-Conditioned Sanitization in Multi-Agent LLM Systems",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "multi-agent",
+        "topology",
+        "leakage",
+        "sanitization",
+        "RECONS"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "agent_privacy"
+      ]
+    },
+    "2610.18486": {
+      "version": "v1",
+      "title": "SoK: Rethinking Membership Inference in Tabular Machine Learning",
+      "first_seen": "2026-10-16",
+      "last_updated": "2026-10-16",
+      "folder": "2026-10-16",
+      "keywords": [
+        "membership inference",
+        "tabular data",
+        "SoK",
+        "single-out records"
+      ],
+      "category": "privacy",
+      "subtopics": [
+        "membership_inference"
+      ]
     }
   },
   "_taxonomy": {
@@ -28572,7 +28743,7 @@
       ]
     }
   },
-  "last_run": "2026-10-15",
+  "last_run": "2026-10-16",
   "_meta": {
     "last_run": "2026-09-20"
   }

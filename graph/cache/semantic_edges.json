@@ -2358,5 +2358,45 @@
  "2610.17898->2605.29358": {
   "type": "background",
   "evidence": "SAE가 프론티어 모델로 확장된 예로 인용"
+ },
+ "2610.09004->2607.23970": {
+  "type": "background",
+  "evidence": "tamper-resistance 관련 선행 결과로 인용(mode connectivity)"
+ },
+ "2610.14071->2605.30727": {
+  "type": "background",
+  "evidence": "관련 에이전트 프라이버시 누출 연구로 인용"
+ },
+ "2610.14071->2606.21710": {
+  "type": "background",
+  "evidence": "관련 컨텍스트 프라이버시 정렬 연구로 인용"
+ },
+ "2610.16039->2606.10749": {
+  "type": "background",
+  "evidence": "에이전트 보안 서베이로 인용"
+ },
+ "2610.16039->2607.08282": {
+  "type": "compares",
+  "evidence": "가장 가까운 선행 방어/측정 연구와 표로 비교"
+ },
+ "2610.16084->2605.29358": {
+  "type": "background",
+  "evidence": "SAE feature에도 진단이 적용됨을 언급"
+ },
+ "2610.18408->2605.28999": {
+  "type": "background",
+  "evidence": "프롬프트 인젝션 실사례로 인용"
+ },
+ "2610.18408->2606.22864": {
+  "type": "background",
+  "evidence": "동일 저자 선행 연구, 헤더 컨텍스트만 확인"
+ },
+ "2610.18408->2610.05295": {
+  "type": "background",
+  "evidence": "내부 상태 분석 관련 연구로 인용"
+ },
+ "2610.19636->2605.29358": {
+  "type": "background",
+  "evidence": "SAE 사전 연구로 인용"
  }
 }
