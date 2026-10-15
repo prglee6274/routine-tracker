@@ -114,13 +114,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-10-06",
-   "days_on_list": 2,
-   "last_stars": 273504,
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 280168,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-05"
+   "last_pushed_at": "2026-10-15"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -2343,13 +2343,13 @@
   },
   "langgenius/dify": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-06-18",
-   "days_on_list": 3,
-   "last_stars": 111490,
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 158580,
    "category": "llm",
    "language": "TypeScript/Python",
    "graduated": false,
-   "last_pushed_at": "2026-06-18"
+   "last_pushed_at": "2026-10-15"
   },
   "larksuite/cli": {
    "first_seen": "2026-08-27",
@@ -3158,13 +3158,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-14",
-   "days_on_list": 3,
-   "last_stars": 20125,
+   "last_seen": "2026-10-16",
+   "days_on_list": 4,
+   "last_stars": 20282,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-13"
+   "graduated": true,
+   "last_pushed_at": "2026-10-15"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -5436,10 +5436,10 @@
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-15",
-   "days_on_list": 1,
-   "last_stars": 2260,
-   "last_pushed_at": "2026-10-14",
+   "last_seen": "2026-10-16",
+   "days_on_list": 2,
+   "last_stars": 2264,
+   "last_pushed_at": "2026-10-15",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -5886,9 +5886,9 @@
   },
   "gojue/ecapture": {
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-15",
-   "days_on_list": 2,
-   "last_stars": 15501,
+   "last_seen": "2026-10-16",
+   "days_on_list": 3,
+   "last_stars": 15506,
    "category": "tools",
    "language": "C",
    "graduated": false,
@@ -5923,6 +5923,56 @@
    "language": "Shell",
    "graduated": false,
    "last_pushed_at": "2026-10-14"
+  },
+  "pipelab-org/pipelock": {
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 930,
+   "category": "security",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-15"
+  },
+  "langchain-ai/langgraph": {
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 43319,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-15"
+  },
+  "Arize-ai/phoenix": {
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 11858,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-15"
+  },
+  "feder-cr/open_scion": {
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 665,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-15"
+  },
+  "chenglou/handwired": {
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "days_on_list": 1,
+   "last_stars": 817,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-15"
   }
  },
  "last_updated": "2026-10-11",
