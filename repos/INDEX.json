@@ -1856,14 +1856,13 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-09",
-   "days_on_list": 3,
-   "last_stars": 124703,
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 127207,
+   "last_pushed_at": "2026-10-16",
    "category": "tools",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-07",
-   "revived_on": "2026-09-19"
+   "graduated": false
   },
   "GyulyVGC/sniffnet": {
    "first_seen": "2026-08-28",
@@ -4397,13 +4396,13 @@
   },
   "uber/ADR": {
    "first_seen": "2026-08-06",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-17",
    "days_on_list": 1,
-   "last_stars": 1847,
+   "last_stars": 2060,
+   "last_pushed_at": "2026-10-16",
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-06"
+   "graduated": false
   },
   "unclecode/crawl4ai": {
    "first_seen": "2026-09-01",
@@ -5426,13 +5425,13 @@
   },
   "hashgraph-online/hol-guard": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-08",
-   "days_on_list": 2,
-   "last_stars": 807,
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 914,
+   "last_pushed_at": "2026-10-16",
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-07"
+   "graduated": false
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
@@ -5926,13 +5925,13 @@
   },
   "pipelab-org/pipelock": {
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-16",
-   "days_on_list": 1,
+   "last_seen": "2026-10-17",
+   "days_on_list": 2,
    "last_stars": 930,
+   "last_pushed_at": "2026-10-16",
    "category": "security",
    "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-10-15"
+   "graduated": false
   },
   "langchain-ai/langgraph": {
    "first_seen": "2026-10-16",
@@ -5973,10 +5972,70 @@
    "language": "TypeScript",
    "graduated": false,
    "last_pushed_at": "2026-10-15"
+  },
+  "feder-cr/git-ai": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 1044,
+   "last_pushed_at": "2026-10-16",
+   "category": "tools",
+   "language": "Go",
+   "graduated": false
+  },
+  "Zfinix/eleven": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 589,
+   "last_pushed_at": "2026-10-16",
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false
+  },
+  "langchain-ai/langchain": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 147936,
+   "last_pushed_at": "2026-10-16",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "mlflow/mlflow": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 28417,
+   "last_pushed_at": "2026-10-16",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "HKUDS/LightRAG": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 40171,
+   "last_pushed_at": "2026-10-15",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "Mintplex-Labs/anything-llm": {
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "days_on_list": 1,
+   "last_stars": 67205,
+   "last_pushed_at": "2026-10-16",
+   "category": "llm",
+   "language": "JavaScript",
+   "graduated": false
   }
  },
- "last_updated": "2026-10-11",
+ "last_updated": "2026-10-17",
  "updated": "2026-10-11",
- "last_run": "2026-10-11",
- "count": 586
+ "last_run": "2026-10-17",
+ "count": 608
 }
