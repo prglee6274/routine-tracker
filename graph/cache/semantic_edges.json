@@ -2398,5 +2398,49 @@
  "2610.19636->2605.29358": {
   "type": "background",
   "evidence": "SAE 사전 연구로 인용"
+ },
+ "2610.19365->2605.29358": {
+  "type": "background",
+  "evidence": "reference list only"
+ },
+ "2610.19365->2607.15495": {
+  "type": "background",
+  "evidence": "cited with lens/readout prior work"
+ },
+ "2610.20656->2608.18274": {
+  "type": "background",
+  "evidence": "cites OpenAI Privacy Filter model card"
+ },
+ "2610.20680->2605.29358": {
+  "type": "background",
+  "evidence": "SAE scaling background"
+ },
+ "2610.20680->2606.12138": {
+  "type": "background",
+  "evidence": "seed-dependence prior work contrasted"
+ },
+ "2610.20887->2603.23268": {
+  "type": "background",
+  "evidence": "prior safety-circuit localization"
+ },
+ "2610.20941->2606.06529": {
+  "type": "background",
+  "evidence": "related control-evaluation work"
+ },
+ "2610.20941->2609.19587": {
+  "type": "background",
+  "evidence": "related red-teaming of blocking classifiers"
+ },
+ "2610.22243->2606.08960": {
+  "type": "background",
+  "evidence": "benchmark hardening related work"
+ },
+ "2610.22243->2607.28685": {
+  "type": "compares",
+  "evidence": "related validity audit of agent-safety benchmarks; contributes inference ladder"
+ },
+ "2610.22243->2608.24777": {
+  "type": "background",
+  "evidence": "guard benchmark listed"
  }
 }
