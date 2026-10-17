@@ -1,3 +1,7 @@
+## 2026-10-17 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: domain-restricted Electron sweep (usenix/ndss/ieee-security/acm/arxiv/computer.org; only tracked Buzz to Boom arXiv, NDSS'23, USENIX'24 Ali; off-scope: Java patch-guided detection USENIX'26, LLM-vuln survey), nodeIntegration/contextIsolation/IPC at ACSAC/ESORICS/RAID/CCS 2026 (CVE pages only), arXiv renderer/main privilege-escalation query (nothing new).
+
 ## 2026-10-16 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: domain-restricted Electron sweep (only tracked Buzz to Boom, NDSS'23, USENIX'24 Ali; off-scope: Java patch-guided detection, TIFS JS-obfuscation vs static analysis [journal, not a tracked venue]), ACSAC/ESORICS/RAID 2026 (CFP pages only; next ACSAC check 2026-10-20), native-addon/N-API (already-tracked Staicu'23, Snyk blog), IPC/XSS-to-RCE (HackTricks/blogs only).
