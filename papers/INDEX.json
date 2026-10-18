@@ -28878,6 +28878,176 @@
    "subtopics": [
     "data_extraction"
    ]
+  },
+  "2610.21261": {
+   "version": "v1",
+   "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE",
+    "compositionality",
+    "feature interaction"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2610.19133": {
+   "version": "v1",
+   "title": "TRACER: Trace-Regularized Training Against Indirect Prompt Injection",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "indirect prompt injection",
+    "adversarial training",
+    "RAG",
+    "channel-aware"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2610.19452": {
+   "version": "v1",
+   "title": "Are You Reading the Right Thing? Rethinking Internal Signals for Prompt-Injection Detection",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "prompt injection detection",
+    "probing",
+    "residual stream",
+    "internal signals"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2610.19587": {
+   "version": "v1",
+   "title": "Moral Combat: Exploiting Moral Foundations Theory to Jailbreak LLMs",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "jailbreak",
+    "moral foundations theory",
+    "multi-agent",
+    "persuasion"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak"
+   ]
+  },
+  "2610.14215": {
+   "version": "v1",
+   "title": "Physical Side-Channel Attacks on Edge LLMs: Extracting Output Tokens and User Prompts",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "side-channel",
+    "electromagnetic",
+    "edge LLM",
+    "prompt recovery"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2610.20139": {
+   "version": "v1",
+   "title": "Sparse Autoencoders for Mechanistic Interpretability in NLP: A Critical Survey of Recoverability, Interpretability, and Utility",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "sparse autoencoder",
+    "survey",
+    "mechanistic interpretability",
+    "faithfulness"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2610.19907": {
+   "version": "v1",
+   "title": "Sparse Transformer: a Controlled Testbed for Mechanistic Interpretability",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "mechanistic interpretability",
+    "sparse transformer",
+    "transcoder",
+    "polysemanticity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method"
+   ]
+  },
+  "2610.19613": {
+   "version": "v1",
+   "title": "Are We Really Measuring Forgetting? Pitfalls in Evaluating Machine Unlearning for Multimodal LLMs",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "machine unlearning",
+    "multimodal LLM",
+    "benchmark",
+    "evaluation pitfalls"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2610.10909": {
+   "version": "v1",
+   "title": "Power Side-Channel Membership Inference Attack on Embedded Machine Learning",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "membership inference",
+    "power side-channel",
+    "embedded ML",
+    "PSCMIA"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2610.21547": {
+   "version": "v1",
+   "title": "Federated Art Chase: Privacy Leakage and Data Poisoning in Federated Fine-Tuning",
+   "first_seen": "2026-10-19",
+   "last_updated": "2026-10-19",
+   "folder": "2026-10-19",
+   "keywords": [
+    "federated learning",
+    "gradient inversion",
+    "data poisoning",
+    "fine-tuning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -28920,7 +29090,7 @@
    ]
   }
  },
- "last_run": "2026-10-18",
+ "last_run": "2026-10-19",
  "_meta": {
   "last_run": "2026-09-20"
  }

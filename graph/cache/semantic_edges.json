@@ -2442,5 +2442,53 @@
  "2610.22243->2608.24777": {
   "type": "background",
   "evidence": "guard benchmark listed"
+ },
+ "2610.19452->2606.22864": {
+  "type": "compares",
+  "evidence": "hidden-state probe evaluation protocol for indirect PI; related work contrast"
+ },
+ "2610.19452->2607.15495": {
+  "type": "background",
+  "evidence": "internal-state readout motivates hypothesis"
+ },
+ "2610.19452->2607.12624": {
+  "type": "compares",
+  "evidence": "PVDetector as internal-state detector; different threat model"
+ },
+ "2610.20139->2602.05859": {
+  "type": "background",
+  "evidence": "SAE extension to diffusion LMs surveyed"
+ },
+ "2610.20139->2605.12225": {
+  "type": "background",
+  "evidence": "SAE extension to speech surveyed"
+ },
+ "2610.20139->2605.28567": {
+  "type": "background",
+  "evidence": "transport-based feature matching surveyed"
+ },
+ "2610.20139->2605.29358": {
+  "type": "background",
+  "evidence": "foundational SAE scaling work cited"
+ },
+ "2610.20139->2606.06333": {
+  "type": "background",
+  "evidence": "subspace SAE approach surveyed"
+ },
+ "2610.20139->2606.16193": {
+  "type": "background",
+  "evidence": "multimodal SAE extension surveyed"
+ },
+ "2610.20139->2608.28233": {
+  "type": "background",
+  "evidence": "SAE-based steering for refusal surveyed"
+ },
+ "2610.20139->2608.30403": {
+  "type": "background",
+  "evidence": "SAE backdoor analysis surveyed"
+ },
+ "2610.20139->2609.07746": {
+  "type": "background",
+  "evidence": "SAE backdoor localization surveyed"
  }
 }
