@@ -293,13 +293,13 @@
   },
   "anomalyco/opencode": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-08-08",
+   "last_seen": "2026-10-19",
    "days_on_list": 1,
-   "last_stars": 194705,
+   "last_stars": 216353,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-08-07"
+   "last_pushed_at": "2026-10-18"
   },
   "anomalyco/opentui": {
    "first_seen": "2026-07-04",
@@ -1696,13 +1696,13 @@
   },
   "gitleaks/gitleaks": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-10-19",
    "days_on_list": 1,
-   "last_stars": 28604,
+   "last_stars": 30095,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-07-22"
+   "last_pushed_at": "2026-09-30"
   },
   "GitoxideLabs/gitoxide": {
    "first_seen": "2026-08-26",
@@ -3720,13 +3720,13 @@
   },
   "rtk-ai/rtk": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-10-07",
-   "days_on_list": 2,
-   "last_stars": 82540,
+   "last_seen": "2026-10-19",
+   "days_on_list": 1,
+   "last_stars": 83854,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-10-06"
+   "last_pushed_at": "2026-10-17"
   },
   "rust-lang/rust": {
    "first_seen": "2026-08-26",
@@ -4017,10 +4017,10 @@
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-10-19",
    "days_on_list": 1,
-   "last_stars": 77418,
-   "last_pushed_at": "2026-09-24",
+   "last_stars": 96396,
+   "last_pushed_at": "2026-10-18",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-18",
-   "days_on_list": 2,
-   "last_stars": 69185,
+   "last_seen": "2026-10-19",
+   "days_on_list": 3,
+   "last_stars": 69483,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-17"
+   "last_pushed_at": "2026-10-18"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5975,9 +5975,9 @@
   },
   "feder-cr/git-ai": {
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-18",
-   "days_on_list": 2,
-   "last_stars": 1119,
+   "last_seen": "2026-10-19",
+   "days_on_list": 3,
+   "last_stars": 1510,
    "last_pushed_at": "2026-10-16",
    "category": "tools",
    "language": "Go",
@@ -5985,10 +5985,10 @@
   },
   "Zfinix/eleven": {
    "first_seen": "2026-10-17",
-   "last_seen": "2026-10-17",
-   "days_on_list": 1,
-   "last_stars": 589,
-   "last_pushed_at": "2026-10-16",
+   "last_seen": "2026-10-19",
+   "days_on_list": 2,
+   "last_stars": 750,
+   "last_pushed_at": "2026-10-18",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -6091,6 +6091,36 @@
    "last_pushed_at": "2026-10-17",
    "category": "llm",
    "language": "Python",
+   "graduated": false
+  },
+  "googleworkspace/cli": {
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "days_on_list": 1,
+   "last_stars": 31648,
+   "last_pushed_at": "2026-10-06",
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false
+  },
+  "xerj-org/xerj": {
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "days_on_list": 1,
+   "last_stars": 8305,
+   "last_pushed_at": "2026-10-18",
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false
+  },
+  "anthropics/claude-quickstarts": {
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "days_on_list": 1,
+   "last_stars": 18604,
+   "last_pushed_at": "2026-10-08",
+   "category": "llm",
+   "language": "TypeScript",
    "graduated": false
   }
  },
