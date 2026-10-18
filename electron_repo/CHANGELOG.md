@@ -1,3 +1,7 @@
+## 2026-10-18 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: general Electron venue query (only tracked NDSS'23, USENIX'24 Ali + CVE pages), nodeIntegration/contextIsolation/IPC arXiv query (CVE pages only), ACSAC 2026 'to appear' (null; next ACSAC check 2026-10-20).
+
 ## 2026-10-17 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: domain-restricted Electron sweep (usenix/ndss/ieee-security/acm/arxiv/computer.org; only tracked Buzz to Boom arXiv, NDSS'23, USENIX'24 Ali; off-scope: Java patch-guided detection USENIX'26, LLM-vuln survey), nodeIntegration/contextIsolation/IPC at ACSAC/ESORICS/RAID/CCS 2026 (CVE pages only), arXiv renderer/main privilege-escalation query (nothing new).
