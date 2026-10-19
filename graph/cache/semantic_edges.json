@@ -2490,5 +2490,121 @@
  "2610.20139->2609.07746": {
   "type": "background",
   "evidence": "SAE backdoor localization surveyed"
+ },
+ "2610.22659->2607.12649": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22659->2608.18274": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22722->2606.14210": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22722->2609.04382": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22722->2610.04128": {
+  "type": "extends",
+  "evidence": "companion study sharing the split-LLM gradient experiment"
+ },
+ "2610.22873->2607.06595": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22873->2607.19957": {
+  "type": "baseline",
+  "evidence": "HijackKV is the white-box KV poisoning baseline outperformed in 8/9 settings"
+ },
+ "2610.22937->2605.06076": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22937->2609.35822": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22987->2607.20759": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.22987->2608.06477": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2606.04329": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2606.19235": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2606.27027": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2607.05120": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2607.06595": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2607.20759": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2607.24964": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2608.14876": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2608.30686": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23109->2609.13889": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23726->2605.09225": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23726->2607.19829": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23726->2607.26115": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23726->2608.14577": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23726->2608.16465": {
+  "type": "compares",
+  "evidence": "JailbreakSkill compared directly against RedDarwin in ASR figures"
+ },
+ "2610.23726->2608.27439": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23801->2605.29358": {
+  "type": "background",
+  "evidence": "cited as related work"
+ },
+ "2610.23801->2605.31245": {
+  "type": "compares",
+  "evidence": "prior work on SAE dictionary consistency discussed as related/baseline"
  }
 }
