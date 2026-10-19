@@ -293,13 +293,13 @@
   },
   "anomalyco/opencode": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-10-19",
-   "days_on_list": 1,
-   "last_stars": 216353,
+   "last_seen": "2026-10-20",
+   "days_on_list": 2,
+   "last_stars": 217583,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-18"
+   "last_pushed_at": "2026-10-19"
   },
   "anomalyco/opentui": {
    "first_seen": "2026-07-04",
@@ -1856,9 +1856,9 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-20",
    "days_on_list": 1,
-   "last_stars": 127207,
+   "last_stars": 129023,
    "last_pushed_at": "2026-10-16",
    "category": "tools",
    "language": "Python",
@@ -3444,13 +3444,13 @@
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-07-28",
-   "last_seen": "2026-10-04",
-   "days_on_list": 2,
-   "last_stars": 75067,
+   "last_seen": "2026-10-20",
+   "days_on_list": 1,
+   "last_stars": 83110,
    "category": "tools",
-   "language": "JavaScript",
+   "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-10-03",
+   "last_pushed_at": "2026-10-19",
    "revived_on": "2026-10-03"
   },
   "permissionlesstech/bitchat": {
@@ -3750,13 +3750,13 @@
   },
   "ruvnet/ruflo": {
    "first_seen": "2026-05-09",
-   "last_seen": "2026-05-14",
+   "last_seen": "2026-10-20",
    "days_on_list": 1,
-   "last_stars": 50220,
+   "last_stars": 77055,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-05-13T17:34:12Z"
+   "last_pushed_at": "2026-10-19"
   },
   "ruvnet/RuView": {
    "first_seen": "2026-05-16",
@@ -4017,11 +4017,11 @@
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-19",
-   "days_on_list": 1,
-   "last_stars": 96396,
-   "last_pushed_at": "2026-10-18",
-   "category": "tools",
+   "last_seen": "2026-10-20",
+   "days_on_list": 2,
+   "last_stars": 98009,
+   "last_pushed_at": "2026-10-19",
+   "category": "llm",
    "language": "TypeScript",
    "graduated": false
   },
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-19",
-   "days_on_list": 3,
-   "last_stars": 69483,
+   "last_seen": "2026-10-20",
+   "days_on_list": 4,
+   "last_stars": 69990,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-18"
+   "graduated": true,
+   "last_pushed_at": "2026-10-19"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5925,10 +5925,10 @@
   },
   "pipelab-org/pipelock": {
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-18",
-   "days_on_list": 3,
-   "last_stars": 934,
-   "last_pushed_at": "2026-10-17",
+   "last_seen": "2026-10-20",
+   "days_on_list": 1,
+   "last_stars": 938,
+   "last_pushed_at": "2026-10-19",
    "category": "security",
    "language": "Go",
    "graduated": false
@@ -6121,6 +6121,36 @@
    "last_pushed_at": "2026-10-08",
    "category": "llm",
    "language": "TypeScript",
+   "graduated": false
+  },
+  "mitmproxy/mitmproxy": {
+   "first_seen": "2026-10-20",
+   "days_on_list": 1,
+   "last_seen": "2026-10-20",
+   "last_stars": 45750,
+   "last_pushed_at": "2026-10-19",
+   "category": "security",
+   "language": "Python",
+   "graduated": false
+  },
+  "fish-shell/fish-shell": {
+   "first_seen": "2026-10-20",
+   "days_on_list": 1,
+   "last_seen": "2026-10-20",
+   "last_stars": 34330,
+   "last_pushed_at": "2026-10-16",
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false
+  },
+  "smg-project/smg": {
+   "first_seen": "2026-10-20",
+   "days_on_list": 1,
+   "last_seen": "2026-10-20",
+   "last_stars": 635,
+   "last_pushed_at": "2026-10-19",
+   "category": "llm",
+   "language": "Rust",
    "graduated": false
   }
  },
