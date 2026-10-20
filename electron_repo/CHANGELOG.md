@@ -1,3 +1,6 @@
+## 2026-10-20
+No new in-scope papers. Checked all 9 venues via topical sweeps + CCS 2026 accepted list. Excluded: Python Configuration Files (USENIX Sec 2026).
+
 ## 2026-10-19 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 200 excluded, 31 context_non_venue.** Searches: domain-restricted Electron sweep (only tracked Buzz to Boom, NDSS'23, USENIX'24 Ali; off-scope: Java patch-guided detection, protracted-vuln arXiv, AsiaCCS proceedings TOC), nodeIntegration/IPC ACSAC/ESORICS/RAID/DSN (CVE pages only), native-addon/N-API (Snyk blog only). ACSAC next check 2026-10-20.
