@@ -2606,5 +2606,37 @@
  "2610.23801->2605.31245": {
   "type": "compares",
   "evidence": "prior work on SAE dictionary consistency discussed as related/baseline"
+ },
+ "2610.22640->2605.08513": {
+  "type": "baseline",
+  "evidence": "single-neuron safety-bypass work cited in references; closest prior internal-target intervention"
+ },
+ "2610.24359->2606.24595": {
+  "type": "background",
+  "evidence": "reference-list citation of MEMPROBE memory probing benchmark"
+ },
+ "2610.24359->2608.19857": {
+  "type": "background",
+  "evidence": "reference-list citation on inadvertent context leakage"
+ },
+ "2610.24556->2605.29358": {
+  "type": "background",
+  "evidence": "SAE/scaling monosemanticity cited as the unsupervised alternative being contrasted"
+ },
+ "2610.24556->2609.19101": {
+  "type": "background",
+  "evidence": "reference-list citation on reward-hacking monitoring via internal representations"
+ },
+ "2610.24908->2605.29358": {
+  "type": "background",
+  "evidence": "Templeton et al. cited for incomplete SAE feature sets"
+ },
+ "2610.24999->2605.05058": {
+  "type": "background",
+  "evidence": "reference-list entry in survey table of jailbreak robustness"
+ },
+ "2610.24999->2607.26115": {
+  "type": "background",
+  "evidence": "reference-list citation of automated red teaming"
  }
 }
