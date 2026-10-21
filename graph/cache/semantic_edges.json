@@ -2638,5 +2638,49 @@
  "2610.24999->2607.26115": {
   "type": "background",
   "evidence": "reference-list citation of automated red teaming"
+ },
+ "2610.22578->2609.32021": {
+  "type": "compares",
+  "evidence": "contrasts with SilentCall, which backdoors tool calls triggered by system date to exfiltrate credentials"
+ },
+ "2610.24052->2607.02514": {
+  "type": "extends",
+  "evidence": "reference-list cite of related distributed-attack control work; this paper builds multi-agent distributed attacks"
+ },
+ "2610.24052->2607.07368": {
+  "type": "compares",
+  "evidence": "reference-list cite; prior finding that distributed attacks hamper per-instance monitors"
+ },
+ "2610.25161->2605.26269": {
+  "type": "extends",
+  "evidence": "turns AgentSecBench noninterference games from evaluation into a training reward"
+ },
+ "2610.25161->2605.30727": {
+  "type": "background",
+  "evidence": "listed among behavior/search-query leakage in agents"
+ },
+ "2610.25161->2606.04067": {
+  "type": "background",
+  "evidence": "listed among defenses that rewrite/isolate context"
+ },
+ "2610.25161->2606.12341": {
+  "type": "compares",
+  "evidence": "OCELOT imposes runtime leakage budgets vs. this paper's training-time objective"
+ },
+ "2610.25161->2606.21710": {
+  "type": "background",
+  "evidence": "listed among training-based privacy alignment methods"
+ },
+ "2610.25161->2609.32915": {
+  "type": "background",
+  "evidence": "cited for behavioral side-channel leakage in agents"
+ },
+ "2610.25161->2610.05586": {
+  "type": "background",
+  "evidence": "listed among inference/re-identification attacks"
+ },
+ "2610.28315->2604.16548": {
+  "type": "background",
+  "evidence": "reference-list survey of long-term memory security"
  }
 }

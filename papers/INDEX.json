@@ -29407,6 +29407,187 @@
     "sae",
     "interp_method"
    ]
+  },
+  "2610.22578": {
+   "version": "v1",
+   "title": "Model-as-a-Trojan: Self-Activating Covert DNS Exfiltration Baked Into the Weights of an LLM Agent",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ],
+   "keywords": [
+    "covert exfiltration",
+    "DNS tunneling",
+    "malicious weights",
+    "agent sandbox",
+    "fine-tuning backdoor"
+   ]
+  },
+  "2610.24048": {
+   "version": "v1",
+   "title": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ],
+   "keywords": [
+    "prompt injection",
+    "AgentDojo",
+    "branching rollouts",
+    "reasoning",
+    "agent hijacking"
+   ]
+  },
+  "2610.24052": {
+   "version": "v1",
+   "title": "Red-Teaming Multi-Agent Attacks for Loss-of-Control Risks",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ],
+   "keywords": [
+    "AI control",
+    "multi-agent collusion",
+    "distributed attacks",
+    "monitor evasion",
+    "loss of control"
+   ]
+  },
+  "2610.28425": {
+   "version": "v1",
+   "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ],
+   "keywords": [
+    "indirect prompt injection",
+    "persistent memory",
+    "carryover attack",
+    "agent benchmark",
+    "scheduled tasks"
+   ]
+  },
+  "2610.27375": {
+   "version": "v1",
+   "title": "Shaped SAEs: Expanding the Toolkit for Mechanistic Interpretability",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ],
+   "keywords": [
+    "sparse autoencoder",
+    "matched filter SAE",
+    "Jacobian J-space",
+    "activation shaping",
+    "TopK"
+   ]
+  },
+  "2610.26489": {
+   "version": "v1",
+   "title": "Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ],
+   "keywords": [
+    "sparse autoencoder",
+    "intervention strength",
+    "norm matching",
+    "output calibration",
+    "Gemma/Llama"
+   ]
+  },
+  "2610.25599": {
+   "version": "v1",
+   "title": "Text Dominance in Paralinguistic Conflict: Tracing Suppression Through Audio LLM Circuits",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ],
+   "keywords": [
+    "audio LLM",
+    "attention knockout",
+    "probing",
+    "text dominance",
+    "back-patching",
+    "circuit tracing"
+   ]
+  },
+  "2610.28315": {
+   "version": "v1",
+   "title": "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy"
+   ],
+   "keywords": [
+    "LLM agent memory",
+    "privacy leakage",
+    "attribute inference",
+    "multi-session simulation",
+    "personalization"
+   ]
+  },
+  "2610.24643": {
+   "version": "v1",
+   "title": "Frequency-Domain Membership Inference Does Not Beat Confidence Thresholding: A Band-Resolved Analysis of Why",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ],
+   "keywords": [
+    "membership inference",
+    "federated learning",
+    "frequency domain",
+    "low-pass filter",
+    "confidence thresholding"
+   ]
+  },
+  "2610.25161": {
+   "version": "v1",
+   "title": "Indistinguishable Agents: Training Agent Privacy as Twin-World Indistinguishability",
+   "first_seen": "2026-10-22",
+   "last_updated": "2026-10-22",
+   "folder": "2026-10-22",
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy"
+   ],
+   "keywords": [
+    "agent privacy",
+    "twin-world",
+    "GRPO",
+    "indistinguishability",
+    "observer inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -29449,7 +29630,7 @@
    ]
   }
  },
- "last_run": "2026-10-21",
+ "last_run": "2026-10-22",
  "_meta": {
   "last_run": "2026-09-20"
  }
