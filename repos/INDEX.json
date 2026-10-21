@@ -421,13 +421,13 @@
   },
   "aquasecurity/trivy": {
    "first_seen": "2026-07-25",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-10-22",
    "days_on_list": 1,
-   "last_stars": 37628,
+   "last_stars": 38576,
    "category": "security",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-08-27"
+   "last_pushed_at": "2026-10-21"
   },
   "arcboxlabs/arcbox": {
    "first_seen": "2026-09-03",
@@ -1856,10 +1856,10 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-22",
    "days_on_list": 1,
-   "last_stars": 129023,
-   "last_pushed_at": "2026-10-16",
+   "last_stars": 131375,
+   "last_pushed_at": "2026-10-21",
    "category": "tools",
    "language": "Python",
    "graduated": false
@@ -3423,13 +3423,13 @@
   },
   "Panniantong/Agent-Reach": {
    "first_seen": "2026-07-01",
-   "last_seen": "2026-10-04",
-   "days_on_list": 2,
-   "last_stars": 89640,
+   "last_seen": "2026-10-22",
+   "days_on_list": 1,
+   "last_stars": 100581,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-09-15",
+   "last_pushed_at": "2026-10-20",
    "revived_on": "2026-10-03"
   },
   "paperclipai/paperclip": {
@@ -3750,13 +3750,13 @@
   },
   "ruvnet/ruflo": {
    "first_seen": "2026-05-09",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-22",
    "days_on_list": 1,
-   "last_stars": 77055,
+   "last_stars": 78163,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-19"
+   "last_pushed_at": "2026-10-21"
   },
   "ruvnet/RuView": {
    "first_seen": "2026-05-16",
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-20",
-   "days_on_list": 4,
-   "last_stars": 69990,
+   "last_seen": "2026-10-22",
+   "days_on_list": 1,
+   "last_stars": 70748,
    "category": "security",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-10-19"
+   "graduated": false,
+   "last_pushed_at": "2026-10-21"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5385,13 +5385,13 @@
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-21",
-   "days_on_list": 1,
-   "last_stars": 76655,
-   "category": "llm",
+   "last_seen": "2026-10-22",
+   "days_on_list": 2,
+   "last_stars": 77154,
+   "category": "tools",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-20"
+   "last_pushed_at": "2026-10-21"
   },
   "feder-cr/dots": {
    "first_seen": "2026-10-01",
@@ -5646,9 +5646,9 @@
   "ollama/ollama": {
    "first_seen": "2026-10-08",
    "days_on_list": 1,
-   "last_seen": "2026-10-08",
-   "last_stars": 182480,
-   "last_pushed_at": "2026-10-07",
+   "last_seen": "2026-10-22",
+   "last_stars": 184180,
+   "last_pushed_at": "2026-10-21",
    "category": "llm",
    "language": "Go",
    "graduated": false
@@ -6162,10 +6162,40 @@
    "category": "tools",
    "language": "Python",
    "graduated": false
+  },
+  "secureagentics/Adrian": {
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "days_on_list": 1,
+   "graduated": false,
+   "last_stars": 588,
+   "category": "security",
+   "language": "Python",
+   "last_pushed_at": "2026-10-21"
+  },
+  "dominikmartn/harp": {
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "days_on_list": 1,
+   "graduated": false,
+   "last_stars": 515,
+   "category": "tools",
+   "language": "Rust",
+   "last_pushed_at": "2026-10-21"
+  },
+  "deepseek-ai/DeepInfer": {
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "days_on_list": 1,
+   "graduated": false,
+   "last_stars": 17576,
+   "category": "llm",
+   "language": "Python",
+   "last_pushed_at": "2026-10-21"
   }
  },
- "last_updated": "2026-10-21",
- "updated": "2026-10-11",
- "last_run": "2026-10-21",
- "count": 621
+ "last_updated": "2026-10-22",
+ "updated": "2026-10-22",
+ "last_run": "2026-10-22",
+ "count": 624
 }
