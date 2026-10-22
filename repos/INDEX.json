@@ -1470,13 +1470,13 @@
   },
   "firecrawl/firecrawl": {
    "first_seen": "2026-07-07",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-23",
    "days_on_list": 1,
-   "last_stars": 191527,
+   "last_stars": 194222,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-14"
+   "last_pushed_at": "2026-10-22"
   },
   "firecrawl/pdf-inspector": {
    "first_seen": "2026-08-04",
@@ -3088,10 +3088,10 @@
   },
   "NousResearch/hermes-agent": {
    "first_seen": "2026-05-11",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-23",
    "days_on_list": 1,
-   "last_stars": 253741,
-   "last_pushed_at": "2026-10-14",
+   "last_stars": 256193,
+   "last_pushed_at": "2026-10-22",
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-22",
-   "days_on_list": 1,
-   "last_stars": 70748,
+   "last_seen": "2026-10-23",
+   "days_on_list": 2,
+   "last_stars": 71106,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-21"
+   "last_pushed_at": "2026-10-22"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5385,13 +5385,13 @@
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-22",
-   "days_on_list": 2,
-   "last_stars": 77154,
+   "last_seen": "2026-10-23",
+   "days_on_list": 3,
+   "last_stars": 77538,
    "category": "tools",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-21"
+   "last_pushed_at": "2026-10-22"
   },
   "feder-cr/dots": {
    "first_seen": "2026-10-01",
@@ -6175,10 +6175,10 @@
   },
   "dominikmartn/harp": {
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
-   "days_on_list": 1,
+   "last_seen": "2026-10-23",
+   "days_on_list": 2,
    "graduated": false,
-   "last_stars": 515,
+   "last_stars": 578,
    "category": "tools",
    "language": "Rust",
    "last_pushed_at": "2026-10-21"
@@ -6192,6 +6192,56 @@
    "category": "llm",
    "language": "Python",
    "last_pushed_at": "2026-10-21"
+  },
+  "eagle-hq/EAGLE-4": {
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "days_on_list": 1,
+   "last_stars": 843,
+   "last_pushed_at": "2026-10-22",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "aicodeking/pandacode": {
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "days_on_list": 1,
+   "last_stars": 479,
+   "last_pushed_at": "2026-10-22",
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false
+  },
+  "openai/php2shell-checker": {
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "days_on_list": 1,
+   "last_stars": 779,
+   "last_pushed_at": "2026-10-21",
+   "category": "security",
+   "language": "JavaScript",
+   "graduated": false
+  },
+  "colinhacks/reylo": {
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "days_on_list": 1,
+   "last_stars": 559,
+   "last_pushed_at": "2026-10-22",
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false
+  },
+  "interplains/zero-breach": {
+   "first_seen": "2026-10-23",
+   "last_seen": "2026-10-23",
+   "days_on_list": 1,
+   "last_stars": 532,
+   "last_pushed_at": "2026-10-20",
+   "category": "security",
+   "language": "Python",
+   "graduated": false
   }
  },
  "last_updated": "2026-10-22",
