@@ -29588,6 +29588,186 @@
     "indistinguishability",
     "observer inference"
    ]
+  },
+  "2610.28905": {
+   "version": "v1",
+   "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "multi-agent",
+    "diffusion language model",
+    "latent communication",
+    "hidden message"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2610.27574": {
+   "version": "v1",
+   "title": "The Show-Up Attack: When Subagents Win Over Their Supervisor",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "multi-agent",
+    "show-up attack",
+    "supervisor",
+    "authority boundary",
+    "SUA-Arena"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2610.25626": {
+   "version": "v1",
+   "title": "MapSteal: Map-based Autonomous Knowledge Stealing Attack Against Large Language Models",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "model stealing",
+    "knowledge stealing",
+    "black-box LLM",
+    "distillation",
+    "recursive query"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2610.28810": {
+   "version": "v1",
+   "title": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "memory injection",
+    "prompt injection",
+    "persistent memory",
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2610.24521": {
+   "version": "v1",
+   "title": "Comparing Sparsified MLPs and Transcoders: Many Transcoder Features Are Neurons in Disguise",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "transcoder",
+    "MLP neuron",
+    "sparse features",
+    "circuit analysis",
+    "polysemanticity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2610.27393": {
+   "version": "v1",
+   "title": "Correcting Attribution Patching with a Few Exact Measurements",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "attribution patching",
+    "activation patching",
+    "Guided-AP",
+    "mechanistic interpretability"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "feature_attribution"
+   ]
+  },
+  "2610.27577": {
+   "version": "v1",
+   "title": "Why Static Probes Fail: Context Determines Deception Feature Composition",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "deception",
+    "linear probe",
+    "subspace",
+    "scheming",
+    "sandbagging",
+    "gating"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing"
+   ]
+  },
+  "2610.25032": {
+   "version": "v1",
+   "title": "Don't Judge an Agent by Its Messages: Private-State Leakage under Passive Monitoring of Agent Communication",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "private-state leakage",
+    "passive monitoring",
+    "mutual information",
+    "agent communication",
+    "LLM audit"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy"
+   ]
+  },
+  "2610.27213": {
+   "version": "v1",
+   "title": "Profile-DP: Differential Privacy for User-Controlled Profile Release in Personalized LLM Inference",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "local differential privacy",
+    "personalized LLM",
+    "user profile",
+    "DP-SLOT",
+    "DP-BLOCK"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2610.21405": {
+   "version": "v1",
+   "title": "MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents",
+   "first_seen": "2026-10-23",
+   "last_updated": "2026-10-23",
+   "folder": "2026-10-23",
+   "keywords": [
+    "forgetting",
+    "agent memory",
+    "long-term memory",
+    "benchmark",
+    "secret recovery"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -29630,7 +29810,7 @@
    ]
   }
  },
- "last_run": "2026-10-22",
+ "last_run": "2026-10-23",
  "_meta": {
   "last_run": "2026-09-20"
  }
