@@ -2690,5 +2690,17 @@
  "2610.27574->2606.24322": {
   "type": "background",
   "evidence": "Memory-poisoning paper cited among prior agent security work; this paper targets unauthorized out-of-scope participation."
+ },
+ "2610.25372->2605.28201": {
+  "type": "background",
+  "evidence": "관련 연구 목록에서 Sleeper Attack on LLM Agents를 지속적 에이전트 공격 사례로 인용"
+ },
+ "2610.30474->2605.29358": {
+  "type": "background",
+  "evidence": "SAE가 귀속·회로 발견·개입에 쓰이기 시작했다는 배경으로 Templeton et al. 인용"
+ },
+ "2610.30678->2604.14865": {
+  "type": "background",
+  "evidence": "참고문헌/초록 부근 언급으로 안전 프로브 관련 선행연구로 인용"
  }
 }

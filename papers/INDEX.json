@@ -29768,6 +29768,182 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2610.30418": {
+   "version": "v1",
+   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "mosaic effect",
+    "confidentiality leak",
+    "agentic LLM",
+    "RAG"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2610.30678": {
+   "version": "v1",
+   "title": "Scaling Laws for Safety Probes",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "safety probe",
+    "scaling law",
+    "activation monitoring",
+    "AUROC"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing"
+   ]
+  },
+  "2610.30934": {
+   "version": "v1",
+   "title": "Verbalizing Activation Differences with Natural Language Autoencoders",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "natural language autoencoder",
+    "activation verbalizer",
+    "model diffing",
+    "Taboo model organism"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "representation"
+   ]
+  },
+  "2610.30474": {
+   "version": "v1",
+   "title": "Rethinking SAE Evaluation: An Atomic Interpretable Unit Framework Reveals Hidden Polysemanticity and Redundancy",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "sparse autoencoder",
+    "SAE evaluation",
+    "polysemanticity",
+    "DAME"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae"
+   ]
+  },
+  "2610.30348": {
+   "version": "v1",
+   "title": "Mirage: Targeted Jailbreaks Against Post-Generation Safety Checkers in Multimodal Diffusion Models",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "jailbreak",
+    "diffusion model",
+    "safety checker",
+    "adversarial perturbation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack"
+   ]
+  },
+  "2610.25372": {
+   "version": "v1",
+   "title": "SEAL: Towards Persistent Tool Poisoning Attack against LLM Agents via Prefix-Eliciting Trigger",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "tool poisoning",
+    "LLM agent",
+    "trigger optimization",
+    "multi-round"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2610.31331": {
+   "version": "v1",
+   "title": "Harmful Responses Are Jailbreak Templates: Transferring Autoregressive Jailbreaks to Diffusion Language Models",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "jailbreak",
+    "diffusion LLM",
+    "masked generation",
+    "transferability"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak"
+   ]
+  },
+  "2610.28966": {
+   "version": "v1",
+   "title": "Black-Box Red-Teaming of Multi-Agent Systems via Reinforcement Learning",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "red-teaming",
+    "multi-agent system",
+    "system prompt extraction",
+    "reinforcement learning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2610.30514": {
+   "version": "v1",
+   "title": "Membership Inference Attack on Private Evolution",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "membership inference",
+    "private evolution",
+    "synthetic data",
+    "differential privacy audit"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
+  },
+  "2610.31246": {
+   "version": "v1",
+   "title": "Weaponizing the Exit: Input Privacy Leakage via Exit Routing Manipulation in Multi-Exit Networks",
+   "first_seen": "2026-10-24",
+   "last_updated": "2026-10-24",
+   "folder": "2026-10-24",
+   "keywords": [
+    "multi-exit network",
+    "privacy leakage",
+    "latency side channel",
+    "supply chain"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
   }
  },
  "_taxonomy": {
@@ -29810,7 +29986,7 @@
    ]
   }
  },
- "last_run": "2026-10-23",
+ "last_run": "2026-10-24",
  "_meta": {
   "last_run": "2026-09-20"
  }
