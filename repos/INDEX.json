@@ -2193,13 +2193,13 @@
   },
   "JuliusBrussee/caveman": {
    "first_seen": "2026-08-20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-24",
    "days_on_list": 1,
-   "last_stars": 111208,
-   "category": "tools",
+   "last_stars": 114600,
+   "category": "llm",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "last_pushed_at": "2026-10-23"
   },
   "jundot/omlx": {
    "first_seen": "2026-08-19",
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-23",
-   "days_on_list": 2,
-   "last_stars": 71106,
+   "last_seen": "2026-10-24",
+   "days_on_list": 3,
+   "last_stars": 71393,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-22"
+   "last_pushed_at": "2026-10-23"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5285,13 +5285,13 @@
   },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-15",
-   "days_on_list": 3,
-   "last_stars": 49640,
+   "last_seen": "2026-10-24",
+   "days_on_list": 1,
+   "last_stars": 53089,
    "category": "llm",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-14"
+   "last_pushed_at": "2026-10-23"
   },
   "NVIDIA/Model-Optimizer": {
    "first_seen": "2026-09-26",
@@ -5425,13 +5425,13 @@
   },
   "hashgraph-online/hol-guard": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-24",
    "days_on_list": 1,
-   "last_stars": 914,
-   "last_pushed_at": "2026-10-16",
+   "last_stars": 973,
    "category": "security",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
@@ -5735,13 +5735,13 @@
   },
   "FailproofAI/failproofai": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-11",
-   "days_on_list": 2,
-   "last_stars": 5273,
-   "last_pushed_at": "2026-10-10",
+   "last_seen": "2026-10-24",
+   "days_on_list": 1,
+   "last_stars": 6035,
    "category": "llm",
    "language": "TypeScript",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "future-agi/future-agi": {
    "first_seen": "2026-10-10",
@@ -5925,13 +5925,13 @@
   },
   "pipelab-org/pipelock": {
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-21",
-   "days_on_list": 2,
-   "last_stars": 938,
-   "last_pushed_at": "2026-10-20",
+   "last_seen": "2026-10-24",
+   "days_on_list": 1,
+   "last_stars": 960,
    "category": "security",
    "language": "Go",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "langchain-ai/langgraph": {
    "first_seen": "2026-10-16",
@@ -6195,23 +6195,23 @@
   },
   "eagle-hq/EAGLE-4": {
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "days_on_list": 1,
-   "last_stars": 843,
-   "last_pushed_at": "2026-10-22",
+   "last_seen": "2026-10-24",
+   "days_on_list": 2,
+   "last_stars": 941,
    "category": "llm",
    "language": "Python",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "aicodeking/pandacode": {
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "days_on_list": 1,
-   "last_stars": 479,
-   "last_pushed_at": "2026-10-22",
+   "last_seen": "2026-10-24",
+   "days_on_list": 2,
+   "last_stars": 582,
    "category": "tools",
    "language": "Rust",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "openai/php2shell-checker": {
    "first_seen": "2026-10-23",
@@ -6225,13 +6225,13 @@
   },
   "colinhacks/reylo": {
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-23",
-   "days_on_list": 1,
-   "last_stars": 559,
-   "last_pushed_at": "2026-10-22",
+   "last_seen": "2026-10-24",
+   "days_on_list": 2,
+   "last_stars": 1004,
    "category": "tools",
    "language": "Rust",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   },
   "interplains/zero-breach": {
    "first_seen": "2026-10-23",
@@ -6242,6 +6242,16 @@
    "category": "security",
    "language": "Python",
    "graduated": false
+  },
+  "xevrion/hatchzip": {
+   "first_seen": "2026-10-24",
+   "last_seen": "2026-10-24",
+   "days_on_list": 1,
+   "last_stars": 733,
+   "category": "tools",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
   }
  },
  "last_updated": "2026-10-22",
