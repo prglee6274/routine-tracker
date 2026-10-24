@@ -29211,10 +29211,10 @@
    ]
   },
   "2610.22722": {
-   "version": "v1",
-   "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+   "version": "v2",
+   "title": "LLM-Attack Suite: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
    "first_seen": "2026-10-20",
-   "last_updated": "2026-10-20",
+   "last_updated": "2026-10-25",
    "folder": "2026-10-20",
    "keywords": [
     "split LLM",
@@ -29944,6 +29944,169 @@
    "subtopics": [
     "pii_leakage"
    ]
+  },
+  "2610.27210": {
+   "version": "v1",
+   "title": "You Are the Trigger: Speaker-Activated Backdoors",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "speaker-activated backdoor",
+    "speech model",
+    "Whisper",
+    "fine-tuning attack",
+    "tool-use agent"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ]
+  },
+  "2610.30006": {
+   "version": "v1",
+   "title": "Building Auditable AI Text Detectors with Sparse Autoencoders",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "sparse autoencoder",
+    "AI text detection",
+    "auto-interpretation",
+    "auditable classifier"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing"
+   ]
+  },
+  "2610.24613": {
+   "version": "v1",
+   "title": "How Much Do Activation Monitors Benefit from Original Model Computations?",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "activation monitor",
+    "safety monitoring",
+    "probing",
+    "counterfactual transcript"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation"
+   ]
+  },
+  "2610.27244": {
+   "version": "v1",
+   "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "red-teaming",
+    "claw-style agent",
+    "persistent memory poisoning",
+    "RedClaw-Bench",
+    "OpenClaw"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2610.31616": {
+   "version": "v1",
+   "title": "OP-Print: Tracing Membership Imprints in On-Policy Self-Distillation",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "membership inference",
+    "on-policy self-distillation",
+    "OP-Print",
+    "memorization"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2610.30365": {
+   "version": "v1",
+   "title": "Data-Void Exploits in Web-Searching LLMs",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "data void",
+    "web-searching LLM",
+    "disinformation",
+    "search poisoning",
+    "GEO"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "adversarial"
+   ]
+  },
+  "2610.29129": {
+   "version": "v1",
+   "title": "Mitigating Reward Hacking in Realistic Scenarios Through Representation Engineering",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "representation engineering",
+    "reward hacking",
+    "steering vector",
+    "latent monitoring"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2610.24278": {
+   "version": "v1",
+   "title": "Dataset Inference for Data Provenance and Privacy Auditing in Tabular Foundation Models",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "dataset inference",
+    "tabular foundation model",
+    "privacy auditing",
+    "data provenance"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
+  },
+  "2610.24784": {
+   "version": "v1",
+   "title": "LLM Trojans that Increase Response Lengths and Cost",
+   "first_seen": "2026-10-25",
+   "last_updated": "2026-10-25",
+   "folder": "2026-10-25",
+   "keywords": [
+    "LLM Trojan",
+    "data poisoning",
+    "response length",
+    "cost inflation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "adversarial"
+   ]
   }
  },
  "_taxonomy": {
@@ -29986,7 +30149,7 @@
    ]
   }
  },
- "last_run": "2026-10-24",
+ "last_run": "2026-10-25",
  "_meta": {
   "last_run": "2026-09-20"
  }
