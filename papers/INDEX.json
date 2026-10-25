@@ -30107,6 +30107,178 @@
     "backdoor",
     "adversarial"
    ]
+  },
+  "2610.31372": {
+   "version": "v1",
+   "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "research agents",
+    "integrity violation",
+    "runtime intervention",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2610.22928": {
+   "version": "v1",
+   "title": "Multiple Turns, Short Horizons: Measuring Effective-Horizon Compression in Jailbreaks",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "multi-turn jailbreak",
+    "effective horizon",
+    "LLM safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak"
+   ]
+  },
+  "2610.26595": {
+   "version": "v1",
+   "title": "Concerns in Benchmarking Jailbreaks: An Empirical Study of Attack Success Rates",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "jailbreak benchmark",
+    "attack success rate",
+    "evaluator sensitivity"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2610.28045": {
+   "version": "v2",
+   "title": "Poisoning-Based Backdoors Are Not Cryptographic",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "backdoor",
+    "data poisoning",
+    "verifier learnability",
+    "defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2610.27295": {
+   "version": "v1",
+   "title": "RealControlBench: A Benchmark for Interpretability-Informed Fine-Grained Control of LLMs and Agents",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "activation steering",
+    "benchmark",
+    "agent control",
+    "representation engineering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2610.27790": {
+   "version": "v1",
+   "title": "Are Linguistic and Arithmetic Circuits Dissociated in LLMs?",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "circuit discovery",
+    "mechanistic interpretability",
+    "arithmetic",
+    "language"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ]
+  },
+  "2610.30882": {
+   "version": "v1",
+   "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "reasoning models",
+    "wait token",
+    "training provenance",
+    "RL"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method"
+   ]
+  },
+  "2610.22800": {
+   "version": "v1",
+   "title": "Veil-Then-Reveal: Protecting PII Privacy via Reversible Pseudo-Anonymization in Zero-Trust User--LLM Interaction",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "PII",
+    "pseudo-anonymization",
+    "zero-trust",
+    "LLM privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2610.25731": {
+   "version": "v1",
+   "title": "Does Unlearning Survive Collaboration? Robust Unlearning for Shared-Model LLM Teams",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "LLM unlearning",
+    "multi-agent",
+    "knowledge recovery"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2610.27323": {
+   "version": "v1",
+   "title": "Steering Vision-Language Models for Visual-Contextual Privacy in Location Disclosure",
+   "first_seen": "2026-10-26",
+   "last_updated": "2026-10-26",
+   "folder": "2026-10-26",
+   "keywords": [
+    "VLM",
+    "geolocation privacy",
+    "activation steering",
+    "hidden states"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "activation_steering"
+   ]
   }
  },
  "_taxonomy": {
@@ -30149,7 +30321,7 @@
    ]
   }
  },
- "last_run": "2026-10-25",
+ "last_run": "2026-10-26",
  "_meta": {
   "last_run": "2026-09-20"
  }
