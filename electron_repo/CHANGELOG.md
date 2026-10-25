@@ -1,3 +1,7 @@
+## 2026-10-25 — Daily watch
+
+**No new papers today.** Ledger unchanged: **45 in_scope, 201 excluded, 31 context_non_venue.** Searches: Electron venue sweep (only tracked NDSS'23 + CVE pages), nodeIntegration/contextIsolation/IPC arXiv query (only tracked Buzz to Boom + CVE pages), ACSAC 2026 accepted-paper query (still no program page; next check 2026-10-27), CEF/hybrid/native-addon query (only tracked BinWrap, off-scope Black Asia talk + CVE pages).
+
 ## 2026-10-24 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 201 excluded, 31 context_non_venue.** Searches: general Electron venue query (only tracked NDSS'23 + CVE pages), nodeIntegration/contextIsolation/IPC arXiv query (only tracked Buzz to Boom + CVE pages), ACSAC 2026 'accepted paper' (still no program page; next check 2026-10-27), CEF/hybrid desktop query (CVE pages and off-scope Android hybrid only).

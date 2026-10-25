@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-24",
-  "last_run": "2026-10-24",
+  "last_updated": "2026-10-25",
+  "last_run": "2026-10-25",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -3475,7 +3475,7 @@
           "published_repo": "2026-04-01 (in dbgate/dbgate)",
           "published_ghsa_db": "2026-04-01, reviewed 2026-04-01",
           "published_nvd": "2026-04-02",
-          "last_updated": "2026-04-06",
+          "last_updated": "2026-10-25",
           "publisher": "Stelinkaa",
           "reporter": "ngocnn97",
           "ecosystem": "npm, package `dbgate-web`",
