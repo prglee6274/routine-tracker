@@ -2754,5 +2754,29 @@
  "2610.31372->2607.25270": {
   "type": "background",
   "evidence": "첫 페이지 컨텍스트 — 약한 배경 인용"
+ },
+ "2610.31995->2505.24379": {
+  "type": "baseline",
+  "evidence": "prior unlearned-text extraction assuming known prefix; TRACE removes that assumption"
+ },
+ "2610.32531->2606.10525": {
+  "type": "background",
+  "evidence": "cited among automated prompt injection attack methods"
+ },
+ "2610.32531->2606.13385": {
+  "type": "background",
+  "evidence": "cited as prior prompt injection benchmark (listing context only)"
+ },
+ "2610.32531->2606.15057": {
+  "type": "background",
+  "evidence": "cited as prior adaptive-attack prompt injection work (listing context only)"
+ },
+ "2610.32531->2608.21500": {
+  "type": "background",
+  "evidence": "cited as related prompt injection defense work"
+ },
+ "2610.32531->2609.05903": {
+  "type": "background",
+  "evidence": "cited as related agent security harness work"
  }
 }

@@ -30279,6 +30279,193 @@
     "pii_leakage",
     "activation_steering"
    ]
+  },
+  "2610.32531": {
+   "version": "v1",
+   "title": "On Task, Off Track: Benchmarking LLM and Agent Robustness to Near-Target Prompt Injection",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "prompt injection",
+    "near-target",
+    "NTBench",
+    "agent robustness"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2610.31937": {
+   "version": "v1",
+   "title": "$M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "multi-turn jailbreak",
+    "red-teaming",
+    "MDP",
+    "black-box"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2610.24379": {
+   "version": "v1",
+   "title": "Defending Against Dormant Poisoning Attacks Across Language and Multimodal Agents",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "dormant poisoning",
+    "backdoor",
+    "benign fine-tuning",
+    "LookAhead Defense",
+    "agents"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism",
+    "agent_safety"
+   ]
+  },
+  "2610.31404": {
+   "version": "v1",
+   "title": "AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "phishing",
+    "email agents",
+    "adaptive attack",
+    "persuasion",
+    "PhishOpt"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2610.32866": {
+   "version": "v1",
+   "title": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "TopKLoRA",
+    "circuit discovery",
+    "sleeper-agent backdoor",
+    "sparse adapter",
+    "model organisms"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2610.32182": {
+   "version": "v1",
+   "title": "Depth-Dependent Safety Geometry in Vision-Language Models: Layer-Wise Localization and Bidirectional Refusal Control",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "safety geometry",
+    "refusal direction",
+    "activation steering",
+    "VLM",
+    "layer-wise analysis"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2610.31995": {
+   "version": "v1",
+   "title": "TRACE: Data-Free Text Reconstruction Attacks against Approximate Unlearning in LLMs",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "unlearning",
+    "data reconstruction",
+    "model snapshots",
+    "privacy attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
+  },
+  "2610.29925": {
+   "version": "v1",
+   "title": "Privacy in Context Is Being Overlooked in the Age of General-Purpose LLMs",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "contextual integrity",
+    "prompt privacy",
+    "position paper",
+    "general-purpose LLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2610.28897": {
+   "version": "v1",
+   "title": "Is Refusal Direction Universal across Low-Resourced Languages?",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "refusal direction",
+    "cross-lingual transfer",
+    "low-resource languages",
+    "PolyRefuse",
+    "representation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "representation",
+    "activation_steering"
+   ]
+  },
+  "2610.30439": {
+   "version": "v1",
+   "title": "Not Where You Think: Protecting Location Privacy Against Reasoning-Based Geolocation",
+   "first_seen": "2026-10-27",
+   "last_updated": "2026-10-27",
+   "folder": "2026-10-27",
+   "keywords": [
+    "geolocation privacy",
+    "large reasoning models",
+    "GeoTrace",
+    "GeoShift",
+    "visual clues"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "adversarial"
+   ]
   }
  },
  "_taxonomy": {
@@ -30321,7 +30508,7 @@
    ]
   }
  },
- "last_run": "2026-10-26",
+ "last_run": "2026-10-27",
  "_meta": {
   "last_run": "2026-09-20"
  }
