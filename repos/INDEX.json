@@ -114,13 +114,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-27",
    "days_on_list": 1,
-   "last_stars": 280168,
+   "last_stars": 289639,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-15"
+   "last_pushed_at": "2026-10-26"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -1113,10 +1113,10 @@
   },
   "D4Vinci/Scrapling": {
    "first_seen": "2026-08-31",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-10-27",
    "days_on_list": 1,
-   "last_stars": 77335,
-   "last_pushed_at": "2026-08-25",
+   "last_stars": 89863,
+   "last_pushed_at": "2026-10-26",
    "category": "tools",
    "language": "Python",
    "graduated": false
@@ -3434,13 +3434,13 @@
   },
   "paperclipai/paperclip": {
    "first_seen": "2026-08-12",
-   "last_seen": "2026-09-29",
-   "days_on_list": 3,
-   "last_stars": 92380,
+   "last_seen": "2026-10-27",
+   "days_on_list": 1,
+   "last_stars": 107594,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-28"
+   "last_pushed_at": "2026-10-26"
   },
   "pbakaus/impeccable": {
    "first_seen": "2026-07-28",
@@ -4436,13 +4436,13 @@
   },
   "usestrix/strix": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-24",
-   "days_on_list": 3,
-   "last_stars": 71393,
+   "last_seen": "2026-10-27",
+   "days_on_list": 4,
+   "last_stars": 72097,
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-10-23"
+   "graduated": true,
+   "last_pushed_at": "2026-10-26"
   },
   "utkusen/promptmap": {
    "first_seen": "2026-06-19",
@@ -5535,10 +5535,10 @@
   },
   "harbor-framework/harbor": {
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-27",
    "days_on_list": 1,
-   "last_stars": 5824,
-   "last_pushed_at": "2026-10-04T18:57:31Z",
+   "last_stars": 6490,
+   "last_pushed_at": "2026-10-26",
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -6255,10 +6255,10 @@
   },
   "assetnote/php2shell-scanner": {
    "first_seen": "2026-10-25",
-   "days_on_list": 1,
+   "days_on_list": 2,
    "graduated": false,
-   "last_seen": "2026-10-25",
-   "last_stars": 661,
+   "last_seen": "2026-10-27",
+   "last_stars": 928,
    "last_pushed_at": "2026-10-24",
    "category": "security",
    "language": "Python"
@@ -6285,12 +6285,12 @@
   },
   "lyramakesmusic/neuron-explorer": {
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-26",
-   "days_on_list": 1,
-   "last_stars": 451,
+   "last_seen": "2026-10-27",
+   "days_on_list": 2,
+   "last_stars": 1189,
    "category": "llm",
    "language": "Python",
-   "last_pushed_at": "2026-10-24",
+   "last_pushed_at": "2026-10-26",
    "graduated": false
   },
   "truera/trulens": {
@@ -6302,6 +6302,36 @@
    "language": "Python",
    "last_pushed_at": "2026-10-25",
    "graduated": false
+  },
+  "KeyValueSoftwareSystems/agent-opfor": {
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "days_on_list": 1,
+   "last_stars": 584,
+   "category": "security",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-21"
+  },
+  "morganlinton/BeautifulRust": {
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "days_on_list": 1,
+   "last_stars": 1182,
+   "category": "tools",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-26"
+  },
+  "t3dotgg/tstack": {
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "days_on_list": 1,
+   "last_stars": 1343,
+   "category": "tools",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-25"
   }
  },
  "last_updated": "2026-10-26",
