@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-26",
-  "last_run": "2026-10-26",
+  "last_updated": "2026-10-27",
+  "last_run": "2026-10-27",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2755,6 +2755,13 @@
       "venue": "USENIX Security",
       "year": 2026,
       "reason": "Python packaging config files (requirements.txt/setup.py); no Electron/Node.js angle"
+    },
+    {
+      "title": "Vault Raider: Stealthy UI-based Attacks Against Password Managers in Desktop Environments",
+      "title_norm": "vault raider stealthy ui based attacks against password managers in desktop environments",
+      "venue": "NDSS",
+      "year": 2026,
+      "reason": "Desktop password-manager autofill/UI attacks via simulated input; Electron only used to build the attacker prototype, not an Electron vulnerability study."
     }
   ],
   "context_non_venue": [

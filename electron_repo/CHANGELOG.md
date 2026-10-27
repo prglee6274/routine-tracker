@@ -1,3 +1,7 @@
+## 2026-10-27 — Daily watch
+
+**No new in-scope papers today.** Ledger: **45 in_scope, 202 excluded (+1), 31 context_non_venue.** Newly triaged and excluded: NDSS'26 'Vault Raider' (desktop password-manager UI attacks; Electron only used for attacker prototype). Searches: Electron venue sweep, nodeIntegration/IPC arXiv, ACSAC 2026 (still no program page), domain-restricted topical sweep (only tracked papers + Vault Raider).
+
 ## 2026-10-26 — Daily watch
 
 **No new papers today.** Ledger unchanged: **45 in_scope, 201 excluded, 31 context_non_venue.** Searches: general Electron venue query (only tracked NDSS'23, USENIX'24 Ali + off-scope talks/CVE pages), nodeIntegration/contextIsolation/IPC arXiv query (only tracked Buzz to Boom + Black Hat decks), ACSAC 2026 'to appear' (still no program page; next check 2026-10-27), native-addon/CEF/hybrid query (only tracked BinWrap, Bilingual Problems + CVE pages).
