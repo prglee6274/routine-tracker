@@ -30466,6 +30466,188 @@
     "pii_leakage",
     "adversarial"
    ]
+  },
+  "2610.35043": {
+   "version": "v1",
+   "title": "Steering for Safety, Hijacking for Profit: Trojan Threats in the LLM Activation Steering Supply Chain",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "steering vector",
+    "supply chain",
+    "trojan plugin",
+    "IDH"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "defense_mechanism"
+   ]
+  },
+  "2610.34074": {
+   "version": "v1",
+   "title": "Identically Trained Language Models Break on Different Jailbreaks",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "jailbreak",
+    "pretraining seed",
+    "safety training",
+    "non-refusal correlation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2610.33298": {
+   "version": "v1",
+   "title": "All-in-One: A Composable Attack on LLM Transformations",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "quantization",
+    "pruning",
+    "model merging",
+    "composable attack",
+    "ETH Zurich"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "adversarial"
+   ]
+  },
+  "2610.34965": {
+   "version": "v1",
+   "title": "The Target Agent Is Its Own Best Critic but a Poor Proposer: Self-Improved Red Teaming",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "red teaming",
+    "self-criticism",
+    "agent",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2610.31894": {
+   "version": "v1",
+   "title": "TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "sparse autoencoder",
+    "taxonomy",
+    "hypernym",
+    "feature control"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering"
+   ]
+  },
+  "2610.33299": {
+   "version": "v1",
+   "title": "The Emergence and Sparsification of a Syntactic Circuit",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "circuit analysis",
+    "subject-verb agreement",
+    "pythia",
+    "training dynamics"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ]
+  },
+  "2610.30363": {
+   "version": "v1",
+   "title": "Probing and Steering for Safety-Relevant Behaviours in Large Language Models",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "activation probe",
+    "steering",
+    "deception",
+    "sycophancy",
+    "Llama-3.1-8B"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "activation_steering"
+   ]
+  },
+  "2610.34640": {
+   "version": "v1",
+   "title": "InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "inferential leakage",
+    "agent privacy",
+    "benchmark",
+    "sensitive attributes",
+    "UCSD"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2610.31549": {
+   "version": "v1",
+   "title": "Shift-aware score transport for privacy auditing without retraining",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "privacy auditing",
+    "membership inference",
+    "distribution shift",
+    "observational auditing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "differential_privacy"
+   ]
+  },
+  "2610.27490": {
+   "version": "v1",
+   "title": "Orthogonal Boundary Unlearning for Dual-Use Concepts in Large Language Models",
+   "first_seen": "2026-10-28",
+   "last_updated": "2026-10-28",
+   "folder": "2026-10-28",
+   "keywords": [
+    "unlearning",
+    "dual-use",
+    "null space",
+    "Projected LoRA",
+    "SVD"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -30508,7 +30690,7 @@
    ]
   }
  },
- "last_run": "2026-10-27",
+ "last_run": "2026-10-28",
  "_meta": {
   "last_run": "2026-09-20"
  }
