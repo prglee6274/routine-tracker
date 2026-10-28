@@ -204,13 +204,13 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-09-28",
-   "days_on_list": 2,
-   "last_stars": 41874,
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 48809,
    "category": "tools",
    "language": "Go",
-   "last_pushed_at": "2026-09-24",
-   "graduated": false
+   "graduated": false,
+   "last_pushed_at": "2026-10-22"
   },
   "alibaba/OpenSandbox": {
    "first_seen": "2026-05-21",
@@ -293,13 +293,13 @@
   },
   "anomalyco/opencode": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-10-21",
-   "days_on_list": 3,
-   "last_stars": 218713,
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 222695,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-20"
+   "last_pushed_at": "2026-10-28"
   },
   "anomalyco/opentui": {
    "first_seen": "2026-07-04",
@@ -5925,13 +5925,13 @@
   },
   "pipelab-org/pipelock": {
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-28",
-   "days_on_list": 3,
-   "last_stars": 965,
+   "last_seen": "2026-10-29",
+   "days_on_list": 4,
+   "last_stars": 966,
    "category": "security",
    "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-10-27"
+   "graduated": true,
+   "last_pushed_at": "2026-10-28"
   },
   "langchain-ai/langgraph": {
    "first_seen": "2026-10-16",
@@ -6345,13 +6345,13 @@
   },
   "JetBrains/thinkrail": {
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
-   "days_on_list": 1,
-   "last_stars": 3816,
+   "last_seen": "2026-10-29",
+   "days_on_list": 2,
+   "last_stars": 4878,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-27"
+   "last_pushed_at": "2026-10-28"
   },
   "hevnsnt/CVEngine": {
    "first_seen": "2026-10-28",
@@ -6392,6 +6392,66 @@
    "language": "N/A",
    "graduated": false,
    "last_pushed_at": "2026-10-24"
+  },
+  "beenuar/AiSOC": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 4818,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "interplains/Zero-Breach-Toolkit": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 2446,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "mvanhorn/cli-printing-press": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 4863,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "makecindy/cindy": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 7972,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "trymirai/uzu": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 2983,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "nightly-labs/openbot": {
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "days_on_list": 1,
+   "last_stars": 3111,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
   }
  },
  "last_updated": "2026-10-26",
