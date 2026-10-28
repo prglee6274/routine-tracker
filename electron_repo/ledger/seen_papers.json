@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-10-27",
-  "last_run": "2026-10-27",
+  "last_updated": "2026-10-28",
+  "last_run": "2026-10-28",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2762,6 +2762,20 @@
       "venue": "NDSS",
       "year": 2026,
       "reason": "Desktop password-manager autofill/UI attacks via simulated input; Electron only used to build the attacker prototype, not an Electron vulnerability study."
+    },
+    {
+      "title": "MiniTaintDev: Unveiling Mini-App Vulnerabilities through Dynamic Taint Analysis",
+      "title_norm": "minitaintdev unveiling mini app vulnerabilities through dynamic taint analysis",
+      "venue": "SCORED/CCS-workshop (ACM)",
+      "year": 2023,
+      "reason": "Mobile super-app mini-app taint analysis; mobile-only, no Electron/desktop angle"
+    },
+    {
+      "title": "Demystifying Cookie Sharing Risks in WebView-based Mobile App-in-app Ecosystems",
+      "title_norm": "demystifying cookie sharing risks in webview based mobile app in app ecosystems",
+      "venue": "arXiv",
+      "year": 2025,
+      "reason": "Mobile-only WebView cookie sharing; no desktop/Electron angle"
     }
   ],
   "context_non_venue": [

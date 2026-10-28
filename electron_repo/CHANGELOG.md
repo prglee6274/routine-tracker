@@ -1,3 +1,7 @@
+## 2026-10-28 — Daily watch
+
+**No new in-scope papers today.** Ledger: **45 in_scope, 204 excluded (+2), 31 context_non_venue.** Newly triaged and excluded: MiniTaintDev (mobile mini-app taint analysis) and 'Demystifying Cookie Sharing Risks in WebView-based Mobile App-in-app Ecosystems' (mobile-only). Searches: Electron venue sweep, nodeIntegration/IPC arXiv, ACSAC 2026 'to appear' (still no program page), domain-restricted topical sweep (Electron/hybrid/WebView/CEF).
+
 ## 2026-10-27 — Daily watch
 
 **No new in-scope papers today.** Ledger: **45 in_scope, 202 excluded (+1), 31 context_non_venue.** Newly triaged and excluded: NDSS'26 'Vault Raider' (desktop password-manager UI attacks; Electron only used for attacker prototype). Searches: Electron venue sweep, nodeIntegration/IPC arXiv, ACSAC 2026 (still no program page), domain-restricted topical sweep (only tracked papers + Vault Raider).
