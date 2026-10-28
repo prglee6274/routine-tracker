@@ -2834,5 +2834,21 @@
  "2610.35043->2606.05958": {
   "type": "extends",
   "evidence": "extends steering-vector attack-surface research to supply chain"
+ },
+ "2610.34253->2608.30686": {
+  "type": "compares",
+  "evidence": "NameTrap contrasts its instruction-free identifier payload with repository-poisoning settings that assume instructions."
+ },
+ "2610.36711->2605.07982": {
+  "type": "background",
+  "evidence": "Cited only in reference list; no in-text context."
+ },
+ "2610.37657->2605.17634": {
+  "type": "background",
+  "evidence": "Cited as motivating work on agents' persistent vulnerability to prompt injection."
+ },
+ "2610.37657->2606.28153": {
+  "type": "background",
+  "evidence": "Cited as interpretability evidence that attention heads specialize, motivating per-head gates."
  }
 }
