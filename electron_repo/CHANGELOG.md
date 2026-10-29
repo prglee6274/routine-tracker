@@ -1,3 +1,7 @@
+## 2026-10-29 — Daily watch
+
+**No new in-scope papers today.** Ledger: **45 in_scope, 205 excluded (+1), 31 context_non_venue.** Newly triaged and excluded: USENIX Sec'26 'Analyzing the WebRTC Ecosystem and Breaking Authentication in DTLS-SRTP' (WebRTC protocol, no Electron angle). Searches: Electron general, nodeIntegration/IPC arXiv, ACSAC 2026 hybrid/CEF (nothing), domain-restricted topical sweep (only tracked papers + the above).
+
 ## 2026-10-28 — Daily watch
 
 **No new in-scope papers today.** Ledger: **45 in_scope, 204 excluded (+2), 31 context_non_venue.** Newly triaged and excluded: MiniTaintDev (mobile mini-app taint analysis) and 'Demystifying Cookie Sharing Risks in WebView-based Mobile App-in-app Ecosystems' (mobile-only). Searches: Electron venue sweep, nodeIntegration/IPC arXiv, ACSAC 2026 'to appear' (still no program page), domain-restricted topical sweep (Electron/hybrid/WebView/CEF).
