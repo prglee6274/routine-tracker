@@ -30820,6 +30820,189 @@
    "subtopics": [
     "membership_inference"
    ]
+  },
+  "2610.35199": {
+   "version": "v1",
+   "title": "Can Open Be Too Open? On the Security and Trustworthiness of Fully Transparent LLMs",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "open weights",
+    "transparency",
+    "LLM security",
+    "trustworthiness",
+    "reproducibility"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism"
+   ]
+  },
+  "2610.33180": {
+   "version": "v1",
+   "title": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "alignment faking",
+    "evaluation awareness",
+    "synthetic document finetuning",
+    "model organism",
+    "oversight"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "safety_eval"
+   ]
+  },
+  "2610.28988": {
+   "version": "v1",
+   "title": "Attention-based Classification for Indirect Prompt Injection",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "indirect prompt injection",
+    "Attention Tracker",
+    "AgentDojo",
+    "LDA",
+    "detection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism"
+   ]
+  },
+  "2610.37481": {
+   "version": "v1",
+   "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "fine-tuning safety",
+    "gradient attribution",
+    "emergent misalignment",
+    "SimpleLoRIF",
+    "data filtering"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "defense_mechanism"
+   ]
+  },
+  "2610.30076": {
+   "version": "v1",
+   "title": "Circuits of LLM Classifiers",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "LLM classifiers",
+    "circuits",
+    "cost-accuracy",
+    "routing",
+    "cascading"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method"
+   ]
+  },
+  "2610.33217": {
+   "version": "v1",
+   "title": "Neyman Orthogonal Activation Steering",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "activation steering",
+    "debiased ML",
+    "Stein score",
+    "steering direction",
+    "estimator"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering"
+   ]
+  },
+  "2610.35586": {
+   "version": "v1",
+   "title": "Linear Probes Transfer from Base to Distilled Language Models despite Rotation",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "linear probe",
+    "harmful request detection",
+    "distillation",
+    "probe transfer",
+    "XSTest"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing"
+   ]
+  },
+  "2610.28797": {
+   "version": "v1",
+   "title": "CALLIOPE: Private Insights into AI Use, Without Embeddings",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "differential privacy",
+    "topic hierarchy",
+    "LLM conversations",
+    "embedding-free",
+    "private analytics"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2610.37467": {
+   "version": "v1",
+   "title": "Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "chatbot privacy",
+    "third-party trackers",
+    "session replay",
+    "measurement study",
+    "conversation leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage"
+   ]
+  },
+  "2610.36295": {
+   "version": "v1",
+   "title": "Detecting and Mitigating Query-Based System Prompt Leakage Attacks",
+   "first_seen": "2026-10-30",
+   "last_updated": "2026-10-30",
+   "folder": "2026-10-30",
+   "keywords": [
+    "system prompt leakage",
+    "multi-turn extraction",
+    "graph convolutional network",
+    "black-box defense",
+    "AdvGuard"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -30862,7 +31045,7 @@
    ]
   }
  },
- "last_run": "2026-10-29",
+ "last_run": "2026-10-30",
  "_meta": {
   "last_run": "2026-09-20"
  }

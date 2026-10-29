@@ -2850,5 +2850,17 @@
  "2610.37657->2606.28153": {
   "type": "background",
   "evidence": "Cited as interpretability evidence that attention heads specialize, motivating per-head gates."
+ },
+ "2610.33217->2605.29358": {
+  "type": "background",
+  "evidence": "related-work mention only"
+ },
+ "2610.35586->2609.03887": {
+  "type": "background",
+  "evidence": "related-work mention only"
+ },
+ "2610.35586->2609.19101": {
+  "type": "background",
+  "evidence": "related-work mention only"
  }
 }
