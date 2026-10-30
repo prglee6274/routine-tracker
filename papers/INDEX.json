@@ -31003,6 +31003,197 @@
    "subtopics": [
     "data_extraction"
    ]
+  },
+  "2610.37741": {
+   "version": "v1",
+   "title": "Agentic Backdoors via Pretraining Poisoning",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "pretraining poisoning",
+    "agentic backdoor",
+    "remote code execution",
+    "CLI agent",
+    "Qwen3"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor"
+   ]
+  },
+  "2610.37738": {
+   "version": "v1",
+   "title": "Poisoned Skills: Propagating Jailbreaks Through Agent Markdown Files",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "skill file",
+    "Markdown injection",
+    "jailbreak",
+    "agent",
+    "GPTFuzzer"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "jailbreak",
+    "agent_safety"
+   ]
+  },
+  "2610.38091": {
+   "version": "v1",
+   "title": "Jailbreak Connectivity: Towards Diverse, Transferable, and Universal Multimodal Large Language Model Jailbreak",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "MLLM jailbreak",
+    "adversarial path",
+    "low-loss connectivity",
+    "transferability",
+    "universal attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "multimodal_attack",
+    "adversarial"
+   ]
+  },
+  "2610.35671": {
+   "version": "v1",
+   "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "loss of control",
+    "harmful manipulation",
+    "third-party evaluation",
+    "evaluation awareness",
+    "open-weight"
+   ],
+   "category": "security",
+   "subtopics": [
+    "safety_eval",
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2610.38067": {
+   "version": "v1",
+   "title": "From Error Prediction to Causal Influence: Auditing SAE Features in Multiple-Choice QA",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "sparse autoencoder",
+    "causal intervention",
+    "Gemma Scope",
+    "multiple-choice QA",
+    "logit margin"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "feature_attribution"
+   ]
+  },
+  "2610.37676": {
+   "version": "v1",
+   "title": "Scoring Explanations Without Reading Them: Structural Shortcuts in Automated-Interpretability Evaluation Data",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "automated interpretability",
+    "SAE evaluation",
+    "fuzzing",
+    "Neuronpedia",
+    "scoring shortcut"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2610.32411": {
+   "version": "v1",
+   "title": "A Broader Look into MLLM's Retrieval Heads",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "retrieval heads",
+    "multimodal LLM",
+    "attention head ablation",
+    "omni-modal",
+    "mechanistic"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "probing"
+   ]
+  },
+  "2610.40543": {
+   "version": "v1",
+   "title": "The Privacy and Security Risks of Edge LLM Optimization",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "edge LLM",
+    "quantization",
+    "model compression",
+    "security drift",
+    "attack surface"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2610.39532": {
+   "version": "v1",
+   "title": "Judging Before Propagation: Task-Graph Contextual Integrity for Multi-Agent Privacy",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "contextual integrity",
+    "multi-agent",
+    "task graph",
+    "information flow",
+    "MAPLE-Bench"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2610.40616": {
+   "version": "v1",
+   "title": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+   "first_seen": "2026-10-31",
+   "last_updated": "2026-10-31",
+   "folder": "2026-10-31",
+   "keywords": [
+    "membership inference",
+    "diffusion models",
+    "difficulty calibration",
+    "memorization",
+    "auditing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -31045,7 +31236,7 @@
    ]
   }
  },
- "last_run": "2026-10-30",
+ "last_run": "2026-10-31",
  "_meta": {
   "last_run": "2026-09-20"
  }

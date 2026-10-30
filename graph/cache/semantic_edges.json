@@ -2862,5 +2862,33 @@
  "2610.35586->2609.19101": {
   "type": "background",
   "evidence": "related-work mention only"
+ },
+ "2610.32411->2606.05843": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.37676->2605.29358": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.37676->2607.19386": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.37741->2607.15267": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.39532->2606.12341": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.39532->2606.13949": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.39532->2606.26627": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation without direct comparison or extension in context"
  }
 }
