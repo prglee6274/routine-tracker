@@ -204,13 +204,13 @@
   },
   "alibaba/open-code-review": {
    "first_seen": "2026-07-27",
-   "last_seen": "2026-10-29",
-   "days_on_list": 1,
-   "last_stars": 48809,
+   "last_seen": "2026-10-31",
+   "days_on_list": 2,
+   "last_stars": 49114,
    "category": "tools",
    "language": "Go",
    "graduated": false,
-   "last_pushed_at": "2026-10-22"
+   "last_pushed_at": "2026-10-30"
   },
   "alibaba/OpenSandbox": {
    "first_seen": "2026-05-21",
@@ -6405,13 +6405,13 @@
   },
   "interplains/Zero-Breach-Toolkit": {
    "first_seen": "2026-10-29",
-   "last_seen": "2026-10-30",
-   "days_on_list": 2,
-   "last_stars": 3458,
+   "last_seen": "2026-10-31",
+   "days_on_list": 3,
+   "last_stars": 3822,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-10-29"
+   "last_pushed_at": "2026-10-30"
   },
   "mvanhorn/cli-printing-press": {
    "first_seen": "2026-10-29",
@@ -6455,13 +6455,13 @@
   },
   "qybaihe/bla": {
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
-   "days_on_list": 1,
-   "last_stars": 604,
+   "last_seen": "2026-10-31",
+   "days_on_list": 2,
+   "last_stars": 1333,
    "category": "security",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-29"
+   "last_pushed_at": "2026-10-30"
   },
   "crewAIInc/crewAI": {
    "first_seen": "2026-10-30",
@@ -6482,6 +6482,76 @@
    "language": "Python",
    "graduated": false,
    "last_pushed_at": "2026-10-29"
+  },
+  "jesseduffield/lazygit": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 83540,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
+  },
+  "nektos/act": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 72491,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-28"
+  },
+  "lightpanda-io/browser": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 38179,
+   "category": "tools",
+   "language": "Zig",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
+  },
+  "QwenLM/qwen-code": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 28835,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
+  },
+  "Mesh-LLM/mesh-llm": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 3676,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
+  },
+  "docker/docker-agent": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 4621,
+   "category": "llm",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
+  },
+  "CopilotKit/OpenBot": {
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "days_on_list": 1,
+   "last_stars": 8654,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-10-30"
   }
  },
  "last_updated": "2026-10-30",
