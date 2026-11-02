@@ -2922,5 +2922,69 @@
  "2610.39182->2605.29358": {
   "type": "background",
   "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.35082->2606.23416": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.40714->2606.21710": {
+  "type": "baseline",
+  "evidence": "Related contextual-integrity privacy alignment for agents"
+ },
+ "2610.40714->2606.23217": {
+  "type": "compares",
+  "evidence": "Per-flow privacy checks contrasted with PrivacyFlow"
+ },
+ "2610.40714->2609.14003": {
+  "type": "background",
+  "evidence": "Information-flow-control defenses discussed in related work"
+ },
+ "2610.41401->2608.24777": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41445->2510.05582": {
+  "type": "background",
+  "evidence": "Cited in reference list for membership inference"
+ },
+ "2610.41445->2511.14045": {
+  "type": "background",
+  "evidence": "Reference for RLVR membership auditing"
+ },
+ "2610.41445->2605.29888": {
+  "type": "background",
+  "evidence": "Reference list contamination-detection work"
+ },
+ "2610.41445->2607.15495": {
+  "type": "background",
+  "evidence": "Cited for representation analysis (Gurnee et al.)"
+ },
+ "2610.41885->2606.00152": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41885->2606.28061": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41998->2605.17634": {
+  "type": "background",
+  "evidence": "Cited as motivation: agents follow instructions from trusted inputs"
+ },
+ "2610.41998->2607.26115": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41998->2608.06477": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41998->2608.21500": {
+  "type": "background",
+  "evidence": "Same-author related work header/affiliation context only"
+ },
+ "2610.41998->2609.04533": {
+  "type": "background",
+  "evidence": "Reference-list or thin in-text context only"
  }
 }

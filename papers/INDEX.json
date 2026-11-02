@@ -31381,6 +31381,201 @@
    "subtopics": [
     "differential_privacy"
    ]
+  },
+  "2610.41998": {
+   "version": "v1",
+   "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "prompt injection",
+    "adversarial training",
+    "SecPO",
+    "DPO",
+    "AgentDojo"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "alignment_robustness"
+   ]
+  },
+  "2610.35082": {
+   "version": "v1",
+   "title": "CoSA: The Conflict of Skills Attack in Real-World LLM Agent Ecosystems",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "agent skills",
+    "conflict of skills",
+    "CoSA",
+    "policy violation",
+    "LLM agent"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2610.38595": {
+   "version": "v1",
+   "title": "Rethinking LLM Jailbreak Evaluation: Continuous Risk Landscapes Beyond Binary Outcomes",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "jailbreak",
+    "risk landscape",
+    "attack success rate",
+    "first-token branch",
+    "evaluation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "safety_eval"
+   ]
+  },
+  "2610.39509": {
+   "version": "v1",
+   "title": "Systematic Evaluation of Adversarial Jailbreaking Attacks and Defenses Across Seven Large Language Models",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "jailbreak",
+    "obfuscation",
+    "self-reminder",
+    "defense",
+    "open-weight LLM"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2610.41445": {
+   "version": "v1",
+   "title": "From Representation to Readout: Mechanistic Analysis of Membership Signals in Language Models",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "membership inference",
+    "mechanistic analysis",
+    "activation patching",
+    "decodable information",
+    "RLVR contamination"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2610.35530": {
+   "version": "v1",
+   "title": "CANS: Capability-Preserving Neuron Steering for Large Language Models",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "activation steering",
+    "neuron steering",
+    "capability preservation",
+    "HarmBench",
+    "closed-form"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2610.37788": {
+   "version": "v1",
+   "title": "Locating Sycophancy Across Training Stages in Open Language Models",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "sycophancy",
+    "training stages",
+    "checkpoints",
+    "post-training",
+    "capitulation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "mechanistic_position"
+   ]
+  },
+  "2610.40714": {
+   "version": "v1",
+   "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "contextual integrity",
+    "agent privacy",
+    "PrivacyFlow",
+    "information flow",
+    "inference attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2610.41885": {
+   "version": "v1",
+   "title": "How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "MCP",
+    "tool-call traces",
+    "user profiling",
+    "side channel",
+    "PrivacyTrace"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "pii_leakage"
+   ]
+  },
+  "2610.41401": {
+   "version": "v1",
+   "title": "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+   "first_seen": "2026-11-03",
+   "last_updated": "2026-11-03",
+   "folder": "2026-11-03",
+   "keywords": [
+    "privacy-preserving auditing",
+    "homomorphic encryption",
+    "CKKS",
+    "agent safety",
+    "SealCall"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "agent_privacy",
+    "defense_mechanism"
+   ]
   }
  },
  "_taxonomy": {
@@ -31423,7 +31618,7 @@
    ]
   }
  },
- "last_run": "2026-11-02",
+ "last_run": "2026-11-03",
  "_meta": {
   "last_run": "2026-09-20"
  }
