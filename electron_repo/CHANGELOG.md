@@ -1,3 +1,7 @@
+## 2026-11-02 (second firing) — Daily watch
+
+**No new in-scope papers.** Ledger unchanged (45 in_scope, 205 excluded, 31 context_non_venue). Searches: Electron/nodeIntegration/IPC (only tracked Buzz to Boom + CVE pages), domain-restricted topical sweep (only tracked NDSS'23, USENIX'24 Ali). **NEW SIGNAL:** https://www.acsac.org/2026/program/papers/ ("Accepted Papers") is now INDEXED by search for the first time, but web_fetch is refused (robots_disallowed) and search snippets show no titles — list unreadable by this tooling. Next: try again for snippets/author pages, or user can paste the page contents.
+
 ## 2026-11-02 — Daily watch
 
 **No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general, nodeIntegration/contextIsolation, ACSAC/ESORICS/CCS'26 Electron, Node native addon/npm supply chain (only CVE pages, tracked Bilingual Problems/BinWrap, and non-academic MALFEX/CSA industry notes).
