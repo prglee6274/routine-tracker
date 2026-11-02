@@ -1,3 +1,7 @@
+## 2026-11-02 — Daily watch
+
+**No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general, nodeIntegration/contextIsolation, ACSAC/ESORICS/CCS'26 Electron, Node native addon/npm supply chain (only CVE pages, tracked Bilingual Problems/BinWrap, and non-academic MALFEX/CSA industry notes).
+
 ## 2026-10-30 — Daily watch
 
 **No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron venue sweep (only tracked NDSS'23, USENIX'24 + CVE pages), nodeIntegration/IPC arXiv (only tracked Buzz to Boom + CVE pages), domain-restricted topical sweep (only tracked papers; Lemix already triaged), ACSAC 2026 'to appear' (still no program page).
