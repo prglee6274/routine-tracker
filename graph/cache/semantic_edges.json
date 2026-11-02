@@ -2890,5 +2890,37 @@
  "2610.39532->2606.26627": {
   "type": "background",
   "evidence": "related-work/reference-list citation without direct comparison or extension in context"
+ },
+ "2610.38833->2607.26115": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.38895->2609.28613": {
+  "type": "baseline",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.38895->2610.12292": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.39068->2609.18612": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.39068->2610.24521": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.39122->2608.01759": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.39122->2608.03509": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
+ },
+ "2610.39182->2605.29358": {
+  "type": "background",
+  "evidence": "in-text citation context (auto-labeled)"
  }
 }

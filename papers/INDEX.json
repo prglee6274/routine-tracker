@@ -31194,6 +31194,193 @@
    "subtopics": [
     "membership_inference"
    ]
+  },
+  "2610.39122": {
+   "version": "v1",
+   "title": "Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "indirect prompt injection",
+    "self-evolving agents",
+    "personal agents",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2610.38895": {
+   "version": "v1",
+   "title": "FlipJev: Fast Black-Box Red Teaming Finds Universal Adversarial Suffixes for Typed Decision Models",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "red teaming",
+    "universal adversarial suffix",
+    "typed decision models",
+    "black-box attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial",
+    "red_teaming"
+   ]
+  },
+  "2610.38833": {
+   "version": "v1",
+   "title": "Discovering Jailbreaks via Curriculum of Models",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "jailbreak discovery",
+    "curriculum learning",
+    "investigator model",
+    "reinforcement learning",
+    "red-teaming"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming"
+   ]
+  },
+  "2610.38526": {
+   "version": "v1",
+   "title": "Value Probes: Learned Value Functions for Beam-Search Red Teaming",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "red-teaming",
+    "value probes",
+    "linear probing",
+    "beam search",
+    "auditing"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2610.39182": {
+   "version": "v1",
+   "title": "Reasoning or Pattern Exploitation? Mechanistic Insights from RL-Trained Language Models",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "mechanistic interpretability",
+    "sparse autoencoder",
+    "RL reasoning",
+    "GRPO",
+    "Tic-Tac-Toe"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing"
+   ]
+  },
+  "2610.39068": {
+   "version": "v1",
+   "title": "Closed Gates Leak: Decomposing Adjacent-Layer Cancellation in Gated Language Models",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "mechanistic interpretability",
+    "gated MLP",
+    "residual stream",
+    "layer cancellation",
+    "SiLU"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2610.31639": {
+   "version": "v1",
+   "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "chain-of-thought",
+    "faithfulness",
+    "attention leakage",
+    "causal transparency",
+    "CausalCoT"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "feature_attribution"
+   ]
+  },
+  "2610.38789": {
+   "version": "v1",
+   "title": "Complexity of Differentially Private Selection via Federated APIs",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "differential privacy",
+    "federated",
+    "sparse vector technique",
+    "private selection",
+    "lower bound"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "federated_privacy"
+   ]
+  },
+  "2610.34617": {
+   "version": "v1",
+   "title": "Valid Early Detection of Memorization in Diffusion Models",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "memorization",
+    "diffusion models",
+    "conformal calibration",
+    "sequential monitoring",
+    "training data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ]
+  },
+  "2610.31612": {
+   "version": "v1",
+   "title": "Efficient and Optimal Learning of Discrete Distributions with Person-Level Privacy",
+   "first_seen": "2026-11-02",
+   "last_updated": "2026-11-02",
+   "folder": "2026-11-02",
+   "keywords": [
+    "differential privacy",
+    "person-level privacy",
+    "sum-of-squares",
+    "distribution learning",
+    "sample complexity"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -31236,7 +31423,7 @@
    ]
   }
  },
- "last_run": "2026-10-31",
+ "last_run": "2026-11-02",
  "_meta": {
   "last_run": "2026-09-20"
  }
