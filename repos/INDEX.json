@@ -2619,13 +2619,13 @@
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-11-03",
    "days_on_list": 1,
-   "last_stars": 9336,
+   "last_stars": 9942,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-10-20"
+   "last_pushed_at": "2026-11-02"
   },
   "megadose/holehe": {
    "first_seen": "2026-07-21",
@@ -2819,10 +2819,10 @@
   },
   "mksglu/context-mode": {
    "first_seen": "2026-09-06",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-11-03",
    "days_on_list": 1,
-   "last_stars": 21314,
-   "last_pushed_at": "2026-09-08",
+   "last_stars": 33262,
+   "last_pushed_at": "2026-11-02",
    "category": "llm",
    "language": "TypeScript",
    "graduated": false
@@ -3403,11 +3403,11 @@
   },
   "p-e-w/heretic": {
    "first_seen": "2026-09-01",
-   "last_seen": "2026-09-05",
+   "last_seen": "2026-11-03",
    "days_on_list": 1,
-   "last_stars": 30430,
-   "last_pushed_at": "2026-09-03",
-   "category": "security",
+   "last_stars": 37951,
+   "last_pushed_at": "2026-11-01",
+   "category": "llm",
    "language": "Python",
    "graduated": false
   },
@@ -6602,6 +6602,76 @@
    "category": "llm",
    "language": "Python",
    "graduated": false
+  },
+  "ghostty-org/ghostty": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 63282,
+   "category": "tools",
+   "language": "Zig",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
+  },
+  "FlashML-org/FreeToken": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 15933,
+   "category": "llm",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
+  },
+  "vercel-labs/agent-desktop": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 9043,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
+  },
+  "egoist/kero": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 1367,
+   "category": "tools",
+   "language": "Go",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
+  },
+  "Nasiko-Labs/nasiko": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 11527,
+   "category": "security",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-10-23"
+  },
+  "derv82/wifit3": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 3037,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
+  },
+  "Verlintas/NOIR": {
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "days_on_list": 1,
+   "last_stars": 1210,
+   "category": "security",
+   "language": "Kotlin",
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
   }
  },
  "last_updated": "2026-10-30",
