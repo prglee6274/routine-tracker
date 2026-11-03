@@ -4356,13 +4356,13 @@
   },
   "tt-a1i/archify": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-09-15",
-   "days_on_list": 3,
-   "last_stars": 62008,
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 93102,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-09-14"
+   "last_pushed_at": "2026-11-03"
   },
   "tulir/whatsmeow": {
    "first_seen": "2026-08-26",
@@ -5435,10 +5435,10 @@
   },
   "MCPJam/inspector": {
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-16",
-   "days_on_list": 2,
-   "last_stars": 2264,
-   "last_pushed_at": "2026-10-15",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 2298,
+   "last_pushed_at": "2026-11-03",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -5515,10 +5515,10 @@
   },
   "Agent-Threat-Rule/agent-threat-rules": {
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-11-04",
    "days_on_list": 1,
-   "last_stars": 406,
-   "last_pushed_at": "2026-10-04T12:41:48Z",
+   "last_stars": 424,
+   "last_pushed_at": "2026-11-03",
    "category": "security",
    "language": "TypeScript",
    "graduated": false
@@ -5535,10 +5535,10 @@
   },
   "harbor-framework/harbor": {
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-04",
    "days_on_list": 1,
-   "last_stars": 6490,
-   "last_pushed_at": "2026-10-26",
+   "last_stars": 6756,
+   "last_pushed_at": "2026-11-03",
    "category": "llm",
    "language": "Python",
    "graduated": false
@@ -5705,10 +5705,10 @@
   },
   "samvallad33/vestige": {
    "first_seen": "2026-10-10",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-11-04",
    "days_on_list": 1,
-   "last_stars": 648,
-   "last_pushed_at": "2026-10-09",
+   "last_stars": 660,
+   "last_pushed_at": "2026-11-03",
    "category": "security",
    "language": "Rust",
    "graduated": false
@@ -6672,6 +6672,56 @@
    "language": "Kotlin",
    "graduated": false,
    "last_pushed_at": "2026-11-02"
+  },
+  "N1nEmAn/sapper-v2": {
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 658,
+   "category": "security",
+   "language": "Python",
+   "graduated": false,
+   "last_pushed_at": "2026-11-03"
+  },
+  "caru-ini/stack-diagram": {
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 1480,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-11-03"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 16373,
+   "category": "llm",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-11-03"
+  },
+  "storytold/craft-anything": {
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 7660,
+   "category": "llm",
+   "language": "Rust",
+   "graduated": false,
+   "last_pushed_at": "2026-11-03"
+  },
+  "wangzan101/Mika": {
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "days_on_list": 1,
+   "last_stars": 6010,
+   "category": "llm",
+   "language": "Kotlin",
+   "graduated": false,
+   "last_pushed_at": "2026-11-03"
   }
  },
  "last_updated": "2026-10-30",
