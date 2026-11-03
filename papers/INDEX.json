@@ -31576,6 +31576,194 @@
     "agent_privacy",
     "defense_mechanism"
    ]
+  },
+  "2611.00138": {
+   "version": "v1",
+   "title": "Kerkoporta: Injecting Structured-Output Backdoors in Reasoning Coding Agents",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "backdoor",
+    "structured output",
+    "tool call",
+    "coding agent",
+    "SFT+RL"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2611.01342": {
+   "version": "v1",
+   "title": "J-Anchor: Defending Against Prefill Attacks via J-Space Selective Refusal Restoration",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "prefill attack",
+    "jailbreak",
+    "refusal",
+    "Jacobian lens",
+    "inference-time defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism"
+   ]
+  },
+  "2611.01953": {
+   "version": "v1",
+   "title": "Step-Zero Attack: Agent Safety Before Observability",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "step-zero attack",
+    "coding agent",
+    "archive bomb",
+    "pre-model harm",
+    "agent safety"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2611.02332": {
+   "version": "v1",
+   "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "guardrail",
+    "Lean4",
+    "formal verification",
+    "tool-using agent",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "defense_mechanism",
+    "prompt_injection"
+   ]
+  },
+  "2611.00606": {
+   "version": "v1",
+   "title": "Sparse Autoencoder Attribution Graphs Are Decided at the Margin",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "sparse autoencoder",
+    "TopK SAE",
+    "attribution graph",
+    "margin",
+    "Pythia"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "circuits"
+   ]
+  },
+  "2611.00640": {
+   "version": "v1",
+   "title": "Bridging Singular Learning Theory and Mechanistic Interpretability at the Billion-Parameter Scale",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "singular learning theory",
+    "local learning coefficient",
+    "mechanistic interpretability",
+    "circuit",
+    "Pythia-1B"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "mechanistic_position"
+   ]
+  },
+  "2611.00420": {
+   "version": "v1",
+   "title": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "attribution graph",
+    "transcoder",
+    "circuit analysis",
+    "multi-agent",
+    "interpretability automation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "interp_method"
+   ]
+  },
+  "2610.42139": {
+   "version": "v1",
+   "title": "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "DP-SGD",
+    "privacy amplification",
+    "batch size",
+    "dummy points",
+    "truncation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2610.41732": {
+   "version": "v1",
+   "title": "From Training Exposure to Membership Evidence: A Controlled Study of OLMo 2",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "membership inference",
+    "OLMo 2",
+    "controlled experiment",
+    "counterfactual",
+    "contamination"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2611.02578": {
+   "version": "v1",
+   "title": "Probing Local Conditional Fit for Diffusion Model Membership Inference",
+   "first_seen": "2026-11-04",
+   "last_updated": "2026-11-04",
+   "folder": "2026-11-04",
+   "keywords": [
+    "membership inference",
+    "diffusion model",
+    "LoFIT",
+    "conditional prediction shift",
+    "auditing"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -31618,7 +31806,7 @@
    ]
   }
  },
- "last_run": "2026-11-03",
+ "last_run": "2026-11-04",
  "_meta": {
   "last_run": "2026-09-20"
  }

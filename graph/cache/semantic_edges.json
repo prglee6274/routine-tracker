@@ -2986,5 +2986,65 @@
  "2610.41998->2609.04533": {
   "type": "background",
   "evidence": "Reference-list or thin in-text context only"
+ },
+ "2610.41732->2606.17464": {
+  "type": "compares",
+  "evidence": "Cites open-corpus MIA benchmark as lacking counterfactual controls"
+ },
+ "2610.41732->2610.02986": {
+  "type": "compares",
+  "evidence": "OLMo-Detect listed among open-corpus datasets lacking counterfactual controls"
+ },
+ "2611.00138->2605.15172": {
+  "type": "background",
+  "evidence": "Prior LLM backdoor work cited in related work"
+ },
+ "2611.00138->2608.02820": {
+  "type": "background",
+  "evidence": "Related model-poisoning work cited"
+ },
+ "2611.00606->2605.28567": {
+  "type": "background",
+  "evidence": "Feature matching related work"
+ },
+ "2611.00606->2605.29358": {
+  "type": "background",
+  "evidence": "Cited for high-strength feature interventions"
+ },
+ "2611.00606->2605.31245": {
+  "type": "background",
+  "evidence": "Identifiability results cited as background"
+ },
+ "2611.00606->2606.12138": {
+  "type": "background",
+  "evidence": "Seed-dependence score comparison cited; distinguished from operator-level comparison"
+ },
+ "2611.00606->2607.08499": {
+  "type": "background",
+  "evidence": "Reference-list only"
+ },
+ "2611.00606->2609.12591": {
+  "type": "background",
+  "evidence": "Cited for ablation-validated side effects/feature flow"
+ },
+ "2611.01342->2607.00572": {
+  "type": "background",
+  "evidence": "Cited for harmfulness/refusal disconnect"
+ },
+ "2611.01342->2607.15495": {
+  "type": "background",
+  "evidence": "Jacobian lens method background"
+ },
+ "2611.01953->2608.14876": {
+  "type": "background",
+  "evidence": "Related agent attack surface cited"
+ },
+ "2611.01953->2610.20776": {
+  "type": "background",
+  "evidence": "Prompt-injection benchmark cited"
+ },
+ "2611.01953->2610.22987": {
+  "type": "background",
+  "evidence": "Related coding-agent attack cited"
  }
 }
