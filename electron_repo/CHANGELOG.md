@@ -1,3 +1,7 @@
+## 2026-11-04 — Daily watch
+
+**No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general (only CVE pages), nodeIntegration/contextIsolation/IPC (only CVEs, Doyensec talk), ACSAC'26 'to appear' (only tracked NDSS Electron study + CVEs; ACSAC'26 list still unreadable), CCS/ESORICS'26 XSS→RCE (only CVE/advisory feeds).
+
 ## 2026-11-03 — Daily watch
 
 **No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general (only CVE pages), domain-restricted topical sweep (only tracked NDSS'23, USENIX'24 Ali, Buzz to Boom, Bilingual Problems, Lemix), nodeIntegration/IPC (nothing academic), ACSAC/CCS/ESORICS/RAID'26 hybrid/CEF/WebView (nothing relevant; ACSAC'26 list still unreadable).
