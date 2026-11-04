@@ -1450,13 +1450,13 @@
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-10-05",
-   "days_on_list": 4,
-   "last_stars": 139986,
-   "last_pushed_at": "2026-10-04T15:50:40Z",
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 151810,
    "category": "tools",
    "language": "Rust",
-   "graduated": true
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "fingerprintjs/fingerprintjs": {
    "first_seen": "2026-07-18",
@@ -2243,13 +2243,13 @@
   },
   "KeygraphHQ/shannon": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-11-05",
    "days_on_list": 1,
-   "last_stars": 46778,
+   "last_stars": 51185,
    "category": "security",
    "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-08-12"
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "ki-editor/ki-editor": {
    "first_seen": "2026-05-23",
@@ -2639,13 +2639,13 @@
   },
   "mem0ai/mem0": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-06-19",
-   "days_on_list": 4,
-   "last_stars": 40013,
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 68403,
    "category": "llm",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-19"
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "MemoriLabs/Memori": {
    "first_seen": "2026-06-24",
@@ -3157,13 +3157,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-10-16",
-   "days_on_list": 4,
-   "last_stars": 20282,
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 24338,
    "category": "security",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-10-15"
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -3237,13 +3237,13 @@
   },
   "open-webui/open-webui": {
    "first_seen": "2026-06-17",
-   "last_seen": "2026-06-20",
-   "days_on_list": 4,
-   "last_stars": 106013,
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 157772,
    "category": "llm",
-   "language": "Python",
-   "graduated": true,
-   "last_pushed_at": "2026-06-20"
+   "language": "Svelte",
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "openai/codex": {
    "first_seen": "2026-06-15",
@@ -4466,13 +4466,13 @@
   },
   "VectifyAI/PageIndex": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-05-30",
-   "days_on_list": 4,
-   "last_stars": 19412,
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 39985,
    "category": "llm",
    "language": "Python",
-   "graduated": true,
-   "last_pushed_at": ""
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "vercel-labs/agent-browser": {
    "first_seen": "2026-08-21",
@@ -5375,13 +5375,13 @@
   },
   "ifixai-ai/iFixAi": {
    "first_seen": "2026-10-01",
-   "last_seen": "2026-10-05",
-   "days_on_list": 4,
-   "last_stars": 20195,
-   "last_pushed_at": "2026-10-02T19:36:21Z",
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 43381,
    "category": "security",
    "language": "Python",
-   "graduated": true
+   "graduated": false,
+   "last_pushed_at": "2026-11-02"
   },
   "headroomlabs-ai/headroom": {
    "first_seen": "2026-10-01",
@@ -5765,13 +5765,13 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-14",
-   "days_on_list": 4,
-   "last_stars": 200975,
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 430247,
    "category": "llm",
    "language": "TypeScript",
-   "graduated": true,
-   "last_pushed_at": "2026-10-13"
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   },
   "heymrun/heym": {
    "first_seen": "2026-10-11",
@@ -6705,13 +6705,13 @@
   },
   "storytold/craft-anything": {
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-04",
-   "days_on_list": 1,
-   "last_stars": 7660,
-   "category": "llm",
+   "last_seen": "2026-11-05",
+   "days_on_list": 2,
+   "last_stars": 11024,
+   "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-11-03"
+   "last_pushed_at": "2026-11-04"
   },
   "wangzan101/Mika": {
    "first_seen": "2026-11-04",
@@ -6722,6 +6722,16 @@
    "language": "Kotlin",
    "graduated": false,
    "last_pushed_at": "2026-11-03"
+  },
+  "KKKKhazix/agent-autoloop": {
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "days_on_list": 1,
+   "last_stars": 2371,
+   "category": "tools",
+   "language": "TypeScript",
+   "graduated": false,
+   "last_pushed_at": "2026-11-04"
   }
  },
  "last_updated": "2026-10-30",
