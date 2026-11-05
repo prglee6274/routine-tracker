@@ -31947,6 +31947,183 @@
     "adversarial",
     "pii_leakage"
    ]
+  },
+  "2611.06553": {
+   "version": "v1",
+   "title": "Addition by Subtraction: Toward Mitigating Fragile Safety Alignment in Large Language Models",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "safety alignment",
+    "jailbreak",
+    "safety neurons",
+    "preference optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "defense_mechanism",
+    "alignment_robustness"
+   ]
+  },
+  "2611.04393": {
+   "version": "v1",
+   "title": "Voluntary Servitude: Weaponized Safety Warning Mechanisms for Controlling AI Agents",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "agent security",
+    "weaponized safety",
+    "indirect injection",
+    "retrieval manipulation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2611.03754": {
+   "version": "v1",
+   "title": "The Web Doesn't Sit Still: Adversarial Self-Evolving Attacks on Search Agents",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "search agents",
+    "adversarial attack",
+    "evolutionary optimization",
+    "bi-level optimization"
+   ],
+   "category": "security",
+   "subtopics": [
+    "red_teaming",
+    "agent_safety"
+   ]
+  },
+  "2611.01976": {
+   "version": "v1",
+   "title": "Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "tool update",
+    "supply chain",
+    "LLM agents",
+    "ETUDE"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety"
+   ]
+  },
+  "2611.05655": {
+   "version": "v1",
+   "title": "When Are Two SAE Latents the Same Feature?",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "sparse autoencoder",
+    "optimal transport",
+    "feature matching",
+    "bootstrap inference"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "feature_attribution"
+   ]
+  },
+  "2611.01378": {
+   "version": "v1",
+   "title": "Information-Theoretic Design of Sparse Autoencoder-Based Steering",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "SAE steering",
+    "Jensen-Shannon divergence",
+    "feature firing distribution"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering"
+   ]
+  },
+  "2610.41480": {
+   "version": "v1",
+   "title": "KV-Cache Patching: Tracing How and Where Fine-Tuned Behaviors Arise",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "activation patching",
+    "KV cache",
+    "fine-tuning",
+    "emergent misalignment"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "circuits"
+   ]
+  },
+  "2611.05781": {
+   "version": "v1",
+   "title": "Timing is Everything: Inferring Temporal Membership in Continually Updated Models",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "temporal membership inference",
+    "continual learning",
+    "TMIA",
+    "privacy risk"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
+  },
+  "2611.05866": {
+   "version": "v1",
+   "title": "Auditable Unlearning for LLMs",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "machine unlearning",
+    "auditability",
+    "TOFU",
+    "MUSE"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2611.06681": {
+   "version": "v1",
+   "title": "Do unlearning algorithms learn the right features?",
+   "first_seen": "2026-11-06",
+   "last_updated": "2026-11-06",
+   "folder": "2026-11-06",
+   "keywords": [
+    "machine unlearning",
+    "feature recovery",
+    "retraining",
+    "relearning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "representation"
+   ]
   }
  },
  "_taxonomy": {
@@ -31989,7 +32166,7 @@
    ]
   }
  },
- "last_run": "2026-11-05",
+ "last_run": "2026-11-06",
  "_meta": {
   "last_run": "2026-09-20"
  }

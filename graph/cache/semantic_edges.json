@@ -3078,5 +3078,61 @@
  "2611.04782->2601.03047": {
   "type": "background",
   "evidence": "참고문헌/관련연구에서 언급되는 배경 인용"
+ },
+ "2610.41480->2606.06667": {
+  "type": "background",
+  "evidence": "cites EM piggyback via KV cache"
+ },
+ "2611.01378->2605.29358": {
+  "type": "background",
+  "evidence": "SAE interpretability background"
+ },
+ "2611.01976->2607.02357": {
+  "type": "background",
+  "evidence": "related agent-skill malware work"
+ },
+ "2611.04393->2608.27092": {
+  "type": "background",
+  "evidence": "related framing-based injection"
+ },
+ "2611.04393->2609.06027": {
+  "type": "background",
+  "evidence": "related web evidence poisoning"
+ },
+ "2611.04393->2609.15994": {
+  "type": "background",
+  "evidence": "typos disrupt injection probes"
+ },
+ "2611.05655->2605.28567": {
+  "type": "compares",
+  "evidence": "contrasts OT feature matching rule"
+ },
+ "2611.05655->2605.29358": {
+  "type": "background",
+  "evidence": "SAE background (reference only)"
+ },
+ "2611.05655->2606.02385": {
+  "type": "extends",
+  "evidence": "builds on optimality viewpoint of SAE dictionaries"
+ },
+ "2611.05655->2606.30609": {
+  "type": "background",
+  "evidence": "feature consistency related work"
+ },
+ "2611.05781->2505.24379": {
+  "type": "background",
+  "evidence": "unlearning privacy risks"
+ },
+ "2611.05866->2609.00605": {
+  "type": "background",
+  "evidence": "cited in references"
+ },
+ "2611.05866->2609.16229": {
+  "type": "background",
+  "evidence": "cited in references"
+ },
+ "2611.06681->2605.31317": {
+  "type": "background",
+  "evidence": "authors' prior unlearning work"
  }
 }
