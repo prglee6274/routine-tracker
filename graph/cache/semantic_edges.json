@@ -3134,5 +3134,73 @@
  "2611.06681->2605.31317": {
   "type": "background",
   "evidence": "authors' prior unlearning work"
+ },
+ "2611.00725->2607.08147": {
+  "type": "compares",
+  "evidence": "AAS contrasted with Prismata's system-level trust constraints as single-facet execution-side defenses"
+ },
+ "2611.00725->2608.04741": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.01700->2606.13385": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.07222->2606.10525": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.07222->2606.15057": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.07222->2607.05120": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.07222->2608.27496": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.07756->2605.29358": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08089->2605.29358": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2602.05859": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2605.01555": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2605.05115": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2605.29358": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2606.11722": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2606.24026": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2607.15495": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
+ },
+ "2611.08438->2608.09928": {
+  "type": "background",
+  "evidence": "cited as related work / reference-list only"
  }
 }

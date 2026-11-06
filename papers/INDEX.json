@@ -32124,6 +32124,193 @@
     "unlearning",
     "representation"
    ]
+  },
+  "2611.07222": {
+   "version": "v1",
+   "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "prompt injection",
+    "tool-using agents",
+    "typed fields",
+    "deterministic sanitizer"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2611.00725": {
+   "version": "v1",
+   "title": "The Long Con on the Web: Earn-then-Exploit Fraud Attacks against Coding Agents",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "coding agents",
+    "web fraud",
+    "trust exploitation",
+    "action authorization separation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "red_teaming"
+   ]
+  },
+  "2611.01700": {
+   "version": "v1",
+   "title": "MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "cross-session prompt injection",
+    "agent memory",
+    "benchmark",
+    "victim-centric"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "safety_eval"
+   ]
+  },
+  "2611.07530": {
+   "version": "v1",
+   "title": "JailBound: FOL-Guided Jailbreak Evaluation for Exploring LLM Behavioral Boundaries",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "jailbreak evaluation",
+    "first-order loss",
+    "benchmark construction",
+    "behavioral boundary"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "red_teaming",
+    "safety_eval"
+   ]
+  },
+  "2611.08438": {
+   "version": "v1",
+   "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "mechanistic interpretability",
+    "AI safety",
+    "survey",
+    "circuits",
+    "steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position",
+    "interp_method",
+    "circuits",
+    "sae"
+   ]
+  },
+  "2611.07756": {
+   "version": "v1",
+   "title": "Scaling Laws for SAE Training Data",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "sparse autoencoder",
+    "scaling law",
+    "activation buffer",
+    "BatchTopK"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2611.08089": {
+   "version": "v1",
+   "title": "SAE Interprets MoE: Sparse AutoEncoders Reveal That MoE Experts Exhibit Human-Interpretable Fine-Grained Specialization",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "sparse autoencoder",
+    "mixture-of-experts",
+    "expert specialization",
+    "Qwen3-30B-A3B"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2611.07669": {
+   "version": "v1",
+   "title": "An Information Bottleneck for Post-hoc Memorization Mitigation in LLMs",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "memorization",
+    "information bottleneck",
+    "NVIB",
+    "copyright",
+    "training data extraction"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "pii_leakage"
+   ]
+  },
+  "2611.04501": {
+   "version": "v2",
+   "title": "Sample-Grained Approximate Unlearning with Provable Per-Sample Bounds",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "machine unlearning",
+    "approximate unlearning",
+    "per-sample guarantee",
+    "SALA"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2611.02412": {
+   "version": "v1",
+   "title": "A Novel Federated Learning Framework for Defending Against Gradient Inversion Attacks",
+   "first_seen": "2026-11-07",
+   "last_updated": "2026-11-07",
+   "folder": "2026-11-07",
+   "keywords": [
+    "federated learning",
+    "gradient inversion attack",
+    "hypernetwork",
+    "HyperFL++"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy"
+   ]
   }
  },
  "_taxonomy": {
@@ -32166,7 +32353,7 @@
    ]
   }
  },
- "last_run": "2026-11-06",
+ "last_run": "2026-11-07",
  "_meta": {
   "last_run": "2026-09-20"
  }
