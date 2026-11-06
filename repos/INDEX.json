@@ -114,13 +114,13 @@
   },
   "affaan-m/ECC": {
    "first_seen": "2026-07-30",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-07",
    "days_on_list": 1,
-   "last_stars": 289639,
+   "last_stars": 298445,
    "category": "llm",
    "language": "JavaScript",
    "graduated": false,
-   "last_pushed_at": "2026-10-26"
+   "last_pushed_at": "2026-11-06"
   },
   "agavra/tuicr": {
    "first_seen": "2026-07-31",
@@ -1450,13 +1450,13 @@
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-11-05",
-   "days_on_list": 1,
-   "last_stars": 151810,
+   "last_seen": "2026-11-07",
+   "days_on_list": 2,
+   "last_stars": 152351,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-11-04"
+   "last_pushed_at": "2026-11-06"
   },
   "fingerprintjs/fingerprintjs": {
    "first_seen": "2026-07-18",
@@ -1856,11 +1856,11 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-07",
    "days_on_list": 1,
-   "last_stars": 138534,
-   "last_pushed_at": "2026-10-27",
-   "category": "tools",
+   "last_stars": 143439,
+   "last_pushed_at": "2026-11-06",
+   "category": "llm",
    "language": "Python",
    "graduated": false
   },
@@ -2243,13 +2243,13 @@
   },
   "KeygraphHQ/shannon": {
    "first_seen": "2026-05-17",
-   "last_seen": "2026-11-05",
-   "days_on_list": 1,
-   "last_stars": 51185,
+   "last_seen": "2026-11-07",
+   "days_on_list": 2,
+   "last_stars": 51327,
    "category": "security",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-11-04"
+   "last_pushed_at": "2026-11-06"
   },
   "ki-editor/ki-editor": {
    "first_seen": "2026-05-23",
@@ -3088,12 +3088,12 @@
   },
   "NousResearch/hermes-agent": {
    "first_seen": "2026-05-11",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-07",
    "days_on_list": 1,
-   "last_stars": 257003,
+   "last_stars": 261145,
    "category": "llm",
    "language": "Python",
-   "last_pushed_at": "2026-10-25",
+   "last_pushed_at": "2026-11-06",
    "graduated": false
   },
   "nushell/nushell": {
@@ -3157,13 +3157,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-11-06",
-   "days_on_list": 2,
-   "last_stars": 24496,
+   "last_seen": "2026-11-07",
+   "days_on_list": 3,
+   "last_stars": 24649,
    "category": "security",
    "language": "Python",
    "graduated": false,
-   "last_pushed_at": "2026-11-05"
+   "last_pushed_at": "2026-11-06"
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -6665,13 +6665,13 @@
   },
   "Verlintas/NOIR": {
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-06",
-   "days_on_list": 1,
-   "last_stars": 2431,
+   "last_seen": "2026-11-07",
+   "days_on_list": 2,
+   "last_stars": 2740,
    "category": "security",
    "language": "Kotlin",
    "graduated": false,
-   "last_pushed_at": "2026-11-05"
+   "last_pushed_at": "2026-11-06"
   },
   "N1nEmAn/sapper-v2": {
    "first_seen": "2026-11-04",
@@ -6695,9 +6695,9 @@
   },
   "deepseek-ai/dsh-superagent-prototype": {
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
-   "days_on_list": 1,
-   "last_stars": 19403,
+   "last_seen": "2026-11-07",
+   "days_on_list": 2,
+   "last_stars": 20189,
    "category": "llm",
    "language": "TypeScript",
    "graduated": false,
@@ -6705,13 +6705,13 @@
   },
   "storytold/craft-anything": {
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-06",
-   "days_on_list": 3,
-   "last_stars": 14586,
+   "last_seen": "2026-11-07",
+   "days_on_list": 4,
+   "last_stars": 17614,
    "category": "tools",
    "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-11-05"
+   "graduated": true,
+   "last_pushed_at": "2026-11-06"
   },
   "wangzan101/Mika": {
    "first_seen": "2026-11-04",
@@ -6725,13 +6725,13 @@
   },
   "KKKKhazix/agent-autoloop": {
    "first_seen": "2026-11-05",
-   "last_seen": "2026-11-06",
-   "days_on_list": 2,
-   "last_stars": 3193,
+   "last_seen": "2026-11-07",
+   "days_on_list": 3,
+   "last_stars": 3634,
    "category": "tools",
    "language": "TypeScript",
    "graduated": false,
-   "last_pushed_at": "2026-11-05"
+   "last_pushed_at": "2026-11-06"
   },
   "govijr/terminal-mac": {
    "first_seen": "2026-11-06",
