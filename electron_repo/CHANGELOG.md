@@ -1,3 +1,7 @@
+## 2026-11-06 — Daily watch
+
+**No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general/arXiv (only tracked Buzz to Boom + CVE pages), ACSAC'26 accepted (nothing; list still unreadable), nodeIntegration/IPC (nothing academic), XSS→RCE 'to appear' (only CVE/advisory feeds, Figma Desktop RCE write-up — non-academic).
+
 ## 2026-11-05 — Daily watch
 
 **No new in-scope papers today.** Ledger unchanged: **45 in_scope, 205 excluded, 31 context_non_venue.** Searches: Electron general (CVE pages only), domain-restricted topical sweep (only tracked NDSS'23, USENIX'24 Ali, Buzz to Boom), ACSAC'26 'to appear' (nothing), nodeIntegration/IPC (nothing academic), Tauri/WebView2/CEF 2026 (CVE + Snyk blog only), VS Code/Electron arXiv (tracked Buzz to Boom; VS Code extension-ecosystem arXiv papers not re-triaged).
