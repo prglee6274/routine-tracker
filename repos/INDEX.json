@@ -1679,12 +1679,13 @@
   },
   "github/spec-kit": {
    "first_seen": "2026-05-10",
-   "last_seen": "2026-09-12",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 135684,
-   "category": "tools",
+   "last_stars": 148371,
+   "last_pushed_at": "2026-11-07",
+   "category": "llm",
    "language": "Python",
-   "last_pushed_at": "2026-09-11"
+   "graduated": false
   },
   "Gitlawb/openclaude": {
    "first_seen": "2026-09-03",
@@ -1856,9 +1857,9 @@
   },
   "Graphify-Labs/graphify": {
    "first_seen": "2026-07-16",
-   "last_seen": "2026-11-07",
-   "days_on_list": 1,
-   "last_stars": 143439,
+   "last_seen": "2026-11-08",
+   "days_on_list": 2,
+   "last_stars": 143913,
    "last_pushed_at": "2026-11-06",
    "category": "llm",
    "language": "Python",
@@ -2193,13 +2194,13 @@
   },
   "JuliusBrussee/caveman": {
    "first_seen": "2026-08-20",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 114600,
+   "last_stars": 118146,
+   "last_pushed_at": "2026-11-07",
    "category": "llm",
    "language": "Go",
-   "graduated": false,
-   "last_pushed_at": "2026-10-23"
+   "graduated": false
   },
   "jundot/omlx": {
    "first_seen": "2026-08-19",
@@ -2619,13 +2620,13 @@
   },
   "max-sixty/worktrunk": {
    "first_seen": "2026-08-27",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 9942,
+   "last_stars": 11924,
+   "last_pushed_at": "2026-11-07",
    "category": "tools",
    "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-11-02"
+   "graduated": false
   },
   "megadose/holehe": {
    "first_seen": "2026-07-21",
@@ -3157,13 +3158,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-11-07",
-   "days_on_list": 3,
-   "last_stars": 24649,
+   "last_seen": "2026-11-08",
+   "days_on_list": 4,
+   "last_stars": 24786,
+   "last_pushed_at": "2026-11-06",
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-11-06"
+   "graduated": true
   },
   "nwiizo/nippo": {
    "first_seen": "2026-08-27",
@@ -3869,13 +3870,13 @@
   },
   "sherlock-project/sherlock": {
    "first_seen": "2026-08-03",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 89331,
+   "last_stars": 100132,
+   "last_pushed_at": "2026-11-07",
    "category": "security",
    "language": "Python",
-   "graduated": false,
-   "last_pushed_at": "2026-08-01"
+   "graduated": false
   },
   "Shubhamsaboo/awesome-llm-apps": {
    "first_seen": "2026-08-26",
@@ -4017,10 +4018,10 @@
   },
   "stablyai/orca": {
    "first_seen": "2026-06-29",
-   "last_seen": "2026-10-21",
-   "days_on_list": 3,
-   "last_stars": 99514,
-   "last_pushed_at": "2026-10-20",
+   "last_seen": "2026-11-08",
+   "days_on_list": 1,
+   "last_stars": 118464,
+   "last_pushed_at": "2026-11-07",
    "category": "tools",
    "language": "TypeScript",
    "graduated": false
@@ -4476,13 +4477,13 @@
   },
   "vercel-labs/agent-browser": {
    "first_seen": "2026-08-21",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 41023,
+   "last_stars": 46668,
+   "last_pushed_at": "2026-11-07",
    "category": "tools",
    "language": "Rust",
-   "graduated": false,
-   "last_pushed_at": "2026-08-10"
+   "graduated": false
   },
   "vercel-labs/deepsec": {
    "first_seen": "2026-06-30",
@@ -5204,13 +5205,13 @@
   },
   "thedotmack/claude-mem": {
    "first_seen": "2026-09-24",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-11-08",
    "days_on_list": 1,
-   "last_stars": 100034,
+   "last_stars": 114373,
+   "last_pushed_at": "2026-11-07",
    "category": "llm",
    "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-10-12"
+   "graduated": false
   },
   "google/ax": {
    "first_seen": "2026-09-24",
@@ -5765,13 +5766,13 @@
   },
   "morluto/rea": {
    "first_seen": "2026-10-11",
-   "last_seen": "2026-11-06",
-   "days_on_list": 2,
-   "last_stars": 433822,
-   "category": "llm",
+   "last_seen": "2026-11-08",
+   "days_on_list": 1,
+   "last_stars": 440484,
+   "last_pushed_at": "2026-11-07",
+   "category": "security",
    "language": "TypeScript",
-   "graduated": false,
-   "last_pushed_at": "2026-11-05"
+   "graduated": false
   },
   "heymrun/heym": {
    "first_seen": "2026-10-11",
