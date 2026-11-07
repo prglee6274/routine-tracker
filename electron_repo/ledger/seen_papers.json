@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-11-06",
-  "last_run": "2026-11-06",
+  "last_updated": "2026-11-07",
+  "last_run": "2026-11-07",
   "_comment": "Every paper already triaged. The daily watch normalizes candidate titles (lowercase, alphanumerics + single spaces) and skips any whose title_norm already appears in in_scope or excluded. New, in-scope titles get a note in papers/ and a new in_scope entry.",
   "in_scope": [
     {
@@ -2783,6 +2783,13 @@
       "venue": "USENIX Security",
       "year": 2026,
       "reason": "WebRTC DTLS-SRTP protocol MitM study of browsers/media servers; no Electron/Node/WebView angle."
+    },
+    {
+      "title": "The Native Menace: Host-to-Browser Cross-Boundary Attacks via Native Messaging",
+      "title_norm": "the native menace host to browser cross boundary attacks via native messaging",
+      "venue": "arXiv (to appear IEEE S&P 2027)",
+      "year": 2026,
+      "reason": "Browser-extension NativeMessaging attacks (1Password, EU eID, Google Drive); abstract does not mention Electron/CEF/WebView — browser<->native-app boundary, not an Electron app study. Abstract-only triage."
     }
   ],
   "context_non_venue": [
