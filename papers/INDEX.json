@@ -32311,6 +32311,178 @@
    "subtopics": [
     "federated_privacy"
    ]
+  },
+  "2611.07640": {
+   "version": "v1",
+   "title": "Beyond Instruction Override: Benchmarking Indirect Prompt Injection with Task-Tampering Attacks",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "indirect prompt injection",
+    "task tampering",
+    "tool-use agents",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2611.01097": {
+   "version": "v1",
+   "title": "The Blind Spots of Detection: Adversarial Perturbation Attacks against Watchdogs in Distributed LLM Inference",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "distributed LLM inference",
+    "adversarial perturbation",
+    "verification evasion",
+    "availability attack"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2611.07370": {
+   "version": "v1",
+   "title": "Breaking $\\mathsf{TraintoDefend}$ via Adaptive Neuron Clustering in Cryptanalytic Model Extraction",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "model extraction",
+    "cryptanalytic extraction",
+    "defense bypass",
+    "neuron clustering"
+   ],
+   "category": "security",
+   "subtopics": [
+    "adversarial"
+   ]
+  },
+  "2611.02643": {
+   "version": "v1",
+   "title": "SearchInject: Retrieval Exposure Control for Indirect Prompt Injection in Language-Model Search",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "indirect prompt injection",
+    "search-augmented LLM",
+    "retrieval defense",
+    "quarantine"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection"
+   ]
+  },
+  "2611.08465": {
+   "version": "v1",
+   "title": "Towards interpreting any residual stream direction by scaling activation inversion",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "residual stream",
+    "activation inversion",
+    "metamodel",
+    "maximally activating examples"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method"
+   ]
+  },
+  "2611.01620": {
+   "version": "v1",
+   "title": "Chain-of-Thought Oversight Requires Separate Evidence for Faithfulness and Monitorability",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "chain-of-thought",
+    "CoT oversight",
+    "faithfulness",
+    "monitorability",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "mechanistic_position"
+   ]
+  },
+  "2611.07478": {
+   "version": "v1",
+   "title": "Localization Does Not Imply Steerability: A Mechanistic Study of Sign Errors in LLM Mathematics",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "circuit analysis",
+    "sign errors",
+    "MLP layers",
+    "math reasoning",
+    "steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits"
+   ]
+  },
+  "2611.06100": {
+   "version": "v1",
+   "title": "Reconciling Privacy with Provenance for Language Model Watermarks",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "LLM watermark",
+    "local differential privacy",
+    "provenance",
+    "frequency estimation"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy"
+   ]
+  },
+  "2611.03955": {
+   "version": "v1",
+   "title": "Forget What Comes Next: LLM Unlearning via Statistical Independence",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "LLM unlearning",
+    "HSIC",
+    "exact memorization",
+    "statistical independence"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2611.01564": {
+   "version": "v1",
+   "title": "Meta-memorization and memorization scaling laws in transformers",
+   "first_seen": "2026-11-08",
+   "last_updated": "2026-11-08",
+   "folder": "2026-11-08",
+   "keywords": [
+    "memorization",
+    "scaling laws",
+    "meta-memorization",
+    "transformers"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -32353,7 +32525,7 @@
    ]
   }
  },
- "last_run": "2026-11-07",
+ "last_run": "2026-11-08",
  "_meta": {
   "last_run": "2026-09-20"
  }
