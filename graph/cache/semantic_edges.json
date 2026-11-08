@@ -3226,5 +3226,37 @@
  "2611.08465->2608.13538": {
   "type": "background",
   "evidence": "참고문헌 목록 수준 인용"
+ },
+ "2610.41185->2603.19183": {
+  "type": "extends",
+  "evidence": "applies SAE-based steering to E2E driving, building on SAE features in VLA models"
+ },
+ "2610.41616->2605.31317": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2610.41803->2609.10892": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2611.03040->2605.10664": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2611.07805->2605.01381": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2611.07805->2608.13329": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2611.07805->2609.18080": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
+ },
+ "2611.08226->2607.15495": {
+  "type": "background",
+  "evidence": "cited in related work / reference list"
  }
 }

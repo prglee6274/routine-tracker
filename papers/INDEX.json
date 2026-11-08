@@ -32483,6 +32483,192 @@
    "subtopics": [
     "data_extraction"
    ]
+  },
+  "2611.00407": {
+   "version": "v1",
+   "title": "Hacking or Just Failing? A More Capable LLM Monitor Better Separates Reward Hacking from Honest Failure",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "reward hacking",
+    "LLM monitor",
+    "agent oversight",
+    "counterfactual labeling"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2610.41803": {
+   "version": "v1",
+   "title": "What Standard Evaluations Hide About Detectors of Hijacked LLM Agents: Rare Attacks, Unseen Tools and Benchmark Transfer",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "hijacked agent detection",
+    "AgentDojo",
+    "AgentDrift",
+    "evaluation methodology",
+    "base rate"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection",
+    "safety_eval"
+   ]
+  },
+  "2611.00748": {
+   "version": "v1",
+   "title": "Inherited or Learned? Backdoor Selectivity in Distilled Language Models",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "backdoor",
+    "knowledge distillation",
+    "trigger selectivity",
+    "poisoning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "adversarial"
+   ]
+  },
+  "2611.08226": {
+   "version": "v1",
+   "title": "\"Blind Compliance\": Coercive Control in AI Jailbreaking",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "jailbreak",
+    "coercive control",
+    "guardrails",
+    "conversational manipulation"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "alignment_robustness"
+   ]
+  },
+  "2611.07805": {
+   "version": "v1",
+   "title": "Decodability Is Not Validity: Evaluating Nuisance Sensitivity in Language Model Concept Probes",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "concept probe",
+    "decodability",
+    "nuisance sensitivity",
+    "validity"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "representation",
+    "interp_method"
+   ]
+  },
+  "2611.03040": {
+   "version": "v1",
+   "title": "VERS: Steering Reasoning Models by Editing Their Activation Explanations",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "activation steering",
+    "natural language autoencoder",
+    "reasoning models",
+    "chain-of-thought efficiency"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2610.41185": {
+   "version": "v1",
+   "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "autonomous driving",
+    "activation steering"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "activation_steering",
+    "circuits"
+   ]
+  },
+  "2611.01411": {
+   "version": "v1",
+   "title": "Sensitivity Inflation from Cross-Record Precision Routing in Private Quantized Fine-Tuning",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "DP-SGD",
+    "LLM.int8",
+    "LoRA",
+    "sensitivity bound",
+    "private fine-tuning"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "differential_privacy",
+    "membership_inference"
+   ]
+  },
+  "2611.05779": {
+   "version": "v1",
+   "title": "Private Vulnerability Testing for User Oversharing",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "oversharing",
+    "re-identification",
+    "secret sharing",
+    "private equality testing",
+    "f-privacy"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2610.41616": {
+   "version": "v1",
+   "title": "What Should LLMs Forget: Reinforcement Unlearning of Knowledge Associations",
+   "first_seen": "2026-11-09",
+   "last_updated": "2026-11-09",
+   "folder": "2026-11-09",
+   "keywords": [
+    "LLM unlearning",
+    "knowledge association",
+    "reinforcement learning",
+    "copyright/private data"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning",
+    "data_extraction"
+   ]
   }
  },
  "_taxonomy": {
@@ -32525,7 +32711,7 @@
    ]
   }
  },
- "last_run": "2026-11-08",
+ "last_run": "2026-11-09",
  "_meta": {
   "last_run": "2026-09-20"
  }
