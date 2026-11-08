@@ -1,3 +1,7 @@
+## 2026-11-08 — Daily watch
+
+**No new in-scope papers today.** Ledger unchanged: **45 in_scope, 206 excluded, 31 context_non_venue.** Searches: Electron general/IPC/contextIsolation (only tracked Buzz to Boom + CVE/blog pages), domain-restricted topical sweep (only tracked NDSS'23, USENIX'24 Ali, Buzz to Boom, The Native Menace already excluded), ACSAC'26 accepted (list still unreadable), hybrid/Tauri/WebView2/CEF (only tracked PoPETs'25 Lost in Translation + blogs), CCS/ESORICS/RAID/DSN/NDSS'27 (CVE feeds only).
+
 ## 2026-11-07 — Daily watch
 
 **No new in-scope papers today.** Ledger: **45 in_scope, 206 excluded, 31 context_non_venue** (+1 excluded). Searches: Electron general (tracked Buzz to Boom, Ali USENIX'24 + CVE pages), domain-restricted topical sweep, native addon/WebView/hybrid 2026 (MALFEX CSA note, non-academic). Triaged & excluded: 'The Native Menace' (arXiv 2611.04291, to appear IEEE S&P 2027) — browser NativeMessaging, no Electron angle (abstract-only). ACSAC'26 list still unreadable.
