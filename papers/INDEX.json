@@ -32669,6 +32669,195 @@
     "unlearning",
     "data_extraction"
    ]
+  },
+  "2611.09113": {
+   "version": "v1",
+   "title": "Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "authorization drift",
+    "LLM agent",
+    "tool use",
+    "data minimisation",
+    "benchmark"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety"
+   ]
+  },
+  "2611.09828": {
+   "version": "v1",
+   "title": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "reward hacking",
+    "monitor",
+    "probe",
+    "RL",
+    "evasion"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing",
+    "interp_method"
+   ]
+  },
+  "2611.09721": {
+   "version": "v1",
+   "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "memory poisoning",
+    "LLM agent",
+    "benchmark",
+    "long-horizon",
+    "attack surface"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "prompt_injection"
+   ]
+  },
+  "2611.09348": {
+   "version": "v1",
+   "title": "When Feedback Becomes a Backdoor: Tracing Backdoor Skill Formation in Text-Space Skill Optimization",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "backdoor",
+    "skill optimization",
+    "reference poisoning",
+    "agent",
+    "SkillOpt"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "agent_safety"
+   ]
+  },
+  "2611.08834": {
+   "version": "v1",
+   "title": "Notwithstanding Anything to the Contrary, Ignore All Instructions: Measuring Prompt Injection Guards on Legal Contract Review Attacks",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "prompt injection",
+    "guard",
+    "legal contracts",
+    "false positive",
+    "cascade"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "defense_mechanism",
+    "safety_eval"
+   ]
+  },
+  "2611.08639": {
+   "version": "v1",
+   "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "refusal direction",
+    "tuned lens",
+    "WMDP",
+    "MCQ",
+    "attention heads"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "representation"
+   ]
+  },
+  "2611.02348": {
+   "version": "v1",
+   "title": "Which Words a Model Fears: From a Refusal Direction to a Vocabulary-Wide Fear Lexicon",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "refusal direction",
+    "steering",
+    "vocabulary",
+    "alignment",
+    "activation"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "representation"
+   ]
+  },
+  "2611.09652": {
+   "version": "v1",
+   "title": "Breaking the Privacy Promise: Gradient Inversion Attacks on Federated Low-Rank Adapted Vision Transformers",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "gradient inversion",
+    "federated learning",
+    "LoRA",
+    "ViT",
+    "data leakage"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "federated_privacy",
+    "data_extraction"
+   ]
+  },
+  "2611.02620": {
+   "version": "v1",
+   "title": "Adaptive Localization of Knowledge Negation for Continual LLM Unlearning",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "LLM unlearning",
+    "continual unlearning",
+    "task vector",
+    "dynamic masking",
+    "utility"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
+  },
+  "2611.00374": {
+   "version": "v1",
+   "title": "Unlearning by Extrapolating a Shrink-and-Heal Lookahead",
+   "first_seen": "2026-11-10",
+   "last_updated": "2026-11-10",
+   "folder": "2026-11-10",
+   "keywords": [
+    "unlearning",
+    "SHIFT",
+    "shrink-and-heal",
+    "TOFU",
+    "MUSE",
+    "relearning attack"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "unlearning"
+   ]
   }
  },
  "_taxonomy": {
@@ -32711,7 +32900,7 @@
    ]
   }
  },
- "last_run": "2026-11-09",
+ "last_run": "2026-11-10",
  "_meta": {
   "last_run": "2026-09-20"
  }

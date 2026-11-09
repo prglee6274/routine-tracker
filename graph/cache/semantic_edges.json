@@ -3258,5 +3258,73 @@
  "2611.08226->2607.15495": {
   "type": "background",
   "evidence": "cited in related work / reference list"
+ },
+ "2611.00374->2605.00364": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2605.15138": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2606.18309": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2606.27379": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2607.09236": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2607.27836": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.00374->2608.25429": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.08834->2605.28999": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09348->2608.03509": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09348->2608.05563": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09348->2608.08303": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2604.16548": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2605.03228": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2606.04329": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2606.04425": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2607.06595": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.09721->2607.14651": {
+  "type": "background",
+  "evidence": "related-work/reference-list citation only; no comparative or extension context"
  }
 }
