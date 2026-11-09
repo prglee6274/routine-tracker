@@ -329,11 +329,11 @@
   },
   "DIYgod/pinky": {
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "days_on_list": 1,
-   "last_stars": 704,
-   "last_pushed_at": "2026-11-08",
-   "category": "llm",
+   "last_seen": "2026-11-10",
+   "days_on_list": 2,
+   "last_stars": 1402,
+   "last_pushed_at": "2026-11-09",
+   "category": "tools",
    "language": "Go",
    "graduated": false
   },
@@ -704,12 +704,12 @@
   },
   "JosssphZhou/poki": {
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
-   "days_on_list": 1,
-   "last_stars": 590,
-   "last_pushed_at": "2026-11-08",
+   "last_seen": "2026-11-10",
+   "days_on_list": 2,
+   "last_stars": 737,
+   "last_pushed_at": "2026-11-09",
    "category": "llm",
-   "language": "JavaScript",
+   "language": "Swift",
    "graduated": false
   },
   "JuliusBrussee/caveman": {
@@ -1033,13 +1033,13 @@
   },
   "NVIDIA/SkillSpector": {
    "first_seen": "2026-06-16",
-   "last_seen": "2026-11-08",
-   "days_on_list": 4,
-   "last_stars": 24786,
-   "last_pushed_at": "2026-11-06",
+   "last_seen": "2026-11-10",
+   "days_on_list": 1,
+   "last_stars": 25050,
+   "last_pushed_at": "2026-11-09",
    "category": "security",
    "language": "Python",
-   "graduated": true
+   "graduated": false
   },
   "NVIDIA/garak": {
    "first_seen": "2026-05-26",
@@ -1378,9 +1378,9 @@
   },
   "Tencent/AI-Infra-Guard": {
    "first_seen": "2026-05-26",
-   "last_seen": "2026-11-09",
-   "days_on_list": 1,
-   "last_stars": 7433,
+   "last_seen": "2026-11-10",
+   "days_on_list": 2,
+   "last_stars": 7447,
    "category": "security",
    "language": "Python",
    "graduated": false,
@@ -2870,10 +2870,10 @@
   },
   "duriantaco/skylos": {
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-11-10",
    "days_on_list": 1,
-   "last_stars": 842,
-   "last_pushed_at": "2026-10-04T14:12:14Z",
+   "last_stars": 893,
+   "last_pushed_at": "2026-11-09",
    "category": "tools",
    "language": "Python",
    "graduated": false
@@ -3049,13 +3049,13 @@
   },
   "farion1231/cc-switch": {
    "first_seen": "2026-05-08",
-   "last_seen": "2026-11-09",
-   "days_on_list": 1,
-   "last_stars": 152738,
+   "last_seen": "2026-11-10",
+   "days_on_list": 2,
+   "last_stars": 153049,
    "category": "tools",
    "language": "Rust",
    "graduated": false,
-   "last_pushed_at": "2026-11-08"
+   "last_pushed_at": "2026-11-09"
   },
   "feder-cr/dots": {
    "first_seen": "2026-10-01",
@@ -3787,13 +3787,13 @@
   },
   "infiniflow/ragflow": {
    "first_seen": "2026-06-11",
-   "last_seen": "2026-06-24",
-   "days_on_list": 4,
-   "last_stars": 61500,
-   "last_pushed_at": "2026-06-23",
+   "last_seen": "2026-11-10",
+   "days_on_list": 1,
+   "last_stars": 93882,
+   "last_pushed_at": "2026-11-09",
    "category": "llm",
-   "language": "Python",
-   "graduated": true
+   "language": "Go",
+   "graduated": false
   },
   "influxdata/influxdb": {
    "first_seen": "2026-08-27",
@@ -5280,13 +5280,13 @@
   },
   "pipelab-org/pipelock": {
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-29",
-   "days_on_list": 4,
-   "last_stars": 966,
+   "last_seen": "2026-11-10",
+   "days_on_list": 1,
+   "last_stars": 987,
    "category": "security",
    "language": "Go",
-   "graduated": true,
-   "last_pushed_at": "2026-10-28"
+   "graduated": false,
+   "last_pushed_at": "2026-11-09"
   },
   "piratuks/invoice-builder": {
    "first_seen": "2026-08-27",
@@ -6793,10 +6793,30 @@
    "language": "Rust",
    "graduated": false,
    "last_pushed_at": "2026-08-18"
+  },
+  "hud-evals/hud-python": {
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "days_on_list": 1,
+   "last_stars": 325,
+   "last_pushed_at": "2026-11-09",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
+  },
+  "benchflow-ai/benchflow": {
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "days_on_list": 1,
+   "last_stars": 365,
+   "last_pushed_at": "2026-11-08",
+   "category": "llm",
+   "language": "Python",
+   "graduated": false
   }
  },
- "last_updated": "2026-11-09",
- "updated": "2026-11-09",
- "last_run": "2026-11-09",
- "count": 684
+ "last_updated": "2026-11-10",
+ "updated": "2026-11-10",
+ "last_run": "2026-11-10",
+ "count": 686
 }
