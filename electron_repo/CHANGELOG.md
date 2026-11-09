@@ -1,3 +1,6 @@
+## 2026-11-09
+- No new papers. Searched standing queries across the 9 venues; all hits (Foreign Bridge/GASKET, Charon, Buzz to Boom arXiv, Inspectron, NDSS DOM study) already in ledger.
+
 ## 2026-11-08 — Daily watch
 
 **No new in-scope papers today.** Ledger unchanged: **45 in_scope, 206 excluded, 31 context_non_venue.** Searches: Electron general/IPC/contextIsolation (only tracked Buzz to Boom + CVE/blog pages), domain-restricted topical sweep (only tracked NDSS'23, USENIX'24 Ali, Buzz to Boom, The Native Menace already excluded), ACSAC'26 accepted (list still unreadable), hybrid/Tauri/WebView2/CEF (only tracked PoPETs'25 Lost in Translation + blogs), CCS/ESORICS/RAID/DSN/NDSS'27 (CVE feeds only).
