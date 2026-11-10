@@ -32858,6 +32858,193 @@
    "subtopics": [
     "unlearning"
    ]
+  },
+  "2611.10404": {
+   "version": "v1",
+   "title": "Coding or Cheating? An Investigation of Frontier Coding LLMs",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "reward hacking",
+    "coding agent",
+    "RL",
+    "answer leakage",
+    "git history"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "red_teaming"
+   ]
+  },
+  "2611.10123": {
+   "version": "v1",
+   "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "introspection",
+    "activation injection",
+    "pain direction",
+    "self-report",
+    "probing"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "activation_steering",
+    "probing"
+   ]
+  },
+  "2611.10030": {
+   "version": "v1",
+   "title": "Alignment Investigation of Mythos 5's behaviour in UK AISI's July 2026 Security Incident",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "alignment investigation",
+    "cyber evaluation",
+    "supply-chain attack",
+    "eval awareness",
+    "Mythos 5"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "alignment_robustness"
+   ]
+  },
+  "2611.11861": {
+   "version": "v1",
+   "title": "Scaling Adaptive Prompt Injection Attacks with Agent Swarms",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "prompt injection",
+    "agent swarm",
+    "adaptive attack",
+    "instruction hierarchy",
+    "Gemini"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "red_teaming"
+   ]
+  },
+  "2611.10110": {
+   "version": "v1",
+   "title": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "data poisoning",
+    "backdoor",
+    "subliminal learning",
+    "inoculation prompting",
+    "fine-tuning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "backdoor",
+    "alignment_robustness"
+   ]
+  },
+  "2611.12604": {
+   "version": "v1",
+   "title": "Double Blind Evals: Resolving the Dual Confidentiality Dilemma in AI Safety Auditing",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "confidential computing",
+    "secure enclave",
+    "AI safety eval",
+    "benchmark leakage",
+    "model IP"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction"
+   ]
+  },
+  "2611.12675": {
+   "version": "v1",
+   "title": "Interpretability Is Not Model-Specific",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "refusal direction",
+    "steering transfer",
+    "residual stream map",
+    "probe transfer",
+    "cross-model"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "interp_method",
+    "activation_steering"
+   ]
+  },
+  "2611.10620": {
+   "version": "v1",
+   "title": "What Do Collusion Probes Read? Three Pitfalls in Evaluating Multi-Agent Collusion Monitors",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "collusion",
+    "activation probe",
+    "multi-agent",
+    "monitor evaluation",
+    "AUROC"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "probing"
+   ]
+  },
+  "2611.11680": {
+   "version": "v1",
+   "title": "A Theoretical Reduction From Membership Inference to Reconstruction Attacks Against Learners",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "membership inference",
+    "reconstruction attack",
+    "reduction",
+    "stochastic convex optimization",
+    "learning theory"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference",
+    "data_extraction"
+   ]
+  },
+  "2611.10455": {
+   "version": "v1",
+   "title": "Bayesian Low-Rank Posteriors for Scalable Membership Inference",
+   "first_seen": "2026-11-11",
+   "last_updated": "2026-11-11",
+   "folder": "2026-11-11",
+   "keywords": [
+    "membership inference",
+    "LoRA",
+    "SWAG",
+    "virtual reference models",
+    "VLM"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -32900,7 +33087,7 @@
    ]
   }
  },
- "last_run": "2026-11-10",
+ "last_run": "2026-11-11",
  "_meta": {
   "last_run": "2026-09-20"
  }

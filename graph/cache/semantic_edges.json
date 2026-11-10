@@ -3326,5 +3326,69 @@
  "2611.09721->2607.14651": {
   "type": "background",
   "evidence": "related-work/reference-list citation only; no comparative or extension context"
+ },
+ "2611.10030->2609.38415": {
+  "type": "background",
+  "evidence": "sibling AISI incident investigation, cited as related report"
+ },
+ "2611.10110->2606.00995": {
+  "type": "background",
+  "evidence": "reference-list citation on subliminal learning mechanism"
+ },
+ "2611.10110->2610.10657": {
+  "type": "extends",
+  "evidence": "builds on subliminal-learning backdoor transfer as one of its settings"
+ },
+ "2611.10123->2608.20569": {
+  "type": "extends",
+  "evidence": "uses the OWMI introspection protocol to test pain-state reporting"
+ },
+ "2611.10620->2605.27958": {
+  "type": "compares",
+  "evidence": "contrasts single-model deception-probe instruction confound with its multi-agent version"
+ },
+ "2611.10620->2606.22864": {
+  "type": "background",
+  "evidence": "related probe-evaluation protocol for prompt-injection probes"
+ },
+ "2611.10620->2607.06807": {
+  "type": "rebuts",
+  "evidence": "shows near-perfect activation collusion detectors mostly read the instruction"
+ },
+ "2611.10620->2607.07368": {
+  "type": "background",
+  "evidence": "cited as prior evidence of multi-agent attacks evading monitors"
+ },
+ "2611.10620->2609.24967": {
+  "type": "background",
+  "evidence": "cited as evidence of emergent collusion"
+ },
+ "2611.10620->2610.12445": {
+  "type": "background",
+  "evidence": "cited as prior work on probes catching sabotage/deception"
+ },
+ "2611.10620->2610.18408": {
+  "type": "compares",
+  "evidence": "concurrent finding that injection probes detect presence, parallel to its instruction confound"
+ },
+ "2611.11861->2606.10525": {
+  "type": "background",
+  "evidence": "related-work survey of automated prompt injection methods"
+ },
+ "2611.11861->2607.26115": {
+  "type": "compares",
+  "evidence": "contrasted self-play red-teaming method"
+ },
+ "2611.12675->2606.20225": {
+  "type": "background",
+  "evidence": "prior cross-model direction mapping work"
+ },
+ "2611.12675->2608.05164": {
+  "type": "extends",
+  "evidence": "extends cross-architecture steering transfer with larger systematic study"
+ },
+ "2611.12675->2610.04245": {
+  "type": "background",
+  "evidence": "cited for refusal direction dimensionality"
  }
 }
