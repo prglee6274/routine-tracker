@@ -1,3 +1,6 @@
+## 2026-11-10
+- No new papers. Ledger unchanged (45 in_scope, 206 excluded, 31 context_non_venue). Standing queries across the 9 venues (Electron general/IPC/contextIsolation, CEF/Tauri/WebView2, XSS->RCE desktop, Node native addons, ACSAC'26/NDSS'27/USENIX'27 'to appear', CCS/ESORICS/RAID'26) surfaced only tracked items (Buzz to Boom, Bilingual Problems, Charon, USENIX'24 Ali) plus CVE/blog pages (CefSharp/CefEnum already noted).
+
 ## 2026-11-09
 - No new papers. Searched standing queries across the 9 venues; all hits (Foreign Bridge/GASKET, Charon, Buzz to Boom arXiv, Inspectron, NDSS DOM study) already in ledger.
 
