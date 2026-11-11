@@ -33045,6 +33045,199 @@
    "subtopics": [
     "membership_inference"
    ]
+  },
+  "2611.14115": {
+   "version": "v1",
+   "title": "LEASH: Stay Safe in Agentic Robotics",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "agentic robotics",
+    "safety benchmark",
+    "RoboRisk",
+    "safety harness",
+    "prompt injection"
+   ],
+   "category": "security",
+   "subtopics": [
+    "agent_safety",
+    "safety_eval",
+    "prompt_injection"
+   ]
+  },
+  "2611.12865": {
+   "version": "v1",
+   "title": "Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "reward hacking",
+    "RL misalignment",
+    "contextual safety",
+    "verifiable environments",
+    "shortcut learning"
+   ],
+   "category": "security",
+   "subtopics": [
+    "alignment_robustness",
+    "agent_safety"
+   ]
+  },
+  "2611.13577": {
+   "version": "v1",
+   "title": "TERM: Target-Free Jailbreak Defense via Entropy-Guided Residual Modulation",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "jailbreak defense",
+    "attention entropy",
+    "residual modulation",
+    "over-refusal",
+    "inference-time defense"
+   ],
+   "category": "security",
+   "subtopics": [
+    "jailbreak",
+    "defense_mechanism",
+    "activation_steering"
+   ]
+  },
+  "2611.13960": {
+   "version": "v1",
+   "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "coding agent harness",
+    "prompt injection",
+    "capability tokens",
+    "taint tracking",
+    "reference monitor"
+   ],
+   "category": "security",
+   "subtopics": [
+    "prompt_injection",
+    "agent_safety",
+    "defense_mechanism"
+   ]
+  },
+  "2611.13885": {
+   "version": "v1",
+   "title": "Are Causal Neuron Circuits Unique and Transferable?",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "neuron circuits",
+    "activation patching",
+    "ablation",
+    "two-hop reasoning",
+    "causal intervention"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "circuits",
+    "feature_attribution"
+   ]
+  },
+  "2611.13548": {
+   "version": "v1",
+   "title": "Massive Activations Confound Sparse Autoencoders",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "sparse autoencoder",
+    "massive activations",
+    "SAE evaluation",
+    "feature consistency",
+    "PCA"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "interp_method"
+   ]
+  },
+  "2611.12935": {
+   "version": "v1",
+   "title": "Train on prefill, monitor at decode: Using sparse autoencoders for topic monitoring",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "sparse autoencoder",
+    "topic monitoring",
+    "activation monitor",
+    "prefill-to-decode",
+    "Gemma"
+   ],
+   "category": "interp",
+   "subtopics": [
+    "sae",
+    "probing"
+   ]
+  },
+  "2611.13997": {
+   "version": "v1",
+   "title": "Specify Privacy Yourself: Assessing Inference-Time Personalized Privacy Preservation Ability of Large Vision-Language Models",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "LVLM privacy",
+    "personalized privacy",
+    "contextual integrity",
+    "benchmark",
+    "alignment"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "agent_privacy"
+   ]
+  },
+  "2611.14254": {
+   "version": "v1",
+   "title": "Location Matters: Sparse Latent-Variance Attacks for Face Privacy against Diffusion Personalization",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "face privacy",
+    "diffusion personalization",
+    "sparse adversarial perturbation",
+    "anti-customization",
+    "VAE latent"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "pii_leakage",
+    "multimodal_attack"
+   ]
+  },
+  "2611.14061": {
+   "version": "v1",
+   "title": "Isolation Is Not Confidentiality: Security Boundaries of Geometric Access Control in RAG",
+   "first_seen": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "folder": "2026-11-12",
+   "keywords": [
+    "RAG",
+    "access control",
+    "embedding inversion",
+    "vector database",
+    "policy membership"
+   ],
+   "category": "privacy",
+   "subtopics": [
+    "data_extraction",
+    "membership_inference"
+   ]
   }
  },
  "_taxonomy": {
@@ -33087,7 +33280,7 @@
    ]
   }
  },
- "last_run": "2026-11-11",
+ "last_run": "2026-11-12",
  "_meta": {
   "last_run": "2026-09-20"
  }

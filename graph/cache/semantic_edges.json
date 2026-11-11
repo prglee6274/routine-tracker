@@ -3390,5 +3390,41 @@
  "2611.12675->2610.04245": {
   "type": "background",
   "evidence": "cited for refusal direction dimensionality"
+ },
+ "2611.12865->2608.30724": {
+  "type": "baseline",
+  "evidence": "evaluates trained policy on BAITBENCH as external transfer benchmark"
+ },
+ "2611.12865->2609.16305": {
+  "type": "background",
+  "evidence": "cited as related agent safety/refusal benchmark"
+ },
+ "2611.12935->2606.13737": {
+  "type": "compares",
+  "evidence": "contrasts token-level SAE topic monitor with streaming guardrail FreoStream"
+ },
+ "2611.12935->2607.02072": {
+  "type": "background",
+  "evidence": "activation-based guardrail prior work; per-prompt decisions vs per-token"
+ },
+ "2611.12935->2607.18268": {
+  "type": "background",
+  "evidence": "guard-model related work for response monitoring"
+ },
+ "2611.13548->2605.29358": {
+  "type": "extends",
+  "evidence": "critiques/corrects variance-explained and ablation SAE evaluation used in Scaling Monosemanticity"
+ },
+ "2611.13548->2606.12138": {
+  "type": "extends",
+  "evidence": "builds on seed-dependence finding, attributes feature instability to massive activations/PC1"
+ },
+ "2611.13577->2606.25182": {
+  "type": "extends",
+  "evidence": "uses entropy-based jailbreak signal as basis for residual modulation defense"
+ },
+ "2611.13885->2605.12671": {
+  "type": "extends",
+  "evidence": "agrees circuits are non-unique and extends with neuron-subset necessity analysis"
  }
 }
