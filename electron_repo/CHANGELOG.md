@@ -1,3 +1,6 @@
+## 2026-11-11
+- No new papers. Ledger unchanged (45 in_scope, 206 excluded, 31 context_non_venue). Standing queries across the 9 venues (Electron general/IPC/contextIsolation, ACSAC'26 'to appear'/program, NDSS'27, S&P'27/USENIX'27/CCS'26 WebView2/Tauri/CEF, Node native addon/N-API, domain-restricted sweep 'auto-update mechanism desktop client') surfaced only tracked items (Inspectron, NDSS'23 Electron study, Buzz to Boom, Bilingual Problems, Foreign Bridge, When Updates Backfire, Extending a Hand) plus CVE/blog pages. ACSAC'26 list still unreadable.
+
 ## 2026-11-10
 - No new papers. Ledger unchanged (45 in_scope, 206 excluded, 31 context_non_venue). Standing queries across the 9 venues (Electron general/IPC/contextIsolation, CEF/Tauri/WebView2, XSS->RCE desktop, Node native addons, ACSAC'26/NDSS'27/USENIX'27 'to appear', CCS/ESORICS/RAID'26) surfaced only tracked items (Buzz to Boom, Bilingual Problems, Charon, USENIX'24 Ali) plus CVE/blog pages (CefSharp/CefEnum already noted).
 
